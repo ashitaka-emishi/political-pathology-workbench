@@ -825,7 +825,7 @@ docs/related-projects/
 - Add manifests, variables, outcomes, and scoring rubrics.
 - Validate with JSON Schema.
 
-### Milestone 3: Epistemic data model
+### Milestone 1: Epistemic data model
 
 - Add schemas for sources, passages, claims, interpretations, scores, artifacts.
 - Implement JS validation and reference checks.
