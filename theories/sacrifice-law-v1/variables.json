@@ -18,5 +18,20 @@
     "variableId": "sacrificial-demand",
     "label": "Sacrificial Demand",
     "description": "The order demands suffering, killing, or dying in response to threat."
+  },
+  {
+    "variableId": "sacrifice-form",
+    "label": "Sacrifice Form",
+    "description": "Human good surrendered, including time, labor, health, conscience, family life, speech, agency, bodily risk, death, killing, martyrdom, or ritual sacrifice."
+  },
+  {
+    "variableId": "sacrifice-health",
+    "label": "Sacrifice Health",
+    "description": "Whether sacrifice is healthy, ambiguous, pathological, mixed, or unknown."
+  },
+  {
+    "variableId": "sacrifice-boundedness",
+    "label": "Sacrifice Boundedness",
+    "description": "Whether sacrificial demand is bounded, partially bounded, unbounded, or unknown."
   }
 ]

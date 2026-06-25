@@ -6,8 +6,18 @@
   "outcome": "sacrificial-escalation",
   "goldCase": false,
   "publicationStatus": "draft",
-  "reviewStatus": "unreviewed",
+  "reviewStatus": "draft",
   "audience": "researcher-review",
-  "theoryVersions": ["general-theory-political-pathology-v1"],
-  "summary": "Draft balanced-case placeholder."
+  "theoryVersions": [
+    "general-theory-political-pathology-v1"
+  ],
+  "summary": "Draft balanced-case placeholder.",
+  "symbolicOrderId": "maoist-china-symbolic-order",
+  "symbolicOrderName": "Maoist China symbolic order",
+  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Maoist China.",
+  "symbolicOrderStrength": 5,
+  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "caseSelectionRole": "high-pathology-case",
+  "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
+  "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice."
 }

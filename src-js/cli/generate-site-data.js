@@ -11,6 +11,7 @@ fs.mkdirSync(siteDataDir, { recursive: true });
 const caseIndex = readJson(path.join(generatedDir, "case-index.json"));
 const theoryIndex = readJson(path.join(generatedDir, "theory-index.json"));
 const scores = readJson(path.join(generatedDir, "all-scores.json"));
+const counterclaims = readJson(path.join(generatedDir, "all-counterclaims.json"));
 
 const payload = {
   status: "draft-research-spike",
@@ -18,6 +19,7 @@ const payload = {
   caseCount: caseIndex.length,
   theoryCount: theoryIndex.length,
   scoreCount: scores.length,
+  counterclaimCount: counterclaims.length,
   cases: caseIndex,
   theories: theoryIndex
 };

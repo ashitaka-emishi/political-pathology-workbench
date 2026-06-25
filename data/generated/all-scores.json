@@ -17,6 +17,36 @@
     },
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "scoreId": "nazi-germany-score-002",
+    "caseId": "nazi-germany",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "nazi-germany-interpretation-002",
+    "value": 5,
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength"
+    ],
+    "codebookVersion": "v1",
+    "confidence": {
+      "value": 0.55,
+      "label": "moderate",
+      "rationale": "Provisional score based on a thin traceable chain and the case role; requires expanded evidence before scholarly use.",
+      "uncertaintyFactors": [
+        "single-claim-support",
+        "source-verification-pending"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
     "caseSlug": "nazi-germany"
   }
 ]

@@ -5,16 +5,18 @@ This project is an active research spike. Materials may be incomplete, provision
 All public-facing artifacts should declare a publication status:
 
 - `draft`
-- `review`
-- `approved`
+- `internal-review`
+- `public-preview`
 - `published`
-- `deprecated`
-- `superseded`
+- `withdrawn`
 
 All epistemic objects should declare a review status:
 
-- `unreviewed`
-- `light-review`
+- `draft`
+- `source-review`
 - `evidence-review`
 - `argument-review`
-- `scholarly-review`
+- `score-review`
+- `human-reviewed`
+- `approved`
+- `rejected`

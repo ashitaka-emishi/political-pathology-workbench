@@ -6,11 +6,11 @@
   "$defs": {
     "publicationStatus": {
       "type": "string",
-      "enum": ["draft", "review", "approved", "published", "deprecated", "superseded"]
+      "enum": ["private-note", "draft", "internal-review", "public-preview", "published", "withdrawn"]
     },
     "reviewStatus": {
       "type": "string",
-      "enum": ["unreviewed", "light-review", "evidence-review", "argument-review", "scholarly-review"]
+      "enum": ["draft", "source-review", "evidence-review", "argument-review", "score-review", "human-reviewed", "approved", "rejected"]
     },
     "audience": {
       "type": "string",

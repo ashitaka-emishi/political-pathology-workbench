@@ -6,4 +6,4 @@ title: "Review Model"
 Draft review model.
 :::
 
-Review levels are light-review, evidence-review, argument-review, and scholarly-review. AI-generated claims are candidate epistemic objects until reviewed and dispositioned by a human.
+Review status values are draft, source-review, evidence-review, argument-review, score-review, human-reviewed, approved, and rejected. AI-generated claims are candidate epistemic objects until reviewed and dispositioned by a human.

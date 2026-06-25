@@ -3,7 +3,7 @@
   "$id": "https://political-pathology-workbench.local/schemas/case.schema.json",
   "title": "Case",
   "type": "object",
-  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus"],
+  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "symbolicOrderId", "symbolicOrderName", "symbolicOrderDefinition", "symbolicOrderStrength", "symbolicOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest"],
   "properties": {
     "caseId": { "type": "string" },
     "title": { "type": "string" },
@@ -12,10 +12,22 @@
       "enum": ["regime", "war", "revolution", "movement", "collapse", "transition", "civil-religion", "empire", "postwar-order", "anti-sacrificial-movement", "hybrid"]
     },
     "period": { "type": "string" },
-    "outcome": { "type": "string" },
+    "outcome": { "$ref": "controlled-vocab.schema.json#/$defs/outcome" },
+    "symbolicOrderId": { "type": "string" },
+    "symbolicOrderName": { "type": "string" },
+    "symbolicOrderDefinition": { "type": "string" },
+    "symbolicOrderStrength": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "symbolicOrderStrengthRationale": { "type": "string" },
+    "caseSelectionRole": { "$ref": "controlled-vocab.schema.json#/$defs/caseSelectionRole" },
+    "selectionRationale": { "type": "string" },
+    "theoryTest": { "type": "string" },
     "goldCase": { "type": "boolean" },
-    "publicationStatus": { "type": "string" },
-    "reviewStatus": { "type": "string" },
+    "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" },
+    "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
     "audience": { "type": "string" },
     "theoryVersions": {
       "type": "array",

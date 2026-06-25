@@ -14,10 +14,13 @@
         "type": "array",
         "items": { "type": "string" }
       },
-      "createdBy": { "type": "string" },
+      "createdBy": {
+        "type": "string",
+        "enum": ["human", "ai", "script", "imported"]
+      },
       "reviewedBy": { "type": "string" },
-      "reviewStatus": { "type": "string" },
-      "publicationStatus": { "type": "string" },
+      "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+      "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" },
       "confidence": { "type": "object" }
     }
   }

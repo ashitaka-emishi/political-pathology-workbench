@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/coder-score.schema.json",
+  "title": "Raw Coder Scores",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["coderScoreId", "coderId", "caseId", "variableId", "value", "codebookVersion"],
+    "properties": {
+      "coderScoreId": { "type": "string" },
+      "coderId": { "type": "string" },
+      "caseId": { "type": "string" },
+      "variableId": { "type": "string" },
+      "value": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 5
+      },
+      "definitionRefs": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "codebookVersion": { "type": "string" },
+      "notes": { "type": "string" }
+    }
+  }
+}

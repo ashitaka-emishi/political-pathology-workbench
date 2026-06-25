@@ -27,6 +27,7 @@ const allPassages = [];
 const allClaims = [];
 const allInterpretations = [];
 const allScores = [];
+const allCounterclaims = [];
 
 for (const slug of listDirs(casesDir)) {
   const caseDir = path.join(casesDir, slug);
@@ -36,6 +37,7 @@ for (const slug of listDirs(casesDir)) {
   const claims = readArray(path.join(caseDir, "claims.json"));
   const interpretations = readArray(path.join(caseDir, "interpretations.json"));
   const scores = readArray(path.join(caseDir, "scores.json"));
+  const counterclaims = readArray(path.join(caseDir, "counterclaims.json"));
 
   allCases.push({ ...caseRecord, slug });
   allSources.push(...sourcePack.sources.map((source) => ({ ...source, caseId: caseRecord.caseId, caseSlug: slug })));
@@ -43,6 +45,7 @@ for (const slug of listDirs(casesDir)) {
   allClaims.push(...claims.map((record) => ({ ...record, caseSlug: slug })));
   allInterpretations.push(...interpretations.map((record) => ({ ...record, caseSlug: slug })));
   allScores.push(...scores.map((record) => ({ ...record, caseSlug: slug })));
+  allCounterclaims.push(...counterclaims.map((record) => ({ ...record, caseSlug: slug })));
 }
 
 const theoryIndex = listDirs(theoriesDir).map((slug) => {
@@ -56,7 +59,19 @@ writeJson(path.join(generatedDir, "all-passages.json"), allPassages);
 writeJson(path.join(generatedDir, "all-claims.json"), allClaims);
 writeJson(path.join(generatedDir, "all-interpretations.json"), allInterpretations);
 writeJson(path.join(generatedDir, "all-scores.json"), allScores);
-writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus }) => ({ caseId, title, slug, outcome, goldCase: Boolean(goldCase), publicationStatus })));
+writeJson(path.join(generatedDir, "all-counterclaims.json"), allCounterclaims);
+writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus, symbolicOrderId, symbolicOrderName, symbolicOrderStrength, caseSelectionRole }) => ({
+  caseId,
+  title,
+  slug,
+  outcome,
+  goldCase: Boolean(goldCase),
+  publicationStatus,
+  symbolicOrderId,
+  symbolicOrderName,
+  symbolicOrderStrength,
+  caseSelectionRole
+})));
 writeJson(path.join(generatedDir, "theory-index.json"), theoryIndex);
 
-console.log(`Generated indexes for ${allCases.length} cases, ${allClaims.length} claims, and ${allScores.length} scores.`);
+console.log(`Generated indexes for ${allCases.length} cases, ${allClaims.length} claims, ${allScores.length} scores, and ${allCounterclaims.length} counterclaims.`);

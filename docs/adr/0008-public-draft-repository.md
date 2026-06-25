@@ -8,7 +8,7 @@ The project should be public early while avoiding confusion between availability
 
 ## Decision
 
-Use explicit draft, review, approved, published, deprecated, and superseded labels in repository and site artifacts.
+Use explicit private-note, draft, internal-review, public-preview, published, and withdrawn labels in repository and site artifacts.
 
 ## Consequences
 

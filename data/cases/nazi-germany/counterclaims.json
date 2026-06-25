@@ -1,0 +1,15 @@
+[
+  {
+    "counterclaimId": "nazi-germany-counterclaim-001",
+    "caseId": "nazi-germany",
+    "claim": "The current Nazi Germany evidence chain is a thin draft demonstration and should not yet be treated as full scholarly support for the case-level interpretation.",
+    "effect": "qualifies",
+    "targetClaimIds": [
+      "nazi-germany-claim-001"
+    ],
+    "sourceIds": [],
+    "rationale": "The passage text remains a verified-source placeholder and the claim is supported by a single passage chain.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft"
+  }
+]

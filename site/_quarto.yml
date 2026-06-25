@@ -12,6 +12,8 @@ website:
         text: Theory
       - href: methods/epistemic-model.qmd
         text: Methods
+      - href: methods/core-definitions.qmd
+        text: Definitions
       - href: cases/index.qmd
         text: Cases
       - href: outputs/working-paper.qmd

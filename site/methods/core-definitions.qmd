@@ -1,0 +1,11 @@
+---
+title: "Core Definitions"
+---
+
+::: {.callout-warning}
+Draft methods page.
+:::
+
+Milestone 01 distinguishes symbolic field, symbolic order, and embodied institutional order. It defines political pathology narrowly as maladaptive self-preservation at the expense of truth, correction, personhood, and human flourishing.
+
+See `docs/methodology/core-definitions.md` and `docs/methodology/scoring-codebook.md` for the working codebook.

@@ -5,16 +5,16 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["passageId", "caseId", "sourceId", "text", "evidenceRole", "reviewStatus"],
+    "required": ["passageId", "caseId", "sourceId", "locator", "text", "evidenceRole", "reviewStatus"],
     "properties": {
       "passageId": { "type": "string" },
       "caseId": { "type": "string" },
       "sourceId": { "type": "string" },
       "locator": { "type": "string" },
       "text": { "type": "string" },
-      "evidenceRole": { "type": "string" },
-      "reviewStatus": { "type": "string" },
-      "publicationStatus": { "type": "string" }
+      "evidenceRole": { "$ref": "controlled-vocab.schema.json#/$defs/evidenceRole" },
+      "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+      "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" }
     }
   }
 }

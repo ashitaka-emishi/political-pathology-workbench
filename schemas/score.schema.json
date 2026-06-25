@@ -17,9 +17,14 @@
         "minimum": 0,
         "maximum": 5
       },
+      "definitionRefs": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "codebookVersion": { "type": "string" },
       "confidence": { "type": "object" },
-      "reviewStatus": { "type": "string" },
-      "publicationStatus": { "type": "string" }
+      "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+      "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" }
     }
   }
 }
