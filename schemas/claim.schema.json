@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/claim.schema.json",
+  "title": "Claims",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["claimId", "caseId", "claim", "derivedFrom", "createdBy", "reviewStatus"],
+    "properties": {
+      "claimId": { "type": "string" },
+      "caseId": { "type": "string" },
+      "claim": { "type": "string" },
+      "derivedFrom": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "createdBy": { "type": "string" },
+      "reviewedBy": { "type": "string" },
+      "reviewStatus": { "type": "string" },
+      "publicationStatus": { "type": "string" },
+      "confidence": { "type": "object" }
+    }
+  }
+}

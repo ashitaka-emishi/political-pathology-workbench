@@ -1,0 +1,18 @@
+[
+  {
+    "claimId": "nazi-germany-claim-001",
+    "caseId": "nazi-germany",
+    "claim": "Nazi political language represented the national community as a sacred collective body whose preservation could override individual life and ordinary pluralist correction.",
+    "derivedFrom": ["nazi-germany-passage-001"],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "The chain is structurally present, but the passage text is still a verified-source placeholder.",
+      "uncertaintyFactors": ["source-verification-pending", "single-passage-support"]
+    }
+  }
+]

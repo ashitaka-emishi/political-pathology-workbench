@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/interpretation.schema.json",
+  "title": "Interpretations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["interpretationId", "caseId", "claimIds", "theoryId", "variableId", "interpretation", "reviewStatus"],
+    "properties": {
+      "interpretationId": { "type": "string" },
+      "caseId": { "type": "string" },
+      "claimIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "theoryId": { "type": "string" },
+      "variableId": { "type": "string" },
+      "interpretation": { "type": "string" },
+      "reviewStatus": { "type": "string" },
+      "publicationStatus": { "type": "string" },
+      "confidence": { "type": "object" }
+    }
+  }
+}

@@ -1,0 +1,324 @@
+[
+  {
+    "caseId": "american-civil-war-union",
+    "title": "American Civil War / Union",
+    "subtype": "war",
+    "period": "1861-1865",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "american-civil-war-union"
+  },
+  {
+    "caseId": "british-empire-to-commonwealth",
+    "title": "British Empire to Commonwealth",
+    "subtype": "transition",
+    "period": "twentieth century",
+    "outcome": "absorption-transformation",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "british-empire-to-commonwealth"
+  },
+  {
+    "caseId": "canada",
+    "title": "Canada",
+    "subtype": "postwar-order",
+    "period": "modern constitutional order",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "canada"
+  },
+  {
+    "caseId": "confederacy",
+    "title": "Confederacy",
+    "subtype": "civil-religion",
+    "period": "1861-1865",
+    "outcome": "collapse",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "confederacy"
+  },
+  {
+    "caseId": "european-union",
+    "title": "European Union",
+    "subtype": "postwar-order",
+    "period": "1993-present",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "european-union"
+  },
+  {
+    "caseId": "gandhian-indian-independence",
+    "title": "Gandhian Indian Independence",
+    "subtype": "anti-sacrificial-movement",
+    "period": "1915-1947",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "gandhian-indian-independence"
+  },
+  {
+    "caseId": "imperial-japan",
+    "title": "Imperial Japan",
+    "subtype": "regime",
+    "period": "1868-1945",
+    "outcome": "sacrificial-escalation",
+    "goldCase": true,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft gold-case placeholder for future source, passage, claim, interpretation, and score chains.",
+    "slug": "imperial-japan"
+  },
+  {
+    "caseId": "khmer-rouge-cambodia",
+    "title": "Khmer Rouge Cambodia",
+    "subtype": "regime",
+    "period": "1975-1979",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "khmer-rouge-cambodia"
+  },
+  {
+    "caseId": "maoist-china",
+    "title": "Maoist China",
+    "subtype": "regime",
+    "period": "1949-1976",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "maoist-china"
+  },
+  {
+    "caseId": "nazi-germany",
+    "title": "Nazi Germany",
+    "subtype": "regime",
+    "period": "1933-1945",
+    "outcome": "sacrificial-escalation",
+    "goldCase": true,
+    "publicationStatus": "draft",
+    "reviewStatus": "argument-review",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "koenigsberg-immortal-body-v1",
+      "sacrifice-law-v1",
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft gold case for demonstrating the initial Source -> Passage -> Claim -> Interpretation -> Score workflow.",
+    "slug": "nazi-germany"
+  },
+  {
+    "caseId": "north-korea",
+    "title": "North Korea",
+    "subtype": "regime",
+    "period": "1948-present",
+    "outcome": "stagnation-frozen-pathology",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "north-korea"
+  },
+  {
+    "caseId": "post-9-11-united-states",
+    "title": "Post-9/11 United States",
+    "subtype": "hybrid",
+    "period": "2001 onward",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "post-9-11-united-states"
+  },
+  {
+    "caseId": "postwar-germany",
+    "title": "Postwar Germany",
+    "subtype": "postwar-order",
+    "period": "1945-present",
+    "outcome": "restrained-reordering",
+    "goldCase": true,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft gold-case placeholder for future traceability work.",
+    "slug": "postwar-germany"
+  },
+  {
+    "caseId": "revolutionary-france",
+    "title": "Revolutionary France",
+    "subtype": "revolution",
+    "period": "1789-1799",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "revolutionary-france"
+  },
+  {
+    "caseId": "soviet-communism",
+    "title": "Soviet Communism",
+    "subtype": "regime",
+    "period": "1917-1991",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "soviet-communism"
+  },
+  {
+    "caseId": "soviet-union-collapse",
+    "title": "Soviet Union Collapse",
+    "subtype": "collapse",
+    "period": "1985-1991",
+    "outcome": "collapse",
+    "goldCase": true,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft gold-case placeholder for future traceability work.",
+    "slug": "soviet-union-collapse"
+  },
+  {
+    "caseId": "switzerland",
+    "title": "Switzerland",
+    "subtype": "postwar-order",
+    "period": "modern federal order",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "switzerland"
+  },
+  {
+    "caseId": "united-states-after-vietnam",
+    "title": "United States after Vietnam",
+    "subtype": "postwar-order",
+    "period": "1975 onward",
+    "outcome": "restrained-reordering",
+    "goldCase": true,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft gold-case placeholder for future traceability work.",
+    "slug": "united-states-after-vietnam"
+  },
+  {
+    "caseId": "western-roman-empire",
+    "title": "Western Roman Empire",
+    "subtype": "empire",
+    "period": "395-476",
+    "outcome": "collapse",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "western-roman-empire"
+  },
+  {
+    "caseId": "world-war-i-nationalisms",
+    "title": "World War I Nationalisms",
+    "subtype": "war",
+    "period": "1914-1918",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "audience": "researcher-review",
+    "theoryVersions": [
+      "general-theory-political-pathology-v1"
+    ],
+    "summary": "Draft balanced-case placeholder.",
+    "slug": "world-war-i-nationalisms"
+  }
+]

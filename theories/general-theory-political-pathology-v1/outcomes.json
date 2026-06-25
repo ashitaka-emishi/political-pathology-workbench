@@ -1,0 +1,32 @@
+[
+  {
+    "outcomeId": "sacrificial-escalation",
+    "label": "Sacrificial Escalation",
+    "description": "The collective becomes sacred, enemies become existential, and suffering, killing, or dying become morally required."
+  },
+  {
+    "outcomeId": "restrained-reordering",
+    "label": "Restrained Reordering",
+    "description": "The order reforms through pluralism, dissent, constitutional limits, anti-sacrificial memory, and distributed authority."
+  },
+  {
+    "outcomeId": "collapse",
+    "label": "Collapse",
+    "description": "The order loses legitimacy, coherence, or command capacity."
+  },
+  {
+    "outcomeId": "absorption-transformation",
+    "label": "Absorption / Transformation",
+    "description": "The old order survives partially by being incorporated into a successor order."
+  },
+  {
+    "outcomeId": "stagnation-frozen-pathology",
+    "label": "Stagnation / Frozen Pathology",
+    "description": "The system persists through repression, ritualized ideology, inertia, or fear."
+  },
+  {
+    "outcomeId": "hybrid-transitional",
+    "label": "Hybrid / Transitional",
+    "description": "Multiple outcomes occur in sequence or tension."
+  }
+]

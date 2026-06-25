@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/source.schema.json",
+  "title": "Case Source Pack",
+  "type": "object",
+  "required": ["caseId", "sources"],
+  "properties": {
+    "caseId": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sourceId", "role", "access"],
+        "properties": {
+          "sourceId": { "type": "string" },
+          "role": { "type": "string" },
+          "access": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

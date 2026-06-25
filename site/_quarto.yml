@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Political Pathology Workbench"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: theory/proposed-law.qmd
+        text: Theory
+      - href: methods/epistemic-model.qmd
+        text: Methods
+      - href: cases/index.qmd
+        text: Cases
+      - href: outputs/working-paper.qmd
+        text: Working Paper
+
+format:
+  html:
+    theme: cosmo
+    toc: true

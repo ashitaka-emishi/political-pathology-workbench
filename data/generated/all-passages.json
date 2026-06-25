@@ -1,0 +1,13 @@
+[
+  {
+    "passageId": "nazi-germany-passage-001",
+    "caseId": "nazi-germany",
+    "sourceId": "hitler-speech-1933-001",
+    "locator": "1933 proclamation metadata placeholder",
+    "text": "[Draft paraphrase placeholder pending verified public-domain passage text.] The nation is framed as a collective body whose unity and survival supersede ordinary political disagreement.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft",
+    "caseSlug": "nazi-germany"
+  }
+]

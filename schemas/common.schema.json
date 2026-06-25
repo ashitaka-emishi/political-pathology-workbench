@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/common.schema.json",
+  "title": "Common Workbench Fields",
+  "type": "object",
+  "$defs": {
+    "publicationStatus": {
+      "type": "string",
+      "enum": ["draft", "review", "approved", "published", "deprecated", "superseded"]
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": ["unreviewed", "light-review", "evidence-review", "argument-review", "scholarly-review"]
+    },
+    "audience": {
+      "type": "string",
+      "enum": ["private-draft", "researcher-review", "koenigsberg-review", "foundation-internal", "scholarly-review", "public", "archival"]
+    },
+    "confidence": {
+      "type": "object",
+      "required": ["value", "label", "rationale"],
+      "properties": {
+        "value": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "label": {
+          "type": "string",
+          "enum": ["low", "moderate", "high"]
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "uncertaintyFactors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

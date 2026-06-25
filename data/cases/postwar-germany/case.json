@@ -1,0 +1,13 @@
+{
+  "caseId": "postwar-germany",
+  "title": "Postwar Germany",
+  "subtype": "postwar-order",
+  "period": "1945-present",
+  "outcome": "restrained-reordering",
+  "goldCase": true,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft gold-case placeholder for future traceability work."
+}

@@ -1,0 +1,13 @@
+{
+  "caseId": "confederacy",
+  "title": "Confederacy",
+  "subtype": "civil-religion",
+  "period": "1861-1865",
+  "outcome": "collapse",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

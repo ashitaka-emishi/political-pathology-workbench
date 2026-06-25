@@ -1,0 +1,13 @@
+{
+  "caseId": "european-union",
+  "title": "European Union",
+  "subtype": "postwar-order",
+  "period": "1993-present",
+  "outcome": "restrained-reordering",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

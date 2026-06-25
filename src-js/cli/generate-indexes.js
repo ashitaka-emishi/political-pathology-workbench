@@ -1,0 +1,62 @@
+import fs from "node:fs";
+import path from "node:path";
+import { readJson } from "../validate/json.js";
+
+const root = process.cwd();
+const casesDir = path.join(root, "data", "cases");
+const theoriesDir = path.join(root, "theories");
+const generatedDir = path.join(root, "data", "generated");
+
+function listDirs(dir) {
+  return fs.readdirSync(dir, { withFileTypes: true }).filter((entry) => entry.isDirectory()).map((entry) => entry.name).sort();
+}
+
+function readArray(file) {
+  if (!fs.existsSync(file)) return [];
+  return readJson(file);
+}
+
+function writeJson(file, value) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, `${JSON.stringify(value, null, 2)}\n`);
+}
+
+const allCases = [];
+const allSources = [];
+const allPassages = [];
+const allClaims = [];
+const allInterpretations = [];
+const allScores = [];
+
+for (const slug of listDirs(casesDir)) {
+  const caseDir = path.join(casesDir, slug);
+  const caseRecord = readJson(path.join(caseDir, "case.json"));
+  const sourcePack = readJson(path.join(caseDir, "source-pack.json"));
+  const passages = readArray(path.join(caseDir, "passages.json"));
+  const claims = readArray(path.join(caseDir, "claims.json"));
+  const interpretations = readArray(path.join(caseDir, "interpretations.json"));
+  const scores = readArray(path.join(caseDir, "scores.json"));
+
+  allCases.push({ ...caseRecord, slug });
+  allSources.push(...sourcePack.sources.map((source) => ({ ...source, caseId: caseRecord.caseId, caseSlug: slug })));
+  allPassages.push(...passages.map((record) => ({ ...record, caseSlug: slug })));
+  allClaims.push(...claims.map((record) => ({ ...record, caseSlug: slug })));
+  allInterpretations.push(...interpretations.map((record) => ({ ...record, caseSlug: slug })));
+  allScores.push(...scores.map((record) => ({ ...record, caseSlug: slug })));
+}
+
+const theoryIndex = listDirs(theoriesDir).map((slug) => {
+  const manifest = readJson(path.join(theoriesDir, slug, "manifest.json"));
+  return { ...manifest, slug };
+});
+
+writeJson(path.join(generatedDir, "all-cases.json"), allCases);
+writeJson(path.join(generatedDir, "all-sources.json"), allSources);
+writeJson(path.join(generatedDir, "all-passages.json"), allPassages);
+writeJson(path.join(generatedDir, "all-claims.json"), allClaims);
+writeJson(path.join(generatedDir, "all-interpretations.json"), allInterpretations);
+writeJson(path.join(generatedDir, "all-scores.json"), allScores);
+writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus }) => ({ caseId, title, slug, outcome, goldCase: Boolean(goldCase), publicationStatus })));
+writeJson(path.join(generatedDir, "theory-index.json"), theoryIndex);
+
+console.log(`Generated indexes for ${allCases.length} cases, ${allClaims.length} claims, and ${allScores.length} scores.`);

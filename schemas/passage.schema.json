@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/passage.schema.json",
+  "title": "Passages",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["passageId", "caseId", "sourceId", "text", "evidenceRole", "reviewStatus"],
+    "properties": {
+      "passageId": { "type": "string" },
+      "caseId": { "type": "string" },
+      "sourceId": { "type": "string" },
+      "locator": { "type": "string" },
+      "text": { "type": "string" },
+      "evidenceRole": { "type": "string" },
+      "reviewStatus": { "type": "string" },
+      "publicationStatus": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+---
+title: "Postwar Germany"
+---
+
+::: {.callout-warning}
+Draft gold-case placeholder.
+:::
+
+Source and evidence chains are not yet populated.

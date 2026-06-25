@@ -1,0 +1,12 @@
+[
+  {
+    "outcomeId": "sacrificial-escalation",
+    "label": "Sacrificial Escalation",
+    "description": "Sacrifice becomes morally required under existential threat."
+  },
+  {
+    "outcomeId": "restrained-reordering",
+    "label": "Restrained Reordering",
+    "description": "Institutional limits and correction restrain sacrificial escalation."
+  }
+]

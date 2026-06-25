@@ -1,0 +1,9 @@
+---
+title: "References"
+---
+
+::: {.callout-warning}
+Draft references page.
+:::
+
+Bibliographic metadata is maintained in `bibliography/sources.csl.json`.

@@ -1,0 +1,9 @@
+---
+title: "Review Model"
+---
+
+::: {.callout-warning}
+Draft review model.
+:::
+
+Review levels are light-review, evidence-review, argument-review, and scholarly-review. AI-generated claims are candidate epistemic objects until reviewed and dispositioned by a human.

@@ -1,0 +1,18 @@
+[
+  {
+    "sourceId": "koenigsberg-nations-have-right-to-kill",
+    "role": "theoretical-warrant",
+    "access": "restricted-metadata-only",
+    "notes": "Used as theory background; no copyrighted full text committed.",
+    "caseId": "nazi-germany",
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "sourceId": "hitler-speech-1933-001",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Placeholder pending source verification before public quotation.",
+    "caseId": "nazi-germany",
+    "caseSlug": "nazi-germany"
+  }
+]

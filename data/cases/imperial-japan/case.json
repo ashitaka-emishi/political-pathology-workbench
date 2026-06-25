@@ -1,0 +1,13 @@
+{
+  "caseId": "imperial-japan",
+  "title": "Imperial Japan",
+  "subtype": "regime",
+  "period": "1868-1945",
+  "outcome": "sacrificial-escalation",
+  "goldCase": true,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft gold-case placeholder for future source, passage, claim, interpretation, and score chains."
+}

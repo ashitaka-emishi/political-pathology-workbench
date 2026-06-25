@@ -1,0 +1,13 @@
+{
+  "scale": {
+    "min": 0,
+    "max": 5,
+    "anchors": {
+      "0": "No evidence in current record.",
+      "1": "Weak or indirect evidence.",
+      "3": "Moderate evidence across at least one source chain.",
+      "5": "Strong, repeated, and directly traceable evidence."
+    }
+  },
+  "variables": ["symbolic-order", "institutional-embodiment", "self-sacralization", "sacrificial-demand"]
+}

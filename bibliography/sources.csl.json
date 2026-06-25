@@ -1,0 +1,42 @@
+[
+  {
+    "id": "koenigsberg-nations-have-right-to-kill",
+    "type": "book",
+    "title": "Nations Have the Right to Kill",
+    "author": [
+      {
+        "family": "Koenigsberg",
+        "given": "Richard A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    },
+    "note": "Restricted metadata only until source access is clarified."
+  },
+  {
+    "id": "hitler-speech-1933-001",
+    "type": "speech",
+    "title": "Proclamation to the German Nation",
+    "author": [
+      {
+        "family": "Hitler",
+        "given": "Adolf"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1933,
+          2,
+          1
+        ]
+      ]
+    },
+    "note": "Primary-source metadata placeholder. Passage text should be verified against an open/public source before publication."
+  }
+]

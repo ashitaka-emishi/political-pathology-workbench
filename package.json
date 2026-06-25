@@ -1,0 +1,17 @@
+{
+  "name": "political-pathology-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Research spike scaffold for the Political Pathology Workbench.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node src-js/cli/validate.js",
+    "generate": "node src-js/cli/generate-indexes.js",
+    "site-data": "node src-js/cli/generate-site-data.js",
+    "build": "npm run validate && npm run generate && npm run site-data"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/case.schema.json",
+  "title": "Case",
+  "type": "object",
+  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus"],
+  "properties": {
+    "caseId": { "type": "string" },
+    "title": { "type": "string" },
+    "subtype": {
+      "type": "string",
+      "enum": ["regime", "war", "revolution", "movement", "collapse", "transition", "civil-religion", "empire", "postwar-order", "anti-sacrificial-movement", "hybrid"]
+    },
+    "period": { "type": "string" },
+    "outcome": { "type": "string" },
+    "goldCase": { "type": "boolean" },
+    "publicationStatus": { "type": "string" },
+    "reviewStatus": { "type": "string" },
+    "audience": { "type": "string" },
+    "theoryVersions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "summary": { "type": "string" }
+  }
+}

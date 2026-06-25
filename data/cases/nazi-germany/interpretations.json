@@ -1,0 +1,18 @@
+[
+  {
+    "interpretationId": "nazi-germany-interpretation-001",
+    "caseId": "nazi-germany",
+    "claimIds": ["nazi-germany-claim-001"],
+    "theoryId": "koenigsberg-immortal-body-v1",
+    "variableId": "collective-immortality",
+    "interpretation": "The draft evidence chain supports a preliminary reading of the Nazi Volksgemeinschaft as an imagined collective body whose sacred survival justified individual sacrifice.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Interpretation is plausible and theory-aligned, but still depends on verified primary-source quotation and additional corroboration.",
+      "uncertaintyFactors": ["source-verification-pending", "limited-source-coverage"]
+    }
+  }
+]

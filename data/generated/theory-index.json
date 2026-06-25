@@ -1,0 +1,29 @@
+[
+  {
+    "theoryId": "general-theory-political-pathology-v1",
+    "title": "General Theory of Political Pathology",
+    "version": "v1",
+    "status": "draft research scaffold",
+    "publicationStatus": "draft",
+    "description": "A comparative theory of how embodied symbolic orders respond to crisis through sacrifice, reform, collapse, transformation, stagnation, or hybrid transition.",
+    "slug": "general-theory-political-pathology-v1"
+  },
+  {
+    "theoryId": "koenigsberg-immortal-body-v1",
+    "title": "Koenigsberg's Immortal Collective Body",
+    "version": "v1",
+    "status": "draft research scaffold",
+    "publicationStatus": "draft",
+    "description": "Political communities may function as imagined immortal collective bodies for which individual mortal bodies are sacrificed.",
+    "slug": "koenigsberg-immortal-body-v1"
+  },
+  {
+    "theoryId": "sacrifice-law-v1",
+    "title": "Sacrifice Law",
+    "version": "v1",
+    "status": "draft research scaffold",
+    "publicationStatus": "draft",
+    "description": "A symbolic order's self-preservation can become self-sacralization and legitimate sacrifice under perceived existential threat.",
+    "slug": "sacrifice-law-v1"
+  }
+]

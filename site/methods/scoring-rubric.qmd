@@ -1,0 +1,9 @@
+---
+title: "Scoring Rubric"
+---
+
+::: {.callout-warning}
+Draft scoring page.
+:::
+
+Scores use a provisional 0-5 scale with structured confidence metadata and review status.

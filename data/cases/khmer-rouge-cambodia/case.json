@@ -1,0 +1,13 @@
+{
+  "caseId": "khmer-rouge-cambodia",
+  "title": "Khmer Rouge Cambodia",
+  "subtype": "regime",
+  "period": "1975-1979",
+  "outcome": "sacrificial-escalation",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

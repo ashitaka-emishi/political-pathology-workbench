@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/artifact.schema.json",
+  "title": "Publication Artifact",
+  "type": "object",
+  "required": ["artifactId", "artifactType", "audience", "publicationStatus"],
+  "properties": {
+    "artifactId": { "type": "string" },
+    "artifactType": { "type": "string" },
+    "audience": { "type": "string" },
+    "publicationStatus": { "type": "string" },
+    "derivedFrom": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

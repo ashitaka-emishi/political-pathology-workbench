@@ -1,0 +1,39 @@
+name: Research data review
+description: Request review of a case, claim, source, interpretation, score, or evidence chain.
+title: "[research-data]: "
+labels: ["research-data", "review"]
+body:
+  - type: dropdown
+    id: object_type
+    attributes:
+      label: Object type
+      options:
+        - case
+        - source
+        - passage
+        - claim
+        - interpretation
+        - score
+        - theory
+        - publication artifact
+    validations:
+      required: true
+  - type: input
+    id: object_id
+    attributes:
+      label: Object ID or path
+      placeholder: data/cases/nazi-germany/claims.json
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Review concern
+      description: Describe the evidence, interpretation, source-access, confidence, or publication-status concern.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_change
+    attributes:
+      label: Suggested change
+      description: Include source IDs, passage IDs, or score implications when relevant.

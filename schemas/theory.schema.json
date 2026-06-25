@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/theory.schema.json",
+  "title": "Theory Manifest",
+  "type": "object",
+  "required": ["theoryId", "title", "version", "status", "publicationStatus"],
+  "properties": {
+    "theoryId": { "type": "string" },
+    "title": { "type": "string" },
+    "version": { "type": "string" },
+    "status": { "type": "string" },
+    "publicationStatus": { "type": "string" },
+    "description": { "type": "string" }
+  }
+}

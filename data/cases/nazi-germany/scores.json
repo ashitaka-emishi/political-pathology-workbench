@@ -1,0 +1,18 @@
+[
+  {
+    "scoreId": "nazi-germany-score-001",
+    "caseId": "nazi-germany",
+    "theoryId": "koenigsberg-immortal-body-v1",
+    "variableId": "collective-immortality",
+    "interpretationId": "nazi-germany-interpretation-001",
+    "value": 3,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Moderate provisional score because the chain exists but remains thin and draft.",
+      "uncertaintyFactors": ["single-source-chain", "public-quotation-pending"]
+    },
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "caseId": "revolutionary-france",
+  "title": "Revolutionary France",
+  "subtype": "revolution",
+  "period": "1789-1799",
+  "outcome": "sacrificial-escalation",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

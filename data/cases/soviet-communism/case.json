@@ -1,0 +1,13 @@
+{
+  "caseId": "soviet-communism",
+  "title": "Soviet Communism",
+  "subtype": "regime",
+  "period": "1917-1991",
+  "outcome": "hybrid-transitional",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

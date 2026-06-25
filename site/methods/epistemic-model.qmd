@@ -1,0 +1,9 @@
+---
+title: "Traceable Epistemic Model"
+---
+
+::: {.callout-warning}
+Draft methods page.
+:::
+
+The core chain is Source -> Passage -> Claim -> Interpretation -> Variable Score -> Case Assessment -> Theory Evaluation -> Publication Artifact.

@@ -1,0 +1,15 @@
+{
+  "scale": {
+    "min": 0,
+    "max": 5,
+    "anchors": {
+      "0": "No evidence in current record.",
+      "1": "Weak or indirect evidence.",
+      "2": "Partial evidence with substantial uncertainty.",
+      "3": "Moderate evidence with traceable support.",
+      "4": "Strong evidence with some caveats.",
+      "5": "Strong, repeated, and directly traceable evidence."
+    }
+  },
+  "variables": ["symbolic-order", "institutional-embodiment", "self-preservation", "crisis-sacralization", "correction-capacity"]
+}

@@ -1,0 +1,13 @@
+{
+  "caseId": "soviet-union-collapse",
+  "title": "Soviet Union Collapse",
+  "subtype": "collapse",
+  "period": "1985-1991",
+  "outcome": "collapse",
+  "goldCase": true,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft gold-case placeholder for future traceability work."
+}

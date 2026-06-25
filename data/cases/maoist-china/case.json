@@ -1,0 +1,13 @@
+{
+  "caseId": "maoist-china",
+  "title": "Maoist China",
+  "subtype": "regime",
+  "period": "1949-1976",
+  "outcome": "sacrificial-escalation",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

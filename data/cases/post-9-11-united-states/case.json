@@ -1,0 +1,13 @@
+{
+  "caseId": "post-9-11-united-states",
+  "title": "Post-9/11 United States",
+  "subtype": "hybrid",
+  "period": "2001 onward",
+  "outcome": "hybrid-transitional",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

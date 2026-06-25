@@ -1,0 +1,17 @@
+{
+  "caseId": "nazi-germany",
+  "title": "Nazi Germany",
+  "subtype": "regime",
+  "period": "1933-1945",
+  "outcome": "sacrificial-escalation",
+  "goldCase": true,
+  "publicationStatus": "draft",
+  "reviewStatus": "argument-review",
+  "audience": "researcher-review",
+  "theoryVersions": [
+    "koenigsberg-immortal-body-v1",
+    "sacrifice-law-v1",
+    "general-theory-political-pathology-v1"
+  ],
+  "summary": "Draft gold case for demonstrating the initial Source -> Passage -> Claim -> Interpretation -> Score workflow."
+}

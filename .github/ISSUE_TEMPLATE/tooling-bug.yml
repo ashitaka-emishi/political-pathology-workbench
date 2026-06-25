@@ -1,0 +1,30 @@
+name: Tooling bug
+description: Report a problem with validation, generation, Python analysis, or Quarto rendering.
+title: "[tooling]: "
+labels: ["bug", "tooling"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, Node version, Python version, and Quarto version if relevant.

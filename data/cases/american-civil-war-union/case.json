@@ -1,0 +1,13 @@
+{
+  "caseId": "american-civil-war-union",
+  "title": "American Civil War / Union",
+  "subtype": "war",
+  "period": "1861-1865",
+  "outcome": "hybrid-transitional",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

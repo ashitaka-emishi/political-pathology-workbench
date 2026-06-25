@@ -1,0 +1,9 @@
+---
+title: "Reliability Analysis"
+---
+
+::: {.callout-warning}
+Draft analysis placeholder.
+:::
+
+Inter-rater reliability analysis is reserved for a later milestone.

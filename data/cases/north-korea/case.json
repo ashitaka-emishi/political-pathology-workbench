@@ -1,0 +1,13 @@
+{
+  "caseId": "north-korea",
+  "title": "North Korea",
+  "subtype": "regime",
+  "period": "1948-present",
+  "outcome": "stagnation-frozen-pathology",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

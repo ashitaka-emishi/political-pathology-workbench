@@ -1,0 +1,13 @@
+{
+  "caseId": "british-empire-to-commonwealth",
+  "title": "British Empire to Commonwealth",
+  "subtype": "transition",
+  "period": "twentieth century",
+  "outcome": "absorption-transformation",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

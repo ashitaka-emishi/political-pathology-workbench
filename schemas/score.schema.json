@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/score.schema.json",
+  "title": "Scores",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "value", "confidence", "reviewStatus"],
+    "properties": {
+      "scoreId": { "type": "string" },
+      "caseId": { "type": "string" },
+      "theoryId": { "type": "string" },
+      "variableId": { "type": "string" },
+      "interpretationId": { "type": "string" },
+      "value": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 5
+      },
+      "confidence": { "type": "object" },
+      "reviewStatus": { "type": "string" },
+      "publicationStatus": { "type": "string" }
+    }
+  }
+}

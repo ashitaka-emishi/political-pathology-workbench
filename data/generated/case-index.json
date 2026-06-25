@@ -1,0 +1,162 @@
+[
+  {
+    "caseId": "american-civil-war-union",
+    "title": "American Civil War / Union",
+    "slug": "american-civil-war-union",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "british-empire-to-commonwealth",
+    "title": "British Empire to Commonwealth",
+    "slug": "british-empire-to-commonwealth",
+    "outcome": "absorption-transformation",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "canada",
+    "title": "Canada",
+    "slug": "canada",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "confederacy",
+    "title": "Confederacy",
+    "slug": "confederacy",
+    "outcome": "collapse",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "european-union",
+    "title": "European Union",
+    "slug": "european-union",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "gandhian-indian-independence",
+    "title": "Gandhian Indian Independence",
+    "slug": "gandhian-indian-independence",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "imperial-japan",
+    "title": "Imperial Japan",
+    "slug": "imperial-japan",
+    "outcome": "sacrificial-escalation",
+    "goldCase": true,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "khmer-rouge-cambodia",
+    "title": "Khmer Rouge Cambodia",
+    "slug": "khmer-rouge-cambodia",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "maoist-china",
+    "title": "Maoist China",
+    "slug": "maoist-china",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "nazi-germany",
+    "title": "Nazi Germany",
+    "slug": "nazi-germany",
+    "outcome": "sacrificial-escalation",
+    "goldCase": true,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "north-korea",
+    "title": "North Korea",
+    "slug": "north-korea",
+    "outcome": "stagnation-frozen-pathology",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "post-9-11-united-states",
+    "title": "Post-9/11 United States",
+    "slug": "post-9-11-united-states",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "postwar-germany",
+    "title": "Postwar Germany",
+    "slug": "postwar-germany",
+    "outcome": "restrained-reordering",
+    "goldCase": true,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "revolutionary-france",
+    "title": "Revolutionary France",
+    "slug": "revolutionary-france",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "soviet-communism",
+    "title": "Soviet Communism",
+    "slug": "soviet-communism",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "soviet-union-collapse",
+    "title": "Soviet Union Collapse",
+    "slug": "soviet-union-collapse",
+    "outcome": "collapse",
+    "goldCase": true,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "switzerland",
+    "title": "Switzerland",
+    "slug": "switzerland",
+    "outcome": "restrained-reordering",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "united-states-after-vietnam",
+    "title": "United States after Vietnam",
+    "slug": "united-states-after-vietnam",
+    "outcome": "restrained-reordering",
+    "goldCase": true,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "western-roman-empire",
+    "title": "Western Roman Empire",
+    "slug": "western-roman-empire",
+    "outcome": "collapse",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  },
+  {
+    "caseId": "world-war-i-nationalisms",
+    "title": "World War I Nationalisms",
+    "slug": "world-war-i-nationalisms",
+    "outcome": "sacrificial-escalation",
+    "goldCase": false,
+    "publicationStatus": "draft"
+  }
+]

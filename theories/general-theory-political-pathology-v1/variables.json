@@ -1,0 +1,27 @@
+[
+  {
+    "variableId": "symbolic-order",
+    "label": "Symbolic Order",
+    "description": "The shared symbolic structure that organizes political identity and meaning."
+  },
+  {
+    "variableId": "institutional-embodiment",
+    "label": "Institutional Embodiment",
+    "description": "The degree to which institutions carry and enforce the order."
+  },
+  {
+    "variableId": "self-preservation",
+    "label": "Self-Preservation",
+    "description": "The embodied order acts to preserve its continuity and authority."
+  },
+  {
+    "variableId": "crisis-sacralization",
+    "label": "Crisis / Sacralization",
+    "description": "Crisis conditions intensify sacred claims around survival."
+  },
+  {
+    "variableId": "correction-capacity",
+    "label": "Correction Capacity",
+    "description": "Pluralism, review, limits, dissent, memory, and institutional design restrain pathological escalation."
+  }
+]

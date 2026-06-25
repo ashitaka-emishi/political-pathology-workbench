@@ -1,0 +1,9 @@
+---
+title: "Outcome Taxonomy"
+---
+
+::: {.callout-warning}
+Draft taxonomy.
+:::
+
+The initial outcome taxonomy includes sacrificial escalation, restrained reordering, collapse, absorption / transformation, stagnation / frozen pathology, and hybrid / transitional outcomes.

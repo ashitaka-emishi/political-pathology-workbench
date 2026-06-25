@@ -1,0 +1,13 @@
+{
+  "caseId": "canada",
+  "title": "Canada",
+  "subtype": "postwar-order",
+  "period": "modern constitutional order",
+  "outcome": "restrained-reordering",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "unreviewed",
+  "audience": "researcher-review",
+  "theoryVersions": ["general-theory-political-pathology-v1"],
+  "summary": "Draft balanced-case placeholder."
+}

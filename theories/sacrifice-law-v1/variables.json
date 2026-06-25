@@ -1,0 +1,22 @@
+[
+  {
+    "variableId": "symbolic-order",
+    "label": "Symbolic Order",
+    "description": "The shared symbolic structure that organizes political identity and meaning."
+  },
+  {
+    "variableId": "institutional-embodiment",
+    "label": "Institutional Embodiment",
+    "description": "The degree to which the symbolic order is carried by institutions."
+  },
+  {
+    "variableId": "self-sacralization",
+    "label": "Self-Sacralization",
+    "description": "The order treats its own survival as sacred."
+  },
+  {
+    "variableId": "sacrificial-demand",
+    "label": "Sacrificial Demand",
+    "description": "The order demands suffering, killing, or dying in response to threat."
+  }
+]

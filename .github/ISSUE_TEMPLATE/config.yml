@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Sensitive source-access, security, or conduct concern
+    url: https://github.com/ashitaka-emishi
+    about: Contact the repository owner privately instead of opening a public issue.
