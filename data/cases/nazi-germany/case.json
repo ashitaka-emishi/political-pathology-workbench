@@ -13,5 +13,13 @@
     "sacrifice-law-v1",
     "general-theory-political-pathology-v1"
   ],
-  "summary": "Draft gold case for demonstrating the initial Source -> Passage -> Claim -> Interpretation -> Score workflow."
+  "summary": "Draft gold case for demonstrating the initial Source -> Passage -> Claim -> Interpretation -> Score workflow.",
+  "symbolicOrderId": "nazi-germany-symbolic-order",
+  "symbolicOrderName": "Nazi Germany symbolic order",
+  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Nazi Germany.",
+  "symbolicOrderStrength": 5,
+  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "caseSelectionRole": "gold-case",
+  "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
+  "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice."
 }

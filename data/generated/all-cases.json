@@ -7,12 +7,20 @@
     "outcome": "hybrid-transitional",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "american-civil-war-union-symbolic-order",
+    "symbolicOrderName": "American Civil War / Union symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with American Civil War / Union.",
+    "symbolicOrderStrength": 4,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "hybrid-case",
+    "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
+    "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
     "slug": "american-civil-war-union"
   },
   {
@@ -23,12 +31,20 @@
     "outcome": "absorption-transformation",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "british-empire-to-commonwealth-symbolic-order",
+    "symbolicOrderName": "British Empire to Commonwealth symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with British Empire to Commonwealth.",
+    "symbolicOrderStrength": 4,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "transformation-case",
+    "selectionRationale": "Included to test absorption, reinterpretation, or successor-order transformation.",
+    "theoryTest": "Tests whether symbolic orders can survive through reinterpretation or successor-order absorption.",
     "slug": "british-empire-to-commonwealth"
   },
   {
@@ -39,12 +55,20 @@
     "outcome": "restrained-reordering",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "canada-symbolic-order",
+    "symbolicOrderName": "Canada symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Canada.",
+    "symbolicOrderStrength": 3,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "countercase",
+    "selectionRationale": "Included to test whether symbolic order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
+    "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
     "slug": "canada"
   },
   {
@@ -55,12 +79,20 @@
     "outcome": "collapse",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "confederacy-symbolic-order",
+    "symbolicOrderName": "Confederacy symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Confederacy.",
+    "symbolicOrderStrength": 4,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "collapse-case",
+    "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
+    "theoryTest": "Tests whether embodied symbolic orders can lose legitimacy or command capacity instead of escalating sacrifice.",
     "slug": "confederacy"
   },
   {
@@ -71,12 +103,20 @@
     "outcome": "restrained-reordering",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "european-union-symbolic-order",
+    "symbolicOrderName": "European Union symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with European Union.",
+    "symbolicOrderStrength": 3,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "countercase",
+    "selectionRationale": "Included to test whether symbolic order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
+    "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
     "slug": "european-union"
   },
   {
@@ -87,12 +127,20 @@
     "outcome": "restrained-reordering",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "gandhian-indian-independence-symbolic-order",
+    "symbolicOrderName": "Gandhian Indian Independence symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Gandhian Indian Independence.",
+    "symbolicOrderStrength": 3,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "countercase",
+    "selectionRationale": "Included to test whether symbolic order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
+    "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
     "slug": "gandhian-indian-independence"
   },
   {
@@ -103,12 +151,20 @@
     "outcome": "sacrificial-escalation",
     "goldCase": true,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft gold-case placeholder for future source, passage, claim, interpretation, and score chains.",
+    "symbolicOrderId": "imperial-japan-symbolic-order",
+    "symbolicOrderName": "Imperial Japan symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Imperial Japan.",
+    "symbolicOrderStrength": 5,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "gold-case",
+    "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "imperial-japan"
   },
   {
@@ -119,12 +175,20 @@
     "outcome": "sacrificial-escalation",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "khmer-rouge-cambodia-symbolic-order",
+    "symbolicOrderName": "Khmer Rouge Cambodia symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Khmer Rouge Cambodia.",
+    "symbolicOrderStrength": 5,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "high-pathology-case",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "khmer-rouge-cambodia"
   },
   {
@@ -135,12 +199,20 @@
     "outcome": "sacrificial-escalation",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "maoist-china-symbolic-order",
+    "symbolicOrderName": "Maoist China symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Maoist China.",
+    "symbolicOrderStrength": 5,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "high-pathology-case",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "maoist-china"
   },
   {
@@ -159,6 +231,14 @@
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft gold case for demonstrating the initial Source -> Passage -> Claim -> Interpretation -> Score workflow.",
+    "symbolicOrderId": "nazi-germany-symbolic-order",
+    "symbolicOrderName": "Nazi Germany symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Nazi Germany.",
+    "symbolicOrderStrength": 5,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "gold-case",
+    "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "nazi-germany"
   },
   {
@@ -169,12 +249,20 @@
     "outcome": "stagnation-frozen-pathology",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "north-korea-symbolic-order",
+    "symbolicOrderName": "North Korea symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with North Korea.",
+    "symbolicOrderStrength": 5,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "stagnation-case",
+    "selectionRationale": "Included to test frozen pathology and persistence without reform or collapse.",
+    "theoryTest": "Tests whether an order can persist through repression, inertia, dependency, or managed dysfunction.",
     "slug": "north-korea"
   },
   {
@@ -185,12 +273,20 @@
     "outcome": "hybrid-transitional",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "post-9-11-united-states-symbolic-order",
+    "symbolicOrderName": "Post-9/11 United States symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Post-9/11 United States.",
+    "symbolicOrderStrength": 4,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "hybrid-case",
+    "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
+    "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
     "slug": "post-9-11-united-states"
   },
   {
@@ -201,12 +297,20 @@
     "outcome": "restrained-reordering",
     "goldCase": true,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft gold-case placeholder for future traceability work.",
+    "symbolicOrderId": "postwar-germany-symbolic-order",
+    "symbolicOrderName": "Postwar Germany symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Postwar Germany.",
+    "symbolicOrderStrength": 3,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "gold-case",
+    "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "postwar-germany"
   },
   {
@@ -217,12 +321,20 @@
     "outcome": "sacrificial-escalation",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "revolutionary-france-symbolic-order",
+    "symbolicOrderName": "Revolutionary France symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Revolutionary France.",
+    "symbolicOrderStrength": 5,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "high-pathology-case",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "revolutionary-france"
   },
   {
@@ -233,12 +345,20 @@
     "outcome": "hybrid-transitional",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "soviet-communism-symbolic-order",
+    "symbolicOrderName": "Soviet Communism symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Communism.",
+    "symbolicOrderStrength": 4,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "hybrid-case",
+    "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
+    "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
     "slug": "soviet-communism"
   },
   {
@@ -249,12 +369,20 @@
     "outcome": "collapse",
     "goldCase": true,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft gold-case placeholder for future traceability work.",
+    "symbolicOrderId": "soviet-union-collapse-symbolic-order",
+    "symbolicOrderName": "Soviet Union Collapse symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Union Collapse.",
+    "symbolicOrderStrength": 4,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "gold-case",
+    "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "soviet-union-collapse"
   },
   {
@@ -265,12 +393,20 @@
     "outcome": "restrained-reordering",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "switzerland-symbolic-order",
+    "symbolicOrderName": "Switzerland symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Switzerland.",
+    "symbolicOrderStrength": 3,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "countercase",
+    "selectionRationale": "Included to test whether symbolic order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
+    "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
     "slug": "switzerland"
   },
   {
@@ -281,12 +417,20 @@
     "outcome": "restrained-reordering",
     "goldCase": true,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft gold-case placeholder for future traceability work.",
+    "symbolicOrderId": "united-states-after-vietnam-symbolic-order",
+    "symbolicOrderName": "United States after Vietnam symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with United States after Vietnam.",
+    "symbolicOrderStrength": 3,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "gold-case",
+    "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "united-states-after-vietnam"
   },
   {
@@ -297,12 +441,20 @@
     "outcome": "collapse",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "western-roman-empire-symbolic-order",
+    "symbolicOrderName": "Western Roman Empire symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Western Roman Empire.",
+    "symbolicOrderStrength": 4,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "collapse-case",
+    "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
+    "theoryTest": "Tests whether embodied symbolic orders can lose legitimacy or command capacity instead of escalating sacrifice.",
     "slug": "western-roman-empire"
   },
   {
@@ -313,12 +465,20 @@
     "outcome": "sacrificial-escalation",
     "goldCase": false,
     "publicationStatus": "draft",
-    "reviewStatus": "unreviewed",
+    "reviewStatus": "draft",
     "audience": "researcher-review",
     "theoryVersions": [
       "general-theory-political-pathology-v1"
     ],
     "summary": "Draft balanced-case placeholder.",
+    "symbolicOrderId": "world-war-i-nationalisms-symbolic-order",
+    "symbolicOrderName": "World War I Nationalisms symbolic order",
+    "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with World War I Nationalisms.",
+    "symbolicOrderStrength": 5,
+    "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "caseSelectionRole": "high-pathology-case",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
+    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "world-war-i-nationalisms"
   }
 ]

@@ -1,9 +1,10 @@
 {
   "status": "draft-research-spike",
-  "generatedAt": "2026-06-25T15:23:55.362Z",
+  "generatedAt": "2026-06-25T20:00:37.488Z",
   "caseCount": 20,
   "theoryCount": 3,
-  "scoreCount": 1,
+  "scoreCount": 2,
+  "counterclaimCount": 1,
   "cases": [
     {
       "caseId": "american-civil-war-union",
@@ -11,7 +12,11 @@
       "slug": "american-civil-war-union",
       "outcome": "hybrid-transitional",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "american-civil-war-union-symbolic-order",
+      "symbolicOrderName": "American Civil War / Union symbolic order",
+      "symbolicOrderStrength": 4,
+      "caseSelectionRole": "hybrid-case"
     },
     {
       "caseId": "british-empire-to-commonwealth",
@@ -19,7 +24,11 @@
       "slug": "british-empire-to-commonwealth",
       "outcome": "absorption-transformation",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "british-empire-to-commonwealth-symbolic-order",
+      "symbolicOrderName": "British Empire to Commonwealth symbolic order",
+      "symbolicOrderStrength": 4,
+      "caseSelectionRole": "transformation-case"
     },
     {
       "caseId": "canada",
@@ -27,7 +36,11 @@
       "slug": "canada",
       "outcome": "restrained-reordering",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "canada-symbolic-order",
+      "symbolicOrderName": "Canada symbolic order",
+      "symbolicOrderStrength": 3,
+      "caseSelectionRole": "countercase"
     },
     {
       "caseId": "confederacy",
@@ -35,7 +48,11 @@
       "slug": "confederacy",
       "outcome": "collapse",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "confederacy-symbolic-order",
+      "symbolicOrderName": "Confederacy symbolic order",
+      "symbolicOrderStrength": 4,
+      "caseSelectionRole": "collapse-case"
     },
     {
       "caseId": "european-union",
@@ -43,7 +60,11 @@
       "slug": "european-union",
       "outcome": "restrained-reordering",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "european-union-symbolic-order",
+      "symbolicOrderName": "European Union symbolic order",
+      "symbolicOrderStrength": 3,
+      "caseSelectionRole": "countercase"
     },
     {
       "caseId": "gandhian-indian-independence",
@@ -51,7 +72,11 @@
       "slug": "gandhian-indian-independence",
       "outcome": "restrained-reordering",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "gandhian-indian-independence-symbolic-order",
+      "symbolicOrderName": "Gandhian Indian Independence symbolic order",
+      "symbolicOrderStrength": 3,
+      "caseSelectionRole": "countercase"
     },
     {
       "caseId": "imperial-japan",
@@ -59,7 +84,11 @@
       "slug": "imperial-japan",
       "outcome": "sacrificial-escalation",
       "goldCase": true,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "imperial-japan-symbolic-order",
+      "symbolicOrderName": "Imperial Japan symbolic order",
+      "symbolicOrderStrength": 5,
+      "caseSelectionRole": "gold-case"
     },
     {
       "caseId": "khmer-rouge-cambodia",
@@ -67,7 +96,11 @@
       "slug": "khmer-rouge-cambodia",
       "outcome": "sacrificial-escalation",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "khmer-rouge-cambodia-symbolic-order",
+      "symbolicOrderName": "Khmer Rouge Cambodia symbolic order",
+      "symbolicOrderStrength": 5,
+      "caseSelectionRole": "high-pathology-case"
     },
     {
       "caseId": "maoist-china",
@@ -75,7 +108,11 @@
       "slug": "maoist-china",
       "outcome": "sacrificial-escalation",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "maoist-china-symbolic-order",
+      "symbolicOrderName": "Maoist China symbolic order",
+      "symbolicOrderStrength": 5,
+      "caseSelectionRole": "high-pathology-case"
     },
     {
       "caseId": "nazi-germany",
@@ -83,7 +120,11 @@
       "slug": "nazi-germany",
       "outcome": "sacrificial-escalation",
       "goldCase": true,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "nazi-germany-symbolic-order",
+      "symbolicOrderName": "Nazi Germany symbolic order",
+      "symbolicOrderStrength": 5,
+      "caseSelectionRole": "gold-case"
     },
     {
       "caseId": "north-korea",
@@ -91,7 +132,11 @@
       "slug": "north-korea",
       "outcome": "stagnation-frozen-pathology",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "north-korea-symbolic-order",
+      "symbolicOrderName": "North Korea symbolic order",
+      "symbolicOrderStrength": 5,
+      "caseSelectionRole": "stagnation-case"
     },
     {
       "caseId": "post-9-11-united-states",
@@ -99,7 +144,11 @@
       "slug": "post-9-11-united-states",
       "outcome": "hybrid-transitional",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "post-9-11-united-states-symbolic-order",
+      "symbolicOrderName": "Post-9/11 United States symbolic order",
+      "symbolicOrderStrength": 4,
+      "caseSelectionRole": "hybrid-case"
     },
     {
       "caseId": "postwar-germany",
@@ -107,7 +156,11 @@
       "slug": "postwar-germany",
       "outcome": "restrained-reordering",
       "goldCase": true,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "postwar-germany-symbolic-order",
+      "symbolicOrderName": "Postwar Germany symbolic order",
+      "symbolicOrderStrength": 3,
+      "caseSelectionRole": "gold-case"
     },
     {
       "caseId": "revolutionary-france",
@@ -115,7 +168,11 @@
       "slug": "revolutionary-france",
       "outcome": "sacrificial-escalation",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "revolutionary-france-symbolic-order",
+      "symbolicOrderName": "Revolutionary France symbolic order",
+      "symbolicOrderStrength": 5,
+      "caseSelectionRole": "high-pathology-case"
     },
     {
       "caseId": "soviet-communism",
@@ -123,7 +180,11 @@
       "slug": "soviet-communism",
       "outcome": "hybrid-transitional",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "soviet-communism-symbolic-order",
+      "symbolicOrderName": "Soviet Communism symbolic order",
+      "symbolicOrderStrength": 4,
+      "caseSelectionRole": "hybrid-case"
     },
     {
       "caseId": "soviet-union-collapse",
@@ -131,7 +192,11 @@
       "slug": "soviet-union-collapse",
       "outcome": "collapse",
       "goldCase": true,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "soviet-union-collapse-symbolic-order",
+      "symbolicOrderName": "Soviet Union Collapse symbolic order",
+      "symbolicOrderStrength": 4,
+      "caseSelectionRole": "gold-case"
     },
     {
       "caseId": "switzerland",
@@ -139,7 +204,11 @@
       "slug": "switzerland",
       "outcome": "restrained-reordering",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "switzerland-symbolic-order",
+      "symbolicOrderName": "Switzerland symbolic order",
+      "symbolicOrderStrength": 3,
+      "caseSelectionRole": "countercase"
     },
     {
       "caseId": "united-states-after-vietnam",
@@ -147,7 +216,11 @@
       "slug": "united-states-after-vietnam",
       "outcome": "restrained-reordering",
       "goldCase": true,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "united-states-after-vietnam-symbolic-order",
+      "symbolicOrderName": "United States after Vietnam symbolic order",
+      "symbolicOrderStrength": 3,
+      "caseSelectionRole": "gold-case"
     },
     {
       "caseId": "western-roman-empire",
@@ -155,7 +228,11 @@
       "slug": "western-roman-empire",
       "outcome": "collapse",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "western-roman-empire-symbolic-order",
+      "symbolicOrderName": "Western Roman Empire symbolic order",
+      "symbolicOrderStrength": 4,
+      "caseSelectionRole": "collapse-case"
     },
     {
       "caseId": "world-war-i-nationalisms",
@@ -163,7 +240,11 @@
       "slug": "world-war-i-nationalisms",
       "outcome": "sacrificial-escalation",
       "goldCase": false,
-      "publicationStatus": "draft"
+      "publicationStatus": "draft",
+      "symbolicOrderId": "world-war-i-nationalisms-symbolic-order",
+      "symbolicOrderName": "World War I Nationalisms symbolic order",
+      "symbolicOrderStrength": 5,
+      "caseSelectionRole": "high-pathology-case"
     }
   ],
   "theories": [

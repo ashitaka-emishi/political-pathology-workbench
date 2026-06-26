@@ -1,9 +1,10 @@
 {
-  "scoreCount": 1,
+  "scoreCount": 2,
   "caseAverages": {
-    "nazi-germany": 3.0
+    "nazi-germany": 4.0
   },
   "variableAverages": {
-    "collective-immortality": 3.0
+    "collective-immortality": 3.0,
+    "symbolic-order-strength": 5.0
   }
 }

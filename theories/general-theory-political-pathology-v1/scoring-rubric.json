@@ -11,5 +11,15 @@
       "5": "Strong, repeated, and directly traceable evidence."
     }
   },
-  "variables": ["symbolic-order", "institutional-embodiment", "self-preservation", "crisis-sacralization", "correction-capacity"]
+  "variables": [
+    "symbolic-order",
+    "institutional-embodiment",
+    "self-preservation",
+    "crisis-sacralization",
+    "correction-capacity",
+    "symbolic-order-strength",
+    "sacred-enemy",
+    "pathology",
+    "corrigibility"
+  ]
 }

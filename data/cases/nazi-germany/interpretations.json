@@ -2,7 +2,9 @@
   {
     "interpretationId": "nazi-germany-interpretation-001",
     "caseId": "nazi-germany",
-    "claimIds": ["nazi-germany-claim-001"],
+    "claimIds": [
+      "nazi-germany-claim-001"
+    ],
     "theoryId": "koenigsberg-immortal-body-v1",
     "variableId": "collective-immortality",
     "interpretation": "The draft evidence chain supports a preliminary reading of the Nazi Volksgemeinschaft as an imagined collective body whose sacred survival justified individual sacrifice.",
@@ -12,7 +14,72 @@
       "value": 0.6,
       "label": "moderate",
       "rationale": "Interpretation is plausible and theory-aligned, but still depends on verified primary-source quotation and additional corroboration.",
-      "uncertaintyFactors": ["source-verification-pending", "limited-source-coverage"]
+      "uncertaintyFactors": [
+        "source-verification-pending",
+        "limited-source-coverage"
+      ]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The national body is represented as enduring beyond individual mortality, making bodily sacrifice meaningful as participation in collective survival.",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "killing",
+      "conscience"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "mixed",
+    "definitionRefs": [
+      "symbolic-order",
+      "collective-immortality",
+      "sacrifice",
+      "pathology"
+    ],
+    "codebookVersion": "v1"
+  },
+  {
+    "interpretationId": "nazi-germany-interpretation-002",
+    "caseId": "nazi-germany",
+    "claimIds": [
+      "nazi-germany-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The draft chain identifies a totalizing national symbolic order that organizes belonging, legitimacy, memory, obligation, and sacrifice.",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "killing",
+      "conscience"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "mixed",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "interpretation": "The Nazi Volksgemeinschaft is provisionally coded as a very strong symbolic order, while remaining explicitly draft pending verified source passages and broader evidence.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.55,
+      "label": "moderate",
+      "rationale": "The structural pattern is well aligned with the codebook, but current evidence is a thin demonstration chain.",
+      "uncertaintyFactors": [
+        "source-verification-pending",
+        "limited-source-coverage"
+      ]
     }
   }
 ]

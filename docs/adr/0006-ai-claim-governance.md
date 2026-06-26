@@ -12,4 +12,4 @@ AI-generated claims must preserve provenance, generation context, evidentiary li
 
 ## Consequences
 
-Public output must label unreviewed or provisional claims clearly.
+Public output must label draft or provisional claims clearly.

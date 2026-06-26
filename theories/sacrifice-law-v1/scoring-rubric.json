@@ -9,5 +9,13 @@
       "5": "Strong, repeated, and directly traceable evidence."
     }
   },
-  "variables": ["symbolic-order", "institutional-embodiment", "self-sacralization", "sacrificial-demand"]
+  "variables": [
+    "symbolic-order",
+    "institutional-embodiment",
+    "self-sacralization",
+    "sacrificial-demand",
+    "sacrifice-form",
+    "sacrifice-health",
+    "sacrifice-boundedness"
+  ]
 }

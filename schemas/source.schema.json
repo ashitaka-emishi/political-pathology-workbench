@@ -13,7 +13,7 @@
         "required": ["sourceId", "role", "access"],
         "properties": {
           "sourceId": { "type": "string" },
-          "role": { "type": "string" },
+          "role": { "$ref": "controlled-vocab.schema.json#/$defs/sourceRole" },
           "access": { "type": "string" },
           "notes": { "type": "string" }
         }

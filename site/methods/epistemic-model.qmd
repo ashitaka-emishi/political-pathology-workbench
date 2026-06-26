@@ -7,3 +7,5 @@ Draft methods page.
 :::
 
 The core chain is Source -> Passage -> Claim -> Interpretation -> Variable Score -> Case Assessment -> Theory Evaluation -> Publication Artifact.
+
+Milestone 01 adds counterclaims, mechanism labels, definition references, and codebook versions to keep this chain corrigible rather than merely confirmatory.

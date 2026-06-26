@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/search-log.schema.json",
+  "title": "Search Log",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["searchId", "date", "query", "database"],
+    "properties": {
+      "searchId": { "type": "string" },
+      "date": { "type": "string" },
+      "query": { "type": "string" },
+      "database": { "type": "string" },
+      "inclusionCriteria": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "exclusionCriteria": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "resultsCount": { "type": "number" },
+      "screenedCount": { "type": "number" },
+      "includedSourceIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "notes": { "type": "string" }
+    }
+  }
+}

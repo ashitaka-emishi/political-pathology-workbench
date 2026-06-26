@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/controlled-vocab.schema.json",
+  "title": "Controlled Vocabularies",
+  "$defs": {
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "sacrificial-escalation",
+        "restrained-reordering",
+        "collapse",
+        "absorption-transformation",
+        "stagnation-frozen-pathology",
+        "hybrid-transitional"
+      ]
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "source-review",
+        "evidence-review",
+        "argument-review",
+        "score-review",
+        "human-reviewed",
+        "approved",
+        "rejected"
+      ]
+    },
+    "publicationStatus": {
+      "type": "string",
+      "enum": [
+        "private-note",
+        "draft",
+        "internal-review",
+        "public-preview",
+        "published",
+        "withdrawn"
+      ]
+    },
+    "evidenceRole": {
+      "type": "string",
+      "enum": [
+        "grounds",
+        "warrant",
+        "backing",
+        "qualifier",
+        "rebuttal",
+        "counterevidence",
+        "context",
+        "corroboration"
+      ]
+    },
+    "sourceRole": {
+      "type": "string",
+      "enum": [
+        "primary-grounds",
+        "secondary-context",
+        "theoretical-warrant",
+        "background-theory",
+        "theoretical-background",
+        "counterevidence",
+        "corroboration"
+      ]
+    },
+    "mechanism": {
+      "type": "string",
+      "enum": [
+        "collective-immortality-to-sacrifice",
+        "sacred-enemy-escalation",
+        "institutional-self-preservation",
+        "anti-sacrificial-restraint",
+        "pluralist-reordering",
+        "constitutional-containment",
+        "memory-driven-restraint",
+        "legitimacy-collapse",
+        "institutional-fragmentation",
+        "symbolic-transformation",
+        "frozen-pathology"
+      ]
+    },
+    "sacrificeForm": {
+      "type": "string",
+      "enum": [
+        "time",
+        "labor",
+        "health",
+        "conscience",
+        "family-life",
+        "dignity",
+        "speech",
+        "agency",
+        "economic-security",
+        "bodily-risk",
+        "blood-sacrifice",
+        "death",
+        "killing",
+        "martyrdom",
+        "ritual-sacrifice"
+      ]
+    },
+    "sacrificeHealth": {
+      "type": "string",
+      "enum": ["healthy", "ambiguous", "pathological", "mixed", "unknown"]
+    },
+    "sacrificeBoundedness": {
+      "type": "string",
+      "enum": ["bounded", "partially-bounded", "unbounded", "unknown"]
+    },
+    "sacrificeTarget": {
+      "type": "string",
+      "enum": ["self", "enemy", "in-group", "out-group", "mixed", "unknown"]
+    },
+    "caseSelectionRole": {
+      "type": "string",
+      "enum": [
+        "gold-case",
+        "high-pathology-case",
+        "countercase",
+        "collapse-case",
+        "transformation-case",
+        "stagnation-case",
+        "hybrid-case",
+        "deferred-case",
+        "rejected-case"
+      ]
+    },
+    "counterclaimEffect": {
+      "type": "string",
+      "enum": [
+        "contradicts",
+        "qualifies",
+        "limits",
+        "complicates",
+        "supports-alternative-explanation"
+      ]
+    }
+  }
+}

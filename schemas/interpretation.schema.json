@@ -15,9 +15,27 @@
       },
       "theoryId": { "type": "string" },
       "variableId": { "type": "string" },
+      "mechanism": { "$ref": "controlled-vocab.schema.json#/$defs/mechanism" },
+      "mechanismSummary": { "type": "string" },
+      "alternativeMechanisms": {
+        "type": "array",
+        "items": { "$ref": "controlled-vocab.schema.json#/$defs/mechanism" }
+      },
+      "sacrificeForm": {
+        "type": "array",
+        "items": { "$ref": "controlled-vocab.schema.json#/$defs/sacrificeForm" }
+      },
+      "sacrificeHealth": { "$ref": "controlled-vocab.schema.json#/$defs/sacrificeHealth" },
+      "sacrificeBoundedness": { "$ref": "controlled-vocab.schema.json#/$defs/sacrificeBoundedness" },
+      "sacrificeTarget": { "$ref": "controlled-vocab.schema.json#/$defs/sacrificeTarget" },
+      "definitionRefs": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "codebookVersion": { "type": "string" },
       "interpretation": { "type": "string" },
-      "reviewStatus": { "type": "string" },
-      "publicationStatus": { "type": "string" },
+      "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+      "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" },
       "confidence": { "type": "object" }
     }
   }

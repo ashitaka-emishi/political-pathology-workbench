@@ -8,7 +8,7 @@ Review depth should scale with epistemic and publication risk.
 
 ## Decision
 
-Use review levels from light-review through scholarly-review and track risk dimensions for important claims.
+Use review levels from draft through approved or rejected, with intermediate source-review, evidence-review, argument-review, score-review, and human-reviewed states. Track risk dimensions for important claims.
 
 ## Consequences
 

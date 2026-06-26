@@ -6,8 +6,18 @@
   "outcome": "sacrificial-escalation",
   "goldCase": true,
   "publicationStatus": "draft",
-  "reviewStatus": "unreviewed",
+  "reviewStatus": "draft",
   "audience": "researcher-review",
-  "theoryVersions": ["general-theory-political-pathology-v1"],
-  "summary": "Draft gold-case placeholder for future source, passage, claim, interpretation, and score chains."
+  "theoryVersions": [
+    "general-theory-political-pathology-v1"
+  ],
+  "summary": "Draft gold-case placeholder for future source, passage, claim, interpretation, and score chains.",
+  "symbolicOrderId": "imperial-japan-symbolic-order",
+  "symbolicOrderName": "Imperial Japan symbolic order",
+  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Imperial Japan.",
+  "symbolicOrderStrength": 5,
+  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "caseSelectionRole": "gold-case",
+  "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
+  "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice."
 }

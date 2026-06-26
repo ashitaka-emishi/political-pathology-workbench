@@ -6,8 +6,18 @@
   "outcome": "hybrid-transitional",
   "goldCase": false,
   "publicationStatus": "draft",
-  "reviewStatus": "unreviewed",
+  "reviewStatus": "draft",
   "audience": "researcher-review",
-  "theoryVersions": ["general-theory-political-pathology-v1"],
-  "summary": "Draft balanced-case placeholder."
+  "theoryVersions": [
+    "general-theory-political-pathology-v1"
+  ],
+  "summary": "Draft balanced-case placeholder.",
+  "symbolicOrderId": "post-9-11-united-states-symbolic-order",
+  "symbolicOrderName": "Post-9/11 United States symbolic order",
+  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Post-9/11 United States.",
+  "symbolicOrderStrength": 4,
+  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "caseSelectionRole": "hybrid-case",
+  "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
+  "theoryTest": "Tests whether cases can move through multiple outcomes over time."
 }

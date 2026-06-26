@@ -36,5 +36,6 @@ Use `workflows/add-case/README.md` as the starting point. New cases should inclu
 - `claims.json`
 - `interpretations.json`
 - `scores.json`
+- `counterclaims.json`
 
 Empty arrays are acceptable for early placeholders, but gold cases should eventually contain a complete evidence chain.

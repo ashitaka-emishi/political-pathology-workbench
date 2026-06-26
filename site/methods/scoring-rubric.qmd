@@ -6,4 +6,6 @@ title: "Scoring Rubric"
 Draft scoring page.
 :::
 
-Scores use a provisional 0-5 scale with structured confidence metadata and review status.
+Scores use a provisional 0-5 scale with structured confidence metadata, review status, definition references, and a codebook version.
+
+Core variables now include symbolic-order-strength, sacralization, collective-immortality, sacred-enemy, pathology, and corrigibility.
