@@ -1,5 +1,21 @@
 [
   {
+    "sourceId": "imperial-rescript-education-1890",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Issued by Emperor Meiji, 30 October 1890. Public domain. Standard English translation published by the Japanese Ministry of Education. Widely reproduced in primary-source collections.",
+    "caseId": "imperial-japan",
+    "caseSlug": "imperial-japan"
+  },
+  {
+    "sourceId": "imperial-rescript-soldiers-sailors-1882",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Issued by Emperor Meiji, 4 January 1882. Public domain. English translation widely reproduced in scholarship on Japanese militarism.",
+    "caseId": "imperial-japan",
+    "caseSlug": "imperial-japan"
+  },
+  {
     "sourceId": "koenigsberg-nations-have-right-to-kill",
     "role": "theoretical-warrant",
     "access": "restricted-metadata-only",

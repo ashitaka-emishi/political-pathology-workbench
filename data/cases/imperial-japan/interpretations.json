@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "interpretationId": "imperial-japan-interpretation-001",
+    "caseId": "imperial-japan",
+    "claimIds": [
+      "imperial-japan-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Imperial Rescripts institutionalized a maximally strong symbolic order in which the kokutai (national polity) organized identity, legitimacy, obligation, memory, and sacrifice around the Emperor as a divine collective body. Individual survival was explicitly subordinated to imperial survival, and death in service of the Emperor was framed as the highest moral fulfillment.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Structural alignment with the theory is strong; chain is a minimal stub requiring expansion with wartime sources and secondary scholarship before scholarly use.",
+      "uncertaintyFactors": [
+        "minimal-evidence-chain",
+        "passage-text-pending-source-verification"
+      ]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The imperial symbolic order represented the national body as divinely eternal; individual death in service of that body was encoded as participation in its immortality, making sacrifice the highest moral act.",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "killing",
+      "bodily-risk",
+      "conscience"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "mixed",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "symbolic-order",
+      "collective-immortality",
+      "sacrifice",
+      "pathology"
+    ],
+    "codebookVersion": "v1"
+  }
+]
