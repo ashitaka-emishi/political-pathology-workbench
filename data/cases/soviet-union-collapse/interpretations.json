@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "interpretationId": "soviet-union-collapse-interpretation-001",
+    "caseId": "soviet-union-collapse",
+    "claimIds": [
+      "soviet-union-collapse-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Soviet symbolic order had historically high strength (Marxist-Leninist ideology organizing identity, legitimacy, obligation, and sacrifice across a vast institutional apparatus), but by 1985-1991 that strength had eroded to the point where the order could not survive sustained crisis pressure. Gorbachev's admission of systemic failure and the formal dissolution of the USSR mark the terminal phase of legitimacy collapse: the symbolic order could neither sustain its founding claims nor suppress the centrifugal forces its rigidity had generated.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Legitimacy-collapse reading is well-supported by the dissolution evidence; the precise trajectory from strength to collapse requires fuller periodization and secondary source corroboration.",
+      "uncertaintyFactors": [
+        "minimal-evidence-chain",
+        "periodization-requires-expansion"
+      ]
+    },
+    "mechanism": "legitimacy-collapse",
+    "mechanismSummary": "The Soviet symbolic order's inability to acknowledge systemic failure until too late — a decades-long suppression of correction — depleted the legitimacy of its founding claims, and the reform process that might have saved the order instead revealed and accelerated its disintegration.",
+    "alternativeMechanisms": [
+      "institutional-fragmentation",
+      "frozen-pathology"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "agency",
+      "economic-security",
+      "conscience"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "symbolic-order",
+      "corrigibility",
+      "pathology"
+    ],
+    "codebookVersion": "v1"
+  }
+]

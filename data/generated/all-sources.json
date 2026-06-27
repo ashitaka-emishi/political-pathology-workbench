@@ -46,5 +46,21 @@
     "notes": "Official English translation, Deutscher Bundestag, 2012 ed. Art. 1(1) and Art. 79(3) (eternity clause) are the key passages for this chain.",
     "caseId": "postwar-germany",
     "caseSlug": "postwar-germany"
+  },
+  {
+    "sourceId": "gorbachev-resignation-speech-1991",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Delivered 25 December 1991, broadcast on Soviet state television. English translation widely reproduced; passage text requires verification against a scholarly edition.",
+    "caseId": "soviet-union-collapse",
+    "caseSlug": "soviet-union-collapse"
+  },
+  {
+    "sourceId": "alma-ata-declaration-1991",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Signed 21 December 1991 by eleven former Soviet republics. Official governmental document; public domain. English text reproduced in major international law collections.",
+    "caseId": "soviet-union-collapse",
+    "caseSlug": "soviet-union-collapse"
   }
 ]
