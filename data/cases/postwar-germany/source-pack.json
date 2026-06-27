@@ -1,4 +1,11 @@
 {
   "caseId": "postwar-germany",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "grundgesetz-1949",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Official English translation, Deutscher Bundestag, 2012 ed. Art. 1(1) and Art. 79(3) (eternity clause) are the key passages for this chain."
+    }
+  ]
 }

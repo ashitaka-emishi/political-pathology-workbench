@@ -83,5 +83,46 @@
       ]
     },
     "caseSlug": "nazi-germany"
+  },
+  {
+    "interpretationId": "postwar-germany-interpretation-001",
+    "caseId": "postwar-germany",
+    "claimIds": [
+      "postwar-germany-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The Basic Law's inviolable human dignity provision (Art. 1 GG) and eternity clause (Art. 79(3) GG) are direct constitutional embodiments of high corrigibility: the postwar symbolic order structurally limits its own capacity for pathological escalation by placing individual dignity beyond collective override.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Interpretation is well-grounded in the constitutional text and contrasts cleanly with the Nazi Germany sacrificial-escalation case. Chain is currently a minimal stub.",
+      "uncertaintyFactors": [
+        "minimal-evidence-chain",
+        "requires-secondary-source-corroboration"
+      ]
+    },
+    "mechanism": "constitutional-containment",
+    "mechanismSummary": "The founding constitutional document embeds human dignity as inviolable and unamendable, directly blocking the collective-body logic that characterized the preceding pathological order.",
+    "alternativeMechanisms": [
+      "memory-driven-restraint",
+      "pluralist-reordering"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "economic-security"
+    ],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "constitutional-containment",
+      "symbolic-order"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "postwar-germany"
   }
 ]
