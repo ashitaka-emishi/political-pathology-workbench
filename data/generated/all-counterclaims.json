@@ -1,5 +1,77 @@
 [
   {
+    "counterclaimId": "american-civil-war-union-counterclaim-001",
+    "caseId": "american-civil-war-union",
+    "claim": "The Union's hybrid-transitional coding may understate the sacrificial-escalation logic of total-war mobilization: conscription, mass casualties, and rhetoric of national rebirth through blood share structural features with high-pathology cases, complicating a clean hybrid reading.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The hybrid-transitional outcome distinguishes the Union from pure sacrificial-escalation cases, but the war period itself exhibits escalating sacrifice demands that may warrant a more complex periodized coding separating wartime (sacrificial-escalation) from Reconstruction (restrained-reordering).",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "counterclaimId": "british-empire-to-commonwealth-counterclaim-001",
+    "caseId": "british-empire-to-commonwealth",
+    "claim": "The absorption-transformation coding may naturalize the continuity of British power in post-imperial structures, obscuring that the Commonwealth preserved British economic and diplomatic dominance under a transformed symbolic vocabulary rather than achieving genuine transformation of the underlying order.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "Scholars of postcolonial continuity argue that the Commonwealth transition reproduced structural dependencies under a new symbolic frame — what appears as transformation of the symbolic order may be better coded as institutional self-preservation with symbolic rebranding.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "british-empire-to-commonwealth"
+  },
+  {
+    "counterclaimId": "canada-counterclaim-001",
+    "caseId": "canada",
+    "claim": "Canada's restrained-reordering coding assumes a stable symbolic order, but the ongoing Quebec sovereignty crisis and unresolved questions of Indigenous rights and treaty obligations indicate a symbolic order under chronic contestation that may be better coded as hybrid-transitional or stagnation.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The Canadian symbolic order has not achieved the kind of settled corrigibility that postwar Germany or Switzerland exhibit — its restrained-reordering is internally contested and periodically destabilized by nationalist and Indigenous mobilization.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "canada"
+  },
+  {
+    "counterclaimId": "confederacy-counterclaim-001",
+    "caseId": "confederacy",
+    "claim": "The Confederacy's collapse outcome may mischaracterize what occurred: the Confederate symbolic order did not collapse but was militarily defeated while surviving culturally as the Lost Cause mythology, which continued to organize sacrifice, memory, and political identity across the post-war South for generations.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "A collapse coding implies the symbolic order lost coherence; the Lost Cause tradition demonstrates the Confederate order retained significant symbolic vitality despite military defeat, suggesting symbolic-transformation or frozen-pathology may be more accurate than collapse for the post-1865 period.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "confederacy"
+  },
+  {
+    "counterclaimId": "european-union-counterclaim-001",
+    "caseId": "european-union",
+    "claim": "The EU's restrained-reordering coding was plausible through the 2000s but is complicated by Brexit, democratic backsliding in Hungary and Poland, and the rise of sovereigntist movements — the symbolic order may be entering a hybrid-transitional or legitimacy-crisis phase rather than sustaining restrained reordering.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "Periodization matters: the EU as countercase is most defensible for the 1990s-2010s period; more recent dynamics suggest the order's corrigibility and restraint mechanisms are under significant stress, potentially requiring a revised outcome coding.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "european-union"
+  },
+  {
+    "counterclaimId": "gandhian-indian-independence-counterclaim-001",
+    "caseId": "gandhian-indian-independence",
+    "claim": "The Partition of 1947 and its accompanying mass violence — estimated 200,000 to 2 million dead, 10-20 million displaced — complicates a restrained-reordering reading of Gandhian independence: the transition was accompanied by one of the largest episodes of communal sacrifice violence in the twentieth century.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "Coding the independence movement as restrained-reordering risks attributing Gandhi's anti-sacrificial philosophy to the outcome while suppressing the sacrificial violence that accompanied the actual transition; a more accurate coding might separate the independence movement from the Partition outcome.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "gandhian-indian-independence"
+  },
+  {
     "counterclaimId": "imperial-japan-counterclaim-001",
     "caseId": "imperial-japan",
     "claim": "The Taisho democracy period (c. 1912-1926) demonstrates significant liberal and pluralist contestation within the Imperial Japanese symbolic order, complicating a reading of kokutai strength as uniformly maximal across the 1868-1945 period.",
@@ -12,6 +84,30 @@
     "reviewStatus": "draft",
     "publicationStatus": "draft",
     "caseSlug": "imperial-japan"
+  },
+  {
+    "counterclaimId": "khmer-rouge-cambodia-counterclaim-001",
+    "caseId": "khmer-rouge-cambodia",
+    "claim": "The Khmer Rouge's sacrificial-escalation mechanism is contested between a collective-immortality-to-sacrifice reading (the Angkar as sacred collective body) and an agrarian-utopian reading in which sacrifice was instrumentalized toward ideological goals rather than rooted in symbolic-order sacralization per se.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The distinction matters for theory-testing: if Khmer Rouge violence was primarily instrumental (eliminating class enemies for material goals) rather than symbolic (sacrifice for collective immortality), it may test a different causal pathway than the primary theory predicts.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "khmer-rouge-cambodia"
+  },
+  {
+    "counterclaimId": "maoist-china-counterclaim-001",
+    "caseId": "maoist-china",
+    "claim": "Coding Maoist China as uniform sacrificial-escalation obscures significant internal variation: the early PRC (1949-1956) exhibited partial restrained-reordering relative to Nationalist rule, while the Great Leap Forward (1958-1962) and Cultural Revolution (1966-1976) represent escalating sacrificial demands — periodization substantially changes the case's theoretical significance.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The 1949-1976 period contains multiple distinct symbolic-order phases; treating them as a unified sacrificial-escalation case conflates the order's different phases and may obscure the internal dynamics by which the CCP moved from partial corrigibility toward frozen pathology and then escalation.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "maoist-china"
   },
   {
     "counterclaimId": "nazi-germany-counterclaim-001",
@@ -28,6 +124,30 @@
     "caseSlug": "nazi-germany"
   },
   {
+    "counterclaimId": "north-korea-counterclaim-001",
+    "caseId": "north-korea",
+    "claim": "The stagnation-frozen-pathology coding may understate the active sacrificial demands the North Korean order continues to place on its population — the Juche ideology's demands for collective self-reliance, loyalty sacrifice, and military-first mobilization suggest ongoing sacrificial dynamics rather than mere stagnation.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "Stagnation implies the symbolic order is static and neither escalating nor correcting; but North Korea exhibits continuous low-level sacrificial mobilization and periodic escalatory gestures (nuclear testing, military provocations) that suggest the order is better coded as frozen-pathology with active sacrificial maintenance rather than simple stagnation.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "north-korea"
+  },
+  {
+    "counterclaimId": "post-9-11-united-states-counterclaim-001",
+    "caseId": "post-9-11-united-states",
+    "claim": "The hybrid-transitional coding may understate the sacrificial-escalation logic of the post-9/11 War on Terror: the sacred-enemy framing of jihadist Islam, the open-ended sacrifice demands of indefinite war, and the suspension of habeas corpus and torture authorization exhibit structural features of high-pathology cases rather than hybrid transition.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The post-9/11 case is hybrid only if institutional constraints ultimately contained the sacrificial logic; critics argue those constraints were progressively dismantled (Patriot Act, AUMF, Abu Ghraib, Guantanamo) such that the period is better characterized as sacrificial-escalation with incomplete institutional resistance.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "post-9-11-united-states"
+  },
+  {
     "counterclaimId": "postwar-germany-counterclaim-001",
     "caseId": "postwar-germany",
     "claim": "The Grundgesetz's constitutional corrigibility did not prevent significant postwar German pathologies, including Berufsverbot restrictions on political participation and ongoing debates about memory and Vergangenheitsbewältigung, complicating a straightforward high-corrigibility reading.",
@@ -40,6 +160,30 @@
     "reviewStatus": "draft",
     "publicationStatus": "draft",
     "caseSlug": "postwar-germany"
+  },
+  {
+    "counterclaimId": "revolutionary-france-counterclaim-001",
+    "caseId": "revolutionary-france",
+    "claim": "Coding Revolutionary France as sacrificial-escalation risks telescoping the Revolution's distinct phases: the 1789 constitutional period exhibits restrained-reordering features, the Terror (1793-1794) fits sacrificial-escalation, and the Thermidorean reaction represents partial correction — periodization significantly changes the theoretical reading.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The Revolution's internal diversity means a single outcome code suppresses the sequence of symbolic-order phases; the escalation from pluralist reordering to total sacrificial mobilization and back is itself the theoretically interesting phenomenon, not the endpoint alone.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "revolutionary-france"
+  },
+  {
+    "counterclaimId": "soviet-communism-counterclaim-001",
+    "caseId": "soviet-communism",
+    "claim": "The soviet-communism hybrid-transitional coding — distinct from soviet-union-collapse — risks understating the Stalinist period's clear sacrificial-escalation pattern: collectivization famines, purges, and gulag mobilization represent unbounded sacrifice demands that fit high-pathology coding more precisely than hybrid-transitional.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The hybrid-transitional code may reflect the full 1917-1985 arc rather than the Stalinist peak; if the case covers the Stalinist period specifically, sacrificial-escalation is a stronger fit. Clarifying the periodization scope is necessary before the outcome code can be treated as theoretically settled.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "soviet-communism"
   },
   {
     "counterclaimId": "soviet-union-collapse-counterclaim-001",
@@ -56,6 +200,18 @@
     "caseSlug": "soviet-union-collapse"
   },
   {
+    "counterclaimId": "switzerland-counterclaim-001",
+    "caseId": "switzerland",
+    "claim": "Switzerland's role as a countercase of sustained restrained-reordering is complicated by its wartime economic collaboration with Nazi Germany — the Swiss symbolic order's restraint was partially purchased by accommodation with an adjacent sacrificial-escalation regime, raising questions about whether the restraint was principled or strategic.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "A countercase argument requires that the symbolic order's restraint mechanisms be causally prior to the outcome; if Swiss restraint was partly enabled by economic benefit from Nazi Germany, the causal story is more complex than the standard countercase framing suggests.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "switzerland"
+  },
+  {
     "counterclaimId": "united-states-after-vietnam-counterclaim-001",
     "caseId": "united-states-after-vietnam",
     "claim": "Reagan's explicit campaign to overcome the Vietnam syndrome — framing Vietnam as a noble cause betrayed by domestic weakness rather than a failed war — demonstrates that the post-Vietnam restraint was shallow and contested, and that the US symbolic order quickly reasserted sacrificial framing rather than institutionalizing correction.",
@@ -68,5 +224,29 @@
     "reviewStatus": "draft",
     "publicationStatus": "draft",
     "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "counterclaimId": "western-roman-empire-counterclaim-001",
+    "caseId": "western-roman-empire",
+    "claim": "The collapse coding for the Western Roman Empire is contested by the transformation thesis: rather than collapsing, the Roman symbolic order was absorbed and transformed by successor Germanic kingdoms and the Catholic Church, which preserved and transmitted Roman institutional forms — suggesting absorption-transformation may be as accurate as collapse.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The Gibbon decline-and-fall narrative has been challenged by historians who argue the period 376-568 CE involved continuity and transformation rather than collapse; the choice between collapse and absorption-transformation codings has significant implications for what the case tests in the theory.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "western-roman-empire"
+  },
+  {
+    "counterclaimId": "world-war-i-nationalisms-counterclaim-001",
+    "caseId": "world-war-i-nationalisms",
+    "claim": "The unit of analysis for world-war-i-nationalisms is contested: individual belligerent nations varied significantly in their sacrificial mobilization patterns, symbolic-order strength, and outcomes (German collapse, British restrained-reordering, French hybrid). Treating the case as a unified sacrificial-escalation instance may suppress theoretically important cross-national variation.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "A case covering multiple nations with different outcomes simultaneously tests different theory pathways; disaggregating into individual national cases would allow finer-grained theory-testing but reduces the comparative breadth that motivates including the case.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft",
+    "caseSlug": "world-war-i-nationalisms"
   }
 ]

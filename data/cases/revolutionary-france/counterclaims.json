@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "counterclaimId": "revolutionary-france-counterclaim-001",
+    "caseId": "revolutionary-france",
+    "claim": "Coding Revolutionary France as sacrificial-escalation risks telescoping the Revolution's distinct phases: the 1789 constitutional period exhibits restrained-reordering features, the Terror (1793-1794) fits sacrificial-escalation, and the Thermidorean reaction represents partial correction — periodization significantly changes the theoretical reading.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The Revolution's internal diversity means a single outcome code suppresses the sequence of symbolic-order phases; the escalation from pluralist reordering to total sacrificial mobilization and back is itself the theoretically interesting phenomenon, not the endpoint alone.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]
