@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "scoreId": "united-states-after-vietnam-score-001",
+    "caseId": "united-states-after-vietnam",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "united-states-after-vietnam-interpretation-001",
+    "value": 3,
+    "confidence": {
+      "value": 0.58,
+      "label": "moderate",
+      "rationale": "Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Mid-range score acknowledges the ambiguity.",
+      "uncertaintyFactors": [
+        "periodization-contested",
+        "stub-score",
+        "minimal-evidence-chain"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "memory-driven-restraint"
+    ],
+    "codebookVersion": "v1"
+  }
+]

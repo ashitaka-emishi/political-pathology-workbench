@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "interpretationId": "united-states-after-vietnam-interpretation-001",
+    "caseId": "united-states-after-vietnam",
+    "claimIds": [
+      "united-states-after-vietnam-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The post-Vietnam US symbolic order exhibited moderate corrigibility: the War Powers Resolution institutionalized congressional oversight as a correction mechanism against unilateral executive war-making, and Carter's public acknowledgment of national crisis represented a symbolic-order willingness to receive criticism rather than deflect it through sacrificial mobilization. This contrasts with Imperial Japan and Nazi Germany, where equivalent crises intensified sacrificial demands. Corrigibility was partial and contested — Reagan's explicit campaign to overcome the Vietnam syndrome within a decade shows the correction was not deeply institutionalized.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "Structural alignment with corrigibility is supported by the legislative and rhetorical evidence, but the subsequent rollback complicates the score. Minimal stub requiring expansion.",
+      "uncertaintyFactors": [
+        "minimal-evidence-chain",
+        "periodization-contested",
+        "reagan-era-complicates-reading"
+      ]
+    },
+    "mechanism": "memory-driven-restraint",
+    "mechanismSummary": "The collective memory of Vietnam failure — institutionalized as the War Powers Resolution and expressed in Carter's crisis rhetoric — restrained further sacrificial escalation and enabled a period of constrained reordering rather than pathological self-preservation.",
+    "alternativeMechanisms": [
+      "anti-sacrificial-restraint",
+      "pluralist-reordering"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "economic-security",
+      "conscience"
+    ],
+    "sacrificeHealth": "ambiguous",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "memory-driven-restraint",
+      "symbolic-order-strength"
+    ],
+    "codebookVersion": "v1"
+  }
+]
