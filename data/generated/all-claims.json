@@ -20,5 +20,28 @@
       ]
     },
     "caseSlug": "nazi-germany"
+  },
+  {
+    "claimId": "postwar-germany-claim-001",
+    "caseId": "postwar-germany",
+    "claim": "The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German symbolic order.",
+    "derivedFrom": [
+      "postwar-germany-passage-001",
+      "postwar-germany-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Two complementary passages from the Grundgesetz support the claim: Art. 1(1) establishes the inviolability of human dignity; Art. 79(3) places it beyond amendment. Confidence is capped pending chain expansion and secondary-source corroboration.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "single-source"
+      ]
+    },
+    "caseSlug": "postwar-germany"
   }
 ]

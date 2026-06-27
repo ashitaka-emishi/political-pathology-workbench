@@ -48,5 +48,30 @@
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "caseSlug": "nazi-germany"
+  },
+  {
+    "scoreId": "postwar-germany-score-001",
+    "caseId": "postwar-germany",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "postwar-germany-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "High corrigibility score is structurally justified by the constitutional design; capped at moderate confidence pending chain expansion and secondary-source corroboration.",
+      "uncertaintyFactors": [
+        "minimal-evidence-chain",
+        "stub-score"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "constitutional-containment"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "postwar-germany"
   }
 ]

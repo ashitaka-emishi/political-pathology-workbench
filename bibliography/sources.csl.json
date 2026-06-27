@@ -40,6 +40,22 @@
     "note": "Radio broadcast, 1 February 1933. Reproduced in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942). Passage text requires verification against Baynes or equivalent scholarly edition before advancing beyond source-review."
   },
   {
+    "id": "grundgesetz-1949",
+    "type": "legislation",
+    "title": "Basic Law for the Federal Republic of Germany (Grundgesetz)",
+    "authority": "Federal Republic of Germany",
+    "issued": {
+      "date-parts": [
+        [
+          1949,
+          5,
+          23
+        ]
+      ]
+    },
+    "note": "Public domain. Official English translation published by the Deutscher Bundestag (2012 ed.). Art. 1(1): human dignity inviolable. Art. 79(3): eternity clause placing Art. 1 beyond amendment."
+  },
+  {
     "id": "nsdap-25-punkte-1920",
     "type": "document",
     "title": "Program of the National Socialist German Workers' Party (25 Points)",

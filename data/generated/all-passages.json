@@ -20,5 +20,27 @@
     "reviewStatus": "source-review",
     "publicationStatus": "draft",
     "caseSlug": "nazi-germany"
+  },
+  {
+    "passageId": "postwar-germany-passage-001",
+    "caseId": "postwar-germany",
+    "sourceId": "grundgesetz-1949",
+    "locator": "Art. 1(1), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed.",
+    "text": "Human dignity shall be inviolable. To respect and protect it shall be the duty of all state authority.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft",
+    "caseSlug": "postwar-germany"
+  },
+  {
+    "passageId": "postwar-germany-passage-002",
+    "caseId": "postwar-germany",
+    "sourceId": "grundgesetz-1949",
+    "locator": "Art. 79(3), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed.",
+    "text": "Amendments to this Basic Law affecting the division of the Federation into Länder, their participation on principle in the legislative process, or the principles laid down in Articles 1 and 20 shall be inadmissible.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft",
+    "caseSlug": "postwar-germany"
   }
 ]
