@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "counterclaimId": "north-korea-counterclaim-001",
+    "caseId": "north-korea",
+    "claim": "The stagnation-frozen-pathology coding may understate the active sacrificial demands the North Korean order continues to place on its population — the Juche ideology's demands for collective self-reliance, loyalty sacrifice, and military-first mobilization suggest ongoing sacrificial dynamics rather than mere stagnation.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "Stagnation implies the symbolic order is static and neither escalating nor correcting; but North Korea exhibits continuous low-level sacrificial mobilization and periodic escalatory gestures (nuclear testing, military provocations) that suggest the order is better coded as frozen-pathology with active sacrificial maintenance rather than simple stagnation.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]

@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "counterclaimId": "world-war-i-nationalisms-counterclaim-001",
+    "caseId": "world-war-i-nationalisms",
+    "claim": "The unit of analysis for world-war-i-nationalisms is contested: individual belligerent nations varied significantly in their sacrificial mobilization patterns, symbolic-order strength, and outcomes (German collapse, British restrained-reordering, French hybrid). Treating the case as a unified sacrificial-escalation instance may suppress theoretically important cross-national variation.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "A case covering multiple nations with different outcomes simultaneously tests different theory pathways; disaggregating into individual national cases would allow finer-grained theory-testing but reduces the comparative breadth that motivates including the case.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]

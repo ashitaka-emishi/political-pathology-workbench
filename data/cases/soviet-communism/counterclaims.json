@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "counterclaimId": "soviet-communism-counterclaim-001",
+    "caseId": "soviet-communism",
+    "claim": "The soviet-communism hybrid-transitional coding — distinct from soviet-union-collapse — risks understating the Stalinist period's clear sacrificial-escalation pattern: collectivization famines, purges, and gulag mobilization represent unbounded sacrifice demands that fit high-pathology coding more precisely than hybrid-transitional.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The hybrid-transitional code may reflect the full 1917-1985 arc rather than the Stalinist peak; if the case covers the Stalinist period specifically, sacrificial-escalation is a stronger fit. Clarifying the periodization scope is necessary before the outcome code can be treated as theoretically settled.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]

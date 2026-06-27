@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "counterclaimId": "british-empire-to-commonwealth-counterclaim-001",
+    "caseId": "british-empire-to-commonwealth",
+    "claim": "The absorption-transformation coding may naturalize the continuity of British power in post-imperial structures, obscuring that the Commonwealth preserved British economic and diplomatic dominance under a transformed symbolic vocabulary rather than achieving genuine transformation of the underlying order.",
+    "effect": "qualifies",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "Scholars of postcolonial continuity argue that the Commonwealth transition reproduced structural dependencies under a new symbolic frame — what appears as transformation of the symbolic order may be better coded as institutional self-preservation with symbolic rebranding.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]

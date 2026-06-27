@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "counterclaimId": "gandhian-indian-independence-counterclaim-001",
+    "caseId": "gandhian-indian-independence",
+    "claim": "The Partition of 1947 and its accompanying mass violence — estimated 200,000 to 2 million dead, 10-20 million displaced — complicates a restrained-reordering reading of Gandhian independence: the transition was accompanied by one of the largest episodes of communal sacrifice violence in the twentieth century.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "Coding the independence movement as restrained-reordering risks attributing Gandhi's anti-sacrificial philosophy to the outcome while suppressing the sacrificial violence that accompanied the actual transition; a more accurate coding might separate the independence movement from the Partition outcome.",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]

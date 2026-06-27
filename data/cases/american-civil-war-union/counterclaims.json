@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "counterclaimId": "american-civil-war-union-counterclaim-001",
+    "caseId": "american-civil-war-union",
+    "claim": "The Union's hybrid-transitional coding may understate the sacrificial-escalation logic of total-war mobilization: conscription, mass casualties, and rhetoric of national rebirth through blood share structural features with high-pathology cases, complicating a clean hybrid reading.",
+    "effect": "complicates",
+    "targetClaimIds": [],
+    "sourceIds": [],
+    "rationale": "The hybrid-transitional outcome distinguishes the Union from pure sacrificial-escalation cases, but the war period itself exhibits escalating sacrifice demands that may warrant a more complex periodized coding separating wartime (sacrificial-escalation) from Reconstruction (restrained-reordering).",
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]
