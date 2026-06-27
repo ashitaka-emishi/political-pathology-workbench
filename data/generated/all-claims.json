@@ -66,5 +66,28 @@
       ]
     },
     "caseSlug": "postwar-germany"
+  },
+  {
+    "claimId": "soviet-union-collapse-claim-001",
+    "caseId": "soviet-union-collapse",
+    "claim": "The Soviet symbolic order collapsed when decades of institutional rigidity exhausted the founding legitimacy claims of Marxism-Leninism, and Gorbachev's reform attempts accelerated institutional disintegration rather than restoring coherence, culminating in the formal dissolution of the USSR.",
+    "derivedFrom": [
+      "soviet-union-collapse-passage-001",
+      "soviet-union-collapse-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Gorbachev's own acknowledgment of systemic failure and the Alma-Ata dissolution text directly support the legitimacy-collapse reading. Confidence capped pending chain expansion and verification of passage text against cited editions.",
+      "uncertaintyFactors": [
+        "passage-text-pending-source-verification",
+        "chain-requires-expansion"
+      ]
+    },
+    "caseSlug": "soviet-union-collapse"
   }
 ]

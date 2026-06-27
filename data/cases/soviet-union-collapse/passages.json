@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "soviet-union-collapse-passage-001",
+    "caseId": "soviet-union-collapse",
+    "sourceId": "gorbachev-resignation-speech-1991",
+    "locator": "Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections",
+    "text": "Fate had it that when I found myself at the head of the state it was already clear that there was something wrong in this country. We had plenty of everything: land, oil and gas, other natural resources, and God has also endowed us with intelligence and talent — yet we lived much worse than developed countries and kept falling further and further behind them.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "soviet-union-collapse-passage-002",
+    "caseId": "soviet-union-collapse",
+    "sourceId": "alma-ata-declaration-1991",
+    "locator": "Alma-Ata Declaration, 21 December 1991, signed by eleven former Soviet republics; reproduced in International Legal Materials 31:1 (1992), p. 148",
+    "text": "With the formation of the Commonwealth of Independent States, the Union of Soviet Socialist Republics ceases to exist.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft"
+  }
+]

@@ -99,5 +99,31 @@
     ],
     "codebookVersion": "v1",
     "caseSlug": "postwar-germany"
+  },
+  {
+    "scoreId": "soviet-union-collapse-score-001",
+    "caseId": "soviet-union-collapse",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "soviet-union-collapse-interpretation-001",
+    "value": 2,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Score of 2 reflects the terminal-phase strength of the Soviet symbolic order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period; a separate score for the Stalinist peak would be substantially higher.",
+      "uncertaintyFactors": [
+        "periodization-ambiguity",
+        "stub-score",
+        "minimal-evidence-chain"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "legitimacy-collapse"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "soviet-union-collapse"
   }
 ]

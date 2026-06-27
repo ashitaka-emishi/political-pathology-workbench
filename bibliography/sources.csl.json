@@ -40,6 +40,47 @@
     "note": "Radio broadcast, 1 February 1933. Reproduced in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942). Passage text requires verification against Baynes or equivalent scholarly edition before advancing beyond source-review."
   },
   {
+    "id": "gorbachev-resignation-speech-1991",
+    "type": "speech",
+    "title": "Resignation Address",
+    "author": [
+      {
+        "family": "Gorbachev",
+        "given": "Mikhail"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1991,
+          12,
+          25
+        ]
+      ]
+    },
+    "note": "Broadcast on Soviet state television, 25 December 1991. English translation reproduced in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996) and widely in press archives. Passage text requires verification against a scholarly edition."
+  },
+  {
+    "id": "alma-ata-declaration-1991",
+    "type": "document",
+    "title": "Alma-Ata Declaration",
+    "author": [
+      {
+        "literal": "Commonwealth of Independent States founding states"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1991,
+          12,
+          21
+        ]
+      ]
+    },
+    "note": "Signed 21 December 1991 by eleven former Soviet republics. Public domain. Reproduced in International Legal Materials 31:1 (1992), p. 148."
+  },
+  {
     "id": "imperial-rescript-education-1890",
     "type": "document",
     "title": "Imperial Rescript on Education (Kyōiku Chokugo)",
