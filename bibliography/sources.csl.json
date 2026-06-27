@@ -37,6 +37,26 @@
         ]
       ]
     },
-    "note": "Primary-source metadata placeholder. Passage text should be verified against an open/public source before publication."
+    "note": "Radio broadcast, 1 February 1933. Reproduced in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942). Passage text requires verification against Baynes or equivalent scholarly edition before advancing beyond source-review."
+  },
+  {
+    "id": "nsdap-25-punkte-1920",
+    "type": "document",
+    "title": "Program of the National Socialist German Workers' Party (25 Points)",
+    "author": [
+      {
+        "literal": "National Socialist German Workers' Party (NSDAP)"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1920,
+          2,
+          24
+        ]
+      ]
+    },
+    "note": "Public domain. Announced 24 February 1920, Hofbräuhaus, Munich. Reproduced in Stackelberg, Roderick, and Sally A. Winkle, eds., The Nazi Germany Sourcebook (London: Routledge, 2002), pp. 27–31."
   }
 ]

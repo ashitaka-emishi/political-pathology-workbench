@@ -11,7 +11,13 @@
       "sourceId": "hitler-speech-1933-001",
       "role": "primary-grounds",
       "access": "public-domain-or-open",
-      "notes": "Placeholder pending source verification before public quotation."
+      "notes": "Passage text cited from Baynes (1942) edition; requires verification against that or equivalent scholarly edition before advancing past source-review."
+    },
+    {
+      "sourceId": "nsdap-25-punkte-1920",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain party programme. Point 10 directly encodes collective priority over individual activity. Text widely reproduced and stable across editions."
     }
   ]
 }

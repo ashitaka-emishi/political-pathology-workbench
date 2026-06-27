@@ -3,10 +3,21 @@
     "passageId": "nazi-germany-passage-001",
     "caseId": "nazi-germany",
     "sourceId": "hitler-speech-1933-001",
-    "locator": "1933 proclamation metadata placeholder",
-    "text": "[Draft paraphrase placeholder pending verified public-domain passage text.] The nation is framed as a collective body whose unity and survival supersede ordinary political disagreement.",
+    "locator": "Proclamation to the German Nation, 1 February 1933; in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942), p. 156",
+    "text": "Towering above all class and rank distinctions, it will bring back to our people the consciousness of their racial and political unity and of the obligations this entails.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft",
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "passageId": "nazi-germany-passage-002",
+    "caseId": "nazi-germany",
+    "sourceId": "nsdap-25-punkte-1920",
+    "locator": "Program of the NSDAP (25 Points), Point 10, announced 24 February 1920; in Stackelberg, Roderick, and Sally A. Winkle, eds., The Nazi Germany Sourcebook (London: Routledge, 2002), p. 29",
+    "text": "The activity of the individual must not clash with the interests of the community, but must proceed within its framework and be for the general good.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
     "publicationStatus": "draft",
     "caseSlug": "nazi-germany"
   }
