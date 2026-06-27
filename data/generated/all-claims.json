@@ -1,5 +1,28 @@
 [
   {
+    "claimId": "imperial-japan-claim-001",
+    "caseId": "imperial-japan",
+    "claim": "Imperial Japanese political language encoded the Emperor's divine sovereignty and the national body (kokutai) as sacred, demanding individual self-sacrifice in service of imperial survival as the highest moral obligation overriding personal survival.",
+    "derivedFrom": [
+      "imperial-japan-passage-001",
+      "imperial-japan-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Two well-attested public-domain rescripts directly encode collective-body sacrifice logic. Confidence capped pending passage-text verification against cited scholarly editions and chain expansion.",
+      "uncertaintyFactors": [
+        "passage-text-pending-source-verification",
+        "chain-requires-expansion"
+      ]
+    },
+    "caseSlug": "imperial-japan"
+  },
+  {
     "claimId": "nazi-germany-claim-001",
     "caseId": "nazi-germany",
     "claim": "Nazi political language represented the national community as a sacred collective body whose preservation could override individual life and ordinary pluralist correction.",

@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "scoreId": "imperial-japan-score-001",
+    "caseId": "imperial-japan",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "imperial-japan-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order-strength score is supported by the rescript sources and by the wartime escalation outcome; capped at moderate confidence pending chain expansion.",
+      "uncertaintyFactors": [
+        "minimal-evidence-chain",
+        "stub-score"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "collective-immortality",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1"
+  }
+]
