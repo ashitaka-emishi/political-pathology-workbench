@@ -40,6 +40,43 @@
     "note": "Radio broadcast, 1 February 1933. Reproduced in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942). Passage text requires verification against Baynes or equivalent scholarly edition before advancing beyond source-review."
   },
   {
+    "id": "war-powers-resolution-1973",
+    "type": "legislation",
+    "title": "War Powers Resolution",
+    "authority": "United States Congress",
+    "issued": {
+      "date-parts": [
+        [
+          1973,
+          11,
+          7
+        ]
+      ]
+    },
+    "note": "Public Law 93-148; 87 Stat. 555; codified at 50 U.S.C. §§ 1541–1548. Public domain US federal law."
+  },
+  {
+    "id": "carter-crisis-confidence-speech-1979",
+    "type": "speech",
+    "title": "Address to the Nation on Energy and National Goals (\"Crisis of Confidence\")",
+    "author": [
+      {
+        "family": "Carter",
+        "given": "Jimmy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1979,
+          7,
+          15
+        ]
+      ]
+    },
+    "note": "Public domain US government document. Archived at the Jimmy Carter Presidential Library and the Miller Center, University of Virginia."
+  },
+  {
     "id": "gorbachev-resignation-speech-1991",
     "type": "speech",
     "title": "Resignation Address",

@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "united-states-after-vietnam-passage-001",
+    "caseId": "united-states-after-vietnam",
+    "sourceId": "war-powers-resolution-1973",
+    "locator": "War Powers Resolution, Public Law 93-148, § 2(a), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1541",
+    "text": "It is the purpose of this joint resolution to fulfill the intent of the framers of the Constitution of the United States and insure that the collective judgment of both the Congress and the President will apply to the introduction of United States Armed Forces into hostilities, or into situations where imminent involvement in hostilities is clearly indicated by the circumstances.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "united-states-after-vietnam-passage-002",
+    "caseId": "united-states-after-vietnam",
+    "sourceId": "carter-crisis-confidence-speech-1979",
+    "locator": "Address to the Nation, President Jimmy Carter, 15 July 1979; archived at Miller Center, University of Virginia, millercenter.org/the-presidency/presidential-speeches",
+    "text": "The erosion of our confidence in the future is threatening to destroy the social and the political fabric of America. The confidence that we have always had as a people is not simply some romantic dream or a proverb in a dusty book that we read just on the Fourth of July. It is the idea which founded our Nation and has guided our development as a people.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft"
+  }
+]

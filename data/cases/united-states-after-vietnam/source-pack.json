@@ -1,4 +1,17 @@
 {
   "caseId": "united-states-after-vietnam",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "war-powers-resolution-1973",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public Law 93-148, enacted 7 November 1973. United States federal law; public domain. Full text in US Statutes at Large 87 Stat. 555 and codified at 50 U.S.C. §§ 1541-1548."
+    },
+    {
+      "sourceId": "carter-crisis-confidence-speech-1979",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Address by President Jimmy Carter, 15 July 1979. Public domain US government document. Archived at the Jimmy Carter Presidential Library and Miller Center, University of Virginia."
+    }
+  ]
 }
