@@ -4,7 +4,8 @@
     "caseId": "nazi-germany",
     "claim": "Nazi political language represented the national community as a sacred collective body whose preservation could override individual life and ordinary pluralist correction.",
     "derivedFrom": [
-      "nazi-germany-passage-001"
+      "nazi-germany-passage-001",
+      "nazi-germany-passage-002"
     ],
     "createdBy": "human",
     "reviewedBy": "andrew-hammer",
@@ -13,10 +14,9 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "The chain is structurally present, but the passage text is still a verified-source placeholder.",
+      "rationale": "Two real attributed passages now support the claim. Passage text requires verification against Baynes (1942) and Stackelberg & Winkle (2002) before advancing past source-review.",
       "uncertaintyFactors": [
-        "source-verification-pending",
-        "single-passage-support"
+        "passage-text-pending-source-verification"
       ]
     },
     "caseSlug": "nazi-germany"
