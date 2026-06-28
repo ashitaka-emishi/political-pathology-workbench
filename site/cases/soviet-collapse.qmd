@@ -2,8 +2,4 @@
 title: "Soviet Union Collapse"
 ---
 
-::: {.callout-warning}
-Draft gold-case placeholder.
-:::
-
-Source and evidence chains are not yet populated.
+{{< include _chains/soviet-union-collapse.md >}}
