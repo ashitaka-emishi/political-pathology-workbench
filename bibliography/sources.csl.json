@@ -158,6 +158,27 @@
     "note": "Public domain. English translation in McLaren, W. W., ed., Japanese Government Documents, Transactions of the Asiatic Society of Japan 42 (1914)."
   },
   {
+    "id": "adenauer-regierungserklaerung-1949",
+    "type": "speech",
+    "title": "Regierungserklärung (First Government Declaration)",
+    "author": [
+      {
+        "family": "Adenauer",
+        "given": "Konrad"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1949,
+          9,
+          20
+        ]
+      ]
+    },
+    "note": "Delivered to the Bundestag, 20 September 1949. Public domain. German text in Verhandlungen des Deutschen Bundestages, 1. Wahlperiode, 5. Sitzung. English translation in Adenauer, Konrad, Memoirs 1945–53 (London: Weidenfeld & Nicolson, 1966). Passage text requires verification against cited edition."
+  },
+  {
     "id": "grundgesetz-1949",
     "type": "legislation",
     "title": "Basic Law for the Federal Republic of Germany (Grundgesetz)",
