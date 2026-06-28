@@ -2,8 +2,4 @@
 title: "Case Comparison"
 ---
 
-::: {.callout-warning}
-Draft comparison placeholder.
-:::
-
-Case comparison tables will be generated from `data/generated/`.
+{{< include _generated/case-comparison.md >}}
