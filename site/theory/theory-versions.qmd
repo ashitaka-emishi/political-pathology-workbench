@@ -2,12 +2,4 @@
 title: "Theory Versions"
 ---
 
-::: {.callout-warning}
-Draft generated-data target.
-:::
-
-The workbench treats theories as versioned data objects rather than hard-coded assumptions.
-
-- Koenigsberg's Immortal Collective Body v1
-- Sacrifice Law v1
-- General Theory of Political Pathology v1
+{{< include _generated/theory-versions.md >}}

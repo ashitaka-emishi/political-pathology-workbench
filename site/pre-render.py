@@ -11,6 +11,13 @@ PROJECT_ROOT = SITE_DIR.parent
 GEN = PROJECT_ROOT / "data" / "generated"
 OUT = SITE_DIR / "cases" / "_chains"
 OUT_OUTPUTS = SITE_DIR / "outputs" / "_generated"
+OUT_THEORY = SITE_DIR / "theory" / "_generated"
+
+THEORY_IDS = [
+    "sacrifice-law-v1",
+    "koenigsberg-immortal-body-v1",
+    "general-theory-political-pathology-v1",
+]
 
 GOLD_CASES = [
     "nazi-germany",
@@ -417,6 +424,174 @@ def render_cases_index(scores: list[dict], counterclaims: list[dict],
     return "\n".join(lines)
 
 
+def load_theory(theory_id: str, filename: str) -> object:
+    path = PROJECT_ROOT / "theories" / theory_id / filename
+    if not path.exists():
+        return [] if filename.endswith(".json") and filename != "manifest.json" else {}
+    text = path.read_text(encoding="utf-8")
+    if filename.endswith(".json"):
+        return json.loads(text)
+    return text.strip()
+
+
+def render_proposed_law() -> str:
+    sl = load_theory("sacrifice-law-v1", "manifest.json")
+    gt = load_theory("general-theory-political-pathology-v1", "manifest.json")
+    ko = load_theory("koenigsberg-immortal-body-v1", "manifest.json")
+    sl_assumptions = load_theory("sacrifice-law-v1", "assumptions.json")
+    ko_assumptions = load_theory("koenigsberg-immortal-body-v1", "assumptions.json")
+
+    lines = [
+        "::: {.callout-warning}",
+        "Draft theory page. All formulations are provisional research scaffolds.",
+        ":::",
+        "",
+        "## The Proposed Law",
+        "",
+        "> Every symbolic order seeks embodiment. Every embodied order tends toward "
+        "self-preservation. Unless continually ordered toward transcendent truth, "
+        "self-preservation becomes self-sacralization, and self-sacralization legitimizes "
+        "sacrifice under conditions of perceived existential threat.",
+        "",
+        f"*— {sl['title']}, {sl['version']}*",
+        "",
+        "## Theoretical Cycle",
+        "",
+        "```",
+        "Symbolic Order",
+        "    ↓ seeks",
+        "Institutional Embodiment",
+        "    ↓ tends toward",
+        "Self-Preservation",
+        "    ↓ under crisis, becomes",
+        "Self-Sacralization",
+        "    ↓ legitimizes",
+        "Sacrifice  ←→  Outcome",
+        "```",
+        "",
+        "The outcome depends on the order's corrigibility: whether institutional design, "
+        "pluralist dissent, anti-sacrificial memory, or constitutional limits can interrupt "
+        "the escalation before sacrifice becomes unbounded.",
+        "",
+        "## Component Theories",
+        "",
+        f"### {gt['title']}",
+        "",
+        f"{gt['description']}",
+        "",
+        next(l for l in load_theory('general-theory-political-pathology-v1', 'theory.md').splitlines() if l.startswith(">")),
+        "",
+        f"### {ko['title']}",
+        "",
+        f"{ko['description']}",
+        "",
+    ]
+    for a in ko_assumptions:
+        lines.append(f"- {a['text']}")
+    lines += [
+        "",
+        f"### {sl['title']}",
+        "",
+        f"{sl['description']}",
+        "",
+    ]
+    for a in sl_assumptions:
+        lines.append(f"- {a['text']}")
+    lines.append("")
+
+    return "\n".join(lines)
+
+
+def render_theory_versions(scores: list[dict], case_meta: dict) -> str:
+    theories = []
+    for tid in THEORY_IDS:
+        m = load_theory(tid, "manifest.json")
+        m["_md"] = load_theory(tid, "theory.md")
+        m["_variables"] = load_theory(tid, "variables.json")
+        theories.append(m)
+
+    # Which cases use each theory
+    by_theory: dict[str, list[str]] = defaultdict(list)
+    seen: set[tuple] = set()
+    for s in scores:
+        key = (s["theoryId"], s["caseId"])
+        if key not in seen:
+            seen.add(key)
+            by_theory[s["theoryId"]].append(s["caseId"])
+
+    lines = [
+        "::: {.callout-warning}",
+        "Draft. Theories are versioned data objects rather than fixed assumptions.",
+        ":::",
+        "",
+        "The workbench treats theories as versioned data so that competing "
+        "frameworks can be applied to the same cases and compared. Each scored "
+        "interpretation records which theory it applies.",
+        "",
+        "| Theory | Version | Status |",
+        "|---|---|---|",
+    ]
+    for t in theories:
+        lines.append(f"| {t['title']} | {t['version']} | {t['status']} |")
+    lines.append("")
+
+    for t in theories:
+        tid = t["theoryId"]
+        lines += [f"## {t['title']}", "", t["description"], ""]
+        quote_lines = [l for l in t["_md"].splitlines() if l.startswith(">")]
+        if quote_lines:
+            lines += [quote_lines[0], ""]
+        cases_using = by_theory.get(tid, [])
+        if cases_using:
+            names = ", ".join(title_case(c) for c in cases_using)
+            lines += [f"**Gold cases scored under this theory:** {names}", ""]
+        scored_vars = {s["variableId"] for s in scores if s["theoryId"] == tid}
+        if scored_vars:
+            lines += [f"**Variables scored:** {', '.join(title_case(v) for v in sorted(scored_vars))}", ""]
+        lines += ["---", ""]
+
+    return "\n".join(lines)
+
+
+def render_outcomes(case_meta: dict) -> str:
+    outcomes = load_theory("general-theory-political-pathology-v1", "outcomes.json")
+    by_outcome: dict[str, list] = defaultdict(list)
+    for c in case_meta.values():
+        by_outcome[c.get("outcome", "")].append(c)
+
+    lines = [
+        "::: {.callout-warning}",
+        "Draft taxonomy. Outcome assignments are provisional.",
+        ":::",
+        "",
+        "The theory distinguishes six outcome types based on how an embodied "
+        "symbolic order responds when its self-preservation drive encounters "
+        "crisis pressure.",
+        "",
+        "| Outcome | Description |",
+        "|---|---|",
+    ]
+    for o in outcomes:
+        lines.append(f"| **{o['label']}** | {o['description']} |")
+    lines.append("")
+
+    for o in outcomes:
+        oid = o["outcomeId"]
+        cases = by_outcome.get(oid, [])
+        gold = [c for c in cases if c.get("goldCase")]
+        comparators = [c for c in cases if not c.get("goldCase")]
+        lines += [f"## {o['label']}", "", o["description"], ""]
+        if gold:
+            names = ", ".join(f"**{c['title']}**" for c in gold)
+            lines += [f"*Gold cases:* {names}", ""]
+        if comparators:
+            names = ", ".join(c["title"] for c in comparators)
+            lines += [f"*Comparators:* {names}", ""]
+        lines += ["---", ""]
+
+    return "\n".join(lines)
+
+
 def case_id_to_slug(case_id: str) -> str:
     slugs = {
         "nazi-germany": "cases/nazi-germany",
@@ -467,6 +642,17 @@ def main() -> None:
     comp_path = OUT_OUTPUTS / "case-comparison.md"
     comp_path.write_text(comparison, encoding="utf-8")
     print(f"  [pre-render] Wrote {comp_path.relative_to(PROJECT_ROOT)}")
+
+    # Theory pages
+    OUT_THEORY.mkdir(parents=True, exist_ok=True)
+    for fname, content in [
+        ("proposed-law.md", render_proposed_law()),
+        ("theory-versions.md", render_theory_versions(scores, case_meta)),
+        ("outcomes.md", render_outcomes(case_meta)),
+    ]:
+        p = OUT_THEORY / fname
+        p.write_text(content, encoding="utf-8")
+        print(f"  [pre-render] Wrote {p.relative_to(PROJECT_ROOT)}")
 
     # Cases index
     cases_index = render_cases_index(scores, counterclaims, case_meta)
