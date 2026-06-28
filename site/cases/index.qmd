@@ -2,14 +2,4 @@
 title: "Cases"
 ---
 
-::: {.callout-warning}
-Draft case index.
-:::
-
-The initial spike includes twenty balanced cases and five gold-case targets.
-
-- Nazi Germany
-- Imperial Japan
-- Postwar Germany
-- Soviet Union Collapse
-- United States after Vietnam
+{{< include _generated-index.md >}}

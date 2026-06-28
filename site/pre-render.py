@@ -332,6 +332,91 @@ def render_comparison(scores: list[dict], interpretations: list[dict],
     return "\n".join(lines)
 
 
+OUTCOME_GROUPS = {
+    "sacrificial-escalation": "Sacrificial Escalation",
+    "collapse": "Collapse",
+    "hybrid-transitional": "Hybrid / Transitional",
+    "restrained-reordering": "Restrained Reordering",
+    "stagnation-frozen-pathology": "Stagnation / Frozen Pathology",
+    "absorption-transformation": "Absorption / Transformation",
+}
+
+GOLD_PAGE_SLUGS = {
+    "nazi-germany": "nazi-germany",
+    "postwar-germany": "postwar-germany",
+    "imperial-japan": "imperial-japan",
+    "soviet-union-collapse": "soviet-collapse",
+    "united-states-after-vietnam": "united-states-after-vietnam",
+}
+
+
+def render_cases_index(scores: list[dict], counterclaims: list[dict],
+                       case_meta: dict) -> str:
+    lines: list[str] = []
+
+    scored_cases = {s["caseId"] for s in scores}
+    cc_counts = {}
+    for cc in counterclaims:
+        cc_counts[cc["caseId"]] = cc_counts.get(cc["caseId"], 0) + 1
+
+    all_cases = sorted(case_meta.values(), key=lambda c: c["title"])
+    gold = [c for c in all_cases if c.get("goldCase")]
+    non_gold = [c for c in all_cases if not c.get("goldCase")]
+
+    lines += [
+        f"The workbench tracks **{len(all_cases)} cases** across six outcome categories. "
+        f"**{len(gold)} gold cases** have full evidence chains; "
+        f"the remaining {len(non_gold)} are structural comparators with counterclaims.",
+        "",
+        "## Gold Cases",
+        "",
+        "Full Source → Passage → Claim → Interpretation → Score chains.",
+        "",
+        "| Case | Outcome | Variables scored | Counterclaims |",
+        "|---|---|---|---|",
+    ]
+    for c in gold:
+        cid = c["caseId"]
+        slug = GOLD_PAGE_SLUGS.get(cid, cid)
+        n_scores = sum(1 for s in scores if s["caseId"] == cid)
+        n_cc = cc_counts.get(cid, 0)
+        lines.append(
+            f"| [{c['title']}]({slug}.qmd) "
+            f"| {title_case(c.get('outcome', ''))} "
+            f"| {n_scores} "
+            f"| {n_cc} |"
+        )
+    lines.append("")
+
+    # Non-gold cases grouped by outcome
+    lines += ["## Structural Comparators", "",
+              "Counterclaims recorded; evidence chains not yet built.", ""]
+
+    from collections import defaultdict
+    by_outcome: dict[str, list] = defaultdict(list)
+    for c in non_gold:
+        by_outcome[c.get("outcome", "unknown")].append(c)
+
+    for outcome_id, label in OUTCOME_GROUPS.items():
+        group = by_outcome.get(outcome_id, [])
+        if not group:
+            continue
+        lines += [f"### {label}", "",
+                  "| Case | Case role | Counterclaims |",
+                  "|---|---|---|"]
+        for c in sorted(group, key=lambda x: x["title"]):
+            cid = c["caseId"]
+            n_cc = cc_counts.get(cid, 0)
+            lines.append(
+                f"| {c['title']} "
+                f"| {title_case(c.get('caseSelectionRole', ''))} "
+                f"| {n_cc} |"
+            )
+        lines.append("")
+
+    return "\n".join(lines)
+
+
 def case_id_to_slug(case_id: str) -> str:
     slugs = {
         "nazi-germany": "cases/nazi-germany",
@@ -382,6 +467,12 @@ def main() -> None:
     comp_path = OUT_OUTPUTS / "case-comparison.md"
     comp_path.write_text(comparison, encoding="utf-8")
     print(f"  [pre-render] Wrote {comp_path.relative_to(PROJECT_ROOT)}")
+
+    # Cases index
+    cases_index = render_cases_index(scores, counterclaims, case_meta)
+    index_path = SITE_DIR / "cases" / "_generated-index.md"
+    index_path.write_text(cases_index, encoding="utf-8")
+    print(f"  [pre-render] Wrote {index_path.relative_to(PROJECT_ROOT)}")
 
 
 if __name__ == "__main__":
