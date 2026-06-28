@@ -2,8 +2,4 @@
 title: "Scoring Dashboard"
 ---
 
-::: {.callout-warning}
-Draft dashboard page.
-:::
-
-The JSON scoring summary is generated at `site/outputs/scoring-summary.json`.
+{{< include _generated/scoring-dashboard.md >}}
