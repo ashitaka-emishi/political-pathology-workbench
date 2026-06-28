@@ -2,10 +2,4 @@
 title: "Working Paper"
 ---
 
-::: {.callout-warning}
-Working paper draft. Not for citation as final scholarship.
-:::
-
-# Political Pathology: Research Spike Working Paper
-
-This working paper will synthesize the theory versions, evidence-chain model, scoring rubric, and initial gold cases into a reviewable scholarly draft.
+{{< include _generated/working-paper.md >}}

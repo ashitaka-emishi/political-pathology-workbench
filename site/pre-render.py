@@ -669,6 +669,330 @@ def render_outcomes(case_meta: dict) -> str:
     return "\n".join(lines)
 
 
+def render_working_paper(scores: list[dict], claims: list[dict],
+                         interpretations: list[dict], passages: list[dict],
+                         counterclaims: list[dict], case_meta: dict) -> str:
+    sl = load_theory("sacrifice-law-v1", "manifest.json")
+    gt = load_theory("general-theory-political-pathology-v1", "manifest.json")
+    ko = load_theory("koenigsberg-immortal-body-v1", "manifest.json")
+    sl_assumptions = load_theory("sacrifice-law-v1", "assumptions.json")
+    outcomes = load_theory("general-theory-political-pathology-v1", "outcomes.json")
+
+    proposed_law_quote = (
+        "> Every symbolic order seeks embodiment. Every embodied order tends toward "
+        "self-preservation. Unless continually ordered toward transcendent truth, "
+        "self-preservation becomes self-sacralization, and self-sacralization legitimizes "
+        "sacrifice under conditions of perceived existential threat."
+    )
+
+    by_case_var: dict[tuple, list] = defaultdict(list)
+    for s in scores:
+        by_case_var[(s["caseId"], s["variableId"])].append(s["value"])
+
+    primary_interp: dict[str, dict] = {}
+    for i in interpretations:
+        if i["caseId"] not in primary_interp:
+            primary_interp[i["caseId"]] = i
+
+    primary_claim: dict[str, dict] = {}
+    for c in claims:
+        if c["caseId"] not in primary_claim:
+            primary_claim[c["caseId"]] = c
+
+    lines: list[str] = [
+        "::: {.callout-warning}",
+        "Working paper skeleton. Not for citation as final scholarship. "
+        "All evidence chains are provisional and under source review.",
+        ":::",
+        "",
+
+        # Abstract
+        "## Abstract",
+        "",
+        "Political orders do not merely organize power — they embody symbolic structures "
+        "that define collective identity, legitimate sacrifice, and resist correction. "
+        "This working paper presents a traceable comparative framework for analyzing "
+        "political pathology: the condition in which an embodied symbolic order preserves "
+        "itself at the expense of truth, human flourishing, and corrigibility. "
+        "The framework introduces a proposed law governing the self-preservation dynamics "
+        "of symbolic orders, a six-outcome taxonomy, and a structured evidence-chain model "
+        "in which every interpretive claim is traceable to specific passages, sources, and "
+        "scoring rationales. Five gold cases — Nazi Germany, Imperial Japan, Postwar Germany, "
+        "the Soviet Union, and the United States after Vietnam — are analyzed to test the "
+        "framework against historical evidence and competing explanations. "
+        "All scores and interpretations are provisional research scaffolds subject to "
+        "source verification and intercoder review.",
+        "",
+
+        # Introduction
+        "## Introduction",
+        "",
+        "Political orders fail — but the manner and trajectory of failure vary. "
+        "Some escalate sacrificial demands until the order collapses under the weight of "
+        "its own sacred logic. Others arrest the pathological dynamic through constitutional "
+        "design, anti-sacrificial memory, or institutional corrigibility. "
+        "Still others stagnate in frozen self-preservation without resolution.",
+        "",
+        "Existing comparative frameworks attend to institutional structure, elite incentives, "
+        "cultural variables, and historical contingency. This project adds a complementary "
+        "lens: the symbolic dynamics by which an order's self-preservation drive becomes "
+        "self-sacralization, and self-sacralization legitimizes sacrifice. "
+        "The central claim is that political pathology is not reducible to bad policy, "
+        "failed leadership, or material constraint — it follows a traceable symbolic logic "
+        "that can be scored, compared, and theorized.",
+        "",
+        "The workbench that supports this analysis is designed for corrigibility: "
+        "every interpretive step is linked to a source, passage, claim, and scored "
+        "interpretation, so that competing evidence can be entered, weighted, and "
+        "checked against the theory's predictions. The goal is not to produce a "
+        "finished comparative account but a reviewable scaffold.",
+        "",
+
+        # Theory
+        "## Theory",
+        "",
+        "### The Proposed Law",
+        "",
+        proposed_law_quote,
+        "",
+        f"*— {sl['title']}, {sl['version']}*",
+        "",
+        "The proposed law identifies a default dynamic in embodied symbolic orders. "
+        "It does not claim determinism: the dynamic can be interrupted by corrigibility, "
+        "pluralist resistance, constitutional design, or anti-sacrificial memory. "
+        "The five gold cases were selected to test where and how interruption occurs.",
+        "",
+        "### Component Theories",
+        "",
+        f"**{gt['title']}** ({gt['version']}): {gt['description']}",
+        "",
+        f"**{ko['title']}** ({ko['version']}): {ko['description']} "
+        "The key variable is whether mortal individuals are symbolically linked to an "
+        "enduring collective body whose continuation gives meaning to death.",
+        "",
+        f"**{sl['title']}** ({sl['version']}): {sl['description']} "
+        "Key assumptions:",
+        "",
+    ]
+    for a in sl_assumptions:
+        lines.append(f"- {a['text']}")
+    lines += [
+        "",
+        "### Outcome Taxonomy",
+        "",
+        "The theory distinguishes six outcome types based on how an embodied symbolic "
+        "order responds when its self-preservation drive encounters crisis pressure:",
+        "",
+        "| Outcome | Description |",
+        "|---|---|",
+    ]
+    for o in outcomes:
+        lines.append(f"| **{o['label']}** | {o['description']} |")
+    lines += [
+        "",
+
+        # Methods
+        "## Methods",
+        "",
+        "### Evidence Chain Model",
+        "",
+        "The workbench models every claim as a traceable relationship:",
+        "",
+        "```",
+        "Source → Passage → Claim → Interpretation → Variable Score",
+        "             → Case Assessment → Theory Evaluation → Publication Artifact",
+        "```",
+        "",
+        "Each step carries required metadata: source citation, locator, evidence role, "
+        "review status, confidence value, uncertainty factors, and definition references. "
+        "See [Traceable Epistemic Model](epistemic-model.qmd).",
+        "",
+        "### Scoring",
+        "",
+        "Variables are scored 0–5. Scores require `confidence.value`, `confidence.label`, "
+        "`confidence.rationale`, `reviewStatus`, `definitionRefs`, and `codebookVersion`. "
+        "Current core variables: Symbolic Order Strength, Sacralization, "
+        "Collective Immortality, Sacred Enemy, Corrigibility, Pathology. "
+        "See [Scoring Rubric](scoring-rubric.qmd).",
+        "",
+        "### Case Selection",
+        "",
+        "Five gold cases were selected for full evidence chains:",
+        "",
+        "| Case | Outcome | Case role |",
+        "|---|---|---|",
+    ]
+    for cid in GOLD_CASES:
+        meta = case_meta.get(cid, {})
+        lines.append(
+            f"| {title_case(cid)} "
+            f"| {title_case(meta.get('outcome', ''))} "
+            f"| {title_case(meta.get('caseSelectionRole', ''))} |"
+        )
+    lines += [
+        "",
+        "Fifteen structural comparators with counterclaims test the outcome taxonomy "
+        "against contrasting cases. See [Cases Index](../cases/index.qmd).",
+        "",
+
+        # Cases
+        "## Case Analyses",
+        "",
+        "Each subsection presents the primary interpretive claim, mechanism, key passage, "
+        "and scores for one gold case, with the primary challenge counterclaim.",
+        "",
+    ]
+
+    for cid in GOLD_CASES:
+        meta = case_meta.get(cid, {})
+        interp = primary_interp.get(cid, {})
+        claim = primary_claim.get(cid, {})
+        case_scores = [s for s in scores if s["caseId"] == cid]
+        case_passages = [p for p in passages if p["caseId"] == cid]
+        case_cc = [cc for cc in counterclaims if cc["caseId"] == cid]
+
+        lines += [
+            f"### {title_case(cid)}",
+            "",
+            f"**Outcome:** {title_case(meta.get('outcome', ''))}  ",
+            f"**Primary mechanism:** {title_case(interp.get('mechanism', '—'))}  ",
+            f"**Sacrifice health:** {interp.get('sacrificeHealth', '—')}",
+            "",
+        ]
+
+        if interp.get("mechanismSummary"):
+            lines += [interp["mechanismSummary"], ""]
+
+        if claim:
+            conf = claim.get("confidence", {})
+            lines += [
+                "> " + claim["claim"],
+                "",
+                f"*Confidence: {conf.get('label', '—')} ({conf.get('value', 0):.2f}) · "
+                f"Review: `{claim.get('reviewStatus', 'draft')}`*",
+                "",
+            ]
+
+        if case_passages:
+            p = case_passages[0]
+            lines += [
+                f"**Key passage** ({p['locator']}, role: {p.get('evidenceRole', '—')}):",
+                "",
+                f"> {p['text']}",
+                "",
+            ]
+
+        if case_scores:
+            lines += ["**Scores:**", ""]
+            for s in case_scores:
+                conf = s.get("confidence", {})
+                lines.append(
+                    f"- {title_case(s['variableId'])}: "
+                    f"{score_bar(s['value'])} {s['value']}/5 "
+                    f"({conf.get('label', '—')})"
+                )
+            lines.append("")
+
+        if case_cc:
+            cc = case_cc[0]
+            lines += [
+                "::: {.callout-note appearance=\"minimal\"}",
+                f"**Challenge ({cc.get('effect', '—')}):** {cc['claim']}",
+                "",
+                f"*{cc.get('rationale', '')}*",
+                ":::",
+                "",
+            ]
+
+        lines += ["---", ""]
+
+    # Discussion
+    all_vars = sorted({s["variableId"] for s in scores})
+    var_headers = " | ".join(title_case(v) for v in all_vars)
+    var_seps = " | ".join("---" for _ in all_vars)
+
+    lines += [
+        "## Discussion",
+        "",
+        "### Cross-Case Comparison",
+        "",
+        "The five gold cases span four outcome categories and two sacrifice health "
+        "assessments (pathological, healthy, ambiguous), enabling preliminary "
+        "cross-case inference.",
+        "",
+        f"| Case | Outcome | {var_headers} | Mechanism | Sacrifice health |",
+        f"|---| --- | {var_seps} | --- | --- |",
+    ]
+    for cid in GOLD_CASES:
+        meta = case_meta.get(cid, {})
+        interp = primary_interp.get(cid, {})
+        cells = []
+        for v in all_vars:
+            vals = by_case_var.get((cid, v), [])
+            cells.append(
+                f"{score_bar(round(sum(vals)/len(vals)))} {sum(vals)/len(vals):.0f}/5"
+                if vals else "—"
+            )
+        lines.append(
+            f"| {title_case(cid)} "
+            f"| {title_case(meta.get('outcome', ''))} "
+            f"| {' | '.join(cells)} "
+            f"| {title_case(interp.get('mechanism', '—'))} "
+            f"| {interp.get('sacrificeHealth', '—')} |"
+        )
+    lines += [
+        "",
+        "### Theoretical Implications",
+        "",
+        "The Nazi Germany and Imperial Japan cases share the `collective-immortality-to-sacrifice` "
+        "mechanism, suggesting that when the symbolic order represents the collective body "
+        "as divinely or racially eternal, mortal sacrifice becomes not only tolerable but "
+        "demanded. Postwar Germany's `constitutional-containment` outcome directly "
+        "addresses this dynamic: the Grundgesetz embeds inviolable human dignity "
+        "precisely to block the sacralization of the collective at the expense of persons.",
+        "",
+        "The Soviet Union case isolates the role of corrigibility failure: the order's "
+        "inability to acknowledge systemic error until legitimacy collapse was irreversible "
+        "suggests that pathology is sustained not by sacrificial escalation alone but by "
+        "the structural suppression of corrective feedback.",
+        "",
+        "The United States after Vietnam presents an ambiguous case — memory-driven "
+        "restraint functioned as a partial corrigibility mechanism through the War Powers "
+        "Resolution, but the workbench's current chain data does not resolve whether "
+        "this represents genuine corrigibility or deferred escalation. "
+        "This ambiguity is flagged as a research priority.",
+        "",
+
+        # Conclusion
+        "## Conclusion and Limitations",
+        "",
+        "This working paper presents a scholarly scaffold, not a finished argument. "
+        "The following limitations apply:",
+        "",
+        "- **Source verification pending.** All five gold cases use passages at `draft` "
+        "or `source-review` status. No claims have reached `approved` status.",
+        "- **Single-passage claims.** Several cases rely on a single primary passage, "
+        "which the evidence standard treats as provisional unless explicitly reviewed "
+        "with confidence rationale.",
+        "- **Theory versioning.** All scores are applied under "
+        f"`{sl['theoryId']}` version `{sl['version']}`. Theory revision will require "
+        "re-scoring.",
+        "- **Comparators.** The 15 structural comparators have counterclaims but no "
+        "full evidence chains. Cross-case claims drawing on comparators are not yet "
+        "supportable at the level the framework requires.",
+        "- **Intercoder reliability.** No intercoder reliability checks have been "
+        "completed. See `docs/methodology/intercoder-reliability.md`.",
+        "",
+        "The workbench is designed so that these limitations are addressable incrementally: "
+        "each source verification, additional passage, or intercoder check improves the "
+        "evidence chain without requiring a complete reanalysis. "
+        "The framework is complete enough to be reviewed; it is not complete enough to cite.",
+        "",
+    ]
+
+    return "\n".join(lines)
+
+
 def case_id_to_slug(case_id: str) -> str:
     slugs = {
         "nazi-germany": "cases/nazi-germany",
@@ -747,6 +1071,14 @@ def main() -> None:
     index_path = SITE_DIR / "cases" / "_generated-index.md"
     index_path.write_text(cases_index, encoding="utf-8")
     print(f"  [pre-render] Wrote {index_path.relative_to(PROJECT_ROOT)}")
+
+    # Working paper
+    working_paper = render_working_paper(
+        scores, claims, interpretations, passages, counterclaims, case_meta
+    )
+    wp_path = OUT_OUTPUTS / "working-paper.md"
+    wp_path.write_text(working_paper, encoding="utf-8")
+    print(f"  [pre-render] Wrote {wp_path.relative_to(PROJECT_ROOT)}")
 
 
 if __name__ == "__main__":
