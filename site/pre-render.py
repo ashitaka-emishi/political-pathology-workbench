@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Pre-render: generate markdown chain fragments for gold case pages."""
+"""Pre-render: generate markdown fragments for gold case pages and dashboard."""
 from __future__ import annotations
 
 import json
+from collections import defaultdict
 from pathlib import Path
 
 SITE_DIR = Path(__file__).parent
 PROJECT_ROOT = SITE_DIR.parent
 GEN = PROJECT_ROOT / "data" / "generated"
 OUT = SITE_DIR / "cases" / "_chains"
+OUT_OUTPUTS = SITE_DIR / "outputs" / "_generated"
 
 GOLD_CASES = [
     "nazi-germany",
@@ -136,8 +138,93 @@ def render_case(case_id: str, meta: dict, passages: list, claims: list,
     return "\n".join(lines)
 
 
+def render_dashboard(scores: list[dict], case_meta: dict) -> str:
+    lines: list[str] = []
+
+    lines += [
+        "::: {.callout-warning}",
+        "Draft scoring dashboard. All scores are provisional and under source review.",
+        "Public availability does not imply scholarly finality.",
+        ":::",
+        "",
+        f"**{len(scores)} scores** recorded across "
+        f"**{len({s['caseId'] for s in scores})} gold cases** and "
+        f"**{len({s['variableId'] for s in scores})} variables.**",
+        "",
+    ]
+
+    # Variable averages
+    by_var: dict[str, list] = defaultdict(list)
+    for s in scores:
+        by_var[s["variableId"]].append(s["value"])
+
+    lines += ["## Variable Averages", "",
+              "| Variable | Average | N | Score bar |",
+              "|---|---|---|---|"]
+    for var_id, vals in sorted(by_var.items(), key=lambda kv: -sum(kv[1]) / len(kv[1])):
+        avg = sum(vals) / len(vals)
+        bar = score_bar(round(avg))
+        lines.append(f"| {title_case(var_id)} | {avg:.2f} | {len(vals)} | {bar} |")
+    lines.append("")
+
+    # Cross-case breakdown
+    all_vars = sorted({s["variableId"] for s in scores})
+    gold_cases = [c for c in GOLD_CASES if any(s["caseId"] == c for s in scores)]
+
+    by_case_var: dict[tuple, list] = defaultdict(list)
+    for s in scores:
+        by_case_var[(s["caseId"], s["variableId"])].append(s["value"])
+
+    var_headers = " | ".join(title_case(v) for v in all_vars)
+    var_seps = " | ".join("---" for _ in all_vars)
+    lines += [
+        "## Scores by Case", "",
+        f"| Case | {var_headers} | Outcome |",
+        f"|---| {var_seps} |---|",
+    ]
+    for case_id in gold_cases:
+        meta = case_meta.get(case_id, {})
+        cells = []
+        for v in all_vars:
+            vals = by_case_var.get((case_id, v), [])
+            if vals:
+                avg = sum(vals) / len(vals)
+                cells.append(f"{score_bar(round(avg))} {avg:.0f}/5")
+            else:
+                cells.append("—")
+        outcome = title_case(meta.get("outcome", ""))
+        lines.append(f"| {title_case(case_id)} | {' | '.join(cells)} | {outcome} |")
+    lines.append("")
+
+    # Per-case detail
+    lines += ["## Per-Case Score Detail", ""]
+    for case_id in gold_cases:
+        meta = case_meta.get(case_id, {})
+        case_scores = [s for s in scores if s["caseId"] == case_id]
+        lines += [f"### {title_case(case_id)}", "",
+                  f"**Outcome:** {title_case(meta.get('outcome', ''))}  ",
+                  f"**Case role:** {title_case(meta.get('caseSelectionRole', ''))}",
+                  "",
+                  "| Variable | Value | Confidence | Uncertainty factors | Review status |",
+                  "|---|---|---|---|---|"]
+        for s in case_scores:
+            conf = s.get("confidence", {})
+            uf = ", ".join(conf.get("uncertaintyFactors", [])) or "—"
+            lines.append(
+                f"| {title_case(s['variableId'])} "
+                f"| {score_bar(s['value'])} {s['value']}/5 "
+                f"| {conf.get('label', '—')} ({conf.get('value', 0):.2f}) "
+                f"| {uf} "
+                f"| `{s['reviewStatus']}` |"
+            )
+        lines.append("")
+
+    return "\n".join(lines)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
+    OUT_OUTPUTS.mkdir(parents=True, exist_ok=True)
 
     summary_path = SITE_DIR / "data" / "workbench-summary.json"
     summary = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {"cases": []}
@@ -162,6 +249,12 @@ def main() -> None:
         out_path = OUT / f"{case_id}.md"
         out_path.write_text(content, encoding="utf-8")
         print(f"  [pre-render] Wrote {out_path.relative_to(PROJECT_ROOT)}")
+
+    # Dashboard
+    dashboard = render_dashboard(scores, case_meta)
+    dash_path = OUT_OUTPUTS / "scoring-dashboard.md"
+    dash_path.write_text(dashboard, encoding="utf-8")
+    print(f"  [pre-render] Wrote {dash_path.relative_to(PROJECT_ROOT)}")
 
 
 if __name__ == "__main__":
