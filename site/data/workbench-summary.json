@@ -1,10 +1,10 @@
 {
   "status": "draft-research-spike",
-  "generatedAt": "2026-06-25T20:00:37.488Z",
+  "generatedAt": "2026-06-28T02:28:50.793Z",
   "caseCount": 20,
   "theoryCount": 3,
-  "scoreCount": 2,
-  "counterclaimCount": 1,
+  "scoreCount": 6,
+  "counterclaimCount": 20,
   "cases": [
     {
       "caseId": "american-civil-war-union",

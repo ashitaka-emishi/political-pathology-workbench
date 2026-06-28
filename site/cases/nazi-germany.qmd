@@ -2,16 +2,4 @@
 title: "Nazi Germany"
 ---
 
-::: {.callout-warning}
-Draft gold case. Evidence text includes placeholders pending verified public-domain source passages.
-:::
-
-Nazi Germany is the first thin end-to-end case for the workbench.
-
-Current chain:
-
-Source -> Passage -> Claim -> Interpretation -> Score
-
-Variable: Collective Immortality  
-Provisional score: 3 / 5  
-Review status: argument-review
+{{< include _chains/nazi-germany.md >}}

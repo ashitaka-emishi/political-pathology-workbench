@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: pre-render.py
 
 website:
   title: "Political Pathology Workbench"
