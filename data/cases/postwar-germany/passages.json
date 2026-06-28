@@ -19,4 +19,15 @@
     "reviewStatus": "source-review",
     "publicationStatus": "draft"
   }
+,
+  {
+    "passageId": "postwar-germany-passage-003",
+    "caseId": "postwar-germany",
+    "sourceId": "adenauer-regierungserklaerung-1949",
+    "locator": "Regierungserklärung des Bundeskanzlers, Konrad Adenauer, 20 September 1949; in Verhandlungen des Deutschen Bundestages, 1. Wahlperiode, 5. Sitzung, p. 22; English translation in Adenauer, Konrad, Memoirs 1945–53 (London: Weidenfeld & Nicolson, 1966)",
+    "text": "The Federal Government is determined to maintain democracy and to defend it against all attacks. It will act in accordance with the principles of the rule of law, which is the foundation of a free state.",
+    "evidenceRole": "corroboration",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft"
+  }
 ]
