@@ -12,6 +12,8 @@ GEN = PROJECT_ROOT / "data" / "generated"
 OUT = SITE_DIR / "cases" / "_chains"
 OUT_OUTPUTS = SITE_DIR / "outputs" / "_generated"
 OUT_THEORY = SITE_DIR / "theory" / "_generated"
+OUT_METHODS = SITE_DIR / "methods" / "_generated"
+DOCS_METHODOLOGY = PROJECT_ROOT / "docs" / "methodology"
 
 THEORY_IDS = [
     "sacrifice-law-v1",
@@ -424,6 +426,38 @@ def render_cases_index(scores: list[dict], counterclaims: list[dict],
     return "\n".join(lines)
 
 
+def load_doc(filename: str) -> str:
+    path = DOCS_METHODOLOGY / filename
+    return path.read_text(encoding="utf-8").strip() if path.exists() else ""
+
+
+def render_core_definitions() -> str:
+    raw = load_doc("core-definitions.md")
+    # Strip the H1 title — the page title comes from the .qmd frontmatter
+    body = "\n".join(raw.splitlines()[2:]).strip()
+    return "\n".join([
+        "::: {.callout-warning}",
+        "Draft. Definitions are provisional and subject to revision.",
+        ":::",
+        "",
+        body,
+        "",
+    ])
+
+
+def render_scoring_rubric() -> str:
+    raw = load_doc("scoring-codebook.md")
+    body = "\n".join(raw.splitlines()[2:]).strip()
+    return "\n".join([
+        "::: {.callout-warning}",
+        "Draft scoring codebook. All scores and variable definitions are provisional.",
+        ":::",
+        "",
+        body,
+        "",
+    ])
+
+
 def load_theory(theory_id: str, filename: str) -> object:
     path = PROJECT_ROOT / "theories" / theory_id / filename
     if not path.exists():
@@ -642,6 +676,16 @@ def main() -> None:
     comp_path = OUT_OUTPUTS / "case-comparison.md"
     comp_path.write_text(comparison, encoding="utf-8")
     print(f"  [pre-render] Wrote {comp_path.relative_to(PROJECT_ROOT)}")
+
+    # Methods pages
+    OUT_METHODS.mkdir(parents=True, exist_ok=True)
+    for fname, content in [
+        ("core-definitions.md", render_core_definitions()),
+        ("scoring-rubric.md", render_scoring_rubric()),
+    ]:
+        p = OUT_METHODS / fname
+        p.write_text(content, encoding="utf-8")
+        print(f"  [pre-render] Wrote {p.relative_to(PROJECT_ROOT)}")
 
     # Theory pages
     OUT_THEORY.mkdir(parents=True, exist_ok=True)
