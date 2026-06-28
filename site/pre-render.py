@@ -458,6 +458,49 @@ def render_scoring_rubric() -> str:
     ])
 
 
+def render_epistemic_model() -> str:
+    model_raw = load_doc("traceable-epistemic-model.md")
+    standards_raw = load_doc("evidence-standards.md")
+    cc_raw = load_doc("counterevidence.md")
+
+    model_body = "\n".join(model_raw.splitlines()[2:]).strip()
+    standards_body = "\n".join(standards_raw.splitlines()[2:]).strip()
+    cc_body = "\n".join(cc_raw.splitlines()[2:]).strip()
+
+    review_chain = (
+        "`draft` → `source-review` → `evidence-review` → `argument-review` "
+        "→ `score-review` → `human-reviewed` → `approved`"
+    )
+
+    return "\n".join([
+        "::: {.callout-warning}",
+        "Draft methods page. Epistemic model and evidence standards are provisional.",
+        ":::",
+        "",
+        model_body,
+        "",
+        "## Review Status Chain",
+        "",
+        "Every record in the evidence chain carries a `reviewStatus` field. "
+        "The allowed progression is:",
+        "",
+        review_chain,
+        "",
+        "A `rejected` status terminates a record without promotion. "
+        "AI-generated claims and scores must reach `human-reviewed` or `approved` "
+        "before appearing on public-facing pages.",
+        "",
+        "## Evidence Standards",
+        "",
+        standards_body,
+        "",
+        "## Counterclaim Integration",
+        "",
+        cc_body,
+        "",
+    ])
+
+
 def load_theory(theory_id: str, filename: str) -> object:
     path = PROJECT_ROOT / "theories" / theory_id / filename
     if not path.exists():
@@ -682,6 +725,7 @@ def main() -> None:
     for fname, content in [
         ("core-definitions.md", render_core_definitions()),
         ("scoring-rubric.md", render_scoring_rubric()),
+        ("epistemic-model.md", render_epistemic_model()),
     ]:
         p = OUT_METHODS / fname
         p.write_text(content, encoding="utf-8")
