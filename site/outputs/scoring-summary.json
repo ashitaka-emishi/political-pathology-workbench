@@ -1,10 +1,15 @@
 {
-  "scoreCount": 2,
+  "scoreCount": 6,
   "caseAverages": {
-    "nazi-germany": 4.0
+    "imperial-japan": 5.0,
+    "nazi-germany": 4.0,
+    "postwar-germany": 4.0,
+    "soviet-union-collapse": 2.0,
+    "united-states-after-vietnam": 3.0
   },
   "variableAverages": {
     "collective-immortality": 3.0,
-    "symbolic-order-strength": 5.0
+    "corrigibility": 3.5,
+    "symbolic-order-strength": 4.0
   }
 }
