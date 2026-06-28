@@ -222,6 +222,127 @@ def render_dashboard(scores: list[dict], case_meta: dict) -> str:
     return "\n".join(lines)
 
 
+def render_comparison(scores: list[dict], interpretations: list[dict],
+                      counterclaims: list[dict], case_meta: dict) -> str:
+    lines: list[str] = []
+
+    lines += [
+        "::: {.callout-warning}",
+        "Draft case comparison. All evidence is provisional and under source review.",
+        "Public availability does not imply scholarly finality.",
+        ":::",
+        "",
+        "Comparison of the five gold cases across outcome, scored variables, "
+        "primary mechanism, and challenge counterclaims.",
+        "",
+    ]
+
+    # Summary comparison table
+    all_vars = sorted({s["variableId"] for s in scores})
+    by_case_var: dict[tuple, list] = defaultdict(list)
+    for s in scores:
+        by_case_var[(s["caseId"], s["variableId"])].append(s["value"])
+
+    primary_interp: dict[str, dict] = {}
+    for i in interpretations:
+        if i["caseId"] not in primary_interp:
+            primary_interp[i["caseId"]] = i
+
+    var_headers = " | ".join(title_case(v) for v in all_vars)
+    var_seps = " | ".join("---" for _ in all_vars)
+    lines += [
+        "## Summary",
+        "",
+        f"| Case | Outcome | {var_headers} | Primary mechanism | Sacrifice health |",
+        f"|---| --- | {var_seps} | --- | --- |",
+    ]
+    for case_id in GOLD_CASES:
+        meta = case_meta.get(case_id, {})
+        cells = []
+        for v in all_vars:
+            vals = by_case_var.get((case_id, v), [])
+            cells.append(f"{score_bar(round(sum(vals)/len(vals)))} {sum(vals)/len(vals):.0f}/5" if vals else "—")
+        interp = primary_interp.get(case_id, {})
+        mechanism = title_case(interp.get("mechanism", "—"))
+        health = interp.get("sacrificeHealth", "—")
+        lines.append(
+            f"| [{title_case(case_id)}](../{case_id_to_slug(case_id)}) "
+            f"| {title_case(meta.get('outcome', ''))} "
+            f"| {' | '.join(cells)} "
+            f"| {mechanism} "
+            f"| {health} |"
+        )
+    lines.append("")
+
+    # Per-case narrative rows
+    lines += ["## Case Profiles", ""]
+    for case_id in GOLD_CASES:
+        meta = case_meta.get(case_id, {})
+        interp = primary_interp.get(case_id, {})
+        case_scores = [s for s in scores if s["caseId"] == case_id]
+        case_cc = [cc for cc in counterclaims if cc["caseId"] == case_id]
+
+        lines += [
+            f"### {title_case(case_id)}",
+            "",
+            f"| | |",
+            f"|---|---|",
+            f"| **Outcome** | {title_case(meta.get('outcome', ''))} |",
+            f"| **Case role** | {title_case(meta.get('caseSelectionRole', ''))} |",
+            f"| **Primary mechanism** | {title_case(interp.get('mechanism', '—'))} |",
+            f"| **Sacrifice health** | {interp.get('sacrificeHealth', '—')} |",
+            f"| **Boundedness** | {interp.get('sacrificeBoundedness', '—')} |",
+        ]
+        if interp.get("sacrificeForm"):
+            lines.append(f"| **Sacrifice forms** | {', '.join(interp['sacrificeForm'])} |")
+        lines.append("")
+
+        if interp.get("mechanismSummary"):
+            lines += [f"*{interp['mechanismSummary']}*", ""]
+
+        if interp.get("alternativeMechanisms"):
+            alts = ", ".join(title_case(m) for m in interp["alternativeMechanisms"])
+            lines += [f"**Alternative mechanisms considered:** {alts}", ""]
+
+        if case_scores:
+            lines += ["**Scores:**", ""]
+            for s in case_scores:
+                conf = s.get("confidence", {})
+                lines.append(
+                    f"- {title_case(s['variableId'])}: "
+                    f"{score_bar(s['value'])} {s['value']}/5 "
+                    f"({conf.get('label', '—')}, {conf.get('value', 0):.2f})"
+                )
+            lines.append("")
+
+        if case_cc:
+            lines += ["**Key challenge:**", ""]
+            cc = case_cc[0]
+            lines += [
+                f"::: {{.callout-note appearance=\"minimal\"}}",
+                f"**Effect:** {cc.get('effect', '—')}",
+                "",
+                cc["claim"],
+                ":::",
+                "",
+            ]
+
+        lines += ["---", ""]
+
+    return "\n".join(lines)
+
+
+def case_id_to_slug(case_id: str) -> str:
+    slugs = {
+        "nazi-germany": "cases/nazi-germany",
+        "postwar-germany": "cases/postwar-germany",
+        "imperial-japan": "cases/imperial-japan",
+        "soviet-union-collapse": "cases/soviet-collapse",
+        "united-states-after-vietnam": "cases/united-states-after-vietnam",
+    }
+    return slugs.get(case_id, f"cases/{case_id}")
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     OUT_OUTPUTS.mkdir(parents=True, exist_ok=True)
@@ -255,6 +376,12 @@ def main() -> None:
     dash_path = OUT_OUTPUTS / "scoring-dashboard.md"
     dash_path.write_text(dashboard, encoding="utf-8")
     print(f"  [pre-render] Wrote {dash_path.relative_to(PROJECT_ROOT)}")
+
+    # Case comparison
+    comparison = render_comparison(scores, interpretations, counterclaims, case_meta)
+    comp_path = OUT_OUTPUTS / "case-comparison.md"
+    comp_path.write_text(comparison, encoding="utf-8")
+    print(f"  [pre-render] Wrote {comp_path.relative_to(PROJECT_ROOT)}")
 
 
 if __name__ == "__main__":
