@@ -1,0 +1,51 @@
+[
+  {
+    "corpusId": "lincoln-deep-28",
+    "corpusName": "Lincoln Deep Corpus (28-document core set)",
+    "corpusType": "deep-case",
+    "originModuleId": "lincoln-metaphor-analysis",
+    "caseIds": ["american-civil-war-union"],
+    "documentCount": 28,
+    "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), selected for full annotation in lincoln-metaphor-analysis. Validation and reference tiers are tracked as separate future corpus records once imported.",
+    "corpusPurpose": "core",
+    "rightsStatus": "fair-use",
+    "normalizationStatus": "pending",
+    "segmentationStatus": "pending",
+    "annotationStatus": "pending",
+    "reliabilityStatus": "pending",
+    "claimPromotionStatus": "not-started",
+    "sourceIssueMigrationStatus": "in-progress",
+    "sourceIssueRefs": [
+      "github:ashitaka-emishi/political-pathology-workbench#195",
+      "github:ashitaka-emishi/political-pathology-workbench#196",
+      "github:ashitaka-emishi/political-pathology-workbench#197",
+      "github:ashitaka-emishi/political-pathology-workbench#198"
+    ],
+    "notes": "Corpus document metadata and raw text import planned for Milestones 15-16 (see docs/architecture/imported-projects.md). No documents imported yet as of Milestone 14; this record establishes the registry entry ahead of import."
+  },
+  {
+    "corpusId": "sacrifice-law-comparative-41",
+    "corpusName": "Sacrifice Law Comparative Corpus (41-document set)",
+    "corpusType": "comparative",
+    "originModuleId": "sacrifice-law-workbench",
+    "caseIds": ["american-civil-war-union", "nazi-germany"],
+    "documentCount": 41,
+    "samplingFrame": "41-document stratified corpus spanning American Revolution, Napoleonic, Lincoln, and Nazi-era cases under Koenigsberg's Law of Sacrifice, selected via the sacrifice-law-workbench manifest-driven pipeline.",
+    "corpusPurpose": "core",
+    "rightsStatus": "fair-use",
+    "normalizationStatus": "pending",
+    "segmentationStatus": "pending",
+    "annotationStatus": "pending",
+    "reliabilityStatus": "pending",
+    "claimPromotionStatus": "not-started",
+    "sourceIssueMigrationStatus": "in-progress",
+    "sourceIssueRefs": [
+      "github:ashitaka-emishi/political-pathology-workbench#149",
+      "github:ashitaka-emishi/political-pathology-workbench#150",
+      "github:ashitaka-emishi/political-pathology-workbench#151",
+      "github:ashitaka-emishi/political-pathology-workbench#154",
+      "github:ashitaka-emishi/political-pathology-workbench#192"
+    ],
+    "notes": "American Revolution and Napoleon cases do not yet have corresponding PPW case files; case mapping must be confirmed (PPW #149-#151) before their corpus subsets are imported. Corpus import planned for Milestone 17. No documents imported yet as of Milestone 14."
+  }
+]
