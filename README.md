@@ -1,5 +1,7 @@
 # Political Pathology Workbench
 
+**Site:** [ashitaka-emishi.github.io/political-pathology-workbench](https://ashitaka-emishi.github.io/political-pathology-workbench/)
+
 > Status: active research spike. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
 
 The Political Pathology Workbench is a research platform for studying how symbolic orders become embodied in institutions, how those institutions respond to crisis, and when they generate sacrifice, violence, reform, collapse, transformation, or stagnation.
