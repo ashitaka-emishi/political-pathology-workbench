@@ -1,0 +1,175 @@
+---
+title: "Glossary"
+---
+
+::: {.callout-note}
+Definitions are provisional research scaffolds. Core terms will be refined as evidence chains accumulate and intercoder review proceeds.
+:::
+
+Key terms used in the Political Pathology Workbench. Each entry is self-contained for readers navigating directly to an anchor. Terms with `{#anchor}` ids are linkable from other pages.
+
+---
+
+## Sacred Political Order {#sacred-political-order}
+
+A durable structure of shared meaning organized around **sacred objects, values, or persons** — things whose violation is collectively experienced as desecration, not merely harm. A sacred political order defines collective identity, legitimates authority, organizes memory and moral judgment, and specifies the goods for which members may be asked to sacrifice.
+
+The term builds on Durkheim's sacred/profane distinction: what a political order treats as sacred (a leader, a race, a constitution, a revolutionary cause, a national memory) determines the shape of its sacrifice demands and the limits of its corrigibility. The diagnostic marker is disproportionate collective outrage at violation — responses that exceed what practical harm would justify.
+
+**Why not "civil religion"?** Bellah's civil religion is tied to American democratic symbolism. **Why not "moral order"?** Moral order (Durkheim, Robertson Smith) does not specify the political and institutional dimensions that generate sacrifice demands. **Why not "symbolic order"?** Accurate but does not foreground the sacred-object relationship (the term this workbench formerly used).
+
+*See also:* [Sacralization](#sacralization), [Embodied Institutional Order](#embodied-institutional-order), [Sacred Political Order Strength](#sacred-political-order-strength)
+
+---
+
+## Sacred Political Order Strength {#sacred-political-order-strength}
+
+A 0–5 score measuring the degree to which a [sacred political order](#sacred-political-order) coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice around its sacred objects.
+
+| Score | Meaning |
+|---:|---|
+| 0 | No coherent collective order identifiable |
+| 1 | Weak or temporary; sacred objects have limited authority |
+| 2 | Shared identity exists but limited authority over persons |
+| 3 | Durable order; remains limited and corrigible |
+| 4 | Strong; meaningful sacrifice expected |
+| 5 | Totalizing; defines ultimate loyalty, enemyhood, and terms of death or conscience surrender |
+
+Scores of 4 or 5 require evidence of **obligation or sacrifice**, not merely visible symbols.
+
+*See also:* [Sacred Political Order](#sacred-political-order), [Corrigibility](#corrigibility), [Sacrifice](#sacrifice)
+
+---
+
+## Corrigibility {#corrigibility}
+
+The capacity of an embodied order to **receive criticism, acknowledge error, revise itself, limit its own power, and repair harm** without treating correction as existential threat.
+
+Corrigibility is the critical variable distinguishing pathological escalation from healthy sacrifice: high-strength orders can be non-pathological if they retain corrigibility (see Postwar Germany, cor=4–5); low-corrigibility orders tend toward escalation or collapse regardless of other variables.
+
+**Corrigibility is not the same as weakness.** A corrigible order can be strong and demanding — it simply retains the capacity to acknowledge when those demands have become disproportionate and adjust course before reaching irreversible escalation.
+
+| Score | Meaning |
+|---:|---|
+| 0 | Correction is constitutionally prohibited |
+| 1 | No functional correction mechanism; dissent is treasonous |
+| 2 | Nominal correction channels exist but cannot function under crisis |
+| 3 | Partial corrigibility; present but structurally reversible |
+| 4 | High corrigibility; institutional mechanisms functioning |
+| 5 | Maximum corrigibility; order architecturally incapable of eliminating dissent |
+
+*See also:* [Pathology](#pathology), [Sacred Political Order Strength](#sacred-political-order-strength), [Constitutional Containment](#constitutional-containment)
+
+---
+
+## Constitutional Containment {#constitutional-containment}
+
+A corrigibility mechanism in which the political order's foundational document places limits on the order's own capacity for pathological escalation — most strongly, by protecting individual dignity or dissent rights from amendment. The clearest case is the Grundgesetz: Art. 1(1) makes human dignity unamendable; Art. 79(3) makes Art. 1(1) unamendable; Art. 20(4) gives citizens a right to resist abolition of the democratic order.
+
+Constitutional containment is the most stable form of corrigibility in the dataset because it converts the memory of pathological failure into a positive legal right rather than leaving it as political norm.
+
+*See also:* [Corrigibility](#corrigibility), [Memory-Driven Restraint](#memory-driven-restraint)
+
+---
+
+## Memory-Driven Restraint {#memory-driven-restraint}
+
+A corrigibility mechanism in which collective memory of past pathological failure restrains the present order's sacrifice demands or enemy-construction. Distinguished from [constitutional containment](#constitutional-containment) by being politically rather than legally grounded — it can be reversed by a sufficiently strong counter-narrative (see: Reagan's "overcome the Vietnam syndrome").
+
+The US after Vietnam (cor=3) demonstrates memory-driven restraint in its partial form: the War Powers Resolution and Weinberger Doctrine both encoded Vietnam memory as institutional constraint, but neither proved durable under subsequent symbolic mobilization.
+
+*See also:* [Corrigibility](#corrigibility), [Constitutional Containment](#constitutional-containment)
+
+---
+
+## Pathology {#pathology}
+
+A maladaptive condition in which an embodied sacred political order **preserves itself at the expense of truth, correction, personhood, and human flourishing**.
+
+Pathology is not simply hierarchy, authority, ritual, sacrifice, or strong identity — these are normal features of any political order. Pathology emerges when the order becomes **self-protective, self-sacralizing, closed to correction, enemy-oriented, and willing to consume persons for its own continuation**.
+
+The threshold test: is the order willing to treat persons as material for its own survival, and does it suppress correction to prevent that fact from being acknowledged?
+
+*See also:* [Sacralization](#sacralization), [Corrigibility](#corrigibility), [Sacrifice](#sacrifice), [Personhood](#personhood)
+
+---
+
+## Sacralization {#sacralization}
+
+The elevation of a sacred political order, institution, leader, people, cause, memory, or territory into an **object of ultimate concern** whose preservation is treated as morally non-negotiable.
+
+Ordinary respect, patriotism, reverence, tradition, ritual, or solemn memory are not enough. The key test is whether **preservation becomes morally non-negotiable and resistant to correction** — whether challenging the object triggers collective outrage disproportionate to practical harm.
+
+*See also:* [Sacred Political Order](#sacred-political-order), [Sacred Enemy](#sacred-enemy), [Pathology](#pathology)
+
+---
+
+## Sacred Enemy {#sacred-enemy}
+
+An opponent represented not merely as a rival, competitor, or threat, but as a **contaminating, existential, or morally absolute danger** to the sacred political order.
+
+Sacred enemy construction is a key escalation mechanism: it converts practical political conflict into cosmological struggle, making compromise impossible (any compromise contaminates the order) and unlimited sacrifice obligatory (the threat is absolute). The US post-9/11 binary ("with us or with the terrorists") and Nazi Germany's racial-enemy construction both demonstrate this mechanism.
+
+*See also:* [Sacralization](#sacralization), [Collective Immortality](#collective-immortality), [Pathology](#pathology)
+
+---
+
+## Collective Immortality {#collective-immortality}
+
+The symbolic process by which mortal individuals experience **participation in an enduring collective body** that appears to survive beyond their own deaths.
+
+Collective immortality is not merely group identity — it is group identity that symbolically mitigates mortality through imagined collective endurance. When a sacred political order encodes the collective body as racially or divinely eternal (as in Nazi Germany's Volksgemeinschaft or Imperial Japan's kokutai), individual mortal sacrifice becomes not only tolerable but demanded as participation in the eternal body.
+
+*See also:* [Sacred Enemy](#sacred-enemy), [Sacrifice](#sacrifice), [Sacralization](#sacralization)
+
+---
+
+## Sacrifice {#sacrifice}
+
+The costly surrender of some human good for the sake of a perceived higher good. The surrendered good may include time, body, health, conscience, freedom, speech, family, agency, life, or moral innocence.
+
+**Healthy sacrifice** is bounded, proportionate, truthful, corrigible, and ordered toward life. It is made voluntarily on behalf of genuine goods, and the order that requests it can acknowledge when the demand has become disproportionate.
+
+**Pathological sacrifice** is coerced, concealed, unbounded, self-mutilating, or ordered toward preserving the sacred political order at the expense of persons. The diagnostic markers: the order cannot acknowledge the sacrifice as sacrifice, demands escalate without ceiling, and persons who resist are treated as enemies.
+
+*See also:* [Pathology](#pathology), [Collective Immortality](#collective-immortality), [Personhood](#personhood), [Sacred Political Order Strength](#sacred-political-order-strength)
+
+---
+
+## Embodied Institutional Order {#embodied-institutional-order}
+
+The material, organizational, procedural, and bodily form through which a [sacred political order](#sacred-political-order) gains the capacity to act.
+
+Embodiment includes institutions, practices, roles, rituals, laws, offices, technologies, spaces, and bodies. It is what converts a structure of shared meaning into a structure capable of demanding sacrifice, suppressing correction, mobilizing enemies, and reproducing itself across generations. A sacred political order without embodiment is a cultural artifact; a sacred political order with embodiment is a political force.
+
+*See also:* [Sacred Political Order](#sacred-political-order), [Pathology](#pathology)
+
+---
+
+## Personhood {#personhood}
+
+The human being as a **moral, embodied, relational, truth-capable, conscience-bearing subject** who must not be reduced to material for preserving an order.
+
+Personhood is the value that pathological sacrifice violates: the treatment of persons as expendable raw material for the order's continuation is the defining marker of political pathology. The test is whether the order acknowledges persons as ends in themselves or treats them as instruments of collective survival.
+
+*See also:* [Pathology](#pathology), [Sacrifice](#sacrifice), [Human Flourishing](#human-flourishing)
+
+---
+
+## Human Flourishing {#human-flourishing}
+
+The conditions under which persons can **live truthfully, relationally, bodily, morally, and meaningfully** without being consumed by the systems they sustain.
+
+Human flourishing is the positive reference point against which pathology is measured. An order that promotes human flourishing is not necessarily pathological even when it demands sacrifice — if the sacrifice is bounded, proportionate, truthful, and corrigible.
+
+*See also:* [Personhood](#personhood), [Pathology](#pathology), [Sacrifice](#sacrifice)
+
+---
+
+## Symbolic Field {#symbolic-field}
+
+The broad background of human meaning within which persons and communities live — cultural, linguistic, ritual, economic, familial, religious, and social meanings.
+
+The symbolic field is the unit of analysis's context, not the unit of analysis itself. The workbench analyzes [sacred political orders](#sacred-political-order) *within* symbolic fields. Not every feature of a symbolic field constitutes a sacred political order.
+
+*See also:* [Sacred Political Order](#sacred-political-order)
