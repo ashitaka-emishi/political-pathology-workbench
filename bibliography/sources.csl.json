@@ -361,5 +361,79 @@
       ]
     },
     "note": "Read to the French Chambers by the Minister of Justice, 4 August 1914. English translation at https://www.firstworldwar.com/source/poincare_aug1914.htm and https://wwi.lib.byu.edu/index.php/President_Poincar%C3%A9s_War_Message"
+  },
+  {
+    "id": "csa-constitution-1861",
+    "type": "legislation",
+    "title": "Constitution of the Confederate States of America",
+    "issued": {
+      "date-parts": [
+        [
+          1861,
+          3,
+          11
+        ]
+      ]
+    },
+    "note": "Adopted 11 March 1861. Public domain. Full text at Avalon Project, Yale Law School: https://avalon.law.yale.edu/19th_century/csa_csa.asp"
+  },
+  {
+    "id": "stephens-cornerstone-speech-1861",
+    "type": "speech",
+    "title": "Cornerstone Speech",
+    "author": [
+      {
+        "family": "Stephens",
+        "given": "Alexander H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1861,
+          3,
+          21
+        ]
+      ]
+    },
+    "note": "Delivered at the Athenaeum, Savannah, Georgia, 21 March 1861. Transcribed in Savannah Republican; public domain. Available at https://www.battlefields.org/learn/primary-sources/cornerstone-speech and https://teachingamericanhistory.org/document/the-corner-stone-speech/"
+  },
+  {
+    "id": "vegetius-de-re-militari-c390",
+    "type": "book",
+    "title": "De Re Militari (Epitoma Rei Militaris)",
+    "author": [
+      {
+        "family": "Vegetius",
+        "given": "Flavius"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          390
+        ]
+      ]
+    },
+    "note": "Written c. 390 AD. Public domain. English translation by Lt. John Clarke (1767) available at Internet Archive: https://archive.org/details/bim_eighteenth-century_de-re-militari-english_vegetius-renatus-flaviu_1767"
+  },
+  {
+    "id": "augustine-city-of-god-413",
+    "type": "book",
+    "title": "City of God (De Civitate Dei)",
+    "author": [
+      {
+        "family": "Augustine",
+        "given": "of Hippo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          413
+        ]
+      ]
+    },
+    "note": "Written 413–426 AD. Public domain. Marcus Dods English translation available at New Advent: https://www.newadvent.org/fathers/1201.htm"
   }
 ]

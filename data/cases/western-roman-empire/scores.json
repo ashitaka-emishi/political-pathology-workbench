@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "western-roman-empire-score-001",
+    "caseId": "western-roman-empire",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "western-roman-empire-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.55,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order-strength score reflects the peak Roman order, not its terminal phase. The passages document the order at decay onset rather than at full strength; the score applies to the order's historical maximum, with the collapse trajectory requiring separate analysis. Confidence capped at low-moderate given this periodization gap.",
+      "uncertaintyFactors": ["chain-requires-expansion", "periodization-ambiguity", "peak-vs-terminal-score"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength"],
+    "codebookVersion": "v1"
+  }
+]

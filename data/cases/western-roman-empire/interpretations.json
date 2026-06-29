@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "western-roman-empire-interpretation-001",
+    "caseId": "western-roman-empire",
+    "claimIds": ["western-roman-empire-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Western Roman symbolic order had achieved maximum strength at its height through civic sacrifice, legal order, and the myth of eternal Rome. By the late fourth century, contemporary witnesses diagnosed decay: Vegetius saw military discipline collapse under peacetime complacency; Augustine, writing after the Sack of Rome (410), analyzed how Roman civic virtue had been animated by love of glory for the earthly city rather than transcendent goods — a motivation that could not sustain the symbolic order when its material conditions failed. This is a collapse case driven by institutional fragmentation rather than sacrificial escalation.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.60,
+      "label": "moderate",
+      "rationale": "Chain is thin; passages are diagnostic rather than constitutive. Score reflects the order's peak strength, not its terminal state. Pending chain expansion.",
+      "uncertaintyFactors": ["chain-requires-expansion", "periodization-ambiguity"]
+    },
+    "mechanism": "institutional-fragmentation",
+    "mechanismSummary": "Long peace eroded the military discipline sustaining the symbolic order; Augustine's analysis suggests the order's civic sacrifice logic was grounded in glory-seeking for the earthly city rather than transcendent goods, making it unable to renew itself as material conditions deteriorated.",
+    "alternativeMechanisms": ["legitimacy-collapse", "frozen-pathology"],
+    "sacrificeForm": ["labor", "time", "economic-security"],
+    "sacrificeHealth": "ambiguous",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "corrigibility", "sacrifice"],
+    "codebookVersion": "v1"
+  }
+]

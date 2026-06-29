@@ -1,4 +1,17 @@
 {
   "caseId": "confederacy",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "csa-constitution-1861",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Verified at Avalon Project, Yale Law School."
+    },
+    {
+      "sourceId": "stephens-cornerstone-speech-1861",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Extemporaneous speech transcribed by Savannah Republican; public domain. Available at American Battlefield Trust and Teaching American History."
+    }
+  ]
 }

@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "confederacy-score-001",
+    "caseId": "confederacy",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "confederacy-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "High but not maximum symbolic-order strength: the founding documents establish strong sacral logic (divine favor, racial hierarchy as natural truth), but the four-year lifespan and dependence on military success suggest the order could not fully consolidate. Score of 4 reflects high founding strength with fragility built in.",
+      "uncertaintyFactors": ["chain-requires-expansion", "collapse-not-chain-driven"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order-strength", "sacralization"],
+    "codebookVersion": "v1"
+  }
+]
