@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/corpus-artifact.schema.json",
+  "title": "Corpus Artifact",
+  "description": "A structured output produced by a pipeline step or analysis process in an evidence module. Artifacts are referenced by provenance link from PPW data files; they are not promoted to PPW claims unless they pass claim-promotion gates.",
+  "type": "object",
+  "required": [
+    "artifactId",
+    "artifactClass",
+    "originModuleId",
+    "importStatus",
+    "rightsStatus",
+    "provenanceStatus"
+  ],
+  "properties": {
+    "artifactId": {
+      "type": "string",
+      "description": "Stable kebab-case identifier for this artifact."
+    },
+    "artifactClass": {
+      "type": "string",
+      "enum": [
+        "source-metadata",
+        "normalized-text",
+        "segmentation-output",
+        "annotation-output",
+        "concordance-output",
+        "cluster-output",
+        "reliability-sample",
+        "claim-audit",
+        "generated-site",
+        "child-repo-issue"
+      ],
+      "description": "The class of pipeline artifact this record describes."
+    },
+    "originModuleId": {
+      "type": "string",
+      "description": "ID of the evidence module that produced or owns this artifact."
+    },
+    "corpusId": {
+      "type": "string",
+      "description": "Corpus registry ID this artifact belongs to."
+    },
+    "caseIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "PPW case IDs this artifact contributes to."
+    },
+    "sourceRepository": {
+      "type": "string",
+      "description": "Source repository URL or owner/repo where this artifact resides."
+    },
+    "sourceRef": {
+      "type": "string",
+      "description": "Git commit SHA, tag, or branch ref in the source repository at the time of last reference."
+    },
+    "sourcePath": {
+      "type": "string",
+      "description": "Path within the source repository where this artifact resides."
+    },
+    "importStatus": {
+      "type": "string",
+      "enum": ["referenced", "imported", "deferred", "blocked"],
+      "description": "referenced: artifact lives in source repo, linked by provenance; imported: artifact content brought into PPW data; deferred: import planned but not scheduled; blocked: import blocked pending rights or review."
+    },
+    "rightsStatus": {
+      "type": "string",
+      "enum": ["open", "fair-use", "restricted", "unknown"],
+      "description": "Copyright and rights status for this artifact."
+    },
+    "provenanceStatus": {
+      "type": "string",
+      "enum": ["full", "partial", "undocumented"],
+      "description": "Whether origin, author, and access method are fully documented for this artifact."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of what this artifact contains."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free-text notes about artifact state, known gaps, or review decisions."
+    }
+  },
+  "additionalProperties": false
+}
