@@ -18,6 +18,18 @@
       "role": "primary-grounds",
       "access": "public-domain-or-open",
       "notes": "Public domain party programme. Point 10 directly encodes collective priority over individual activity. Text widely reproduced and stable across editions."
+    },
+    {
+      "sourceId": "reichswehr-oath-1934",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Official legal instrument, public domain. English text verified at GHDI: https://germanhistorydocs.org/en/nazi-germany-1933-1945/the-reichswehr-swears-an-oath-of-allegiance-to-adolf-hitler-on-the-day-of-hindenburgs-death-august-2-1934"
+    },
+    {
+      "sourceId": "law-against-parties-1933",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Official Reich legislation, public domain. English text verified at USHMM Encyclopedia: https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties"
     }
   ]
 }

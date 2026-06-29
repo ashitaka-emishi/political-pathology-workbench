@@ -18,5 +18,25 @@
     "evidenceRole": "grounds",
     "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
+  },
+  {
+    "passageId": "nazi-germany-passage-003",
+    "caseId": "nazi-germany",
+    "sourceId": "reichswehr-oath-1934",
+    "locator": "Wehrmacht Oath of Allegiance, 2 August 1934; Law on the Allegiance of Civil Servants and Soldiers of the Armed Forces, 20 August 1934; English text verified at German History in Documents and Images (GHDI): https://germanhistorydocs.org/en/nazi-germany-1933-1945/the-reichswehr-swears-an-oath-of-allegiance-to-adolf-hitler-on-the-day-of-hindenburgs-death-august-2-1934",
+    "text": "I swear to God this holy oath, that I will offer unconditional obedience to the Führer of the German Reich and People, Adolf Hitler, the Supreme Commander of the Armed Forces, and that I am prepared as a brave soldier, to lay down my life at any time for this oath.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "nazi-germany-passage-004",
+    "caseId": "nazi-germany",
+    "sourceId": "law-against-parties-1933",
+    "locator": "Law Against the Founding of New Parties, 14 July 1933, Article 1; signed by Hitler, Frick, and Gürtner; English text verified at USHMM Encyclopedia: https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties",
+    "text": "The National Socialist German Workers Party is the only political party in Germany.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
   }
 ]
