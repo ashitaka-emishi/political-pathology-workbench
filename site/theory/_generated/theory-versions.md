@@ -34,8 +34,8 @@ A comparative theory of how embodied symbolic orders respond to crisis through s
 
 > Political pathology occurs when an embodied symbolic order begins treating its own survival as sacred and responds to crisis by demanding sacrifice, suppressing correction, collapsing, freezing, or transforming into a successor order.
 
-**Gold cases scored under this theory:** Imperial Japan, Nazi Germany, Postwar Germany, Soviet Union Collapse, United States After Vietnam
+**Gold cases scored under this theory:** American Civil War Union, British Empire To Commonwealth, Canada, Confederacy, European Union, Gandhian Indian Independence, Imperial Japan, Khmer Rouge Cambodia, Maoist China, Nazi Germany, North Korea, Post 9 11 United States, Postwar Germany, Revolutionary France, Soviet Communism, Soviet Union Collapse, Switzerland, United States After Vietnam, Western Roman Empire, World War I Nationalisms
 
-**Variables scored:** Corrigibility, Symbolic Order Strength
+**Variables scored:** Collective Immortality, Corrigibility, Symbolic Order Strength
 
 ---

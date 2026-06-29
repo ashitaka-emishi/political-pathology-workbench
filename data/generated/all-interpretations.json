@@ -1,5 +1,262 @@
 [
   {
+    "interpretationId": "american-civil-war-union-interpretation-001",
+    "caseId": "american-civil-war-union",
+    "claimIds": [
+      "american-civil-war-union-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Union symbolic order at its Civil War peak demonstrates high symbolic-order strength animated by anti-sacrificial restraint: Lincoln's Gettysburg framing directs the dead soldiers' sacrifice toward democratic re-founding rather than collective immortality through enemy annihilation, while the Second Inaugural — delivered at the moment of military victory — refuses malice and calls for charity toward the defeated. This is a hybrid case because the order required enormous sacrifice to preserve itself, yet its leading symbolic architect explicitly refused to convert that sacrifice into sacral hatred of the enemy. The result is a symbolic order that achieved high strength through bounded sacrifice, distinguishing it from escalatory cases like Nazi Germany or Khmer Rouge.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Chain thin but directly on point. Reconstruction's subsequent collapse complicates the anti-sacrificial reading; score applies to the order's peak Lincoln-era formulation.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "reconstruction-failure-complicates-anti-sacrificial-score"
+      ]
+    },
+    "mechanism": "anti-sacrificial-restraint",
+    "mechanismSummary": "At the moment of maximum symbolic power (military victory), Lincoln redirected the war's moral energy away from enemy-destruction and toward healing, refusing the escalatory logic available to him — a deliberate anti-sacrificial framing that distinguishes the Union case from pathological comparators.",
+    "alternativeMechanisms": [
+      "collective-immortality-to-sacrifice",
+      "constitutional-containment"
+    ],
+    "sacrificeForm": [
+      "death",
+      "blood-sacrifice",
+      "labor"
+    ],
+    "sacrificeHealth": "mixed",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "anti-sacrificial-restraint",
+      "corrigibility"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "interpretationId": "british-empire-to-commonwealth-interpretation-001",
+    "caseId": "british-empire-to-commonwealth",
+    "claimIds": [
+      "british-empire-to-commonwealth-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The British Empire to Commonwealth transition scores high on corrigibility through its demonstration of symbolic transformation from above: the Balfour Declaration reframed hierarchical subordination as equal voluntary association, and the Statute of Westminster legally implemented this reframing by requiring Dominion consent for shared constitutional changes. This is the absorption-transformation archetype — an imperial order that avoided frozen-pathology by redesigning its own symbolic architecture in response to the changed conditions produced by World War I and rising Dominion nationalism. The transformation was incomplete (decolonization of non-Dominion territories remained partial and violent), but the symbolic redesign itself demonstrates a corrigibility mechanism: the ability to fundamentally revise the order's constitutive hierarchy without sacrificial escalation against internal challengers.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.63,
+      "label": "moderate",
+      "rationale": "Chain thin; passages are the constitutive legal moments of the transformation but require expansion to include decolonization history and Commonwealth operational record.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "neocolonial-continuity-complicates-equality-claim"
+      ]
+    },
+    "mechanism": "symbolic-transformation",
+    "mechanismSummary": "The British imperial order redesigned its constitutive symbolic architecture from hierarchical subordination to equal voluntary association, converting the Crown from instrument of control to symbol of free association — demonstrating corrigibility through self-revision rather than sacrificial defense of the existing order.",
+    "alternativeMechanisms": [
+      "pluralist-reordering",
+      "institutional-fragmentation"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "economic-security",
+      "agency"
+    ],
+    "sacrificeHealth": "ambiguous",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "out-group",
+    "definitionRefs": [
+      "corrigibility",
+      "symbolic-transformation",
+      "symbolic-order-strength"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "british-empire-to-commonwealth"
+  },
+  {
+    "interpretationId": "canada-interpretation-001",
+    "caseId": "canada",
+    "claimIds": [
+      "canada-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The Canadian symbolic order scores high on corrigibility through the Charter's built-in self-correction mechanism: Section 1 makes every rights guarantee provisional on demonstrable justification in a free and democratic society, embedding proportionality review as a permanent institutional corrective. Section 15's equality guarantee pairs with this to prevent the symbolic order from entrenching hierarchy through sacred-enemy or in-group/out-group distinctions. The result is a constitutional order that maintains high symbolic strength while preserving the institutional capacity to correct pathological tendencies — the structural inverse of the high-pathology sacrificial-escalation cases.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Chain thin but passages are directly constitutive. The notwithstanding clause (s.33) and its use by Quebec complicates a maximum corrigibility score. Score reflects the design intent of the order, not every operational episode.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "notwithstanding-clause-s33-complicates-corrigibility-score"
+      ]
+    },
+    "mechanism": "constitutional-containment",
+    "mechanismSummary": "Section 1's proportionality review requirement institutionalizes symbolic-order self-correction, preventing rights violations from becoming entrenched — a constitutional-containment mechanism that structurally opposes sacrificial escalation.",
+    "alternativeMechanisms": [
+      "pluralist-reordering",
+      "anti-sacrificial-restraint"
+    ],
+    "sacrificeForm": [
+      "time",
+      "labor",
+      "economic-security"
+    ],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "constitutional-containment",
+      "symbolic-order-strength"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "canada"
+  },
+  {
+    "interpretationId": "confederacy-interpretation-001",
+    "caseId": "confederacy",
+    "claimIds": [
+      "confederacy-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Confederacy's founding documents establish a symbolic order of high initial strength: the Constitution claims divine guidance for permanent federal sovereignty, while Stephens explicitly codes racial hierarchy as the order's 'corner-stone' — an immutable natural truth rather than a political arrangement subject to revision. This sacralization of racial hierarchy made the order incorrigible by design, producing the rigidity that contributed to collapse when military defeat removed the institutional basis for sustaining the claim.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.67,
+      "label": "moderate",
+      "rationale": "Chain is thin but passages are directly on point and verified. Score reflects high symbolic-order strength at founding; collapse mechanism requires separate chain expansion.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "collapse-not-chain-driven"
+      ]
+    },
+    "mechanism": "institutional-fragmentation",
+    "mechanismSummary": "The Confederate symbolic order achieved high founding strength by sacralizing racial hierarchy as natural truth, but its institutional base collapsed under military defeat without the corrigibility needed to adapt, producing terminal fragmentation.",
+    "alternativeMechanisms": [
+      "legitimacy-collapse",
+      "sacred-enemy-escalation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "blood-sacrifice",
+      "labor"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "out-group",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "sacralization",
+      "corrigibility"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "confederacy"
+  },
+  {
+    "interpretationId": "european-union-interpretation-001",
+    "caseId": "european-union",
+    "claimIds": [
+      "european-union-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The European Union symbolic order demonstrates high corrigibility through its constitutive pluralist architecture: the TEU's 'ever closer union' frames integration as an open-ended process rather than a sacred destination, and its grounding in liberty, democracy, and rule of law provides normative self-correction mechanisms. Unlike the high-pathology cases, the EU's symbolic order cannot generate a sacred enemy from within its own structure — its legitimacy depends on multi-state consensus and legal adjudication. Democratic-backsliding episodes (Hungary, Poland) and Brexit test this corrigibility but also activate the order's correction mechanisms (Article 7, infringement procedures), supporting rather than undermining the corrigibility score.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "Chain thin. Founding document passages establish the design intent; operational corrigibility requires expansion. Democratic-backsliding episodes introduce uncertainty.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "democratic-backsliding-complicates-corrigibility-score"
+      ]
+    },
+    "mechanism": "pluralist-reordering",
+    "mechanismSummary": "The EU's multi-state, open-ended integration architecture structurally opposes sacred-enemy escalation and sacrificial demands, producing high corrigibility through consensus-building and legal adjudication rather than symbolic unification around a common threat.",
+    "alternativeMechanisms": [
+      "constitutional-containment",
+      "memory-driven-restraint"
+    ],
+    "sacrificeForm": [
+      "economic-security",
+      "agency",
+      "labor"
+    ],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "pluralist-reordering",
+      "symbolic-order-strength"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "european-union"
+  },
+  {
+    "interpretationId": "gandhian-indian-independence-interpretation-001",
+    "caseId": "gandhian-indian-independence",
+    "claimIds": [
+      "gandhian-indian-independence-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Gandhian symbolic order achieves moderate-high symbolic strength through a theoretically novel route: rather than sacralizing national identity through sacred-enemy construction or blood-sacrifice demands, Gandhi's doctrine redirects sacrifice entirely to self-suffering. Body-force (violence against the enemy) is explicitly rejected as inferior to soul-force (accepting penalty for truth-bearing resistance). This anti-sacrificial logic gives the symbolic order high corrigibility — the movement cannot generate internal purges or sacrificial escalation from its own constitutive principles — while achieving independence through collective action. The clearest theoretical countercase to the pathological sacrificial-escalation gold cases.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Chain thin; theoretical founding texts only. Operational episodes and partition violence complicate the score.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "partition-violence-complicates-anti-sacrificial-score",
+        "practice-theory-gap"
+      ]
+    },
+    "mechanism": "anti-sacrificial-restraint",
+    "mechanismSummary": "Gandhi's satyagraha doctrine explicitly substitutes self-suffering for enemy-directed violence, achieving political transformation through soul-force rather than body-force — a constitutive anti-sacrificial restraint that structurally prevents sacred-enemy escalation.",
+    "alternativeMechanisms": [
+      "pluralist-reordering",
+      "constitutional-containment"
+    ],
+    "sacrificeForm": [
+      "time",
+      "agency",
+      "dignity",
+      "bodily-risk"
+    ],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "anti-sacrificial-restraint",
+      "corrigibility",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "gandhian-indian-independence"
+  },
+  {
     "interpretationId": "imperial-japan-interpretation-001",
     "caseId": "imperial-japan",
     "claimIds": [
@@ -43,6 +300,136 @@
     ],
     "codebookVersion": "v1",
     "caseSlug": "imperial-japan"
+  },
+  {
+    "interpretationId": "imperial-japan-interpretation-002",
+    "caseId": "imperial-japan",
+    "claimIds": [
+      "imperial-japan-claim-002"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The Kokutai no Hongi defined corrigibility-elimination as an ideological positive: loyalty requires 'casting ourselves aside,' making individual judgment an act of disloyalty and Western individualism a contaminant to be overcome. The sole legitimate mode of existence for subjects was unconditional service to the Emperor — 'the sole Way in which we subjects may live.' This is not merely a practical constraint but a constitutive ontological claim: individual selfhood outside imperial service is framed as non-existence. Combined with the 1941 war rescript's existential framing of the Pacific War, the symbolic order produced a corrigibility floor of near-zero: no institutional mechanism existed for questioning the war's direction without transgressing the fundamental definition of what it meant to 'live' as a Japanese subject.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.75,
+      "label": "moderate-high",
+      "rationale": "Kokutai no Hongi text directly supports the corrigibility-elimination interpretation: the equation of loyalty with self-erasure and the framing of Western individualism as contamination make the claim textually grounded. War rescript adds the sacred-enemy dimension. Confidence capped: operational documentation of how these ideological prescriptions functioned in practice requires chain expansion.",
+      "uncertaintyFactors": [
+        "ministry-of-education-translation-mediated",
+        "chain-requires-operational-documentation"
+      ]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The Kokutai no Hongi defined individual selfhood outside imperial service as non-existence, eliminating the basis for legitimate dissent; the war rescript activated sacred-enemy escalation by framing the war as defense of national existence — together producing minimum corrigibility.",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "bodily-risk",
+      "conscience",
+      "agency"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "symbolic-order-strength",
+      "collective-immortality",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "imperial-japan"
+  },
+  {
+    "interpretationId": "khmer-rouge-cambodia-interpretation-001",
+    "caseId": "khmer-rouge-cambodia",
+    "claimIds": [
+      "khmer-rouge-cambodia-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "collective-immortality",
+    "interpretation": "The DK symbolic order explicitly encoded the collective revolutionary body as sacred and eternal, demanding the sacrifice of children and family members by the hundreds of thousands. The national anthem literalized blood sacrifice as the constitutive act of the nation. This is a maximum collective-immortality case: the individual is absorbed into the collective body and their death is framed as the body's self-renewal.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Chain is thin but passages are directly on point. Score is defensible; pending chain expansion.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "instrumental-vs-symbolic-dispute"
+      ]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The Angkar represented the collective revolutionary body as a sacred entity whose survival transcended individual life; the Constitution and anthem explicitly frame the sacrifice of family and blood as constitutive of national rebirth.",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "family-life",
+      "blood-sacrifice"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice",
+      "pathology",
+      "symbolic-order"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "khmer-rouge-cambodia"
+  },
+  {
+    "interpretationId": "maoist-china-interpretation-001",
+    "caseId": "maoist-china",
+    "claimIds": [
+      "maoist-china-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "collective-immortality",
+    "interpretation": "The Maoist symbolic order established 'the people' as an eternal collective body whose continuation gave meaning to individual death. Mao's explicit contrast — death for the people is weightier than Mount Tai, death for exploiters is lighter than a feather — encodes a graded hierarchy of sacrifice in which only death that serves collective immortality is meaningful. Selflessness is not merely praised but structurally required.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Both passages are core canonical texts of the Maoist symbolic order. Chain is thin but directly grounded in verified primary sources. Pending periodization review and chain expansion.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The Maoist symbolic order represented 'the People' as a transcendent collective body; Mao's canonical texts explicitly coded death-for-the-people as the supreme form of human meaning, structurally demanding individual self-abnegation.",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "conscience",
+      "agency"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice",
+      "pathology",
+      "symbolic-order"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "maoist-china"
   },
   {
     "interpretationId": "nazi-germany-interpretation-001",
@@ -130,6 +517,137 @@
     "caseSlug": "nazi-germany"
   },
   {
+    "interpretationId": "nazi-germany-interpretation-003",
+    "caseId": "nazi-germany",
+    "claimIds": [
+      "nazi-germany-claim-002"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The Nazi symbolic order scores at minimum corrigibility: the Wehrmacht oath's 'unconditional obedience' and readiness to die for the oath eliminated institutional capacity for legitimate dissent within the armed forces by converting legal obligation from constitutional duty to personal fealty to the Führer; simultaneously, the Law Against Formation of New Parties legally extinguished the pluralist competition that enables symbolic-order self-correction. Together these two legal acts in 1933–1934 completed the structural elimination of corrigibility: no institutional actor could legitimately challenge the symbolic order's direction without violating a personal sacred oath or committing a criminal act. This is the corrigibility-elimination that distinguishes Nazi Germany from the restrained-reordering cases.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.82,
+      "label": "high",
+      "rationale": "Claim derives from two short, legally unambiguous texts verified against authoritative sources. The corrigibility interpretation is direct: unconditional-obedience oath + single-party law = elimination of legitimate dissent channels. High confidence relative to most chain interpretations.",
+      "uncertaintyFactors": [
+        "chain-requires-integration-with-operational-documentation"
+      ]
+    },
+    "mechanism": "institutional-self-preservation",
+    "mechanismSummary": "Personal loyalty oath replacing constitutional duty + legal single-party monopoly simultaneously eliminated all institutional corrigibility mechanisms, converting legitimate dissent into personal betrayal and criminal act.",
+    "alternativeMechanisms": [
+      "collective-immortality-to-sacrifice",
+      "frozen-pathology"
+    ],
+    "sacrificeForm": [
+      "death",
+      "bodily-risk",
+      "conscience",
+      "agency"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "symbolic-order-strength",
+      "institutional-self-preservation"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "interpretationId": "north-korea-interpretation-001",
+    "caseId": "north-korea",
+    "claimIds": [
+      "north-korea-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "North Korea presents the clearest constitutional case of frozen-pathology in the dataset: the state is definitionally the application of the eternal leaders' Juche ideas, and the entire population is constitutionally bound to uphold those eternal leaders and carry their ideas forward unchanged. This produces maximum symbolic-order strength through total institutional monopoly while eliminating corrigibility by constitutional design — the symbolic order cannot correct itself because correction is constitutionally prohibited as a violation of the eternal leaders' mandate. The mechanism is frozen-pathology rather than active sacrificial escalation: the order is not generating new enemies but is locked in a permanent defensive posture that prevents adaptation.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.58,
+      "label": "moderate",
+      "rationale": "Constitutional text supports the interpretation clearly, but confidence is capped by translation-chain uncertainty and the absence of operational documentation. Source access limitations documented in source-pack.",
+      "uncertaintyFactors": [
+        "translation-chain-unverified",
+        "chain-requires-expansion",
+        "access-restricted-primary-sources"
+      ]
+    },
+    "mechanism": "frozen-pathology",
+    "mechanismSummary": "The DPRK symbolic order constitutionally encodes the eternal leaders' ideas as the unchangeable foundation of the state, eliminating corrigibility by design and locking the order in permanent Juche ideology regardless of changing conditions.",
+    "alternativeMechanisms": [
+      "institutional-self-preservation",
+      "sacred-enemy-escalation"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "agency",
+      "economic-security",
+      "conscience",
+      "bodily-risk"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "frozen-pathology",
+      "corrigibility"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "north-korea"
+  },
+  {
+    "interpretationId": "post-9-11-united-states-interpretation-001",
+    "caseId": "post-9-11-united-states",
+    "claimIds": [
+      "post-9-11-united-states-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The post-9/11 US symbolic order demonstrates a hybrid pattern: high symbolic-order strength achieved through sacred-enemy escalation rather than constitutional-containment. The AUMF's unlimited force authorization and Bush's globally totalized binary ('with us or with the terrorists') temporarily maximized the symbolic order's strength by sacralizing national identity through absolute external threat. This distinguishes post-9/11 from the Vietnam aftermath (which produced constitutional-containment via the WPR) and from the gold high-pathology cases (where sacred-enemy escalation targeted internal populations). The 'forever war' trajectory shows the instability of strength-through-sacred-enemy — the enemy definition expanded indefinitely, producing institutional fragmentation rather than consolidation.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Chain thin; passages establish the founding pattern but trajectory scoring requires expansion. Hybrid case complexity adds uncertainty.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "enemy-definition-broadened-over-time"
+      ]
+    },
+    "mechanism": "sacred-enemy-escalation",
+    "mechanismSummary": "9/11 shock was channeled into a globally totalized sacred-enemy binary through unlimited congressional force authorization and presidential framing, temporarily maximizing symbolic-order strength at the cost of institutional constraint and long-term legitimacy.",
+    "alternativeMechanisms": [
+      "institutional-self-preservation",
+      "collective-immortality-to-sacrifice"
+    ],
+    "sacrificeForm": [
+      "death",
+      "blood-sacrifice",
+      "agency",
+      "economic-security"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "out-group",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "sacred-enemy-escalation",
+      "corrigibility"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "post-9-11-united-states"
+  },
+  {
     "interpretationId": "postwar-germany-interpretation-001",
     "caseId": "postwar-germany",
     "claimIds": [
@@ -169,6 +687,139 @@
     ],
     "codebookVersion": "v1",
     "caseSlug": "postwar-germany"
+  },
+  {
+    "interpretationId": "postwar-germany-interpretation-002",
+    "caseId": "postwar-germany",
+    "claimIds": [
+      "postwar-germany-claim-002"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "Article 20's resistance clause (Art. 20(4) GG) is the constitutive memory-driven-restraint provision of the postwar German symbolic order: the framers converted the Weimar experience of legal revolution — Hitler's use of enabling legislation to abolish parliamentary democracy through formally legal means — into a positive constitutional right to resist abolition of the democratic order. Combined with Art. 79(3)'s protection of Art. 20 as an eternity clause, this creates a two-layer corrigibility architecture: Art. 20 defines the protected democratic-social order; Art. 79(3) makes it unamendable; Art. 20(4) arms citizens to defend it when all other remedies fail. The memory of the pathological order is thus encoded as a constitutional right of resistance against its repetition — the clearest example of memory-driven-restraint in the dataset.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.82,
+      "label": "high",
+      "rationale": "Text verified against official translation; scholarly consensus on framers' intent is clear (Weimar-lesson design); the Art. 20(4) / Art. 79(3) architectural relationship is analytically tight. Confidence capped: Art. 20(4) was added in 1968, not 1949, and the right has never been formally invoked, raising questions about its operative force.",
+      "uncertaintyFactors": [
+        "art-20-4-added-1968-not-1949-original",
+        "right-of-resistance-never-invoked-in-practice"
+      ]
+    },
+    "mechanism": "memory-driven-restraint",
+    "mechanismSummary": "Art. 20(1)+(4) converts the Weimar trauma of legal revolution into a constitutional right of resistance, encoding the memory of pathological collapse as a positive corrective mechanism — the democratic order cannot be legally abolished, and citizens are constitutionally empowered to prevent its abolition by other means.",
+    "alternativeMechanisms": [
+      "constitutional-containment",
+      "pluralist-reordering"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "time",
+      "economic-security"
+    ],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "memory-driven-restraint",
+      "constitutional-containment"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "postwar-germany"
+  },
+  {
+    "interpretationId": "revolutionary-france-interpretation-001",
+    "caseId": "revolutionary-france",
+    "claimIds": [
+      "revolutionary-france-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The revolutionary symbolic order achieved maximum symbolic-order strength by vesting all legitimate authority exclusively in the Nation, while Robespierre's virtue-terror synthesis sacralized the revolutionary order itself as the embodiment of virtue. This produced a configuration in which the symbolic order could not be corrected without betraying the revolution — critique became treason, and terror became a moral obligation.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Passages are well-attested canonical texts. The mechanism is well-supported for the Terror phase. Confidence capped because the claim applies primarily to 1793–1794.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    },
+    "mechanism": "sacred-enemy-escalation",
+    "mechanismSummary": "The Declaration of Rights invested the Nation with absolute sovereignty while Robespierre fused virtue and terror — making the revolutionary order itself sacred and directing violence at internal enemies whose elimination was framed as moral necessity.",
+    "alternativeMechanisms": [
+      "collective-immortality-to-sacrifice",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "conscience",
+      "agency"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "sacralization",
+      "sacrifice",
+      "pathology"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "revolutionary-france"
+  },
+  {
+    "interpretationId": "soviet-communism-interpretation-001",
+    "caseId": "soviet-communism",
+    "claimIds": [
+      "soviet-communism-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Soviet communist symbolic order achieved maximum symbolic-order strength at its Stalinist peak by fusing class-struggle eschatology (proletarians have a world to win) with institutional monopoly (the CPSU as nucleus of all Soviet life). This is a hybrid case: the order's founding logic demanded sacrifice toward collective immortality through historical inevitability, and its constitutional structure eliminated the institutional corrigibility needed to correct that demand. The result is a symbolic order of high initial strength that could not self-correct, producing the frozen-pathology trajectory observed in the terminal phase (see soviet-union-collapse). The two passages bookend this arc: the Manifesto's world-historical call for total transformation, and the Brezhnev Constitution's legalization of the party's unchallengeability.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Chain thin but passages are definitional. Requires expansion from founding ideology to institutional practice to complete the arc. Hybrid complexity acknowledged.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "founding-text-to-practice-gap",
+        "historical-periodization-wide"
+      ]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The Soviet symbolic order fused world-historical eschatology with vanguard institutional monopoly, demanding sacrifice in service of collective communist immortality — a structure that produced high initial strength but no corrigibility, making frozen-pathology the terminal outcome.",
+    "alternativeMechanisms": [
+      "frozen-pathology",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "agency",
+      "death",
+      "economic-security",
+      "conscience"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "collective-immortality",
+      "corrigibility",
+      "frozen-pathology"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "soviet-communism"
   },
   {
     "interpretationId": "soviet-union-collapse-interpretation-001",
@@ -215,6 +866,92 @@
     "caseSlug": "soviet-union-collapse"
   },
   {
+    "interpretationId": "soviet-union-collapse-interpretation-002",
+    "caseId": "soviet-union-collapse",
+    "claimIds": [
+      "soviet-union-collapse-claim-002"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The Soviet order's corrigibility failure is documented by two symmetrical failures bracketing the reform period: Gorbachev's 1987 CC Plenum diagnosis shows the order's late-stage awareness that stagnation had accumulated ('difficulties and unsolved problems began to pile up'), but the 'no other way' framing reveals correction as a last-resort imperative rather than a functioning institutional mechanism — the order could acknowledge failure but had no path to correction at scale. The GKChP's 1991 declaration that reform 'has reached a dead end' shows that when correction was finally attempted, the order's own institutional actors mobilized to abort it. This two-sided failure — correction too late and correction suppressed from within — is the characteristic signature of minimal corrigibility: the system contained neither the early-warning mechanisms nor the institutional consensus required to course-correct before terminal crisis.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Both passage texts are verified. The interpretation extends the existing legitimacy-collapse reading by documenting the corrigibility dimension: the mechanisms available for self-correction were insufficient and ultimately self-defeating. Confidence below 0.80 because corrigibility = 1 (minimum) requires ruling out alternative mechanisms — factionalism did provide some channel for contestation, and Gorbachev's reforms themselves constituted a corrigibility attempt.",
+      "uncertaintyFactors": [
+        "gorbachev-reforms-as-corrigibility-counterevidence",
+        "attribution-to-institutional-structure-vs-individual-actors-contested"
+      ]
+    },
+    "mechanism": "institutional-fragmentation",
+    "mechanismSummary": "The order's inability to correct stagnation before crisis and the counter-coup blocking correction in 1991 together demonstrate institutional fragmentation severe enough to prevent effective corrigibility from either direction.",
+    "alternativeMechanisms": [
+      "legitimacy-collapse",
+      "frozen-pathology"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "agency",
+      "economic-security",
+      "conscience"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": [
+      "corrigibility",
+      "institutional-fragmentation",
+      "legitimacy-collapse"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "soviet-union-collapse"
+  },
+  {
+    "interpretationId": "switzerland-interpretation-001",
+    "caseId": "switzerland",
+    "claimIds": [
+      "switzerland-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "Switzerland scores high on corrigibility through its constitutional inversion of the sacrificial symbolic logic: the Preamble defines collective strength as the well-being of the weakest rather than the sacrifice of the weak for the strong, while Article 2 pluralizes the order's aims (welfare, diversity, sustainability, peaceful order) in ways that structurally resist sacred-enemy simplification. The federalist and direct-democracy mechanisms compound this: power is constitutionally distributed across cantons and referenda, preventing symbolic concentration that enables sacrificial escalation. This is the structural countercase to the frozen-pathology trajectory — the Swiss order achieves stability through pluralist consensus rather than through vanguard monopoly.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Chain thin; passages are directly constitutive but require expansion to direct-democracy practices and federalism. Historical exclusion of women's suffrage (until 1971 federally) complicates maximum corrigibility score.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "direct-democracy-exclusion-history-complicates-score"
+      ]
+    },
+    "mechanism": "pluralist-reordering",
+    "mechanismSummary": "Constitutional definition of strength-as-welfare-of-weakest plus pluralized aims and federalist/direct-democracy structures prevent symbolic concentration and sacred-enemy escalation, producing high corrigibility through consensus rather than vanguard monopoly.",
+    "alternativeMechanisms": [
+      "constitutional-containment",
+      "anti-sacrificial-restraint"
+    ],
+    "sacrificeForm": [
+      "time",
+      "labor",
+      "economic-security"
+    ],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "corrigibility",
+      "pluralist-reordering",
+      "symbolic-order-strength",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "switzerland"
+  },
+  {
     "interpretationId": "united-states-after-vietnam-interpretation-001",
     "caseId": "united-states-after-vietnam",
     "claimIds": [
@@ -256,5 +993,134 @@
     ],
     "codebookVersion": "v1",
     "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "interpretationId": "united-states-after-vietnam-interpretation-002",
+    "caseId": "united-states-after-vietnam",
+    "claimIds": [
+      "united-states-after-vietnam-claim-002"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The post-Vietnam US symbolic order exhibits moderate and declining strength during the 1973–1984 period covered by the chain: War Powers § 5(b)'s automatic withdrawal mechanism encodes Congress's assessment that the President alone could not be trusted to maintain symbolic-order coherence under crisis pressure, implying the founding legitimacy framework (executive war authority, Cold War consensus) had significantly eroded; Carter's crisis diagnosis (passage-002) names symbolic-order-strength erosion explicitly as the central national problem; and Weinberger's explicit return to pre-engagement public consent-seeking (passage-004) shows the order reconstructing its authority basis around democratic accountability rather than imperial prerogative. Score of 3 reflects a symbolic order that retains structural coherence (democratic institutions, legal framework) but whose legitimacy claims have been substantially contested and its sacrifice demands constrained by collective memory.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "The symbolic-order-strength reading is strongly supported by the Carter passage (explicit crisis diagnosis) and consistent with the WPR and Weinberger passages. Score of 3 is plausible but contested: the Cold War consensus partially survived Vietnam, and Reagan's successful rearmament campaign by 1983 suggests symbolic-order recovery was faster than a mid-period reading implies.",
+      "uncertaintyFactors": [
+        "periodization-1973-1984-vs-longer-arc",
+        "reagan-rearmament-suggests-symbolic-order-recovery",
+        "cold-war-consensus-partially-intact"
+      ]
+    },
+    "mechanism": "memory-driven-restraint",
+    "mechanismSummary": "The Vietnam memory restrained symbolic-order expansion by requiring legal authorization and public consent before military deployment, reducing the available repertoire of sacrificial mobilization and constraining executive unilateralism.",
+    "alternativeMechanisms": [
+      "constitutional-containment",
+      "pluralist-reordering"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "economic-security",
+      "conscience"
+    ],
+    "sacrificeHealth": "ambiguous",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "memory-driven-restraint",
+      "corrigibility"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "interpretationId": "western-roman-empire-interpretation-001",
+    "caseId": "western-roman-empire",
+    "claimIds": [
+      "western-roman-empire-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Western Roman symbolic order had achieved maximum strength at its height through civic sacrifice, legal order, and the myth of eternal Rome. By the late fourth century, contemporary witnesses diagnosed decay: Vegetius saw military discipline collapse under peacetime complacency; Augustine, writing after the Sack of Rome (410), analyzed how Roman civic virtue had been animated by love of glory for the earthly city rather than transcendent goods — a motivation that could not sustain the symbolic order when its material conditions failed. This is a collapse case driven by institutional fragmentation rather than sacrificial escalation.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Chain is thin; passages are diagnostic rather than constitutive. Score reflects the order's peak strength, not its terminal state. Pending chain expansion.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    },
+    "mechanism": "institutional-fragmentation",
+    "mechanismSummary": "Long peace eroded the military discipline sustaining the symbolic order; Augustine's analysis suggests the order's civic sacrifice logic was grounded in glory-seeking for the earthly city rather than transcendent goods, making it unable to renew itself as material conditions deteriorated.",
+    "alternativeMechanisms": [
+      "legitimacy-collapse",
+      "frozen-pathology"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "time",
+      "economic-security"
+    ],
+    "sacrificeHealth": "ambiguous",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "corrigibility",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "western-roman-empire"
+  },
+  {
+    "interpretationId": "world-war-i-nationalisms-interpretation-001",
+    "caseId": "world-war-i-nationalisms",
+    "claimIds": [
+      "world-war-i-nationalisms-claim-001"
+    ],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "At the outbreak of World War I, multiple belligerent symbolic orders achieved maximum mobilizational strength by invoking the nation as a sacred collective body that dissolved all internal distinctions. Kaiser Wilhelm's dissolution of party divisions and Poincaré's 'sacred union' both demonstrate the mechanism: the symbolic order expands to absorb all individuals into a single sacrificial body at the moment of perceived existential threat.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Passages are well-attested verified texts. The mechanism is well-supported for the mobilization moment. Confidence capped given multi-nation unit of analysis.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "multi-nation-unit-of-analysis"
+      ]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "At war outbreak, national symbolic orders in Germany and France suppressed all internal distinctions and sacralized the nation as a collective body demanding total sacrifice — Kaiser Wilhelm recognized 'only Germans,' Poincaré invoked 'sacred union.'",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "blood-sacrifice",
+      "family-life"
+    ],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "out-group",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "collective-immortality",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "world-war-i-nationalisms"
   }
 ]

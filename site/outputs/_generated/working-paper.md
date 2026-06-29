@@ -93,16 +93,17 @@ The national body is represented as enduring beyond individual mortality, making
 
 > Nazi political language represented the national community as a sacred collective body whose preservation could override individual life and ordinary pluralist correction.
 
-*Confidence: moderate (0.62) · Review: `argument-review`*
+*Confidence: moderate (0.68) · Review: `argument-review`*
 
-**Key passage** (Proclamation to the German Nation, 1 February 1933; in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942), p. 156, role: grounds):
+**Key passage** (Proclamation to the German Nation, 1 February 1933; in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942), p. 156. Text verified against German History in Documents and Images (GHDI) translation: https://germanhistorydocs.org/en/nazi-germany-1933-1945/appeal-by-the-reich-government-to-the-german-people-february-1-1933. Note: Baynes (1942) edition-specific wording requires physical library verification; GHDI translation adopted as authoritative until Baynes can be checked., role: grounds):
 
-> Towering above all class and rank distinctions, it will bring back to our people the consciousness of their racial and political unity and of the obligations this entails.
+> Standing above estates and classes, it will bring back to our people the consciousness of its racial and political unity and the obligations arising therefrom.
 
 **Scores:**
 
 - Collective Immortality: ■■■□□ 3/5 (moderate)
 - Symbolic Order Strength: ■■■■■ 5/5 (moderate)
+- Corrigibility: ■□□□□ 1/5 (high)
 
 ::: {.callout-note appearance="minimal"}
 **Challenge (qualifies):** The current Nazi Germany evidence chain is a thin draft demonstration and should not yet be treated as full scholarly support for the case-level interpretation.
@@ -122,15 +123,16 @@ The founding constitutional document embeds human dignity as inviolable and unam
 
 > The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German symbolic order.
 
-*Confidence: moderate-high (0.72) · Review: `argument-review`*
+*Confidence: moderate-high (0.76) · Review: `argument-review`*
 
-**Key passage** (Art. 1(1), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed., role: grounds):
+**Key passage** (Art. 1(1), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html, role: grounds):
 
 > Human dignity shall be inviolable. To respect and protect it shall be the duty of all state authority.
 
 **Scores:**
 
-- Corrigibility: ■■■■□ 4/5 (moderate)
+- Corrigibility: ■■■■□ 4/5 (moderate-high)
+- Corrigibility: ■■■■■ 5/5 (moderate-high)
 
 ::: {.callout-note appearance="minimal"}
 **Challenge (qualifies):** The Grundgesetz's constitutional corrigibility did not prevent significant postwar German pathologies, including Berufsverbot restrictions on political participation and ongoing debates about memory and Vergangenheitsbewältigung, complicating a straightforward high-corrigibility reading.
@@ -150,15 +152,16 @@ The imperial symbolic order represented the national body as divinely eternal; i
 
 > Imperial Japanese political language encoded the Emperor's divine sovereignty and the national body (kokutai) as sacred, demanding individual self-sacrifice in service of imperial survival as the highest moral obligation overriding personal survival.
 
-*Confidence: moderate-high (0.70) · Review: `argument-review`*
+*Confidence: moderate-high (0.75) · Review: `argument-review`*
 
-**Key passage** (Imperial Rescript on Education (Kyoiku Chokugo), 30 October 1890; English translation, Japanese Ministry of Education; in Tsunoda, Ryusaku, Wm. Theodore de Bary, and Donald Keene, eds., Sources of Japanese Tradition, Vol. 2 (New York: Columbia University Press, 1958), p. 139, role: grounds):
+**Key passage** (Imperial Rescript on Education (Kyoiku Chokugo), 30 October 1890; English translation, Japanese Ministry of Education; in Tsunoda, Ryusaku, Wm. Theodore de Bary, and Donald Keene, eds., Sources of Japanese Tradition, Vol. 2 (New York: Columbia University Press, 1958), p. 139. Text confirmed against Wikipedia English translation and worldjpn.net (The World and Japan Database): https://worldjpn.net/documents/texts/pw/18901030.O1E.html. Tsunoda et al. (1958) p.139 edition-specific wording requires physical library verification., role: grounds):
 
 > Should emergency arise, offer yourselves courageously to the State; and thus guard and maintain the prosperity of Our Imperial Throne coeval with heaven and earth.
 
 **Scores:**
 
-- Symbolic Order Strength: ■■■■■ 5/5 (moderate)
+- Symbolic Order Strength: ■■■■■ 5/5 (moderate-high)
+- Corrigibility: ■□□□□ 1/5 (moderate-high)
 
 ::: {.callout-note appearance="minimal"}
 **Challenge (qualifies):** The Taisho democracy period (c. 1912-1926) demonstrates significant liberal and pluralist contestation within the Imperial Japanese symbolic order, complicating a reading of kokutai strength as uniformly maximal across the 1868-1945 period.
@@ -178,15 +181,16 @@ The Soviet symbolic order's inability to acknowledge systemic failure until too 
 
 > The Soviet symbolic order collapsed when decades of institutional rigidity exhausted the founding legitimacy claims of Marxism-Leninism, and Gorbachev's reform attempts accelerated institutional disintegration rather than restoring coherence, culminating in the formal dissolution of the USSR.
 
-*Confidence: moderate (0.68) · Review: `argument-review`*
+*Confidence: moderate-high (0.72) · Review: `argument-review`*
 
-**Key passage** (Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections, role: grounds):
+**Key passage** (Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections. Text updated to match Marxists.org translation (https://www.marxists.org/archive/gorbachev/1991/december-25.htm) as the most accessible authoritative English version; Doubleday 1996 Memoirs edition wording may differ and requires physical library verification., role: grounds):
 
-> Fate had it that when I found myself at the head of the state it was already clear that there was something wrong in this country. We had plenty of everything: land, oil and gas, other natural resources, and God has also endowed us with intelligence and talent — yet we lived much worse than developed countries and kept falling further and further behind them.
+> Fate had it that when I found myself at the head of the state it was already clear that all was not well in the country. There is plenty of everything: land, oil and gas, other natural riches, and God gave us lots of intelligence and talent, yet we lived much worse than developed countries and keep falling behind them more and more.
 
 **Scores:**
 
 - Symbolic Order Strength: ■■□□□ 2/5 (moderate)
+- Corrigibility: ■□□□□ 1/5 (moderate)
 
 ::: {.callout-note appearance="minimal"}
 **Challenge (complicates):** The Soviet collapse may reflect institutional fragmentation and nationalist mobilization rather than legitimacy collapse of the Marxist-Leninist symbolic order per se — many Soviet citizens remained ideologically committed even as republics seceded, suggesting the order retained partial legitimacy while its institutional vessel failed.
@@ -206,15 +210,16 @@ The collective memory of Vietnam failure — institutionalized as the War Powers
 
 > The US symbolic order responded to the Vietnam defeat through institutional correction mechanisms and public acknowledgment of national crisis, demonstrating restrained reordering rather than sacrificial escalation: the War Powers Resolution attempted to embed congressional oversight of military commitments, while Carter named a national confidence crisis without calling for sacrifice.
 
-*Confidence: moderate (0.65) · Review: `argument-review`*
+*Confidence: moderate (0.68) · Review: `argument-review`*
 
-**Key passage** (War Powers Resolution, Public Law 93-148, § 2(a), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1541, role: grounds):
+**Key passage** (War Powers Resolution, Public Law 93-148, § 2(a), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1541(a). Text confirmed against Cornell LII (https://www.law.cornell.edu/uscode/text/50/1541). Corrected 'joint resolution' to 'chapter' (codified form) and restored truncated final clause., role: grounds):
 
-> It is the purpose of this joint resolution to fulfill the intent of the framers of the Constitution of the United States and insure that the collective judgment of both the Congress and the President will apply to the introduction of United States Armed Forces into hostilities, or into situations where imminent involvement in hostilities is clearly indicated by the circumstances.
+> It is the purpose of this chapter to fulfill the intent of the framers of the Constitution of the United States and insure that the collective judgment of both the Congress and the President will apply to the introduction of United States Armed Forces into hostilities, or into situations where imminent involvement in hostilities is clearly indicated by the circumstances, and to the continued use of such forces in hostilities or in such situations.
 
 **Scores:**
 
 - Corrigibility: ■■■□□ 3/5 (moderate)
+- Symbolic Order Strength: ■■■□□ 3/5 (moderate)
 
 ::: {.callout-note appearance="minimal"}
 **Challenge (complicates):** Reagan's explicit campaign to overcome the Vietnam syndrome — framing Vietnam as a noble cause betrayed by domestic weakness rather than a failed war — demonstrates that the post-Vietnam restraint was shallow and contested, and that the US symbolic order quickly reasserted sacrificial framing rather than institutionalizing correction.
@@ -232,11 +237,11 @@ The five gold cases span four outcome categories and two sacrifice health assess
 
 | Case | Outcome | Collective Immortality | Corrigibility | Symbolic Order Strength | Mechanism | Sacrifice health |
 |---| --- | --- | --- | --- | --- | --- |
-| Nazi Germany | Sacrificial Escalation | ■■■□□ 3/5 | — | ■■■■■ 5/5 | Collective Immortality To Sacrifice | pathological |
+| Nazi Germany | Sacrificial Escalation | ■■■□□ 3/5 | ■□□□□ 1/5 | ■■■■■ 5/5 | Collective Immortality To Sacrifice | pathological |
 | Postwar Germany | Restrained Reordering | — | ■■■■□ 4/5 | — | Constitutional Containment | healthy |
-| Imperial Japan | Sacrificial Escalation | — | — | ■■■■■ 5/5 | Collective Immortality To Sacrifice | pathological |
-| Soviet Union Collapse | Collapse | — | — | ■■□□□ 2/5 | Legitimacy Collapse | pathological |
-| United States After Vietnam | Restrained Reordering | — | ■■■□□ 3/5 | — | Memory Driven Restraint | ambiguous |
+| Imperial Japan | Sacrificial Escalation | — | ■□□□□ 1/5 | ■■■■■ 5/5 | Collective Immortality To Sacrifice | pathological |
+| Soviet Union Collapse | Collapse | — | ■□□□□ 1/5 | ■■□□□ 2/5 | Legitimacy Collapse | pathological |
+| United States After Vietnam | Restrained Reordering | — | ■■■□□ 3/5 | ■■■□□ 3/5 | Memory Driven Restraint | ambiguous |
 
 ### Theoretical Implications
 

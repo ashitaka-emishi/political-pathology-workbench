@@ -1,5 +1,77 @@
 [
   {
+    "sourceId": "lincoln-gettysburg-address-1863",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Bliss copy (definitive) verified at abrahamlincolnonline.org and ushistory.org.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-second-inaugural-1865",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Verified at Avalon Project, Yale Law School.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "balfour-declaration-1926",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Text verified against The Canadian Encyclopedia (https://www.thecanadianencyclopedia.ca/en/article/document-balfour-report-1926) and Founding Docs of Australia (https://www.foundingdocs.gov.au/item-did-24.html).",
+    "caseId": "british-empire-to-commonwealth",
+    "caseSlug": "british-empire-to-commonwealth"
+  },
+  {
+    "sourceId": "statute-of-westminster-1931",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "UK legislation, public domain. Full text at legislation.gov.uk: https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/introduction",
+    "caseId": "british-empire-to-commonwealth",
+    "caseSlug": "british-empire-to-commonwealth"
+  },
+  {
+    "sourceId": "canadian-charter-1982",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Official government text. Verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+    "caseId": "canada",
+    "caseSlug": "canada"
+  },
+  {
+    "sourceId": "csa-constitution-1861",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Verified at Avalon Project, Yale Law School.",
+    "caseId": "confederacy",
+    "caseSlug": "confederacy"
+  },
+  {
+    "sourceId": "stephens-cornerstone-speech-1861",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Extemporaneous speech transcribed by Savannah Republican; public domain. Available at American Battlefield Trust and Teaching American History.",
+    "caseId": "confederacy",
+    "caseSlug": "confederacy"
+  },
+  {
+    "sourceId": "treaty-european-union-consolidated",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Official EUR-Lex consolidated version. Verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT",
+    "caseId": "european-union",
+    "caseSlug": "european-union"
+  },
+  {
+    "sourceId": "gandhi-hind-swaraj-1909",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Author's English translation (1910) verified at https://www.gandhiashramsevagram.org/hind-swaraj/",
+    "caseId": "gandhian-indian-independence",
+    "caseSlug": "gandhian-indian-independence"
+  },
+  {
     "sourceId": "imperial-rescript-education-1890",
     "role": "primary-grounds",
     "access": "public-domain-or-open",
@@ -14,6 +86,54 @@
     "notes": "Issued by Emperor Meiji, 4 January 1882. Public domain. English translation widely reproduced in scholarship on Japanese militarism.",
     "caseId": "imperial-japan",
     "caseSlug": "imperial-japan"
+  },
+  {
+    "sourceId": "kokutai-no-hongi-1937",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Japanese Ministry of Education, 1937. English translation excerpt verified at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf. Full translation in de Bary et al., Sources of Japanese Tradition, 2nd ed., vol. 2 (Columbia University Press, 2005).",
+    "caseId": "imperial-japan",
+    "caseSlug": "imperial-japan"
+  },
+  {
+    "sourceId": "hirohito-war-rescript-1941",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Imperial Rescript, 8 December 1941. Public domain. English text verified at worldjpn.net: https://worldjpn.net/documents/texts/docs/19411208.O1E.html",
+    "caseId": "imperial-japan",
+    "caseSlug": "imperial-japan"
+  },
+  {
+    "sourceId": "democratic-kampuchea-constitution-1976",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Available at Wikisource and DC-Cam.",
+    "caseId": "khmer-rouge-cambodia",
+    "caseSlug": "khmer-rouge-cambodia"
+  },
+  {
+    "sourceId": "dk-national-anthem-1975",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. English translation verified at nationalanthems.info.",
+    "caseId": "khmer-rouge-cambodia",
+    "caseSlug": "khmer-rouge-cambodia"
+  },
+  {
+    "sourceId": "mao-serve-the-people-1944",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Selected Works Vol. 3, verified at marxists.org.",
+    "caseId": "maoist-china",
+    "caseSlug": "maoist-china"
+  },
+  {
+    "sourceId": "mao-in-memory-norman-bethune-1939",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Selected Works Vol. 2, verified at marxists.org.",
+    "caseId": "maoist-china",
+    "caseSlug": "maoist-china"
   },
   {
     "sourceId": "koenigsberg-nations-have-right-to-kill",
@@ -40,6 +160,46 @@
     "caseSlug": "nazi-germany"
   },
   {
+    "sourceId": "reichswehr-oath-1934",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Official legal instrument, public domain. English text verified at GHDI: https://germanhistorydocs.org/en/nazi-germany-1933-1945/the-reichswehr-swears-an-oath-of-allegiance-to-adolf-hitler-on-the-day-of-hindenburgs-death-august-2-1934",
+    "caseId": "nazi-germany",
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "sourceId": "law-against-parties-1933",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Official Reich legislation, public domain. English text verified at USHMM Encyclopedia: https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties",
+    "caseId": "nazi-germany",
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "sourceId": "dprk-constitution-2019",
+    "role": "primary-grounds",
+    "access": "restricted-translation-only",
+    "notes": "Access limitation: authoritative Korean-language text is on DPRK state website (Naenara), accessible only intermittently from outside the DPRK and without independent translation verification. English translation used here is from University of Hawaiʻi at Mānoa Korean Studies Center (2024), which is the scholarly standard but cannot be certified against the authoritative original. Kim Jong-un era operational documents (party resolutions, state media) are accessible via KCNA Watch and other monitoring services but present translation-chain verification challenges. This case is limited to constitutional-level primary sources to minimize translation uncertainty.",
+    "caseId": "north-korea",
+    "caseSlug": "north-korea"
+  },
+  {
+    "sourceId": "aumf-2001",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public law. Full text at govinfo.gov.",
+    "caseId": "post-9-11-united-states",
+    "caseSlug": "post-9-11-united-states"
+  },
+  {
+    "sourceId": "bush-address-congress-2001",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain presidential address. Verified at whatsoproudlywehail.org.",
+    "caseId": "post-9-11-united-states",
+    "caseSlug": "post-9-11-united-states"
+  },
+  {
     "sourceId": "grundgesetz-1949",
     "role": "primary-grounds",
     "access": "public-domain-or-open",
@@ -54,6 +214,38 @@
     "notes": "First government declaration to the Bundestag, 20 September 1949. Corroborates the constitutional-containment reading by showing the new symbolic order's explicit rejection of the Nazi-era collective-body logic at the moment of the Federal Republic's founding.",
     "caseId": "postwar-germany",
     "caseSlug": "postwar-germany"
+  },
+  {
+    "sourceId": "declaration-rights-man-citizen-1789",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Verified at avalon.law.yale.edu.",
+    "caseId": "revolutionary-france",
+    "caseSlug": "revolutionary-france"
+  },
+  {
+    "sourceId": "robespierre-political-morality-1794",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Verified at revolution.chnm.org and alphahistory.com.",
+    "caseId": "revolutionary-france",
+    "caseSlug": "revolutionary-france"
+  },
+  {
+    "sourceId": "marx-engels-communist-manifesto-1848",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Samuel Moore (1888) English translation verified at https://www.marxists.org/archive/marx/works/1848/communist-manifesto/",
+    "caseId": "soviet-communism",
+    "caseSlug": "soviet-communism"
+  },
+  {
+    "sourceId": "ussr-constitution-1977",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. English text verified at Bucknell University Russian Department: https://www.departments.bucknell.edu/russian/const/77cons01.html",
+    "caseId": "soviet-communism",
+    "caseSlug": "soviet-communism"
   },
   {
     "sourceId": "gorbachev-resignation-speech-1991",
@@ -72,6 +264,30 @@
     "caseSlug": "soviet-union-collapse"
   },
   {
+    "sourceId": "gorbachev-cc-plenum-1987",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Report to the CPSU Central Committee Plenary Session, 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Passage verified at Seventeen Moments in Soviet History (MSU): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/",
+    "caseId": "soviet-union-collapse",
+    "caseSlug": "soviet-union-collapse"
+  },
+  {
+    "sourceId": "gkchp-appeal-1991",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "GKChP Appeal to the Soviet People, broadcast 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm",
+    "caseId": "soviet-union-collapse",
+    "caseSlug": "soviet-union-collapse"
+  },
+  {
+    "sourceId": "swiss-federal-constitution-1999",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Official English translation. Verified at https://www.constituteproject.org/constitution/Switzerland_2014",
+    "caseId": "switzerland",
+    "caseSlug": "switzerland"
+  },
+  {
     "sourceId": "war-powers-resolution-1973",
     "role": "primary-grounds",
     "access": "public-domain-or-open",
@@ -86,5 +302,45 @@
     "notes": "Address by President Jimmy Carter, 15 July 1979. Public domain US government document. Archived at the Jimmy Carter Presidential Library and Miller Center, University of Virginia.",
     "caseId": "united-states-after-vietnam",
     "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "sourceId": "weinberger-uses-military-power-1984",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Secretary of Defense Caspar W. Weinberger, address to the National Press Club, 28 November 1984. Public domain US government document. Primary source: Office of the Historian, FRUS 1981–1988, vol. I, doc. 219; also archived at PBS FRONTLINE.",
+    "caseId": "united-states-after-vietnam",
+    "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "sourceId": "vegetius-de-re-militari-c390",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Clarke (1767) translation at Internet Archive.",
+    "caseId": "western-roman-empire",
+    "caseSlug": "western-roman-empire"
+  },
+  {
+    "sourceId": "augustine-city-of-god-413",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Dods translation at New Advent: https://www.newadvent.org/fathers/120105.htm",
+    "caseId": "western-roman-empire",
+    "caseSlug": "western-roman-empire"
+  },
+  {
+    "sourceId": "kaiser-wilhelm-reichstag-speech-1914",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. English translation verified at GHDI.",
+    "caseId": "world-war-i-nationalisms",
+    "caseSlug": "world-war-i-nationalisms"
+  },
+  {
+    "sourceId": "poincare-war-message-1914",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. English translation verified at firstworldwar.com and BYU WWI archive.",
+    "caseId": "world-war-i-nationalisms",
+    "caseSlug": "world-war-i-nationalisms"
   }
 ]

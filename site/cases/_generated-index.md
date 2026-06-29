@@ -6,11 +6,11 @@ Full Source → Passage → Claim → Interpretation → Score chains.
 
 | Case | Outcome | Variables scored | Counterclaims |
 |---|---|---|---|
-| [Imperial Japan](imperial-japan.qmd) | Sacrificial Escalation | 1 | 1 |
-| [Nazi Germany](nazi-germany.qmd) | Sacrificial Escalation | 2 | 1 |
-| [Postwar Germany](postwar-germany.qmd) | Restrained Reordering | 1 | 1 |
-| [Soviet Union Collapse](soviet-collapse.qmd) | Collapse | 1 | 1 |
-| [United States after Vietnam](united-states-after-vietnam.qmd) | Restrained Reordering | 1 | 1 |
+| [Imperial Japan](imperial-japan.qmd) | Sacrificial Escalation | 2 | 1 |
+| [Nazi Germany](nazi-germany.qmd) | Sacrificial Escalation | 3 | 1 |
+| [Postwar Germany](postwar-germany.qmd) | Restrained Reordering | 2 | 1 |
+| [Soviet Union Collapse](soviet-collapse.qmd) | Collapse | 2 | 1 |
+| [United States after Vietnam](united-states-after-vietnam.qmd) | Restrained Reordering | 2 | 1 |
 
 ## Structural Comparators
 
