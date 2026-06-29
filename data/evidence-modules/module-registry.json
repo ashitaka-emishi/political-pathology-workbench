@@ -1,0 +1,42 @@
+[
+  {
+    "moduleId": "lincoln-metaphor-analysis",
+    "moduleName": "Lincoln Metaphor Analysis",
+    "moduleType": "deep-case",
+    "sourceRepository": "ashitaka-emishi/lincoln-metaphor-analysis",
+    "sourceRepositoryRole": "deep-case-module",
+    "description": "Deep single-case evidence module covering Abraham Lincoln's rhetoric (1838-1865): a multi-tier annotated corpus (core, validation, reference sets), stage-by-stage annotation artifacts, and methodology documentation.",
+    "caseIds": ["american-civil-war-union"],
+    "theoryIds": [
+      "koenigsberg-immortal-body-v1",
+      "sacrifice-law-v1",
+      "general-theory-political-pathology-v1"
+    ],
+    "corpusIds": ["lincoln-deep-28"],
+    "artifactClasses": ["corpus", "annotations", "reliability-study", "methodology", "publication"],
+    "provenanceStatus": "partial",
+    "rightsStatus": "fair-use",
+    "reliabilityStatus": "pending",
+    "claimPromotionPolicy": "standard",
+    "sourceIssueMigrationStatus": "in-progress",
+    "maintainerNotes": "Lincoln's own writings are public domain; third-party commentary and translations require rights review before import (see docs/architecture/imported-projects.md). Corpus and draft-claim import scheduled for Milestones 15-16; no artifacts imported yet as of Milestone 14."
+  },
+  {
+    "moduleId": "sacrifice-law-workbench",
+    "moduleName": "Sacrifice Law Workbench",
+    "moduleType": "comparative",
+    "sourceRepository": "ashitaka-emishi/sacrifice-law-workbench",
+    "sourceRepositoryRole": "comparative-corpus-module",
+    "description": "Comparative corpus evidence module covering multiple historical cases under Koenigsberg's Law of Sacrifice (American Revolution, Napoleon, Lincoln, Hitler): a multi-case stratified corpus with manifest-driven pipeline and cross-case synthesis research site.",
+    "caseIds": ["american-civil-war-union", "nazi-germany"],
+    "theoryIds": ["sacrifice-law-v1", "general-theory-political-pathology-v1"],
+    "corpusIds": ["sacrifice-law-comparative-41"],
+    "artifactClasses": ["corpus", "methodology", "publication"],
+    "provenanceStatus": "partial",
+    "rightsStatus": "fair-use",
+    "reliabilityStatus": "pending",
+    "claimPromotionPolicy": "standard",
+    "sourceIssueMigrationStatus": "in-progress",
+    "maintainerNotes": "American Revolution and Napoleon do not yet have corresponding PPW case files; case mapping must be confirmed before their corpus subsets are imported (see PPW #149-#151). Rights vary by era; pre-1928 texts are generally public domain, Nazi-era translations and apparatus require review. Corpus import scheduled for Milestone 17; no artifacts imported yet as of Milestone 14."
+  }
+]
