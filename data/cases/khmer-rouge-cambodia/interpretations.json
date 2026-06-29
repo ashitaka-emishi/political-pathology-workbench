@@ -2,26 +2,43 @@
   {
     "interpretationId": "khmer-rouge-cambodia-interpretation-001",
     "caseId": "khmer-rouge-cambodia",
-    "claimIds": ["khmer-rouge-cambodia-claim-001"],
+    "claimIds": [
+      "khmer-rouge-cambodia-claim-001"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "collective-immortality",
-    "interpretation": "The DK symbolic order explicitly encoded the collective revolutionary body as sacred and eternal, demanding the sacrifice of children and family members by the hundreds of thousands. The national anthem literalized blood sacrifice as the constitutive act of the nation. This is a maximum collective-immortality case: the individual is absorbed into the collective body and their death is framed as the body's self-renewal.",
+    "interpretation": "The DK sacred political order explicitly encoded the collective revolutionary body as sacred and eternal, demanding the sacrifice of children and family members by the hundreds of thousands. The national anthem literalized blood sacrifice as the constitutive act of the nation. This is a maximum collective-immortality case: the individual is absorbed into the collective body and their death is framed as the body's self-renewal.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.70,
+      "value": 0.7,
       "label": "moderate-high",
       "rationale": "Chain is thin but passages are directly on point. Score is defensible; pending chain expansion.",
-      "uncertaintyFactors": ["chain-requires-expansion", "instrumental-vs-symbolic-dispute"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "instrumental-vs-symbolic-dispute"
+      ]
     },
     "mechanism": "collective-immortality-to-sacrifice",
     "mechanismSummary": "The Angkar represented the collective revolutionary body as a sacred entity whose survival transcended individual life; the Constitution and anthem explicitly frame the sacrifice of family and blood as constitutive of national rebirth.",
-    "alternativeMechanisms": ["sacred-enemy-escalation", "institutional-self-preservation"],
-    "sacrificeForm": ["death", "family-life", "blood-sacrifice"],
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "family-life",
+      "blood-sacrifice"
+    ],
     "sacrificeHealth": "pathological",
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "in-group",
-    "definitionRefs": ["collective-immortality", "sacrifice", "pathology", "symbolic-order"],
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice",
+      "pathology",
+      "sacred-political-order"
+    ],
     "codebookVersion": "v1"
   }
 ]

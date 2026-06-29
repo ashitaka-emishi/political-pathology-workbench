@@ -12,11 +12,11 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft balanced-case placeholder.",
-  "symbolicOrderId": "soviet-communism-symbolic-order",
-  "symbolicOrderName": "Soviet Communism symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Communism.",
-  "symbolicOrderStrength": 4,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "soviet-communism-sacred-political-order",
+  "sacredPoliticalOrderName": "Soviet Communism sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Communism.",
+  "sacredPoliticalOrderStrength": 4,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "hybrid-case",
   "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
   "theoryTest": "Tests whether cases can move through multiple outcomes over time."

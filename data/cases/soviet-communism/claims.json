@@ -2,7 +2,7 @@
   {
     "claimId": "soviet-communism-claim-001",
     "caseId": "soviet-communism",
-    "claim": "The Soviet communist symbolic order built maximum-strength ideological authority on two pillars: the Manifesto's founding declaration of world-historical inevitability and collective sacrifice toward communist revolution, and the 1977 Constitution's legal enshrinement of the CPSU as the nucleus of all social life — a vanguard structure that concentrated symbolic power while eliminating the corrigibility mechanisms that might have allowed the order to adapt to changing conditions.",
+    "claim": "The Soviet communist sacred political order built maximum-strength ideological authority on two pillars: the Manifesto's founding declaration of world-historical inevitability and collective sacrifice toward communist revolution, and the 1977 Constitution's legal enshrinement of the CPSU as the nucleus of all social life — a vanguard structure that concentrated symbolic power while eliminating the corrigibility mechanisms that might have allowed the order to adapt to changing conditions.",
     "derivedFrom": [
       "soviet-communism-passage-001",
       "soviet-communism-passage-002"
@@ -14,7 +14,7 @@
     "confidence": {
       "value": 0.68,
       "label": "moderate",
-      "rationale": "Both passages are well-attested public-domain texts. The Manifesto passage is the founding ideological document of the movement; the 1977 Constitution Article 6 is the legal culmination of Soviet vanguard theory. Together they span founding ideology to institutional crystallization. Confidence capped: chain requires expansion from founding texts to operational practices (collectivization, purges, nomenklatura) to complete the arc from symbolic-order-strength to frozen-pathology.",
+      "rationale": "Both passages are well-attested public-domain texts. The Manifesto passage is the founding ideological document of the movement; the 1977 Constitution Article 6 is the legal culmination of Soviet vanguard theory. Together they span founding ideology to institutional crystallization. Confidence capped: chain requires expansion from founding texts to operational practices (collectivization, purges, nomenklatura) to complete the arc from sacred-political-order-strength to frozen-pathology.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "founding-text-to-practice-gap",

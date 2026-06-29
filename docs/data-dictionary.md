@@ -6,11 +6,11 @@
 - `title`: human-readable case title
 - `subtype`: case subtype
 - `outcome`: controlled outcome category
-- `symbolicOrderId`: stable symbolic-order identifier
-- `symbolicOrderName`: human-readable symbolic-order name
-- `symbolicOrderDefinition`: short operational definition
-- `symbolicOrderStrength`: 0-5 score
-- `symbolicOrderStrengthRationale`: evidence-aware rationale
+- `sacredPoliticalOrderId`: stable sacred-political-order identifier
+- `sacredPoliticalOrderName`: human-readable sacred-political-order name
+- `sacredPoliticalOrderDefinition`: short operational definition
+- `sacredPoliticalOrderStrength`: 0-5 score
+- `sacredPoliticalOrderStrengthRationale`: evidence-aware rationale
 - `caseSelectionRole`: role in research design
 - `selectionRationale`: reason for inclusion
 - `theoryTest`: what the case tests

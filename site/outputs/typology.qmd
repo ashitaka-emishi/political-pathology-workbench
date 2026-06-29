@@ -8,7 +8,7 @@ All evidence chains are under source review and subject to revision.
 :::
 
 The twenty cases in this workbench distribute into four empirical clusters based on
-symbolic-order-strength scores, corrigibility scores, primary mechanism, and sacrifice
+sacred-political-order-strength scores, corrigibility scores, primary mechanism, and sacrifice
 health assessments. These clusters are not identical to the formal six-outcome taxonomy
 (which distinguishes *sacrificial-escalation*, *collapse*, *hybrid-transitional*,
 *restrained-reordering*, *stagnation-frozen-pathology*, and *absorption-transformation*);
@@ -16,7 +16,7 @@ they are analytical groupings that foreground the theoretically significant dist
 for the pathology argument. The six-outcome taxonomy describes what happened; the four
 clusters describe the underlying dynamic that produced each class of outcome.
 
-The two key variables are **symbolic-order-strength** (the degree to which the order
+The two key variables are **sacred-political-order-strength** (the degree to which the order
 commands identity, legitimacy, obligation, and sacrificial commitment) and
 **corrigibility** (the order's institutional capacity to acknowledge error and change
 course). In the scored gold cases, these two variables show an inverse relationship in
@@ -29,13 +29,13 @@ typology is designed to make analytically explicit.
 Revolutionary France, World War I Nationalisms, Confederacy, Western Roman Empire.*
 
 The sacrifice-escalation cluster is defined by two features that co-occur in the scored
-cases: maximum symbolic-order-strength (5/5 for both gold cases) and minimum corrigibility
+cases: maximum sacred-political-order-strength (5/5 for both gold cases) and minimum corrigibility
 (1/5 for both). Nazi Germany (`nazi-germany-interpretation-003`: corrigibility = 1,
 mechanism `institutional-self-preservation`) and Imperial Japan
 (`imperial-japan-interpretation-002`: corrigibility = 1, mechanism
-`collective-immortality-to-sacrifice`) show that the symbolic order's strength and its
+`collective-immortality-to-sacrifice`) show that the sacred political order's strength and its
 incorrigibility are analytically linked, not independent — the mechanism that produces
-maximum symbolic-order-strength is the same mechanism that eliminates corrigibility.
+maximum sacred-political-order-strength is the same mechanism that eliminates corrigibility.
 In both cases, the collective body is represented as divinely or racially eternal, death
 in service of that body is encoded as participation in its immortality, and individual
 judgment is defined as ontological disloyalty. When individual judgment is eliminable by
@@ -43,13 +43,13 @@ definition, the feedback mechanism that would allow correction is removed: the o
 only escalate.
 
 What distinguishes this cluster from the collapse cases is that the escalating order
-*does not collapse from within* — it sustains its symbolic logic until external defeat
+*does not collapse from within* — it sustains its sacred order logic until external defeat
 forces dissolution. The Confederacy and Western Roman Empire are placed here rather than
 in a purely collapse cluster because their terminal phase is characterized by the
 intensification of sacrifice demands (the Confederacy's late-war calls for total sacrifice;
 the late Roman conscription and taxation spirals) rather than by legitimacy erosion
 before failure. The collapse is a consequence of escalation meeting external resistance,
-not of the symbolic order recognizing its own limits.
+not of the sacred political order recognizing its own limits.
 
 ## Cluster 2: Legitimacy Collapse and Frozen Pathology
 
@@ -57,7 +57,7 @@ not of the symbolic order recognizing its own limits.
 
 The second cluster captures orders that cannot sustain their founding legitimacy claims
 but respond to this failure in opposite ways. The Soviet Union Collapse
-(`soviet-union-collapse-interpretation-001`: symbolic-order-strength = 2,
+(`soviet-union-collapse-interpretation-001`: sacred-political-order-strength = 2,
 mechanism `legitimacy-collapse`; `soviet-union-collapse-interpretation-002`:
 corrigibility = 1) shows the terminal phase of an order that had historically high
 strength but lost the capacity to acknowledge systemic failure until the correction
@@ -68,9 +68,9 @@ corrigibility score of 1 reflects not an order that never tried to correct but o
 correction mechanisms were structurally insufficient and ultimately self-defeating.
 
 North Korea represents the opposite response: rather than collapsing, the order
-*freezes* its pathological structure indefinitely. The symbolic-order-strength score of 5
+*freezes* its pathological structure indefinitely. The sacred-political-order-strength score of 5
 (`north-korea-interpretation-001`, mechanism `frozen-pathology`) reflects an order that
-maintains maximum symbolic coherence precisely by eliminating all feedback from outside
+maintains maximum order coherence precisely by eliminating all feedback from outside
 its own categories — sealing the system against correction rather than attempting it.
 Frozen pathology is the asymptote of the sacrifice-escalation dynamic: the order
 achieves a sustainable equilibrium of maximum strength and minimum corrigibility by
@@ -79,7 +79,7 @@ to collapse or genuine correction.
 
 The British Empire to Commonwealth (corrigibility = 3, mechanism `symbolic-transformation`)
 is the outlier: an order that *successfully* transformed its legitimacy framework rather
-than collapsing or freezing, but only by abandoning its prior symbolic claims rather than
+than collapsing or freezing, but only by abandoning its prior sacred claims rather than
 defending them. The ambiguous sacrifice-health assessment (`ambiguous`) reflects the
 transitional character — neither the pathological sacrifice of the escalation cases nor
 the healthy bounded sacrifice of the restrained-reordering cases.
@@ -91,7 +91,7 @@ Independence; United States after Vietnam.*
 
 The restrained-reordering cluster is defined by high corrigibility scores (4–5/5 for
 Postwar Germany, Canada, EU, Switzerland) and healthy sacrifice norms. These cases are
-not merely cases where escalation did not occur; they are cases where the symbolic order
+not merely cases where escalation did not occur; they are cases where the sacred political order
 was *actively designed* or *historically conditioned* to prevent the escalation dynamic.
 The design mechanisms vary: constitutional-containment (Postwar Germany, Canada),
 pluralist-reordering (EU, Switzerland), anti-sacrificial-restraint (Gandhian India), and
@@ -109,7 +109,7 @@ complementary interpretations of the same architecture: the Art. 20 resistance c
 (passage-004) converts the memory of legal revolution into a positive constitutional right
 to resist its repetition.
 
-United States after Vietnam (corrigibility = 3, symbolic-order-strength = 3) is the
+United States after Vietnam (corrigibility = 3, sacred-political-order-strength = 3) is the
 marginal case in this cluster: its restrained-reordering classification reflects
 the War Powers Resolution's memory-driven-restraint architecture and Weinberger's
 pre-engagement consent doctrine, but the ambiguous sacrifice-health assessment
@@ -126,10 +126,10 @@ Union.*
 The hybrid-transitional cluster captures orders that show both pathological escalation
 features and functional restraint simultaneously — without resolving into either the
 full escalation of Cluster 1 or the consolidated restraint of Cluster 3. The diagnostic
-signature is high symbolic-order-strength with mixed or pathological sacrifice health,
+signature is high sacred-political-order-strength with mixed or pathological sacrifice health,
 in the absence of corrigibility scores that would confirm structural restraint.
 
-Post-9/11 United States (symbolic-order-strength = 4, mechanism `sacred-enemy-escalation`,
+Post-9/11 United States (sacred-political-order-strength = 4, mechanism `sacred-enemy-escalation`,
 sacrifice health = pathological) is the clearest hybrid case: the sacred-enemy
 activation after 9/11 drove sacrifice escalation along a classic pattern — the AUMF's
 unlimited geographic and temporal scope, the indefinite detention and enhanced
@@ -138,15 +138,15 @@ framework was not abolished and ultimately provided the restraint mechanisms tha
 the trajectory. The case is transitional because the escalation operated within a
 surviving institutional framework rather than replacing it.
 
-Soviet Communism (symbolic-order-strength = 5, mechanism `collective-immortality-to-sacrifice`,
+Soviet Communism (sacred-political-order-strength = 5, mechanism `collective-immortality-to-sacrifice`,
 sacrifice health = pathological) is placed here rather than in Cluster 1 because it is
 *historically prior* to the collapse case — it represents the order's pre-collapse
-phase, in which maximum symbolic-order-strength coexisted with building legitimacy
+phase, in which maximum sacred-political-order-strength coexisted with building legitimacy
 erosion. The transition from Soviet Communism to Soviet Union Collapse is the empirical
 case for the legitimacy-collapse dynamic: maximum strength does not prevent collapse when
 the founding claims can no longer be sustained.
 
-American Civil War / Union (symbolic-order-strength = 4, mechanism
+American Civil War / Union (sacred-political-order-strength = 4, mechanism
 `anti-sacrificial-restraint`, sacrifice health = mixed) shows anti-sacrificial impulses
 operating *within* a high-sacrifice context: Lincoln's Gettysburg Address and Second
 Inaugural reframe the war's sacrifice toward national rededication rather than enemy
@@ -171,6 +171,6 @@ pathological sacrifice health are consistently in the sacrifice-escalation clust
 The hybrid and collapse cases occupy the intermediate space where these two dimensions
 diverge — high strength without healthy sacrifice, or low strength without functional
 corrigibility. This pattern supports the theory's central claim: the critical variable
-is not the *strength* of the symbolic order but its *corrigibility* — whether the
+is not the *strength* of the sacred political order but its *corrigibility* — whether the
 institutional design permits error correction before the self-preservation dynamic
 becomes irreversible.

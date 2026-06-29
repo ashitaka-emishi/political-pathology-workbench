@@ -28,18 +28,18 @@
     "scoreId": "nazi-germany-score-002",
     "caseId": "nazi-germany",
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "interpretationId": "nazi-germany-interpretation-002",
     "value": 5,
     "definitionRefs": [
-      "symbolic-order",
-      "symbolic-order-strength"
+      "sacred-political-order",
+      "sacred-political-order-strength"
     ],
     "codebookVersion": "v1",
     "confidence": {
       "value": 0.6,
       "label": "moderate",
-      "rationale": "Passages advanced to evidence-review. Score reflects strong symbolic order strength consistent with case role; physical edition verification and expanded sourcing required before scholarly use.",
+      "rationale": "Passages advanced to evidence-review. Score reflects strong sacred political order strength consistent with case role; physical edition verification and expanded sourcing required before scholarly use.",
       "uncertaintyFactors": [
         "single-claim-support",
         "physical-edition-verification-pending"
@@ -47,7 +47,7 @@
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "reviewNote": "Score value 5/5 defensible: maximum symbolic-order-strength is strongly supported by the chain — both NSDAP founding texts and the institutional self-preservation mechanism (Wehrmacht oath, one-party law) document an order that commanded total collective identity and obligation. Confidence 0.60 is lower than expected given the strong evidence; the uncertainty factors (single-claim and physical edition pending) are real. Ready for human-reviewed once physical edition verification is complete."
+    "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the chain — both NSDAP founding texts and the institutional self-preservation mechanism (Wehrmacht oath, one-party law) document an order that commanded total collective identity and obligation. Confidence 0.60 is lower than expected given the strong evidence; the uncertainty factors (single-claim and physical edition pending) are real. Ready for human-reviewed once physical edition verification is complete."
   },
   {
     "scoreId": "nazi-germany-score-003",
@@ -59,7 +59,7 @@
     "confidence": {
       "value": 0.82,
       "label": "high",
-      "rationale": "Minimum corrigibility: both legal instruments directly eliminate the institutional preconditions for symbolic-order self-correction — unconditional personal oath forecloses military dissent; single-party law forecloses political competition. Score of 1 (not 0) preserves the possibility that informal networks and internal party factionalism provided marginal corrigibility channels, but the constitutional-legal architecture is unambiguous.",
+      "rationale": "Minimum corrigibility: both legal instruments directly eliminate the institutional preconditions for order self-correction — unconditional personal oath forecloses military dissent; single-party law forecloses political competition. Score of 1 (not 0) preserves the possibility that informal networks and internal party factionalism provided marginal corrigibility channels, but the constitutional-legal architecture is unambiguous.",
       "uncertaintyFactors": [
         "chain-requires-integration-with-operational-documentation"
       ]

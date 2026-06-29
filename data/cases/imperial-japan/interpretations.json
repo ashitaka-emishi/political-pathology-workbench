@@ -6,8 +6,8 @@
       "imperial-japan-claim-001"
     ],
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
-    "interpretation": "The Imperial Rescripts institutionalized a maximally strong symbolic order in which the kokutai (national polity) organized identity, legitimacy, obligation, memory, and sacrifice around the Emperor as a divine collective body. Individual survival was explicitly subordinated to imperial survival, and death in service of the Emperor was framed as the highest moral fulfillment.",
+    "variableId": "sacred-political-order-strength",
+    "interpretation": "The Imperial Rescripts institutionalized a maximally strong sacred political order in which the kokutai (national polity) organized identity, legitimacy, obligation, memory, and sacrifice around the Emperor as a divine collective body. Individual survival was explicitly subordinated to imperial survival, and death in service of the Emperor was framed as the highest moral fulfillment.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -20,7 +20,7 @@
       ]
     },
     "mechanism": "collective-immortality-to-sacrifice",
-    "mechanismSummary": "The imperial symbolic order represented the national body as divinely eternal; individual death in service of that body was encoded as participation in its immortality, making sacrifice the highest moral act.",
+    "mechanismSummary": "The imperial sacred political order represented the national body as divinely eternal; individual death in service of that body was encoded as participation in its immortality, making sacrifice the highest moral act.",
     "alternativeMechanisms": [
       "sacred-enemy-escalation",
       "institutional-self-preservation"
@@ -35,8 +35,8 @@
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "mixed",
     "definitionRefs": [
-      "symbolic-order-strength",
-      "symbolic-order",
+      "sacred-political-order-strength",
+      "sacred-political-order",
       "collective-immortality",
       "sacrifice",
       "pathology"
@@ -46,26 +46,44 @@
   {
     "interpretationId": "imperial-japan-interpretation-002",
     "caseId": "imperial-japan",
-    "claimIds": ["imperial-japan-claim-002"],
+    "claimIds": [
+      "imperial-japan-claim-002"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
-    "interpretation": "The Kokutai no Hongi defined corrigibility-elimination as an ideological positive: loyalty requires 'casting ourselves aside,' making individual judgment an act of disloyalty and Western individualism a contaminant to be overcome. The sole legitimate mode of existence for subjects was unconditional service to the Emperor — 'the sole Way in which we subjects may live.' This is not merely a practical constraint but a constitutive ontological claim: individual selfhood outside imperial service is framed as non-existence. Combined with the 1941 war rescript's existential framing of the Pacific War, the symbolic order produced a corrigibility floor of near-zero: no institutional mechanism existed for questioning the war's direction without transgressing the fundamental definition of what it meant to 'live' as a Japanese subject.",
+    "interpretation": "The Kokutai no Hongi defined corrigibility-elimination as an ideological positive: loyalty requires 'casting ourselves aside,' making individual judgment an act of disloyalty and Western individualism a contaminant to be overcome. The sole legitimate mode of existence for subjects was unconditional service to the Emperor — 'the sole Way in which we subjects may live.' This is not merely a practical constraint but a constitutive ontological claim: individual selfhood outside imperial service is framed as non-existence. Combined with the 1941 war rescript's existential framing of the Pacific War, the sacred political order produced a corrigibility floor of near-zero: no institutional mechanism existed for questioning the war's direction without transgressing the fundamental definition of what it meant to 'live' as a Japanese subject.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
       "value": 0.75,
       "label": "moderate-high",
       "rationale": "Kokutai no Hongi text directly supports the corrigibility-elimination interpretation: the equation of loyalty with self-erasure and the framing of Western individualism as contamination make the claim textually grounded. War rescript adds the sacred-enemy dimension. Confidence capped: operational documentation of how these ideological prescriptions functioned in practice requires chain expansion.",
-      "uncertaintyFactors": ["ministry-of-education-translation-mediated", "chain-requires-operational-documentation"]
+      "uncertaintyFactors": [
+        "ministry-of-education-translation-mediated",
+        "chain-requires-operational-documentation"
+      ]
     },
     "mechanism": "collective-immortality-to-sacrifice",
     "mechanismSummary": "The Kokutai no Hongi defined individual selfhood outside imperial service as non-existence, eliminating the basis for legitimate dissent; the war rescript activated sacred-enemy escalation by framing the war as defense of national existence — together producing minimum corrigibility.",
-    "alternativeMechanisms": ["sacred-enemy-escalation", "institutional-self-preservation"],
-    "sacrificeForm": ["death", "bodily-risk", "conscience", "agency"],
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "bodily-risk",
+      "conscience",
+      "agency"
+    ],
     "sacrificeHealth": "pathological",
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "self",
-    "definitionRefs": ["corrigibility", "symbolic-order-strength", "collective-immortality", "sacrifice"],
+    "definitionRefs": [
+      "corrigibility",
+      "sacred-political-order-strength",
+      "collective-immortality",
+      "sacrifice"
+    ],
     "codebookVersion": "v1"
   }
 ]

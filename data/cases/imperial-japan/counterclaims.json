@@ -2,13 +2,13 @@
   {
     "counterclaimId": "imperial-japan-counterclaim-001",
     "caseId": "imperial-japan",
-    "claim": "The Taisho democracy period (c. 1912-1926) demonstrates significant liberal and pluralist contestation within the Imperial Japanese symbolic order, complicating a reading of kokutai strength as uniformly maximal across the 1868-1945 period.",
+    "claim": "The Taisho democracy period (c. 1912-1926) demonstrates significant liberal and pluralist contestation within the Imperial Japanese sacred political order, complicating a reading of kokutai strength as uniformly maximal across the 1868-1945 period.",
     "effect": "qualifies",
     "targetClaimIds": [
       "imperial-japan-claim-001"
     ],
     "sourceIds": [],
-    "rationale": "The symbolic order's strength intensified sharply during wartime mobilization; treating the full 1868-1945 period as uniformly high-strength conflates distinct phases of the imperial order.",
+    "rationale": "The sacred political order's strength intensified sharply during wartime mobilization; treating the full 1868-1945 period as uniformly high-strength conflates distinct phases of the imperial order.",
     "reviewStatus": "draft",
     "publicationStatus": "draft"
   }

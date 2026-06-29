@@ -12,12 +12,12 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft balanced-case placeholder.",
-  "symbolicOrderId": "confederacy-symbolic-order",
-  "symbolicOrderName": "Confederacy symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Confederacy.",
-  "symbolicOrderStrength": 4,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "confederacy-sacred-political-order",
+  "sacredPoliticalOrderName": "Confederacy sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Confederacy.",
+  "sacredPoliticalOrderStrength": 4,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "collapse-case",
   "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
-  "theoryTest": "Tests whether embodied symbolic orders can lose legitimacy or command capacity instead of escalating sacrifice."
+  "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice."
 }

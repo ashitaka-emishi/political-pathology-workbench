@@ -24,9 +24,9 @@ Scores use a 0-5 scale. All public-facing scores require confidence metadata, re
 
 ## Core Variables
 
-### symbolic-order-strength
+### sacred-political-order-strength
 
-Measures how coherently a symbolic order organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice. See `symbolic-order-definition.md`.
+Measures how coherently a sacred political order organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice around its sacred objects, values, or persons. See `symbolic-order-definition.md`.
 
 False positive: high symbolic visibility without identity, legitimacy, obligation, memory, moral judgment, and sacrifice.
 

@@ -2,26 +2,43 @@
   {
     "interpretationId": "confederacy-interpretation-001",
     "caseId": "confederacy",
-    "claimIds": ["confederacy-claim-001"],
+    "claimIds": [
+      "confederacy-claim-001"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
-    "interpretation": "The Confederacy's founding documents establish a symbolic order of high initial strength: the Constitution claims divine guidance for permanent federal sovereignty, while Stephens explicitly codes racial hierarchy as the order's 'corner-stone' — an immutable natural truth rather than a political arrangement subject to revision. This sacralization of racial hierarchy made the order incorrigible by design, producing the rigidity that contributed to collapse when military defeat removed the institutional basis for sustaining the claim.",
+    "variableId": "sacred-political-order-strength",
+    "interpretation": "The Confederacy's founding documents establish a sacred political order of high initial strength: the Constitution claims divine guidance for permanent federal sovereignty, while Stephens explicitly codes racial hierarchy as the order's 'corner-stone' — an immutable natural truth rather than a political arrangement subject to revision. This sacralization of racial hierarchy made the order incorrigible by design, producing the rigidity that contributed to collapse when military defeat removed the institutional basis for sustaining the claim.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
       "value": 0.67,
       "label": "moderate",
-      "rationale": "Chain is thin but passages are directly on point and verified. Score reflects high symbolic-order strength at founding; collapse mechanism requires separate chain expansion.",
-      "uncertaintyFactors": ["chain-requires-expansion", "collapse-not-chain-driven"]
+      "rationale": "Chain is thin but passages are directly on point and verified. Score reflects high sacred-political-order strength at founding; collapse mechanism requires separate chain expansion.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "collapse-not-chain-driven"
+      ]
     },
     "mechanism": "institutional-fragmentation",
-    "mechanismSummary": "The Confederate symbolic order achieved high founding strength by sacralizing racial hierarchy as natural truth, but its institutional base collapsed under military defeat without the corrigibility needed to adapt, producing terminal fragmentation.",
-    "alternativeMechanisms": ["legitimacy-collapse", "sacred-enemy-escalation"],
-    "sacrificeForm": ["death", "blood-sacrifice", "labor"],
+    "mechanismSummary": "The Confederate sacred political order achieved high founding strength by sacralizing racial hierarchy as natural truth, but its institutional base collapsed under military defeat without the corrigibility needed to adapt, producing terminal fragmentation.",
+    "alternativeMechanisms": [
+      "legitimacy-collapse",
+      "sacred-enemy-escalation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "blood-sacrifice",
+      "labor"
+    ],
     "sacrificeHealth": "pathological",
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "out-group",
-    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "sacralization", "corrigibility"],
+    "definitionRefs": [
+      "sacred-political-order",
+      "sacred-political-order-strength",
+      "sacralization",
+      "corrigibility"
+    ],
     "codebookVersion": "v1"
   }
 ]

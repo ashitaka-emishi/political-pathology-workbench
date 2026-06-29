@@ -2,26 +2,43 @@
   {
     "interpretationId": "maoist-china-interpretation-001",
     "caseId": "maoist-china",
-    "claimIds": ["maoist-china-claim-001"],
+    "claimIds": [
+      "maoist-china-claim-001"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "collective-immortality",
-    "interpretation": "The Maoist symbolic order established 'the people' as an eternal collective body whose continuation gave meaning to individual death. Mao's explicit contrast — death for the people is weightier than Mount Tai, death for exploiters is lighter than a feather — encodes a graded hierarchy of sacrifice in which only death that serves collective immortality is meaningful. Selflessness is not merely praised but structurally required.",
+    "interpretation": "The Maoist sacred political order established 'the people' as an eternal collective body whose continuation gave meaning to individual death. Mao's explicit contrast — death for the people is weightier than Mount Tai, death for exploiters is lighter than a feather — encodes a graded hierarchy of sacrifice in which only death that serves collective immortality is meaningful. Selflessness is not merely praised but structurally required.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
       "value": 0.72,
       "label": "moderate-high",
-      "rationale": "Both passages are core canonical texts of the Maoist symbolic order. Chain is thin but directly grounded in verified primary sources. Pending periodization review and chain expansion.",
-      "uncertaintyFactors": ["chain-requires-expansion", "periodization-ambiguity"]
+      "rationale": "Both passages are core canonical texts of the Maoist sacred political order. Chain is thin but directly grounded in verified primary sources. Pending periodization review and chain expansion.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
     },
     "mechanism": "collective-immortality-to-sacrifice",
-    "mechanismSummary": "The Maoist symbolic order represented 'the People' as a transcendent collective body; Mao's canonical texts explicitly coded death-for-the-people as the supreme form of human meaning, structurally demanding individual self-abnegation.",
-    "alternativeMechanisms": ["sacred-enemy-escalation", "institutional-self-preservation"],
-    "sacrificeForm": ["death", "conscience", "agency"],
+    "mechanismSummary": "The Maoist sacred political order represented 'the People' as a transcendent collective body; Mao's canonical texts explicitly coded death-for-the-people as the supreme form of human meaning, structurally demanding individual self-abnegation.",
+    "alternativeMechanisms": [
+      "sacred-enemy-escalation",
+      "institutional-self-preservation"
+    ],
+    "sacrificeForm": [
+      "death",
+      "conscience",
+      "agency"
+    ],
     "sacrificeHealth": "pathological",
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "in-group",
-    "definitionRefs": ["collective-immortality", "sacrifice", "pathology", "symbolic-order"],
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice",
+      "pathology",
+      "sacred-political-order"
+    ],
     "codebookVersion": "v1"
   }
 ]

@@ -2,7 +2,9 @@
   {
     "interpretationId": "switzerland-interpretation-001",
     "caseId": "switzerland",
-    "claimIds": ["switzerland-claim-001"],
+    "claimIds": [
+      "switzerland-claim-001"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
     "interpretation": "Switzerland scores high on corrigibility through its constitutional inversion of the sacrificial symbolic logic: the Preamble defines collective strength as the well-being of the weakest rather than the sacrifice of the weak for the strong, while Article 2 pluralizes the order's aims (welfare, diversity, sustainability, peaceful order) in ways that structurally resist sacred-enemy simplification. The federalist and direct-democracy mechanisms compound this: power is constitutionally distributed across cantons and referenda, preventing symbolic concentration that enables sacrificial escalation. This is the structural countercase to the frozen-pathology trajectory — the Swiss order achieves stability through pluralist consensus rather than through vanguard monopoly.",
@@ -12,16 +14,31 @@
       "value": 0.65,
       "label": "moderate",
       "rationale": "Chain thin; passages are directly constitutive but require expansion to direct-democracy practices and federalism. Historical exclusion of women's suffrage (until 1971 federally) complicates maximum corrigibility score.",
-      "uncertaintyFactors": ["chain-requires-expansion", "direct-democracy-exclusion-history-complicates-score"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "direct-democracy-exclusion-history-complicates-score"
+      ]
     },
     "mechanism": "pluralist-reordering",
     "mechanismSummary": "Constitutional definition of strength-as-welfare-of-weakest plus pluralized aims and federalist/direct-democracy structures prevent symbolic concentration and sacred-enemy escalation, producing high corrigibility through consensus rather than vanguard monopoly.",
-    "alternativeMechanisms": ["constitutional-containment", "anti-sacrificial-restraint"],
-    "sacrificeForm": ["time", "labor", "economic-security"],
+    "alternativeMechanisms": [
+      "constitutional-containment",
+      "anti-sacrificial-restraint"
+    ],
+    "sacrificeForm": [
+      "time",
+      "labor",
+      "economic-security"
+    ],
     "sacrificeHealth": "healthy",
     "sacrificeBoundedness": "partially-bounded",
     "sacrificeTarget": "self",
-    "definitionRefs": ["corrigibility", "pluralist-reordering", "symbolic-order-strength", "sacrifice"],
+    "definitionRefs": [
+      "corrigibility",
+      "pluralist-reordering",
+      "sacred-political-order-strength",
+      "sacrifice"
+    ],
     "codebookVersion": "v1"
   }
 ]

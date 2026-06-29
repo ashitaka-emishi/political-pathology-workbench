@@ -60,16 +60,16 @@ writeJson(path.join(generatedDir, "all-claims.json"), allClaims);
 writeJson(path.join(generatedDir, "all-interpretations.json"), allInterpretations);
 writeJson(path.join(generatedDir, "all-scores.json"), allScores);
 writeJson(path.join(generatedDir, "all-counterclaims.json"), allCounterclaims);
-writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus, symbolicOrderId, symbolicOrderName, symbolicOrderStrength, caseSelectionRole }) => ({
+writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus, sacredPoliticalOrderId, sacredPoliticalOrderName, sacredPoliticalOrderStrength, caseSelectionRole }) => ({
   caseId,
   title,
   slug,
   outcome,
   goldCase: Boolean(goldCase),
   publicationStatus,
-  symbolicOrderId,
-  symbolicOrderName,
-  symbolicOrderStrength,
+  sacredPoliticalOrderId,
+  sacredPoliticalOrderName,
+  sacredPoliticalOrderStrength,
   caseSelectionRole
 })));
 writeJson(path.join(generatedDir, "theory-index.json"), theoryIndex);
@@ -83,7 +83,7 @@ const OUTCOME_CLUSTERS = [
   { outcomeId: "stagnation-frozen-pathology", label: "Stagnation / Frozen Pathology" },
   { outcomeId: "absorption-transformation",   label: "Absorption / Transformation" },
 ];
-const DISPLAY_VARS = ["symbolic-order-strength", "corrigibility"];
+const DISPLAY_VARS = ["sacred-political-order-strength", "corrigibility"];
 
 const scoresByCase = {};
 for (const s of allScores) {

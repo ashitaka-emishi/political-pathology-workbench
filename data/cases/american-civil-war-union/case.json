@@ -12,11 +12,11 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft balanced-case placeholder.",
-  "symbolicOrderId": "american-civil-war-union-symbolic-order",
-  "symbolicOrderName": "American Civil War / Union symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with American Civil War / Union.",
-  "symbolicOrderStrength": 4,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "american-civil-war-union-sacred-political-order",
+  "sacredPoliticalOrderName": "American Civil War / Union sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with American Civil War / Union.",
+  "sacredPoliticalOrderStrength": 4,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "hybrid-case",
   "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
   "theoryTest": "Tests whether cases can move through multiple outcomes over time."

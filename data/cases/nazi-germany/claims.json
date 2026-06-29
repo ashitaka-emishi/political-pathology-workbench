@@ -3,7 +3,10 @@
     "claimId": "nazi-germany-claim-001",
     "caseId": "nazi-germany",
     "claim": "Nazi political language represented the national community as a sacred collective body whose preservation could override individual life and ordinary pluralist correction.",
-    "derivedFrom": ["nazi-germany-passage-001", "nazi-germany-passage-002"],
+    "derivedFrom": [
+      "nazi-germany-passage-001",
+      "nazi-germany-passage-002"
+    ],
     "createdBy": "human",
     "reviewedBy": "andrew-hammer",
     "reviewStatus": "argument-review",
@@ -21,7 +24,7 @@
   {
     "claimId": "nazi-germany-claim-002",
     "caseId": "nazi-germany",
-    "claim": "The Nazi regime eliminated corrigibility through two simultaneous legal mechanisms: the Wehrmacht oath (2 August 1934) replaced the constitutional oath to the German nation with a personal oath of unconditional obedience to Hitler and explicit readiness to die for it, removing the institutional basis for legitimate dissent within the armed forces; the Law Against Formation of New Parties (14 July 1933) legally mandated single-party rule, eliminating the pluralist competition that enables symbolic-order correction.",
+    "claim": "The Nazi regime eliminated corrigibility through two simultaneous legal mechanisms: the Wehrmacht oath (2 August 1934) replaced the constitutional oath to the German nation with a personal oath of unconditional obedience to Hitler and explicit readiness to die for it, removing the institutional basis for legitimate dissent within the armed forces; the Law Against Formation of New Parties (14 July 1933) legally mandated single-party rule, eliminating the pluralist competition that enables order correction.",
     "derivedFrom": [
       "nazi-germany-passage-003",
       "nazi-germany-passage-004"
@@ -31,7 +34,7 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.80,
+      "value": 0.8,
       "label": "high",
       "rationale": "Both passages are official legal instruments verified against authoritative sources (GHDI for the oath; USHMM Encyclopedia for the party law). The corrigibility-elimination claim follows directly from the texts: the oath's 'unconditional obedience' forecloses institutional dissent; the single-party law forecloses political competition. No significant translation ambiguity; texts are short, clear legal formulae.",
       "uncertaintyFactors": [

@@ -526,7 +526,7 @@ def render_proposed_law() -> str:
         "",
         "## The Proposed Law",
         "",
-        "> Every symbolic order seeks embodiment. Every embodied order tends toward "
+        "> Every sacred political order seeks embodiment. Every embodied order tends toward "
         "self-preservation. Unless continually ordered toward transcendent truth, "
         "self-preservation becomes self-sacralization, and self-sacralization legitimizes "
         "sacrifice under conditions of perceived existential threat.",
@@ -643,7 +643,7 @@ def render_outcomes(case_meta: dict) -> str:
         ":::",
         "",
         "The theory distinguishes six outcome types based on how an embodied "
-        "symbolic order responds when its self-preservation drive encounters "
+        "sacred political order responds when its self-preservation drive encounters "
         "crisis pressure.",
         "",
         "| Outcome | Description |",
@@ -680,7 +680,7 @@ def render_working_paper(scores: list[dict], claims: list[dict],
     outcomes = load_theory("general-theory-political-pathology-v1", "outcomes.json")
 
     proposed_law_quote = (
-        "> Every symbolic order seeks embodiment. Every embodied order tends toward "
+        "> Every sacred political order seeks embodiment. Every embodied order tends toward "
         "self-preservation. Unless continually ordered toward transcendent truth, "
         "self-preservation becomes self-sacralization, and self-sacralization legitimizes "
         "sacrifice under conditions of perceived existential threat."
@@ -713,10 +713,10 @@ def render_working_paper(scores: list[dict], claims: list[dict],
         "Political orders do not merely organize power — they embody symbolic structures "
         "that define collective identity, legitimate sacrifice, and resist correction. "
         "This working paper presents a traceable comparative framework for analyzing "
-        "political pathology: the condition in which an embodied symbolic order preserves "
+        "political pathology: the condition in which an embodied sacred political order preserves "
         "itself at the expense of truth, human flourishing, and corrigibility. "
         "The framework introduces a proposed law governing the self-preservation dynamics "
-        "of symbolic orders, a six-outcome taxonomy, and a structured evidence-chain model "
+        "of sacred political orders, a six-outcome taxonomy, and a structured evidence-chain model "
         "in which every interpretive claim is traceable to specific passages, sources, and "
         "scoring rationales. Five gold cases — Nazi Germany, Imperial Japan, Postwar Germany, "
         "the Soviet Union, and the United States after Vietnam — are analyzed to test the "
@@ -758,7 +758,7 @@ def render_working_paper(scores: list[dict], claims: list[dict],
         "",
         f"*— {sl['title']}, {sl['version']}*",
         "",
-        "The proposed law identifies a default dynamic in embodied symbolic orders. "
+        "The proposed law identifies a default dynamic in embodied sacred political orders. "
         "It does not claim determinism: the dynamic can be interrupted by corrigibility, "
         "pluralist resistance, constitutional design, or anti-sacrificial memory. "
         "The five gold cases were selected to test where and how interruption occurs.",
@@ -946,7 +946,7 @@ def render_working_paper(scores: list[dict], claims: list[dict],
         "### Theoretical Implications",
         "",
         "The Nazi Germany and Imperial Japan cases share the `collective-immortality-to-sacrifice` "
-        "mechanism, suggesting that when the symbolic order represents the collective body "
+        "mechanism, suggesting that when the sacred political order represents the collective body "
         "as divinely or racially eternal, mortal sacrifice becomes not only tolerable but "
         "demanded. Postwar Germany's `constitutional-containment` outcome directly "
         "addresses this dynamic: the Grundgesetz embeds inviolable human dignity "
@@ -994,7 +994,7 @@ def render_working_paper(scores: list[dict], claims: list[dict],
     return "\n".join(lines)
 
 
-DISPLAY_VARS = ["symbolic-order-strength", "corrigibility"]
+DISPLAY_VARS = ["sacred-political-order-strength", "corrigibility"]
 
 
 def render_comparison_table(scores: list[dict], interpretations: list[dict],

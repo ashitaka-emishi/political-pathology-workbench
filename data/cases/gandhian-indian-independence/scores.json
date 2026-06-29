@@ -3,13 +3,13 @@
     "scoreId": "gandhian-indian-independence-score-001",
     "caseId": "gandhian-indian-independence",
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "interpretationId": "gandhian-indian-independence-interpretation-001",
     "value": 3,
     "confidence": {
       "value": 0.58,
       "label": "moderate",
-      "rationale": "Score of 3 reflects moderate symbolic-order strength: the Gandhian order achieved independence and generated enormous moral authority, but its strength was achieved without the institutional consolidation that produces maximum scores. Partition and subsequent Indian constitutional history suggest the Gandhian symbolic order did not fully transfer its anti-sacrificial principles to the state-building phase.",
+      "rationale": "Score of 3 reflects moderate sacred-political-order strength: the Gandhian order achieved independence and generated enormous moral authority, but its strength was achieved without the institutional consolidation that produces maximum scores. Partition and subsequent Indian constitutional history suggest the Gandhian sacred political order did not fully transfer its anti-sacrificial principles to the state-building phase.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "partition-violence-complicates-anti-sacrificial-score",
@@ -19,10 +19,10 @@
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "definitionRefs": [
-      "symbolic-order-strength",
+      "sacred-political-order-strength",
       "anti-sacrificial-restraint"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 3/5 defensible: anti-sacrificial-restraint mechanism (Hind Swaraj's satyagraha framework) represents moderate symbolic-order-strength — the movement had strong moral legitimacy but limited institutional embodiment. Confidence 0.58 appropriately low given that partition violence directly contradicts the anti-sacrificial claim and the theory-practice gap is a genuine analytical problem. Hold at score-review; partition violence counterclaim requires explicit address before human-reviewed."
+    "reviewNote": "Score value 3/5 defensible: anti-sacrificial-restraint mechanism (Hind Swaraj's satyagraha framework) represents moderate sacred-political-order-strength — the movement had strong moral legitimacy but limited institutional embodiment. Confidence 0.58 appropriately low given that partition violence directly contradicts the anti-sacrificial claim and the theory-practice gap is a genuine analytical problem. Hold at score-review; partition violence counterclaim requires explicit address before human-reviewed."
   }
 ]

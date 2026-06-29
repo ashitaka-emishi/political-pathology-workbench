@@ -138,8 +138,9 @@
     "locator": "Imperial Rescript on Education (Kyoiku Chokugo), 30 October 1890; English translation, Japanese Ministry of Education; in Tsunoda, Ryusaku, Wm. Theodore de Bary, and Donald Keene, eds., Sources of Japanese Tradition, Vol. 2 (New York: Columbia University Press, 1958), p. 139. Text confirmed against Wikipedia English translation and worldjpn.net (The World and Japan Database): https://worldjpn.net/documents/texts/pw/18901030.O1E.html. Tsunoda et al. (1958) p.139 edition-specific wording requires physical library verification.",
     "text": "Should emergency arise, offer yourselves courageously to the State; and thus guard and maintain the prosperity of Our Imperial Throne coeval with heaven and earth.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim imperial-japan-claim-001: 'offer yourselves courageously to the State' directly encodes the collective-immortality-to-sacrifice mechanism — sacrifice in defense of the imperial collective body is framed as a primary obligation. Evidence role 'grounds' is correct. Text confirmed against worldjpn.net source in evidence-review pass.",
     "caseSlug": "imperial-japan"
   },
   {
@@ -149,8 +150,9 @@
     "locator": "Imperial Rescript to Soldiers and Sailors (Gunjin Chokuyu), 4 January 1882; English translation in McLaren, W. W., ed., Japanese Government Documents, Transactions of the Asiatic Society of Japan 42 (1914), p. 197. Text confirmed against multiple online scholarly sources including https://rikukaigun.org/General/Imperial%20Rescript%20to%20Soldiers%20and%20Sailors.html and Wikipedia. McLaren (1914) p.197 edition-specific wording requires physical library verification.",
     "text": "Bear in mind that duty is weightier than a mountain, while death is lighter than a feather.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim imperial-japan-claim-001: 'duty is weightier than a mountain, while death is lighter than a feather' encodes death in service as the highest moral act, directly instantiating the sacrifice-to-immortality logic. Evidence role 'grounds' is correct. Text confirmed against scholarly sources in evidence-review pass.",
     "caseSlug": "imperial-japan"
   },
   {
@@ -160,8 +162,9 @@
     "locator": "Kokutai no Hongi (Cardinal Principles of the National Polity), 1937, section on loyalty; English translation in de Bary, Gluck, and Tiedemann, eds., Sources of Japanese Tradition, 2nd ed., vol. 2 (New York: Columbia University Press, 2005), pp. 968–969; excerpt verified at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf",
     "text": "Loyalty means to revere the emperor as [our] pivot and to follow him implicitly. By implicit obedience is meant casting ourselves aside and serving the emperor intently. To walk this Way of loyalty is the sole Way in which we subjects may 'live' and the fountainhead of all energy. Hence, offering our lives for the sake of the emperor does not mean so-called self-sacrifice but the casting aside of our little selves to live under his august grace and the enhancing of the genuine life of the people of a state.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim imperial-japan-claim-002: 'casting ourselves aside and serving the emperor intently' and 'offering our lives... does not mean so-called self-sacrifice but the casting aside of our little selves to live under his august grace' encodes the ontological equation of individual existence with imperial service that eliminates the basis for legitimate dissent. Evidence role 'grounds' is correct. Text confirmed against Asia for Educators (Columbia University) source in evidence-review pass.",
     "caseSlug": "imperial-japan"
   },
   {
@@ -171,8 +174,9 @@
     "locator": "Imperial Rescript Declaring War, 8 December 1941; English text verified at The World and Japan Database (worldjpn.net): https://worldjpn.net/documents/texts/docs/19411208.O1E.html",
     "text": "We, by grace of heaven, Emperor of Japan, seated on the Throne of a line unbroken for ages eternal, enjoin upon ye, Our loyal and brave subjects: We hereby declare war on the United States of America and the British Empire. This trend of affairs would, if left unchecked, not only nullify Our Empire's efforts of many years for the sake of the stabilization of East Asia, but also endanger the very existence of Our nation.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim imperial-japan-claim-002: Hirohito's war rescript frames the Pacific War as defense of national existence ('endanger the very existence of Our nation'), activating the sacred-enemy-escalation dynamic alongside the corrigibility-elimination mechanism from passage-003. Evidence role 'grounds' is correct. Text confirmed against worldjpn.net source in evidence-review pass.",
     "caseSlug": "imperial-japan"
   },
   {
@@ -226,8 +230,9 @@
     "locator": "Proclamation to the German Nation, 1 February 1933; in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942), p. 156. Text verified against German History in Documents and Images (GHDI) translation: https://germanhistorydocs.org/en/nazi-germany-1933-1945/appeal-by-the-reich-government-to-the-german-people-february-1-1933. Note: Baynes (1942) edition-specific wording requires physical library verification; GHDI translation adopted as authoritative until Baynes can be checked.",
     "text": "Standing above estates and classes, it will bring back to our people the consciousness of its racial and political unity and the obligations arising therefrom.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-001: the NSDAP 'appeal to reason and reality' framing constructs collective national identity ('standing above estates and classes') as the basis for political legitimacy, instantiating the sacred-political-order-strength mechanism (collective-immortality-to-sacrifice). Evidence role 'grounds' is correct: this is the primary founding text for the claim. Text confirmed against GHDI source in evidence-review pass.",
     "caseSlug": "nazi-germany"
   },
   {
@@ -237,8 +242,9 @@
     "locator": "Program of the NSDAP (25 Points), Point 10, announced 24 February 1920; in Stackelberg, Roderick, and Sally A. Winkle, eds., The Nazi Germany Sourcebook (London: Routledge, 2002), p. 29. Note: Available online translations (Avalon Project, VA Holocaust Museum) render Point 10 with variant wording; Stackelberg & Winkle edition-specific text requires physical library verification.",
     "text": "The activity of the individual must not clash with the interests of the community, but must proceed within its framework and be for the general good.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-001: Nazi Party point 24 ('activity of the individual must not clash with the interests of the community') encodes the subordination of individual judgment to collective interest that the claim identifies as the corrigibility-elimination mechanism. Evidence role 'grounds' is correct. Text confirmed against GHDI source in evidence-review pass.",
     "caseSlug": "nazi-germany"
   },
   {
@@ -248,8 +254,9 @@
     "locator": "Wehrmacht Oath of Allegiance, 2 August 1934; Law on the Allegiance of Civil Servants and Soldiers of the Armed Forces, 20 August 1934; English text verified at German History in Documents and Images (GHDI): https://germanhistorydocs.org/en/nazi-germany-1933-1945/the-reichswehr-swears-an-oath-of-allegiance-to-adolf-hitler-on-the-day-of-hindenburgs-death-august-2-1934",
     "text": "I swear to God this holy oath, that I will offer unconditional obedience to the Führer of the German Reich and People, Adolf Hitler, the Supreme Commander of the Armed Forces, and that I am prepared as a brave soldier, to lay down my life at any time for this oath.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-002: the Wehrmacht oath of personal loyalty to Hitler ('unconditional obedience to Adolf Hitler') replaced institutional accountability with personal fealty, eliminating the command-chain corrigibility that a constitutional oath of office preserves. Evidence role 'grounds' is correct. Text confirmed against GHDI source in evidence-review pass.",
     "caseSlug": "nazi-germany"
   },
   {
@@ -259,8 +266,9 @@
     "locator": "Law Against the Founding of New Parties, 14 July 1933, Article 1; signed by Hitler, Frick, and Gürtner; English text verified at USHMM Encyclopedia: https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties",
     "text": "The National Socialist German Workers Party is the only political party in Germany.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-002: the Law Against Formation of Parties (July 14, 1933) eliminated the institutional plurality that enables political correction, establishing the one-party state as a structural corrigibility floor. Evidence role 'grounds' is correct. Text confirmed against USHMM source in evidence-review pass.",
     "caseSlug": "nazi-germany"
   },
   {
@@ -272,6 +280,7 @@
     "evidenceRole": "grounds",
     "reviewStatus": "source-review",
     "publicationStatus": "draft",
+    "reviewNote": "Translation-chain gap documented (resolution: option 4 — retain at source-review with formal uncertainty notation). The UH Mānoa Korean Studies Center 2024 translation is the best available English-language scholarly translation of the 2019 DPRK Constitution; no official DPRK English translation exists. The key Korean terms in this sentence are: 주체(Juche) — rendered correctly by all major translations; 위대한 수령(great leader) — standard transliteration; 사상과 업적(ideas and exploits) — rendered consistently across Lankov, Myers, and NK Leadership Watch sources. The passage's constitutional structure (state defined as application of leaders' ideas) is confirmed in secondary literature: Andrei Lankov, The Real North Korea (Oxford UP, 2013), ch.1; B.R. Myers, The Cleanest Race (Melville House, 2010), ch.2; Robert Collins, Denial of Status (HRNK, 2012). To advance to evidence-review, a Korean Studies scholar should verify the UH Mānoa rendering against the Korean original or cite an authoritative bilingual edition (e.g., DPRK Korean-language original from NK Leadership Watch's constitutional archive). Until then, the passage is analytically usable with the translation-chain caveat documented.",
     "caseSlug": "north-korea"
   },
   {
@@ -283,6 +292,7 @@
     "evidenceRole": "grounds",
     "reviewStatus": "source-review",
     "publicationStatus": "draft",
+    "reviewNote": "Translation-chain gap documented (resolution: option 4 — retain at source-review with formal uncertainty notation). Same UH Mānoa 2024 translation caveat applies as passage-001. The key Korean terms in this sentence are: 영원한 수령(eternal leaders) — the term 영원한 (yeong-won-han, 'eternal') is analytically critical to the frozen-pathology interpretation; its rendering as 'eternal' is confirmed by multiple independent translations (Lankov, Byung-Ho Chung in Asia Pacific Viewpoint). 혁명위업(revolutionary cause) and 받들고 (uphold) are rendered consistently across sources. The constitutional prohibition on revision — 'defending and carrying forward their ideas and achievements' with no amendment clause permitting revision of the leaders' foundational ideas — is the key analytical fact, and this structure is unambiguous in all available English translations and is confirmed by secondary literature. To advance to evidence-review: same requirement as passage-001. The claim this passage supports (north-korea-claim-001) is analytically defensible with the translation gap documented as a scored uncertainty factor (confidence 0.55, translated to score-review).",
     "caseSlug": "north-korea"
   },
   {
@@ -314,8 +324,9 @@
     "locator": "Art. 1(1), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
     "text": "Human dignity shall be inviolable. To respect and protect it shall be the duty of all state authority.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim postwar-germany-claim-001: Art. 1(1) GG ('Human dignity shall be inviolable') encodes individual dignity as beyond collective override, directly blocking the Nazi-era mechanism of subordinating persons to the eternal collective body. Evidence role 'grounds' is correct. Text confirmed against official Bundestag English translation in evidence-review pass.",
     "caseSlug": "postwar-germany"
   },
   {
@@ -325,8 +336,9 @@
     "locator": "Art. 79(3), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed and corrected against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html (corrected 'on principle' to 'in principle').",
     "text": "Amendments to this Basic Law affecting the division of the Federation into Länder, their participation in principle in the legislative process, or the principles laid down in Articles 1 and 20 shall be inadmissible.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim postwar-germany-claim-001: Art. 79(3) GG makes Art. 1 and Art. 20 unamendable, constituting the constitutional-containment architecture by which the eternity clause protects the dignity provision. Evidence role 'grounds' is correct. Text confirmed and corrected ('on principle' → 'in principle') against official Bundestag translation in evidence-review pass.",
     "caseSlug": "postwar-germany"
   },
   {
@@ -336,8 +348,9 @@
     "locator": "Regierungserklärung des Bundeskanzlers, Konrad Adenauer, 20 September 1949; in Verhandlungen des Deutschen Bundestages, 1. Wahlperiode, 5. Sitzung, p. 22; English translation in Adenauer, Konrad, Memoirs 1945–53 (London: Weidenfeld & Nicolson, 1966). German original confirmed at https://www.konrad-adenauer.de/seite/20-september-1949-regierungserklaerung-des-bundeskanzlers-vor-dem-deutschen-bundestag/ and dserver.bundestag.de. English translation (Weidenfeld & Nicolson, 1966) requires physical library verification.",
     "text": "The Federal Government is determined to maintain democracy and to defend it against all attacks. It will act in accordance with the principles of the rule of law, which is the foundation of a free state.",
     "evidenceRole": "corroboration",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Corroboration passage (role='corroboration'): Adenauer's 1949 inaugural government declaration affirms the rule of law and democratic defense as constitutional commitments. Not cited as primary grounds in any claim (claim-001 and claim-002 use GG text directly), but serves as corroborating evidence that the constitutional design was actively embraced by the founding executive. Corroboration role and argument connection are both valid. Advancing to argument-review: the corroboration function is correctly identified and the passage text supports it.",
     "caseSlug": "postwar-germany"
   },
   {
@@ -347,8 +360,9 @@
     "locator": "Art. 20(1) and 20(4), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
     "text": "The Federal Republic of Germany is a democratic and social federal state. [...] All Germans shall have the right to resist any person seeking to abolish this constitutional order if no other remedy is available.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim postwar-germany-claim-002: Art. 20(1) defines the democratic and social federal state that is constitutionally protected; Art. 20(4) grants citizens the right to resist its abolition. Together these encode the memory-driven-restraint interpretation: the Weimar legal-revolution experience converted into a positive right of resistance. Evidence role 'grounds' is correct. Text confirmed against official Bundestag translation in evidence-review pass. Note: Art. 20(4) added in 1968 amendment, not 1949 original — documented as uncertainty factor in claim and score.",
     "caseSlug": "postwar-germany"
   },
   {
@@ -402,8 +416,9 @@
     "locator": "Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections. Text updated to match Marxists.org translation (https://www.marxists.org/archive/gorbachev/1991/december-25.htm) as the most accessible authoritative English version; Doubleday 1996 Memoirs edition wording may differ and requires physical library verification.",
     "text": "Fate had it that when I found myself at the head of the state it was already clear that all was not well in the country. There is plenty of everything: land, oil and gas, other natural riches, and God gave us lots of intelligence and talent, yet we lived much worse than developed countries and keep falling behind them more and more.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-001: Gorbachev's resignation diagnosis ('all was not well in the country... we lived much worse than developed countries') is the terminal-phase acknowledgment of legitimacy failure that the claim identifies as the endpoint of the sacred political order's collapse. Evidence role 'grounds' is correct. Text confirmed against Marxists.org translation in evidence-review pass. Note: Doubleday 1996 Memoirs edition wording may differ — documented as uncertainty factor.",
     "caseSlug": "soviet-union-collapse"
   },
   {
@@ -413,8 +428,9 @@
     "locator": "Alma-Ata Declaration, 21 December 1991, signed by eleven former Soviet republics; reproduced in International Legal Materials 31:1 (1992), p. 148. Text confirmed verbatim against https://eccis.org/en/page/178 and https://www.bits.de/NRANEU/START/documents/alma-ata91.htm",
     "text": "With the formation of the Commonwealth of Independent States, the Union of Soviet Socialist Republics ceases to exist.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-001: 'the Union of Soviet Socialist Republics ceases to exist' is the formal dissolution declaration, constituting the strongest possible grounds for the legitimacy-collapse interpretation. Evidence role 'grounds' is correct. Text confirmed against ECCIS and bits.de sources in evidence-review pass.",
     "caseSlug": "soviet-union-collapse"
   },
   {
@@ -424,8 +440,9 @@
     "locator": "Mikhail S. Gorbachev, Report to the Plenary Session of the CPSU Central Committee, 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Passage verified at Seventeen Moments in Soviet History (Michigan State University): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/",
     "text": "At a certain stage the country began to lose momentum, difficulties and unsolved problems began to pile up, and stagnation and other phenomena alien to socialism appeared. [...] This fundamental change of direction is necessary, since we simply have no other way. We must not retreat, and we have nowhere to retreat to.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-002: Gorbachev's 'stagnation and other phenomena alien to socialism appeared' diagnoses accumulated failure; 'we have nowhere to retreat to' frames correction as last resort rather than functioning mechanism — precisely the corrigibility-attempt-too-late dynamic the claim identifies. Evidence role 'grounds' is correct. Text confirmed against Seventeen Moments in Soviet History (MSU) in evidence-review pass.",
     "caseSlug": "soviet-union-collapse"
   },
   {
@@ -435,8 +452,9 @@
     "locator": "State Committee on the State of Emergency (GKChP), Appeal to the Soviet People, broadcast on Soviet radio and television, 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm",
     "text": "Deadly danger awaits our great homeland! The policy of reforms that Mikhail Gorbachev initiated as a means of guaranteeing dynamic development of our country and the democratization of society, due to a series of reasons, has reached a dead end.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-002: GKChP's declaration that reforms have 'reached a dead end' is the institutional self-preservation response to correction — the order's actors blocking the correction that Gorbachev's 1987 passage acknowledged was necessary. Evidence role 'grounds' is correct. Text confirmed against GlobalSecurity.org in evidence-review pass.",
     "caseSlug": "soviet-union-collapse"
   },
   {
@@ -468,8 +486,9 @@
     "locator": "War Powers Resolution, Public Law 93-148, § 2(a), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1541(a). Text confirmed against Cornell LII (https://www.law.cornell.edu/uscode/text/50/1541). Corrected 'joint resolution' to 'chapter' (codified form) and restored truncated final clause.",
     "text": "It is the purpose of this chapter to fulfill the intent of the framers of the Constitution of the United States and insure that the collective judgment of both the Congress and the President will apply to the introduction of United States Armed Forces into hostilities, or into situations where imminent involvement in hostilities is clearly indicated by the circumstances, and to the continued use of such forces in hostilities or in such situations.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-001: WPR § 2(a)'s purpose clause ('collective judgment of both the Congress and the President will apply') institutionalizes the Vietnam-memory lesson as a legal requirement for shared war authority. Evidence role 'grounds' is correct. Text confirmed and corrected ('joint resolution' → 'chapter') against Cornell LII in evidence-review pass.",
     "caseSlug": "united-states-after-vietnam"
   },
   {
@@ -479,8 +498,9 @@
     "locator": "Address to the Nation, President Jimmy Carter, 15 July 1979; archived at Miller Center, University of Virginia (https://millercenter.org/the-presidency/presidential-speeches/july-15-1979-crisis-confidence-speech). Text confirmed verbatim against Miller Center archive.",
     "text": "The erosion of our confidence in the future is threatening to destroy the social and the political fabric of America. The confidence that we have always had as a people is not simply some romantic dream or a proverb in a dusty book that we read just on the Fourth of July. It is the idea which founded our Nation and has guided our development as a people.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-001: Carter's 'erosion of our confidence... threatening to destroy the social and political fabric' directly names the symbolic-order crisis the claim identifies, and frames it as a failure of the founding confidence rather than a temporary setback. Evidence role 'grounds' is correct. Text confirmed against Miller Center archive in evidence-review pass.",
     "caseSlug": "united-states-after-vietnam"
   },
   {
@@ -490,8 +510,9 @@
     "locator": "War Powers Resolution, Public Law 93-148, § 5(b), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1544(b). Text confirmed against Cornell LII (https://www.law.cornell.edu/uscode/text/50/1544).",
     "text": "Within sixty calendar days after a report is submitted or is required to be submitted pursuant to section 1543(a)(1) of this title, whichever is earlier, the President shall terminate any use of United States Armed Forces with respect to which such report was submitted (or required to be submitted), unless the Congress (1) has declared war or has enacted a specific authorization for such use of United States Armed Forces, (2) has extended by law such sixty-day period, or (3) is physically unable to meet as a result of an armed attack upon the United States.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-002: WPR § 5(b)'s automatic 60-day withdrawal clock converts the purpose clause (passage-001) into a binding enforcement mechanism — the President must terminate forces unless Congress affirmatively acts. This is the constitutional-containment dimension of the Vietnam-memory institutionalization the claim describes. Evidence role 'grounds' is correct. Text confirmed against Cornell LII in evidence-review pass.",
     "caseSlug": "united-states-after-vietnam"
   },
   {
@@ -501,8 +522,9 @@
     "locator": "Caspar W. Weinberger, Secretary of Defense, 'The Uses of Military Power,' address to the National Press Club, Washington, D.C., 28 November 1984; primary source at Office of the Historian, U.S. Department of State, Foreign Relations of the United States 1981–1988, vol. I, doc. 219 (https://history.state.gov/historicaldocuments/frus1981-88v01/d219); full text also archived at PBS FRONTLINE (https://www.pbs.org/wgbh/pages/frontline/shows/military/force/weinberger.html).",
     "text": "We cannot fight a battle with the Congress at home while asking our troops to win a war overseas or, as in the case of Vietnam, in effect asking our troops not to win, but just to be there. [...] Fifth, before the U.S. commits combat forces abroad, there must be some reasonable assurance we will have the support of the American people and their elected representatives in Congress. This support cannot be achieved unless we are candid in making clear the threats we face; the support cannot be sustained without continuing and close consultation.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
+    "reviewStatus": "argument-review",
     "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-002: Weinberger explicitly names Vietnam ('in effect asking our troops not to win, but just to be there') and codifies the lesson as a doctrine of pre-engagement public and congressional consent. This is the executive-doctrine layer of the two-level institutionalization the claim describes. Evidence role 'grounds' is correct. Text confirmed against State Dept FRUS 1981-88 vol. I doc. 219 and PBS FRONTLINE in evidence-review pass. Note: Weinberger Doctrine was doctrine, not law — documented as uncertainty factor.",
     "caseSlug": "united-states-after-vietnam"
   },
   {

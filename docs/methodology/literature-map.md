@@ -21,6 +21,6 @@ The workbench sits near several fields without reducing itself to any one of the
 
 ## Positioning
 
-The project asks how symbolic orders become institutionally embodied, how they respond to crisis, and why some produce sacrifice, violence, reform, collapse, transformation, or stagnation.
+The project asks how sacred political orders become institutionally embodied, how they respond to crisis, and why some produce sacrifice, violence, reform, collapse, transformation, or stagnation.
 
 It uses these fields as interpretive neighbors, not as settled proof of the theory.

@@ -12,11 +12,11 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft balanced-case placeholder.",
-  "symbolicOrderId": "north-korea-symbolic-order",
-  "symbolicOrderName": "North Korea symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with North Korea.",
-  "symbolicOrderStrength": 5,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "north-korea-sacred-political-order",
+  "sacredPoliticalOrderName": "North Korea sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with North Korea.",
+  "sacredPoliticalOrderStrength": 5,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "stagnation-case",
   "selectionRationale": "Included to test frozen pathology and persistence without reform or collapse.",
   "theoryTest": "Tests whether an order can persist through repression, inertia, dependency, or managed dysfunction."

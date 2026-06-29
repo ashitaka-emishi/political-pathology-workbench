@@ -2,7 +2,7 @@
   {
     "claimId": "british-empire-to-commonwealth-claim-001",
     "caseId": "british-empire-to-commonwealth",
-    "claim": "The transition from British Empire to Commonwealth demonstrates symbolic transformation through constitutional redesign: the Balfour Declaration replaced the empire's hierarchical symbolic order with a new order of equal, freely associated communities, while the Statute of Westminster gave that transformation legal force by requiring Dominion consent for changes to shared constitutional arrangements — converting the Crown from instrument of sovereign control to symbol of voluntary association.",
+    "claim": "The transition from British Empire to Commonwealth demonstrates symbolic transformation through constitutional redesign: the Balfour Declaration replaced the empire's hierarchical sacred political order with a new order of equal, freely associated communities, while the Statute of Westminster gave that transformation legal force by requiring Dominion consent for changes to shared constitutional arrangements — converting the Crown from instrument of sovereign control to symbol of voluntary association.",
     "derivedFrom": [
       "british-empire-to-commonwealth-passage-001",
       "british-empire-to-commonwealth-passage-002"
@@ -14,7 +14,7 @@
     "confidence": {
       "value": 0.70,
       "label": "moderate-high",
-      "rationale": "Both passages are public-domain texts verified against official sources. The Balfour Declaration and Statute of Westminster together constitute the definitive legal record of the Empire-to-Commonwealth symbolic transformation. Confidence capped: chain requires expansion to include the process by which decolonization proceeded after 1931 and the degree to which the new Commonwealth symbolic order achieved genuine equality vs. neocolonial continuity.",
+      "rationale": "Both passages are public-domain texts verified against official sources. The Balfour Declaration and Statute of Westminster together constitute the definitive legal record of the Empire-to-Commonwealth symbolic transformation. Confidence capped: chain requires expansion to include the process by which decolonization proceeded after 1931 and the degree to which the new Commonwealth sacred political order achieved genuine equality vs. neocolonial continuity.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "neocolonial-continuity-complicates-equality-claim",

@@ -6,8 +6,8 @@
       "soviet-union-collapse-claim-001"
     ],
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
-    "interpretation": "The Soviet symbolic order had historically high strength (Marxist-Leninist ideology organizing identity, legitimacy, obligation, and sacrifice across a vast institutional apparatus), but by 1985-1991 that strength had eroded to the point where the order could not survive sustained crisis pressure. Gorbachev's admission of systemic failure and the formal dissolution of the USSR mark the terminal phase of legitimacy collapse: the symbolic order could neither sustain its founding claims nor suppress the centrifugal forces its rigidity had generated.",
+    "variableId": "sacred-political-order-strength",
+    "interpretation": "The Soviet sacred political order had historically high strength (Marxist-Leninist ideology organizing identity, legitimacy, obligation, and sacrifice across a vast institutional apparatus), but by 1985-1991 that strength had eroded to the point where the order could not survive sustained crisis pressure. Gorbachev's admission of systemic failure and the formal dissolution of the USSR mark the terminal phase of legitimacy collapse: the sacred political order could neither sustain its founding claims nor suppress the centrifugal forces its rigidity had generated.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -20,7 +20,7 @@
       ]
     },
     "mechanism": "legitimacy-collapse",
-    "mechanismSummary": "The Soviet symbolic order's inability to acknowledge systemic failure until too late — a decades-long suppression of correction — depleted the legitimacy of its founding claims, and the reform process that might have saved the order instead revealed and accelerated its disintegration.",
+    "mechanismSummary": "The Soviet sacred political order's inability to acknowledge systemic failure until too late — a decades-long suppression of correction — depleted the legitimacy of its founding claims, and the reform process that might have saved the order instead revealed and accelerated its disintegration.",
     "alternativeMechanisms": [
       "institutional-fragmentation",
       "frozen-pathology"
@@ -35,8 +35,8 @@
     "sacrificeBoundedness": "partially-bounded",
     "sacrificeTarget": "in-group",
     "definitionRefs": [
-      "symbolic-order-strength",
-      "symbolic-order",
+      "sacred-political-order-strength",
+      "sacred-political-order",
       "corrigibility",
       "pathology"
     ],
@@ -45,7 +45,9 @@
   {
     "interpretationId": "soviet-union-collapse-interpretation-002",
     "caseId": "soviet-union-collapse",
-    "claimIds": ["soviet-union-collapse-claim-002"],
+    "claimIds": [
+      "soviet-union-collapse-claim-002"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
     "interpretation": "The Soviet order's corrigibility failure is documented by two symmetrical failures bracketing the reform period: Gorbachev's 1987 CC Plenum diagnosis shows the order's late-stage awareness that stagnation had accumulated ('difficulties and unsolved problems began to pile up'), but the 'no other way' framing reveals correction as a last-resort imperative rather than a functioning institutional mechanism — the order could acknowledge failure but had no path to correction at scale. The GKChP's 1991 declaration that reform 'has reached a dead end' shows that when correction was finally attempted, the order's own institutional actors mobilized to abort it. This two-sided failure — correction too late and correction suppressed from within — is the characteristic signature of minimal corrigibility: the system contained neither the early-warning mechanisms nor the institutional consensus required to course-correct before terminal crisis.",
@@ -62,12 +64,24 @@
     },
     "mechanism": "institutional-fragmentation",
     "mechanismSummary": "The order's inability to correct stagnation before crisis and the counter-coup blocking correction in 1991 together demonstrate institutional fragmentation severe enough to prevent effective corrigibility from either direction.",
-    "alternativeMechanisms": ["legitimacy-collapse", "frozen-pathology"],
-    "sacrificeForm": ["labor", "agency", "economic-security", "conscience"],
+    "alternativeMechanisms": [
+      "legitimacy-collapse",
+      "frozen-pathology"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "agency",
+      "economic-security",
+      "conscience"
+    ],
     "sacrificeHealth": "pathological",
     "sacrificeBoundedness": "partially-bounded",
     "sacrificeTarget": "in-group",
-    "definitionRefs": ["corrigibility", "institutional-fragmentation", "legitimacy-collapse"],
+    "definitionRefs": [
+      "corrigibility",
+      "institutional-fragmentation",
+      "legitimacy-collapse"
+    ],
     "codebookVersion": "v1"
   }
 ]

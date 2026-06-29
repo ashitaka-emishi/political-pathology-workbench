@@ -2,7 +2,7 @@
   {
     "claimId": "american-civil-war-union-claim-001",
     "caseId": "american-civil-war-union",
-    "claim": "The Union symbolic order transformed the mass sacrifice of the Civil War into a founding act of democratic rebirth rather than escalating collective immortality through enemy destruction: the Gettysburg Address sacralized the soldiers' deaths as the price of freedom's renewal, while the Second Inaugural deliberately refused the logic of victorious revenge, redirecting the war's moral energy toward healing — an anti-sacrificial resolution at the moment of maximum symbolic power.",
+    "claim": "The Union sacred political order transformed the mass sacrifice of the Civil War into a founding act of democratic rebirth rather than escalating collective immortality through enemy destruction: the Gettysburg Address sacralized the soldiers' deaths as the price of freedom's renewal, while the Second Inaugural deliberately refused the logic of victorious revenge, redirecting the war's moral energy toward healing — an anti-sacrificial resolution at the moment of maximum symbolic power.",
     "derivedFrom": [
       "american-civil-war-union-passage-001",
       "american-civil-war-union-passage-002"
@@ -25,7 +25,7 @@
   {
     "claimId": "british-empire-to-commonwealth-claim-001",
     "caseId": "british-empire-to-commonwealth",
-    "claim": "The transition from British Empire to Commonwealth demonstrates symbolic transformation through constitutional redesign: the Balfour Declaration replaced the empire's hierarchical symbolic order with a new order of equal, freely associated communities, while the Statute of Westminster gave that transformation legal force by requiring Dominion consent for changes to shared constitutional arrangements — converting the Crown from instrument of sovereign control to symbol of voluntary association.",
+    "claim": "The transition from British Empire to Commonwealth demonstrates symbolic transformation through constitutional redesign: the Balfour Declaration replaced the empire's hierarchical sacred political order with a new order of equal, freely associated communities, while the Statute of Westminster gave that transformation legal force by requiring Dominion consent for changes to shared constitutional arrangements — converting the Crown from instrument of sovereign control to symbol of voluntary association.",
     "derivedFrom": [
       "british-empire-to-commonwealth-passage-001",
       "british-empire-to-commonwealth-passage-002"
@@ -37,7 +37,7 @@
     "confidence": {
       "value": 0.7,
       "label": "moderate-high",
-      "rationale": "Both passages are public-domain texts verified against official sources. The Balfour Declaration and Statute of Westminster together constitute the definitive legal record of the Empire-to-Commonwealth symbolic transformation. Confidence capped: chain requires expansion to include the process by which decolonization proceeded after 1931 and the degree to which the new Commonwealth symbolic order achieved genuine equality vs. neocolonial continuity.",
+      "rationale": "Both passages are public-domain texts verified against official sources. The Balfour Declaration and Statute of Westminster together constitute the definitive legal record of the Empire-to-Commonwealth symbolic transformation. Confidence capped: chain requires expansion to include the process by which decolonization proceeded after 1931 and the degree to which the new Commonwealth sacred political order achieved genuine equality vs. neocolonial continuity.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "neocolonial-continuity-complicates-equality-claim",
@@ -49,7 +49,7 @@
   {
     "claimId": "canada-claim-001",
     "caseId": "canada",
-    "claim": "The Canadian constitutional order embeds high corrigibility through the Charter's Section 1 'reasonable limits' clause: rights guarantees are deliberately constructed as non-absolute, requiring governments to demonstrate proportionality under judicial review — a mechanism that institutionalizes the symbolic order's capacity to self-correct without sacrificial escalation or sacred-enemy construction.",
+    "claim": "The Canadian constitutional order embeds high corrigibility through the Charter's Section 1 'reasonable limits' clause: rights guarantees are deliberately constructed as non-absolute, requiring governments to demonstrate proportionality under judicial review — a mechanism that institutionalizes the sacred political order's capacity to self-correct without sacrificial escalation or sacred-enemy construction.",
     "derivedFrom": [
       "canada-passage-001",
       "canada-passage-002"
@@ -72,7 +72,7 @@
   {
     "claimId": "confederacy-claim-001",
     "caseId": "confederacy",
-    "claim": "The Confederate symbolic order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high symbolic-order strength at founding but could not survive military defeat.",
+    "claim": "The Confederate sacred political order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high symbolic-order strength at founding but could not survive military defeat.",
     "derivedFrom": [
       "confederacy-passage-001",
       "confederacy-passage-002"
@@ -84,7 +84,7 @@
     "confidence": {
       "value": 0.7,
       "label": "moderate-high",
-      "rationale": "Both passages are well-attested public-domain founding documents verified against Avalon Project and American Battlefield Trust. The CSA Constitution's invocation of divine guidance and Stephens' explicit statement of racial hierarchy as constitutional cornerstone together establish the symbolic order's founding sacral logic. Confidence capped pending chain expansion beyond founding documents.",
+      "rationale": "Both passages are well-attested public-domain founding documents verified against Avalon Project and American Battlefield Trust. The CSA Constitution's invocation of divine guidance and Stephens' explicit statement of racial hierarchy as constitutional cornerstone together establish the sacred political order's founding sacral logic. Confidence capped pending chain expansion beyond founding documents.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "collapse-not-chain-driven"
@@ -95,7 +95,7 @@
   {
     "claimId": "european-union-claim-001",
     "caseId": "european-union",
-    "claim": "The EU symbolic order institutionalizes pluralist reordering as its constitutive principle: the TEU frames integration as a continuous process ('ever closer union') rather than a fixed final state, and grounds that process in liberty, democracy, and rule of law rather than sacred-enemy construction — a symbolic architecture that produces corrigibility through ongoing multi-state negotiation rather than sacrificial escalation.",
+    "claim": "The EU sacred political order institutionalizes pluralist reordering as its constitutive principle: the TEU frames integration as a continuous process ('ever closer union') rather than a fixed final state, and grounds that process in liberty, democracy, and rule of law rather than sacred-enemy construction — a symbolic architecture that produces corrigibility through ongoing multi-state negotiation rather than sacrificial escalation.",
     "derivedFrom": [
       "european-union-passage-001",
       "european-union-passage-002"
@@ -107,7 +107,7 @@
     "confidence": {
       "value": 0.67,
       "label": "moderate",
-      "rationale": "Both passages are from the official EUR-Lex consolidated TEU preamble, verified against the authoritative source. The 'ever closer union' recital is foundational to EU self-understanding; the liberty/democracy/rule-of-law recital specifies the symbolic order's normative grounding. Confidence capped: chain requires expansion to include institutional structures (Council, Parliament, Court of Justice) and crisis episodes (Brexit, Hungary, Poland) that complicate the corrigibility score.",
+      "rationale": "Both passages are from the official EUR-Lex consolidated TEU preamble, verified against the authoritative source. The 'ever closer union' recital is foundational to EU self-understanding; the liberty/democracy/rule-of-law recital specifies the sacred political order's normative grounding. Confidence capped: chain requires expansion to include institutional structures (Council, Parliament, Court of Justice) and crisis episodes (Brexit, Hungary, Poland) that complicate the corrigibility score.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "democratic-backsliding-complicates-corrigibility-score",
@@ -119,7 +119,7 @@
   {
     "claimId": "gandhian-indian-independence-claim-001",
     "caseId": "gandhian-indian-independence",
-    "claim": "The Gandhian independence movement built its symbolic order around anti-sacrificial restraint at the theoretical level: Gandhi's satyagraha doctrine explicitly redirects sacrifice from enemy destruction to voluntary self-suffering — accepting penalty rather than inflicting violence — and claims superiority to body-force precisely because it refuses the sacred-enemy escalation logic. This makes the Gandhian case the clearest theoretical inverse of the pathological sacrificial-escalation cases.",
+    "claim": "The Gandhian independence movement built its sacred political order around anti-sacrificial restraint at the theoretical level: Gandhi's satyagraha doctrine explicitly redirects sacrifice from enemy destruction to voluntary self-suffering — accepting penalty rather than inflicting violence — and claims superiority to body-force precisely because it refuses the sacred-enemy escalation logic. This makes the Gandhian case the clearest theoretical inverse of the pathological sacrificial-escalation cases.",
     "derivedFrom": [
       "gandhian-indian-independence-passage-001",
       "gandhian-indian-independence-passage-002"
@@ -131,7 +131,7 @@
     "confidence": {
       "value": 0.7,
       "label": "moderate-high",
-      "rationale": "Both passages are from Gandhi's own English translation of Hind Swaraj, verified at the Sabarmati Ashram digital archive. The soul-force / body-force distinction is the foundational conceptual claim of the movement's symbolic order. Confidence capped: chain limited to theoretical founding texts; operational episodes (salt march, partition violence) require separate treatment and complicate the clean anti-sacrificial reading.",
+      "rationale": "Both passages are from Gandhi's own English translation of Hind Swaraj, verified at the Sabarmati Ashram digital archive. The soul-force / body-force distinction is the foundational conceptual claim of the movement's sacred political order. Confidence capped: chain limited to theoretical founding texts; operational episodes (salt march, partition violence) require separate treatment and complicate the clean anti-sacrificial reading.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "partition-violence-complicates-anti-sacrificial-score",
@@ -190,7 +190,7 @@
   {
     "claimId": "khmer-rouge-cambodia-claim-001",
     "caseId": "khmer-rouge-cambodia",
-    "claim": "The Khmer Rouge structured its symbolic order around the sacrificial identity of the revolutionary people, whose blood was explicitly framed as the foundation of the new Cambodia, demanding individual self-annihilation — including of children and family — in service of collective rebirth.",
+    "claim": "The Khmer Rouge structured its sacred political order around the sacrificial identity of the revolutionary people, whose blood was explicitly framed as the foundation of the new Cambodia, demanding individual self-annihilation — including of children and family — in service of collective rebirth.",
     "derivedFrom": [
       "khmer-rouge-cambodia-passage-001",
       "khmer-rouge-cambodia-passage-002"
@@ -225,7 +225,7 @@
     "confidence": {
       "value": 0.72,
       "label": "moderate-high",
-      "rationale": "Both passages are from Mao's Selected Works (public domain, verified via Marxists.org). 'Serve the People' explicitly codes death-for-the-people as weightier than personal survival. 'In Memory of Bethune' codes absolute selflessness as the highest virtue. Together they establish the collective-immortality-to-sacrifice mechanism at the level of the symbolic order's core texts. Confidence capped pending broader periodization review.",
+      "rationale": "Both passages are from Mao's Selected Works (public domain, verified via Marxists.org). 'Serve the People' explicitly codes death-for-the-people as weightier than personal survival. 'In Memory of Bethune' codes absolute selflessness as the highest virtue. Together they establish the collective-immortality-to-sacrifice mechanism at the level of the sacred political order's core texts. Confidence capped pending broader periodization review.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "periodization-ambiguity"
@@ -281,7 +281,7 @@
   {
     "claimId": "north-korea-claim-001",
     "caseId": "north-korea",
-    "claim": "The DPRK symbolic order constitutionally encodes frozen-pathology as a design principle: the state is defined as the application of the eternal leaders' ideas (passage 1), and the population is constitutionally bound to 'uphold the eternal leaders' and 'defend and carry forward their ideas' without revision (passage 2) — a constitutional prohibition on symbolic correction that maximizes symbolic-order strength while eliminating corrigibility by definition.",
+    "claim": "The DPRK sacred political order constitutionally encodes frozen-pathology as a design principle: the state is defined as the application of the eternal leaders' ideas (passage 1), and the population is constitutionally bound to 'uphold the eternal leaders' and 'defend and carry forward their ideas' without revision (passage 2) — a constitutional prohibition on symbolic correction that maximizes symbolic-order strength while eliminating corrigibility by definition.",
     "derivedFrom": [
       "north-korea-passage-001",
       "north-korea-passage-002"
@@ -293,7 +293,7 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "Both passages are from the same University of Hawaiʻi English translation of the 2019 DPRK Constitution. The constitutional encoding of the eternal-leaders principle is clearly present in the translation and consistent with all major scholarly accounts of North Korean ideology. Confidence capped at moderate: translation chain from Korean original is unverified; chain is limited to constitutional text without operational documentation of frozen-pathology in practice.",
+      "rationale": "Both passages are from the University of Hawaiʻi at Mānoa Korean Studies Center 2024 English translation of the 2019 DPRK Constitution — the best available scholarly translation; no official DPRK English translation exists. The constitutional encoding of the eternal-leaders principle (영원한 수령) and the prohibition on revision ('defending and carrying forward their ideas') is analytically unambiguous in all available English translations and confirmed by secondary literature (Lankov 2013; Myers 2010; Collins 2012). Translation-chain gap formally documented in passage reviewNote fields (see issue #83 resolution). Confidence capped at moderate: Korean-original verification pending; chain limited to constitutional text without operational documentation of frozen-pathology in practice.",
       "uncertaintyFactors": [
         "translation-chain-unverified",
         "chain-requires-expansion",
@@ -305,7 +305,7 @@
   {
     "claimId": "post-9-11-united-states-claim-001",
     "caseId": "post-9-11-united-states",
-    "claim": "The post-9/11 United States symbolic order responded to the attacks through sacred-enemy escalation: the AUMF granted the executive unlimited force authorization against a broadly defined enemy, while Bush's congressional address constructed a globally totalized binary — 'with us or with the terrorists' — that sacralized the US symbolic order through opposition to an absolute external threat, foreclosing the constitutional-containment alternative.",
+    "claim": "The post-9/11 United States sacred political order responded to the attacks through sacred-enemy escalation: the AUMF granted the executive unlimited force authorization against a broadly defined enemy, while Bush's congressional address constructed a globally totalized binary — 'with us or with the terrorists' — that sacralized the US sacred political order through opposition to an absolute external threat, foreclosing the constitutional-containment alternative.",
     "derivedFrom": [
       "post-9-11-united-states-passage-001",
       "post-9-11-united-states-passage-002"
@@ -328,7 +328,7 @@
   {
     "claimId": "postwar-germany-claim-001",
     "caseId": "postwar-germany",
-    "claim": "The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German symbolic order.",
+    "claim": "The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German sacred political order.",
     "derivedFrom": [
       "postwar-germany-passage-001",
       "postwar-germany-passage-002"
@@ -373,7 +373,7 @@
   {
     "claimId": "revolutionary-france-claim-001",
     "caseId": "revolutionary-france",
-    "claim": "The French revolutionary symbolic order sacralized 'the Nation' as the sole and absolute source of sovereignty, then progressively fused virtue with coercive violence during the Terror, making the revolutionary order itself the object of sacred preservation at the expense of individual persons.",
+    "claim": "The French revolutionary sacred political order sacralized 'the Nation' as the sole and absolute source of sovereignty, then progressively fused virtue with coercive violence during the Terror, making the revolutionary order itself the object of sacred preservation at the expense of individual persons.",
     "derivedFrom": [
       "revolutionary-france-passage-001",
       "revolutionary-france-passage-002"
@@ -396,7 +396,7 @@
   {
     "claimId": "soviet-communism-claim-001",
     "caseId": "soviet-communism",
-    "claim": "The Soviet communist symbolic order built maximum-strength ideological authority on two pillars: the Manifesto's founding declaration of world-historical inevitability and collective sacrifice toward communist revolution, and the 1977 Constitution's legal enshrinement of the CPSU as the nucleus of all social life — a vanguard structure that concentrated symbolic power while eliminating the corrigibility mechanisms that might have allowed the order to adapt to changing conditions.",
+    "claim": "The Soviet communist sacred political order built maximum-strength ideological authority on two pillars: the Manifesto's founding declaration of world-historical inevitability and collective sacrifice toward communist revolution, and the 1977 Constitution's legal enshrinement of the CPSU as the nucleus of all social life — a vanguard structure that concentrated symbolic power while eliminating the corrigibility mechanisms that might have allowed the order to adapt to changing conditions.",
     "derivedFrom": [
       "soviet-communism-passage-001",
       "soviet-communism-passage-002"
@@ -408,7 +408,7 @@
     "confidence": {
       "value": 0.68,
       "label": "moderate",
-      "rationale": "Both passages are well-attested public-domain texts. The Manifesto passage is the founding ideological document of the movement; the 1977 Constitution Article 6 is the legal culmination of Soviet vanguard theory. Together they span founding ideology to institutional crystallization. Confidence capped: chain requires expansion from founding texts to operational practices (collectivization, purges, nomenklatura) to complete the arc from symbolic-order-strength to frozen-pathology.",
+      "rationale": "Both passages are well-attested public-domain texts. The Manifesto passage is the founding ideological document of the movement; the 1977 Constitution Article 6 is the legal culmination of Soviet vanguard theory. Together they span founding ideology to institutional crystallization. Confidence capped: chain requires expansion from founding texts to operational practices (collectivization, purges, nomenklatura) to complete the arc from sacred-political-order-strength to frozen-pathology.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "founding-text-to-practice-gap",
@@ -420,7 +420,7 @@
   {
     "claimId": "soviet-union-collapse-claim-001",
     "caseId": "soviet-union-collapse",
-    "claim": "The Soviet symbolic order collapsed when decades of institutional rigidity exhausted the founding legitimacy claims of Marxism-Leninism, and Gorbachev's reform attempts accelerated institutional disintegration rather than restoring coherence, culminating in the formal dissolution of the USSR.",
+    "claim": "The Soviet sacred political order collapsed when decades of institutional rigidity exhausted the founding legitimacy claims of Marxism-Leninism, and Gorbachev's reform attempts accelerated institutional disintegration rather than restoring coherence, culminating in the formal dissolution of the USSR.",
     "derivedFrom": [
       "soviet-union-collapse-passage-001",
       "soviet-union-collapse-passage-002"
@@ -466,7 +466,7 @@
   {
     "claimId": "switzerland-claim-001",
     "caseId": "switzerland",
-    "claim": "The Swiss symbolic order institutionalizes pluralist restraint through two constitutive commitments: the Preamble's definition of collective strength as the well-being of the weakest members (inverting the sacrificial logic that equates strength with elimination of weakness), and Article 2's programmatic aims of common welfare, cultural diversity, and peaceful international order — a symbolic architecture that generates corrigibility through federal consensus rather than sacred-enemy escalation.",
+    "claim": "The Swiss sacred political order institutionalizes pluralist restraint through two constitutive commitments: the Preamble's definition of collective strength as the well-being of the weakest members (inverting the sacrificial logic that equates strength with elimination of weakness), and Article 2's programmatic aims of common welfare, cultural diversity, and peaceful international order — a symbolic architecture that generates corrigibility through federal consensus rather than sacred-enemy escalation.",
     "derivedFrom": [
       "switzerland-passage-001",
       "switzerland-passage-002"
@@ -489,7 +489,7 @@
   {
     "claimId": "united-states-after-vietnam-claim-001",
     "caseId": "united-states-after-vietnam",
-    "claim": "The US symbolic order responded to the Vietnam defeat through institutional correction mechanisms and public acknowledgment of national crisis, demonstrating restrained reordering rather than sacrificial escalation: the War Powers Resolution attempted to embed congressional oversight of military commitments, while Carter named a national confidence crisis without calling for sacrifice.",
+    "claim": "The US sacred political order responded to the Vietnam defeat through institutional correction mechanisms and public acknowledgment of national crisis, demonstrating restrained reordering rather than sacrificial escalation: the War Powers Resolution attempted to embed congressional oversight of military commitments, while Carter named a national confidence crisis without calling for sacrifice.",
     "derivedFrom": [
       "united-states-after-vietnam-passage-001",
       "united-states-after-vietnam-passage-002"
@@ -535,7 +535,7 @@
   {
     "claimId": "western-roman-empire-claim-001",
     "caseId": "western-roman-empire",
-    "claim": "The Western Roman symbolic order sustained its institutional coherence through a culture of public sacrifice for the republic, but by the late fourth century this culture of civic self-abnegation had decayed — as Vegetius observed in the army and Augustine analyzed in the moral order — producing institutional fragmentation that the order could not reverse.",
+    "claim": "The Western Roman sacred political order sustained its institutional coherence through a culture of public sacrifice for the republic, but by the late fourth century this culture of civic self-abnegation had decayed — as Vegetius observed in the army and Augustine analyzed in the moral order — producing institutional fragmentation that the order could not reverse.",
     "derivedFrom": [
       "western-roman-empire-passage-001",
       "western-roman-empire-passage-002"
@@ -559,7 +559,7 @@
   {
     "claimId": "world-war-i-nationalisms-claim-001",
     "caseId": "world-war-i-nationalisms",
-    "claim": "The outbreak of World War I was accompanied by multi-national symbolic orders invoking sacred national unity that dissolved class, party, and individual distinctions — framing the nation as a sacred collective body for whom total sacrifice was both possible and obligatory.",
+    "claim": "The outbreak of World War I was accompanied by multi-national sacred political orders invoking sacred national unity that dissolved class, party, and individual distinctions — framing the nation as a sacred collective body for whom total sacrifice was both possible and obligatory.",
     "derivedFrom": [
       "world-war-i-nationalisms-passage-001",
       "world-war-i-nationalisms-passage-002"

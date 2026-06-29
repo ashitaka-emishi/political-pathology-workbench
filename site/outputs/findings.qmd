@@ -10,30 +10,30 @@ under source review. Not for citation as final scholarship.
 ## Main Finding: Corrigibility Is the Critical Variable
 
 The central finding of this comparative analysis is that **political pathology is
-distinguished from healthy sacrifice not by the strength of the symbolic order but by its
+distinguished from healthy sacrifice not by the strength of the sacred political order but by its
 corrigibility** — the institutional capacity to acknowledge error and change course before
 the self-preservation dynamic becomes irreversible.
 
 This finding emerges from a pattern that the scored cases make analytically visible:
-symbolic-order-strength and corrigibility are not inversely related by necessity, but
-in the pathological escalation cases they are. Nazi Germany (symbolic-order-strength = 5,
-corrigibility = 1) and Imperial Japan (symbolic-order-strength = 5, corrigibility = 1)
-achieve maximum symbolic-order-strength *by the same move* that eliminates corrigibility.
-In both cases, the symbolic order represents the collective body as divinely or racially
+sacred-political-order-strength and corrigibility are not inversely related by necessity, but
+in the pathological escalation cases they are. Nazi Germany (sacred-political-order-strength = 5,
+corrigibility = 1) and Imperial Japan (sacred-political-order-strength = 5, corrigibility = 1)
+achieve maximum sacred-political-order-strength *by the same move* that eliminates corrigibility.
+In both cases, the sacred political order represents the collective body as divinely or racially
 eternal and encodes individual judgment as ontological disloyalty — making corrigibility
 constitutively impossible, not merely practically suppressed. The mechanism that produces
 maximum strength is identical to the mechanism that produces minimum corrigibility. This
 is not a coincidence to be explained away; it is the theory's central structural claim.
 
 Postwar Germany refutes the necessary inverse relationship. The Grundgesetz constructs a
-strong symbolic order — democratic legitimacy, constitutional authority, national identity
+strong sacred political order — democratic legitimacy, constitutional authority, national identity
 — while scoring corrigibility at 4–5/5 across two interpretations. Art. 1(1)'s inviolable
 human dignity provision directly blocks the move that Nazi Germany made to achieve maximum
 strength: the subordination of persons to the eternal collective body. Art. 20(4)'s
 resistance clause converts the memory of corrigibility's elimination into a positive
 constitutional right to prevent its recurrence. A high-strength order and a high-
 corrigibility order are empirically possible — which means the pathological cases'
-corrigibility deficit is not an inevitable consequence of symbolic strength but a specific
+corrigibility deficit is not an inevitable consequence of order strength but a specific
 design choice or structural vulnerability.
 
 The same pattern appears at the collapse end of the scale. The Soviet Union's path from
@@ -56,7 +56,7 @@ The scored data support the main finding through three cross-case contrasts:
 
 ### Contrast 1: Pathological escalation vs. constitutional restraint (same cultural context)
 
-Nazi Germany (cor=1, sos=5) and Postwar Germany (cor=4–5) are the same cultural-
+Nazi Germany (cor=1, spos=5) and Postwar Germany (cor=4–5) are the same cultural-
 historical entity separated by constitutional design. The Grundgesetz was written in
 explicit response to the Nazi order's pathological architecture; its framers understood
 that the Nazi escalation was enabled by legal means — the Enabling Act and Gleichschaltung
@@ -74,8 +74,8 @@ variable is tracking something real.
 
 ### Contrast 2: Strength without corrigibility produces either escalation or collapse
 
-The Soviet Communism case (symbolic-order-strength = 5 in the high-strength pre-collapse
-phase) and the Soviet Union Collapse case (symbolic-order-strength = 2, corrigibility = 1
+The Soviet Communism case (sacred-political-order-strength = 5 in the high-strength pre-collapse
+phase) and the Soviet Union Collapse case (sacred-political-order-strength = 2, corrigibility = 1
 in the terminal phase) are the same order at different points in its trajectory. The
 trajectory is from maximum strength to collapse — not because the order became weak in
 any simple sense, but because the accumulated legitimacy deficit of decades of suppressed
@@ -86,10 +86,10 @@ same as institutional capacity for correction. The GKChP coup shows the institut
 limit: the actors whose power depended on the uncorrected order mobilized to suppress
 the correction, successfully in the short term and fatally in the medium term.
 
-North Korea (symbolic-order-strength = 5, mechanism `frozen-pathology`) shows the
+North Korea (sacred-political-order-strength = 5, mechanism `frozen-pathology`) shows the
 alternative to collapse at high strength with low corrigibility: insulation. By
 eliminating external feedback more completely than the Soviet order did, the DPRK has
-sustained maximum symbolic-order-strength without either correcting its founding claims
+sustained maximum sacred-political-order-strength without either correcting its founding claims
 or facing the legitimacy collapse that the Soviet order experienced. This is
 theoretically significant: frozen pathology is not a third stable outcome alongside
 escalation and collapse but a *deferral* — the conditions that would trigger collapse
@@ -98,12 +98,12 @@ information control, not by genuine corrigibility.
 
 ### Contrast 3: Intermediate corrigibility is unstable
 
-United States after Vietnam (corrigibility = 3, symbolic-order-strength = 3) sits at
+United States after Vietnam (corrigibility = 3, sacred-political-order-strength = 3) sits at
 the midpoint of both scales and documents the instability of intermediate corrigibility.
 The War Powers Resolution (§ 5(b), 50 U.S.C. § 1544(b)) and the Weinberger Doctrine
 both institutionalized the Vietnam memory as a constraint on executive war-making. But
 the subsequent Reagan-era campaign to 'overcome the Vietnam syndrome' — and the
-AUMF-era Post-9/11 United States (symbolic-order-strength = 4, mechanism
+AUMF-era Post-9/11 United States (sacred-political-order-strength = 4, mechanism
 `sacred-enemy-escalation`) — shows that partial corrigibility institutionalization is
 reversible in ways that constitutional-containment is not. The War Powers Resolution
 has been routinely contested by every administration since its passage; no administration
@@ -131,7 +131,7 @@ The full cross-case comparison table is available at:
 
 The scored data support four provisional predictions:
 
-**1. Orders with cor=1 and sos=5 will not self-correct.** Nazi Germany, Imperial Japan,
+**1. Orders with cor=1 and spos=5 will not self-correct.** Nazi Germany, Imperial Japan,
 and by extension Khmer Rouge Cambodia and Maoist China (both scored at collective-
 immortality = 5 with no corrigibility score) are predicted to escalate until external
 force or material exhaustion imposes limits. The framework does not predict the timing
@@ -145,8 +145,8 @@ scored periods. The prediction is directional: high corrigibility and healthy sa
 are mutually reinforcing — the order can acknowledge when sacrifice demands are becoming
 disproportionate and adjust before reaching pathological thresholds.
 
-**3. Orders with cor=1 and declining symbolic-order-strength will collapse rather than
-correct.** The Soviet Union case (sos declining 5→2 over the period, cor=1 in the
+**3. Orders with cor=1 and declining sacred-political-order-strength will collapse rather than
+correct.** The Soviet Union case (spos declining 5→2 over the period, cor=1 in the
 terminal phase) confirms this prediction. The mechanism is that an order with no
 functional corrigibility cannot execute the legitimacy reconstruction that declining
 strength requires; the attempt to reconstruct triggers institutional self-preservation
@@ -154,8 +154,8 @@ from those whose position depends on the unreconstructed order.
 
 **4. Orders with intermediate corrigibility (cor=2–3) are structurally vulnerable to
 reversal.** The US after Vietnam (cor=3) shows that memory-driven-restraint without
-constitutional-containment can be reversed by a sufficiently strong symbolic-order-
-strength mobilization (the post-9/11 sacred-enemy-escalation produced a higher sos score
+constitutional-containment can be reversed by a sufficiently strong sacred-political-order-
+strength mobilization (the post-9/11 sacred-enemy-escalation produced a higher spos score
 of 4 and pathological sacrifice health). The prediction is that intermediate corrigibility
 is a transitional state, not a stable equilibrium, and its trajectory depends on whether
 the corrigibility architecture deepens toward constitutional-containment (→ Cluster 3) or
@@ -165,8 +165,8 @@ is eroded by legitimacy pressure (→ Cluster 4 or worse).
 
 The framework does not yet resolve three analytically important questions:
 
-**Timing of collapse vs. freezing.** North Korea (sos=5, frozen-pathology) and the
-Soviet Union (sos declining → collapse) both show high strength with no functional
+**Timing of collapse vs. freezing.** North Korea (spos=5, frozen-pathology) and the
+Soviet Union (spos declining → collapse) both show high strength with no functional
 corrigibility, but one collapses and one freezes. The scored variables do not predict
 which trajectory an order will take. The relevant factor is likely the degree of
 information control — an order that can prevent legitimacy-deficit signals from

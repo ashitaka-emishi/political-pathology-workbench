@@ -7,7 +7,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
-    "interpretation": "The Basic Law's inviolable human dignity provision (Art. 1 GG) and eternity clause (Art. 79(3) GG) are direct constitutional embodiments of high corrigibility: the postwar symbolic order structurally limits its own capacity for pathological escalation by placing individual dignity beyond collective override.",
+    "interpretation": "The Basic Law's inviolable human dignity provision (Art. 1 GG) and eternity clause (Art. 79(3) GG) are direct constitutional embodiments of high corrigibility: the postwar sacred political order structurally limits its own capacity for pathological escalation by placing individual dignity beyond collective override.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -35,33 +35,49 @@
     "definitionRefs": [
       "corrigibility",
       "constitutional-containment",
-      "symbolic-order"
+      "sacred-political-order"
     ],
     "codebookVersion": "v1"
   },
   {
     "interpretationId": "postwar-germany-interpretation-002",
     "caseId": "postwar-germany",
-    "claimIds": ["postwar-germany-claim-002"],
+    "claimIds": [
+      "postwar-germany-claim-002"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
-    "interpretation": "Article 20's resistance clause (Art. 20(4) GG) is the constitutive memory-driven-restraint provision of the postwar German symbolic order: the framers converted the Weimar experience of legal revolution — Hitler's use of enabling legislation to abolish parliamentary democracy through formally legal means — into a positive constitutional right to resist abolition of the democratic order. Combined with Art. 79(3)'s protection of Art. 20 as an eternity clause, this creates a two-layer corrigibility architecture: Art. 20 defines the protected democratic-social order; Art. 79(3) makes it unamendable; Art. 20(4) arms citizens to defend it when all other remedies fail. The memory of the pathological order is thus encoded as a constitutional right of resistance against its repetition — the clearest example of memory-driven-restraint in the dataset.",
+    "interpretation": "Article 20's resistance clause (Art. 20(4) GG) is the constitutive memory-driven-restraint provision of the postwar German sacred political order: the framers converted the Weimar experience of legal revolution — Hitler's use of enabling legislation to abolish parliamentary democracy through formally legal means — into a positive constitutional right to resist abolition of the democratic order. Combined with Art. 79(3)'s protection of Art. 20 as an eternity clause, this creates a two-layer corrigibility architecture: Art. 20 defines the protected democratic-social order; Art. 79(3) makes it unamendable; Art. 20(4) arms citizens to defend it when all other remedies fail. The memory of the pathological order is thus encoded as a constitutional right of resistance against its repetition — the clearest example of memory-driven-restraint in the dataset.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
       "value": 0.82,
       "label": "high",
       "rationale": "Text verified against official translation; scholarly consensus on framers' intent is clear (Weimar-lesson design); the Art. 20(4) / Art. 79(3) architectural relationship is analytically tight. Confidence capped: Art. 20(4) was added in 1968, not 1949, and the right has never been formally invoked, raising questions about its operative force.",
-      "uncertaintyFactors": ["art-20-4-added-1968-not-1949-original", "right-of-resistance-never-invoked-in-practice"]
+      "uncertaintyFactors": [
+        "art-20-4-added-1968-not-1949-original",
+        "right-of-resistance-never-invoked-in-practice"
+      ]
     },
     "mechanism": "memory-driven-restraint",
     "mechanismSummary": "Art. 20(1)+(4) converts the Weimar trauma of legal revolution into a constitutional right of resistance, encoding the memory of pathological collapse as a positive corrective mechanism — the democratic order cannot be legally abolished, and citizens are constitutionally empowered to prevent its abolition by other means.",
-    "alternativeMechanisms": ["constitutional-containment", "pluralist-reordering"],
-    "sacrificeForm": ["labor", "time", "economic-security"],
+    "alternativeMechanisms": [
+      "constitutional-containment",
+      "pluralist-reordering"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "time",
+      "economic-security"
+    ],
     "sacrificeHealth": "healthy",
     "sacrificeBoundedness": "bounded",
     "sacrificeTarget": "self",
-    "definitionRefs": ["corrigibility", "memory-driven-restraint", "constitutional-containment"],
+    "definitionRefs": [
+      "corrigibility",
+      "memory-driven-restraint",
+      "constitutional-containment"
+    ],
     "codebookVersion": "v1"
   }
 ]

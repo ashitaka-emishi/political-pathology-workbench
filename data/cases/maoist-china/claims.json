@@ -14,7 +14,7 @@
     "confidence": {
       "value": 0.72,
       "label": "moderate-high",
-      "rationale": "Both passages are from Mao's Selected Works (public domain, verified via Marxists.org). 'Serve the People' explicitly codes death-for-the-people as weightier than personal survival. 'In Memory of Bethune' codes absolute selflessness as the highest virtue. Together they establish the collective-immortality-to-sacrifice mechanism at the level of the symbolic order's core texts. Confidence capped pending broader periodization review.",
+      "rationale": "Both passages are from Mao's Selected Works (public domain, verified via Marxists.org). 'Serve the People' explicitly codes death-for-the-people as weightier than personal survival. 'In Memory of Bethune' codes absolute selflessness as the highest virtue. Together they establish the collective-immortality-to-sacrifice mechanism at the level of the sacred political order's core texts. Confidence capped pending broader periodization review.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "periodization-ambiguity"

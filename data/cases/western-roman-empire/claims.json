@@ -2,7 +2,7 @@
   {
     "claimId": "western-roman-empire-claim-001",
     "caseId": "western-roman-empire",
-    "claim": "The Western Roman symbolic order sustained its institutional coherence through a culture of public sacrifice for the republic, but by the late fourth century this culture of civic self-abnegation had decayed — as Vegetius observed in the army and Augustine analyzed in the moral order — producing institutional fragmentation that the order could not reverse.",
+    "claim": "The Western Roman sacred political order sustained its institutional coherence through a culture of public sacrifice for the republic, but by the late fourth century this culture of civic self-abnegation had decayed — as Vegetius observed in the army and Augustine analyzed in the moral order — producing institutional fragmentation that the order could not reverse.",
     "derivedFrom": [
       "western-roman-empire-passage-001",
       "western-roman-empire-passage-002"
@@ -14,7 +14,7 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "Both passages are public-domain texts from near-contemporary witnesses of the late Roman order (Vegetius c. 390, Augustine 413–426). They provide independent diagnoses of institutional decay. Confidence capped: the passages describe the order at decline-onset, not at its peak, and the causal chain from symbolic-order decay to institutional collapse requires fuller reconstruction.",
+      "rationale": "Both passages are public-domain texts from near-contemporary witnesses of the late Roman order (Vegetius c. 390, Augustine 413–426). They provide independent diagnoses of institutional decay. Confidence capped: the passages describe the order at decline-onset, not at its peak, and the causal chain from order decay to institutional collapse requires fuller reconstruction.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "contemporaneous-diagnosis-not-retrospective-proof",

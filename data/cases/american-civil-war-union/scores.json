@@ -3,13 +3,13 @@
     "scoreId": "american-civil-war-union-score-001",
     "caseId": "american-civil-war-union",
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "interpretationId": "american-civil-war-union-interpretation-001",
     "value": 4,
     "confidence": {
       "value": 0.63,
       "label": "moderate",
-      "rationale": "Score of 4 reflects high symbolic-order strength at the war's end: the Union's constitutional order survived, and Lincoln gave it a powerful new sacral legitimation through democratic-rebirth framing. Not maximum because the order's strength was achieved through enormous material sacrifice and was not yet institutionally consolidated; Reconstruction collapse suggests the symbolic renewal did not fully take hold.",
+      "rationale": "Score of 4 reflects high sacred-political-order strength at the war's end: the Union's constitutional order survived, and Lincoln gave it a powerful new sacral legitimation through democratic-rebirth framing. Not maximum because the order's strength was achieved through enormous material sacrifice and was not yet institutionally consolidated; Reconstruction collapse suggests the symbolic renewal did not fully take hold.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "reconstruction-failure-complicates-anti-sacrificial-score"
@@ -18,10 +18,10 @@
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "definitionRefs": [
-      "symbolic-order-strength",
+      "sacred-political-order-strength",
       "anti-sacrificial-restraint"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 4/5 defensible: anti-sacrificial-restraint mechanism (Lincoln's reframing of sacrifice as national rededication rather than enemy annihilation) supports elevated but not maximum symbolic-order-strength. Confidence 0.63 is proportionate to uncertainty factors (chain requires expansion; Reconstruction failure complicates the score by showing the anti-sacrificial architecture was not durable). Ready for human-reviewed pending chain expansion to ≥4 passages."
+    "reviewNote": "Score value 4/5 defensible: anti-sacrificial-restraint mechanism (Lincoln's reframing of sacrifice as national rededication rather than enemy annihilation) supports elevated but not maximum sacred-political-order-strength. Confidence 0.63 is proportionate to uncertainty factors (chain requires expansion; Reconstruction failure complicates the score by showing the anti-sacrificial architecture was not durable). Ready for human-reviewed pending chain expansion to ≥4 passages."
   }
 ]

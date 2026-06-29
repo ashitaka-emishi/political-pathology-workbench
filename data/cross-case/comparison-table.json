@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-06-29",
   "variables": [
-    "symbolic-order-strength",
+    "sacred-political-order-strength",
     "corrigibility"
   ],
   "clusters": [
@@ -14,7 +14,7 @@
           "title": "Imperial Japan",
           "goldCase": true,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 5
               ],
@@ -40,7 +40,7 @@
           "title": "Khmer Rouge Cambodia",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": null,
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "collective-immortality-to-sacrifice",
@@ -52,7 +52,7 @@
           "title": "Maoist China",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": null,
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "collective-immortality-to-sacrifice",
@@ -64,7 +64,7 @@
           "title": "Nazi Germany",
           "goldCase": true,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 5
               ],
@@ -90,7 +90,7 @@
           "title": "Revolutionary France",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 5
               ],
@@ -109,7 +109,7 @@
           "title": "World War I Nationalisms",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 5
               ],
@@ -134,7 +134,7 @@
           "title": "Confederacy",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 4
               ],
@@ -153,7 +153,7 @@
           "title": "Soviet Union Collapse",
           "goldCase": true,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 2
               ],
@@ -179,7 +179,7 @@
           "title": "Western Roman Empire",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 5
               ],
@@ -204,7 +204,7 @@
           "title": "American Civil War / Union",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 4
               ],
@@ -223,7 +223,7 @@
           "title": "Post-9/11 United States",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 4
               ],
@@ -242,7 +242,7 @@
           "title": "Soviet Communism",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 5
               ],
@@ -267,7 +267,7 @@
           "title": "Canada",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": null,
+            "sacred-political-order-strength": null,
             "corrigibility": {
               "values": [
                 4
@@ -286,7 +286,7 @@
           "title": "European Union",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": null,
+            "sacred-political-order-strength": null,
             "corrigibility": {
               "values": [
                 4
@@ -305,7 +305,7 @@
           "title": "Gandhian Indian Independence",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 3
               ],
@@ -324,7 +324,7 @@
           "title": "Postwar Germany",
           "goldCase": true,
           "scores": {
-            "symbolic-order-strength": null,
+            "sacred-political-order-strength": null,
             "corrigibility": {
               "values": [
                 4,
@@ -344,7 +344,7 @@
           "title": "Switzerland",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": null,
+            "sacred-political-order-strength": null,
             "corrigibility": {
               "values": [
                 5
@@ -363,7 +363,7 @@
           "title": "United States after Vietnam",
           "goldCase": true,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 3
               ],
@@ -395,7 +395,7 @@
           "title": "North Korea",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": {
+            "sacred-political-order-strength": {
               "values": [
                 5
               ],
@@ -420,7 +420,7 @@
           "title": "British Empire to Commonwealth",
           "goldCase": false,
           "scores": {
-            "symbolic-order-strength": null,
+            "sacred-political-order-strength": null,
             "corrigibility": {
               "values": [
                 3

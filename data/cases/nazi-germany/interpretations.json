@@ -34,7 +34,7 @@
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "mixed",
     "definitionRefs": [
-      "symbolic-order",
+      "sacred-political-order",
       "collective-immortality",
       "sacrifice",
       "pathology"
@@ -48,9 +48,9 @@
       "nazi-germany-claim-001"
     ],
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "mechanism": "collective-immortality-to-sacrifice",
-    "mechanismSummary": "The draft chain identifies a totalizing national symbolic order that organizes belonging, legitimacy, memory, obligation, and sacrifice.",
+    "mechanismSummary": "The draft chain identifies a totalizing national sacred political order that organizes belonging, legitimacy, memory, obligation, and sacrifice.",
     "alternativeMechanisms": [
       "sacred-enemy-escalation",
       "institutional-self-preservation"
@@ -64,12 +64,12 @@
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "mixed",
     "definitionRefs": [
-      "symbolic-order",
-      "symbolic-order-strength",
+      "sacred-political-order",
+      "sacred-political-order-strength",
       "sacrifice"
     ],
     "codebookVersion": "v1",
-    "interpretation": "The Nazi Volksgemeinschaft is provisionally coded as a very strong symbolic order, while remaining explicitly draft pending verified source passages and broader evidence.",
+    "interpretation": "The Nazi Volksgemeinschaft is provisionally coded as a very strong sacred political order, while remaining explicitly draft pending verified source passages and broader evidence.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -85,26 +85,42 @@
   {
     "interpretationId": "nazi-germany-interpretation-003",
     "caseId": "nazi-germany",
-    "claimIds": ["nazi-germany-claim-002"],
+    "claimIds": [
+      "nazi-germany-claim-002"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
-    "interpretation": "The Nazi symbolic order scores at minimum corrigibility: the Wehrmacht oath's 'unconditional obedience' and readiness to die for the oath eliminated institutional capacity for legitimate dissent within the armed forces by converting legal obligation from constitutional duty to personal fealty to the Führer; simultaneously, the Law Against Formation of New Parties legally extinguished the pluralist competition that enables symbolic-order self-correction. Together these two legal acts in 1933–1934 completed the structural elimination of corrigibility: no institutional actor could legitimately challenge the symbolic order's direction without violating a personal sacred oath or committing a criminal act. This is the corrigibility-elimination that distinguishes Nazi Germany from the restrained-reordering cases.",
+    "interpretation": "The Nazi sacred political order scores at minimum corrigibility: the Wehrmacht oath's 'unconditional obedience' and readiness to die for the oath eliminated institutional capacity for legitimate dissent within the armed forces by converting legal obligation from constitutional duty to personal fealty to the Führer; simultaneously, the Law Against Formation of New Parties legally extinguished the pluralist competition that enables order self-correction. Together these two legal acts in 1933–1934 completed the structural elimination of corrigibility: no institutional actor could legitimately challenge the sacred political order's direction without violating a personal sacred oath or committing a criminal act. This is the corrigibility-elimination that distinguishes Nazi Germany from the restrained-reordering cases.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
       "value": 0.82,
       "label": "high",
       "rationale": "Claim derives from two short, legally unambiguous texts verified against authoritative sources. The corrigibility interpretation is direct: unconditional-obedience oath + single-party law = elimination of legitimate dissent channels. High confidence relative to most chain interpretations.",
-      "uncertaintyFactors": ["chain-requires-integration-with-operational-documentation"]
+      "uncertaintyFactors": [
+        "chain-requires-integration-with-operational-documentation"
+      ]
     },
     "mechanism": "institutional-self-preservation",
     "mechanismSummary": "Personal loyalty oath replacing constitutional duty + legal single-party monopoly simultaneously eliminated all institutional corrigibility mechanisms, converting legitimate dissent into personal betrayal and criminal act.",
-    "alternativeMechanisms": ["collective-immortality-to-sacrifice", "frozen-pathology"],
-    "sacrificeForm": ["death", "bodily-risk", "conscience", "agency"],
+    "alternativeMechanisms": [
+      "collective-immortality-to-sacrifice",
+      "frozen-pathology"
+    ],
+    "sacrificeForm": [
+      "death",
+      "bodily-risk",
+      "conscience",
+      "agency"
+    ],
     "sacrificeHealth": "pathological",
     "sacrificeBoundedness": "unbounded",
     "sacrificeTarget": "self",
-    "definitionRefs": ["corrigibility", "symbolic-order-strength", "institutional-self-preservation"],
+    "definitionRefs": [
+      "corrigibility",
+      "sacred-political-order-strength",
+      "institutional-self-preservation"
+    ],
     "codebookVersion": "v1"
   }
 ]

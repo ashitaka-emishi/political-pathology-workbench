@@ -82,12 +82,12 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
 
   try {
     const caseRecord = readJson(casePath);
-    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "symbolicOrderId", "symbolicOrderName", "symbolicOrderDefinition", "symbolicOrderStrength", "symbolicOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest"]);
+    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest"]);
     validateEnum(`${caseRecord.caseId}.outcome`, caseRecord.outcome, VOCAB.outcomes);
     validateEnum(`${caseRecord.caseId}.reviewStatus`, caseRecord.reviewStatus, VOCAB.reviewStatuses);
     validateEnum(`${caseRecord.caseId}.publicationStatus`, caseRecord.publicationStatus, VOCAB.publicationStatuses);
     validateEnum(`${caseRecord.caseId}.caseSelectionRole`, caseRecord.caseSelectionRole, VOCAB.caseSelectionRoles);
-    if (typeof caseRecord.symbolicOrderStrength !== "number" || caseRecord.symbolicOrderStrength < 0 || caseRecord.symbolicOrderStrength > 5) addError(`${caseRecord.caseId}: symbolicOrderStrength must be a number from 0 to 5`);
+    if (typeof caseRecord.sacredPoliticalOrderStrength !== "number" || caseRecord.sacredPoliticalOrderStrength < 0 || caseRecord.sacredPoliticalOrderStrength > 5) addError(`${caseRecord.caseId}: sacredPoliticalOrderStrength must be a number from 0 to 5`);
 
     const sourcePack = readJson(path.join(caseDir, "source-pack.json"));
     requireFields(path.join(caseDir, "source-pack.json"), sourcePack, ["caseId", "sources"]);
@@ -160,7 +160,7 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
       if (score.publicationStatus === "published" && !score.confidence?.rationale) addError(`${score.scoreId}: published score lacks confidence rationale`);
       if (score.confidence?.value < 0.5) addWarning(`${score.scoreId}: score confidence is below 0.5`);
-      if (score.value >= 4 && score.variableId === "symbolic-order-strength" && !caseRecord.symbolicOrderStrengthRationale) addWarning(`${score.scoreId}: high symbolic-order score lacks obligation or sacrifice rationale`);
+      if (score.value >= 4 && score.variableId === "sacred-political-order-strength" && !caseRecord.sacredPoliticalOrderStrengthRationale) addWarning(`${score.scoreId}: high sacred-political-order score lacks obligation or sacrifice rationale`);
       if (score.value >= 4 && ["sacralization", "collective-immortality", "sacred-enemy", "pathology", "corrigibility"].includes(score.variableId) && !(score.definitionRefs ?? []).includes(score.variableId)) addWarning(`${score.scoreId}: high ${score.variableId} score should cite its definition`);
     }
 
