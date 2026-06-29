@@ -7,13 +7,12 @@
     "interpretationId": "united-states-after-vietnam-interpretation-001",
     "value": 3,
     "confidence": {
-      "value": 0.58,
+      "value": 0.62,
       "label": "moderate",
-      "rationale": "Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Mid-range score acknowledges the ambiguity.",
+      "rationale": "Passages advanced to evidence-review. Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Confidence raised from 0.58. Capped pending chain expansion.",
       "uncertaintyFactors": [
         "periodization-contested",
-        "stub-score",
-        "minimal-evidence-chain"
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",

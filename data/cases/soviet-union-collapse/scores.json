@@ -7,13 +7,12 @@
     "interpretationId": "soviet-union-collapse-interpretation-001",
     "value": 2,
     "confidence": {
-      "value": 0.6,
+      "value": 0.65,
       "label": "moderate",
-      "rationale": "Score of 2 reflects the terminal-phase strength of the Soviet symbolic order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period; a separate score for the Stalinist peak would be substantially higher.",
+      "rationale": "Passages advanced to evidence-review. Score of 2 reflects the terminal-phase strength of the Soviet symbolic order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period. Confidence raised from 0.60. Capped pending chain expansion.",
       "uncertaintyFactors": [
         "periodization-ambiguity",
-        "stub-score",
-        "minimal-evidence-chain"
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",
