@@ -2,7 +2,7 @@
   {
     "claimId": "confederacy-claim-001",
     "caseId": "confederacy",
-    "claim": "The Confederate symbolic order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high symbolic-order strength at founding but could not survive military defeat.",
+    "claim": "The Confederate sacred political order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high sacred-political-order strength at founding but could not survive military defeat.",
     "derivedFrom": [
       "confederacy-passage-001",
       "confederacy-passage-002"
@@ -12,9 +12,9 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.70,
+      "value": 0.7,
       "label": "moderate-high",
-      "rationale": "Both passages are well-attested public-domain founding documents verified against Avalon Project and American Battlefield Trust. The CSA Constitution's invocation of divine guidance and Stephens' explicit statement of racial hierarchy as constitutional cornerstone together establish the symbolic order's founding sacral logic. Confidence capped pending chain expansion beyond founding documents.",
+      "rationale": "Both passages are well-attested public-domain founding documents verified against Avalon Project and American Battlefield Trust. The CSA Constitution's invocation of divine guidance and Stephens' explicit statement of racial hierarchy as constitutional cornerstone together establish the sacred political order's founding sacral logic. Confidence capped pending chain expansion beyond founding documents.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "collapse-not-chain-driven"

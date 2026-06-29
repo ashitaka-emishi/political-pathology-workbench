@@ -3,13 +3,13 @@
     "scoreId": "revolutionary-france-score-001",
     "caseId": "revolutionary-france",
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "interpretationId": "revolutionary-france-interpretation-001",
     "value": 5,
     "confidence": {
       "value": 0.63,
       "label": "moderate",
-      "rationale": "Maximum symbolic-order-strength score is supported by the Declaration of Rights' absolute vesting of sovereignty in the Nation and Robespierre's sacralization of the revolutionary order. Confidence capped at moderate; applies primarily to the Terror phase (1793–1794).",
+      "rationale": "Maximum sacred-political-order-strength score is supported by the Declaration of Rights' absolute vesting of sovereignty in the Nation and Robespierre's sacralization of the revolutionary order. Confidence capped at moderate; applies primarily to the Terror phase (1793–1794).",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "periodization-ambiguity"
@@ -18,11 +18,11 @@
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "definitionRefs": [
-      "symbolic-order",
-      "symbolic-order-strength",
+      "sacred-political-order",
+      "sacred-political-order-strength",
       "sacralization"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 5/5 defensible: sacred-enemy-escalation mechanism (Committee of Public Safety, Law of Suspects, Festival of the Supreme Being) supports maximum symbolic-order-strength during the Terror. Confidence 0.63 reflects chain-requires-expansion and periodization ambiguity (which revolutionary phase?). Hold at score-review; specify the 1793-94 Terror period as the scored period before human-reviewed."
+    "reviewNote": "Score value 5/5 defensible: sacred-enemy-escalation mechanism (Committee of Public Safety, Law of Suspects, Festival of the Supreme Being) supports maximum sacred-political-order-strength during the Terror. Confidence 0.63 reflects chain-requires-expansion and periodization ambiguity (which revolutionary phase?). Hold at score-review; specify the 1793-94 Terror period as the scored period before human-reviewed."
   }
 ]

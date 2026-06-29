@@ -12,12 +12,12 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft balanced-case placeholder.",
-  "symbolicOrderId": "switzerland-symbolic-order",
-  "symbolicOrderName": "Switzerland symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Switzerland.",
-  "symbolicOrderStrength": 3,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "switzerland-sacred-political-order",
+  "sacredPoliticalOrderName": "Switzerland sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Switzerland.",
+  "sacredPoliticalOrderStrength": 3,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "countercase",
-  "selectionRationale": "Included to test whether symbolic order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
+  "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
   "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation."
 }

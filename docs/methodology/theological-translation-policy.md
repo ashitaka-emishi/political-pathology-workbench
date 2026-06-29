@@ -9,6 +9,6 @@ Public methodology should translate theological categories into academically leg
 | Fallenness | pathological deformation |
 | Redemption | reordering toward truth and life |
 | Sacrifice | costly offering, bodily consumption, life-consuming demand |
-| Idolatry | self-sacralization of an institution or symbolic order |
+| Idolatry | self-sacralization of an institution or sacred political order |
 
 The translation policy protects public-facing work from relying on insider theological language while preserving conceptual continuity for theological readers.

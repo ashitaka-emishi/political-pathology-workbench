@@ -4,7 +4,7 @@
 
 > Status: active research spike. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
 
-The Political Pathology Workbench is a research platform for studying how symbolic orders become embodied in institutions, how those institutions respond to crisis, and when they generate sacrifice, violence, reform, collapse, transformation, or stagnation.
+The Political Pathology Workbench is a research platform for studying how sacred political orders become embodied in institutions, how those institutions respond to crisis, and when they generate sacrifice, violence, reform, collapse, transformation, or stagnation.
 
 This repository is the v2 scaffold implementation. It sets up theory-as-data, structured case folders, traceable evidence objects, validation tooling, Python analysis stubs, and a lean Quarto publication site.
 

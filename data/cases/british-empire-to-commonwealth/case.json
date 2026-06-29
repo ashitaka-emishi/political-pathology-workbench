@@ -12,12 +12,12 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft balanced-case placeholder.",
-  "symbolicOrderId": "british-empire-to-commonwealth-symbolic-order",
-  "symbolicOrderName": "British Empire to Commonwealth symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with British Empire to Commonwealth.",
-  "symbolicOrderStrength": 4,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "british-empire-to-commonwealth-sacred-political-order",
+  "sacredPoliticalOrderName": "British Empire to Commonwealth sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with British Empire to Commonwealth.",
+  "sacredPoliticalOrderStrength": 4,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "transformation-case",
   "selectionRationale": "Included to test absorption, reinterpretation, or successor-order transformation.",
-  "theoryTest": "Tests whether symbolic orders can survive through reinterpretation or successor-order absorption."
+  "theoryTest": "Tests whether sacred political orders can survive through reinterpretation or successor-order absorption."
 }

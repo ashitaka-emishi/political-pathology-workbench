@@ -12,12 +12,12 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft gold-case placeholder for future source, passage, claim, interpretation, and score chains.",
-  "symbolicOrderId": "imperial-japan-symbolic-order",
-  "symbolicOrderName": "Imperial Japan symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Imperial Japan.",
-  "symbolicOrderStrength": 5,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "imperial-japan-sacred-political-order",
+  "sacredPoliticalOrderName": "Imperial Japan sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Imperial Japan.",
+  "sacredPoliticalOrderStrength": 5,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "gold-case",
   "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-  "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice."
+  "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice."
 }

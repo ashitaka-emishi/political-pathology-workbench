@@ -12,12 +12,12 @@
     "general-theory-political-pathology-v1"
   ],
   "summary": "Draft gold-case placeholder for future traceability work.",
-  "symbolicOrderId": "soviet-union-collapse-symbolic-order",
-  "symbolicOrderName": "Soviet Union Collapse symbolic order",
-  "symbolicOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Union Collapse.",
-  "symbolicOrderStrength": 4,
-  "symbolicOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+  "sacredPoliticalOrderId": "soviet-union-collapse-sacred-political-order",
+  "sacredPoliticalOrderName": "Soviet Union Collapse sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Union Collapse.",
+  "sacredPoliticalOrderStrength": 4,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "gold-case",
   "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-  "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice."
+  "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice."
 }

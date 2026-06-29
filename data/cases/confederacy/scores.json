@@ -3,13 +3,13 @@
     "scoreId": "confederacy-score-001",
     "caseId": "confederacy",
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "interpretationId": "confederacy-interpretation-001",
     "value": 4,
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "High but not maximum symbolic-order strength: the founding documents establish strong sacral logic (divine favor, racial hierarchy as natural truth), but the four-year lifespan and dependence on military success suggest the order could not fully consolidate. Score of 4 reflects high founding strength with fragility built in.",
+      "rationale": "High but not maximum sacred-political-order strength: the founding documents establish strong sacral logic (divine favor, racial hierarchy as natural truth), but the four-year lifespan and dependence on military success suggest the order could not fully consolidate. Score of 4 reflects high founding strength with fragility built in.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "collapse-not-chain-driven"
@@ -18,10 +18,10 @@
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "definitionRefs": [
-      "symbolic-order-strength",
+      "sacred-political-order-strength",
       "sacralization"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 4/5 defensible: high symbolic-order-strength in the founding Confederate order (CSA Constitution's slavery permanence clause, Stephens Cornerstone Speech) supports elevated but not maximum score — the order collapsed too quickly to sustain escalation to 5. Confidence 0.62 reflects the chain-requires-expansion uncertainty. Hold at score-review until chain expansion to ≥4 passages."
+    "reviewNote": "Score value 4/5 defensible: high sacred-political-order-strength in the founding Confederate order (CSA Constitution's slavery permanence clause, Stephens Cornerstone Speech) supports elevated but not maximum score — the order collapsed too quickly to sustain escalation to 5. Confidence 0.62 reflects the chain-requires-expansion uncertainty. Hold at score-review until chain expansion to ≥4 passages."
   }
 ]

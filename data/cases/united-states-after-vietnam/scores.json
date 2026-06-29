@@ -28,13 +28,13 @@
     "scoreId": "united-states-after-vietnam-score-002",
     "caseId": "united-states-after-vietnam",
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "interpretationId": "united-states-after-vietnam-interpretation-002",
     "value": 3,
     "confidence": {
       "value": 0.6,
       "label": "moderate",
-      "rationale": "Score of 3 (moderate) for the 1973–1984 post-Vietnam period: the symbolic order retained democratic institutional coherence but lost Cold War consensus, executive war authority, and public confidence (per Carter). Mid-range score reflects the order's ambiguous status — neither collapsed (Soviet 1991) nor highly constrained (postwar Germany) nor strongly expansive (imperial Japan). Confidence at 0.60 because periodization is genuinely contested: Reagan-era rearmament suggests symbolic-order strength recovered more than a 3 implies by the mid-1980s.",
+      "rationale": "Score of 3 (moderate) for the 1973–1984 post-Vietnam period: the sacred political order retained democratic institutional coherence but lost Cold War consensus, executive war authority, and public confidence (per Carter). Mid-range score reflects the order's ambiguous status — neither collapsed (Soviet 1991) nor highly constrained (postwar Germany) nor strongly expansive (imperial Japan). Confidence at 0.60 because periodization is genuinely contested: Reagan-era rearmament suggests sacred-political-order strength recovered more than a 3 implies by the mid-1980s.",
       "uncertaintyFactors": [
         "periodization-1973-1984-vs-later-recovery",
         "cold-war-framing-kept-some-consensus-intact"
@@ -43,10 +43,10 @@
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "definitionRefs": [
-      "symbolic-order-strength",
+      "sacred-political-order-strength",
       "memory-driven-restraint"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 3/5 defensible: symbolic-order-strength = 3 for the 1973-1984 post-Vietnam period captures the order's retained democratic coherence against its significant confidence and legitimacy erosion. Confidence 0.60 reflects periodization uncertainty (Reagan rearmament suggests faster recovery than a 3 implies). Hold at score-review; periodization should be explicitly bounded to 1973-1984 before human-reviewed."
+    "reviewNote": "Score value 3/5 defensible: sacred-political-order-strength = 3 for the 1973-1984 post-Vietnam period captures the order's retained democratic coherence against its significant confidence and legitimacy erosion. Confidence 0.60 reflects periodization uncertainty (Reagan rearmament suggests faster recovery than a 3 implies). Hold at score-review; periodization should be explicitly bounded to 1973-1984 before human-reviewed."
   }
 ]

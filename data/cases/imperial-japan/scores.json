@@ -3,13 +3,13 @@
     "scoreId": "imperial-japan-score-001",
     "caseId": "imperial-japan",
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
+    "variableId": "sacred-political-order-strength",
     "interpretationId": "imperial-japan-interpretation-001",
     "value": 5,
     "confidence": {
       "value": 0.7,
       "label": "moderate-high",
-      "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum symbolic-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
+      "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum sacred-political-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
       "uncertaintyFactors": [
         "physical-edition-verification-pending",
         "chain-requires-expansion"
@@ -18,12 +18,12 @@
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "definitionRefs": [
-      "symbolic-order-strength",
+      "sacred-political-order-strength",
       "collective-immortality",
       "sacrifice"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 5/5 defensible: maximum symbolic-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified and chain-requires-expansion resolved."
+    "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified and chain-requires-expansion resolved."
   },
   {
     "scoreId": "imperial-japan-score-002",

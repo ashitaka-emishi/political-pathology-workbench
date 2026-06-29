@@ -7,7 +7,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
-    "interpretation": "The post-Vietnam US symbolic order exhibited moderate corrigibility: the War Powers Resolution institutionalized congressional oversight as a correction mechanism against unilateral executive war-making, and Carter's public acknowledgment of national crisis represented a symbolic-order willingness to receive criticism rather than deflect it through sacrificial mobilization. This contrasts with Imperial Japan and Nazi Germany, where equivalent crises intensified sacrificial demands. Corrigibility was partial and contested — Reagan's explicit campaign to overcome the Vietnam syndrome within a decade shows the correction was not deeply institutionalized.",
+    "interpretation": "The post-Vietnam US sacred political order exhibited moderate corrigibility: the War Powers Resolution institutionalized congressional oversight as a correction mechanism against unilateral executive war-making, and Carter's public acknowledgment of national crisis represented a order willingness to receive criticism rather than deflect it through sacrificial mobilization. This contrasts with Imperial Japan and Nazi Germany, where equivalent crises intensified sacrificial demands. Corrigibility was partial and contested — Reagan's explicit campaign to overcome the Vietnam syndrome within a decade shows the correction was not deeply institutionalized.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -37,37 +37,50 @@
     "definitionRefs": [
       "corrigibility",
       "memory-driven-restraint",
-      "symbolic-order-strength"
+      "sacred-political-order-strength"
     ],
     "codebookVersion": "v1"
   },
   {
     "interpretationId": "united-states-after-vietnam-interpretation-002",
     "caseId": "united-states-after-vietnam",
-    "claimIds": ["united-states-after-vietnam-claim-002"],
+    "claimIds": [
+      "united-states-after-vietnam-claim-002"
+    ],
     "theoryId": "general-theory-political-pathology-v1",
-    "variableId": "symbolic-order-strength",
-    "interpretation": "The post-Vietnam US symbolic order exhibits moderate and declining strength during the 1973–1984 period covered by the chain: War Powers § 5(b)'s automatic withdrawal mechanism encodes Congress's assessment that the President alone could not be trusted to maintain symbolic-order coherence under crisis pressure, implying the founding legitimacy framework (executive war authority, Cold War consensus) had significantly eroded; Carter's crisis diagnosis (passage-002) names symbolic-order-strength erosion explicitly as the central national problem; and Weinberger's explicit return to pre-engagement public consent-seeking (passage-004) shows the order reconstructing its authority basis around democratic accountability rather than imperial prerogative. Score of 3 reflects a symbolic order that retains structural coherence (democratic institutions, legal framework) but whose legitimacy claims have been substantially contested and its sacrifice demands constrained by collective memory.",
+    "variableId": "sacred-political-order-strength",
+    "interpretation": "The post-Vietnam US sacred political order exhibits moderate and declining strength during the 1973–1984 period covered by the chain: War Powers § 5(b)'s automatic withdrawal mechanism encodes Congress's assessment that the President alone could not be trusted to maintain symbolic-order coherence under crisis pressure, implying the founding legitimacy framework (executive war authority, Cold War consensus) had significantly eroded; Carter's crisis diagnosis (passage-002) names sacred-political-order-strength erosion explicitly as the central national problem; and Weinberger's explicit return to pre-engagement public consent-seeking (passage-004) shows the order reconstructing its authority basis around democratic accountability rather than imperial prerogative. Score of 3 reflects a sacred political order that retains structural coherence (democratic institutions, legal framework) but whose legitimacy claims have been substantially contested and its sacrifice demands constrained by collective memory.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
       "value": 0.65,
       "label": "moderate",
-      "rationale": "The symbolic-order-strength reading is strongly supported by the Carter passage (explicit crisis diagnosis) and consistent with the WPR and Weinberger passages. Score of 3 is plausible but contested: the Cold War consensus partially survived Vietnam, and Reagan's successful rearmament campaign by 1983 suggests symbolic-order recovery was faster than a mid-period reading implies.",
+      "rationale": "The sacred-political-order-strength reading is strongly supported by the Carter passage (explicit crisis diagnosis) and consistent with the WPR and Weinberger passages. Score of 3 is plausible but contested: the Cold War consensus partially survived Vietnam, and Reagan's successful rearmament campaign by 1983 suggests symbolic-order recovery was faster than a mid-period reading implies.",
       "uncertaintyFactors": [
         "periodization-1973-1984-vs-longer-arc",
-        "reagan-rearmament-suggests-symbolic-order-recovery",
+        "reagan-rearmament-suggests-order-recovery",
         "cold-war-consensus-partially-intact"
       ]
     },
     "mechanism": "memory-driven-restraint",
-    "mechanismSummary": "The Vietnam memory restrained symbolic-order expansion by requiring legal authorization and public consent before military deployment, reducing the available repertoire of sacrificial mobilization and constraining executive unilateralism.",
-    "alternativeMechanisms": ["constitutional-containment", "pluralist-reordering"],
-    "sacrificeForm": ["labor", "economic-security", "conscience"],
+    "mechanismSummary": "The Vietnam memory restrained order expansion by requiring legal authorization and public consent before military deployment, reducing the available repertoire of sacrificial mobilization and constraining executive unilateralism.",
+    "alternativeMechanisms": [
+      "constitutional-containment",
+      "pluralist-reordering"
+    ],
+    "sacrificeForm": [
+      "labor",
+      "economic-security",
+      "conscience"
+    ],
     "sacrificeHealth": "ambiguous",
     "sacrificeBoundedness": "partially-bounded",
     "sacrificeTarget": "self",
-    "definitionRefs": ["symbolic-order-strength", "memory-driven-restraint", "corrigibility"],
+    "definitionRefs": [
+      "sacred-political-order-strength",
+      "memory-driven-restraint",
+      "corrigibility"
+    ],
     "codebookVersion": "v1"
   }
 ]
