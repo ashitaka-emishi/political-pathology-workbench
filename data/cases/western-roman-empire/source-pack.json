@@ -1,4 +1,17 @@
 {
   "caseId": "western-roman-empire",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "vegetius-de-re-militari-c390",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Clarke (1767) translation at Internet Archive."
+    },
+    {
+      "sourceId": "augustine-city-of-god-413",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Dods translation at New Advent: https://www.newadvent.org/fathers/120105.htm"
+    }
+  ]
 }
