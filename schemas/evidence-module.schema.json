@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/evidence-module.schema.json",
+  "title": "Evidence Module",
+  "description": "A source repository that provides corpus artifacts, annotations, and analysis outputs to PPW. Owns the corpus/provenance/annotation layer; PPW owns the promoted claim/interpretation/score layer.",
+  "type": "object",
+  "required": [
+    "moduleId",
+    "moduleName",
+    "moduleType",
+    "sourceRepository",
+    "sourceRepositoryRole",
+    "description",
+    "provenanceStatus",
+    "rightsStatus",
+    "reliabilityStatus",
+    "claimPromotionPolicy",
+    "sourceIssueMigrationStatus"
+  ],
+  "properties": {
+    "moduleId": {
+      "type": "string",
+      "description": "Stable kebab-case identifier for this evidence module."
+    },
+    "moduleName": {
+      "type": "string",
+      "description": "Human-readable module name."
+    },
+    "moduleType": {
+      "type": "string",
+      "enum": ["deep-case", "comparative"],
+      "description": "deep-case: single-case evidence module; comparative: multi-case cross-case corpus module."
+    },
+    "sourceRepository": {
+      "type": "string",
+      "description": "URL or owner/repo identifier of the source repository (e.g. ashitaka-emishi/lincoln-metaphor-analysis)."
+    },
+    "sourceRepositoryRole": {
+      "type": "string",
+      "enum": ["deep-case-module", "comparative-corpus-module"],
+      "description": "Role the source repository plays in the PPW evidence architecture."
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of what the module contains and its purpose."
+    },
+    "caseIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "PPW case IDs this module contributes evidence for."
+    },
+    "theoryIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "PPW theory IDs whose variables this module provides evidence for."
+    },
+    "corpusIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Corpus registry IDs managed by this module."
+    },
+    "artifactClasses": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "corpus",
+          "annotations",
+          "reliability-study",
+          "adjudication",
+          "methodology",
+          "publication",
+          "pipeline-scripts"
+        ]
+      },
+      "description": "Classes of artifacts this module holds."
+    },
+    "provenanceStatus": {
+      "type": "string",
+      "enum": ["full", "partial", "undocumented"],
+      "description": "Whether provenance documentation is complete for this module's artifacts."
+    },
+    "rightsStatus": {
+      "type": "string",
+      "enum": ["open", "fair-use", "restricted", "unknown"],
+      "description": "Copyright and rights status. open: permissively licensed; fair-use: passages cited under fair use; restricted: access-controlled; unknown: not yet assessed."
+    },
+    "reliabilityStatus": {
+      "type": "string",
+      "enum": ["pending", "sampling-complete", "adjudicated", "certified"],
+      "description": "Inter-annotator reliability assessment status."
+    },
+    "claimPromotionPolicy": {
+      "type": "string",
+      "enum": ["standard", "expedited", "deferred", "blocked"],
+      "description": "Governs how draft claims from this module are promoted through PPW review gates."
+    },
+    "sourceIssueMigrationStatus": {
+      "type": "string",
+      "enum": ["pending", "in-progress", "complete", "not-applicable"],
+      "description": "Status of issue migration from this source repository to PPW."
+    },
+    "lastImported": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date of the most recent import or sync from the source repository."
+    },
+    "maintainerNotes": {
+      "type": "string",
+      "description": "Free-text notes for module maintainers about integration state, known gaps, or upcoming work."
+    }
+  },
+  "additionalProperties": false
+}
