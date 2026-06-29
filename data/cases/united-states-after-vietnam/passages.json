@@ -18,5 +18,25 @@
     "evidenceRole": "grounds",
     "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
+  },
+  {
+    "passageId": "united-states-after-vietnam-passage-003",
+    "caseId": "united-states-after-vietnam",
+    "sourceId": "war-powers-resolution-1973",
+    "locator": "War Powers Resolution, Public Law 93-148, § 5(b), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1544(b). Text confirmed against Cornell LII (https://www.law.cornell.edu/uscode/text/50/1544).",
+    "text": "Within sixty calendar days after a report is submitted or is required to be submitted pursuant to section 1543(a)(1) of this title, whichever is earlier, the President shall terminate any use of United States Armed Forces with respect to which such report was submitted (or required to be submitted), unless the Congress (1) has declared war or has enacted a specific authorization for such use of United States Armed Forces, (2) has extended by law such sixty-day period, or (3) is physically unable to meet as a result of an armed attack upon the United States.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "united-states-after-vietnam-passage-004",
+    "caseId": "united-states-after-vietnam",
+    "sourceId": "weinberger-uses-military-power-1984",
+    "locator": "Caspar W. Weinberger, Secretary of Defense, 'The Uses of Military Power,' address to the National Press Club, Washington, D.C., 28 November 1984; primary source at Office of the Historian, U.S. Department of State, Foreign Relations of the United States 1981–1988, vol. I, doc. 219 (https://history.state.gov/historicaldocuments/frus1981-88v01/d219); full text also archived at PBS FRONTLINE (https://www.pbs.org/wgbh/pages/frontline/shows/military/force/weinberger.html).",
+    "text": "We cannot fight a battle with the Congress at home while asking our troops to win a war overseas or, as in the case of Vietnam, in effect asking our troops not to win, but just to be there. [...] Fifth, before the U.S. commits combat forces abroad, there must be some reasonable assurance we will have the support of the American people and their elected representatives in Congress. This support cannot be achieved unless we are candid in making clear the threats we face; the support cannot be sustained without continuing and close consultation.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
   }
 ]
