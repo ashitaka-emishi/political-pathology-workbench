@@ -7,12 +7,12 @@
     "interpretationId": "imperial-japan-interpretation-001",
     "value": 5,
     "confidence": {
-      "value": 0.65,
-      "label": "moderate",
-      "rationale": "Maximum symbolic-order-strength score is supported by the rescript sources and by the wartime escalation outcome; capped at moderate confidence pending chain expansion.",
+      "value": 0.70,
+      "label": "moderate-high",
+      "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum symbolic-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
       "uncertaintyFactors": [
-        "minimal-evidence-chain",
-        "stub-score"
+        "physical-edition-verification-pending",
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",
