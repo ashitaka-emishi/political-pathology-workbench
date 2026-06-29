@@ -19,6 +19,8 @@ website:
         text: Cases
       - href: outputs/working-paper.qmd
         text: Working Paper
+      - href: outputs/typology.qmd
+        text: Typology
 
 format:
   html:
