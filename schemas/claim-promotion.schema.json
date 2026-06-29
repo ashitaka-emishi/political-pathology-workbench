@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/claim-promotion.schema.json",
+  "title": "Claim Promotion Record",
+  "description": "Tracks the lifecycle of a claim from raw artifact through draft claim to promoted PPW finding. See docs/architecture/claim-promotion.md for gate definitions.",
+  "type": "object",
+  "required": [
+    "promotionId",
+    "claimId",
+    "originModuleId",
+    "promotionStatus",
+    "reviewStatus"
+  ],
+  "properties": {
+    "promotionId": {
+      "type": "string",
+      "description": "Stable kebab-case identifier for this promotion record."
+    },
+    "claimId": {
+      "type": "string",
+      "description": "ID of the PPW claim record this promotion record tracks (references claims.json)."
+    },
+    "originModuleId": {
+      "type": "string",
+      "description": "ID of the evidence module this claim originated from."
+    },
+    "promotionStatus": {
+      "type": "string",
+      "enum": [
+        "raw-artifact",
+        "draft-claim",
+        "reviewed-claim",
+        "promoted-finding",
+        "blocked",
+        "retired"
+      ],
+      "description": "Current stage in the claim promotion lifecycle."
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "source-review",
+        "evidence-review",
+        "argument-review",
+        "score-review",
+        "human-reviewed",
+        "approved",
+        "rejected"
+      ],
+      "description": "PPW review gate status, aligned with claims.json reviewStatus vocabulary."
+    },
+    "sourceRefs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Source IDs from bibliography/sources.csl.json that ground this claim."
+    },
+    "passageRefs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Passage IDs from passages.json that this claim derives from."
+    },
+    "artifactRefs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Corpus artifact IDs (from corpus-artifact.schema.json) that provide the evidentiary basis for this claim."
+    },
+    "missingEvidenceReason": {
+      "type": "string",
+      "description": "Required when promotionStatus is blocked and source/passage/artifact refs are absent. Explains why evidence cannot be linked."
+    },
+    "limitations": {
+      "type": "string",
+      "description": "Known scope limits, evidentiary gaps, or generalizability constraints."
+    },
+    "counterclaimIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of counterclaim records (from counterclaims.json) that qualify or contest this claim."
+    },
+    "scoreImpact": {
+      "type": "object",
+      "description": "Anticipated or confirmed impact on PPW scores if this claim is promoted.",
+      "properties": {
+        "variableId": {
+          "type": "string",
+          "description": "Theory variable this claim bears on."
+        },
+        "expectedDirection": {
+          "type": "string",
+          "enum": ["increase", "decrease", "neutral", "unknown"],
+          "description": "Direction of expected score change upon promotion."
+        },
+        "confidenceNote": {
+          "type": "string",
+          "description": "Brief rationale for the expected score impact."
+        }
+      },
+      "additionalProperties": false
+    },
+    "promotionNotes": {
+      "type": "string",
+      "description": "Free-text notes about promotion decisions, deferred gates, or reviewer guidance."
+    }
+  },
+  "if": {
+    "properties": {
+      "promotionStatus": { "const": "blocked" }
+    },
+    "required": ["promotionStatus"]
+  },
+  "then": {
+    "anyOf": [
+      { "required": ["sourceRefs"], "properties": { "sourceRefs": { "minItems": 1 } } },
+      { "required": ["passageRefs"], "properties": { "passageRefs": { "minItems": 1 } } },
+      { "required": ["artifactRefs"], "properties": { "artifactRefs": { "minItems": 1 } } },
+      { "required": ["missingEvidenceReason"] }
+    ]
+  },
+  "additionalProperties": false
+}
