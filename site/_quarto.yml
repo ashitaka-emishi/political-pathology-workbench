@@ -21,6 +21,8 @@ website:
         text: Working Paper
       - href: outputs/typology.qmd
         text: Typology
+      - href: outputs/findings.qmd
+        text: Findings
 
 format:
   html:
