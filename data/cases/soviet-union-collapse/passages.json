@@ -6,8 +6,9 @@
     "locator": "Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections. Text updated to match Marxists.org translation (https://www.marxists.org/archive/gorbachev/1991/december-25.htm) as the most accessible authoritative English version; Doubleday 1996 Memoirs edition wording may differ and requires physical library verification.",
     "text": "Fate had it that when I found myself at the head of the state it was already clear that all was not well in the country. There is plenty of everything: land, oil and gas, other natural riches, and God gave us lots of intelligence and talent, yet we lived much worse than developed countries and keep falling behind them more and more.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-001: Gorbachev's resignation diagnosis ('all was not well in the country... we lived much worse than developed countries') is the terminal-phase acknowledgment of legitimacy failure that the claim identifies as the endpoint of the symbolic order's collapse. Evidence role 'grounds' is correct. Text confirmed against Marxists.org translation in evidence-review pass. Note: Doubleday 1996 Memoirs edition wording may differ — documented as uncertainty factor."
   },
   {
     "passageId": "soviet-union-collapse-passage-002",
@@ -16,8 +17,9 @@
     "locator": "Alma-Ata Declaration, 21 December 1991, signed by eleven former Soviet republics; reproduced in International Legal Materials 31:1 (1992), p. 148. Text confirmed verbatim against https://eccis.org/en/page/178 and https://www.bits.de/NRANEU/START/documents/alma-ata91.htm",
     "text": "With the formation of the Commonwealth of Independent States, the Union of Soviet Socialist Republics ceases to exist.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-001: 'the Union of Soviet Socialist Republics ceases to exist' is the formal dissolution declaration, constituting the strongest possible grounds for the legitimacy-collapse interpretation. Evidence role 'grounds' is correct. Text confirmed against ECCIS and bits.de sources in evidence-review pass."
   },
   {
     "passageId": "soviet-union-collapse-passage-003",
@@ -26,8 +28,9 @@
     "locator": "Mikhail S. Gorbachev, Report to the Plenary Session of the CPSU Central Committee, 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Passage verified at Seventeen Moments in Soviet History (Michigan State University): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/",
     "text": "At a certain stage the country began to lose momentum, difficulties and unsolved problems began to pile up, and stagnation and other phenomena alien to socialism appeared. [...] This fundamental change of direction is necessary, since we simply have no other way. We must not retreat, and we have nowhere to retreat to.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-002: Gorbachev's 'stagnation and other phenomena alien to socialism appeared' diagnoses accumulated failure; 'we have nowhere to retreat to' frames correction as last resort rather than functioning mechanism — precisely the corrigibility-attempt-too-late dynamic the claim identifies. Evidence role 'grounds' is correct. Text confirmed against Seventeen Moments in Soviet History (MSU) in evidence-review pass."
   },
   {
     "passageId": "soviet-union-collapse-passage-004",
@@ -36,7 +39,8 @@
     "locator": "State Committee on the State of Emergency (GKChP), Appeal to the Soviet People, broadcast on Soviet radio and television, 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm",
     "text": "Deadly danger awaits our great homeland! The policy of reforms that Mikhail Gorbachev initiated as a means of guaranteeing dynamic development of our country and the democratization of society, due to a series of reasons, has reached a dead end.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-002: GKChP's declaration that reforms have 'reached a dead end' is the institutional self-preservation response to correction — the order's actors blocking the correction that Gorbachev's 1987 passage acknowledged was necessary. Evidence role 'grounds' is correct. Text confirmed against GlobalSecurity.org in evidence-review pass."
   }
 ]

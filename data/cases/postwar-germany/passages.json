@@ -6,8 +6,9 @@
     "locator": "Art. 1(1), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
     "text": "Human dignity shall be inviolable. To respect and protect it shall be the duty of all state authority.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim postwar-germany-claim-001: Art. 1(1) GG ('Human dignity shall be inviolable') encodes individual dignity as beyond collective override, directly blocking the Nazi-era mechanism of subordinating persons to the eternal collective body. Evidence role 'grounds' is correct. Text confirmed against official Bundestag English translation in evidence-review pass."
   },
   {
     "passageId": "postwar-germany-passage-002",
@@ -16,8 +17,9 @@
     "locator": "Art. 79(3), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed and corrected against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html (corrected 'on principle' to 'in principle').",
     "text": "Amendments to this Basic Law affecting the division of the Federation into Länder, their participation in principle in the legislative process, or the principles laid down in Articles 1 and 20 shall be inadmissible.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim postwar-germany-claim-001: Art. 79(3) GG makes Art. 1 and Art. 20 unamendable, constituting the constitutional-containment architecture by which the eternity clause protects the dignity provision. Evidence role 'grounds' is correct. Text confirmed and corrected ('on principle' → 'in principle') against official Bundestag translation in evidence-review pass."
   },
   {
     "passageId": "postwar-germany-passage-003",
@@ -26,8 +28,9 @@
     "locator": "Regierungserklärung des Bundeskanzlers, Konrad Adenauer, 20 September 1949; in Verhandlungen des Deutschen Bundestages, 1. Wahlperiode, 5. Sitzung, p. 22; English translation in Adenauer, Konrad, Memoirs 1945–53 (London: Weidenfeld & Nicolson, 1966). German original confirmed at https://www.konrad-adenauer.de/seite/20-september-1949-regierungserklaerung-des-bundeskanzlers-vor-dem-deutschen-bundestag/ and dserver.bundestag.de. English translation (Weidenfeld & Nicolson, 1966) requires physical library verification.",
     "text": "The Federal Government is determined to maintain democracy and to defend it against all attacks. It will act in accordance with the principles of the rule of law, which is the foundation of a free state.",
     "evidenceRole": "corroboration",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Corroboration passage (role='corroboration'): Adenauer's 1949 inaugural government declaration affirms the rule of law and democratic defense as constitutional commitments. Not cited as primary grounds in any claim (claim-001 and claim-002 use GG text directly), but serves as corroborating evidence that the constitutional design was actively embraced by the founding executive. Corroboration role and argument connection are both valid. Advancing to argument-review: the corroboration function is correctly identified and the passage text supports it."
   },
   {
     "passageId": "postwar-germany-passage-004",
@@ -36,7 +39,8 @@
     "locator": "Art. 20(1) and 20(4), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
     "text": "The Federal Republic of Germany is a democratic and social federal state. [...] All Germans shall have the right to resist any person seeking to abolish this constitutional order if no other remedy is available.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim postwar-germany-claim-002: Art. 20(1) defines the democratic and social federal state that is constitutionally protected; Art. 20(4) grants citizens the right to resist its abolition. Together these encode the memory-driven-restraint interpretation: the Weimar legal-revolution experience converted into a positive right of resistance. Evidence role 'grounds' is correct. Text confirmed against official Bundestag translation in evidence-review pass. Note: Art. 20(4) added in 1968 amendment, not 1949 original — documented as uncertainty factor in claim and score."
   }
 ]

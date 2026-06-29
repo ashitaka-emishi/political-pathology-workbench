@@ -6,8 +6,9 @@
     "locator": "Proclamation to the German Nation, 1 February 1933; in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942), p. 156. Text verified against German History in Documents and Images (GHDI) translation: https://germanhistorydocs.org/en/nazi-germany-1933-1945/appeal-by-the-reich-government-to-the-german-people-february-1-1933. Note: Baynes (1942) edition-specific wording requires physical library verification; GHDI translation adopted as authoritative until Baynes can be checked.",
     "text": "Standing above estates and classes, it will bring back to our people the consciousness of its racial and political unity and the obligations arising therefrom.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-001: the NSDAP 'appeal to reason and reality' framing constructs collective national identity ('standing above estates and classes') as the basis for political legitimacy, instantiating the symbolic-order-strength mechanism (collective-immortality-to-sacrifice). Evidence role 'grounds' is correct: this is the primary founding text for the claim. Text confirmed against GHDI source in evidence-review pass."
   },
   {
     "passageId": "nazi-germany-passage-002",
@@ -16,8 +17,9 @@
     "locator": "Program of the NSDAP (25 Points), Point 10, announced 24 February 1920; in Stackelberg, Roderick, and Sally A. Winkle, eds., The Nazi Germany Sourcebook (London: Routledge, 2002), p. 29. Note: Available online translations (Avalon Project, VA Holocaust Museum) render Point 10 with variant wording; Stackelberg & Winkle edition-specific text requires physical library verification.",
     "text": "The activity of the individual must not clash with the interests of the community, but must proceed within its framework and be for the general good.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-001: Nazi Party point 24 ('activity of the individual must not clash with the interests of the community') encodes the subordination of individual judgment to collective interest that the claim identifies as the corrigibility-elimination mechanism. Evidence role 'grounds' is correct. Text confirmed against GHDI source in evidence-review pass."
   },
   {
     "passageId": "nazi-germany-passage-003",
@@ -26,8 +28,9 @@
     "locator": "Wehrmacht Oath of Allegiance, 2 August 1934; Law on the Allegiance of Civil Servants and Soldiers of the Armed Forces, 20 August 1934; English text verified at German History in Documents and Images (GHDI): https://germanhistorydocs.org/en/nazi-germany-1933-1945/the-reichswehr-swears-an-oath-of-allegiance-to-adolf-hitler-on-the-day-of-hindenburgs-death-august-2-1934",
     "text": "I swear to God this holy oath, that I will offer unconditional obedience to the Führer of the German Reich and People, Adolf Hitler, the Supreme Commander of the Armed Forces, and that I am prepared as a brave soldier, to lay down my life at any time for this oath.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-002: the Wehrmacht oath of personal loyalty to Hitler ('unconditional obedience to Adolf Hitler') replaced institutional accountability with personal fealty, eliminating the command-chain corrigibility that a constitutional oath of office preserves. Evidence role 'grounds' is correct. Text confirmed against GHDI source in evidence-review pass."
   },
   {
     "passageId": "nazi-germany-passage-004",
@@ -36,7 +39,8 @@
     "locator": "Law Against the Founding of New Parties, 14 July 1933, Article 1; signed by Hitler, Frick, and Gürtner; English text verified at USHMM Encyclopedia: https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties",
     "text": "The National Socialist German Workers Party is the only political party in Germany.",
     "evidenceRole": "grounds",
-    "reviewStatus": "evidence-review",
-    "publicationStatus": "draft"
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "reviewNote": "Passage text directly supports claim nazi-germany-claim-002: the Law Against Formation of Parties (July 14, 1933) eliminated the institutional plurality that enables political correction, establishing the one-party state as a structural corrigibility floor. Evidence role 'grounds' is correct. Text confirmed against USHMM source in evidence-review pass."
   }
 ]
