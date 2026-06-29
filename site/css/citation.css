@@ -1,0 +1,9 @@
+.cite-ref {
+  border-bottom: 1px dashed currentColor;
+  cursor: help;
+  text-decoration: none;
+}
+
+.popover-body a {
+  color: inherit;
+}

@@ -30,3 +30,5 @@ format:
   html:
     theme: cosmo
     toc: true
+    css: css/citation.css
+    include-after-body: js/citation-init.html
