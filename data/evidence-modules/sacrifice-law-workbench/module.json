@@ -18,6 +18,7 @@
   ],
   "artifactClasses": [
     "corpus",
+    "annotations",
     "methodology",
     "publication",
     "pipeline-scripts"

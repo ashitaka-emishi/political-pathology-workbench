@@ -26,7 +26,7 @@
       "notes": "After PPW Sacrifice Law case mapping is confirmed (PPW #149-#151). Rights vary by era; pre-1928 texts generally public domain."
     },
     {
-      "artifactClass": "corpus",
+      "artifactClass": "methodology",
       "disposition": "reference-only",
       "description": "Pre-v1 corpus expansion tracking context (SLW #174)",
       "scheduledMilestone": null,
@@ -50,7 +50,7 @@
       "notes": "Link from PPW method notes; do not copy Quarto structure."
     },
     {
-      "artifactClass": "corpus",
+      "artifactClass": "annotations",
       "disposition": "import-later",
       "description": "Draft comparative claims",
       "scheduledMilestone": 17,

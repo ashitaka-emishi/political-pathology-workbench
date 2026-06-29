@@ -13,7 +13,7 @@
       "general-theory-political-pathology-v1"
     ],
     "corpusIds": ["lincoln-deep-28"],
-    "artifactClasses": ["corpus", "annotations", "reliability-study", "methodology", "publication"],
+    "artifactClasses": ["corpus", "annotations", "reliability-study", "methodology", "publication", "pipeline-scripts"],
     "provenanceStatus": "partial",
     "rightsStatus": "fair-use",
     "reliabilityStatus": "pending",
@@ -31,7 +31,7 @@
     "caseIds": ["american-civil-war-union", "nazi-germany"],
     "theoryIds": ["sacrifice-law-v1", "general-theory-political-pathology-v1"],
     "corpusIds": ["sacrifice-law-comparative-41"],
-    "artifactClasses": ["corpus", "methodology", "publication"],
+    "artifactClasses": ["corpus", "annotations", "methodology", "publication", "pipeline-scripts"],
     "provenanceStatus": "partial",
     "rightsStatus": "fair-use",
     "reliabilityStatus": "pending",
