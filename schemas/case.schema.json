@@ -3,7 +3,7 @@
   "$id": "https://political-pathology-workbench.local/schemas/case.schema.json",
   "title": "Case",
   "type": "object",
-  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "symbolicOrderId", "symbolicOrderName", "symbolicOrderDefinition", "symbolicOrderStrength", "symbolicOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest"],
+  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest"],
   "properties": {
     "caseId": { "type": "string" },
     "title": { "type": "string" },
@@ -13,15 +13,15 @@
     },
     "period": { "type": "string" },
     "outcome": { "$ref": "controlled-vocab.schema.json#/$defs/outcome" },
-    "symbolicOrderId": { "type": "string" },
-    "symbolicOrderName": { "type": "string" },
-    "symbolicOrderDefinition": { "type": "string" },
-    "symbolicOrderStrength": {
+    "sacredPoliticalOrderId": { "type": "string" },
+    "sacredPoliticalOrderName": { "type": "string" },
+    "sacredPoliticalOrderDefinition": { "type": "string" },
+    "sacredPoliticalOrderStrength": {
       "type": "number",
       "minimum": 0,
       "maximum": 5
     },
-    "symbolicOrderStrengthRationale": { "type": "string" },
+    "sacredPoliticalOrderStrengthRationale": { "type": "string" },
     "caseSelectionRole": { "$ref": "controlled-vocab.schema.json#/$defs/caseSelectionRole" },
     "selectionRationale": { "type": "string" },
     "theoryTest": { "type": "string" },
