@@ -3,20 +3,20 @@
     "passageId": "nazi-germany-passage-001",
     "caseId": "nazi-germany",
     "sourceId": "hitler-speech-1933-001",
-    "locator": "Proclamation to the German Nation, 1 February 1933; in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942), p. 156",
-    "text": "Towering above all class and rank distinctions, it will bring back to our people the consciousness of their racial and political unity and of the obligations this entails.",
+    "locator": "Proclamation to the German Nation, 1 February 1933; in Baynes, Norman H., ed., The Speeches of Adolf Hitler, April 1922–August 1939, Vol. 1 (London: Oxford University Press, 1942), p. 156. Text verified against German History in Documents and Images (GHDI) translation: https://germanhistorydocs.org/en/nazi-germany-1933-1945/appeal-by-the-reich-government-to-the-german-people-february-1-1933. Note: Baynes (1942) edition-specific wording requires physical library verification; GHDI translation adopted as authoritative until Baynes can be checked.",
+    "text": "Standing above estates and classes, it will bring back to our people the consciousness of its racial and political unity and the obligations arising therefrom.",
     "evidenceRole": "grounds",
-    "reviewStatus": "source-review",
+    "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
   },
   {
     "passageId": "nazi-germany-passage-002",
     "caseId": "nazi-germany",
     "sourceId": "nsdap-25-punkte-1920",
-    "locator": "Program of the NSDAP (25 Points), Point 10, announced 24 February 1920; in Stackelberg, Roderick, and Sally A. Winkle, eds., The Nazi Germany Sourcebook (London: Routledge, 2002), p. 29",
+    "locator": "Program of the NSDAP (25 Points), Point 10, announced 24 February 1920; in Stackelberg, Roderick, and Sally A. Winkle, eds., The Nazi Germany Sourcebook (London: Routledge, 2002), p. 29. Note: Available online translations (Avalon Project, VA Holocaust Museum) render Point 10 with variant wording; Stackelberg & Winkle edition-specific text requires physical library verification.",
     "text": "The activity of the individual must not clash with the interests of the community, but must proceed within its framework and be for the general good.",
     "evidenceRole": "grounds",
-    "reviewStatus": "source-review",
+    "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
   }
 ]
