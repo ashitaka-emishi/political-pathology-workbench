@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "canada-interpretation-001",
+    "caseId": "canada",
+    "claimIds": ["canada-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The Canadian symbolic order scores high on corrigibility through the Charter's built-in self-correction mechanism: Section 1 makes every rights guarantee provisional on demonstrable justification in a free and democratic society, embedding proportionality review as a permanent institutional corrective. Section 15's equality guarantee pairs with this to prevent the symbolic order from entrenching hierarchy through sacred-enemy or in-group/out-group distinctions. The result is a constitutional order that maintains high symbolic strength while preserving the institutional capacity to correct pathological tendencies — the structural inverse of the high-pathology sacrificial-escalation cases.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Chain thin but passages are directly constitutive. The notwithstanding clause (s.33) and its use by Quebec complicates a maximum corrigibility score. Score reflects the design intent of the order, not every operational episode.",
+      "uncertaintyFactors": ["chain-requires-expansion", "notwithstanding-clause-s33-complicates-corrigibility-score"]
+    },
+    "mechanism": "constitutional-containment",
+    "mechanismSummary": "Section 1's proportionality review requirement institutionalizes symbolic-order self-correction, preventing rights violations from becoming entrenched — a constitutional-containment mechanism that structurally opposes sacrificial escalation.",
+    "alternativeMechanisms": ["pluralist-reordering", "anti-sacrificial-restraint"],
+    "sacrificeForm": ["time", "labor", "economic-security"],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": ["corrigibility", "constitutional-containment", "symbolic-order-strength"],
+    "codebookVersion": "v1"
+  }
+]

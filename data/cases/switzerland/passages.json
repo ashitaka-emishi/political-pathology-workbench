@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "switzerland-passage-001",
+    "caseId": "switzerland",
+    "sourceId": "swiss-federal-constitution-1999",
+    "locator": "Federal Constitution of the Swiss Confederation, 18 April 1999, Preamble; official English translation verified at https://www.constituteproject.org/constitution/Switzerland_2014",
+    "text": "The Swiss People and the Cantons, mindful of their responsibility towards future generations, and aware that only those who use their freedom remain free, and that the strength of a people is measured by the well-being of its weakest members, adopt the following Constitution.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "switzerland-passage-002",
+    "caseId": "switzerland",
+    "sourceId": "swiss-federal-constitution-1999",
+    "locator": "Federal Constitution of the Swiss Confederation, 18 April 1999, Article 2 (Aims); official English translation verified at https://www.constituteproject.org/constitution/Switzerland_2014",
+    "text": "The Swiss Confederation shall protect the liberty and rights of the people and safeguard the independence and security of the country. It shall promote the common welfare, sustainable development, internal cohesion and cultural diversity of the country. It shall ensure the greatest possible equality of opportunity among its citizens. It shall strive for the long term preservation of natural resources and to a just and peaceful international order.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

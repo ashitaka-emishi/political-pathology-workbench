@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "claimId": "switzerland-claim-001",
+    "caseId": "switzerland",
+    "claim": "The Swiss symbolic order institutionalizes pluralist restraint through two constitutive commitments: the Preamble's definition of collective strength as the well-being of the weakest members (inverting the sacrificial logic that equates strength with elimination of weakness), and Article 2's programmatic aims of common welfare, cultural diversity, and peaceful international order — a symbolic architecture that generates corrigibility through federal consensus rather than sacred-enemy escalation.",
+    "derivedFrom": [
+      "switzerland-passage-001",
+      "switzerland-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.70,
+      "label": "moderate-high",
+      "rationale": "Both passages are from the official English translation of the Swiss Federal Constitution verified at Constitute Project. The Preamble's strength-as-welfare-of-weakest formulation is analytically powerful as a direct inversion of sacrificial symbolic logic. Confidence capped pending chain expansion to include direct-democracy and federalism mechanisms.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "direct-democracy-exclusion-history-complicates-score"
+      ]
+    }
+  }
+]

@@ -1,4 +1,11 @@
 {
   "caseId": "european-union",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "treaty-european-union-consolidated",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Official EUR-Lex consolidated version. Verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT"
+    }
+  ]
 }

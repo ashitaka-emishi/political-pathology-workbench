@@ -551,5 +551,69 @@
       ]
     },
     "note": "Adopted 7 October 1977. English text verified at Bucknell University Russian Department: https://www.departments.bucknell.edu/russian/const/77cons01.html and Marxists.org: https://www.marxists.org/history/ussr/government/constitution/1977/"
+  },
+  {
+    "id": "canadian-charter-1982",
+    "type": "legislation",
+    "title": "Canadian Charter of Rights and Freedoms",
+    "issued": {
+      "date-parts": [
+        [
+          1982,
+          4,
+          17
+        ]
+      ]
+    },
+    "note": "Schedule B to the Constitution Act, 1982, Canada. Enacted 17 April 1982. Official text at https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+  },
+  {
+    "id": "treaty-european-union-consolidated",
+    "type": "legislation",
+    "title": "Treaty on European Union (Consolidated Version)",
+    "issued": {
+      "date-parts": [
+        [
+          1992,
+          2,
+          7
+        ]
+      ]
+    },
+    "note": "Signed Maastricht, 7 February 1992; consolidated version (2016) at EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT. Official Journal of the EU, C 202, 7 June 2016."
+  },
+  {
+    "id": "gandhi-hind-swaraj-1909",
+    "type": "book",
+    "title": "Hind Swaraj, or Indian Home Rule",
+    "author": [
+      {
+        "family": "Gandhi",
+        "given": "Mohandas K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1909
+        ]
+      ]
+    },
+    "note": "First published in Gujarati in Indian Opinion, 1909; English translation by the author, 1910. Public domain. Full text at https://www.gandhiashramsevagram.org/hind-swaraj/"
+  },
+  {
+    "id": "swiss-federal-constitution-1999",
+    "type": "legislation",
+    "title": "Federal Constitution of the Swiss Confederation",
+    "issued": {
+      "date-parts": [
+        [
+          1999,
+          4,
+          18
+        ]
+      ]
+    },
+    "note": "Adopted by popular vote 18 April 1999, in force 1 January 2000. Official English translation at https://www.constituteproject.org/constitution/Switzerland_2014"
   }
 ]

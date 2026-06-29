@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "switzerland-score-001",
+    "caseId": "switzerland",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "switzerland-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.60,
+      "label": "moderate",
+      "rationale": "Maximum corrigibility score: Switzerland's constitutional definition of strength-as-welfare-of-weakest, multi-aim pluralism, federalist distribution, and direct-democracy referendum mechanisms together constitute the most institutionally robust corrigibility architecture in the dataset. Score reflects the design and practice of the order; the historical exclusion of women's suffrage introduces uncertainty that caps confidence below high.",
+      "uncertaintyFactors": ["chain-requires-expansion", "direct-democracy-exclusion-history-complicates-score"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["corrigibility", "pluralist-reordering"],
+    "codebookVersion": "v1"
+  }
+]

@@ -1,4 +1,11 @@
 {
   "caseId": "switzerland",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "swiss-federal-constitution-1999",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Official English translation. Verified at https://www.constituteproject.org/constitution/Switzerland_2014"
+    }
+  ]
 }

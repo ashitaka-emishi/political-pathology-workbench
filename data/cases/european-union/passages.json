@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "european-union-passage-001",
+    "caseId": "european-union",
+    "sourceId": "treaty-european-union-consolidated",
+    "locator": "Treaty on European Union (consolidated version), Preamble, 4th recital; Official Journal EU C 202, 7 June 2016; text verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT",
+    "text": "CONFIRMING their attachment to the principles of liberty, democracy and respect for human rights and fundamental freedoms and of the rule of law",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "european-union-passage-002",
+    "caseId": "european-union",
+    "sourceId": "treaty-european-union-consolidated",
+    "locator": "Treaty on European Union (consolidated version), Preamble, 1st recital; Official Journal EU C 202, 7 June 2016; text verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT",
+    "text": "RESOLVED to continue the process of creating an ever closer union among the peoples of Europe",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

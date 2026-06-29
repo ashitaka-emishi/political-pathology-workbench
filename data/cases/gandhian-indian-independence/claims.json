@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "claimId": "gandhian-indian-independence-claim-001",
+    "caseId": "gandhian-indian-independence",
+    "claim": "The Gandhian independence movement built its symbolic order around anti-sacrificial restraint at the theoretical level: Gandhi's satyagraha doctrine explicitly redirects sacrifice from enemy destruction to voluntary self-suffering — accepting penalty rather than inflicting violence — and claims superiority to body-force precisely because it refuses the sacred-enemy escalation logic. This makes the Gandhian case the clearest theoretical inverse of the pathological sacrificial-escalation cases.",
+    "derivedFrom": [
+      "gandhian-indian-independence-passage-001",
+      "gandhian-indian-independence-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.70,
+      "label": "moderate-high",
+      "rationale": "Both passages are from Gandhi's own English translation of Hind Swaraj, verified at the Sabarmati Ashram digital archive. The soul-force / body-force distinction is the foundational conceptual claim of the movement's symbolic order. Confidence capped: chain limited to theoretical founding texts; operational episodes (salt march, partition violence) require separate treatment and complicate the clean anti-sacrificial reading.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "partition-violence-complicates-anti-sacrificial-score",
+        "practice-theory-gap"
+      ]
+    }
+  }
+]

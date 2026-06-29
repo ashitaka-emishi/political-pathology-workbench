@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "european-union-interpretation-001",
+    "caseId": "european-union",
+    "claimIds": ["european-union-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The European Union symbolic order demonstrates high corrigibility through its constitutive pluralist architecture: the TEU's 'ever closer union' frames integration as an open-ended process rather than a sacred destination, and its grounding in liberty, democracy, and rule of law provides normative self-correction mechanisms. Unlike the high-pathology cases, the EU's symbolic order cannot generate a sacred enemy from within its own structure — its legitimacy depends on multi-state consensus and legal adjudication. Democratic-backsliding episodes (Hungary, Poland) and Brexit test this corrigibility but also activate the order's correction mechanisms (Article 7, infringement procedures), supporting rather than undermining the corrigibility score.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "Chain thin. Founding document passages establish the design intent; operational corrigibility requires expansion. Democratic-backsliding episodes introduce uncertainty.",
+      "uncertaintyFactors": ["chain-requires-expansion", "democratic-backsliding-complicates-corrigibility-score"]
+    },
+    "mechanism": "pluralist-reordering",
+    "mechanismSummary": "The EU's multi-state, open-ended integration architecture structurally opposes sacred-enemy escalation and sacrificial demands, producing high corrigibility through consensus-building and legal adjudication rather than symbolic unification around a common threat.",
+    "alternativeMechanisms": ["constitutional-containment", "memory-driven-restraint"],
+    "sacrificeForm": ["economic-security", "agency", "labor"],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": ["corrigibility", "pluralist-reordering", "symbolic-order-strength"],
+    "codebookVersion": "v1"
+  }
+]
