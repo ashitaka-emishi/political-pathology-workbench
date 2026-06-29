@@ -760,5 +760,27 @@
       ]
     },
     "note": "Statement of the State Committee on the State of Emergency (GKChP), broadcast on Soviet radio and television starting 08:00, 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm"
+  },
+  {
+    "id": "weinberger-uses-military-power-1984",
+    "type": "speech",
+    "title": "The Uses of Military Power",
+    "author": [
+      {
+        "family": "Weinberger",
+        "given": "Caspar W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1984,
+          11,
+          28
+        ]
+      ]
+    },
+    "publisher": "U.S. Department of Defense",
+    "note": "Address to the National Press Club, Washington, D.C., 28 November 1984. Primary source: Office of the Historian, FRUS 1981–1988, vol. I, doc. 219 (https://history.state.gov/historicaldocuments/frus1981-88v01/d219); archived at PBS FRONTLINE (https://www.pbs.org/wgbh/pages/frontline/shows/military/force/weinberger.html)."
   }
 ]

@@ -20,5 +20,27 @@
         "periodization-contested"
       ]
     }
+  },
+  {
+    "claimId": "united-states-after-vietnam-claim-002",
+    "caseId": "united-states-after-vietnam",
+    "claim": "The Vietnam memory was institutionalized at two levels simultaneously: War Powers § 5(b) hardened the purpose clause into a binding 60-day withdrawal requirement, creating an automatic termination mechanism that does not require an affirmative congressional vote to take effect; and the Weinberger Doctrine (1984) codified the Vietnam lessons as executive doctrine, explicitly citing Vietnam as the case where the absence of public and congressional support made war politically unsustainable — together these show the post-Vietnam order converting the defeat's memory into both a legal constraint and a doctrine of pre-engagement consent-seeking.",
+    "derivedFrom": [
+      "united-states-after-vietnam-passage-003",
+      "united-states-after-vietnam-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Both passages verified against authoritative sources. The claim that Vietnam memory was institutionalized at two levels is analytically grounded: § 5(b) is a binding legal rule; Weinberger is executive doctrine. The two-level institutionalization strengthens the corrigibility reading beyond the purpose clause alone. Confidence capped: Weinberger Doctrine was doctrine, not law, and Reagan's Vietnam-syndrome-reversal rhetoric coexisted with it.",
+      "uncertaintyFactors": [
+        "weinberger-doctrine-revoked-by-powell-and-subsequent-administrations",
+        "reagan-era-vietnam-syndrome-reversal-complicates-memory-driven-restraint-reading"
+      ]
+    }
   }
 ]

@@ -22,5 +22,26 @@
       "memory-driven-restraint"
     ],
     "codebookVersion": "v1"
+  },
+  {
+    "scoreId": "united-states-after-vietnam-score-002",
+    "caseId": "united-states-after-vietnam",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "united-states-after-vietnam-interpretation-002",
+    "value": 3,
+    "confidence": {
+      "value": 0.60,
+      "label": "moderate",
+      "rationale": "Score of 3 (moderate) for the 1973–1984 post-Vietnam period: the symbolic order retained democratic institutional coherence but lost Cold War consensus, executive war authority, and public confidence (per Carter). Mid-range score reflects the order's ambiguous status — neither collapsed (Soviet 1991) nor highly constrained (postwar Germany) nor strongly expansive (imperial Japan). Confidence at 0.60 because periodization is genuinely contested: Reagan-era rearmament suggests symbolic-order strength recovered more than a 3 implies by the mid-1980s.",
+      "uncertaintyFactors": [
+        "periodization-1973-1984-vs-later-recovery",
+        "cold-war-framing-kept-some-consensus-intact"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order-strength", "memory-driven-restraint"],
+    "codebookVersion": "v1"
   }
 ]
