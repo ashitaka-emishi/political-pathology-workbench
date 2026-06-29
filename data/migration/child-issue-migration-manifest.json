@@ -15,7 +15,16 @@
       "sourceIssue": 174,
       "sourceTitle": "Track pre-v1 corpus expansion window",
       "sourceUrl": "https://github.com/ashitaka-emishi/sacrifice-law-workbench/issues/174",
-      "sourceLabels": ["tracking", "methodology", "corpus"],
+      "sourceLabels": [
+        "tracking",
+        "methodology",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "tracking"
+      ],
       "sourceMilestone": "Pre-v1 corpus expansion window",
       "issueKind": "tracking",
       "disposition": "merge-into-ppw-issue",
@@ -30,7 +39,16 @@
       "sourceIssue": 183,
       "sourceTitle": "Revise reliability sampling design for expanded corpus",
       "sourceUrl": "https://github.com/ashitaka-emishi/sacrifice-law-workbench/issues/183",
-      "sourceLabels": ["validation", "reliability", "multi-model", "human-reliability"],
+      "sourceLabels": [
+        "validation",
+        "reliability",
+        "multi-model",
+        "human-reliability"
+      ],
+      "targetLabels": [
+        "reliability",
+        "validation"
+      ],
       "sourceMilestone": "Pre-v1 corpus expansion window",
       "issueKind": "implementation",
       "disposition": "migrate-as-ppw-issue",
@@ -45,7 +63,15 @@
       "sourceIssue": 78,
       "sourceTitle": "Update publication package for v2 Stage 4M",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/78",
-      "sourceLabels": ["v2", "docs", "publication-package"],
+      "sourceLabels": [
+        "v2",
+        "docs",
+        "publication-package"
+      ],
+      "targetLabels": [
+        "documentation",
+        "publication"
+      ],
       "sourceMilestone": "v2.0 — Multi-Model Reliability Stress Test",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -60,7 +86,17 @@
       "sourceIssue": 82,
       "sourceTitle": "Add Stage 4M codebook revision notes",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/82",
-      "sourceLabels": ["v2", "methodology", "docs", "human-adjudication"],
+      "sourceLabels": [
+        "v2",
+        "methodology",
+        "docs",
+        "human-adjudication"
+      ],
+      "targetLabels": [
+        "documentation",
+        "reliability",
+        "review-gates"
+      ],
       "sourceMilestone": "v2.0 — Multi-Model Reliability Stress Test",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -75,7 +111,15 @@
       "sourceIssue": 84,
       "sourceTitle": "Create v2 release checklist",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/84",
-      "sourceLabels": ["v2", "validation", "publication-package"],
+      "sourceLabels": [
+        "v2",
+        "validation",
+        "publication-package"
+      ],
+      "targetLabels": [
+        "publication",
+        "validation"
+      ],
       "sourceMilestone": "v2.0 — Multi-Model Reliability Stress Test",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -90,7 +134,16 @@
       "sourceIssue": 85,
       "sourceTitle": "Tracking - v2.0 Multi-Model Reliability Stress Test",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85",
-      "sourceLabels": ["tracking", "v2", "reliability", "multi-model"],
+      "sourceLabels": [
+        "tracking",
+        "v2",
+        "reliability",
+        "multi-model"
+      ],
+      "targetLabels": [
+        "reliability",
+        "tracking"
+      ],
       "sourceMilestone": "v2.0 — Multi-Model Reliability Stress Test",
       "issueKind": "tracking",
       "disposition": "defer-to-post-integration",
@@ -105,7 +158,17 @@
       "sourceIssue": 92,
       "sourceTitle": "Ingest and validate human coder submissions",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/92",
-      "sourceLabels": ["pipeline", "validation", "v3", "human-reliability"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v3",
+        "human-reliability"
+      ],
+      "targetLabels": [
+        "pipeline",
+        "reliability",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -120,7 +183,16 @@
       "sourceIssue": 93,
       "sourceTitle": "Compute two-human inter-annotator agreement metrics",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/93",
-      "sourceLabels": ["pipeline", "v3", "human-reliability", "inter-annotator"],
+      "sourceLabels": [
+        "pipeline",
+        "v3",
+        "human-reliability",
+        "inter-annotator"
+      ],
+      "targetLabels": [
+        "pipeline",
+        "reliability"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -135,7 +207,17 @@
       "sourceIssue": 94,
       "sourceTitle": "Compare human coder outputs against Stage 4A reference separately",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/94",
-      "sourceLabels": ["methodology", "pipeline", "v3", "human-reliability"],
+      "sourceLabels": [
+        "methodology",
+        "pipeline",
+        "v3",
+        "human-reliability"
+      ],
+      "targetLabels": [
+        "documentation",
+        "pipeline",
+        "reliability"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -150,7 +232,16 @@
       "sourceIssue": 95,
       "sourceTitle": "Classify human coder disagreements",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95",
-      "sourceLabels": ["methodology", "v3", "human-reliability", "inter-annotator"],
+      "sourceLabels": [
+        "methodology",
+        "v3",
+        "human-reliability",
+        "inter-annotator"
+      ],
+      "targetLabels": [
+        "documentation",
+        "reliability"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "defer-to-post-integration",
@@ -165,7 +256,18 @@
       "sourceIssue": 96,
       "sourceTitle": "Generate Stage 4J human adjudication queue",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/96",
-      "sourceLabels": ["methodology", "pipeline", "human-adjudication", "v3"],
+      "sourceLabels": [
+        "methodology",
+        "pipeline",
+        "human-adjudication",
+        "v3"
+      ],
+      "targetLabels": [
+        "documentation",
+        "pipeline",
+        "reliability",
+        "review-gates"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -180,7 +282,18 @@
       "sourceIssue": 97,
       "sourceTitle": "Define Stage 4J adjudication decision schema",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/97",
-      "sourceLabels": ["data-schema", "validation", "human-adjudication", "v3"],
+      "sourceLabels": [
+        "data-schema",
+        "validation",
+        "human-adjudication",
+        "v3"
+      ],
+      "targetLabels": [
+        "reliability",
+        "review-gates",
+        "schema",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -195,7 +308,18 @@
       "sourceIssue": 98,
       "sourceTitle": "Ingest Stage 4J adjudication decisions",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/98",
-      "sourceLabels": ["pipeline", "validation", "human-adjudication", "v3"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "human-adjudication",
+        "v3"
+      ],
+      "targetLabels": [
+        "pipeline",
+        "reliability",
+        "review-gates",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -210,7 +334,17 @@
       "sourceIssue": 99,
       "sourceTitle": "Generate human reliability report",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/99",
-      "sourceLabels": ["docs", "publication-package", "v3", "human-reliability"],
+      "sourceLabels": [
+        "docs",
+        "publication-package",
+        "v3",
+        "human-reliability"
+      ],
+      "targetLabels": [
+        "documentation",
+        "publication",
+        "reliability"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -225,7 +359,18 @@
       "sourceIssue": 100,
       "sourceTitle": "Generate Stage 4J adjudication results page",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/100",
-      "sourceLabels": ["docs", "publication-package", "human-adjudication", "v3"],
+      "sourceLabels": [
+        "docs",
+        "publication-package",
+        "human-adjudication",
+        "v3"
+      ],
+      "targetLabels": [
+        "documentation",
+        "publication",
+        "reliability",
+        "review-gates"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -240,7 +385,17 @@
       "sourceIssue": 101,
       "sourceTitle": "Generate Stage 4H/4J codebook revision notes",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/101",
-      "sourceLabels": ["docs", "human-adjudication", "v3", "codebook"],
+      "sourceLabels": [
+        "docs",
+        "human-adjudication",
+        "v3",
+        "codebook"
+      ],
+      "targetLabels": [
+        "documentation",
+        "reliability",
+        "review-gates"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -255,7 +410,15 @@
       "sourceIssue": 102,
       "sourceTitle": "Add Stage 4H and Stage 4J pipeline commands",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/102",
-      "sourceLabels": ["pipeline", "validation", "v3"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v3"
+      ],
+      "targetLabels": [
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -270,7 +433,15 @@
       "sourceIssue": 103,
       "sourceTitle": "Integrate Stage 4H and 4J into validation and status reporting",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/103",
-      "sourceLabels": ["pipeline", "validation", "v3"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v3"
+      ],
+      "targetLabels": [
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -285,7 +456,15 @@
       "sourceIssue": 104,
       "sourceTitle": "Add guardrails preventing Stage 4H/4J from overwriting Stage 4A",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/104",
-      "sourceLabels": ["methodology", "validation", "v3"],
+      "sourceLabels": [
+        "methodology",
+        "validation",
+        "v3"
+      ],
+      "targetLabels": [
+        "documentation",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -300,7 +479,15 @@
       "sourceIssue": 105,
       "sourceTitle": "Add Stage 4H and 4J test fixtures",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/105",
-      "sourceLabels": ["pipeline", "validation", "v3"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v3"
+      ],
+      "targetLabels": [
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -315,7 +502,15 @@
       "sourceIssue": 106,
       "sourceTitle": "Update publication package for Stage 4H human reliability",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/106",
-      "sourceLabels": ["docs", "publication-package", "v3"],
+      "sourceLabels": [
+        "docs",
+        "publication-package",
+        "v3"
+      ],
+      "targetLabels": [
+        "documentation",
+        "publication"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -330,7 +525,15 @@
       "sourceIssue": 107,
       "sourceTitle": "Create v3 human reliability release checklist",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/107",
-      "sourceLabels": ["validation", "publication-package", "v3"],
+      "sourceLabels": [
+        "validation",
+        "publication-package",
+        "v3"
+      ],
+      "targetLabels": [
+        "publication",
+        "validation"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -345,7 +548,16 @@
       "sourceIssue": 108,
       "sourceTitle": "Tracking - v3.0 Human Inter-Annotator Reliability Study",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108",
-      "sourceLabels": ["tracking", "v3", "human-reliability", "inter-annotator"],
+      "sourceLabels": [
+        "tracking",
+        "v3",
+        "human-reliability",
+        "inter-annotator"
+      ],
+      "targetLabels": [
+        "reliability",
+        "tracking"
+      ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "tracking",
       "disposition": "defer-to-post-integration",
@@ -360,7 +572,16 @@
       "sourceIssue": 109,
       "sourceTitle": "Define v4 corpus expansion architecture",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/109",
-      "sourceLabels": ["docs", "v4", "corpus", "selection-rationale"],
+      "sourceLabels": [
+        "docs",
+        "v4",
+        "corpus",
+        "selection-rationale"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "migrate-as-ppw-issue",
@@ -375,7 +596,17 @@
       "sourceIssue": 110,
       "sourceTitle": "Create corpus document metadata schema",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/110",
-      "sourceLabels": ["validation", "v4", "corpus", "metadata"],
+      "sourceLabels": [
+        "validation",
+        "v4",
+        "corpus",
+        "metadata"
+      ],
+      "targetLabels": [
+        "corpus",
+        "metadata",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -390,7 +621,17 @@
       "sourceIssue": 111,
       "sourceTitle": "Create corpus inventory schema",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/111",
-      "sourceLabels": ["validation", "v4", "corpus", "metadata"],
+      "sourceLabels": [
+        "validation",
+        "v4",
+        "corpus",
+        "metadata"
+      ],
+      "targetLabels": [
+        "corpus",
+        "metadata",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -405,7 +646,17 @@
       "sourceIssue": 112,
       "sourceTitle": "Create corpus provenance schema and source authority register",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/112",
-      "sourceLabels": ["validation", "v4", "corpus", "provenance"],
+      "sourceLabels": [
+        "validation",
+        "v4",
+        "corpus",
+        "provenance"
+      ],
+      "targetLabels": [
+        "corpus",
+        "schema",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -420,7 +671,17 @@
       "sourceIssue": 113,
       "sourceTitle": "Create 48-document v4 core corpus inventory",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/113",
-      "sourceLabels": ["v4", "corpus", "metadata", "selection-rationale"],
+      "sourceLabels": [
+        "v4",
+        "corpus",
+        "metadata",
+        "selection-rationale"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "metadata"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "migrate-as-ppw-issue",
@@ -435,7 +696,17 @@
       "sourceIssue": 114,
       "sourceTitle": "Create 75–100 document validation corpus inventory",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/114",
-      "sourceLabels": ["v4", "corpus", "metadata", "selection-rationale"],
+      "sourceLabels": [
+        "v4",
+        "corpus",
+        "metadata",
+        "selection-rationale"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "metadata"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "migrate-as-ppw-issue",
@@ -450,7 +721,17 @@
       "sourceIssue": 115,
       "sourceTitle": "Create search-only reference corpus inventory",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/115",
-      "sourceLabels": ["v4", "corpus", "metadata", "provenance"],
+      "sourceLabels": [
+        "v4",
+        "corpus",
+        "metadata",
+        "provenance"
+      ],
+      "targetLabels": [
+        "corpus",
+        "metadata",
+        "schema"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "migrate-as-ppw-issue",
@@ -465,7 +746,17 @@
       "sourceIssue": 116,
       "sourceTitle": "Implement v4 corpus inventory creation script",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/116",
-      "sourceLabels": ["pipeline", "v4", "corpus", "metadata"],
+      "sourceLabels": [
+        "pipeline",
+        "v4",
+        "corpus",
+        "metadata"
+      ],
+      "targetLabels": [
+        "corpus",
+        "metadata",
+        "pipeline"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -480,7 +771,17 @@
       "sourceIssue": 117,
       "sourceTitle": "Validate v4 corpus inventories",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/117",
-      "sourceLabels": ["pipeline", "validation", "v4", "corpus"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -495,7 +796,17 @@
       "sourceIssue": 118,
       "sourceTitle": "Validate v4 corpus provenance",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/118",
-      "sourceLabels": ["validation", "v4", "corpus", "provenance"],
+      "sourceLabels": [
+        "validation",
+        "v4",
+        "corpus",
+        "provenance"
+      ],
+      "targetLabels": [
+        "corpus",
+        "schema",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -510,7 +821,15 @@
       "sourceIssue": 119,
       "sourceTitle": "Add raw text files for v4 core additions",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/119",
-      "sourceLabels": ["v4", "corpus", "provenance"],
+      "sourceLabels": [
+        "v4",
+        "corpus",
+        "provenance"
+      ],
+      "targetLabels": [
+        "corpus",
+        "schema"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "migrate-as-ppw-issue",
@@ -525,7 +844,15 @@
       "sourceIssue": 120,
       "sourceTitle": "Implement v4 corpus ingestion pipeline",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/120",
-      "sourceLabels": ["pipeline", "v4", "corpus"],
+      "sourceLabels": [
+        "pipeline",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -540,7 +867,17 @@
       "sourceIssue": 121,
       "sourceTitle": "Segment v4 core corpus and assign stable sentence IDs",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/121",
-      "sourceLabels": ["pipeline", "v4", "corpus", "segmentation", "sentence-ids"],
+      "sourceLabels": [
+        "pipeline",
+        "v4",
+        "corpus",
+        "segmentation",
+        "sentence-ids"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -555,7 +892,17 @@
       "sourceIssue": 122,
       "sourceTitle": "Validate v4 sentence ID stability",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/122",
-      "sourceLabels": ["validation", "v4", "corpus", "sentence-ids"],
+      "sourceLabels": [
+        "validation",
+        "v4",
+        "corpus",
+        "sentence-ids"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -570,7 +917,17 @@
       "sourceIssue": 123,
       "sourceTitle": "Generate v4 corpus coverage report",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/123",
-      "sourceLabels": ["pipeline", "docs", "v4", "corpus"],
+      "sourceLabels": [
+        "pipeline",
+        "docs",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "pipeline"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -585,7 +942,17 @@
       "sourceIssue": 124,
       "sourceTitle": "Generate v4 corpus expansion impact report",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/124",
-      "sourceLabels": ["docs", "publication-package", "v4", "corpus"],
+      "sourceLabels": [
+        "docs",
+        "publication-package",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "publication"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -600,7 +967,17 @@
       "sourceIssue": 125,
       "sourceTitle": "Update reliability sampling strategy for v4 corpus",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/125",
-      "sourceLabels": ["reliability", "methodology", "v4", "corpus"],
+      "sourceLabels": [
+        "reliability",
+        "methodology",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "reliability"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "migrate-as-ppw-issue",
@@ -615,7 +992,17 @@
       "sourceIssue": 126,
       "sourceTitle": "Create light annotation template for v4 validation corpus",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/126",
-      "sourceLabels": ["pipeline", "v4", "corpus", "metadata"],
+      "sourceLabels": [
+        "pipeline",
+        "v4",
+        "corpus",
+        "metadata"
+      ],
+      "targetLabels": [
+        "corpus",
+        "metadata",
+        "pipeline"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -630,7 +1017,15 @@
       "sourceIssue": 127,
       "sourceTitle": "Add v4 corpus pipeline commands",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/127",
-      "sourceLabels": ["pipeline", "v4", "corpus"],
+      "sourceLabels": [
+        "pipeline",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -645,7 +1040,17 @@
       "sourceIssue": 128,
       "sourceTitle": "Integrate v4 corpus checks into validation and status reporting",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/128",
-      "sourceLabels": ["pipeline", "validation", "v4", "corpus"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -660,7 +1065,17 @@
       "sourceIssue": 129,
       "sourceTitle": "Protect v1 corpus and Stage 4 annotations during v4 expansion",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/129",
-      "sourceLabels": ["pipeline", "validation", "v4", "corpus"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -675,7 +1090,17 @@
       "sourceIssue": 130,
       "sourceTitle": "Add v4 corpus documentation to site navigation",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/130",
-      "sourceLabels": ["docs", "publication-package", "v4", "corpus"],
+      "sourceLabels": [
+        "docs",
+        "publication-package",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "publication"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -690,7 +1115,17 @@
       "sourceIssue": 131,
       "sourceTitle": "Update publication package for v4 corpus expansion",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/131",
-      "sourceLabels": ["docs", "publication-package", "v4", "corpus"],
+      "sourceLabels": [
+        "docs",
+        "publication-package",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "documentation",
+        "publication"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -705,7 +1140,17 @@
       "sourceIssue": 132,
       "sourceTitle": "Create v4 corpus expansion release checklist",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/132",
-      "sourceLabels": ["validation", "publication-package", "v4", "corpus"],
+      "sourceLabels": [
+        "validation",
+        "publication-package",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "publication",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -720,7 +1165,17 @@
       "sourceIssue": 133,
       "sourceTitle": "Add v4 corpus pipeline test fixtures",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/133",
-      "sourceLabels": ["pipeline", "validation", "v4", "corpus"],
+      "sourceLabels": [
+        "pipeline",
+        "validation",
+        "v4",
+        "corpus"
+      ],
+      "targetLabels": [
+        "corpus",
+        "pipeline",
+        "validation"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "implementation",
       "disposition": "merge-into-ppw-issue",
@@ -735,7 +1190,17 @@
       "sourceIssue": 134,
       "sourceTitle": "Tracking - v4.0 Corpus Expansion and Stratified Validation Corpus",
       "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/134",
-      "sourceLabels": ["tracking", "v4", "corpus", "corpus-expansion"],
+      "sourceLabels": [
+        "tracking",
+        "v4",
+        "corpus",
+        "corpus-expansion"
+      ],
+      "targetLabels": [
+        "corpus",
+        "corpus-expansion",
+        "tracking"
+      ],
       "sourceMilestone": "v4.0 — Corpus Expansion and Stratified Validation Corpus",
       "issueKind": "tracking",
       "disposition": "merge-into-ppw-issue",
