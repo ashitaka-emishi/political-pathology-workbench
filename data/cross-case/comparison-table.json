@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-06-29",
+  "variables": [
+    "symbolic-order-strength",
+    "corrigibility"
+  ],
+  "clusters": [
+    {
+      "outcomeId": "sacrificial-escalation",
+      "label": "Sacrificial Escalation",
+      "cases": [
+        {
+          "caseId": "imperial-japan",
+          "title": "Imperial Japan",
+          "goldCase": true,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            },
+            "corrigibility": {
+              "values": [
+                1
+              ],
+              "min": 1,
+              "max": 1,
+              "avg": 1
+            }
+          },
+          "primaryMechanism": "collective-immortality-to-sacrifice",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        },
+        {
+          "caseId": "khmer-rouge-cambodia",
+          "title": "Khmer Rouge Cambodia",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": null,
+            "corrigibility": null
+          },
+          "primaryMechanism": "collective-immortality-to-sacrifice",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        },
+        {
+          "caseId": "maoist-china",
+          "title": "Maoist China",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": null,
+            "corrigibility": null
+          },
+          "primaryMechanism": "collective-immortality-to-sacrifice",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        },
+        {
+          "caseId": "nazi-germany",
+          "title": "Nazi Germany",
+          "goldCase": true,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            },
+            "corrigibility": {
+              "values": [
+                1
+              ],
+              "min": 1,
+              "max": 1,
+              "avg": 1
+            }
+          },
+          "primaryMechanism": "collective-immortality-to-sacrifice",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        },
+        {
+          "caseId": "revolutionary-france",
+          "title": "Revolutionary France",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "sacred-enemy-escalation",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        },
+        {
+          "caseId": "world-war-i-nationalisms",
+          "title": "World War I Nationalisms",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "collective-immortality-to-sacrifice",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        }
+      ]
+    },
+    {
+      "outcomeId": "collapse",
+      "label": "Collapse",
+      "cases": [
+        {
+          "caseId": "confederacy",
+          "title": "Confederacy",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                4
+              ],
+              "min": 4,
+              "max": 4,
+              "avg": 4
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "institutional-fragmentation",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        },
+        {
+          "caseId": "soviet-union-collapse",
+          "title": "Soviet Union Collapse",
+          "goldCase": true,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                2
+              ],
+              "min": 2,
+              "max": 2,
+              "avg": 2
+            },
+            "corrigibility": {
+              "values": [
+                1
+              ],
+              "min": 1,
+              "max": 1,
+              "avg": 1
+            }
+          },
+          "primaryMechanism": "legitimacy-collapse",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "partially-bounded"
+        },
+        {
+          "caseId": "western-roman-empire",
+          "title": "Western Roman Empire",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "institutional-fragmentation",
+          "sacrificeHealth": "ambiguous",
+          "sacrificeBoundedness": "partially-bounded"
+        }
+      ]
+    },
+    {
+      "outcomeId": "hybrid-transitional",
+      "label": "Hybrid / Transitional",
+      "cases": [
+        {
+          "caseId": "american-civil-war-union",
+          "title": "American Civil War / Union",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                4
+              ],
+              "min": 4,
+              "max": 4,
+              "avg": 4
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "anti-sacrificial-restraint",
+          "sacrificeHealth": "mixed",
+          "sacrificeBoundedness": "partially-bounded"
+        },
+        {
+          "caseId": "post-9-11-united-states",
+          "title": "Post-9/11 United States",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                4
+              ],
+              "min": 4,
+              "max": 4,
+              "avg": 4
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "sacred-enemy-escalation",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        },
+        {
+          "caseId": "soviet-communism",
+          "title": "Soviet Communism",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "collective-immortality-to-sacrifice",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        }
+      ]
+    },
+    {
+      "outcomeId": "restrained-reordering",
+      "label": "Restrained Reordering",
+      "cases": [
+        {
+          "caseId": "canada",
+          "title": "Canada",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": null,
+            "corrigibility": {
+              "values": [
+                4
+              ],
+              "min": 4,
+              "max": 4,
+              "avg": 4
+            }
+          },
+          "primaryMechanism": "constitutional-containment",
+          "sacrificeHealth": "healthy",
+          "sacrificeBoundedness": "partially-bounded"
+        },
+        {
+          "caseId": "european-union",
+          "title": "European Union",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": null,
+            "corrigibility": {
+              "values": [
+                4
+              ],
+              "min": 4,
+              "max": 4,
+              "avg": 4
+            }
+          },
+          "primaryMechanism": "pluralist-reordering",
+          "sacrificeHealth": "healthy",
+          "sacrificeBoundedness": "partially-bounded"
+        },
+        {
+          "caseId": "gandhian-indian-independence",
+          "title": "Gandhian Indian Independence",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                3
+              ],
+              "min": 3,
+              "max": 3,
+              "avg": 3
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "anti-sacrificial-restraint",
+          "sacrificeHealth": "healthy",
+          "sacrificeBoundedness": "partially-bounded"
+        },
+        {
+          "caseId": "postwar-germany",
+          "title": "Postwar Germany",
+          "goldCase": true,
+          "scores": {
+            "symbolic-order-strength": null,
+            "corrigibility": {
+              "values": [
+                4,
+                5
+              ],
+              "min": 4,
+              "max": 5,
+              "avg": 4.5
+            }
+          },
+          "primaryMechanism": "constitutional-containment",
+          "sacrificeHealth": "healthy",
+          "sacrificeBoundedness": "bounded"
+        },
+        {
+          "caseId": "switzerland",
+          "title": "Switzerland",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": null,
+            "corrigibility": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            }
+          },
+          "primaryMechanism": "pluralist-reordering",
+          "sacrificeHealth": "healthy",
+          "sacrificeBoundedness": "partially-bounded"
+        },
+        {
+          "caseId": "united-states-after-vietnam",
+          "title": "United States after Vietnam",
+          "goldCase": true,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                3
+              ],
+              "min": 3,
+              "max": 3,
+              "avg": 3
+            },
+            "corrigibility": {
+              "values": [
+                3
+              ],
+              "min": 3,
+              "max": 3,
+              "avg": 3
+            }
+          },
+          "primaryMechanism": "memory-driven-restraint",
+          "sacrificeHealth": "ambiguous",
+          "sacrificeBoundedness": "partially-bounded"
+        }
+      ]
+    },
+    {
+      "outcomeId": "stagnation-frozen-pathology",
+      "label": "Stagnation / Frozen Pathology",
+      "cases": [
+        {
+          "caseId": "north-korea",
+          "title": "North Korea",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": {
+              "values": [
+                5
+              ],
+              "min": 5,
+              "max": 5,
+              "avg": 5
+            },
+            "corrigibility": null
+          },
+          "primaryMechanism": "frozen-pathology",
+          "sacrificeHealth": "pathological",
+          "sacrificeBoundedness": "unbounded"
+        }
+      ]
+    },
+    {
+      "outcomeId": "absorption-transformation",
+      "label": "Absorption / Transformation",
+      "cases": [
+        {
+          "caseId": "british-empire-to-commonwealth",
+          "title": "British Empire to Commonwealth",
+          "goldCase": false,
+          "scores": {
+            "symbolic-order-strength": null,
+            "corrigibility": {
+              "values": [
+                3
+              ],
+              "min": 3,
+              "max": 3,
+              "avg": 3
+            }
+          },
+          "primaryMechanism": "symbolic-transformation",
+          "sacrificeHealth": "ambiguous",
+          "sacrificeBoundedness": "partially-bounded"
+        }
+      ]
+    }
+  ]
+}
