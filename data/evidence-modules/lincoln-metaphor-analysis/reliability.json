@@ -1,0 +1,40 @@
+{
+  "moduleId": "lincoln-metaphor-analysis",
+  "reliabilityStatus": "pending",
+  "reviewLimitations": [
+    {
+      "limitation": "No PPW claim-promotion gate review has been completed for any Lincoln draft claims",
+      "impact": "Draft claims from this module cannot advance beyond source-review status until gate review is initiated (Milestone 16)",
+      "resumeCondition": "Milestone 16 claim import and gate framework"
+    },
+    {
+      "limitation": "Inter-annotator agreement metrics exist only in child repo (Stage 4H/4J records)",
+      "impact": "PPW cannot verify reliability score independently; must reference child-repo records",
+      "resumeCondition": "After PPW review-gate framework (Milestone 19) and child-repo records are linked by provenance"
+    },
+    {
+      "limitation": "Reliability sampling design for v4 corpus not yet adapted to PPW framework",
+      "impact": "New corpus tiers (validation, reference) have no PPW reliability plan yet",
+      "resumeCondition": "PPW #199 (Update reliability sampling strategy, Milestone 19)"
+    },
+    {
+      "limitation": "Third-party corpus texts (scholarly commentary, translations) have not been individually rights-reviewed",
+      "impact": "These texts are reference-only until rights are confirmed; import blocked",
+      "resumeCondition": "Rights review for each third-party text; update import-map.json disposition accordingly"
+    }
+  ],
+  "existingReliabilityArtifacts": [
+    {
+      "artifactType": "multi-model reliability study",
+      "childRepoMilestone": "v2.0 — Multi-Model Reliability Stress Test",
+      "location": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "ppwDisposition": "reference-only"
+    },
+    {
+      "artifactType": "human inter-annotator agreement study",
+      "childRepoMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
+      "location": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "ppwDisposition": "reference-only"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "moduleId": "lincoln-metaphor-analysis",
+  "moduleName": "Lincoln Metaphor Analysis",
+  "moduleType": "deep-case",
+  "sourceRepository": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "sourceRepositoryRole": "deep-case-module",
+  "description": "Deep single-case evidence module covering Abraham Lincoln's rhetoric (1838-1865): a multi-tier annotated corpus (core, validation, reference sets), stage-by-stage annotation artifacts, and methodology documentation.",
+  "caseIds": ["american-civil-war-union"],
+  "theoryIds": [
+    "koenigsberg-immortal-body-v1",
+    "sacrifice-law-v1",
+    "general-theory-political-pathology-v1"
+  ],
+  "corpusIds": ["lincoln-deep-28"],
+  "artifactClasses": [
+    "corpus",
+    "annotations",
+    "reliability-study",
+    "methodology",
+    "publication",
+    "pipeline-scripts"
+  ],
+  "provenanceStatus": "partial",
+  "rightsStatus": "fair-use",
+  "reliabilityStatus": "pending",
+  "claimPromotionPolicy": "standard",
+  "sourceIssueMigrationStatus": "in-progress",
+  "maintainerNotes": "Lincoln's own writings (1838-1865) are public domain; third-party commentary and translations require rights review before import (see docs/architecture/imported-projects.md). Corpus and draft-claim import scheduled for Milestones 15-16; no artifacts imported yet as of Milestone 14."
+}

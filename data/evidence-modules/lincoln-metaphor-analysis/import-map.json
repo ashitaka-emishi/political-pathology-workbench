@@ -1,0 +1,101 @@
+{
+  "moduleId": "lincoln-metaphor-analysis",
+  "artifactImportMap": [
+    {
+      "artifactClass": "corpus",
+      "disposition": "import-now",
+      "description": "Corpus document metadata (title, date, author, source URL) for the three-tier corpus (core, validation, reference sets)",
+      "scheduledMilestone": 15,
+      "ppwIssues": [195, 196, 197],
+      "notes": "Imported via PPW corpus registry entries. Core (48 docs, #195), validation (75-100 docs, #196), reference (#197)."
+    },
+    {
+      "artifactClass": "corpus",
+      "disposition": "import-now",
+      "description": "Raw text files for Lincoln v4 core corpus additions",
+      "scheduledMilestone": 16,
+      "ppwIssues": [198],
+      "notes": "Lincoln's own writings (1838-1865) are public domain. Third-party texts require rights review before import."
+    },
+    {
+      "artifactClass": "annotations",
+      "disposition": "import-later",
+      "description": "Passage records (segmented passages with stable sentence IDs)",
+      "scheduledMilestone": 16,
+      "ppwIssues": [143],
+      "notes": "Requires PPW passage schema validation. Import during Milestone 16."
+    },
+    {
+      "artifactClass": "annotations",
+      "disposition": "import-later",
+      "description": "Cluster profiles (metaphor cluster annotation outputs from Stage 4A)",
+      "scheduledMilestone": 16,
+      "ppwIssues": [144],
+      "notes": "Represent as analysis artifacts in Milestone 16."
+    },
+    {
+      "artifactClass": "annotations",
+      "disposition": "reference-only",
+      "description": "Stage 4A annotations (model scoring records)",
+      "scheduledMilestone": null,
+      "ppwIssues": [],
+      "notes": "Child-repo annotation artifacts; referenced by provenance link from PPW claims. Not copied into PPW."
+    },
+    {
+      "artifactClass": "reliability-study",
+      "disposition": "reference-only",
+      "description": "Stage 4H/4J records (human coding and adjudication decisions)",
+      "scheduledMilestone": null,
+      "ppwIssues": [],
+      "notes": "Reliability artifacts; inform PPW review-gate design but do not become PPW data."
+    },
+    {
+      "artifactClass": "reliability-study",
+      "disposition": "reference-only",
+      "description": "Inter-annotator agreement metrics",
+      "scheduledMilestone": null,
+      "ppwIssues": [],
+      "notes": "Methodology context; referenced from PPW method note (PPW #146). Not copied."
+    },
+    {
+      "artifactClass": "reliability-study",
+      "disposition": "import-later",
+      "description": "Reliability sampling design",
+      "scheduledMilestone": 19,
+      "ppwIssues": [199],
+      "notes": "After PPW review-gate framework exists (Milestone 19)."
+    },
+    {
+      "artifactClass": "annotations",
+      "disposition": "import-now",
+      "description": "Draft claim candidates",
+      "scheduledMilestone": 16,
+      "ppwIssues": [145],
+      "notes": "Imported as PPW claims.json entries with reviewStatus: draft."
+    },
+    {
+      "artifactClass": "methodology",
+      "disposition": "reference-only",
+      "description": "Codebook and methodology docs",
+      "scheduledMilestone": null,
+      "ppwIssues": [146],
+      "notes": "Link from PPW method note; do not copy Quarto structure."
+    },
+    {
+      "artifactClass": "publication",
+      "disposition": "do-not-import",
+      "description": "Quarto site pages",
+      "scheduledMilestone": null,
+      "ppwIssues": [175],
+      "notes": "Child-repo site remains live. PPW will have its own Lincoln module page."
+    },
+    {
+      "artifactClass": "pipeline-scripts",
+      "disposition": "do-not-import",
+      "description": "Pipeline scripts (src/, scripts/)",
+      "scheduledMilestone": null,
+      "ppwIssues": [],
+      "notes": "Child-repo-specific pipeline; inform PPW pipeline design (Milestone 19)."
+    }
+  ]
+}
