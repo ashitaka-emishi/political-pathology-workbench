@@ -7,14 +7,21 @@
     "interpretationId": "switzerland-interpretation-001",
     "value": 5,
     "confidence": {
-      "value": 0.60,
+      "value": 0.6,
       "label": "moderate",
       "rationale": "Maximum corrigibility score: Switzerland's constitutional definition of strength-as-welfare-of-weakest, multi-aim pluralism, federalist distribution, and direct-democracy referendum mechanisms together constitute the most institutionally robust corrigibility architecture in the dataset. Score reflects the design and practice of the order; the historical exclusion of women's suffrage introduces uncertainty that caps confidence below high.",
-      "uncertaintyFactors": ["chain-requires-expansion", "direct-democracy-exclusion-history-complicates-score"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "direct-democracy-exclusion-history-complicates-score"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["corrigibility", "pluralist-reordering"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "corrigibility",
+      "pluralist-reordering"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 5/5 defensible: pluralist-reordering mechanism (Swiss federal constitution's consensus architecture, direct democracy, four-language federalism) supports maximum corrigibility. Confidence 0.60 reflects that the direct-democracy exclusion history (women's suffrage only in 1971 federally) complicates the corrigibility claim and requires explicit treatment. Hold at score-review until historical exclusion is addressed in the chain and counterclaim."
   }
 ]

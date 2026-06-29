@@ -10,11 +10,19 @@
       "value": 0.55,
       "label": "moderate",
       "rationale": "Maximum symbolic-order strength: the DPRK's constitutional design produces total institutional monopoly on symbolic production with no legitimate internal challenger. Score confidence is moderate rather than high due to translation-chain uncertainty and access-restricted primary sources — the score reflects the constitutional design intent and scholarly consensus on North Korean ideology, not verified operational documentation.",
-      "uncertaintyFactors": ["translation-chain-unverified", "chain-requires-expansion", "access-restricted-primary-sources"]
+      "uncertaintyFactors": [
+        "translation-chain-unverified",
+        "chain-requires-expansion",
+        "access-restricted-primary-sources"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["symbolic-order-strength", "frozen-pathology"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "frozen-pathology"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 5/5 defensible: frozen-pathology mechanism (DPRK Constitution's Juche and Songun provisions) supports maximum symbolic-order-strength. Confidence 0.55 is appropriately low: passages are at source-review (translation unverified), chain requires expansion, and primary sources are access-restricted. Hold at score-review until North Korea translation-chain gap (#83) is resolved and passages advance to evidence-review."
   }
 ]

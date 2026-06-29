@@ -21,7 +21,8 @@
       "symbolic-order-strength",
       "legitimacy-collapse"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 2/5 defensible: legitimacy-collapse mechanism (Gorbachev's resignation diagnosis, Alma-Ata dissolution) documents the terminal-phase symbolic-order-strength — the order retains some institutional inertia but can no longer sustain its founding claims. Score of 2 (not 1) correctly distinguishes this from North Korea's frozen pathology. Confidence 0.65 reflects periodization ambiguity (scores the 1985-1991 collapse phase, not the historical peak). Ready for human-reviewed pending chain expansion to ≥4 passages — now resolved (Milestone 7)."
   },
   {
     "scoreId": "soviet-union-collapse-score-002",
@@ -41,7 +42,12 @@
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["corrigibility", "institutional-fragmentation", "legitimacy-collapse"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "corrigibility",
+      "institutional-fragmentation",
+      "legitimacy-collapse"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 1/5 defensible: institutional-fragmentation mechanism (1987 CC Plenum failure, GKChP coup) documents corrigibility failure from both directions — correction attempted too late and correction aborted from within. Score of 1 (not 0) acknowledges Gorbachev's reform attempt as a partial corrigibility signal. Confidence 0.68 correctly reflects the contested historiography on structural vs. contingent failure. Ready for human-reviewed with the historiographic caveat noted."
   }
 ]

@@ -10,11 +10,19 @@
       "value": 0.55,
       "label": "moderate",
       "rationale": "Maximum symbolic-order-strength score reflects the peak Roman order, not its terminal phase. The passages document the order at decay onset rather than at full strength; the score applies to the order's historical maximum, with the collapse trajectory requiring separate analysis. Confidence capped at low-moderate given this periodization gap.",
-      "uncertaintyFactors": ["chain-requires-expansion", "periodization-ambiguity", "peak-vs-terminal-score"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity",
+        "peak-vs-terminal-score"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["symbolic-order", "symbolic-order-strength"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 5/5 defensible: institutional-fragmentation mechanism supports maximum symbolic-order-strength — the Western Empire maintained the full Roman symbolic apparatus through the terminal decline period, which is why its fall was so culturally significant. Confidence 0.55 is the lowest in the dataset, reflecting three compounding uncertainties (chain minimal, periodization ambiguous, peak-vs-terminal question). Hold at score-review until chain expansion and periodization bounded to a specific period (late Western Empire, 376-476 CE)."
   }
 ]
