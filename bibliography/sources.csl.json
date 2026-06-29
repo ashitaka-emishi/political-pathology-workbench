@@ -658,5 +658,35 @@
       ]
     },
     "note": "22 Geo. 5, c. 4; Royal Assent 11 December 1931. Full text at legislation.gov.uk: https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/introduction"
+  },
+  {
+    "id": "reichswehr-oath-1934",
+    "type": "legislation",
+    "title": "Oath of Allegiance of the Armed Forces to Adolf Hitler (2 August 1934)",
+    "issued": {
+      "date-parts": [
+        [
+          1934,
+          8,
+          2
+        ]
+      ]
+    },
+    "note": "Decreed 20 August 1934 as Law on the Allegiance of Civil Servants and Soldiers; sworn by the Reichswehr on 2 August 1934 following Hindenburg's death. English text verified at German History in Documents and Images (GHDI): https://germanhistorydocs.org/en/nazi-germany-1933-1945/the-reichswehr-swears-an-oath-of-allegiance-to-adolf-hitler-on-the-day-of-hindenburgs-death-august-2-1934"
+  },
+  {
+    "id": "law-against-parties-1933",
+    "type": "legislation",
+    "title": "Law Against the Founding of New Parties (Gesetz gegen die Neubildung von Parteien)",
+    "issued": {
+      "date-parts": [
+        [
+          1933,
+          7,
+          14
+        ]
+      ]
+    },
+    "note": "Signed 14 July 1933 by Hitler, Frick, and Gürtner. English text verified at United States Holocaust Memorial Museum Encyclopedia: https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties"
   }
 ]

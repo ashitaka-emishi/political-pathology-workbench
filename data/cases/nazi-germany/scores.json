@@ -46,5 +46,23 @@
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft"
+  },
+  {
+    "scoreId": "nazi-germany-score-003",
+    "caseId": "nazi-germany",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "nazi-germany-interpretation-003",
+    "value": 1,
+    "confidence": {
+      "value": 0.82,
+      "label": "high",
+      "rationale": "Minimum corrigibility: both legal instruments directly eliminate the institutional preconditions for symbolic-order self-correction — unconditional personal oath forecloses military dissent; single-party law forecloses political competition. Score of 1 (not 0) preserves the possibility that informal networks and internal party factionalism provided marginal corrigibility channels, but the constitutional-legal architecture is unambiguous.",
+      "uncertaintyFactors": ["chain-requires-integration-with-operational-documentation"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["corrigibility", "institutional-self-preservation"],
+    "codebookVersion": "v1"
   }
 ]
