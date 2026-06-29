@@ -21,5 +21,23 @@
       "constitutional-containment"
     ],
     "codebookVersion": "v1"
+  },
+  {
+    "scoreId": "postwar-germany-score-002",
+    "caseId": "postwar-germany",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "postwar-germany-interpretation-002",
+    "value": 5,
+    "confidence": {
+      "value": 0.78,
+      "label": "moderate-high",
+      "rationale": "Art. 20's resistance clause, protected by Art. 79(3) as an eternity clause, constitutes maximum institutional corrigibility architecture: the democratic order cannot be legally amended away, and citizens hold a constitutional right to resist attempts to abolish it. Score of 5 reflects this design maximum. Confidence below 1.0: Art. 20(4) has never been invoked in practice, so the operative force of maximum corrigibility remains theoretically asserted rather than empirically demonstrated.",
+      "uncertaintyFactors": ["art-20-4-added-1968-not-1949-original", "right-of-resistance-never-invoked-in-practice"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["corrigibility", "memory-driven-restraint", "constitutional-containment"],
+    "codebookVersion": "v1"
   }
 ]

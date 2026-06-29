@@ -20,5 +20,26 @@
         "single-source"
       ]
     }
+  },
+  {
+    "claimId": "postwar-germany-claim-002",
+    "caseId": "postwar-germany",
+    "claim": "Article 20 encodes memory-driven-restraint as a constitutional principle: by defining the democratic and social federal state as the protected constitutional order and granting all Germans the right to resist any person seeking to abolish it, the framers institutionalized the Weimar lesson — that legal revolution (Hitler's use of enabling legislation to abolish democracy) must be made constitutionally impossible — converting historical trauma into a positive right of resistance embedded in the highest law.",
+    "derivedFrom": [
+      "postwar-germany-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.82,
+      "label": "high",
+      "rationale": "Art. 20(1) and 20(4) are directly verified against the official Bundestag English translation. The memory-driven-restraint claim is strongly supported: Art. 20(4) was added in 1968 precisely as a response to the experience of legal revolution under Weimar. The Weimar-lesson interpretation is the scholarly consensus on the framers' intent; the text itself unambiguously encodes a constitutional right of resistance against abolition of the democratic order. High confidence given text clarity and scholarly consensus on intent.",
+      "uncertaintyFactors": [
+        "art-20-4-added-1968-not-1949-original",
+        "right-of-resistance-never-invoked-in-practice"
+      ]
+    }
   }
 ]
