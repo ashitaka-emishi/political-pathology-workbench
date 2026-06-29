@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/corpus-registry.schema.json",
+  "title": "Corpus Registry Entry",
+  "description": "A registered corpus within PPW. Metadata-only: corpus texts are not stored in PPW, only referenced by provenance link.",
+  "type": "object",
+  "required": [
+    "corpusId",
+    "corpusName",
+    "corpusType",
+    "originModuleId",
+    "corpusPurpose",
+    "rightsStatus",
+    "normalizationStatus",
+    "segmentationStatus",
+    "annotationStatus",
+    "reliabilityStatus",
+    "claimPromotionStatus",
+    "sourceIssueMigrationStatus"
+  ],
+  "properties": {
+    "corpusId": {
+      "type": "string",
+      "description": "Stable kebab-case identifier (e.g. lincoln-deep-28, sacrifice-law-comparative-41)."
+    },
+    "corpusName": {
+      "type": "string",
+      "description": "Human-readable corpus name."
+    },
+    "corpusType": {
+      "type": "string",
+      "enum": ["deep-case", "comparative"],
+      "description": "deep-case: single-actor/period corpus at depth; comparative: multi-case cross-case corpus."
+    },
+    "originModuleId": {
+      "type": "string",
+      "description": "ID of the evidence module that owns this corpus (references evidence-module.schema.json)."
+    },
+    "caseIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "PPW case IDs this corpus contributes evidence for."
+    },
+    "documentCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of documents in the corpus."
+    },
+    "documentIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Stable IDs for documents in the corpus (from source repository segmentation output)."
+    },
+    "samplingFrame": {
+      "type": "string",
+      "description": "Description of how documents were selected: selection rationale, stratification, or sampling methodology."
+    },
+    "corpusPurpose": {
+      "type": "string",
+      "enum": ["core", "validation", "reference"],
+      "description": "core: fully annotated; validation: lighter annotation for reliability sampling; reference: indexed only, not annotated."
+    },
+    "rightsStatus": {
+      "type": "string",
+      "enum": ["open", "fair-use", "restricted", "unknown"],
+      "description": "Copyright and rights status for corpus texts."
+    },
+    "normalizationStatus": {
+      "type": "string",
+      "enum": ["pending", "partial", "complete"],
+      "description": "Whether corpus texts have been normalized (whitespace, encoding, edition-specific artifacts)."
+    },
+    "segmentationStatus": {
+      "type": "string",
+      "enum": ["pending", "in-progress", "complete"],
+      "description": "Whether corpus texts have been segmented into stable, ID-bearing passages."
+    },
+    "annotationStatus": {
+      "type": "string",
+      "enum": ["pending", "partial", "complete"],
+      "description": "Whether corpus passages have been annotated with claim candidates."
+    },
+    "reliabilityStatus": {
+      "type": "string",
+      "enum": ["pending", "sampling-complete", "adjudicated", "certified"],
+      "description": "Inter-annotator reliability assessment status for this corpus."
+    },
+    "claimPromotionStatus": {
+      "type": "string",
+      "enum": ["not-started", "in-progress", "complete", "blocked"],
+      "description": "Whether draft claims from this corpus have been promoted through PPW review gates."
+    },
+    "sourceIssueMigrationStatus": {
+      "type": "string",
+      "enum": ["pending", "in-progress", "complete", "not-applicable"],
+      "description": "Status of issue migration from the source repository for this corpus."
+    },
+    "sourceIssueRefs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "References to source repository issues or PPW issues related to this corpus (e.g. github:ashitaka-emishi/lincoln-metaphor-analysis#12)."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free-text notes about corpus state, known gaps, or upcoming work."
+    }
+  },
+  "additionalProperties": false
+}
