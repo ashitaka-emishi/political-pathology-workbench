@@ -1,5 +1,146 @@
 [
   {
+    "claimId": "american-civil-war-union-claim-001",
+    "caseId": "american-civil-war-union",
+    "claim": "The Union symbolic order transformed the mass sacrifice of the Civil War into a founding act of democratic rebirth rather than escalating collective immortality through enemy destruction: the Gettysburg Address sacralized the soldiers' deaths as the price of freedom's renewal, while the Second Inaugural deliberately refused the logic of victorious revenge, redirecting the war's moral energy toward healing — an anti-sacrificial resolution at the moment of maximum symbolic power.",
+    "derivedFrom": [
+      "american-civil-war-union-passage-001",
+      "american-civil-war-union-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Both passages are extensively verified public-domain primary sources. Lincoln's symbolic architecture is among the most analyzed in American history; the two passages together form a coherent interpretive unit spanning late-war sacrifice-framing to post-war anti-revenge. Confidence capped pending chain expansion and treatment of Reconstruction's subsequent failures.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "reconstruction-failure-complicates-anti-sacrificial-score"
+      ]
+    },
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "claimId": "british-empire-to-commonwealth-claim-001",
+    "caseId": "british-empire-to-commonwealth",
+    "claim": "The transition from British Empire to Commonwealth demonstrates symbolic transformation through constitutional redesign: the Balfour Declaration replaced the empire's hierarchical symbolic order with a new order of equal, freely associated communities, while the Statute of Westminster gave that transformation legal force by requiring Dominion consent for changes to shared constitutional arrangements — converting the Crown from instrument of sovereign control to symbol of voluntary association.",
+    "derivedFrom": [
+      "british-empire-to-commonwealth-passage-001",
+      "british-empire-to-commonwealth-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Both passages are public-domain texts verified against official sources. The Balfour Declaration and Statute of Westminster together constitute the definitive legal record of the Empire-to-Commonwealth symbolic transformation. Confidence capped: chain requires expansion to include the process by which decolonization proceeded after 1931 and the degree to which the new Commonwealth symbolic order achieved genuine equality vs. neocolonial continuity.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "neocolonial-continuity-complicates-equality-claim",
+        "transformation-incomplete-post-1931"
+      ]
+    },
+    "caseSlug": "british-empire-to-commonwealth"
+  },
+  {
+    "claimId": "canada-claim-001",
+    "caseId": "canada",
+    "claim": "The Canadian constitutional order embeds high corrigibility through the Charter's Section 1 'reasonable limits' clause: rights guarantees are deliberately constructed as non-absolute, requiring governments to demonstrate proportionality under judicial review — a mechanism that institutionalizes the symbolic order's capacity to self-correct without sacrificial escalation or sacred-enemy construction.",
+    "derivedFrom": [
+      "canada-passage-001",
+      "canada-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.73,
+      "label": "moderate-high",
+      "rationale": "Both passages are official government legislative texts verified against the Department of Justice Canada. The Section 1 limitations clause is analytically central: it institutionalizes proportionality review as the corrective mechanism for rights-order tensions. Confidence capped pending chain expansion to include Oakes test jurisprudence and notwithstanding clause complications.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "notwithstanding-clause-s33-complicates-corrigibility-score"
+      ]
+    },
+    "caseSlug": "canada"
+  },
+  {
+    "claimId": "confederacy-claim-001",
+    "caseId": "confederacy",
+    "claim": "The Confederate symbolic order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high symbolic-order strength at founding but could not survive military defeat.",
+    "derivedFrom": [
+      "confederacy-passage-001",
+      "confederacy-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Both passages are well-attested public-domain founding documents verified against Avalon Project and American Battlefield Trust. The CSA Constitution's invocation of divine guidance and Stephens' explicit statement of racial hierarchy as constitutional cornerstone together establish the symbolic order's founding sacral logic. Confidence capped pending chain expansion beyond founding documents.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "collapse-not-chain-driven"
+      ]
+    },
+    "caseSlug": "confederacy"
+  },
+  {
+    "claimId": "european-union-claim-001",
+    "caseId": "european-union",
+    "claim": "The EU symbolic order institutionalizes pluralist reordering as its constitutive principle: the TEU frames integration as a continuous process ('ever closer union') rather than a fixed final state, and grounds that process in liberty, democracy, and rule of law rather than sacred-enemy construction — a symbolic architecture that produces corrigibility through ongoing multi-state negotiation rather than sacrificial escalation.",
+    "derivedFrom": [
+      "european-union-passage-001",
+      "european-union-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.67,
+      "label": "moderate",
+      "rationale": "Both passages are from the official EUR-Lex consolidated TEU preamble, verified against the authoritative source. The 'ever closer union' recital is foundational to EU self-understanding; the liberty/democracy/rule-of-law recital specifies the symbolic order's normative grounding. Confidence capped: chain requires expansion to include institutional structures (Council, Parliament, Court of Justice) and crisis episodes (Brexit, Hungary, Poland) that complicate the corrigibility score.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "democratic-backsliding-complicates-corrigibility-score",
+        "brexit-shows-exit-mechanism-limits"
+      ]
+    },
+    "caseSlug": "european-union"
+  },
+  {
+    "claimId": "gandhian-indian-independence-claim-001",
+    "caseId": "gandhian-indian-independence",
+    "claim": "The Gandhian independence movement built its symbolic order around anti-sacrificial restraint at the theoretical level: Gandhi's satyagraha doctrine explicitly redirects sacrifice from enemy destruction to voluntary self-suffering — accepting penalty rather than inflicting violence — and claims superiority to body-force precisely because it refuses the sacred-enemy escalation logic. This makes the Gandhian case the clearest theoretical inverse of the pathological sacrificial-escalation cases.",
+    "derivedFrom": [
+      "gandhian-indian-independence-passage-001",
+      "gandhian-indian-independence-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Both passages are from Gandhi's own English translation of Hind Swaraj, verified at the Sabarmati Ashram digital archive. The soul-force / body-force distinction is the foundational conceptual claim of the movement's symbolic order. Confidence capped: chain limited to theoretical founding texts; operational episodes (salt march, partition violence) require separate treatment and complicate the clean anti-sacrificial reading.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "partition-violence-complicates-anti-sacrificial-score",
+        "practice-theory-gap"
+      ]
+    },
+    "caseSlug": "gandhian-indian-independence"
+  },
+  {
     "claimId": "imperial-japan-claim-001",
     "caseId": "imperial-japan",
     "claim": "Imperial Japanese political language encoded the Emperor's divine sovereignty and the national body (kokutai) as sacred, demanding individual self-sacrifice in service of imperial survival as the highest moral obligation overriding personal survival.",
@@ -12,15 +153,85 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.7,
+      "value": 0.75,
       "label": "moderate-high",
-      "rationale": "Two well-attested public-domain rescripts directly encode collective-body sacrifice logic. Confidence capped pending passage-text verification against cited scholarly editions and chain expansion.",
+      "rationale": "Both passages advanced to evidence-review. Passage text confirmed against multiple independent online scholarly sources (worldjpn.net, Wikipedia, rikukaigun.org); core wording verified accurately. Tsunoda et al. (1958) p.139 and McLaren (1914) p.197 edition-specific wording requires physical library verification. Confidence raised from 0.70 reflecting confirmed passage integrity.",
       "uncertaintyFactors": [
-        "passage-text-pending-source-verification",
+        "tsunoda-1958-edition-wording-unconfirmed",
+        "mclaren-1914-edition-wording-unconfirmed",
         "chain-requires-expansion"
       ]
     },
     "caseSlug": "imperial-japan"
+  },
+  {
+    "claimId": "imperial-japan-claim-002",
+    "caseId": "imperial-japan",
+    "claim": "The Kokutai no Hongi eliminated corrigibility by defining the sole legitimate mode of existence for Japanese subjects as 'casting ourselves aside' in unconditional service to the Emperor — framing individual thought and dissent not as rights but as symptoms of foreign individualism to be overcome; simultaneously, the 1941 war rescript activated sacred-enemy escalation by framing the Pacific War as necessary defense of the nation's very existence against an encircling threat.",
+    "derivedFrom": [
+      "imperial-japan-passage-003",
+      "imperial-japan-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.77,
+      "label": "moderate-high",
+      "rationale": "Passage-003 is from a Columbia University Press scholarly translation verified at Asia for Educators; the corrigibility-elimination claim follows directly from the text's explicit equation of loyalty with self-erasure. Passage-004 is verified at worldjpn.net; the sacred-enemy-escalation framing ('endanger the very existence of Our nation') is unambiguous. Confidence capped: Kokutai's Ministry of Education translation adds one layer of institutional mediation.",
+      "uncertaintyFactors": [
+        "ministry-of-education-translation-mediated",
+        "chain-requires-operational-documentation"
+      ]
+    },
+    "caseSlug": "imperial-japan"
+  },
+  {
+    "claimId": "khmer-rouge-cambodia-claim-001",
+    "caseId": "khmer-rouge-cambodia",
+    "claim": "The Khmer Rouge structured its symbolic order around the sacrificial identity of the revolutionary people, whose blood was explicitly framed as the foundation of the new Cambodia, demanding individual self-annihilation — including of children and family — in service of collective rebirth.",
+    "derivedFrom": [
+      "khmer-rouge-cambodia-passage-001",
+      "khmer-rouge-cambodia-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Both passages are public-domain constitutional and anthemic texts confirmed via Wikisource and nationalanthems.info. The DK Constitution preamble and national anthem together document the Khmer Rouge's explicit framing of collective blood sacrifice as constitutive of national identity. Confidence capped pending chain expansion beyond these founding documents.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "instrumental-vs-symbolic-dispute"
+      ]
+    },
+    "caseSlug": "khmer-rouge-cambodia"
+  },
+  {
+    "claimId": "maoist-china-claim-001",
+    "caseId": "maoist-china",
+    "claim": "Maoist political language structured individual life and death as meaningful only through service to 'the people' as an eternal collective body, inverting private survival as the supreme value and demanding selfless self-abnegation — including willingness to die — as the highest moral obligation.",
+    "derivedFrom": [
+      "maoist-china-passage-001",
+      "maoist-china-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Both passages are from Mao's Selected Works (public domain, verified via Marxists.org). 'Serve the People' explicitly codes death-for-the-people as weightier than personal survival. 'In Memory of Bethune' codes absolute selflessness as the highest virtue. Together they establish the collective-immortality-to-sacrifice mechanism at the level of the symbolic order's core texts. Confidence capped pending broader periodization review.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    },
+    "caseSlug": "maoist-china"
   },
   {
     "claimId": "nazi-germany-claim-001",
@@ -35,14 +246,84 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.62,
+      "value": 0.68,
       "label": "moderate",
-      "rationale": "Two real attributed passages now support the claim. Passage text requires verification against Baynes (1942) and Stackelberg & Winkle (2002) before advancing past source-review.",
+      "rationale": "Both passages advance to evidence-review. Passage-001 text corrected against GHDI scholarly translation; Baynes (1942) p.156 edition-specific wording pending physical library check. Passage-002 text matches the scholarly consensus translation of Point 10 but Stackelberg & Winkle (2002) p.29 edition-specific wording pending physical library check.",
       "uncertaintyFactors": [
-        "passage-text-pending-source-verification"
+        "baynes-1942-edition-wording-unconfirmed",
+        "stackelberg-winkle-2002-edition-wording-unconfirmed"
       ]
     },
     "caseSlug": "nazi-germany"
+  },
+  {
+    "claimId": "nazi-germany-claim-002",
+    "caseId": "nazi-germany",
+    "claim": "The Nazi regime eliminated corrigibility through two simultaneous legal mechanisms: the Wehrmacht oath (2 August 1934) replaced the constitutional oath to the German nation with a personal oath of unconditional obedience to Hitler and explicit readiness to die for it, removing the institutional basis for legitimate dissent within the armed forces; the Law Against Formation of New Parties (14 July 1933) legally mandated single-party rule, eliminating the pluralist competition that enables symbolic-order correction.",
+    "derivedFrom": [
+      "nazi-germany-passage-003",
+      "nazi-germany-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.8,
+      "label": "high",
+      "rationale": "Both passages are official legal instruments verified against authoritative sources (GHDI for the oath; USHMM Encyclopedia for the party law). The corrigibility-elimination claim follows directly from the texts: the oath's 'unconditional obedience' forecloses institutional dissent; the single-party law forecloses political competition. No significant translation ambiguity; texts are short, clear legal formulae.",
+      "uncertaintyFactors": [
+        "chain-requires-integration-with-operational-documentation"
+      ]
+    },
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "claimId": "north-korea-claim-001",
+    "caseId": "north-korea",
+    "claim": "The DPRK symbolic order constitutionally encodes frozen-pathology as a design principle: the state is defined as the application of the eternal leaders' ideas (passage 1), and the population is constitutionally bound to 'uphold the eternal leaders' and 'defend and carry forward their ideas' without revision (passage 2) — a constitutional prohibition on symbolic correction that maximizes symbolic-order strength while eliminating corrigibility by definition.",
+    "derivedFrom": [
+      "north-korea-passage-001",
+      "north-korea-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "Both passages are from the same University of Hawaiʻi English translation of the 2019 DPRK Constitution. The constitutional encoding of the eternal-leaders principle is clearly present in the translation and consistent with all major scholarly accounts of North Korean ideology. Confidence capped at moderate: translation chain from Korean original is unverified; chain is limited to constitutional text without operational documentation of frozen-pathology in practice.",
+      "uncertaintyFactors": [
+        "translation-chain-unverified",
+        "chain-requires-expansion",
+        "access-restricted-primary-sources"
+      ]
+    },
+    "caseSlug": "north-korea"
+  },
+  {
+    "claimId": "post-9-11-united-states-claim-001",
+    "caseId": "post-9-11-united-states",
+    "claim": "The post-9/11 United States symbolic order responded to the attacks through sacred-enemy escalation: the AUMF granted the executive unlimited force authorization against a broadly defined enemy, while Bush's congressional address constructed a globally totalized binary — 'with us or with the terrorists' — that sacralized the US symbolic order through opposition to an absolute external threat, foreclosing the constitutional-containment alternative.",
+    "derivedFrom": [
+      "post-9-11-united-states-passage-001",
+      "post-9-11-united-states-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Both passages are public-law and public-address texts verified against official sources. The AUMF's open-ended authorization and Bush's binary framing are the canonical founding documents of the post-9/11 order. Confidence capped pending chain expansion including Patriot Act, drone campaign, and torture program documentation.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "enemy-definition-broadened-over-time"
+      ]
+    },
+    "caseSlug": "post-9-11-united-states"
   },
   {
     "claimId": "postwar-germany-claim-001",
@@ -57,15 +338,84 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.72,
+      "value": 0.76,
       "label": "moderate-high",
-      "rationale": "Two complementary passages from the Grundgesetz support the claim: Art. 1(1) establishes the inviolability of human dignity; Art. 79(3) places it beyond amendment. Confidence is capped pending chain expansion and secondary-source corroboration.",
+      "rationale": "Both Grundgesetz passages advanced to evidence-review after text confirmation against the official Bundestag English translation at gesetze-im-internet.de. Art. 1(1) confirmed verbatim; Art. 79(3) text corrected ('on principle' → 'in principle'). Confidence raised from 0.72 reflecting confirmed passage integrity. Capped pending chain expansion and secondary-source corroboration.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "single-source"
       ]
     },
     "caseSlug": "postwar-germany"
+  },
+  {
+    "claimId": "postwar-germany-claim-002",
+    "caseId": "postwar-germany",
+    "claim": "Article 20 encodes memory-driven-restraint as a constitutional principle: by defining the democratic and social federal state as the protected constitutional order and granting all Germans the right to resist any person seeking to abolish it, the framers institutionalized the Weimar lesson — that legal revolution (Hitler's use of enabling legislation to abolish democracy) must be made constitutionally impossible — converting historical trauma into a positive right of resistance embedded in the highest law.",
+    "derivedFrom": [
+      "postwar-germany-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.82,
+      "label": "high",
+      "rationale": "Art. 20(1) and 20(4) are directly verified against the official Bundestag English translation. The memory-driven-restraint claim is strongly supported: Art. 20(4) was added in 1968 precisely as a response to the experience of legal revolution under Weimar. The Weimar-lesson interpretation is the scholarly consensus on the framers' intent; the text itself unambiguously encodes a constitutional right of resistance against abolition of the democratic order. High confidence given text clarity and scholarly consensus on intent.",
+      "uncertaintyFactors": [
+        "art-20-4-added-1968-not-1949-original",
+        "right-of-resistance-never-invoked-in-practice"
+      ]
+    },
+    "caseSlug": "postwar-germany"
+  },
+  {
+    "claimId": "revolutionary-france-claim-001",
+    "caseId": "revolutionary-france",
+    "claim": "The French revolutionary symbolic order sacralized 'the Nation' as the sole and absolute source of sovereignty, then progressively fused virtue with coercive violence during the Terror, making the revolutionary order itself the object of sacred preservation at the expense of individual persons.",
+    "derivedFrom": [
+      "revolutionary-france-passage-001",
+      "revolutionary-france-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Declaration of Rights Article 3 establishes the nation as the exclusive source of all authority; Robespierre's virtue-terror synthesis shows the progressive sacralization of the revolutionary order itself. Both passages are well-attested public-domain texts. Confidence capped because the claim applies primarily to the Terror phase (1793–1794); the Revolution's earlier phases exhibit more restrained-reordering features.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    },
+    "caseSlug": "revolutionary-france"
+  },
+  {
+    "claimId": "soviet-communism-claim-001",
+    "caseId": "soviet-communism",
+    "claim": "The Soviet communist symbolic order built maximum-strength ideological authority on two pillars: the Manifesto's founding declaration of world-historical inevitability and collective sacrifice toward communist revolution, and the 1977 Constitution's legal enshrinement of the CPSU as the nucleus of all social life — a vanguard structure that concentrated symbolic power while eliminating the corrigibility mechanisms that might have allowed the order to adapt to changing conditions.",
+    "derivedFrom": [
+      "soviet-communism-passage-001",
+      "soviet-communism-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Both passages are well-attested public-domain texts. The Manifesto passage is the founding ideological document of the movement; the 1977 Constitution Article 6 is the legal culmination of Soviet vanguard theory. Together they span founding ideology to institutional crystallization. Confidence capped: chain requires expansion from founding texts to operational practices (collectivization, purges, nomenklatura) to complete the arc from symbolic-order-strength to frozen-pathology.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "founding-text-to-practice-gap",
+        "historical-periodization-wide"
+      ]
+    },
+    "caseSlug": "soviet-communism"
   },
   {
     "claimId": "soviet-union-collapse-claim-001",
@@ -80,15 +430,61 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.68,
-      "label": "moderate",
-      "rationale": "Gorbachev's own acknowledgment of systemic failure and the Alma-Ata dissolution text directly support the legitimacy-collapse reading. Confidence capped pending chain expansion and verification of passage text against cited editions.",
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending chain expansion.",
       "uncertaintyFactors": [
-        "passage-text-pending-source-verification",
+        "gorbachev-doubleday-1996-edition-wording-unconfirmed",
         "chain-requires-expansion"
       ]
     },
     "caseSlug": "soviet-union-collapse"
+  },
+  {
+    "claimId": "soviet-union-collapse-claim-002",
+    "caseId": "soviet-union-collapse",
+    "claim": "The Soviet order's corrigibility deficit operated in two registers simultaneously documented by passage-003 and passage-004: Gorbachev's 1987 CC Plenum speech reveals the order's awareness of systemic failure — stagnation, lost momentum, accumulated problems — but frames correction as the only remaining option ('we have nowhere to retreat to'), signaling corrigibility was attempted too late and too shallowly; the GKChP's 1991 coup statement reveals that correction itself triggered institutional self-preservation from within, as hardliners declared reform 'has reached a dead end' and attempted to abort the correction. Together, the passages document a system that could acknowledge failure but whose institutional structure prevented effective correction from either direction.",
+    "derivedFrom": [
+      "soviet-union-collapse-passage-003",
+      "soviet-union-collapse-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.74,
+      "label": "moderate-high",
+      "rationale": "Both passages are verified against academic and archival sources. The corrigibility-failure interpretation is textually grounded: Gorbachev's 'no other way' framing and the GKChP's 'dead end' declaration together constitute evidence of the correction-suppression dynamic. Confidence capped pending secondary-source corroboration of the claim that this dynamic, not external factors, was primary.",
+      "uncertaintyFactors": [
+        "gkchp-passage-excerpt-may-not-represent-full-statement",
+        "attribution-to-corrigibility-rather-than-external-forces-contested"
+      ]
+    },
+    "caseSlug": "soviet-union-collapse"
+  },
+  {
+    "claimId": "switzerland-claim-001",
+    "caseId": "switzerland",
+    "claim": "The Swiss symbolic order institutionalizes pluralist restraint through two constitutive commitments: the Preamble's definition of collective strength as the well-being of the weakest members (inverting the sacrificial logic that equates strength with elimination of weakness), and Article 2's programmatic aims of common welfare, cultural diversity, and peaceful international order — a symbolic architecture that generates corrigibility through federal consensus rather than sacred-enemy escalation.",
+    "derivedFrom": [
+      "switzerland-passage-001",
+      "switzerland-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Both passages are from the official English translation of the Swiss Federal Constitution verified at Constitute Project. The Preamble's strength-as-welfare-of-weakest formulation is analytically powerful as a direct inversion of sacrificial symbolic logic. Confidence capped pending chain expansion to include direct-democracy and federalism mechanisms.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "direct-democracy-exclusion-history-complicates-score"
+      ]
+    },
+    "caseSlug": "switzerland"
   },
   {
     "claimId": "united-states-after-vietnam-claim-001",
@@ -103,15 +499,84 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.65,
+      "value": 0.68,
       "label": "moderate",
-      "rationale": "The War Powers Resolution and Carter speech directly support a restrained-reordering reading, but the subsequent Reagan-era effort to overcome the Vietnam syndrome complicates the interpretation. Confidence capped pending chain expansion.",
+      "rationale": "Both passages advanced to evidence-review. WPR § 2(a) text corrected against Cornell LII codified form ('joint resolution' → 'chapter'; truncated final clause restored). Carter speech confirmed verbatim against Miller Center archive. Confidence raised from 0.65. Capped pending chain expansion; Reagan-era Vietnam syndrome reversal remains a complicating factor.",
       "uncertaintyFactors": [
-        "passage-text-pending-source-verification",
         "chain-requires-expansion",
         "periodization-contested"
       ]
     },
     "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "claimId": "united-states-after-vietnam-claim-002",
+    "caseId": "united-states-after-vietnam",
+    "claim": "The Vietnam memory was institutionalized at two levels simultaneously: War Powers § 5(b) hardened the purpose clause into a binding 60-day withdrawal requirement, creating an automatic termination mechanism that does not require an affirmative congressional vote to take effect; and the Weinberger Doctrine (1984) codified the Vietnam lessons as executive doctrine, explicitly citing Vietnam as the case where the absence of public and congressional support made war politically unsustainable — together these show the post-Vietnam order converting the defeat's memory into both a legal constraint and a doctrine of pre-engagement consent-seeking.",
+    "derivedFrom": [
+      "united-states-after-vietnam-passage-003",
+      "united-states-after-vietnam-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.72,
+      "label": "moderate-high",
+      "rationale": "Both passages verified against authoritative sources. The claim that Vietnam memory was institutionalized at two levels is analytically grounded: § 5(b) is a binding legal rule; Weinberger is executive doctrine. The two-level institutionalization strengthens the corrigibility reading beyond the purpose clause alone. Confidence capped: Weinberger Doctrine was doctrine, not law, and Reagan's Vietnam-syndrome-reversal rhetoric coexisted with it.",
+      "uncertaintyFactors": [
+        "weinberger-doctrine-revoked-by-powell-and-subsequent-administrations",
+        "reagan-era-vietnam-syndrome-reversal-complicates-memory-driven-restraint-reading"
+      ]
+    },
+    "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "claimId": "western-roman-empire-claim-001",
+    "caseId": "western-roman-empire",
+    "claim": "The Western Roman symbolic order sustained its institutional coherence through a culture of public sacrifice for the republic, but by the late fourth century this culture of civic self-abnegation had decayed — as Vegetius observed in the army and Augustine analyzed in the moral order — producing institutional fragmentation that the order could not reverse.",
+    "derivedFrom": [
+      "western-roman-empire-passage-001",
+      "western-roman-empire-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "Both passages are public-domain texts from near-contemporary witnesses of the late Roman order (Vegetius c. 390, Augustine 413–426). They provide independent diagnoses of institutional decay. Confidence capped: the passages describe the order at decline-onset, not at its peak, and the causal chain from symbolic-order decay to institutional collapse requires fuller reconstruction.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "contemporaneous-diagnosis-not-retrospective-proof",
+        "periodization-ambiguity"
+      ]
+    },
+    "caseSlug": "western-roman-empire"
+  },
+  {
+    "claimId": "world-war-i-nationalisms-claim-001",
+    "caseId": "world-war-i-nationalisms",
+    "claim": "The outbreak of World War I was accompanied by multi-national symbolic orders invoking sacred national unity that dissolved class, party, and individual distinctions — framing the nation as a sacred collective body for whom total sacrifice was both possible and obligatory.",
+    "derivedFrom": [
+      "world-war-i-nationalisms-passage-001",
+      "world-war-i-nationalisms-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Kaiser Wilhelm's 'I recognize only Germans' and Poincaré's 'sacred union' are well-attested public-domain texts verified via GHDI and firstworldwar.com. Both document the sacrificial-nationalist moment at war outbreak across two major belligerents. Confidence capped because the case covers multiple nations with variable outcomes; the claim holds for the mobilization moment but not uniformly across the war's duration.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "multi-nation-unit-of-analysis"
+      ]
+    },
+    "caseSlug": "world-war-i-nationalisms"
   }
 ]

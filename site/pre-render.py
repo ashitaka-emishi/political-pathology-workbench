@@ -13,6 +13,7 @@ OUT = SITE_DIR / "cases" / "_chains"
 OUT_OUTPUTS = SITE_DIR / "outputs" / "_generated"
 OUT_THEORY = SITE_DIR / "theory" / "_generated"
 OUT_METHODS = SITE_DIR / "methods" / "_generated"
+OUT_GEN = SITE_DIR / "_generated"
 DOCS_METHODOLOGY = PROJECT_ROOT / "docs" / "methodology"
 
 THEORY_IDS = [
@@ -993,6 +994,82 @@ def render_working_paper(scores: list[dict], claims: list[dict],
     return "\n".join(lines)
 
 
+DISPLAY_VARS = ["symbolic-order-strength", "corrigibility"]
+
+
+def render_comparison_table(scores: list[dict], interpretations: list[dict],
+                            case_meta: dict) -> str:
+    """All-20-case cross-case comparison table, grouped by outcome cluster."""
+    lines: list[str] = []
+
+    lines += [
+        "::: {.callout-warning}",
+        "Draft cross-case comparison. All scores are provisional and under source review.",
+        ":::",
+        "",
+        "All 20 cases scored across key theory variables, grouped by outcome cluster. "
+        "Score bars: ■ = scored point, □ = unscored point (scale 0–5). "
+        "Ranges (e.g. 4–5/5) indicate multiple interpretations of the same variable. "
+        "— indicates no score recorded for that variable.",
+        "",
+    ]
+
+    by_case_var: dict[tuple, list] = defaultdict(list)
+    for s in scores:
+        by_case_var[(s["caseId"], s["variableId"])].append(s["value"])
+
+    primary_interp: dict[str, dict] = {}
+    for i in interpretations:
+        if i["caseId"] not in primary_interp:
+            primary_interp[i["caseId"]] = i
+
+    var_headers = " | ".join(title_case(v) for v in DISPLAY_VARS)
+    var_seps = " | ".join("---" for _ in DISPLAY_VARS)
+
+    for outcome_id, outcome_label in OUTCOME_GROUPS.items():
+        group = sorted(
+            [c for c in case_meta.values() if c.get("outcome") == outcome_id],
+            key=lambda c: c["title"],
+        )
+        if not group:
+            continue
+
+        lines += [
+            f"### {outcome_label}",
+            "",
+            f"| Case | {var_headers} | Mechanism | Sacrifice health | Boundedness |",
+            f"|---| {var_seps} |---|---|---|",
+        ]
+
+        for c in group:
+            cid = c["caseId"]
+            interp = primary_interp.get(cid, {})
+            slug = GOLD_PAGE_SLUGS.get(cid)
+            label = f"[{c['title']}](../cases/{slug}.qmd)" if slug else c["title"]
+
+            cells = []
+            for v in DISPLAY_VARS:
+                vals = by_case_var.get((cid, v), [])
+                if not vals:
+                    cells.append("—")
+                elif len(vals) == 1:
+                    cells.append(f"{score_bar(vals[0])} {vals[0]}/5")
+                else:
+                    avg = sum(vals) / len(vals)
+                    lo, hi = min(vals), max(vals)
+                    cells.append(f"{score_bar(round(avg))} {lo}–{hi}/5")
+
+            mechanism = title_case(interp.get("mechanism", "—"))
+            health = interp.get("sacrificeHealth", "—")
+            boundedness = interp.get("sacrificeBoundedness", "—")
+            lines.append(
+                f"| {label} | {' | '.join(cells)} | {mechanism} | {health} | {boundedness} |"
+            )
+        lines.append("")
+
+    return "\n".join(lines)
+
+
 def case_id_to_slug(case_id: str) -> str:
     slugs = {
         "nazi-germany": "cases/nazi-germany",
@@ -1005,8 +1082,19 @@ def case_id_to_slug(case_id: str) -> str:
 
 
 def main() -> None:
+    import subprocess
+    subprocess.run(
+        ["node", "src-js/cli/generate-indexes.js"],
+        cwd=PROJECT_ROOT, check=True, capture_output=True,
+    )
+    subprocess.run(
+        ["node", "src-js/cli/generate-site-data.js"],
+        cwd=PROJECT_ROOT, check=True, capture_output=True,
+    )
+
     OUT.mkdir(parents=True, exist_ok=True)
     OUT_OUTPUTS.mkdir(parents=True, exist_ok=True)
+    OUT_GEN.mkdir(parents=True, exist_ok=True)
 
     summary_path = SITE_DIR / "data" / "workbench-summary.json"
     summary = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {"cases": []}
@@ -1079,6 +1167,12 @@ def main() -> None:
     wp_path = OUT_OUTPUTS / "working-paper.md"
     wp_path.write_text(working_paper, encoding="utf-8")
     print(f"  [pre-render] Wrote {wp_path.relative_to(PROJECT_ROOT)}")
+
+    # Cross-case comparison table (all 20 cases)
+    comp_table = render_comparison_table(scores, interpretations, case_meta)
+    comp_table_path = OUT_GEN / "comparison-table.md"
+    comp_table_path.write_text(comp_table, encoding="utf-8")
+    print(f"  [pre-render] Wrote {comp_table_path.relative_to(PROJECT_ROOT)}")
 
 
 if __name__ == "__main__":

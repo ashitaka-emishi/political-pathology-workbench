@@ -1,5 +1,158 @@
 [
   {
+    "scoreId": "american-civil-war-union-score-001",
+    "caseId": "american-civil-war-union",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "american-civil-war-union-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.63,
+      "label": "moderate",
+      "rationale": "Score of 4 reflects high symbolic-order strength at the war's end: the Union's constitutional order survived, and Lincoln gave it a powerful new sacral legitimation through democratic-rebirth framing. Not maximum because the order's strength was achieved through enormous material sacrifice and was not yet institutionally consolidated; Reconstruction collapse suggests the symbolic renewal did not fully take hold.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "reconstruction-failure-complicates-anti-sacrificial-score"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "anti-sacrificial-restraint"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "scoreId": "british-empire-to-commonwealth-score-001",
+    "caseId": "british-empire-to-commonwealth",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "british-empire-to-commonwealth-interpretation-001",
+    "value": 3,
+    "confidence": {
+      "value": 0.58,
+      "label": "moderate",
+      "rationale": "Score of 3 reflects moderate corrigibility: the Empire-to-Commonwealth transformation demonstrates genuine symbolic self-revision at the constitutional level, but the neocolonial continuity of the post-1931 relationship and the subsequent violence of decolonization (Kenya, India partition, Cyprus, etc.) reveal that the symbolic redesign was partial and did not extend the corrigibility mechanism to the full scope of imperial relationships. Higher than North Korea (frozen) but substantially lower than Canada or Switzerland.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "neocolonial-continuity-complicates-equality-claim",
+        "transformation-incomplete-post-1931"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "symbolic-transformation"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "british-empire-to-commonwealth"
+  },
+  {
+    "scoreId": "canada-score-001",
+    "caseId": "canada",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "canada-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Score of 4 reflects high but not maximum corrigibility: the Section 1 proportionality mechanism is among the strongest constitutionally embedded self-correction systems in the dataset, but the notwithstanding clause (s.33) provides a legislative escape valve that has been used, capping the score below maximum.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "notwithstanding-clause-s33-complicates-corrigibility-score"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "constitutional-containment"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "canada"
+  },
+  {
+    "scoreId": "confederacy-score-001",
+    "caseId": "confederacy",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "confederacy-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.62,
+      "label": "moderate",
+      "rationale": "High but not maximum symbolic-order strength: the founding documents establish strong sacral logic (divine favor, racial hierarchy as natural truth), but the four-year lifespan and dependence on military success suggest the order could not fully consolidate. Score of 4 reflects high founding strength with fragility built in.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "collapse-not-chain-driven"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "sacralization"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "confederacy"
+  },
+  {
+    "scoreId": "european-union-score-001",
+    "caseId": "european-union",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "european-union-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Score of 4 reflects high but not maximum corrigibility: the EU's pluralist architecture and legal correction mechanisms are strong, but democratic-backsliding within member states and the Brexit precedent reveal limits to the order's self-correction capacity. Not maximum because the order cannot fully enforce its own normative standards on member states without triggering exit or legitimacy crises.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "democratic-backsliding-complicates-corrigibility-score",
+        "brexit-shows-exit-mechanism-limits"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "pluralist-reordering"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "european-union"
+  },
+  {
+    "scoreId": "gandhian-indian-independence-score-001",
+    "caseId": "gandhian-indian-independence",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "gandhian-indian-independence-interpretation-001",
+    "value": 3,
+    "confidence": {
+      "value": 0.58,
+      "label": "moderate",
+      "rationale": "Score of 3 reflects moderate symbolic-order strength: the Gandhian order achieved independence and generated enormous moral authority, but its strength was achieved without the institutional consolidation that produces maximum scores. Partition and subsequent Indian constitutional history suggest the Gandhian symbolic order did not fully transfer its anti-sacrificial principles to the state-building phase.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "partition-violence-complicates-anti-sacrificial-score",
+        "practice-theory-gap"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "anti-sacrificial-restraint"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "gandhian-indian-independence"
+  },
+  {
     "scoreId": "imperial-japan-score-001",
     "caseId": "imperial-japan",
     "theoryId": "general-theory-political-pathology-v1",
@@ -7,12 +160,12 @@
     "interpretationId": "imperial-japan-interpretation-001",
     "value": 5,
     "confidence": {
-      "value": 0.65,
-      "label": "moderate",
-      "rationale": "Maximum symbolic-order-strength score is supported by the rescript sources and by the wartime escalation outcome; capped at moderate confidence pending chain expansion.",
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum symbolic-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
       "uncertaintyFactors": [
-        "minimal-evidence-chain",
-        "stub-score"
+        "physical-edition-verification-pending",
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",
@@ -26,6 +179,84 @@
     "caseSlug": "imperial-japan"
   },
   {
+    "scoreId": "imperial-japan-score-002",
+    "caseId": "imperial-japan",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "imperial-japan-interpretation-002",
+    "value": 1,
+    "confidence": {
+      "value": 0.75,
+      "label": "moderate-high",
+      "rationale": "Minimum corrigibility: the Kokutai no Hongi ontologically equated individual judgment with disloyalty and 'non-existence,' eliminating the conceptual basis for legitimate dissent. Score of 1 (not 0) acknowledges that factional disputes within the military and government constituted marginal corrigibility channels, but the doctrinal framework made their operation transgressive rather than legitimate.",
+      "uncertaintyFactors": [
+        "ministry-of-education-translation-mediated",
+        "chain-requires-operational-documentation"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "collective-immortality",
+      "institutional-self-preservation"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "imperial-japan"
+  },
+  {
+    "scoreId": "khmer-rouge-cambodia-score-001",
+    "caseId": "khmer-rouge-cambodia",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "collective-immortality",
+    "interpretationId": "khmer-rouge-cambodia-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Maximum collective-immortality score is directly supported by the DK Constitution preamble (sacrifice of children by the hundreds of thousands) and the national anthem (blood as constitutive of the nation). Confidence capped at moderate pending chain expansion.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "instrumental-vs-symbolic-dispute"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice",
+      "pathology"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "khmer-rouge-cambodia"
+  },
+  {
+    "scoreId": "maoist-china-score-001",
+    "caseId": "maoist-china",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "collective-immortality",
+    "interpretationId": "maoist-china-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.67,
+      "label": "moderate",
+      "rationale": "Maximum collective-immortality score is directly supported by Mao's canonical texts coding death-for-the-people as the supreme human meaning. Confidence capped at moderate pending chain expansion and periodization review.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice",
+      "pathology"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "maoist-china"
+  },
+  {
     "scoreId": "nazi-germany-score-001",
     "caseId": "nazi-germany",
     "theoryId": "koenigsberg-immortal-body-v1",
@@ -33,12 +264,12 @@
     "interpretationId": "nazi-germany-interpretation-001",
     "value": 3,
     "confidence": {
-      "value": 0.6,
+      "value": 0.65,
       "label": "moderate",
-      "rationale": "Moderate provisional score because the chain exists but remains thin and draft.",
+      "rationale": "Passages advanced to evidence-review after online scholarly verification (GHDI). Chain remains thin; physical edition verification and expanded sourcing required before score can advance.",
       "uncertaintyFactors": [
-        "single-source-chain",
-        "public-quotation-pending"
+        "single-claim-support",
+        "physical-edition-verification-pending"
       ]
     },
     "reviewStatus": "argument-review",
@@ -63,17 +294,92 @@
     ],
     "codebookVersion": "v1",
     "confidence": {
-      "value": 0.55,
+      "value": 0.6,
       "label": "moderate",
-      "rationale": "Provisional score based on a thin traceable chain and the case role; requires expanded evidence before scholarly use.",
+      "rationale": "Passages advanced to evidence-review. Score reflects strong symbolic order strength consistent with case role; physical edition verification and expanded sourcing required before scholarly use.",
       "uncertaintyFactors": [
         "single-claim-support",
-        "source-verification-pending"
+        "physical-edition-verification-pending"
       ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "caseSlug": "nazi-germany"
+  },
+  {
+    "scoreId": "nazi-germany-score-003",
+    "caseId": "nazi-germany",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "nazi-germany-interpretation-003",
+    "value": 1,
+    "confidence": {
+      "value": 0.82,
+      "label": "high",
+      "rationale": "Minimum corrigibility: both legal instruments directly eliminate the institutional preconditions for symbolic-order self-correction — unconditional personal oath forecloses military dissent; single-party law forecloses political competition. Score of 1 (not 0) preserves the possibility that informal networks and internal party factionalism provided marginal corrigibility channels, but the constitutional-legal architecture is unambiguous.",
+      "uncertaintyFactors": [
+        "chain-requires-integration-with-operational-documentation"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "institutional-self-preservation"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "nazi-germany"
+  },
+  {
+    "scoreId": "north-korea-score-001",
+    "caseId": "north-korea",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "north-korea-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.55,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order strength: the DPRK's constitutional design produces total institutional monopoly on symbolic production with no legitimate internal challenger. Score confidence is moderate rather than high due to translation-chain uncertainty and access-restricted primary sources — the score reflects the constitutional design intent and scholarly consensus on North Korean ideology, not verified operational documentation.",
+      "uncertaintyFactors": [
+        "translation-chain-unverified",
+        "chain-requires-expansion",
+        "access-restricted-primary-sources"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "frozen-pathology"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "north-korea"
+  },
+  {
+    "scoreId": "post-9-11-united-states-score-001",
+    "caseId": "post-9-11-united-states",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "post-9-11-united-states-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Score of 4 reflects high but not maximum symbolic-order strength: the immediate post-9/11 order achieved strong public cohesion and institutional mobilization, but the unlimited enemy definition and absence of constitutional containment produced instability. Not maximum because the order's strength was fear-driven and began declining within years of the founding moment.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "enemy-definition-broadened-over-time"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "sacred-enemy-escalation"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "post-9-11-united-states"
   },
   {
     "scoreId": "postwar-germany-score-001",
@@ -83,12 +389,11 @@
     "interpretationId": "postwar-germany-interpretation-001",
     "value": 4,
     "confidence": {
-      "value": 0.65,
-      "label": "moderate",
-      "rationale": "High corrigibility score is structurally justified by the constitutional design; capped at moderate confidence pending chain expansion and secondary-source corroboration.",
+      "value": 0.7,
+      "label": "moderate-high",
+      "rationale": "Passages advanced to evidence-review after text confirmation against official Bundestag translation. High corrigibility score is structurally justified by the constitutional design; confidence raised from 0.65. Capped pending chain expansion and secondary-source corroboration.",
       "uncertaintyFactors": [
-        "minimal-evidence-chain",
-        "stub-score"
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",
@@ -101,6 +406,85 @@
     "caseSlug": "postwar-germany"
   },
   {
+    "scoreId": "postwar-germany-score-002",
+    "caseId": "postwar-germany",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "postwar-germany-interpretation-002",
+    "value": 5,
+    "confidence": {
+      "value": 0.78,
+      "label": "moderate-high",
+      "rationale": "Art. 20's resistance clause, protected by Art. 79(3) as an eternity clause, constitutes maximum institutional corrigibility architecture: the democratic order cannot be legally amended away, and citizens hold a constitutional right to resist attempts to abolish it. Score of 5 reflects this design maximum. Confidence below 1.0: Art. 20(4) has never been invoked in practice, so the operative force of maximum corrigibility remains theoretically asserted rather than empirically demonstrated.",
+      "uncertaintyFactors": [
+        "art-20-4-added-1968-not-1949-original",
+        "right-of-resistance-never-invoked-in-practice"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "memory-driven-restraint",
+      "constitutional-containment"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "postwar-germany"
+  },
+  {
+    "scoreId": "revolutionary-france-score-001",
+    "caseId": "revolutionary-france",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "revolutionary-france-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.63,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order-strength score is supported by the Declaration of Rights' absolute vesting of sovereignty in the Nation and Robespierre's sacralization of the revolutionary order. Confidence capped at moderate; applies primarily to the Terror phase (1793–1794).",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "sacralization"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "revolutionary-france"
+  },
+  {
+    "scoreId": "soviet-communism-score-001",
+    "caseId": "soviet-communism",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "soviet-communism-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Maximum score at Stalinist peak: the Soviet order combined messianic eschatology, revolutionary class identity, and constitutional vanguard monopoly to produce a symbolic order with no legitimate internal challenger. Score applies to peak strength (c. 1936-1953); terminal-phase decay is scored separately in the soviet-union-collapse case. Confidence moderate: requires expansion from founding texts to institutional practices.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "founding-text-to-practice-gap",
+        "historical-periodization-wide"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "collective-immortality",
+      "frozen-pathology"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "soviet-communism"
+  },
+  {
     "scoreId": "soviet-union-collapse-score-001",
     "caseId": "soviet-union-collapse",
     "theoryId": "general-theory-political-pathology-v1",
@@ -108,13 +492,12 @@
     "interpretationId": "soviet-union-collapse-interpretation-001",
     "value": 2,
     "confidence": {
-      "value": 0.6,
+      "value": 0.65,
       "label": "moderate",
-      "rationale": "Score of 2 reflects the terminal-phase strength of the Soviet symbolic order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period; a separate score for the Stalinist peak would be substantially higher.",
+      "rationale": "Passages advanced to evidence-review. Score of 2 reflects the terminal-phase strength of the Soviet symbolic order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period. Confidence raised from 0.60. Capped pending chain expansion.",
       "uncertaintyFactors": [
         "periodization-ambiguity",
-        "stub-score",
-        "minimal-evidence-chain"
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",
@@ -127,6 +510,57 @@
     "caseSlug": "soviet-union-collapse"
   },
   {
+    "scoreId": "soviet-union-collapse-score-002",
+    "caseId": "soviet-union-collapse",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "soviet-union-collapse-interpretation-002",
+    "value": 1,
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Score of 1 (near-minimum) reflects structural corrigibility failure: the order lacked early-warning mechanisms and when correction was attempted, institutional actors aborted it. Score above 0 acknowledges that Gorbachev's reform attempt itself constitutes a corrigibility signal — the system could produce a reformer — but the reformer's failure to prevent collapse and the coup's demonstration that the institutional base would reject correction support the near-minimum score. Lower confidence than other scores because the question of structural vs. contingent failure (could the reforms have succeeded?) remains contested in the historiography.",
+      "uncertaintyFactors": [
+        "gorbachev-reform-attempt-as-partial-corrigibility",
+        "historiography-divides-on-structural-vs-contingent-failure"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "institutional-fragmentation",
+      "legitimacy-collapse"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "soviet-union-collapse"
+  },
+  {
+    "scoreId": "switzerland-score-001",
+    "caseId": "switzerland",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "switzerland-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Maximum corrigibility score: Switzerland's constitutional definition of strength-as-welfare-of-weakest, multi-aim pluralism, federalist distribution, and direct-democracy referendum mechanisms together constitute the most institutionally robust corrigibility architecture in the dataset. Score reflects the design and practice of the order; the historical exclusion of women's suffrage introduces uncertainty that caps confidence below high.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "direct-democracy-exclusion-history-complicates-score"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "corrigibility",
+      "pluralist-reordering"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "switzerland"
+  },
+  {
     "scoreId": "united-states-after-vietnam-score-001",
     "caseId": "united-states-after-vietnam",
     "theoryId": "general-theory-political-pathology-v1",
@@ -134,13 +568,12 @@
     "interpretationId": "united-states-after-vietnam-interpretation-001",
     "value": 3,
     "confidence": {
-      "value": 0.58,
+      "value": 0.62,
       "label": "moderate",
-      "rationale": "Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Mid-range score acknowledges the ambiguity.",
+      "rationale": "Passages advanced to evidence-review. Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Confidence raised from 0.58. Capped pending chain expansion.",
       "uncertaintyFactors": [
         "periodization-contested",
-        "stub-score",
-        "minimal-evidence-chain"
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",
@@ -151,5 +584,83 @@
     ],
     "codebookVersion": "v1",
     "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "scoreId": "united-states-after-vietnam-score-002",
+    "caseId": "united-states-after-vietnam",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "united-states-after-vietnam-interpretation-002",
+    "value": 3,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Score of 3 (moderate) for the 1973–1984 post-Vietnam period: the symbolic order retained democratic institutional coherence but lost Cold War consensus, executive war authority, and public confidence (per Carter). Mid-range score reflects the order's ambiguous status — neither collapsed (Soviet 1991) nor highly constrained (postwar Germany) nor strongly expansive (imperial Japan). Confidence at 0.60 because periodization is genuinely contested: Reagan-era rearmament suggests symbolic-order strength recovered more than a 3 implies by the mid-1980s.",
+      "uncertaintyFactors": [
+        "periodization-1973-1984-vs-later-recovery",
+        "cold-war-framing-kept-some-consensus-intact"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "memory-driven-restraint"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "united-states-after-vietnam"
+  },
+  {
+    "scoreId": "western-roman-empire-score-001",
+    "caseId": "western-roman-empire",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "western-roman-empire-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.55,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order-strength score reflects the peak Roman order, not its terminal phase. The passages document the order at decay onset rather than at full strength; the score applies to the order's historical maximum, with the collapse trajectory requiring separate analysis. Confidence capped at low-moderate given this periodization gap.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity",
+        "peak-vs-terminal-score"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "western-roman-empire"
+  },
+  {
+    "scoreId": "world-war-i-nationalisms-score-001",
+    "caseId": "world-war-i-nationalisms",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "world-war-i-nationalisms-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.6,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order-strength score is supported by both the German and French mobilization declarations dissolving internal distinctions and invoking sacred national unity. Confidence capped at moderate given the multi-nation unit-of-analysis and variable national trajectories after mobilization.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "multi-nation-unit-of-analysis"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "collective-immortality",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "caseSlug": "world-war-i-nationalisms"
   }
 ]
