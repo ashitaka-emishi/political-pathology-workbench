@@ -724,5 +724,41 @@
       ]
     },
     "note": "Issued 8 December 1941 (Japan time). Public domain. English text verified at The World and Japan Database (worldjpn.net): https://worldjpn.net/documents/texts/docs/19411208.O1E.html"
+  },
+  {
+    "id": "gorbachev-cc-plenum-1987",
+    "type": "speech",
+    "title": "Report to the Plenary Session of the CPSU Central Committee",
+    "author": [
+      {
+        "family": "Gorbachev",
+        "given": "Mikhail S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1987,
+          1,
+          27
+        ]
+      ]
+    },
+    "note": "Delivered 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Excerpt verified at Seventeen Moments in Soviet History (Michigan State University): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/"
+  },
+  {
+    "id": "gkchp-appeal-1991",
+    "type": "document",
+    "title": "Appeal to the Soviet People (GKChP)",
+    "issued": {
+      "date-parts": [
+        [
+          1991,
+          8,
+          19
+        ]
+      ]
+    },
+    "note": "Statement of the State Committee on the State of Emergency (GKChP), broadcast on Soviet radio and television starting 08:00, 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm"
   }
 ]

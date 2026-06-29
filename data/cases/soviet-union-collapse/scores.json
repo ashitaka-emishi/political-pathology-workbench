@@ -22,5 +22,26 @@
       "legitimacy-collapse"
     ],
     "codebookVersion": "v1"
+  },
+  {
+    "scoreId": "soviet-union-collapse-score-002",
+    "caseId": "soviet-union-collapse",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "soviet-union-collapse-interpretation-002",
+    "value": 1,
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Score of 1 (near-minimum) reflects structural corrigibility failure: the order lacked early-warning mechanisms and when correction was attempted, institutional actors aborted it. Score above 0 acknowledges that Gorbachev's reform attempt itself constitutes a corrigibility signal — the system could produce a reformer — but the reformer's failure to prevent collapse and the coup's demonstration that the institutional base would reject correction support the near-minimum score. Lower confidence than other scores because the question of structural vs. contingent failure (could the reforms have succeeded?) remains contested in the historiography.",
+      "uncertaintyFactors": [
+        "gorbachev-reform-attempt-as-partial-corrigibility",
+        "historiography-divides-on-structural-vs-contingent-failure"
+      ]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["corrigibility", "institutional-fragmentation", "legitimacy-collapse"],
+    "codebookVersion": "v1"
   }
 ]

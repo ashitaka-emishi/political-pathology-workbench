@@ -20,5 +20,27 @@
         "chain-requires-expansion"
       ]
     }
+  },
+  {
+    "claimId": "soviet-union-collapse-claim-002",
+    "caseId": "soviet-union-collapse",
+    "claim": "The Soviet order's corrigibility deficit operated in two registers simultaneously documented by passage-003 and passage-004: Gorbachev's 1987 CC Plenum speech reveals the order's awareness of systemic failure — stagnation, lost momentum, accumulated problems — but frames correction as the only remaining option ('we have nowhere to retreat to'), signaling corrigibility was attempted too late and too shallowly; the GKChP's 1991 coup statement reveals that correction itself triggered institutional self-preservation from within, as hardliners declared reform 'has reached a dead end' and attempted to abort the correction. Together, the passages document a system that could acknowledge failure but whose institutional structure prevented effective correction from either direction.",
+    "derivedFrom": [
+      "soviet-union-collapse-passage-003",
+      "soviet-union-collapse-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.74,
+      "label": "moderate-high",
+      "rationale": "Both passages are verified against academic and archival sources. The corrigibility-failure interpretation is textually grounded: Gorbachev's 'no other way' framing and the GKChP's 'dead end' declaration together constitute evidence of the correction-suppression dynamic. Confidence capped pending secondary-source corroboration of the claim that this dynamic, not external factors, was primary.",
+      "uncertaintyFactors": [
+        "gkchp-passage-excerpt-may-not-represent-full-statement",
+        "attribution-to-corrigibility-rather-than-external-forces-contested"
+      ]
+    }
   }
 ]
