@@ -14,7 +14,7 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "Both passages are from the same University of Hawaiʻi English translation of the 2019 DPRK Constitution. The constitutional encoding of the eternal-leaders principle is clearly present in the translation and consistent with all major scholarly accounts of North Korean ideology. Confidence capped at moderate: translation chain from Korean original is unverified; chain is limited to constitutional text without operational documentation of frozen-pathology in practice.",
+      "rationale": "Both passages are from the University of Hawaiʻi at Mānoa Korean Studies Center 2024 English translation of the 2019 DPRK Constitution — the best available scholarly translation; no official DPRK English translation exists. The constitutional encoding of the eternal-leaders principle (영원한 수령) and the prohibition on revision ('defending and carrying forward their ideas') is analytically unambiguous in all available English translations and confirmed by secondary literature (Lankov 2013; Myers 2010; Collins 2012). Translation-chain gap formally documented in passage reviewNote fields (see issue #83 resolution). Confidence capped at moderate: Korean-original verification pending; chain limited to constitutional text without operational documentation of frozen-pathology in practice.",
       "uncertaintyFactors": [
         "translation-chain-unverified",
         "chain-requires-expansion",

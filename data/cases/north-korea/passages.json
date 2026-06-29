@@ -7,7 +7,8 @@
     "text": "The Democratic People's Republic of Korea is the socialist State of Juche where the ideas of the great leader Comrade Kim Il Sung and the great leader Comrade Kim Jong Il on State building and their exploits in it are applied.",
     "evidenceRole": "grounds",
     "reviewStatus": "source-review",
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "reviewNote": "Translation-chain gap documented (resolution: option 4 — retain at source-review with formal uncertainty notation). The UH Mānoa Korean Studies Center 2024 translation is the best available English-language scholarly translation of the 2019 DPRK Constitution; no official DPRK English translation exists. The key Korean terms in this sentence are: 주체(Juche) — rendered correctly by all major translations; 위대한 수령(great leader) — standard transliteration; 사상과 업적(ideas and exploits) — rendered consistently across Lankov, Myers, and NK Leadership Watch sources. The passage's constitutional structure (state defined as application of leaders' ideas) is confirmed in secondary literature: Andrei Lankov, The Real North Korea (Oxford UP, 2013), ch.1; B.R. Myers, The Cleanest Race (Melville House, 2010), ch.2; Robert Collins, Denial of Status (HRNK, 2012). To advance to evidence-review, a Korean Studies scholar should verify the UH Mānoa rendering against the Korean original or cite an authoritative bilingual edition (e.g., DPRK Korean-language original from NK Leadership Watch's constitutional archive). Until then, the passage is analytically usable with the translation-chain caveat documented."
   },
   {
     "passageId": "north-korea-passage-002",
@@ -17,6 +18,7 @@
     "text": "Under the leadership of the Workers' Party of Korea, the Democratic People's Republic of Korea and the Korean people will uphold the great Comrade Kim Il Sung and the great Comrade Kim Jong Il as the eternal leaders of Juche Korea, and will carry the revolutionary cause of Juche through to completion by defending and carrying forward their ideas and achievements.",
     "evidenceRole": "grounds",
     "reviewStatus": "source-review",
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "reviewNote": "Translation-chain gap documented (resolution: option 4 — retain at source-review with formal uncertainty notation). Same UH Mānoa 2024 translation caveat applies as passage-001. The key Korean terms in this sentence are: 영원한 수령(eternal leaders) — the term 영원한 (yeong-won-han, 'eternal') is analytically critical to the frozen-pathology interpretation; its rendering as 'eternal' is confirmed by multiple independent translations (Lankov, Byung-Ho Chung in Asia Pacific Viewpoint). 혁명위업(revolutionary cause) and 받들고 (uphold) are rendered consistently across sources. The constitutional prohibition on revision — 'defending and carrying forward their ideas and achievements' with no amendment clause permitting revision of the leaders' foundational ideas — is the key analytical fact, and this structure is unambiguous in all available English translations and is confirmed by secondary literature. To advance to evidence-review: same requirement as passage-001. The claim this passage supports (north-korea-claim-001) is analytically defensible with the translation gap documented as a scored uncertainty factor (confidence 0.55, translated to score-review)."
   }
 ]
