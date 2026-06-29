@@ -21,5 +21,27 @@
         "chain-requires-expansion"
       ]
     }
+  },
+  {
+    "claimId": "imperial-japan-claim-002",
+    "caseId": "imperial-japan",
+    "claim": "The Kokutai no Hongi eliminated corrigibility by defining the sole legitimate mode of existence for Japanese subjects as 'casting ourselves aside' in unconditional service to the Emperor — framing individual thought and dissent not as rights but as symptoms of foreign individualism to be overcome; simultaneously, the 1941 war rescript activated sacred-enemy escalation by framing the Pacific War as necessary defense of the nation's very existence against an encircling threat.",
+    "derivedFrom": [
+      "imperial-japan-passage-003",
+      "imperial-japan-passage-004"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.77,
+      "label": "moderate-high",
+      "rationale": "Passage-003 is from a Columbia University Press scholarly translation verified at Asia for Educators; the corrigibility-elimination claim follows directly from the text's explicit equation of loyalty with self-erasure. Passage-004 is verified at worldjpn.net; the sacred-enemy-escalation framing ('endanger the very existence of Our nation') is unambiguous. Confidence capped: Kokutai's Ministry of Education translation adds one layer of institutional mediation.",
+      "uncertaintyFactors": [
+        "ministry-of-education-translation-mediated",
+        "chain-requires-operational-documentation"
+      ]
+    }
   }
 ]
