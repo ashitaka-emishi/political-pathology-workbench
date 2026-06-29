@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "north-korea-score-001",
+    "caseId": "north-korea",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "north-korea-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.55,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order strength: the DPRK's constitutional design produces total institutional monopoly on symbolic production with no legitimate internal challenger. Score confidence is moderate rather than high due to translation-chain uncertainty and access-restricted primary sources — the score reflects the constitutional design intent and scholarly consensus on North Korean ideology, not verified operational documentation.",
+      "uncertaintyFactors": ["translation-chain-unverified", "chain-requires-expansion", "access-restricted-primary-sources"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order-strength", "frozen-pathology"],
+    "codebookVersion": "v1"
+  }
+]

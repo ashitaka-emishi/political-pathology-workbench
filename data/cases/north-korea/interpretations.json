@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "north-korea-interpretation-001",
+    "caseId": "north-korea",
+    "claimIds": ["north-korea-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "North Korea presents the clearest constitutional case of frozen-pathology in the dataset: the state is definitionally the application of the eternal leaders' Juche ideas, and the entire population is constitutionally bound to uphold those eternal leaders and carry their ideas forward unchanged. This produces maximum symbolic-order strength through total institutional monopoly while eliminating corrigibility by constitutional design — the symbolic order cannot correct itself because correction is constitutionally prohibited as a violation of the eternal leaders' mandate. The mechanism is frozen-pathology rather than active sacrificial escalation: the order is not generating new enemies but is locked in a permanent defensive posture that prevents adaptation.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.58,
+      "label": "moderate",
+      "rationale": "Constitutional text supports the interpretation clearly, but confidence is capped by translation-chain uncertainty and the absence of operational documentation. Source access limitations documented in source-pack.",
+      "uncertaintyFactors": ["translation-chain-unverified", "chain-requires-expansion", "access-restricted-primary-sources"]
+    },
+    "mechanism": "frozen-pathology",
+    "mechanismSummary": "The DPRK symbolic order constitutionally encodes the eternal leaders' ideas as the unchangeable foundation of the state, eliminating corrigibility by design and locking the order in permanent Juche ideology regardless of changing conditions.",
+    "alternativeMechanisms": ["institutional-self-preservation", "sacred-enemy-escalation"],
+    "sacrificeForm": ["labor", "agency", "economic-security", "conscience", "bodily-risk"],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": ["symbolic-order-strength", "frozen-pathology", "corrigibility"],
+    "codebookVersion": "v1"
+  }
+]

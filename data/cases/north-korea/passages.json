@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "north-korea-passage-001",
+    "caseId": "north-korea",
+    "sourceId": "dprk-constitution-2019",
+    "locator": "DPRK Socialist Constitution (2019), Preamble, opening sentence; English translation by University of Hawaiʻi at Mānoa Korean Studies Center (2024), p.1; PDF at https://manoa.hawaii.edu/koreanstudies/wp-content/uploads/2024/10/DPRK-Constitution-2019-EN.pdf. Translation unverified against Korean original.",
+    "text": "The Democratic People's Republic of Korea is the socialist State of Juche where the ideas of the great leader Comrade Kim Il Sung and the great leader Comrade Kim Jong Il on State building and their exploits in it are applied.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "north-korea-passage-002",
+    "caseId": "north-korea",
+    "sourceId": "dprk-constitution-2019",
+    "locator": "DPRK Socialist Constitution (2019), Preamble, penultimate paragraph; English translation by University of Hawaiʻi at Mānoa Korean Studies Center (2024), p.2; PDF at https://manoa.hawaii.edu/koreanstudies/wp-content/uploads/2024/10/DPRK-Constitution-2019-EN.pdf. Translation unverified against Korean original.",
+    "text": "Under the leadership of the Workers' Party of Korea, the Democratic People's Republic of Korea and the Korean people will uphold the great Comrade Kim Il Sung and the great Comrade Kim Jong Il as the eternal leaders of Juche Korea, and will carry the revolutionary cause of Juche through to completion by defending and carrying forward their ideas and achievements.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "source-review",
+    "publicationStatus": "draft"
+  }
+]
