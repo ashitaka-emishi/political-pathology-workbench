@@ -4,8 +4,8 @@
   "migrationSummary": {
     "totalSourceIssues": 47,
     "migratedAsPpwIssues": 6,
-    "mergedIntoPpwCoordinationIssues": 39,
-    "deferred": 2,
+    "mergedIntoPpwCoordinationIssues": 38,
+    "deferred": 3,
     "migrationTrackerIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111"
   },
   "migratedIssues": [
@@ -69,14 +69,14 @@
       "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/112",
       "ppwIssueNumber": 112,
       "ppwTitle": "Milestone 12: Child-Project Issue Migration — pipeline/schema/fixture patterns",
-      "sourceIssuesAbsorbed": [92, 93, 94, 96, 97, 98, 100, 101, 102, 103, 104, 105, 106, 110, 111, 112, 116, 117, 118, 120, 121, 122, 123, 126],
+      "sourceIssuesAbsorbed": [92, 93, 94, 96, 97, 98, 100, 101, 102, 103, 104, 105, 106, 110, 111, 112, 116, 117, 118, 120, 121, 122, 123, 126, 127],
       "disposition": "merge-into-ppw-issue"
     },
     {
       "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/113",
       "ppwIssueNumber": 113,
       "ppwTitle": "Milestone 12: Child-Project Issue Migration — publication/documentation patterns",
-      "sourceIssuesAbsorbed": [78, 82, 84, 99, 100, 101, 106, 107, 124],
+      "sourceIssuesAbsorbed": [78, 82, 84, 99, 107, 124],
       "disposition": "merge-into-ppw-issue"
     }
   ],
@@ -85,6 +85,11 @@
       "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85",
       "sourceTitle": "Tracking v2.0 Multi-Model Reliability Stress Test",
       "resumeCondition": "After Milestone 19 validation fixture foundations"
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95",
+      "sourceTitle": "Classify human coder disagreements",
+      "resumeCondition": "After Milestone 19 claim-promotion gate foundations"
     },
     {
       "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108",

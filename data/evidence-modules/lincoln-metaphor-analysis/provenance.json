@@ -41,5 +41,5 @@
   ],
   "supersessionStatus": "in-progress",
   "supersessionNote": "Child-repo issue tracking superseded by PPW Milestone 12 migration. New implementation work is coordinated through PPW. Source repository is preserved as history and audit context.",
-  "ppwMigrationIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/104"
+  "ppwMigrationIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111"
 }
