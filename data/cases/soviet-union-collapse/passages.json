@@ -18,5 +18,25 @@
     "evidenceRole": "grounds",
     "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
+  },
+  {
+    "passageId": "soviet-union-collapse-passage-003",
+    "caseId": "soviet-union-collapse",
+    "sourceId": "gorbachev-cc-plenum-1987",
+    "locator": "Mikhail S. Gorbachev, Report to the Plenary Session of the CPSU Central Committee, 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Passage verified at Seventeen Moments in Soviet History (Michigan State University): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/",
+    "text": "At a certain stage the country began to lose momentum, difficulties and unsolved problems began to pile up, and stagnation and other phenomena alien to socialism appeared. [...] This fundamental change of direction is necessary, since we simply have no other way. We must not retreat, and we have nowhere to retreat to.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "soviet-union-collapse-passage-004",
+    "caseId": "soviet-union-collapse",
+    "sourceId": "gkchp-appeal-1991",
+    "locator": "State Committee on the State of Emergency (GKChP), Appeal to the Soviet People, broadcast on Soviet radio and television, 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm",
+    "text": "Deadly danger awaits our great homeland! The policy of reforms that Mikhail Gorbachev initiated as a means of guaranteeing dynamic development of our country and the democratization of society, due to a series of reasons, has reached a dead end.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
   }
 ]

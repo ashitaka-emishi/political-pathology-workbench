@@ -12,6 +12,18 @@
       "role": "primary-grounds",
       "access": "public-domain-or-open",
       "notes": "Signed 21 December 1991 by eleven former Soviet republics. Official governmental document; public domain. English text reproduced in major international law collections."
+    },
+    {
+      "sourceId": "gorbachev-cc-plenum-1987",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Report to the CPSU Central Committee Plenary Session, 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Passage verified at Seventeen Moments in Soviet History (MSU): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/"
+    },
+    {
+      "sourceId": "gkchp-appeal-1991",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "GKChP Appeal to the Soviet People, broadcast 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm"
     }
   ]
 }
