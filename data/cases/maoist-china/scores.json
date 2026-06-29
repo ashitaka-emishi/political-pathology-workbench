@@ -10,11 +10,19 @@
       "value": 0.67,
       "label": "moderate",
       "rationale": "Maximum collective-immortality score is directly supported by Mao's canonical texts coding death-for-the-people as the supreme human meaning. Confidence capped at moderate pending chain expansion and periodization review.",
-      "uncertaintyFactors": ["chain-requires-expansion", "periodization-ambiguity"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["collective-immortality", "sacrifice", "pathology"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "collective-immortality",
+      "sacrifice",
+      "pathology"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 5/5 defensible: collective-immortality mechanism (revolutionary martyrdom, continuous revolution doctrine) supports maximum score. Confidence 0.67 reflects chain-requires-expansion and periodization ambiguity (which phase of Maoism?). Hold at score-review until chain expansion and periodization is specified."
   }
 ]

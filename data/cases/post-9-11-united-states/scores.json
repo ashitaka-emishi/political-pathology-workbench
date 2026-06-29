@@ -7,14 +7,21 @@
     "interpretationId": "post-9-11-united-states-interpretation-001",
     "value": 4,
     "confidence": {
-      "value": 0.60,
+      "value": 0.6,
       "label": "moderate",
       "rationale": "Score of 4 reflects high but not maximum symbolic-order strength: the immediate post-9/11 order achieved strong public cohesion and institutional mobilization, but the unlimited enemy definition and absence of constitutional containment produced instability. Not maximum because the order's strength was fear-driven and began declining within years of the founding moment.",
-      "uncertaintyFactors": ["chain-requires-expansion", "enemy-definition-broadened-over-time"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "enemy-definition-broadened-over-time"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["symbolic-order-strength", "sacred-enemy-escalation"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "sacred-enemy-escalation"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 4/5 defensible: sacred-enemy-escalation mechanism (AUMF's unlimited scope, Bush address framing) supports elevated but not maximum symbolic-order-strength — the constitutional framework survived and eventually provided restraint mechanisms. Confidence 0.60 reflects chain-requires-expansion and the broadening-enemy-definition uncertainty. Hold at score-review until chain expansion to ≥4 passages."
   }
 ]

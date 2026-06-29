@@ -15,13 +15,14 @@
         "physical-edition-verification-pending"
       ]
     },
-    "reviewStatus": "argument-review",
+    "reviewStatus": "score-review",
     "publicationStatus": "draft",
     "definitionRefs": [
       "collective-immortality",
       "sacrifice"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 3/5 defensible: collective-immortality variable scored at 3 (moderate-high) rather than maximum because the evidence chain documents the subordination mechanism but not the full immortality discourse present in other passages (e.g., blood-and-soil texts). Confidence 0.65 is proportionate. Advancing from argument-review to score-review: argument-validity check confirms the passage (NSDAP 1933 appeal) directly supports the collective-immortality interpretation at this score value."
   },
   {
     "scoreId": "nazi-germany-score-002",
@@ -36,7 +37,7 @@
     ],
     "codebookVersion": "v1",
     "confidence": {
-      "value": 0.60,
+      "value": 0.6,
       "label": "moderate",
       "rationale": "Passages advanced to evidence-review. Score reflects strong symbolic order strength consistent with case role; physical edition verification and expanded sourcing required before scholarly use.",
       "uncertaintyFactors": [
@@ -45,7 +46,8 @@
       ]
     },
     "reviewStatus": "score-review",
-    "publicationStatus": "draft"
+    "publicationStatus": "draft",
+    "reviewNote": "Score value 5/5 defensible: maximum symbolic-order-strength is strongly supported by the chain — both NSDAP founding texts and the institutional self-preservation mechanism (Wehrmacht oath, one-party law) document an order that commanded total collective identity and obligation. Confidence 0.60 is lower than expected given the strong evidence; the uncertainty factors (single-claim and physical edition pending) are real. Ready for human-reviewed once physical edition verification is complete."
   },
   {
     "scoreId": "nazi-germany-score-003",
@@ -58,11 +60,17 @@
       "value": 0.82,
       "label": "high",
       "rationale": "Minimum corrigibility: both legal instruments directly eliminate the institutional preconditions for symbolic-order self-correction — unconditional personal oath forecloses military dissent; single-party law forecloses political competition. Score of 1 (not 0) preserves the possibility that informal networks and internal party factionalism provided marginal corrigibility channels, but the constitutional-legal architecture is unambiguous.",
-      "uncertaintyFactors": ["chain-requires-integration-with-operational-documentation"]
+      "uncertaintyFactors": [
+        "chain-requires-integration-with-operational-documentation"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["corrigibility", "institutional-self-preservation"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "corrigibility",
+      "institutional-self-preservation"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 1/5 defensible: minimum corrigibility is strongly supported by simultaneous institutional mechanisms (personal loyalty oath eliminating command accountability; one-party law eliminating political correction). Confidence 0.82 is the highest in the dataset and is justified — both mechanisms are directly documented in the evidence chain and mutually reinforcing. Ready for human-reviewed: this is the strongest-evidenced score in the gold cases."
   }
 ]

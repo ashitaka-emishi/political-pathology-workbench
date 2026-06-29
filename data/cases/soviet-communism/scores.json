@@ -7,14 +7,23 @@
     "interpretationId": "soviet-communism-interpretation-001",
     "value": 5,
     "confidence": {
-      "value": 0.60,
+      "value": 0.6,
       "label": "moderate",
       "rationale": "Maximum score at Stalinist peak: the Soviet order combined messianic eschatology, revolutionary class identity, and constitutional vanguard monopoly to produce a symbolic order with no legitimate internal challenger. Score applies to peak strength (c. 1936-1953); terminal-phase decay is scored separately in the soviet-union-collapse case. Confidence moderate: requires expansion from founding texts to institutional practices.",
-      "uncertaintyFactors": ["chain-requires-expansion", "founding-text-to-practice-gap", "historical-periodization-wide"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "founding-text-to-practice-gap",
+        "historical-periodization-wide"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["symbolic-order-strength", "collective-immortality", "frozen-pathology"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "symbolic-order-strength",
+      "collective-immortality",
+      "frozen-pathology"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (Marxist-Leninist historical materialism, USSR Constitution 1977 collective ownership provisions) supports maximum symbolic-order-strength in the high-period order. Confidence 0.60 reflects three uncertainty factors (chain minimal, founding-text-to-practice gap, wide periodization). Hold at score-review until chain expansion and periodization is bounded to a specific Soviet period."
   }
 ]

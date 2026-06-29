@@ -7,7 +7,7 @@
     "interpretationId": "imperial-japan-interpretation-001",
     "value": 5,
     "confidence": {
-      "value": 0.70,
+      "value": 0.7,
       "label": "moderate-high",
       "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum symbolic-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
       "uncertaintyFactors": [
@@ -22,7 +22,8 @@
       "collective-immortality",
       "sacrifice"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 5/5 defensible: maximum symbolic-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified and chain-requires-expansion resolved."
   },
   {
     "scoreId": "imperial-japan-score-002",
@@ -35,11 +36,19 @@
       "value": 0.75,
       "label": "moderate-high",
       "rationale": "Minimum corrigibility: the Kokutai no Hongi ontologically equated individual judgment with disloyalty and 'non-existence,' eliminating the conceptual basis for legitimate dissent. Score of 1 (not 0) acknowledges that factional disputes within the military and government constituted marginal corrigibility channels, but the doctrinal framework made their operation transgressive rather than legitimate.",
-      "uncertaintyFactors": ["ministry-of-education-translation-mediated", "chain-requires-operational-documentation"]
+      "uncertaintyFactors": [
+        "ministry-of-education-translation-mediated",
+        "chain-requires-operational-documentation"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["corrigibility", "collective-immortality", "institutional-self-preservation"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "corrigibility",
+      "collective-immortality",
+      "institutional-self-preservation"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 1/5 defensible: Kokutai no Hongi's ontological equation of loyalty with self-erasure and the framing of individual selfhood outside imperial service as non-existence eliminates the conceptual basis for legitimate dissent. Score of 1 (not 0) correctly acknowledges that military factional disputes provided a marginal corrigibility channel. Confidence 0.75 is well-calibrated. Ready for human-reviewed pending chain expansion to document operational corrigibility limits."
   }
 ]

@@ -7,14 +7,23 @@
     "interpretationId": "world-war-i-nationalisms-interpretation-001",
     "value": 5,
     "confidence": {
-      "value": 0.60,
+      "value": 0.6,
       "label": "moderate",
       "rationale": "Maximum symbolic-order-strength score is supported by both the German and French mobilization declarations dissolving internal distinctions and invoking sacred national unity. Confidence capped at moderate given the multi-nation unit-of-analysis and variable national trajectories after mobilization.",
-      "uncertaintyFactors": ["chain-requires-expansion", "multi-nation-unit-of-analysis"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "multi-nation-unit-of-analysis"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "collective-immortality", "sacrifice"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "symbolic-order",
+      "symbolic-order-strength",
+      "collective-immortality",
+      "sacrifice"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (nationalist sacrifice discourse across all major belligerents) supports maximum symbolic-order-strength. Confidence 0.60 reflects chain-requires-expansion and the multi-nation unit-of-analysis problem (the case aggregates several national orders). Hold at score-review; specify the unit of analysis before human-reviewed."
   }
 ]

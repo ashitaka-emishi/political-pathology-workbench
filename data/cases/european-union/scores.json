@@ -7,14 +7,22 @@
     "interpretationId": "european-union-interpretation-001",
     "value": 4,
     "confidence": {
-      "value": 0.60,
+      "value": 0.6,
       "label": "moderate",
       "rationale": "Score of 4 reflects high but not maximum corrigibility: the EU's pluralist architecture and legal correction mechanisms are strong, but democratic-backsliding within member states and the Brexit precedent reveal limits to the order's self-correction capacity. Not maximum because the order cannot fully enforce its own normative standards on member states without triggering exit or legitimacy crises.",
-      "uncertaintyFactors": ["chain-requires-expansion", "democratic-backsliding-complicates-corrigibility-score", "brexit-shows-exit-mechanism-limits"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "democratic-backsliding-complicates-corrigibility-score",
+        "brexit-shows-exit-mechanism-limits"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["corrigibility", "pluralist-reordering"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "corrigibility",
+      "pluralist-reordering"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 4/5 defensible: pluralist-reordering mechanism (Treaty on European Union's consensus architecture) represents high corrigibility. Confidence 0.60 correctly reflects that democratic backsliding in member states and Brexit's demonstration of exit-mechanism limits are genuine threats to the corrigibility claim. Hold at score-review until chain expansion; flag democratic-backsliding cases as a priority secondary source for the chain."
   }
 ]

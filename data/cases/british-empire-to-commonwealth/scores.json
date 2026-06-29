@@ -10,11 +10,19 @@
       "value": 0.58,
       "label": "moderate",
       "rationale": "Score of 3 reflects moderate corrigibility: the Empire-to-Commonwealth transformation demonstrates genuine symbolic self-revision at the constitutional level, but the neocolonial continuity of the post-1931 relationship and the subsequent violence of decolonization (Kenya, India partition, Cyprus, etc.) reveal that the symbolic redesign was partial and did not extend the corrigibility mechanism to the full scope of imperial relationships. Higher than North Korea (frozen) but substantially lower than Canada or Switzerland.",
-      "uncertaintyFactors": ["chain-requires-expansion", "neocolonial-continuity-complicates-equality-claim", "transformation-incomplete-post-1931"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "neocolonial-continuity-complicates-equality-claim",
+        "transformation-incomplete-post-1931"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["corrigibility", "symbolic-transformation"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "corrigibility",
+      "symbolic-transformation"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 3/5 defensible: symbolic-transformation mechanism (Balfour Declaration / Statute of Westminster) represents partial corrigibility — the order relinquished some authority without fully embracing equality. Confidence 0.58 is proportionate: neocolonial continuity and incomplete transformation are genuine uncertainty factors, not overcautious caveats. Hold at score-review until chain expansion to ≥4 passages."
   }
 ]

@@ -10,11 +10,18 @@
       "value": 0.65,
       "label": "moderate",
       "rationale": "Score of 4 reflects high but not maximum corrigibility: the Section 1 proportionality mechanism is among the strongest constitutionally embedded self-correction systems in the dataset, but the notwithstanding clause (s.33) provides a legislative escape valve that has been used, capping the score below maximum.",
-      "uncertaintyFactors": ["chain-requires-expansion", "notwithstanding-clause-s33-complicates-corrigibility-score"]
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "notwithstanding-clause-s33-complicates-corrigibility-score"
+      ]
     },
     "reviewStatus": "score-review",
     "publicationStatus": "draft",
-    "definitionRefs": ["corrigibility", "constitutional-containment"],
-    "codebookVersion": "v1"
+    "definitionRefs": [
+      "corrigibility",
+      "constitutional-containment"
+    ],
+    "codebookVersion": "v1",
+    "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Canadian Charter s.1/s.2) represents high corrigibility with one caveat — the notwithstanding clause (s.33) creates a legislative override that is the documented uncertainty factor. Confidence 0.65 reflects this structural complication. Ready for human-reviewed pending chain expansion to ≥4 passages."
   }
 ]
