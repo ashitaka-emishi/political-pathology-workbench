@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "post-9-11-united-states-passage-001",
+    "caseId": "post-9-11-united-states",
+    "sourceId": "aumf-2001",
+    "locator": "Authorization for Use of Military Force, Public Law 107-40, § 2(a), 18 September 2001, 115 Stat. 224; text verified at https://www.govinfo.gov/content/pkg/PLAW-107publ40/html/PLAW-107publ40.htm",
+    "text": "That the President is authorized to use all necessary and appropriate force against those nations, organizations, or persons he determines planned, authorized, committed, or aided the terrorist attacks that occurred on September 11, 2001, or harbored such organizations or persons, in order to prevent any future acts of international terrorism against the United States by such nations, organizations or persons.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "post-9-11-united-states-passage-002",
+    "caseId": "post-9-11-united-states",
+    "sourceId": "bush-address-congress-2001",
+    "locator": "George W. Bush, Address to a Joint Session of Congress and the American People, 20 September 2001; text verified at https://www.whatsoproudlywehail.org/curriculum/the-american-calendar/address-to-a-joint-session-of-congress-following-the-911-attacks/",
+    "text": "Every nation, in every region, now has a decision to make: Either you are with us, or you are with the terrorists. From this day forward, any nation that continues to harbor or support terrorism will be regarded by the United States as a hostile regime.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

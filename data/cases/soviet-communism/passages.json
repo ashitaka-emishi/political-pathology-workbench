@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "soviet-communism-passage-001",
+    "caseId": "soviet-communism",
+    "sourceId": "marx-engels-communist-manifesto-1848",
+    "locator": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, 1848, Chapter 4 (closing); Samuel Moore English translation (1888); text verified at https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch04.htm",
+    "text": "The Communists disdain to conceal their views and aims. They openly declare that their ends can be attained only by the forcible overthrow of all existing social conditions. Let the ruling classes tremble at a Communistic revolution. The proletarians have nothing to lose but their chains. They have a world to win. Working Men of All Countries, Unite!",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "soviet-communism-passage-002",
+    "caseId": "soviet-communism",
+    "sourceId": "ussr-constitution-1977",
+    "locator": "Constitution (Fundamental Law) of the Union of Soviet Socialist Republics, 7 October 1977, Article 6; English text verified at https://www.departments.bucknell.edu/russian/const/77cons01.html",
+    "text": "The leading and guiding force of the Soviet society and the nucleus of its political system, of all state organisations and public organisations, is the Communist Party of the Soviet Union. The CPSU exists for the people and serves the people. The Communist Party, armed with Marxism-Leninism, determines the general perspectives of the development of society and the course of the home and foreign policy of the USSR, directs the great constructive work of the Soviet people, and imparts a planned, systematic and theoretically substantiated character to their struggle for the victory of communism.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

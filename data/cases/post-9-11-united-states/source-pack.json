@@ -1,4 +1,17 @@
 {
   "caseId": "post-9-11-united-states",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "aumf-2001",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public law. Full text at govinfo.gov."
+    },
+    {
+      "sourceId": "bush-address-congress-2001",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain presidential address. Verified at whatsoproudlywehail.org."
+    }
+  ]
 }

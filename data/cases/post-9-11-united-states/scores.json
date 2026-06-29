@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "post-9-11-united-states-score-001",
+    "caseId": "post-9-11-united-states",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "post-9-11-united-states-interpretation-001",
+    "value": 4,
+    "confidence": {
+      "value": 0.60,
+      "label": "moderate",
+      "rationale": "Score of 4 reflects high but not maximum symbolic-order strength: the immediate post-9/11 order achieved strong public cohesion and institutional mobilization, but the unlimited enemy definition and absence of constitutional containment produced instability. Not maximum because the order's strength was fear-driven and began declining within years of the founding moment.",
+      "uncertaintyFactors": ["chain-requires-expansion", "enemy-definition-broadened-over-time"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order-strength", "sacred-enemy-escalation"],
+    "codebookVersion": "v1"
+  }
+]

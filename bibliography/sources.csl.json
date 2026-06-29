@@ -435,5 +435,121 @@
       ]
     },
     "note": "Written 413–426 AD. Public domain. Marcus Dods English translation available at New Advent: https://www.newadvent.org/fathers/1201.htm"
+  },
+  {
+    "id": "lincoln-gettysburg-address-1863",
+    "type": "speech",
+    "title": "Gettysburg Address",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1863,
+          11,
+          19
+        ]
+      ]
+    },
+    "note": "Delivered at Soldiers' National Cemetery, Gettysburg PA, 19 November 1863. Public domain. Bliss copy (definitive version) text available at abrahamlincolnonline.org and ushistory.org/documents/gettysburg.htm"
+  },
+  {
+    "id": "lincoln-second-inaugural-1865",
+    "type": "speech",
+    "title": "Second Inaugural Address",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1865,
+          3,
+          4
+        ]
+      ]
+    },
+    "note": "Delivered 4 March 1865. Public domain. Verified at Avalon Project, Yale Law School: https://avalon.law.yale.edu/19th_century/lincoln2.asp"
+  },
+  {
+    "id": "aumf-2001",
+    "type": "legislation",
+    "title": "Authorization for Use of Military Force",
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          9,
+          18
+        ]
+      ]
+    },
+    "note": "Public Law 107-40, 115 Stat. 224, signed 18 September 2001. Full text at govinfo.gov: https://www.govinfo.gov/content/pkg/PLAW-107publ40/html/PLAW-107publ40.htm"
+  },
+  {
+    "id": "bush-address-congress-2001",
+    "type": "speech",
+    "title": "Address to a Joint Session of Congress and the American People",
+    "author": [
+      {
+        "family": "Bush",
+        "given": "George W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          9,
+          20
+        ]
+      ]
+    },
+    "note": "Delivered to Joint Session of Congress, 20 September 2001. Public domain. Text verified at https://www.whatsoproudlywehail.org/curriculum/the-american-calendar/address-to-a-joint-session-of-congress-following-the-911-attacks/"
+  },
+  {
+    "id": "marx-engels-communist-manifesto-1848",
+    "type": "book",
+    "title": "Manifesto of the Communist Party",
+    "author": [
+      {
+        "family": "Marx",
+        "given": "Karl"
+      },
+      {
+        "family": "Engels",
+        "given": "Friedrich"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1848
+        ]
+      ]
+    },
+    "note": "Published February 1848. Public domain. Samuel Moore English translation (1888) verified at https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "id": "ussr-constitution-1977",
+    "type": "legislation",
+    "title": "Constitution (Fundamental Law) of the Union of Soviet Socialist Republics",
+    "issued": {
+      "date-parts": [
+        [
+          1977,
+          10,
+          7
+        ]
+      ]
+    },
+    "note": "Adopted 7 October 1977. English text verified at Bucknell University Russian Department: https://www.departments.bucknell.edu/russian/const/77cons01.html and Marxists.org: https://www.marxists.org/history/ussr/government/constitution/1977/"
   }
 ]

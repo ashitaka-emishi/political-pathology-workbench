@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "american-civil-war-union-interpretation-001",
+    "caseId": "american-civil-war-union",
+    "claimIds": ["american-civil-war-union-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Union symbolic order at its Civil War peak demonstrates high symbolic-order strength animated by anti-sacrificial restraint: Lincoln's Gettysburg framing directs the dead soldiers' sacrifice toward democratic re-founding rather than collective immortality through enemy annihilation, while the Second Inaugural — delivered at the moment of military victory — refuses malice and calls for charity toward the defeated. This is a hybrid case because the order required enormous sacrifice to preserve itself, yet its leading symbolic architect explicitly refused to convert that sacrifice into sacral hatred of the enemy. The result is a symbolic order that achieved high strength through bounded sacrifice, distinguishing it from escalatory cases like Nazi Germany or Khmer Rouge.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Chain thin but directly on point. Reconstruction's subsequent collapse complicates the anti-sacrificial reading; score applies to the order's peak Lincoln-era formulation.",
+      "uncertaintyFactors": ["chain-requires-expansion", "reconstruction-failure-complicates-anti-sacrificial-score"]
+    },
+    "mechanism": "anti-sacrificial-restraint",
+    "mechanismSummary": "At the moment of maximum symbolic power (military victory), Lincoln redirected the war's moral energy away from enemy-destruction and toward healing, refusing the escalatory logic available to him — a deliberate anti-sacrificial framing that distinguishes the Union case from pathological comparators.",
+    "alternativeMechanisms": ["collective-immortality-to-sacrifice", "constitutional-containment"],
+    "sacrificeForm": ["death", "blood-sacrifice", "labor"],
+    "sacrificeHealth": "mixed",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "anti-sacrificial-restraint", "corrigibility"],
+    "codebookVersion": "v1"
+  }
+]
