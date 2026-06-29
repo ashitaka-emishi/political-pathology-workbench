@@ -1,0 +1,36 @@
+{
+  "inventoryDate": "2026-06-29",
+  "generatedBy": "gh issue list",
+  "purpose": "Raw open-issue inventory for child-project issue migration into political-pathology-workbench.",
+  "targetRepository": "ashitaka-emishi/political-pathology-workbench",
+  "exports": [
+    {
+      "repository": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "state": "open",
+      "issueCount": 47,
+      "path": "data/migration/lincoln-metaphor-analysis-open-issues.json"
+    },
+    {
+      "repository": "ashitaka-emishi/sacrifice-law-workbench",
+      "state": "open",
+      "issueCount": 2,
+      "path": "data/migration/sacrifice-law-workbench-open-issues.json"
+    },
+    {
+      "repository": "ashitaka-emishi/political-pathology-workbench",
+      "state": "open",
+      "issueCount": 90,
+      "path": "data/migration/political-pathology-workbench-open-issues-before-migration.json"
+    }
+  ],
+  "fields": [
+    "number",
+    "title",
+    "state",
+    "labels",
+    "milestone",
+    "url",
+    "createdAt",
+    "updatedAt"
+  ]
+}
