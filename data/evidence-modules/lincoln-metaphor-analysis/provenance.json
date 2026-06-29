@@ -1,0 +1,45 @@
+{
+  "moduleId": "lincoln-metaphor-analysis",
+  "sourceRepository": {
+    "owner": "ashitaka-emishi",
+    "repo": "lincoln-metaphor-analysis",
+    "url": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis",
+    "defaultBranch": "main",
+    "preservationRole": "source history, citation context, and audit provenance"
+  },
+  "artifactFamilies": [
+    {
+      "family": "corpus",
+      "description": "Multi-tier annotated corpus of Lincoln rhetoric (1838-1865): 48-doc core, 75-100 doc validation, and search-only reference sets",
+      "rightsNotes": "Lincoln's own writings are public domain. Third-party commentary, translations, and editorial apparatus require rights review before import."
+    },
+    {
+      "family": "annotations",
+      "description": "Stage-by-stage annotation artifacts: segmentation (Stage 4A model scoring), clustering (Stage 4A outputs), human coding (Stage 4H), adjudication (Stage 4J)",
+      "rightsNotes": "Annotation artifacts are original work of this project; no third-party rights apply."
+    },
+    {
+      "family": "reliability-study",
+      "description": "Inter-annotator reliability studies across v2 (multi-model), v3 (human IAA), and planned v4 sampling designs",
+      "rightsNotes": "Reliability records are original work of this project."
+    },
+    {
+      "family": "methodology",
+      "description": "Codebook, stage definitions, annotation guidelines, and corpus expansion architecture documentation",
+      "rightsNotes": "Original work; may be referenced from PPW method notes."
+    },
+    {
+      "family": "publication",
+      "description": "Quarto publication site with per-stage result pages, methodology documentation, and release checklists",
+      "rightsNotes": "Child-repo site remains live as primary publication. PPW site will reference it."
+    },
+    {
+      "family": "pipeline-scripts",
+      "description": "Python and shell pipeline scripts for corpus ingestion, segmentation, annotation, and validation",
+      "rightsNotes": "Child-repo-specific; inform PPW pipeline design but are not imported."
+    }
+  ],
+  "supersessionStatus": "in-progress",
+  "supersessionNote": "Child-repo issue tracking superseded by PPW Milestone 12 migration. New implementation work is coordinated through PPW. Source repository is preserved as history and audit context.",
+  "ppwMigrationIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/104"
+}

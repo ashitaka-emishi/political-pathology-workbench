@@ -1,0 +1,95 @@
+{
+  "moduleId": "lincoln-metaphor-analysis",
+  "sourceRepository": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "migrationSummary": {
+    "totalSourceIssues": 47,
+    "migratedAsPpwIssues": 6,
+    "mergedIntoPpwCoordinationIssues": 39,
+    "deferred": 2,
+    "migrationTrackerIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111"
+  },
+  "migratedIssues": [
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/109",
+      "sourceTitle": "Define v4 corpus expansion architecture",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/194",
+      "ppwIssueNumber": 194,
+      "ppwTitle": "Define Lincoln corpus expansion architecture",
+      "ppwMilestone": 16,
+      "disposition": "migrate-as-ppw-issue"
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/113",
+      "sourceTitle": "Create 48-document v4 core corpus inventory",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/195",
+      "ppwIssueNumber": 195,
+      "ppwTitle": "Create 48-document Lincoln v4 core corpus inventory",
+      "ppwMilestone": 15,
+      "disposition": "migrate-as-ppw-issue"
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/114",
+      "sourceTitle": "Create 75-100 document validation corpus inventory",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/196",
+      "ppwIssueNumber": 196,
+      "ppwTitle": "Create 75-100 document Lincoln validation corpus inventory",
+      "ppwMilestone": 15,
+      "disposition": "migrate-as-ppw-issue"
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/115",
+      "sourceTitle": "Create search-only reference corpus inventory",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/197",
+      "ppwIssueNumber": 197,
+      "ppwTitle": "Create search-only Lincoln reference corpus inventory",
+      "ppwMilestone": 15,
+      "disposition": "migrate-as-ppw-issue"
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/119",
+      "sourceTitle": "Add raw text files for v4 core additions",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/198",
+      "ppwIssueNumber": 198,
+      "ppwTitle": "Add raw text files for Lincoln v4 core corpus additions",
+      "ppwMilestone": 16,
+      "disposition": "migrate-as-ppw-issue"
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/125",
+      "sourceTitle": "Update reliability sampling strategy for v4 corpus",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/199",
+      "ppwIssueNumber": 199,
+      "ppwTitle": "Update reliability sampling strategy for Lincoln v4 corpus",
+      "ppwMilestone": 19,
+      "disposition": "migrate-as-ppw-issue"
+    }
+  ],
+  "mergedCoordinationIssues": [
+    {
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/112",
+      "ppwIssueNumber": 112,
+      "ppwTitle": "Milestone 12: Child-Project Issue Migration — pipeline/schema/fixture patterns",
+      "sourceIssuesAbsorbed": [92, 93, 94, 96, 97, 98, 100, 101, 102, 103, 104, 105, 106, 110, 111, 112, 116, 117, 118, 120, 121, 122, 123, 126],
+      "disposition": "merge-into-ppw-issue"
+    },
+    {
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/113",
+      "ppwIssueNumber": 113,
+      "ppwTitle": "Milestone 12: Child-Project Issue Migration — publication/documentation patterns",
+      "sourceIssuesAbsorbed": [78, 82, 84, 99, 100, 101, 106, 107, 124],
+      "disposition": "merge-into-ppw-issue"
+    }
+  ],
+  "deferredIssues": [
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85",
+      "sourceTitle": "Tracking v2.0 Multi-Model Reliability Stress Test",
+      "resumeCondition": "After Milestone 19 validation fixture foundations"
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108",
+      "sourceTitle": "Tracking v3.0 Human Inter-Annotator Reliability Study",
+      "resumeCondition": "After Milestone 19 validation fixture foundations"
+    }
+  ]
+}
