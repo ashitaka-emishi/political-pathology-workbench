@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "claimId": "european-union-claim-001",
+    "caseId": "european-union",
+    "claim": "The EU symbolic order institutionalizes pluralist reordering as its constitutive principle: the TEU frames integration as a continuous process ('ever closer union') rather than a fixed final state, and grounds that process in liberty, democracy, and rule of law rather than sacred-enemy construction — a symbolic architecture that produces corrigibility through ongoing multi-state negotiation rather than sacrificial escalation.",
+    "derivedFrom": [
+      "european-union-passage-001",
+      "european-union-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.67,
+      "label": "moderate",
+      "rationale": "Both passages are from the official EUR-Lex consolidated TEU preamble, verified against the authoritative source. The 'ever closer union' recital is foundational to EU self-understanding; the liberty/democracy/rule-of-law recital specifies the symbolic order's normative grounding. Confidence capped: chain requires expansion to include institutional structures (Council, Parliament, Court of Justice) and crisis episodes (Brexit, Hungary, Poland) that complicate the corrigibility score.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "democratic-backsliding-complicates-corrigibility-score",
+        "brexit-shows-exit-mechanism-limits"
+      ]
+    }
+  }
+]

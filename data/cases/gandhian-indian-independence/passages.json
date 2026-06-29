@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "gandhian-indian-independence-passage-001",
+    "caseId": "gandhian-indian-independence",
+    "sourceId": "gandhi-hind-swaraj-1909",
+    "locator": "M. K. Gandhi, Hind Swaraj, Chapter 17 ('Passive Resistance'), 1909; author's English translation (1910); text verified at https://www.gandhiashramsevagram.org/hind-swaraj/chapter-17-passive-resistance.php",
+    "text": "If by using violence I force the Government to repeal the law, I am employing what may be termed body-force. If I do not obey the law and accept the penalty for its breach, I use soul-force.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "gandhian-indian-independence-passage-002",
+    "caseId": "gandhian-indian-independence",
+    "sourceId": "gandhi-hind-swaraj-1909",
+    "locator": "M. K. Gandhi, Hind Swaraj, Chapter 17 ('Passive Resistance'), 1909; author's English translation (1910); text verified at https://www.gandhiashramsevagram.org/hind-swaraj/chapter-17-passive-resistance.php",
+    "text": "Passive resistance, that is, soul-force, is matchless. It is superior to the force of arms.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

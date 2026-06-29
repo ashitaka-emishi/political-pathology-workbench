@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "gandhian-indian-independence-score-001",
+    "caseId": "gandhian-indian-independence",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "gandhian-indian-independence-interpretation-001",
+    "value": 3,
+    "confidence": {
+      "value": 0.58,
+      "label": "moderate",
+      "rationale": "Score of 3 reflects moderate symbolic-order strength: the Gandhian order achieved independence and generated enormous moral authority, but its strength was achieved without the institutional consolidation that produces maximum scores. Partition and subsequent Indian constitutional history suggest the Gandhian symbolic order did not fully transfer its anti-sacrificial principles to the state-building phase.",
+      "uncertaintyFactors": ["chain-requires-expansion", "partition-violence-complicates-anti-sacrificial-score", "practice-theory-gap"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order-strength", "anti-sacrificial-restraint"],
+    "codebookVersion": "v1"
+  }
+]

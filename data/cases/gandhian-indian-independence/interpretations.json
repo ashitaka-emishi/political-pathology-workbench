@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "gandhian-indian-independence-interpretation-001",
+    "caseId": "gandhian-indian-independence",
+    "claimIds": ["gandhian-indian-independence-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Gandhian symbolic order achieves moderate-high symbolic strength through a theoretically novel route: rather than sacralizing national identity through sacred-enemy construction or blood-sacrifice demands, Gandhi's doctrine redirects sacrifice entirely to self-suffering. Body-force (violence against the enemy) is explicitly rejected as inferior to soul-force (accepting penalty for truth-bearing resistance). This anti-sacrificial logic gives the symbolic order high corrigibility — the movement cannot generate internal purges or sacrificial escalation from its own constitutive principles — while achieving independence through collective action. The clearest theoretical countercase to the pathological sacrificial-escalation gold cases.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Chain thin; theoretical founding texts only. Operational episodes and partition violence complicate the score.",
+      "uncertaintyFactors": ["chain-requires-expansion", "partition-violence-complicates-anti-sacrificial-score", "practice-theory-gap"]
+    },
+    "mechanism": "anti-sacrificial-restraint",
+    "mechanismSummary": "Gandhi's satyagraha doctrine explicitly substitutes self-suffering for enemy-directed violence, achieving political transformation through soul-force rather than body-force — a constitutive anti-sacrificial restraint that structurally prevents sacred-enemy escalation.",
+    "alternativeMechanisms": ["pluralist-reordering", "constitutional-containment"],
+    "sacrificeForm": ["time", "agency", "dignity", "bodily-risk"],
+    "sacrificeHealth": "healthy",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "self",
+    "definitionRefs": ["symbolic-order-strength", "anti-sacrificial-restraint", "corrigibility", "sacrifice"],
+    "codebookVersion": "v1"
+  }
+]

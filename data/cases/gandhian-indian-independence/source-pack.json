@@ -1,4 +1,11 @@
 {
   "caseId": "gandhian-indian-independence",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "gandhi-hind-swaraj-1909",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Author's English translation (1910) verified at https://www.gandhiashramsevagram.org/hind-swaraj/"
+    }
+  ]
 }

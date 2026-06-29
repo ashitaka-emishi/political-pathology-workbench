@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "canada-passage-001",
+    "caseId": "canada",
+    "sourceId": "canadian-charter-1982",
+    "locator": "Canadian Charter of Rights and Freedoms, Schedule B to the Constitution Act, 1982, Section 1; text verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+    "text": "The Canadian Charter of Rights and Freedoms guarantees the rights and freedoms set out in it subject only to such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "canada-passage-002",
+    "caseId": "canada",
+    "sourceId": "canadian-charter-1982",
+    "locator": "Canadian Charter of Rights and Freedoms, Schedule B to the Constitution Act, 1982, Section 15(1); text verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+    "text": "Every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination and, in particular, without discrimination based on race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

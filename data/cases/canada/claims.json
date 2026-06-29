@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "claimId": "canada-claim-001",
+    "caseId": "canada",
+    "claim": "The Canadian constitutional order embeds high corrigibility through the Charter's Section 1 'reasonable limits' clause: rights guarantees are deliberately constructed as non-absolute, requiring governments to demonstrate proportionality under judicial review — a mechanism that institutionalizes the symbolic order's capacity to self-correct without sacrificial escalation or sacred-enemy construction.",
+    "derivedFrom": [
+      "canada-passage-001",
+      "canada-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.73,
+      "label": "moderate-high",
+      "rationale": "Both passages are official government legislative texts verified against the Department of Justice Canada. The Section 1 limitations clause is analytically central: it institutionalizes proportionality review as the corrective mechanism for rights-order tensions. Confidence capped pending chain expansion to include Oakes test jurisprudence and notwithstanding clause complications.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "notwithstanding-clause-s33-complicates-corrigibility-score"
+      ]
+    }
+  }
+]

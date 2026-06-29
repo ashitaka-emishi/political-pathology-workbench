@@ -1,4 +1,11 @@
 {
   "caseId": "canada",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "canadian-charter-1982",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Official government text. Verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+    }
+  ]
 }
