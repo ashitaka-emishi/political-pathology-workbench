@@ -12,11 +12,10 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.65,
+      "value": 0.68,
       "label": "moderate",
-      "rationale": "The War Powers Resolution and Carter speech directly support a restrained-reordering reading, but the subsequent Reagan-era effort to overcome the Vietnam syndrome complicates the interpretation. Confidence capped pending chain expansion.",
+      "rationale": "Both passages advanced to evidence-review. WPR § 2(a) text corrected against Cornell LII codified form ('joint resolution' → 'chapter'; truncated final clause restored). Carter speech confirmed verbatim against Miller Center archive. Confidence raised from 0.65. Capped pending chain expansion; Reagan-era Vietnam syndrome reversal remains a complicating factor.",
       "uncertaintyFactors": [
-        "passage-text-pending-source-verification",
         "chain-requires-expansion",
         "periodization-contested"
       ]

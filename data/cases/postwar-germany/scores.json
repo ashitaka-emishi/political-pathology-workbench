@@ -7,12 +7,11 @@
     "interpretationId": "postwar-germany-interpretation-001",
     "value": 4,
     "confidence": {
-      "value": 0.65,
-      "label": "moderate",
-      "rationale": "High corrigibility score is structurally justified by the constitutional design; capped at moderate confidence pending chain expansion and secondary-source corroboration.",
+      "value": 0.70,
+      "label": "moderate-high",
+      "rationale": "Passages advanced to evidence-review after text confirmation against official Bundestag translation. High corrigibility score is structurally justified by the constitutional design; confidence raised from 0.65. Capped pending chain expansion and secondary-source corroboration.",
       "uncertaintyFactors": [
-        "minimal-evidence-chain",
-        "stub-score"
+        "chain-requires-expansion"
       ]
     },
     "reviewStatus": "score-review",

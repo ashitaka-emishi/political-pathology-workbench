@@ -3,20 +3,20 @@
     "passageId": "soviet-union-collapse-passage-001",
     "caseId": "soviet-union-collapse",
     "sourceId": "gorbachev-resignation-speech-1991",
-    "locator": "Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections",
-    "text": "Fate had it that when I found myself at the head of the state it was already clear that there was something wrong in this country. We had plenty of everything: land, oil and gas, other natural resources, and God has also endowed us with intelligence and talent — yet we lived much worse than developed countries and kept falling further and further behind them.",
+    "locator": "Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections. Text updated to match Marxists.org translation (https://www.marxists.org/archive/gorbachev/1991/december-25.htm) as the most accessible authoritative English version; Doubleday 1996 Memoirs edition wording may differ and requires physical library verification.",
+    "text": "Fate had it that when I found myself at the head of the state it was already clear that all was not well in the country. There is plenty of everything: land, oil and gas, other natural riches, and God gave us lots of intelligence and talent, yet we lived much worse than developed countries and keep falling behind them more and more.",
     "evidenceRole": "grounds",
-    "reviewStatus": "source-review",
+    "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
   },
   {
     "passageId": "soviet-union-collapse-passage-002",
     "caseId": "soviet-union-collapse",
     "sourceId": "alma-ata-declaration-1991",
-    "locator": "Alma-Ata Declaration, 21 December 1991, signed by eleven former Soviet republics; reproduced in International Legal Materials 31:1 (1992), p. 148",
+    "locator": "Alma-Ata Declaration, 21 December 1991, signed by eleven former Soviet republics; reproduced in International Legal Materials 31:1 (1992), p. 148. Text confirmed verbatim against https://eccis.org/en/page/178 and https://www.bits.de/NRANEU/START/documents/alma-ata91.htm",
     "text": "With the formation of the Commonwealth of Independent States, the Union of Soviet Socialist Republics ceases to exist.",
     "evidenceRole": "grounds",
-    "reviewStatus": "source-review",
+    "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
   }
 ]
