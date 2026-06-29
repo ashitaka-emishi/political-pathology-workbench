@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "world-war-i-nationalisms-passage-001",
+    "caseId": "world-war-i-nationalisms",
+    "sourceId": "kaiser-wilhelm-reichstag-speech-1914",
+    "locator": "Kaiser Wilhelm II, Address to the Reichstag, 4 August 1914; English translation in German History in Documents and Images (GHDI): https://ghdi.ghi-dc.org/sub_document.cfm?document_id=815",
+    "text": "I no longer recognize any parties; I recognize only Germans.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "world-war-i-nationalisms-passage-002",
+    "caseId": "world-war-i-nationalisms",
+    "sourceId": "poincare-war-message-1914",
+    "locator": "Raymond Poincaré, Message to the French Chambers, 4 August 1914; English translation at https://www.firstworldwar.com/source/poincare_aug1914.htm",
+    "text": "She will be heroically defended by all her sons; nothing will break their sacred union before the enemy; today they are joined together as brothers in a common indignation against the aggressor, and in a common patriotic faith.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

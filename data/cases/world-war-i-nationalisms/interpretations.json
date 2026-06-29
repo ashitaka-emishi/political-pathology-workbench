@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "world-war-i-nationalisms-interpretation-001",
+    "caseId": "world-war-i-nationalisms",
+    "claimIds": ["world-war-i-nationalisms-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "At the outbreak of World War I, multiple belligerent symbolic orders achieved maximum mobilizational strength by invoking the nation as a sacred collective body that dissolved all internal distinctions. Kaiser Wilhelm's dissolution of party divisions and Poincaré's 'sacred union' both demonstrate the mechanism: the symbolic order expands to absorb all individuals into a single sacrificial body at the moment of perceived existential threat.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Passages are well-attested verified texts. The mechanism is well-supported for the mobilization moment. Confidence capped given multi-nation unit of analysis.",
+      "uncertaintyFactors": ["chain-requires-expansion", "multi-nation-unit-of-analysis"]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "At war outbreak, national symbolic orders in Germany and France suppressed all internal distinctions and sacralized the nation as a collective body demanding total sacrifice — Kaiser Wilhelm recognized 'only Germans,' Poincaré invoked 'sacred union.'",
+    "alternativeMechanisms": ["sacred-enemy-escalation", "institutional-self-preservation"],
+    "sacrificeForm": ["death", "blood-sacrifice", "family-life"],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "out-group",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "collective-immortality", "sacrifice"],
+    "codebookVersion": "v1"
+  }
+]

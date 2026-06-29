@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "revolutionary-france-passage-001",
+    "caseId": "revolutionary-france",
+    "sourceId": "declaration-rights-man-citizen-1789",
+    "locator": "Declaration of the Rights of Man and Citizen, Article 3, 26 August 1789; English translation at https://avalon.law.yale.edu/18th_century/rightsof.asp",
+    "text": "The principle of all sovereignty resides essentially in the nation. No body nor individual may exercise any authority which does not proceed directly from the nation.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "revolutionary-france-passage-002",
+    "caseId": "revolutionary-france",
+    "sourceId": "robespierre-political-morality-1794",
+    "locator": "Robespierre, 'On the Principles of Political Morality,' 5 February 1794; English translation at https://revolution.chnm.org/d/413",
+    "text": "If the mainspring of popular government in peacetime is virtue, amid revolution it is at the same time [both] virtue and terror: virtue, without which terror is fatal; terror, without which virtue is impotent.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

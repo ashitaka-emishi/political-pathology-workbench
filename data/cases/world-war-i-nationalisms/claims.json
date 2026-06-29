@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "claimId": "world-war-i-nationalisms-claim-001",
+    "caseId": "world-war-i-nationalisms",
+    "claim": "The outbreak of World War I was accompanied by multi-national symbolic orders invoking sacred national unity that dissolved class, party, and individual distinctions — framing the nation as a sacred collective body for whom total sacrifice was both possible and obligatory.",
+    "derivedFrom": [
+      "world-war-i-nationalisms-passage-001",
+      "world-war-i-nationalisms-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Kaiser Wilhelm's 'I recognize only Germans' and Poincaré's 'sacred union' are well-attested public-domain texts verified via GHDI and firstworldwar.com. Both document the sacrificial-nationalist moment at war outbreak across two major belligerents. Confidence capped because the case covers multiple nations with variable outcomes; the claim holds for the mobilization moment but not uniformly across the war's duration.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "multi-nation-unit-of-analysis"
+      ]
+    }
+  }
+]

@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "claimId": "revolutionary-france-claim-001",
+    "caseId": "revolutionary-france",
+    "claim": "The French revolutionary symbolic order sacralized 'the Nation' as the sole and absolute source of sovereignty, then progressively fused virtue with coercive violence during the Terror, making the revolutionary order itself the object of sacred preservation at the expense of individual persons.",
+    "derivedFrom": [
+      "revolutionary-france-passage-001",
+      "revolutionary-france-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.68,
+      "label": "moderate",
+      "rationale": "Declaration of Rights Article 3 establishes the nation as the exclusive source of all authority; Robespierre's virtue-terror synthesis shows the progressive sacralization of the revolutionary order itself. Both passages are well-attested public-domain texts. Confidence capped because the claim applies primarily to the Terror phase (1793–1794); the Revolution's earlier phases exhibit more restrained-reordering features.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "periodization-ambiguity"
+      ]
+    }
+  }
+]

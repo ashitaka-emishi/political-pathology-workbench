@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "claimId": "khmer-rouge-cambodia-claim-001",
+    "caseId": "khmer-rouge-cambodia",
+    "claim": "The Khmer Rouge structured its symbolic order around the sacrificial identity of the revolutionary people, whose blood was explicitly framed as the foundation of the new Cambodia, demanding individual self-annihilation — including of children and family — in service of collective rebirth.",
+    "derivedFrom": [
+      "khmer-rouge-cambodia-passage-001",
+      "khmer-rouge-cambodia-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.70,
+      "label": "moderate-high",
+      "rationale": "Both passages are public-domain constitutional and anthemic texts confirmed via Wikisource and nationalanthems.info. The DK Constitution preamble and national anthem together document the Khmer Rouge's explicit framing of collective blood sacrifice as constitutive of national identity. Confidence capped pending chain expansion beyond these founding documents.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "instrumental-vs-symbolic-dispute"
+      ]
+    }
+  }
+]

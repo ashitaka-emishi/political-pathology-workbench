@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "khmer-rouge-cambodia-passage-001",
+    "caseId": "khmer-rouge-cambodia",
+    "sourceId": "democratic-kampuchea-constitution-1976",
+    "locator": "Preamble, Constitution of Democratic Kampuchea, 5 January 1976; text verified at https://en.wikisource.org/wiki/Constitution_of_Democratic_Kampuchea",
+    "text": "sending unhesitatingly their children and their husbands to fight by tens and hundreds of thousands on the battlefield",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "khmer-rouge-cambodia-passage-002",
+    "caseId": "khmer-rouge-cambodia",
+    "sourceId": "dk-national-anthem-1975",
+    "locator": "National Anthem of Democratic Kampuchea (Dap Prampi Mesa Chokchey), verse 1, 1975; English translation verified at https://nationalanthems.info/kh-79.htm",
+    "text": "The bright red blood was spilled over the towns and over the plain of Kampuchea, our motherland, the blood of our good workers and farmers and of our revolutionary combatants, both men and women. Their blood produced a great anger and the courage to contend with heroism.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]
