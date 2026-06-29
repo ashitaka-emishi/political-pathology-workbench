@@ -13,5 +13,18 @@
       "access": "public-domain-or-open",
       "notes": "Issued by Emperor Meiji, 4 January 1882. Public domain. English translation widely reproduced in scholarship on Japanese militarism."
     }
+  ,
+    {
+      "sourceId": "kokutai-no-hongi-1937",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Japanese Ministry of Education, 1937. English translation excerpt verified at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf. Full translation in de Bary et al., Sources of Japanese Tradition, 2nd ed., vol. 2 (Columbia University Press, 2005)."
+    },
+    {
+      "sourceId": "hirohito-war-rescript-1941",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Imperial Rescript, 8 December 1941. Public domain. English text verified at worldjpn.net: https://worldjpn.net/documents/texts/docs/19411208.O1E.html"
+    }
   ]
 }

@@ -23,5 +23,23 @@
       "sacrifice"
     ],
     "codebookVersion": "v1"
+  },
+  {
+    "scoreId": "imperial-japan-score-002",
+    "caseId": "imperial-japan",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "imperial-japan-interpretation-002",
+    "value": 1,
+    "confidence": {
+      "value": 0.75,
+      "label": "moderate-high",
+      "rationale": "Minimum corrigibility: the Kokutai no Hongi ontologically equated individual judgment with disloyalty and 'non-existence,' eliminating the conceptual basis for legitimate dissent. Score of 1 (not 0) acknowledges that factional disputes within the military and government constituted marginal corrigibility channels, but the doctrinal framework made their operation transgressive rather than legitimate.",
+      "uncertaintyFactors": ["ministry-of-education-translation-mediated", "chain-requires-operational-documentation"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["corrigibility", "collective-immortality", "institutional-self-preservation"],
+    "codebookVersion": "v1"
   }
 ]

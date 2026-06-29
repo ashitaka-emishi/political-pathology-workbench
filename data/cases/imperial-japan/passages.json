@@ -18,5 +18,25 @@
     "evidenceRole": "grounds",
     "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
+  },
+  {
+    "passageId": "imperial-japan-passage-003",
+    "caseId": "imperial-japan",
+    "sourceId": "kokutai-no-hongi-1937",
+    "locator": "Kokutai no Hongi (Cardinal Principles of the National Polity), 1937, section on loyalty; English translation in de Bary, Gluck, and Tiedemann, eds., Sources of Japanese Tradition, 2nd ed., vol. 2 (New York: Columbia University Press, 2005), pp. 968–969; excerpt verified at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf",
+    "text": "Loyalty means to revere the emperor as [our] pivot and to follow him implicitly. By implicit obedience is meant casting ourselves aside and serving the emperor intently. To walk this Way of loyalty is the sole Way in which we subjects may 'live' and the fountainhead of all energy. Hence, offering our lives for the sake of the emperor does not mean so-called self-sacrifice but the casting aside of our little selves to live under his august grace and the enhancing of the genuine life of the people of a state.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "imperial-japan-passage-004",
+    "caseId": "imperial-japan",
+    "sourceId": "hirohito-war-rescript-1941",
+    "locator": "Imperial Rescript Declaring War, 8 December 1941; English text verified at The World and Japan Database (worldjpn.net): https://worldjpn.net/documents/texts/docs/19411208.O1E.html",
+    "text": "We, by grace of heaven, Emperor of Japan, seated on the Throne of a line unbroken for ages eternal, enjoin upon ye, Our loyal and brave subjects: We hereby declare war on the United States of America and the British Empire. This trend of affairs would, if left unchecked, not only nullify Our Empire's efforts of many years for the sake of the stabilization of East Asia, but also endanger the very existence of Our nation.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
   }
 ]

@@ -688,5 +688,41 @@
       ]
     },
     "note": "Signed 14 July 1933 by Hitler, Frick, and Gürtner. English text verified at United States Holocaust Memorial Museum Encyclopedia: https://encyclopedia.ushmm.org/content/en/article/law-against-the-founding-of-new-parties"
+  },
+  {
+    "id": "kokutai-no-hongi-1937",
+    "type": "report",
+    "title": "Kokutai no Hongi (Cardinal Principles of the National Polity of Japan)",
+    "publisher": "Japanese Ministry of Education",
+    "issued": {
+      "date-parts": [
+        [
+          1937,
+          3
+        ]
+      ]
+    },
+    "note": "Published by Japanese Ministry of Education, March 1937; 2+ million copies distributed. English translation in de Bary, Wm. Theodore, Carol Gluck, and Arthur L. Tiedemann, eds., Sources of Japanese Tradition, 2nd ed., vol. 2 (New York: Columbia University Press, 2005), pp. 968–975. Excerpt at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf"
+  },
+  {
+    "id": "hirohito-war-rescript-1941",
+    "type": "speech",
+    "title": "Imperial Rescript Declaring War on the United States and the British Empire",
+    "author": [
+      {
+        "family": "Hirohito",
+        "given": "Emperor of Japan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1941,
+          12,
+          8
+        ]
+      ]
+    },
+    "note": "Issued 8 December 1941 (Japan time). Public domain. English text verified at The World and Japan Database (worldjpn.net): https://worldjpn.net/documents/texts/docs/19411208.O1E.html"
   }
 ]
