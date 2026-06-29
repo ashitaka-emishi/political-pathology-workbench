@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { readJson, requireFields } from "../validate/json.js";
+import { validateEvidenceModules } from "../validate/validate-evidence-modules.js";
+import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
+import { validateClaimPromotion } from "../validate/validate-claim-promotion.js";
+import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
 
 const root = process.cwd();
 const errors = [];
@@ -197,6 +201,22 @@ const bibliographyIds = new Set(bibliography.map((source) => source.id));
 const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.join(root, "data", "cases", name));
 const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, bibliographyIds)).filter(Boolean);
 
+const evidenceModuleResult = validateEvidenceModules(root);
+for (const e of evidenceModuleResult.errors) errors.push(e);
+for (const w of evidenceModuleResult.warnings) warnings.push(w);
+
+const corpusRegistryResult = validateCorpusRegistry(root, evidenceModuleResult.moduleIds);
+for (const e of corpusRegistryResult.errors) errors.push(e);
+for (const w of corpusRegistryResult.warnings) warnings.push(w);
+
+const claimPromotionResult = validateClaimPromotion(root);
+for (const e of claimPromotionResult.errors) errors.push(e);
+for (const w of claimPromotionResult.warnings) warnings.push(w);
+
+const migrationManifestResult = validateMigrationManifest(root);
+for (const e of migrationManifestResult.errors) errors.push(e);
+for (const w of migrationManifestResult.warnings) warnings.push(w);
+
 for (const warning of warnings) {
   console.warn(`Warning: ${warning}`);
 }
@@ -207,4 +227,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Validation passed for ${theories.length} theories and ${cases.length} cases.`);
+console.log(`Validation passed for ${theories.length} theories, ${cases.length} cases, ${evidenceModuleResult.moduleIds.size} evidence modules.`);
