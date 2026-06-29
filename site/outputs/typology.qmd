@@ -61,9 +61,9 @@ but respond to this failure in opposite ways. The Soviet Union Collapse
 mechanism `legitimacy-collapse`; `soviet-union-collapse-interpretation-002`:
 corrigibility = 1) shows the terminal phase of an order that had historically high
 strength but lost the capacity to acknowledge systemic failure until the correction
-attempt itself triggered institutional self-preservation: the GKChP coup (passage-004)
-documents the order's institutional actors aborting the correction that Gorbachev's 1987
-CC Plenum diagnosis (passage-003) had identified as necessary. The resulting
+attempt itself triggered institutional self-preservation: the <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="GKChP, Appeal to the Soviet People, 19 Aug 1991" data-bs-content="&lt;em&gt;'Deadly danger awaits our great homeland! The policy of reforms that Mikhail Gorbachev initiated...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">GKChP coup</span> (passage-004)
+documents the order's institutional actors aborting the correction that <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Gorbachev, CPSU CC Plenum Report, 27 Jan 1987" data-bs-content="&lt;em&gt;'At a certain stage the country began to lose momentum, difficulties and unsolved problems began to pile up...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">Gorbachev's 1987
+CC Plenum diagnosis</span> (passage-003) had identified as necessary. The resulting
 corrigibility score of 1 reflects not an order that never tried to correct but one whose
 correction mechanisms were structurally insufficient and ultimately self-defeating.
 
@@ -99,19 +99,19 @@ pluralist-reordering (EU, Switzerland), anti-sacrificial-restraint (Gandhian Ind
 
 Postwar Germany is the paradigm case for this cluster, and the analytically most important.
 The Grundgesetz directly addresses the sacrifice-escalation pathology from Cluster 1: by
-placing human dignity beyond collective override (Art. 1(1), `postwar-germany-passage-001`)
+placing human dignity beyond collective override (<span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Art. 1(1), Basic Law (Grundgesetz), 23 May 1949" data-bs-content="&lt;em&gt;'Human dignity shall be inviolable. To respect and protect it shall be the duty of all state authority.'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">Art. 1(1)</span>, `postwar-germany-passage-001`)
 and making this inviolable through an eternity clause (Art. 79(3), `postwar-germany-passage-002`),
 the Basic Law constitutionally blocked the mechanism by which the Nazi order achieved
 maximum strength — the subordination of persons to the eternal collective body. The
 corrigibility scores of 4 (`postwar-germany-score-001`, mechanism `constitutional-containment`)
 and 5 (`postwar-germany-score-002`, mechanism `memory-driven-restraint`) reflect two
-complementary interpretations of the same architecture: the Art. 20 resistance clause
+complementary interpretations of the same architecture: the <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Art. 20(4), Basic Law (Grundgesetz), 23 May 1949" data-bs-content="&lt;em&gt;'All Germans shall have the right to resist any person seeking to abolish this constitutional order...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">Art. 20 resistance clause</span>
 (passage-004) converts the memory of legal revolution into a positive constitutional right
 to resist its repetition.
 
 United States after Vietnam (corrigibility = 3, sacred-political-order-strength = 3) is the
 marginal case in this cluster: its restrained-reordering classification reflects
-the War Powers Resolution's memory-driven-restraint architecture and Weinberger's
+the <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="War Powers Resolution, § 5(b), 7 Nov 1973" data-bs-content="&lt;em&gt;'Within sixty calendar days... the President shall terminate any use of United States Armed Forces...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">War Powers Resolution</span>'s memory-driven-restraint architecture and <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Weinberger, 'The Uses of Military Power,' 28 Nov 1984" data-bs-content="&lt;em&gt;'We cannot fight a battle with the Congress at home while asking our troops to win a war overseas...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">Weinberger</span>'s
 pre-engagement consent doctrine, but the ambiguous sacrifice-health assessment
 (`united-states-after-vietnam-interpretation-001`) and the subsequent Reagan-era
 Vietnam-syndrome reversal indicate that the restraint was partial and contested rather

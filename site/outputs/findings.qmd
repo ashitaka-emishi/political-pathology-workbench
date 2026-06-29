@@ -27,10 +27,8 @@ is not a coincidence to be explained away; it is the theory's central structural
 
 Postwar Germany refutes the necessary inverse relationship. The Grundgesetz constructs a
 strong sacred political order — democratic legitimacy, constitutional authority, national identity
-— while scoring corrigibility at 4–5/5 across two interpretations. Art. 1(1)'s inviolable
-human dignity provision directly blocks the move that Nazi Germany made to achieve maximum
-strength: the subordination of persons to the eternal collective body. Art. 20(4)'s
-resistance clause converts the memory of corrigibility's elimination into a positive
+— while scoring corrigibility at 4–5/5 across two interpretations. <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Art. 1(1), Basic Law (Grundgesetz), 23 May 1949" data-bs-content="&lt;em&gt;'Human dignity shall be inviolable. To respect and protect it shall be the duty of all state authority.'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">Art. 1(1)'s inviolable human dignity provision</span> directly blocks the move that Nazi Germany made to achieve maximum
+strength: the subordination of persons to the eternal collective body. <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Art. 20(4), Basic Law (Grundgesetz), 23 May 1949" data-bs-content="&lt;em&gt;'All Germans shall have the right to resist any person seeking to abolish this constitutional order...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">Art. 20(4)'s resistance clause</span> converts the memory of corrigibility's elimination into a positive
 constitutional right to prevent its recurrence. A high-strength order and a high-
 corrigibility order are empirically possible — which means the pathological cases'
 corrigibility deficit is not an inevitable consequence of order strength but a specific
@@ -39,10 +37,10 @@ design choice or structural vulnerability.
 The same pattern appears at the collapse end of the scale. The Soviet Union's path from
 historically maximum strength to terminal corrigibility failure (corrigibility = 1 in the
 collapse phase) is not a simple story of strength erosion — it is a story of
-corrigibility being structurally unavailable when needed. Gorbachev's 1987 CC Plenum
-diagnosis acknowledged accumulated failure ('we have nowhere to retreat to'), but the
+corrigibility being structurally unavailable when needed. <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Gorbachev, CPSU CC Plenum Report, 27 Jan 1987" data-bs-content="&lt;em&gt;'At a certain stage the country began to lose momentum, difficulties and unsolved problems began to pile up...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">Gorbachev's 1987 CC Plenum
+diagnosis</span> acknowledged accumulated failure ('we have nowhere to retreat to'), but the
 institutional structure was insufficient to convert acknowledgment into correction; the
-GKChP coup aborted the correction attempt. The order collapsed not because it became weak
+<span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="GKChP, Appeal to the Soviet People, 19 Aug 1991" data-bs-content="&lt;em&gt;'Deadly danger awaits our great homeland! The policy of reforms that Mikhail Gorbachev initiated...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">GKChP coup</span> aborted the correction attempt. The order collapsed not because it became weak
 but because its correction mechanisms could not function when the self-preservation drive
 of institutional actors was threatened. Corrigibility failure at high strength produces
 the escalation cases; corrigibility failure at declining strength produces the collapse
@@ -100,7 +98,7 @@ information control, not by genuine corrigibility.
 
 United States after Vietnam (corrigibility = 3, sacred-political-order-strength = 3) sits at
 the midpoint of both scales and documents the instability of intermediate corrigibility.
-The War Powers Resolution (§ 5(b), 50 U.S.C. § 1544(b)) and the Weinberger Doctrine
+<span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="War Powers Resolution, § 5(b), 7 Nov 1973" data-bs-content="&lt;em&gt;'Within sixty calendar days... the President shall terminate any use of United States Armed Forces...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">The War Powers Resolution (§ 5(b), 50 U.S.C. § 1544(b))</span> and <span class="cite-ref" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-title="Weinberger, 'The Uses of Military Power,' 28 Nov 1984" data-bs-content="&lt;em&gt;'We cannot fight a battle with the Congress at home while asking our troops to win a war overseas...'&lt;/em&gt;&lt;br&gt;&lt;a href='#'&gt;→ Evidence chain&lt;/a&gt;">the Weinberger Doctrine</span>
 both institutionalized the Vietnam memory as a constraint on executive war-making. But
 the subsequent Reagan-era campaign to 'overcome the Vietnam syndrome' — and the
 AUMF-era Post-9/11 United States (sacred-political-order-strength = 4, mechanism
