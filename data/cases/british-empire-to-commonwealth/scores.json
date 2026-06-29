@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "british-empire-to-commonwealth-score-001",
+    "caseId": "british-empire-to-commonwealth",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretationId": "british-empire-to-commonwealth-interpretation-001",
+    "value": 3,
+    "confidence": {
+      "value": 0.58,
+      "label": "moderate",
+      "rationale": "Score of 3 reflects moderate corrigibility: the Empire-to-Commonwealth transformation demonstrates genuine symbolic self-revision at the constitutional level, but the neocolonial continuity of the post-1931 relationship and the subsequent violence of decolonization (Kenya, India partition, Cyprus, etc.) reveal that the symbolic redesign was partial and did not extend the corrigibility mechanism to the full scope of imperial relationships. Higher than North Korea (frozen) but substantially lower than Canada or Switzerland.",
+      "uncertaintyFactors": ["chain-requires-expansion", "neocolonial-continuity-complicates-equality-claim", "transformation-incomplete-post-1931"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["corrigibility", "symbolic-transformation"],
+    "codebookVersion": "v1"
+  }
+]

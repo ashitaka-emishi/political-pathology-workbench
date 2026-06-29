@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "british-empire-to-commonwealth-interpretation-001",
+    "caseId": "british-empire-to-commonwealth",
+    "claimIds": ["british-empire-to-commonwealth-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "corrigibility",
+    "interpretation": "The British Empire to Commonwealth transition scores high on corrigibility through its demonstration of symbolic transformation from above: the Balfour Declaration reframed hierarchical subordination as equal voluntary association, and the Statute of Westminster legally implemented this reframing by requiring Dominion consent for shared constitutional changes. This is the absorption-transformation archetype — an imperial order that avoided frozen-pathology by redesigning its own symbolic architecture in response to the changed conditions produced by World War I and rising Dominion nationalism. The transformation was incomplete (decolonization of non-Dominion territories remained partial and violent), but the symbolic redesign itself demonstrates a corrigibility mechanism: the ability to fundamentally revise the order's constitutive hierarchy without sacrificial escalation against internal challengers.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.63,
+      "label": "moderate",
+      "rationale": "Chain thin; passages are the constitutive legal moments of the transformation but require expansion to include decolonization history and Commonwealth operational record.",
+      "uncertaintyFactors": ["chain-requires-expansion", "neocolonial-continuity-complicates-equality-claim"]
+    },
+    "mechanism": "symbolic-transformation",
+    "mechanismSummary": "The British imperial order redesigned its constitutive symbolic architecture from hierarchical subordination to equal voluntary association, converting the Crown from instrument of control to symbol of free association — demonstrating corrigibility through self-revision rather than sacrificial defense of the existing order.",
+    "alternativeMechanisms": ["pluralist-reordering", "institutional-fragmentation"],
+    "sacrificeForm": ["labor", "economic-security", "agency"],
+    "sacrificeHealth": "ambiguous",
+    "sacrificeBoundedness": "partially-bounded",
+    "sacrificeTarget": "out-group",
+    "definitionRefs": ["corrigibility", "symbolic-transformation", "symbolic-order-strength"],
+    "codebookVersion": "v1"
+  }
+]

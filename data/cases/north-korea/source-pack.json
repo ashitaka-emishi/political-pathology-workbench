@@ -1,4 +1,11 @@
 {
   "caseId": "north-korea",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "dprk-constitution-2019",
+      "role": "primary-grounds",
+      "access": "restricted-translation-only",
+      "notes": "Access limitation: authoritative Korean-language text is on DPRK state website (Naenara), accessible only intermittently from outside the DPRK and without independent translation verification. English translation used here is from University of Hawaiʻi at Mānoa Korean Studies Center (2024), which is the scholarly standard but cannot be certified against the authoritative original. Kim Jong-un era operational documents (party resolutions, state media) are accessible via KCNA Watch and other monitoring services but present translation-chain verification challenges. This case is limited to constitutional-level primary sources to minimize translation uncertainty."
+    }
+  ]
 }

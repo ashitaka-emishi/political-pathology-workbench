@@ -1,4 +1,17 @@
 {
   "caseId": "british-empire-to-commonwealth",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "balfour-declaration-1926",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Text verified against The Canadian Encyclopedia (https://www.thecanadianencyclopedia.ca/en/article/document-balfour-report-1926) and Founding Docs of Australia (https://www.foundingdocs.gov.au/item-did-24.html)."
+    },
+    {
+      "sourceId": "statute-of-westminster-1931",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "UK legislation, public domain. Full text at legislation.gov.uk: https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/introduction"
+    }
+  ]
 }
