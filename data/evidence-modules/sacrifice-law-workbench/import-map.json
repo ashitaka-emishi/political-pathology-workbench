@@ -1,0 +1,77 @@
+{
+  "moduleId": "sacrifice-law-workbench",
+  "artifactImportMap": [
+    {
+      "artifactClass": "corpus",
+      "disposition": "import-now",
+      "description": "Corpus document metadata (title, date, author, source URL) for the four-case stratified corpus (American Revolution, Napoleon, Lincoln, Hitler)",
+      "scheduledMilestone": 17,
+      "ppwIssues": [138],
+      "notes": "Imported via PPW corpus registry entries. Confirm case mapping for American Revolution and Napoleon cases first (PPW #149-#151)."
+    },
+    {
+      "artifactClass": "corpus",
+      "disposition": "import-now",
+      "description": "Corpus manifest (manifest-driven pipeline output defining the stratified corpus)",
+      "scheduledMilestone": 17,
+      "ppwIssues": [138],
+      "notes": "Import as PPW corpus registry entries. Requires confirming case mapping for American Revolution and Napoleon (PPW #149)."
+    },
+    {
+      "artifactClass": "corpus",
+      "disposition": "import-later",
+      "description": "Raw text files for Sacrifice Law corpus cases",
+      "scheduledMilestone": 17,
+      "ppwIssues": [],
+      "notes": "After PPW Sacrifice Law case mapping is confirmed (PPW #149-#151). Rights vary by era; pre-1928 texts generally public domain."
+    },
+    {
+      "artifactClass": "methodology",
+      "disposition": "reference-only",
+      "description": "Pre-v1 corpus expansion tracking context (SLW #174)",
+      "scheduledMilestone": null,
+      "ppwIssues": [110],
+      "notes": "Context recorded in PPW #110 migration coordination issue; not imported as data."
+    },
+    {
+      "artifactClass": "methodology",
+      "disposition": "import-later",
+      "description": "Reliability sampling design for Sacrifice Law corpus",
+      "scheduledMilestone": 19,
+      "ppwIssues": [192],
+      "notes": "After PPW review-gate framework (Milestone 19); PPW #192."
+    },
+    {
+      "artifactClass": "methodology",
+      "disposition": "reference-only",
+      "description": "Cross-case synthesis methodology documentation",
+      "scheduledMilestone": null,
+      "ppwIssues": [],
+      "notes": "Link from PPW method notes; do not copy Quarto structure."
+    },
+    {
+      "artifactClass": "annotations",
+      "disposition": "import-later",
+      "description": "Draft comparative claims",
+      "scheduledMilestone": 17,
+      "ppwIssues": [154],
+      "notes": "After PPW Sacrifice Law corpus registry is established (Milestone 17); PPW #154."
+    },
+    {
+      "artifactClass": "publication",
+      "disposition": "do-not-import",
+      "description": "Quarto research site pages",
+      "scheduledMilestone": null,
+      "ppwIssues": [176, 178],
+      "notes": "Child-repo site remains live. PPW will have its own Sacrifice Law module pages (PPW #176, #178)."
+    },
+    {
+      "artifactClass": "pipeline-scripts",
+      "disposition": "do-not-import",
+      "description": "Pipeline scripts (manifest-driven pipeline, corpus expansion scripts)",
+      "scheduledMilestone": null,
+      "ppwIssues": [],
+      "notes": "Child-repo-specific pipeline; inform PPW pipeline design (Milestone 19). Do not copy."
+    }
+  ]
+}

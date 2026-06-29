@@ -1,0 +1,35 @@
+{
+  "moduleId": "sacrifice-law-workbench",
+  "sourceRepository": {
+    "owner": "ashitaka-emishi",
+    "repo": "sacrifice-law-workbench",
+    "url": "https://github.com/ashitaka-emishi/sacrifice-law-workbench",
+    "defaultBranch": "main",
+    "preservationRole": "source history, citation context, and audit provenance"
+  },
+  "artifactFamilies": [
+    {
+      "family": "corpus",
+      "description": "Multi-case stratified corpus covering American Revolution, Napoleon, Lincoln, and Hitler under Koenigsberg's Law of Sacrifice; manifest-driven pipeline with 41-document baseline",
+      "rightsNotes": "Texts before ~1928 are generally public domain in the US. Nazi-era texts: some are out of copyright; translations and scholarly apparatus require review. Confirm case mapping for American Revolution and Napoleon before import (PPW #149-#151)."
+    },
+    {
+      "family": "methodology",
+      "description": "Cross-case synthesis methodology, reliability sampling design, and corpus expansion tracking documentation",
+      "rightsNotes": "Original work of this project; no third-party rights apply to methodology documents."
+    },
+    {
+      "family": "publication",
+      "description": "Quarto research site for cross-case synthesis, including per-case corpus pages and comparative analysis outputs",
+      "rightsNotes": "Child-repo site remains live as primary publication. PPW site will reference it."
+    },
+    {
+      "family": "pipeline-scripts",
+      "description": "Manifest-driven pipeline scripts for corpus ingestion, stratification, and validation",
+      "rightsNotes": "Child-repo-specific; inform PPW pipeline design but are not imported."
+    }
+  ],
+  "supersessionStatus": "in-progress",
+  "supersessionNote": "Child-repo issue tracking superseded by PPW Milestone 12 migration. New implementation work is coordinated through PPW. Source repository is preserved as history and audit context.",
+  "ppwMigrationIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/110"
+}

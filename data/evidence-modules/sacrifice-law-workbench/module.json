@@ -1,0 +1,32 @@
+{
+  "moduleId": "sacrifice-law-workbench",
+  "moduleName": "Sacrifice Law Workbench",
+  "moduleType": "comparative",
+  "sourceRepository": "ashitaka-emishi/sacrifice-law-workbench",
+  "sourceRepositoryRole": "comparative-corpus-module",
+  "description": "Comparative corpus evidence module covering multiple historical cases under Koenigsberg's Law of Sacrifice (American Revolution, Napoleon, Lincoln, Hitler): a multi-case stratified corpus with manifest-driven pipeline and cross-case synthesis research site.",
+  "caseIds": [
+    "american-civil-war-union",
+    "nazi-germany"
+  ],
+  "theoryIds": [
+    "sacrifice-law-v1",
+    "general-theory-political-pathology-v1"
+  ],
+  "corpusIds": [
+    "sacrifice-law-comparative-41"
+  ],
+  "artifactClasses": [
+    "corpus",
+    "annotations",
+    "methodology",
+    "publication",
+    "pipeline-scripts"
+  ],
+  "provenanceStatus": "partial",
+  "rightsStatus": "fair-use",
+  "reliabilityStatus": "pending",
+  "claimPromotionPolicy": "standard",
+  "sourceIssueMigrationStatus": "in-progress",
+  "maintainerNotes": "American Revolution and Napoleon do not yet have corresponding PPW case files; case mapping must be confirmed before their corpus subsets are imported (see PPW #149-#151 and docs/architecture/imported-projects.md). Rights vary by era; pre-1928 texts are generally public domain, Nazi-era translations and apparatus require review. Corpus import scheduled for Milestone 17; no artifacts imported yet as of Milestone 14."
+}

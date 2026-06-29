@@ -1,0 +1,32 @@
+{
+  "moduleId": "sacrifice-law-workbench",
+  "sourceRepository": "ashitaka-emishi/sacrifice-law-workbench",
+  "migrationSummary": {
+    "totalSourceIssues": 2,
+    "migratedAsPpwIssues": 1,
+    "mergedIntoPpwCoordinationIssues": 1,
+    "deferred": 0,
+    "migrationTrackerIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/110"
+  },
+  "migratedIssues": [
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/sacrifice-law-workbench/issues/183",
+      "sourceTitle": "Revise reliability sampling design for expanded corpus",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/192",
+      "ppwIssueNumber": 192,
+      "ppwTitle": "Revise reliability sampling design for Sacrifice Law corpus",
+      "ppwMilestone": 19,
+      "disposition": "migrate-as-ppw-issue"
+    }
+  ],
+  "mergedCoordinationIssues": [
+    {
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/110",
+      "ppwIssueNumber": 110,
+      "ppwTitle": "Milestone 12: Child-Project Issue Migration — Sacrifice Law coordination",
+      "sourceIssuesAbsorbed": [174],
+      "disposition": "merge-into-ppw-issue"
+    }
+  ],
+  "deferredIssues": []
+}
