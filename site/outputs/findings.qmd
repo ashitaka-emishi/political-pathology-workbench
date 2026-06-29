@@ -9,9 +9,9 @@ under source review. Not for citation as final scholarship.
 
 ## Main Finding: Corrigibility Is the Critical Variable
 
-The central finding of this comparative analysis is that **political pathology is
-distinguished from healthy sacrifice not by the strength of the sacred political order but by its
-corrigibility** — the institutional capacity to acknowledge error and change course before
+The central finding of this comparative analysis is that **[political pathology](../methods/glossary.qmd#pathology) is
+distinguished from healthy sacrifice not by the strength of the [sacred political order](../methods/glossary.qmd#sacred-political-order) but by its
+[corrigibility](../methods/glossary.qmd#corrigibility)** — the institutional capacity to acknowledge error and change course before
 the self-preservation dynamic becomes irreversible.
 
 This finding emerges from a pattern that the scored cases make analytically visible:
@@ -104,8 +104,8 @@ The War Powers Resolution (§ 5(b), 50 U.S.C. § 1544(b)) and the Weinberger Doc
 both institutionalized the Vietnam memory as a constraint on executive war-making. But
 the subsequent Reagan-era campaign to 'overcome the Vietnam syndrome' — and the
 AUMF-era Post-9/11 United States (sacred-political-order-strength = 4, mechanism
-`sacred-enemy-escalation`) — shows that partial corrigibility institutionalization is
-reversible in ways that constitutional-containment is not. The War Powers Resolution
+[`sacred-enemy-escalation`](../methods/glossary.qmd#sacred-enemy)) — shows that partial corrigibility institutionalization is
+reversible in ways that [constitutional-containment](../methods/glossary.qmd#constitutional-containment) is not. The War Powers Resolution
 has been routinely contested by every administration since its passage; no administration
 has accepted its 60-day clock as binding. The Weinberger Doctrine was abandoned by the
 Clinton administration. By contrast, the Grundgesetz's Art. 20(4) resistance clause and

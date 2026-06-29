@@ -16,9 +16,9 @@ they are analytical groupings that foreground the theoretically significant dist
 for the pathology argument. The six-outcome taxonomy describes what happened; the four
 clusters describe the underlying dynamic that produced each class of outcome.
 
-The two key variables are **sacred-political-order-strength** (the degree to which the order
+The two key variables are **[sacred-political-order-strength](../methods/glossary.qmd#sacred-political-order-strength)** (the degree to which the order
 commands identity, legitimacy, obligation, and sacrificial commitment) and
-**corrigibility** (the order's institutional capacity to acknowledge error and change
+**[corrigibility](../methods/glossary.qmd#corrigibility)** (the order's institutional capacity to acknowledge error and change
 course). In the scored gold cases, these two variables show an inverse relationship in
 pathological outcomes and a more complex relationship in restrained cases — a pattern the
 typology is designed to make analytically explicit.
@@ -33,10 +33,10 @@ cases: maximum sacred-political-order-strength (5/5 for both gold cases) and min
 (1/5 for both). Nazi Germany (`nazi-germany-interpretation-003`: corrigibility = 1,
 mechanism `institutional-self-preservation`) and Imperial Japan
 (`imperial-japan-interpretation-002`: corrigibility = 1, mechanism
-`collective-immortality-to-sacrifice`) show that the sacred political order's strength and its
+[`collective-immortality-to-sacrifice`](../methods/glossary.qmd#collective-immortality)) show that the sacred political order's strength and its
 incorrigibility are analytically linked, not independent — the mechanism that produces
 maximum sacred-political-order-strength is the same mechanism that eliminates corrigibility.
-In both cases, the collective body is represented as divinely or racially eternal, death
+In both cases, the [collective body is represented as divinely or racially eternal](../methods/glossary.qmd#collective-immortality), death
 in service of that body is encoded as participation in its immortality, and individual
 judgment is defined as ontological disloyalty. When individual judgment is eliminable by
 definition, the feedback mechanism that would allow correction is removed: the order can
@@ -93,9 +93,9 @@ The restrained-reordering cluster is defined by high corrigibility scores (4–5
 Postwar Germany, Canada, EU, Switzerland) and healthy sacrifice norms. These cases are
 not merely cases where escalation did not occur; they are cases where the sacred political order
 was *actively designed* or *historically conditioned* to prevent the escalation dynamic.
-The design mechanisms vary: constitutional-containment (Postwar Germany, Canada),
+The design mechanisms vary: [constitutional-containment](../methods/glossary.qmd#constitutional-containment) (Postwar Germany, Canada),
 pluralist-reordering (EU, Switzerland), anti-sacrificial-restraint (Gandhian India), and
-memory-driven-restraint (United States after Vietnam).
+[memory-driven-restraint](../methods/glossary.qmd#memory-driven-restraint) (United States after Vietnam).
 
 Postwar Germany is the paradigm case for this cluster, and the analytically most important.
 The Grundgesetz directly addresses the sacrifice-escalation pathology from Cluster 1: by
