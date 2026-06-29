@@ -1,0 +1,27 @@
+{
+  "moduleId": "sacrifice-law-workbench",
+  "reliabilityStatus": "pending",
+  "reviewLimitations": [
+    {
+      "limitation": "No PPW claim-promotion gate review has been completed for any Sacrifice Law comparative claims",
+      "impact": "Draft comparative claims from this module cannot advance in PPW until gate review is initiated (Milestone 17)",
+      "resumeCondition": "Milestone 17 corpus registry and claim import"
+    },
+    {
+      "limitation": "Case mapping for American Revolution and Napoleon cases is not yet confirmed in PPW",
+      "impact": "Corpus subsets for those two cases cannot be imported until corresponding PPW case files exist",
+      "resumeCondition": "PPW #149-#151 (case mapping confirmation for American Revolution and Napoleon)"
+    },
+    {
+      "limitation": "Reliability sampling design for Sacrifice Law corpus not yet adapted to PPW framework",
+      "impact": "No PPW reliability plan exists for the comparative corpus; import of reliability artifacts is blocked",
+      "resumeCondition": "PPW #192 (Revise reliability sampling design for Sacrifice Law corpus, Milestone 19)"
+    },
+    {
+      "limitation": "Rights status of Nazi-era texts (translations and scholarly apparatus) not individually confirmed",
+      "impact": "Nazi-era translated texts and apparatus are reference-only until rights are confirmed; import blocked",
+      "resumeCondition": "Rights review for each Nazi-era translated text; update import-map.json disposition accordingly"
+    }
+  ],
+  "existingReliabilityArtifacts": []
+}
