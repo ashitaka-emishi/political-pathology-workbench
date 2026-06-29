@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "soviet-communism-score-001",
+    "caseId": "soviet-communism",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "soviet-communism-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.60,
+      "label": "moderate",
+      "rationale": "Maximum score at Stalinist peak: the Soviet order combined messianic eschatology, revolutionary class identity, and constitutional vanguard monopoly to produce a symbolic order with no legitimate internal challenger. Score applies to peak strength (c. 1936-1953); terminal-phase decay is scored separately in the soviet-union-collapse case. Confidence moderate: requires expansion from founding texts to institutional practices.",
+      "uncertaintyFactors": ["chain-requires-expansion", "founding-text-to-practice-gap", "historical-periodization-wide"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order-strength", "collective-immortality", "frozen-pathology"],
+    "codebookVersion": "v1"
+  }
+]

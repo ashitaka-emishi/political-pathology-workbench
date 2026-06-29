@@ -1,4 +1,17 @@
 {
   "caseId": "american-civil-war-union",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "lincoln-gettysburg-address-1863",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Bliss copy (definitive) verified at abrahamlincolnonline.org and ushistory.org."
+    },
+    {
+      "sourceId": "lincoln-second-inaugural-1865",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Verified at Avalon Project, Yale Law School."
+    }
+  ]
 }

@@ -1,4 +1,17 @@
 {
   "caseId": "soviet-communism",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "marx-engels-communist-manifesto-1848",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Samuel Moore (1888) English translation verified at https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+    },
+    {
+      "sourceId": "ussr-constitution-1977",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. English text verified at Bucknell University Russian Department: https://www.departments.bucknell.edu/russian/const/77cons01.html"
+    }
+  ]
 }

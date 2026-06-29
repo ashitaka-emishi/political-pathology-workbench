@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "post-9-11-united-states-interpretation-001",
+    "caseId": "post-9-11-united-states",
+    "claimIds": ["post-9-11-united-states-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The post-9/11 US symbolic order demonstrates a hybrid pattern: high symbolic-order strength achieved through sacred-enemy escalation rather than constitutional-containment. The AUMF's unlimited force authorization and Bush's globally totalized binary ('with us or with the terrorists') temporarily maximized the symbolic order's strength by sacralizing national identity through absolute external threat. This distinguishes post-9/11 from the Vietnam aftermath (which produced constitutional-containment via the WPR) and from the gold high-pathology cases (where sacred-enemy escalation targeted internal populations). The 'forever war' trajectory shows the instability of strength-through-sacred-enemy — the enemy definition expanded indefinitely, producing institutional fragmentation rather than consolidation.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Chain thin; passages establish the founding pattern but trajectory scoring requires expansion. Hybrid case complexity adds uncertainty.",
+      "uncertaintyFactors": ["chain-requires-expansion", "enemy-definition-broadened-over-time"]
+    },
+    "mechanism": "sacred-enemy-escalation",
+    "mechanismSummary": "9/11 shock was channeled into a globally totalized sacred-enemy binary through unlimited congressional force authorization and presidential framing, temporarily maximizing symbolic-order strength at the cost of institutional constraint and long-term legitimacy.",
+    "alternativeMechanisms": ["institutional-self-preservation", "collective-immortality-to-sacrifice"],
+    "sacrificeForm": ["death", "blood-sacrifice", "agency", "economic-security"],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "out-group",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "sacred-enemy-escalation", "corrigibility"],
+    "codebookVersion": "v1"
+  }
+]

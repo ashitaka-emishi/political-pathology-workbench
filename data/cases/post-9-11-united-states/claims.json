@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "claimId": "post-9-11-united-states-claim-001",
+    "caseId": "post-9-11-united-states",
+    "claim": "The post-9/11 United States symbolic order responded to the attacks through sacred-enemy escalation: the AUMF granted the executive unlimited force authorization against a broadly defined enemy, while Bush's congressional address constructed a globally totalized binary — 'with us or with the terrorists' — that sacralized the US symbolic order through opposition to an absolute external threat, foreclosing the constitutional-containment alternative.",
+    "derivedFrom": [
+      "post-9-11-united-states-passage-001",
+      "post-9-11-united-states-passage-002"
+    ],
+    "createdBy": "human",
+    "reviewedBy": "andrew-hammer",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.70,
+      "label": "moderate-high",
+      "rationale": "Both passages are public-law and public-address texts verified against official sources. The AUMF's open-ended authorization and Bush's binary framing are the canonical founding documents of the post-9/11 order. Confidence capped pending chain expansion including Patriot Act, drone campaign, and torture program documentation.",
+      "uncertaintyFactors": [
+        "chain-requires-expansion",
+        "enemy-definition-broadened-over-time"
+      ]
+    }
+  }
+]

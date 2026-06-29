@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "interpretationId": "soviet-communism-interpretation-001",
+    "caseId": "soviet-communism",
+    "claimIds": ["soviet-communism-claim-001"],
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretation": "The Soviet communist symbolic order achieved maximum symbolic-order strength at its Stalinist peak by fusing class-struggle eschatology (proletarians have a world to win) with institutional monopoly (the CPSU as nucleus of all Soviet life). This is a hybrid case: the order's founding logic demanded sacrifice toward collective immortality through historical inevitability, and its constitutional structure eliminated the institutional corrigibility needed to correct that demand. The result is a symbolic order of high initial strength that could not self-correct, producing the frozen-pathology trajectory observed in the terminal phase (see soviet-union-collapse). The two passages bookend this arc: the Manifesto's world-historical call for total transformation, and the Brezhnev Constitution's legalization of the party's unchallengeability.",
+    "reviewStatus": "argument-review",
+    "publicationStatus": "draft",
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Chain thin but passages are definitional. Requires expansion from founding ideology to institutional practice to complete the arc. Hybrid complexity acknowledged.",
+      "uncertaintyFactors": ["chain-requires-expansion", "founding-text-to-practice-gap", "historical-periodization-wide"]
+    },
+    "mechanism": "collective-immortality-to-sacrifice",
+    "mechanismSummary": "The Soviet symbolic order fused world-historical eschatology with vanguard institutional monopoly, demanding sacrifice in service of collective communist immortality — a structure that produced high initial strength but no corrigibility, making frozen-pathology the terminal outcome.",
+    "alternativeMechanisms": ["frozen-pathology", "institutional-self-preservation"],
+    "sacrificeForm": ["labor", "agency", "death", "economic-security", "conscience"],
+    "sacrificeHealth": "pathological",
+    "sacrificeBoundedness": "unbounded",
+    "sacrificeTarget": "in-group",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "collective-immortality", "corrigibility", "frozen-pathology"],
+    "codebookVersion": "v1"
+  }
+]
