@@ -28,5 +28,15 @@
     "evidenceRole": "corroboration",
     "reviewStatus": "evidence-review",
     "publicationStatus": "draft"
+  },
+  {
+    "passageId": "postwar-germany-passage-004",
+    "caseId": "postwar-germany",
+    "sourceId": "grundgesetz-1949",
+    "locator": "Art. 20(1) and 20(4), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
+    "text": "The Federal Republic of Germany is a democratic and social federal state. [...] All Germans shall have the right to resist any person seeking to abolish this constitutional order if no other remedy is available.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
   }
 ]
