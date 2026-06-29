@@ -9,10 +9,13 @@
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
-      "value": 0.62,
+      "value": 0.68,
       "label": "moderate",
-      "rationale": "Two real attributed passages now support the claim. Passage text requires verification against Baynes (1942) and Stackelberg & Winkle (2002) before advancing past source-review.",
-      "uncertaintyFactors": ["passage-text-pending-source-verification"]
+      "rationale": "Both passages advance to evidence-review. Passage-001 text corrected against GHDI scholarly translation; Baynes (1942) p.156 edition-specific wording pending physical library check. Passage-002 text matches the scholarly consensus translation of Point 10 but Stackelberg & Winkle (2002) p.29 edition-specific wording pending physical library check.",
+      "uncertaintyFactors": [
+        "baynes-1942-edition-wording-unconfirmed",
+        "stackelberg-winkle-2002-edition-wording-unconfirmed"
+      ]
     }
   }
 ]
