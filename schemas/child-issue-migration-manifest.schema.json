@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/child-issue-migration-manifest.schema.json",
+  "title": "Child-Issue Migration Manifest",
+  "description": "Records the disposition of every migrated child-repository issue into PPW. Validates data/migration/child-issue-migration-manifest.json.",
+  "type": "object",
+  "required": [
+    "manifestDate",
+    "generatedBy",
+    "targetRepository",
+    "dispositions",
+    "closureNote",
+    "issues"
+  ],
+  "properties": {
+    "manifestDate": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date this manifest was generated."
+    },
+    "generatedBy": {
+      "type": "string",
+      "description": "Agent or process that generated this manifest."
+    },
+    "sourceDocument": {
+      "type": "string",
+      "description": "Path to the source inventory document this manifest was derived from."
+    },
+    "targetRepository": {
+      "type": "string",
+      "description": "owner/repo of the PPW repository receiving migrated issues."
+    },
+    "dispositions": {
+      "type": "object",
+      "description": "Human-readable definitions for each supported disposition value.",
+      "additionalProperties": { "type": "string" }
+    },
+    "closureNote": {
+      "type": "string",
+      "description": "Standing note about how closure instructions should be applied."
+    },
+    "issues": {
+      "type": "array",
+      "description": "One record per migrated child-repository issue.",
+      "items": {
+        "type": "object",
+        "required": [
+          "sourceRepo",
+          "sourceIssue",
+          "sourceTitle",
+          "sourceUrl",
+          "issueKind",
+          "disposition",
+          "targetMilestone",
+          "rationale",
+          "closureInstruction"
+        ],
+        "properties": {
+          "sourceRepo": {
+            "type": "string",
+            "description": "owner/repo of the child repository this issue originates from."
+          },
+          "sourceIssue": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Issue number in the source repository."
+          },
+          "sourceTitle": {
+            "type": "string",
+            "description": "Original issue title in the source repository."
+          },
+          "sourceUrl": {
+            "type": "string",
+            "description": "Full URL to the issue in the source repository."
+          },
+          "sourceLabels": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Labels on the issue in the source repository."
+          },
+          "targetLabels": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Suggested labels for the corresponding PPW issue."
+          },
+          "sourceMilestone": {
+            "type": "string",
+            "description": "Milestone name in the source repository."
+          },
+          "issueKind": {
+            "type": "string",
+            "enum": ["implementation", "tracking"],
+            "description": "Nature of the issue: implementation work or milestone tracking."
+          },
+          "disposition": {
+            "type": "string",
+            "enum": [
+              "migrate-as-ppw-issue",
+              "merge-into-ppw-issue",
+              "defer-to-post-integration"
+            ],
+            "description": "How this issue is handled: created as a new PPW issue, folded into an existing one, or deferred."
+          },
+          "targetPpwIssue": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "description": "PPW issue number this maps to. Null if the PPW issue has not been created yet."
+          },
+          "targetPpwIssueUrl": {
+            "type": ["string", "null"],
+            "description": "Full URL to the PPW issue. Null if targetPpwIssue is null."
+          },
+          "targetMilestone": {
+            "type": "string",
+            "description": "PPW milestone this issue's work belongs to."
+          },
+          "rationale": {
+            "type": "string",
+            "description": "Explanation of why this disposition was chosen."
+          },
+          "closureInstruction": {
+            "type": "string",
+            "description": "Instruction for when and how to close the source issue."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
