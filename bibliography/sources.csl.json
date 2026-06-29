@@ -213,5 +213,153 @@
       ]
     },
     "note": "Public domain. Announced 24 February 1920, Hofbräuhaus, Munich. Reproduced in Stackelberg, Roderick, and Sally A. Winkle, eds., The Nazi Germany Sourcebook (London: Routledge, 2002), pp. 27–31."
+  },
+  {
+    "id": "democratic-kampuchea-constitution-1976",
+    "type": "legislation",
+    "title": "Constitution of Democratic Kampuchea",
+    "issued": {
+      "date-parts": [
+        [
+          1976,
+          1,
+          5
+        ]
+      ]
+    },
+    "note": "Adopted 5 January 1976. Available at https://en.wikisource.org/wiki/Constitution_of_Democratic_Kampuchea and DC-Cam (Documentation Center of Cambodia)."
+  },
+  {
+    "id": "dk-national-anthem-1975",
+    "type": "musical_score",
+    "title": "Dap Prampi Mesa Chokchey (National Anthem of Democratic Kampuchea)",
+    "issued": {
+      "date-parts": [
+        [
+          1975
+        ]
+      ]
+    },
+    "note": "National anthem of Democratic Kampuchea (1975–1979). English translation available at https://nationalanthems.info/kh-79.htm"
+  },
+  {
+    "id": "mao-serve-the-people-1944",
+    "type": "speech",
+    "title": "Serve the People",
+    "author": [
+      {
+        "family": "Mao",
+        "given": "Zedong"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1944,
+          9,
+          8
+        ]
+      ]
+    },
+    "note": "Speech delivered at memorial service for Zhang Side, 8 September 1944. In Selected Works of Mao Tse-tung, Vol. 3 (Peking: Foreign Languages Press, 1965). Available at https://www.marxists.org/reference/archive/mao/selected-works/volume-3/mswv3_19.htm"
+  },
+  {
+    "id": "mao-in-memory-norman-bethune-1939",
+    "type": "chapter",
+    "title": "In Memory of Norman Bethune",
+    "author": [
+      {
+        "family": "Mao",
+        "given": "Zedong"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1939,
+          12,
+          21
+        ]
+      ]
+    },
+    "note": "In Selected Works of Mao Tse-tung, Vol. 2 (Peking: Foreign Languages Press, 1965), pp. 337–338. Available at https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_25.htm"
+  },
+  {
+    "id": "declaration-rights-man-citizen-1789",
+    "type": "legislation",
+    "title": "Declaration of the Rights of Man and Citizen",
+    "issued": {
+      "date-parts": [
+        [
+          1789,
+          8,
+          26
+        ]
+      ]
+    },
+    "note": "Adopted by the National Constituent Assembly, 26 August 1789. Public domain; widely available in English translation. See https://avalon.law.yale.edu/18th_century/rightsof.asp"
+  },
+  {
+    "id": "robespierre-political-morality-1794",
+    "type": "speech",
+    "title": "On the Principles of Political Morality That Should Guide the National Convention",
+    "author": [
+      {
+        "family": "Robespierre",
+        "given": "Maximilien"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1794,
+          2,
+          5
+        ]
+      ]
+    },
+    "note": "Delivered to the National Convention, 5 February 1794 (18 Pluviôse, Year II). English translation available at https://revolution.chnm.org/d/413 and https://alphahistory.com/frenchrevolution/robespierre-virtue-terror-1794/"
+  },
+  {
+    "id": "kaiser-wilhelm-reichstag-speech-1914",
+    "type": "speech",
+    "title": "Address to the Reichstag on the Outbreak of War",
+    "author": [
+      {
+        "family": "Wilhelm II",
+        "given": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1914,
+          8,
+          4
+        ]
+      ]
+    },
+    "note": "Throne speech delivered at the opening of the Reichstag, 4 August 1914. English translation in German History in Documents and Images (GHDI): https://ghdi.ghi-dc.org/sub_document.cfm?document_id=815"
+  },
+  {
+    "id": "poincare-war-message-1914",
+    "type": "speech",
+    "title": "Message to the Chambers on the State of War with Germany",
+    "author": [
+      {
+        "family": "Poincaré",
+        "given": "Raymond"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1914,
+          8,
+          4
+        ]
+      ]
+    },
+    "note": "Read to the French Chambers by the Minister of Justice, 4 August 1914. English translation at https://www.firstworldwar.com/source/poincare_aug1914.htm and https://wwi.lib.byu.edu/index.php/President_Poincar%C3%A9s_War_Message"
   }
 ]

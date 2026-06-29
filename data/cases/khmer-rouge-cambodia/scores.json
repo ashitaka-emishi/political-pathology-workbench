@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "khmer-rouge-cambodia-score-001",
+    "caseId": "khmer-rouge-cambodia",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "collective-immortality",
+    "interpretationId": "khmer-rouge-cambodia-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.65,
+      "label": "moderate",
+      "rationale": "Maximum collective-immortality score is directly supported by the DK Constitution preamble (sacrifice of children by the hundreds of thousands) and the national anthem (blood as constitutive of the nation). Confidence capped at moderate pending chain expansion.",
+      "uncertaintyFactors": ["chain-requires-expansion", "instrumental-vs-symbolic-dispute"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["collective-immortality", "sacrifice", "pathology"],
+    "codebookVersion": "v1"
+  }
+]

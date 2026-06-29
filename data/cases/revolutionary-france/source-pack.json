@@ -1,4 +1,17 @@
 {
   "caseId": "revolutionary-france",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "declaration-rights-man-citizen-1789",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Verified at avalon.law.yale.edu."
+    },
+    {
+      "sourceId": "robespierre-political-morality-1794",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Verified at revolution.chnm.org and alphahistory.com."
+    }
+  ]
 }

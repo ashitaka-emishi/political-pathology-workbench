@@ -1,4 +1,17 @@
 {
   "caseId": "maoist-china",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "mao-serve-the-people-1944",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Selected Works Vol. 3, verified at marxists.org."
+    },
+    {
+      "sourceId": "mao-in-memory-norman-bethune-1939",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Selected Works Vol. 2, verified at marxists.org."
+    }
+  ]
 }

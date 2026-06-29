@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "world-war-i-nationalisms-score-001",
+    "caseId": "world-war-i-nationalisms",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "world-war-i-nationalisms-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.60,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order-strength score is supported by both the German and French mobilization declarations dissolving internal distinctions and invoking sacred national unity. Confidence capped at moderate given the multi-nation unit-of-analysis and variable national trajectories after mobilization.",
+      "uncertaintyFactors": ["chain-requires-expansion", "multi-nation-unit-of-analysis"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "collective-immortality", "sacrifice"],
+    "codebookVersion": "v1"
+  }
+]

@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "revolutionary-france-score-001",
+    "caseId": "revolutionary-france",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "symbolic-order-strength",
+    "interpretationId": "revolutionary-france-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.63,
+      "label": "moderate",
+      "rationale": "Maximum symbolic-order-strength score is supported by the Declaration of Rights' absolute vesting of sovereignty in the Nation and Robespierre's sacralization of the revolutionary order. Confidence capped at moderate; applies primarily to the Terror phase (1793–1794).",
+      "uncertaintyFactors": ["chain-requires-expansion", "periodization-ambiguity"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["symbolic-order", "symbolic-order-strength", "sacralization"],
+    "codebookVersion": "v1"
+  }
+]

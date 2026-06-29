@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "scoreId": "maoist-china-score-001",
+    "caseId": "maoist-china",
+    "theoryId": "general-theory-political-pathology-v1",
+    "variableId": "collective-immortality",
+    "interpretationId": "maoist-china-interpretation-001",
+    "value": 5,
+    "confidence": {
+      "value": 0.67,
+      "label": "moderate",
+      "rationale": "Maximum collective-immortality score is directly supported by Mao's canonical texts coding death-for-the-people as the supreme human meaning. Confidence capped at moderate pending chain expansion and periodization review.",
+      "uncertaintyFactors": ["chain-requires-expansion", "periodization-ambiguity"]
+    },
+    "reviewStatus": "score-review",
+    "publicationStatus": "draft",
+    "definitionRefs": ["collective-immortality", "sacrifice", "pathology"],
+    "codebookVersion": "v1"
+  }
+]

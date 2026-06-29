@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "passageId": "maoist-china-passage-001",
+    "caseId": "maoist-china",
+    "sourceId": "mao-serve-the-people-1944",
+    "locator": "Mao Zedong, 'Serve the People,' 8 September 1944; in Selected Works of Mao Tse-tung, Vol. 3 (Peking: Foreign Languages Press, 1965), p. 227; text verified at https://www.marxists.org/reference/archive/mao/selected-works/volume-3/mswv3_19.htm",
+    "text": "To die for the people is weightier than Mount Tai, but to work for the fascists and die for the exploiters and oppressors is lighter than a feather.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  },
+  {
+    "passageId": "maoist-china-passage-002",
+    "caseId": "maoist-china",
+    "sourceId": "mao-in-memory-norman-bethune-1939",
+    "locator": "Mao Zedong, 'In Memory of Norman Bethune,' 21 December 1939; in Selected Works of Mao Tse-tung, Vol. 2 (Peking: Foreign Languages Press, 1965), p. 337; text verified at https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_25.htm",
+    "text": "We must all learn the spirit of absolute selflessness from him. With this spirit everyone can be very useful to the people.",
+    "evidenceRole": "grounds",
+    "reviewStatus": "evidence-review",
+    "publicationStatus": "draft"
+  }
+]

@@ -1,4 +1,17 @@
 {
   "caseId": "khmer-rouge-cambodia",
-  "sources": []
+  "sources": [
+    {
+      "sourceId": "democratic-kampuchea-constitution-1976",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Available at Wikisource and DC-Cam."
+    },
+    {
+      "sourceId": "dk-national-anthem-1975",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. English translation verified at nationalanthems.info."
+    }
+  ]
 }
