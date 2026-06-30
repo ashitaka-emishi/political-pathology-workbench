@@ -1,50 +1,114 @@
 {
   "corpusId": "lincoln-deep-28",
   "originModuleId": "lincoln-metaphor-analysis",
+  "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#144",
   "artifactFamilies": [
     {
       "family": "corpus-metadata",
-      "description": "Document-level metadata: title, date, author, source URL, archive reference",
+      "description": "Document-level metadata: title, date, author, source URL, archive reference, PPW source ID mappings",
       "ppwLocation": "data/corpora/lincoln-deep-28/documents.json",
-      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
-      "importStatus": "pending",
-      "governingIssues": [195, 196, 197]
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis corpus_manifest.json",
+      "importStatus": "imported",
+      "canGenerateDraftClaims": false,
+      "governingIssues": [195, 196, 197, 143],
+      "notes": "36 documents imported in PPW #195-#197. PPW source ID mapping added in PPW #143 (7 of 36 mapped; 29 unmapped)."
     },
     {
       "family": "raw-text",
-      "description": "Segmented source texts with stable sentence IDs from lincoln-metaphor-analysis pipeline",
-      "ppwLocation": "data/cases/american-civil-war-union/source-pack.json",
-      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "description": "Source texts for Lincoln v4 core additions; text files for public-domain Lincoln documents",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis src/texts/",
       "importStatus": "pending",
+      "canGenerateDraftClaims": false,
       "governingIssues": [198],
-      "rightsNote": "Lincoln's own writings (1838-1865) are public domain. Third-party texts require rights confirmation before import."
+      "scheduledMilestone": 16,
+      "rightsNote": "Lincoln's own writings (1838-1865) are public domain. Third-party commentary or translations require rights confirmation before import."
     },
     {
       "family": "passage-records",
-      "description": "Segmented passages with stable IDs (Stage 4A segmentation output)",
+      "description": "Segmented passages with stable sentence IDs (Stage 4A pipeline output)",
       "ppwLocation": "data/cases/american-civil-war-union/passages.json",
-      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis pipeline Stage 4A segmentation output",
       "importStatus": "pending",
+      "canGenerateDraftClaims": false,
       "governingIssues": [143],
-      "note": "Requires PPW passage schema validation; import deferred to Milestone 16."
+      "scheduledMilestone": 16,
+      "notes": "Requires PPW passage schema validation. Core-tier documents (28 confirmed) prioritised; validation-tier passage segmentation handled separately under PPW #199."
+    },
+    {
+      "family": "metaphor-cluster-profiles",
+      "description": "Lincoln metaphor cluster annotation outputs from Stage 4A: cluster membership, evidence strength, and inter-cluster relationships for all identified metaphor clusters (obligatory-frame, body-organic, wound-healing, sacrifice, covenant-over-freedom)",
+      "ppwLocation": "data/cases/american-civil-war-union/interpretations.json",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis pipeline Stage 4A cluster annotation outputs",
+      "importStatus": "pending",
+      "canGenerateDraftClaims": true,
+      "governingIssues": [144],
+      "scheduledMilestone": 16,
+      "notes": "Cluster profiles feed draft claim candidates (#145). Represent as PPW analysis artifacts with reviewStatus: draft. No cluster profile constitutes a PPW finding without passing the claim-promotion gate (Milestone 18, PPW #129)."
+    },
+    {
+      "family": "evidence-chain-links",
+      "description": "Traceability links connecting source passages to cluster annotations to claim candidates — the passage → cluster → claim chain",
+      "ppwLocation": "data/cases/american-civil-war-union/analysis/evidence-module-links.json",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis pipeline provenance metadata",
+      "importStatus": "partial",
+      "canGenerateDraftClaims": false,
+      "governingIssues": [142],
+      "notes": "Structural link file created in PPW #142. Per-passage provenance links will be established as passage records and claims are imported in Milestone 16."
     },
     {
       "family": "draft-claims",
-      "description": "Draft claim candidates from Stage 4A model scoring and cluster profiling",
+      "description": "Draft claim candidates derived from metaphor cluster profiles; Stage 4A model scoring and cluster profiling outputs mapped to PPW claim schema",
       "ppwLocation": "data/cases/american-civil-war-union/claims.json",
-      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis draft claim candidates",
       "importStatus": "pending",
+      "canGenerateDraftClaims": true,
+      "claimStatus": "draft",
+      "promotionGateStatus": "not-started",
       "governingIssues": [145],
-      "note": "Imported with reviewStatus: draft; subject to PPW claim-promotion gates."
+      "scheduledMilestone": 16,
+      "notes": "Imported with reviewStatus: draft. No claim is promoted to a PPW finding without passing the claim-promotion gate (Milestone 18, PPW #129)."
     },
     {
       "family": "reliability-artifacts",
-      "description": "Stage 4H/4J human coding and adjudication records; inter-annotator agreement metrics",
+      "description": "Stage 4H/4J human coding records, adjudication decisions, and inter-annotator agreement metrics from lincoln-metaphor-analysis reliability study",
       "ppwLocation": null,
-      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
-      "disposition": "reference-only",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis reliability/",
+      "importStatus": "referenced",
+      "canGenerateDraftClaims": false,
+      "governingIssues": [199],
+      "scheduledMilestone": 19,
+      "notes": "Reference only in Milestone 16. Inform PPW review-gate design. Reliability sampling design adapted to PPW context in Milestone 19 (PPW #199). Raw human coding records remain in child repo."
+    },
+    {
+      "family": "methodology-docs",
+      "description": "Codebook, annotation guidelines, and methodology documentation from lincoln-metaphor-analysis",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis docs/methodology/",
+      "importStatus": "referenced",
+      "canGenerateDraftClaims": false,
+      "governingIssues": [146],
+      "notes": "Linked from PPW method note (PPW #146). Quarto structure not copied; child-repo docs remain canonical."
+    },
+    {
+      "family": "pipeline-scripts",
+      "description": "Manifest-driven annotation pipeline scripts (src/, scripts/)",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis src/ scripts/",
+      "importStatus": "not-imported",
+      "canGenerateDraftClaims": false,
       "governingIssues": [],
-      "note": "Reference only; inform PPW review-gate design but do not become PPW data."
+      "notes": "Child-repo-specific pipeline; do not import into PPW. Inform PPW pipeline design (Milestone 19)."
+    },
+    {
+      "family": "publication-site",
+      "description": "Quarto research site pages for the lincoln-metaphor-analysis project",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis site/",
+      "importStatus": "not-imported",
+      "canGenerateDraftClaims": false,
+      "governingIssues": [175],
+      "notes": "Child-repo site remains live as primary publication. PPW will have its own Lincoln module page (PPW #175)."
     }
   ]
 }
