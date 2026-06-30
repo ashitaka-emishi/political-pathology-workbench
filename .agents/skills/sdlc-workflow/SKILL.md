@@ -33,6 +33,26 @@ use sdlc to finish #<issue-number>
 
 The number is not a magic value. For example, `sldc 33` means inspect and start or continue issue #33, while `sldc 22` means inspect and start or continue issue #22.
 
+Multi-issue commands are ordered batch workflow requests. Interpret comma-separated issue numbers and inclusive ranges as an ordered list, preserving the user's order:
+
+```text
+sdlc 153-156,250-253
+sdlc 149,153,154
+sldc 250-253
+```
+
+For a multi-issue request, do each issue completely before starting the next one. "Complete" means:
+
+1. inspect the issue state with the deterministic helper;
+2. implement or perform the required planning/issue-management work;
+3. validate at the appropriate depth;
+4. open a ready PR when code or repository files changed;
+5. merge/close that issue before moving to the next issue;
+6. update relevant tracking issues;
+7. sync the base branch and confirm a clean working tree before starting the next issue.
+
+The multi-issue form is explicit merge/close delegation for every listed issue. It satisfies the human control point for each issue in the batch, so do not stop after opening each PR unless checks fail, review blocks the PR, the issue is ambiguous, or the user interrupts. For planning-only issues with no branch or PR, complete the required GitHub issue work, add a completion comment when useful, close the issue, and update the tracker before moving on. If an issue is already closed, report it and continue to the next listed issue unless the user asked to reopen or revise it. If any issue is blocked, stop the batch and report the blocker, completed issues, and the smallest next action.
+
 `sdlc next` and `sldc next` are selection requests, not implementation approval. For these requests, inspect open issues and relevant tracker/milestone ordering, choose the next recommended issue, explain the selection briefly, and stop for user confirmation before creating a branch, editing files, or otherwise starting implementation.
 
 For any equivalent request, first collect deterministic state for the referenced issue, determine its current status, and then choose the smallest correct continuation:
@@ -128,6 +148,7 @@ Handle findings before PR creation:
    - known limitations or follow-up work
    - tech-debt issues filed for deferred findings, if any
 5. Stop after PR creation unless the user explicitly asks to merge. This preserves the human control point before merge.
+   - In a multi-issue command, the batch request itself is explicit merge authorization. Continue into Merge And Close for the current issue once checks are passing.
 
 ## Address Review
 
