@@ -22,9 +22,78 @@
       "tier": "validation",
       "targetRange": "75-100",
       "currentCount": 0,
+      "coreDocumentsIncluded": true,
+      "coreDocumentCount": 36,
+      "additionalDocumentsNeeded": "39-64",
+      "candidateCountRange": "45-69",
       "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/196",
-      "description": "Lighter annotation; used for inter-annotator reliability sampling",
-      "importStatus": "pending"
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#114",
+      "importStatus": "pending",
+      "description": "Lighter annotation tier for inter-annotator reliability sampling and recurrence/negative-finding testing. Includes all v4-core documents (36 registered in PPW #195) plus 39-64 additional documents selected from the candidate category pools below. The categories are overlapping candidate pools (estimated aggregate 45-69 documents); not all categories need be represented and no single category must be drawn to its stated maximum. Final selection must keep total additional count within 39-64 (total tier within 75-100). Specific document selection awaits LMA #114 resolution.",
+      "tierDefinition": {
+        "annotationLevel": "validation",
+        "ppwAnnotationScope": "passage-level segmentation only; no claim extraction, no scoring",
+        "vsCoreTier": "Core tier receives full annotation pipeline (passages → claims → interpretations → scores). Validation tier receives passage segmentation only, enabling reliability sampling without requiring full claim extraction.",
+        "reliabilityUse": "Stratified sample from validation tier used for inter-annotator reliability study (PPW #199). Annotators code passages independently; agreement measured against core-tier adjudicated annotations.",
+        "negativeUse": "Validation tier documents outside the core set test for recurrence (does metaphor cluster appear in less-studied documents?) and negative findings (documents in the same genre or period where cluster is absent)."
+      },
+      "candidateCategories": [
+        {
+          "category": "additional-annual-messages",
+          "description": "Annual messages to Congress not in the core set (December 1863, December 1864)",
+          "estimatedCount": "1-2",
+          "rationale": "Complete the administrative-register chronological series; diachronic tracking of obligatory frame in formal reports"
+        },
+        {
+          "category": "proclamations",
+          "description": "Thanksgiving and national day proclamations (1861-1865); Proclamation of Amnesty and Reconstruction (December 8, 1863) and related proclamations. Note: avoid double-counting with reconstruction-documents category — the Proclamation of Amnesty should be counted in only one category.",
+          "estimatedCount": "8-12",
+          "rationale": "Legal/ritual register; test whether covenant and sacrifice metaphors appear in formal proclamation genre or are suppressed as in Emancipation Proclamations"
+        },
+        {
+          "category": "military-orders",
+          "description": "Selected general orders and military correspondence with Union commanders",
+          "estimatedCount": "5-8",
+          "rationale": "Military administrative register; negative-finding test for metaphor suppression in command prose"
+        },
+        {
+          "category": "public-letters-slavery-race",
+          "description": "Public letters on slavery, Union, race, and war powers not in core set",
+          "estimatedCount": "6-10",
+          "rationale": "Extends public-letter genre coverage; tracks covenant-over-freedom cluster across multiple correspondents"
+        },
+        {
+          "category": "private-letters-slavery-providence",
+          "description": "Private letters on slavery, providence, and sacrifice not in core set",
+          "estimatedCount": "8-12",
+          "rationale": "Extends private-register coverage; tests whether public rhetoric maps onto private cognition across a larger sample"
+        },
+        {
+          "category": "black-soldier-emancipation",
+          "description": "Letters and orders related to Black soldier recruitment and emancipation implementation (1863-1865)",
+          "estimatedCount": "4-6",
+          "rationale": "Tests distribution of obligatory-frame and body-organic clusters across racial contexts"
+        },
+        {
+          "category": "colonization-related",
+          "description": "Lincoln's correspondence and speeches on colonization (1862)",
+          "estimatedCount": "3-5",
+          "rationale": "Politically sensitive cluster; tests for metaphor suppression or activation in colonization rhetoric"
+        },
+        {
+          "category": "condolence-letters",
+          "description": "Letters of condolence to bereaved families of Union soldiers. Authorship caution: the Bixby Letter (November 21, 1864) is the most prominent condolence letter but authorship is disputed (possible John Hay attribution); apply authorship confidence controls analogous to Seward passages in lma-doc-009 if included.",
+          "estimatedCount": "5-8",
+          "rationale": "Wound-and-healing and sacrifice clusters in highly personal private register; tests unguarded theodicy expression"
+        },
+        {
+          "category": "reconstruction-documents",
+          "description": "Reconstruction policy documents and correspondence not in core set (e.g., Wade-Davis Pocket Veto message, Louisiana reconstruction correspondence, letters to governors on restoration). Note: avoid double-counting Proclamation of Amnesty and Reconstruction with the proclamations category.",
+          "estimatedCount": "4-6",
+          "rationale": "Diachronic endpoint for organism cluster beyond Last Public Address; tracks post-war body-politic frame"
+        }
+      ],
+      "notes": "The 36 documents registered in the core tier (#195) are implicitly included in the validation tier — they receive validation-level annotation (passage segmentation) as a subset of their full core-tier processing. This `currentCount: 0` reflects additional-only documents beyond the core set that have not yet been individually selected. Specific document selection requires LMA #114 to be resolved in the child repository. Validation tier documents will be added to this documents[] array when LMA #114 closes."
     },
     {
       "tier": "reference",
