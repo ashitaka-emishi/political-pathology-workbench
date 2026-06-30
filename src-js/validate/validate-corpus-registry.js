@@ -12,7 +12,50 @@ const RELIABILITY_STATUSES = new Set(["pending", "sampling-complete", "adjudicat
 const CLAIM_PROMOTION_STATUSES = new Set(["not-started", "in-progress", "complete", "blocked"]);
 const ISSUE_MIGRATION_STATUSES = new Set(["pending", "in-progress", "complete", "not-applicable"]);
 
-export function validateCorpusRegistry(root, moduleIds) {
+export function validateCorpusRecord(corpus, corpusIds, moduleIds, caseIds, errors, label) {
+  try {
+    requireFields(label, corpus, [
+      "corpusId",
+      "corpusName",
+      "corpusType",
+      "originModuleId",
+      "corpusPurpose",
+      "rightsStatus",
+      "normalizationStatus",
+      "segmentationStatus",
+      "annotationStatus",
+      "reliabilityStatus",
+      "claimPromotionStatus",
+      "sourceIssueMigrationStatus"
+    ]);
+  } catch (error) {
+    errors.push(error.message);
+    return;
+  }
+
+  if (corpusIds.has(corpus.corpusId)) errors.push(`${label}: duplicate corpusId`);
+  corpusIds.add(corpus.corpusId);
+
+  if (!CORPUS_TYPES.has(corpus.corpusType)) errors.push(`${label}: unsupported corpusType ${corpus.corpusType}`);
+  if (!CORPUS_PURPOSES.has(corpus.corpusPurpose)) errors.push(`${label}: unsupported corpusPurpose ${corpus.corpusPurpose}`);
+  if (!RIGHTS_STATUSES.has(corpus.rightsStatus)) errors.push(`${label}: unsupported rightsStatus ${corpus.rightsStatus}`);
+  if (!NORMALIZATION_STATUSES.has(corpus.normalizationStatus)) errors.push(`${label}: unsupported normalizationStatus ${corpus.normalizationStatus}`);
+  if (!SEGMENTATION_STATUSES.has(corpus.segmentationStatus)) errors.push(`${label}: unsupported segmentationStatus ${corpus.segmentationStatus}`);
+  if (!ANNOTATION_STATUSES.has(corpus.annotationStatus)) errors.push(`${label}: unsupported annotationStatus ${corpus.annotationStatus}`);
+  if (!RELIABILITY_STATUSES.has(corpus.reliabilityStatus)) errors.push(`${label}: unsupported reliabilityStatus ${corpus.reliabilityStatus}`);
+  if (!CLAIM_PROMOTION_STATUSES.has(corpus.claimPromotionStatus)) errors.push(`${label}: unsupported claimPromotionStatus ${corpus.claimPromotionStatus}`);
+  if (!ISSUE_MIGRATION_STATUSES.has(corpus.sourceIssueMigrationStatus)) errors.push(`${label}: unsupported sourceIssueMigrationStatus ${corpus.sourceIssueMigrationStatus}`);
+
+  if (moduleIds && moduleIds.size > 0 && !moduleIds.has(corpus.originModuleId)) {
+    errors.push(`${label}: originModuleId ${corpus.originModuleId} is not in the evidence-module registry`);
+  }
+
+  for (const caseId of corpus.caseIds ?? []) {
+    if (caseIds.size > 0 && !caseIds.has(caseId)) errors.push(`${label}: unknown caseId ${caseId}`);
+  }
+}
+
+export function validateCorpusRegistry(root, moduleIds, caseIds = new Set()) {
   const errors = [];
   const warnings = [];
   const registryPath = path.join(root, "data", "corpora", "corpus-registry.json");
@@ -38,42 +81,7 @@ export function validateCorpusRegistry(root, moduleIds) {
   const corpusIds = new Set();
   for (const corpus of corpora) {
     const label = `${registryPath}:${corpus.corpusId ?? "<unknown>"}`;
-    try {
-      requireFields(label, corpus, [
-        "corpusId",
-        "corpusName",
-        "corpusType",
-        "originModuleId",
-        "corpusPurpose",
-        "rightsStatus",
-        "normalizationStatus",
-        "segmentationStatus",
-        "annotationStatus",
-        "reliabilityStatus",
-        "claimPromotionStatus",
-        "sourceIssueMigrationStatus"
-      ]);
-    } catch (error) {
-      errors.push(error.message);
-      continue;
-    }
-
-    if (corpusIds.has(corpus.corpusId)) errors.push(`${label}: duplicate corpusId`);
-    corpusIds.add(corpus.corpusId);
-
-    if (!CORPUS_TYPES.has(corpus.corpusType)) errors.push(`${label}: unsupported corpusType ${corpus.corpusType}`);
-    if (!CORPUS_PURPOSES.has(corpus.corpusPurpose)) errors.push(`${label}: unsupported corpusPurpose ${corpus.corpusPurpose}`);
-    if (!RIGHTS_STATUSES.has(corpus.rightsStatus)) errors.push(`${label}: unsupported rightsStatus ${corpus.rightsStatus}`);
-    if (!NORMALIZATION_STATUSES.has(corpus.normalizationStatus)) errors.push(`${label}: unsupported normalizationStatus ${corpus.normalizationStatus}`);
-    if (!SEGMENTATION_STATUSES.has(corpus.segmentationStatus)) errors.push(`${label}: unsupported segmentationStatus ${corpus.segmentationStatus}`);
-    if (!ANNOTATION_STATUSES.has(corpus.annotationStatus)) errors.push(`${label}: unsupported annotationStatus ${corpus.annotationStatus}`);
-    if (!RELIABILITY_STATUSES.has(corpus.reliabilityStatus)) errors.push(`${label}: unsupported reliabilityStatus ${corpus.reliabilityStatus}`);
-    if (!CLAIM_PROMOTION_STATUSES.has(corpus.claimPromotionStatus)) errors.push(`${label}: unsupported claimPromotionStatus ${corpus.claimPromotionStatus}`);
-    if (!ISSUE_MIGRATION_STATUSES.has(corpus.sourceIssueMigrationStatus)) errors.push(`${label}: unsupported sourceIssueMigrationStatus ${corpus.sourceIssueMigrationStatus}`);
-
-    if (moduleIds && !moduleIds.has(corpus.originModuleId)) {
-      errors.push(`${label}: originModuleId ${corpus.originModuleId} is not in the evidence-module registry`);
-    }
+    validateCorpusRecord(corpus, corpusIds, moduleIds, caseIds, errors, label);
   }
 
   return { errors, warnings };

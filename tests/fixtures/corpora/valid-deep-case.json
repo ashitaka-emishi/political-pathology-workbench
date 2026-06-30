@@ -1,0 +1,16 @@
+{
+  "corpusId": "lincoln-deep-28",
+  "corpusName": "Lincoln Deep Corpus (28-document core set)",
+  "corpusType": "deep-case",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseIds": ["american-civil-war-union"],
+  "documentCount": 28,
+  "corpusPurpose": "core",
+  "rightsStatus": "fair-use",
+  "normalizationStatus": "pending",
+  "segmentationStatus": "pending",
+  "annotationStatus": "pending",
+  "reliabilityStatus": "pending",
+  "claimPromotionStatus": "not-started",
+  "sourceIssueMigrationStatus": "in-progress"
+}

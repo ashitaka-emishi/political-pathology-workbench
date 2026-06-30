@@ -1,0 +1,15 @@
+{
+  "corpusId": "fixture-unknown-case",
+  "corpusName": "Fixture Unknown Case",
+  "corpusType": "deep-case",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseIds": ["nonexistent-case-does-not-exist"],
+  "corpusPurpose": "core",
+  "rightsStatus": "fair-use",
+  "normalizationStatus": "pending",
+  "segmentationStatus": "pending",
+  "annotationStatus": "pending",
+  "reliabilityStatus": "pending",
+  "claimPromotionStatus": "not-started",
+  "sourceIssueMigrationStatus": "in-progress"
+}
