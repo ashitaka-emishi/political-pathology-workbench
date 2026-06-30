@@ -59,11 +59,11 @@ Source → Passage → Claim → Interpretation → Variable Score
              → Case Assessment → Theory Evaluation → Publication Artifact
 ```
 
-Each step carries required metadata: source citation, locator, evidence role, review status, confidence value, uncertainty factors, and definition references. See [Traceable Epistemic Model](epistemic-model.qmd).
+Each step carries required metadata: source citation, locator, evidence role, review status, confidence value, uncertainty factors, and definition references. See [Traceable Epistemic Model](../methods/epistemic-model.qmd).
 
 ### Scoring
 
-Variables are scored 0–5. Scores require `confidence.value`, `confidence.label`, `confidence.rationale`, `reviewStatus`, `definitionRefs`, and `codebookVersion`. Current core variables: Symbolic Order Strength, Sacralization, Collective Immortality, Sacred Enemy, Corrigibility, Pathology. See [Scoring Rubric](scoring-rubric.qmd).
+Variables are scored 0–5. Scores require `confidence.value`, `confidence.label`, `confidence.rationale`, `reviewStatus`, `definitionRefs`, and `codebookVersion`. Current core variables: Symbolic Order Strength, Sacralization, Collective Immortality, Sacred Enemy, Corrigibility, Pathology. See [Scoring Rubric](../methods/scoring-rubric.qmd).
 
 ### Case Selection
 

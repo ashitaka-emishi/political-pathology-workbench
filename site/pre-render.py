@@ -909,7 +909,7 @@ def render_working_paper(scores: list[dict], claims: list[dict],
         "",
         "Each step carries required metadata: source citation, locator, evidence role, "
         "review status, confidence value, uncertainty factors, and definition references. "
-        "See [Traceable Epistemic Model](epistemic-model.qmd).",
+        "See [Traceable Epistemic Model](../methods/epistemic-model.qmd).",
         "",
         "### Scoring",
         "",
@@ -917,7 +917,7 @@ def render_working_paper(scores: list[dict], claims: list[dict],
         "`confidence.rationale`, `reviewStatus`, `definitionRefs`, and `codebookVersion`. "
         "Current core variables: Symbolic Order Strength, Sacralization, "
         "Collective Immortality, Sacred Enemy, Corrigibility, Pathology. "
-        "See [Scoring Rubric](scoring-rubric.qmd).",
+        "See [Scoring Rubric](../methods/scoring-rubric.qmd).",
         "",
         "### Case Selection",
         "",
