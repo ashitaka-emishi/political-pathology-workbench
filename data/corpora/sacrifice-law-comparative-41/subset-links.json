@@ -44,9 +44,11 @@
     },
     {
       "candidatePpwCaseId": "world-war-i-nationalisms",
+      "alternateCandidatePpwCaseId": "british-world-war-i",
       "proposedSubsetLinkPath": "data/cases/world-war-i-nationalisms/corpora/sacrifice-law-british-wwi-subset.json",
-      "status": "not-created",
-      "reason": "The issue listed this as a potential target, but the canonical Sacrifice Law corpus case mapping does not currently identify a British WWI source case."
+      "status": "deferred-out-of-scope-current-corpus",
+      "reviewDecisionIssue": 253,
+      "reason": "Reviewed in PPW #253. The canonical Sacrifice Law corpus case mapping does not currently identify a British World War I source case, and the existing world-war-i-nationalisms case is broader than a British-only target. No subset link should be created unless source corpus metadata is revised or a specific British World War I source subset is confirmed."
     }
   ],
   "claimPromotionPolicy": {
