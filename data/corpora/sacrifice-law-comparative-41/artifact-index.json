@@ -1,0 +1,94 @@
+{
+  "corpusId": "sacrifice-law-comparative-41",
+  "originModuleId": "sacrifice-law-workbench",
+  "artifactFamilies": [
+    {
+      "family": "corpus-metadata",
+      "description": "Document-level metadata: title, date, case assignment, source URL, rights status",
+      "ppwLocation": "data/corpora/sacrifice-law-comparative-41/documents.json",
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "import-now",
+      "importStatus": "pending",
+      "governingIssues": [138],
+      "scheduledMilestone": 17
+    },
+    {
+      "family": "corpus-manifest",
+      "description": "Manifest-driven pipeline output defining the 41-document stratified corpus",
+      "ppwLocation": "data/corpora/sacrifice-law-comparative-41/documents.json",
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "import-now",
+      "importStatus": "pending",
+      "governingIssues": [138],
+      "scheduledMilestone": 17,
+      "notes": "Case mapping for American Revolution and Napoleon must be confirmed before import (PPW #149-#151)."
+    },
+    {
+      "family": "raw-text",
+      "description": "Raw text files for the four-case corpus",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "import-later",
+      "importStatus": "pending",
+      "governingIssues": [],
+      "scheduledMilestone": 17,
+      "rightsNote": "Pre-1928 texts generally public domain. Nazi-era translations and scholarly apparatus require rights review. American Revolution and Napoleon case mapping must be confirmed first."
+    },
+    {
+      "family": "draft-claims",
+      "description": "Draft comparative claims spanning the four cases",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "import-later",
+      "importStatus": "pending",
+      "governingIssues": [154],
+      "scheduledMilestone": 17,
+      "notes": "After Sacrifice Law corpus registry is established (Milestone 17). Imported as PPW claims.json entries with reviewStatus: draft; subject to PPW claim-promotion gates. Claim promotion is separate from corpus availability."
+    },
+    {
+      "family": "reliability-design",
+      "description": "Reliability sampling design for the Sacrifice Law corpus (migrated from SLW #183)",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "import-later",
+      "importStatus": "pending",
+      "governingIssues": [192],
+      "scheduledMilestone": 19,
+      "notes": "After PPW review-gate framework (Milestone 19); PPW #192."
+    },
+    {
+      "family": "pre-v1-tracking",
+      "description": "Pre-v1 corpus expansion tracking context (SLW #174)",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "reference-only",
+      "governingIssues": [110],
+      "notes": "Context recorded in PPW #110 migration coordination issue; not imported as data."
+    },
+    {
+      "family": "synthesis-methodology",
+      "description": "Cross-case synthesis methodology documentation",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "reference-only",
+      "notes": "Link from PPW method notes; Quarto structure not copied."
+    },
+    {
+      "family": "pipeline-scripts",
+      "description": "Manifest-driven pipeline scripts for corpus ingestion, stratification, and validation",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "do-not-import",
+      "notes": "Child-repo-specific pipeline; inform PPW pipeline design (Milestone 19). Not imported."
+    },
+    {
+      "family": "quarto-site",
+      "description": "Quarto research site pages for cross-case synthesis",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "do-not-import",
+      "governingIssues": [176, 178],
+      "notes": "Child-repo site remains live as primary publication. PPW will have its own Sacrifice Law module pages (PPW #176, #178)."
+    }
+  ]
+}
