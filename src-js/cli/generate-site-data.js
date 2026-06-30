@@ -14,7 +14,7 @@ const scores = readJson(path.join(generatedDir, "all-scores.json"));
 const counterclaims = readJson(path.join(generatedDir, "all-counterclaims.json"));
 
 const payload = {
-  status: "draft-research-spike",
+  status: "draft-research-repository",
   generatedAt: new Date().toISOString(),
   caseCount: caseIndex.length,
   theoryCount: theoryIndex.length,

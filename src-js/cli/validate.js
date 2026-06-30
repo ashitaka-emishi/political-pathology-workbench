@@ -98,6 +98,8 @@ function validateTheory(theoryDir) {
   try {
     const manifest = readJson(manifestPath);
     requireFields(manifestPath, manifest, ["theoryId", "title", "version", "status", "publicationStatus"]);
+    validateEnum(`${manifest.theoryId}.status`, manifest.status, VOCAB.reviewStatuses);
+    validateEnum(`${manifest.theoryId}.publicationStatus`, manifest.publicationStatus, VOCAB.publicationStatuses);
     return manifest;
   } catch (error) {
     addError(error.message);

@@ -1,13 +1,13 @@
 [
   {
     "variableId": "symbolic-order",
-    "label": "Symbolic Order",
-    "description": "The shared symbolic structure that organizes political identity and meaning."
+    "label": "Sacred Political Order",
+    "description": "The shared sacred-political structure that organizes political identity and meaning."
   },
   {
     "variableId": "institutional-embodiment",
     "label": "Institutional Embodiment",
-    "description": "The degree to which the symbolic order is carried by institutions."
+    "description": "The degree to which the sacred political order is carried by institutions."
   },
   {
     "variableId": "self-sacralization",

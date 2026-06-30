@@ -1,8 +1,8 @@
 [
   {
     "variableId": "symbolic-order",
-    "label": "Symbolic Order",
-    "description": "The shared symbolic structure that organizes political identity and meaning."
+    "label": "Sacred Political Order",
+    "description": "The shared sacred-political structure that organizes political identity and meaning."
   },
   {
     "variableId": "institutional-embodiment",
@@ -26,8 +26,8 @@
   },
   {
     "variableId": "symbolic-order-strength",
-    "label": "Symbolic Order Strength",
-    "description": "Degree to which a symbolic order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice."
+    "label": "Sacred Political Order Strength",
+    "description": "Degree to which a sacred political order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice."
   },
   {
     "variableId": "sacred-enemy",

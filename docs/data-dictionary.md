@@ -15,6 +15,10 @@
 - `selectionRationale`: reason for inclusion
 - `theoryTest`: what the case tests
 
+### Symbolic Order and Sacred Political Order
+
+`symbolic order` is retained as a source-tradition term for broad structures of shared meaning. The workbench's operational unit is `sacred political order`: a political meaning structure organized around sacred objects, values, or persons whose violation is experienced as desecration. Active case data therefore uses `sacredPoliticalOrder*` fields. Older `symbolicOrder*` names are historical scaffold terminology, not current schema fields.
+
 ## Interpretation Fields
 
 - `mechanism`: controlled mechanism category

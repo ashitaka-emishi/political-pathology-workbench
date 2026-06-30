@@ -26,18 +26,18 @@ The proposed law identifies a default dynamic in embodied sacred political order
 
 ### Component Theories
 
-**General Theory of Political Pathology** (v1): A comparative theory of how embodied symbolic orders respond to crisis through sacrifice, reform, collapse, transformation, stagnation, or hybrid transition.
+**General Theory of Political Pathology** (v1): A comparative theory of how embodied sacred political orders respond to crisis through sacrifice, reform, collapse, transformation, stagnation, or hybrid transition.
 
 **Koenigsberg's Immortal Collective Body** (v1): Political communities may function as imagined immortal collective bodies for which individual mortal bodies are sacrificed. The key variable is whether mortal individuals are symbolically linked to an enduring collective body whose continuation gives meaning to death.
 
-**Sacrifice Law** (v1): A symbolic order's self-preservation can become self-sacralization and legitimate sacrifice under perceived existential threat. Key assumptions:
+**Sacrifice Law** (v1): A sacred political order's self-preservation can become self-sacralization and legitimate sacrifice under perceived existential threat. Key assumptions:
 
-- Symbolic orders tend to seek institutional embodiment.
+- Sacred political orders tend to seek institutional embodiment.
 - Perceived existential crisis can intensify an order's self-sacralization.
 
 ### Outcome Taxonomy
 
-The theory distinguishes six outcome types based on how an embodied symbolic order responds when its self-preservation drive encounters crisis pressure:
+The theory distinguishes six outcome types based on how an embodied sacred political order responds when its self-preservation drive encounters crisis pressure:
 
 | Outcome | Description |
 |---|---|
@@ -63,7 +63,7 @@ Each step carries required metadata: source citation, locator, evidence role, re
 
 ### Scoring
 
-Variables are scored 0–5. Scores require `confidence.value`, `confidence.label`, `confidence.rationale`, `reviewStatus`, `definitionRefs`, and `codebookVersion`. Current core variables: Symbolic Order Strength, Sacralization, Collective Immortality, Sacred Enemy, Corrigibility, Pathology. See [Scoring Rubric](../methods/scoring-rubric.qmd).
+Variables are scored 0–5. Scores require `confidence.value`, `confidence.label`, `confidence.rationale`, `reviewStatus`, `definitionRefs`, and `codebookVersion`. Current core variables: Sacred Political Order Strength, Sacralization, Collective Immortality, Sacred Enemy, Corrigibility, Pathology. See [Scoring Rubric](../methods/scoring-rubric.qmd).
 
 ### Case Selection
 

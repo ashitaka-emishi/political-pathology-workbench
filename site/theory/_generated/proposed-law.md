@@ -11,7 +11,7 @@ Draft theory page. All formulations are provisional research scaffolds.
 ## Theoretical Cycle
 
 ```
-Symbolic Order
+Sacred Political Order
     ↓ seeks
 Institutional Embodiment
     ↓ tends toward
@@ -28,9 +28,9 @@ The outcome depends on the order's corrigibility: whether institutional design, 
 
 ### General Theory of Political Pathology
 
-A comparative theory of how embodied symbolic orders respond to crisis through sacrifice, reform, collapse, transformation, stagnation, or hybrid transition.
+A comparative theory of how embodied sacred political orders respond to crisis through sacrifice, reform, collapse, transformation, stagnation, or hybrid transition.
 
-> Political pathology occurs when an embodied symbolic order begins treating its own survival as sacred and responds to crisis by demanding sacrifice, suppressing correction, collapsing, freezing, or transforming into a successor order.
+> Political pathology occurs when an embodied sacred political order begins treating its own survival as sacred and responds to crisis by demanding sacrifice, suppressing correction, collapsing, freezing, or transforming into a successor order.
 
 ### Koenigsberg's Immortal Collective Body
 
@@ -40,7 +40,7 @@ Political communities may function as imagined immortal collective bodies for wh
 
 ### Sacrifice Law
 
-A symbolic order's self-preservation can become self-sacralization and legitimate sacrifice under perceived existential threat.
+A sacred political order's self-preservation can become self-sacralization and legitimate sacrifice under perceived existential threat.
 
-- Symbolic orders tend to seek institutional embodiment.
+- Sacred political orders tend to seek institutional embodiment.
 - Perceived existential crisis can intensify an order's self-sacralization.

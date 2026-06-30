@@ -1,6 +1,6 @@
 # Status Policy
 
-This project is an active research spike. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
+This project is an active research repository. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
 
 All public-facing artifacts should declare a publication status:
 
