@@ -272,6 +272,7 @@ const bibliography = fs.existsSync(bibliographyPath) ? readJson(bibliographyPath
 const bibliographyIds = new Set(bibliography.map((source) => source.id));
 
 const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.join(root, "data", "cases", name));
+const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
 const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, bibliographyIds)).filter(Boolean);
 
 const evidenceModuleResult = validateEvidenceModules(root);
@@ -282,7 +283,7 @@ const corpusRegistryResult = validateCorpusRegistry(root, evidenceModuleResult.m
 for (const e of corpusRegistryResult.errors) errors.push(e);
 for (const w of corpusRegistryResult.warnings) warnings.push(w);
 
-const claimPromotionResult = validateClaimPromotion(root);
+const claimPromotionResult = validateClaimPromotion(root, evidenceModuleResult.moduleIds, caseIds);
 for (const e of claimPromotionResult.errors) errors.push(e);
 for (const w of claimPromotionResult.warnings) warnings.push(w);
 
