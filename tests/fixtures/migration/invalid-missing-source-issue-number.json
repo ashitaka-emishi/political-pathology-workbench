@@ -1,0 +1,11 @@
+{
+  "sourceRepo": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "sourceTitle": "Fixture missing sourceIssue number",
+  "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/0",
+  "issueKind": "implementation",
+  "disposition": "migrate-as-ppw-issue",
+  "targetPpwIssue": null,
+  "targetMilestone": "Milestone 12: Child-Project Issue Migration",
+  "rationale": "Invalid fixture: sourceIssue field is absent.",
+  "closureInstruction": "n/a"
+}

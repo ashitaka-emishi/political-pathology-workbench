@@ -1,0 +1,12 @@
+{
+  "sourceRepo": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "sourceIssue": 99,
+  "sourceTitle": "Fixture with unsupported disposition",
+  "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/99",
+  "issueKind": "implementation",
+  "disposition": "close-without-action",
+  "targetPpwIssue": null,
+  "targetMilestone": "Milestone 12: Child-Project Issue Migration",
+  "rationale": "Invalid fixture: disposition is not in the allowed set.",
+  "closureInstruction": "n/a"
+}

@@ -1,0 +1,11 @@
+{
+  "sourceRepo": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "sourceIssue": 77,
+  "sourceTitle": "Fixture missing closureInstruction",
+  "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/77",
+  "issueKind": "implementation",
+  "disposition": "migrate-as-ppw-issue",
+  "targetPpwIssue": null,
+  "targetMilestone": "Milestone 12: Child-Project Issue Migration",
+  "rationale": "Invalid fixture: closureInstruction field is absent."
+}

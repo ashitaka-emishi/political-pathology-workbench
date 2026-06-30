@@ -1,0 +1,13 @@
+{
+  "sourceRepo": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "sourceIssue": 105,
+  "sourceTitle": "Add Stage 4H and 4J test fixtures",
+  "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/105",
+  "sourceLabels": ["pipeline", "validation"],
+  "issueKind": "implementation",
+  "disposition": "defer-to-post-integration",
+  "targetPpwIssue": null,
+  "targetMilestone": "Milestone 12: Child-Project Issue Migration",
+  "rationale": "Fixture paths target child-repo pipeline stages; defer until PPW validation fixtures are established.",
+  "closureInstruction": "leave open until PPW pipeline disposition is recorded and maintainer approves supersession comment"
+}
