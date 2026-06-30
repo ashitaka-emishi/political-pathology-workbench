@@ -1,0 +1,95 @@
+{
+  "caseId": "american-civil-war-union",
+  "evidenceModuleId": "lincoln-metaphor-analysis",
+  "corpusId": "lincoln-deep-28",
+  "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#142",
+  "artifactLinks": [
+    {
+      "artifactFamily": "corpus-metadata",
+      "disposition": "import-complete",
+      "ppwLayer": null,
+      "ppwLocation": "data/corpora/lincoln-deep-28/",
+      "referenceOnly": false,
+      "canGenerateDraftClaims": false,
+      "sourceIds": ["lincoln-metaphor-analysis corpus_manifest.json"],
+      "governingIssues": [195, 196, 197],
+      "notes": "Corpus metadata (corpus.json, documents.json, artifact-index.json) created in Milestone 15. Three-tier structure: 36 core entries, validation scope defined, reference scope defined."
+    },
+    {
+      "artifactFamily": "passages",
+      "disposition": "pending",
+      "ppwLayer": "passages",
+      "ppwLocation": "data/cases/american-civil-war-union/passages.json",
+      "referenceOnly": false,
+      "canGenerateDraftClaims": false,
+      "sourceIds": ["lincoln-metaphor-analysis segmented passage records"],
+      "governingIssues": [143],
+      "scheduledMilestone": 16,
+      "notes": "Passage records (segmented, stable sentence IDs) to be imported or referenced in Milestone 16. Core-tier documents only; validation-tier passage segmentation handled separately."
+    },
+    {
+      "artifactFamily": "cluster-profiles",
+      "disposition": "pending",
+      "ppwLayer": "interpretations",
+      "ppwLocation": "data/cases/american-civil-war-union/interpretations.json",
+      "referenceOnly": false,
+      "canGenerateDraftClaims": true,
+      "sourceIds": ["lincoln-metaphor-analysis Stage 4A cluster annotation outputs"],
+      "governingIssues": [144],
+      "scheduledMilestone": 16,
+      "notes": "Cluster profiles (metaphor cluster membership, evidence strength) represented as PPW analysis artifacts. Feeds draft claim candidates."
+    },
+    {
+      "artifactFamily": "draft-claims",
+      "disposition": "pending",
+      "ppwLayer": "claims",
+      "ppwLocation": "data/cases/american-civil-war-union/claims.json",
+      "referenceOnly": false,
+      "canGenerateDraftClaims": true,
+      "claimStatus": "draft",
+      "promotionGateStatus": "not-started",
+      "sourceIds": ["lincoln-metaphor-analysis draft claim candidates"],
+      "governingIssues": [145],
+      "scheduledMilestone": 16,
+      "notes": "Draft claim candidates imported with reviewStatus: draft. No claims promoted to PPW findings until passing the claim-promotion gate (Milestone 18, PPW #129)."
+    },
+    {
+      "artifactFamily": "stage-4a-annotations",
+      "disposition": "reference-only",
+      "ppwLayer": null,
+      "ppwLocation": null,
+      "referenceOnly": true,
+      "canGenerateDraftClaims": false,
+      "sourceIds": ["lincoln-metaphor-analysis Stage 4A model scoring records"],
+      "governingIssues": [],
+      "notes": "Model scoring records remain in child repo. Referenced by provenance link from PPW claims; not copied into PPW data."
+    },
+    {
+      "artifactFamily": "reliability-artifacts",
+      "disposition": "reference-only",
+      "ppwLayer": null,
+      "ppwLocation": null,
+      "referenceOnly": true,
+      "canGenerateDraftClaims": false,
+      "sourceIds": [
+        "lincoln-metaphor-analysis Stage 4H human coding records",
+        "lincoln-metaphor-analysis Stage 4J adjudication records",
+        "lincoln-metaphor-analysis inter-annotator agreement metrics"
+      ],
+      "governingIssues": [],
+      "notes": "Human reliability artifacts inform PPW review-gate design but are not copied into PPW. Methodology context referenced from PPW method note (PPW #146)."
+    },
+    {
+      "artifactFamily": "reliability-sampling-design",
+      "disposition": "pending",
+      "ppwLayer": null,
+      "ppwLocation": null,
+      "referenceOnly": false,
+      "canGenerateDraftClaims": false,
+      "sourceIds": ["lincoln-metaphor-analysis reliability sampling strategy"],
+      "governingIssues": [199],
+      "scheduledMilestone": 19,
+      "notes": "Reliability sampling design (v4 validation corpus) adapted for PPW in Milestone 19 after review-gate framework exists."
+    }
+  ]
+}
