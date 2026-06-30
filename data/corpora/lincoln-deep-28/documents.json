@@ -7,10 +7,11 @@
   "documentTiers": [
     {
       "tier": "core",
-      "targetCount": 48,
+      "v3BaselineCount": 28,
+      "v4ExpansionTarget": 48,
       "currentCount": 0,
       "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/195",
-      "description": "Fully annotated core set; receives passage segmentation, claim extraction, and scoring",
+      "description": "Fully annotated core set; receives passage segmentation, claim extraction, and scoring. corpus.json documentCount reflects the v3 baseline (28); v4 expands to 48 per PPW #195.",
       "importStatus": "pending"
     },
     {

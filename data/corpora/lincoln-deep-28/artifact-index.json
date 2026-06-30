@@ -42,7 +42,7 @@
       "description": "Stage 4H/4J human coding and adjudication records; inter-annotator agreement metrics",
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
-      "importStatus": "reference-only",
+      "disposition": "reference-only",
       "governingIssues": [],
       "note": "Reference only; inform PPW review-gate design but do not become PPW data."
     }
