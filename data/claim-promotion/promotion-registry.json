@@ -1,0 +1,40 @@
+[
+  {
+    "promotionId": "prom-001",
+    "claimId": "lma-draft-claim-001",
+    "originModuleId": "lincoln-metaphor-analysis",
+    "caseId": "american-civil-war-union",
+    "promotionStatus": "reviewed-claim",
+    "reviewStatus": "source-review",
+    "reviewedBy": "andrew-hammer",
+    "reviewDate": "2026-06-30",
+    "reviewNotes": "Source-level review complete for the obligatory-frame cluster. The Gettysburg Address and Second Inaugural provide documented primary-source grounding for Lincoln's construction of the Civil War as a test to be endured rather than a victory to be exploited. Both sources are confirmed in the PPW bibliography and american-civil-war-union source-pack. Advancing to source-review status; not yet ready for promoted-finding because passage-level anchoring and inter-annotator reliability checks remain outstanding (see promotionBlockers).",
+    "sourceRefs": [
+      "lincoln-gettysburg-address-1863",
+      "lincoln-second-inaugural-1865"
+    ],
+    "passageRefs": [],
+    "artifactRefs": [
+      "lincoln-deep-28"
+    ],
+    "scoreImpact": {
+      "expectedDirection": "increase",
+      "affectedVariables": [
+        "sacred-political-order-strength",
+        "corrigibility"
+      ],
+      "rationale": "If passage-level evidence confirms the obligatory-frame cluster at scale, this claim would support the anti-sacrificial-restraint mechanism score for american-civil-war-union and reinforce the bounded-sacrifice reading that distinguishes the Union case from escalatory comparators.",
+      "magnitude": "candidate"
+    },
+    "limitations": [
+      "Passage-level anchoring not yet completed; claim rests on document-level corpus inventory, not imported passage records",
+      "Cross-register frequency of the obligatory frame is cited anecdotally but not systematically measured",
+      "Obligatory-frame definition may overlap with sacrifice cluster; conceptual boundary requires evidence-review-level clarification",
+      "Review is source-only; evidence-review and argument-review gates have not yet been cleared"
+    ],
+    "promotionBlockers": [
+      "Passage records must be imported (PPW #143) before advancing to promoted-finding",
+      "Inter-annotator reliability check required for obligatory-frame cluster membership"
+    ]
+  }
+]
