@@ -99,9 +99,61 @@
       "tier": "reference",
       "targetCount": null,
       "currentCount": 0,
+      "coreDocumentsIncluded": true,
+      "validationDocumentsIncluded": true,
       "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/197",
-      "description": "Indexed for search only; not annotated",
-      "importStatus": "pending"
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#115",
+      "importStatus": "pending",
+      "description": "Exhaustive contextual corpus indexed for keyword and context search only. No annotation at any level. Includes all core and validation tier documents plus additional Lincoln and contemporaneous documents that provide search context without adding annotation burden. Target count is open-ended (upper bound: complete Lincoln Collected Works plus key contemporaneous documents). Specific document selection awaits LMA #115 resolution.",
+      "tierDefinition": {
+        "annotationLevel": "reference",
+        "ppwAnnotationScope": "search indexing only; no passage segmentation, no claim extraction, no scoring",
+        "vsCoreTier": "Core tier receives full annotation pipeline (passages → claims → interpretations → scores). Reference tier is indexed only — documents are retrievable and citable but carry no annotation structure.",
+        "vsValidationTier": "Validation tier receives passage segmentation for reliability sampling. Reference tier receives no annotation at all — not even passage boundaries.",
+        "searchUse": "Reference-tier documents enable contextual search across a broader Lincoln corpus: keyword queries, inter-document navigation, and negative-space checks (confirming a metaphor cluster is absent in a given register or period).",
+        "annotationExclusion": "Reference tier documents must NOT be promoted to claim candidates or used as the basis for scoring without explicit upgrade to validation or core tier."
+      },
+      "candidateCategories": [
+        {
+          "category": "broader-collected-works",
+          "description": "Lincoln Collected Works documents not in core or validation tiers — campaign speeches, lesser-known addresses, minor correspondence. Note: the congressional-speeches, legal-documents, and campaign-materials categories below are subsets of this broader pool; do not count a document in both this category and a named subset category.",
+          "estimatedCount": "open",
+          "rationale": "Exhaustive Lincoln coverage for search; ensures no significant document is outside the search index"
+        },
+        {
+          "category": "congressional-speeches",
+          "description": "House floor speeches and committee remarks (1847-1849 congressional term) not in core or validation sets",
+          "estimatedCount": "5-10",
+          "rationale": "Pre-Peoria legislative register; tests for metaphor suppression or activation in formal legislative discourse"
+        },
+        {
+          "category": "legal-documents",
+          "description": "Select legal briefs, circuit-court arguments, and law-practice documents (1836-1860)",
+          "estimatedCount": "5-10",
+          "rationale": "Legal register; tests whether persuasive legal argument activates or suppresses the rhetorical clusters present in political addresses"
+        },
+        {
+          "category": "campaign-materials",
+          "description": "1858 campaign materials and 1860 campaign documents not already in core or validation tiers",
+          "estimatedCount": "5-8",
+          "rationale": "Electoral-register documents; diachronic bridge between Peoria and the presidential period"
+        },
+        {
+          "category": "contemporaneous-context",
+          "description": "Selected documents by contemporaries (Douglas, Chase, Seward, Frederick Douglass) for comparative-context search",
+          "estimatedCount": "10-20",
+          "rationale": "Non-Lincoln documents for negative-space and contrast searches; must be marked authorId ≠ Lincoln and excluded from any Lincoln-specific metaphor scoring",
+          "authorshipNote": "These documents are NOT Lincoln-authored. Use the author field (not 'Lincoln') and corpusTier field to prevent accidental inclusion in Lincoln-metaphor scoring runs."
+        },
+        {
+          "category": "newspaper-transcripts",
+          "description": "Contemporary newspaper transcriptions of Lincoln speeches where no authoritative Collected Works text exists",
+          "estimatedCount": "5-10",
+          "rationale": "Fills gaps where CW has no text; must carry editorialStatus: uncertain and sourceAuthority: newspaper-transcript",
+          "textQualityNote": "Transcription fidelity varies; flag with riskFlags: [transcription-uncertainty] and do not use as primary text for any annotation work."
+        }
+      ],
+      "notes": "The core (36 registered) and validation (75-100 total) tier documents are implicitly included in the reference index — all annotated documents are also searchable. This `currentCount: 0` reflects additional-only reference documents beyond the validation set that have not yet been individually selected. targetCount is null (open-ended): the reference corpus grows to encompass whatever documents are useful for contextual search without a fixed ceiling. Contemporaneous-context documents (non-Lincoln) must be clearly marked to prevent inclusion in metaphor-scoring runs. Specific document selection requires LMA #115 to be resolved in the child repository."
     }
   ],
   "documents": [

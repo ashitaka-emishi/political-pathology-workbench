@@ -6,7 +6,7 @@
     "originModuleId": "lincoln-metaphor-analysis",
     "caseIds": ["american-civil-war-union"],
     "documentCount": 28,
-    "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis. PPW #195 registered 36 core documents: 28 confirmed (v3 baseline) plus 8 planned v4 additions from LMA #113; 12-document gap to 48-doc v4 target pending LMA #113 resolution. PPW #196 defined the validation-tier scope (75-100 docs total; passage-segmentation-only annotation; 9 candidate categories; additional documents pending LMA #114). Reference tier scope pending PPW #197.",
+    "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis. PPW #195 registered 36 core documents: 28 confirmed (v3 baseline) plus 8 planned v4 additions from LMA #113; 12-document gap to 48-doc v4 target pending LMA #113 resolution. PPW #196 defined the validation-tier scope (75-100 docs total; passage-segmentation-only annotation; 9 candidate categories; additional documents pending LMA #114). PPW #197 defined the reference-tier scope (open-ended count; search-only indexing; 6 candidate categories; contemporaneous-context docs flagged for scoring exclusion; specific documents pending LMA #115).",
     "corpusPurpose": "core",
     "rightsStatus": "fair-use",
     "normalizationStatus": "pending",
@@ -21,7 +21,7 @@
       "github:ashitaka-emishi/political-pathology-workbench#197",
       "github:ashitaka-emishi/political-pathology-workbench#198"
     ],
-    "notes": "PPW #195 populated documents.json with 36 core entries (28 confirmed + 8 planned v4 additions from LMA #113). PPW #196 defined the validation-tier scope and annotation level (passage-segmentation-only) with 9 candidate categories; specific additional documents pending LMA #114 resolution. Per-corpus folder created in PPW #137. 12 more core documents needed to reach v4 target of 48 (pending LMA #113). Raw text import planned for Milestone 16 (PPW #198)."
+    "notes": "PPW #195 populated documents.json with 36 core entries (28 confirmed + 8 planned v4 additions from LMA #113). PPW #196 defined the validation-tier scope and annotation level (passage-segmentation-only) with 9 candidate categories; specific additional documents pending LMA #114 resolution. Per-corpus folder created in PPW #137. 12 more core documents needed to reach v4 target of 48 (pending LMA #113). PPW #197 defined the reference-tier scope (search-only; open-ended count; 6 candidate categories; non-Lincoln contemporaneous docs flagged for scoring exclusion; pending LMA #115). Raw text import planned for Milestone 16 (PPW #198)."
   },
   {
     "corpusId": "sacrifice-law-comparative-41",
