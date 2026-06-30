@@ -6,16 +6,16 @@
       "disposition": "import-now",
       "description": "Corpus document metadata (title, date, author, source URL) for the four-case stratified corpus (American Revolution, Napoleon, Lincoln, Hitler)",
       "scheduledMilestone": 17,
-      "ppwIssues": [138],
-      "notes": "Imported via PPW corpus registry entries. Confirm case mapping for American Revolution and Napoleon cases first (PPW #149-#151)."
+      "ppwIssues": [138, 149],
+      "notes": "Imported via PPW corpus registry entries. PPW #149 records proposed case IDs for American Revolution and Napoleon; those subsets remain blocked until PPW case folders exist."
     },
     {
       "artifactClass": "corpus",
       "disposition": "import-now",
       "description": "Corpus manifest (manifest-driven pipeline output defining the stratified corpus)",
       "scheduledMilestone": 17,
-      "ppwIssues": [138],
-      "notes": "Import as PPW corpus registry entries. Requires confirming case mapping for American Revolution and Napoleon (PPW #149)."
+      "ppwIssues": [138, 149],
+      "notes": "Import as PPW corpus registry entries. PPW #149 records proposed case IDs for American Revolution and Napoleon; case-folder creation remains a follow-up."
     },
     {
       "artifactClass": "corpus",
@@ -23,7 +23,7 @@
       "description": "Raw text files for Sacrifice Law corpus cases",
       "scheduledMilestone": 17,
       "ppwIssues": [],
-      "notes": "After PPW Sacrifice Law case mapping is confirmed (PPW #149-#151). Rights vary by era; pre-1928 texts generally public domain."
+      "notes": "After PPW case folders exist for proposed American Revolution and Napoleon targets. Rights vary by era; pre-1928 texts generally public domain."
     },
     {
       "artifactClass": "methodology",

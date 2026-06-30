@@ -21,7 +21,7 @@
       "importStatus": "pending",
       "governingIssues": [138],
       "scheduledMilestone": 17,
-      "notes": "Case mapping for American Revolution and Napoleon must be confirmed before import (PPW #149-#151)."
+      "notes": "PPW #149 records proposed case IDs for American Revolution and Napoleon; import remains blocked until the corresponding PPW case folders exist."
     },
     {
       "family": "case-subset-links",
@@ -30,9 +30,9 @@
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-now",
       "importStatus": "partial",
-      "governingIssues": [150, 151],
+      "governingIssues": [149, 150, 151],
       "scheduledMilestone": 17,
-      "notes": "Lincoln and Nazi Germany subset links are represented in existing PPW case folders. American Revolution and Napoleon remain deferred until case mapping is confirmed."
+      "notes": "Lincoln and Nazi Germany subset links are represented in existing PPW case folders. American Revolution and Napoleon have proposed PPW case IDs but remain deferred until case folders are created or approved."
     },
     {
       "family": "raw-text",
@@ -43,7 +43,7 @@
       "importStatus": "pending",
       "governingIssues": [],
       "scheduledMilestone": 17,
-      "rightsNote": "Pre-1928 texts generally public domain. Nazi-era translations and scholarly apparatus require rights review. American Revolution and Napoleon case mapping must be confirmed first."
+      "rightsNote": "Pre-1928 texts generally public domain. Nazi-era translations and scholarly apparatus require rights review. American Revolution and Napoleon subsets require PPW case folders before import."
     },
     {
       "family": "draft-claims",
