@@ -1,0 +1,75 @@
+{
+  "corpusId": "lincoln-deep-28",
+  "caseId": "american-civil-war-union",
+  "evidenceModuleId": "lincoln-metaphor-analysis",
+  "corpusPurpose": "deep-single-case",
+  "purposeDescription": "Deep mechanism study of Abraham Lincoln's political rhetoric (1838-1865). Full annotation pipeline applied to the core tier: passages, claims, interpretations, and scores. Provides the primary evidence base for the american-civil-war-union case.",
+  "distinctionFromSacrificeLawSubset": "The sacrifice-law-workbench also contains Lincoln documents as one of four comparative cases (american-civil-war-union subset of the sacrifice-law-comparative-41 corpus). That subset is used for cross-case comparison under Koenigsberg's Law of Sacrifice and receives no PPW deep annotation. This corpus (lincoln-deep-28) is exclusively for single-case deep analysis of Lincoln metaphor and political rhetoric; it is not a substitute for or duplicate of the SLW Lincoln subset.",
+  "corpusTiers": [
+    {
+      "tier": "core",
+      "documentCount": 28,
+      "registeredDocumentCount": 36,
+      "annotationScope": "full pipeline: passages → claims → interpretations → scores",
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/195"
+    },
+    {
+      "tier": "validation",
+      "targetRange": "75-100",
+      "annotationScope": "passage segmentation only; no claim extraction or scoring",
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/196"
+    },
+    {
+      "tier": "reference",
+      "targetCount": null,
+      "annotationScope": "search indexing only; no annotation",
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/197"
+    }
+  ],
+  "availableArtifactClasses": [
+    {
+      "artifactClass": "corpus-metadata",
+      "status": "available",
+      "ppwLocation": "data/corpora/lincoln-deep-28/",
+      "notes": "corpus.json, documents.json, artifact-index.json created in Milestone 15"
+    },
+    {
+      "artifactClass": "passages",
+      "status": "pending",
+      "ppwLocation": null,
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/143",
+      "scheduledMilestone": 16
+    },
+    {
+      "artifactClass": "claims",
+      "status": "draft",
+      "ppwLocation": null,
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/145",
+      "scheduledMilestone": 16,
+      "notes": "Draft claim candidates only; not reviewed or promoted"
+    },
+    {
+      "artifactClass": "cluster-profiles",
+      "status": "pending",
+      "ppwLocation": null,
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/144",
+      "scheduledMilestone": 16
+    },
+    {
+      "artifactClass": "reliability-study",
+      "status": "pending",
+      "ppwLocation": null,
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/199",
+      "scheduledMilestone": 19
+    }
+  ],
+  "claimStatus": {
+    "overallStatus": "draft",
+    "promotionGateStatus": "not-started",
+    "reviewStatus": "not-started",
+    "notes": "No claims from this corpus have been reviewed or promoted into PPW findings. All claim candidates, once created in Milestone 16 (PPW #145), will carry reviewStatus: draft until passing the PPW claim-promotion gate (Milestone 18, PPW #129)."
+  },
+  "sourceIssueRefs": [
+    "github:ashitaka-emishi/political-pathology-workbench#141"
+  ]
+}
