@@ -1,0 +1,5 @@
+---
+title: "Revolutionary France"
+---
+
+{{< include _chains/revolutionary-france.md >}}

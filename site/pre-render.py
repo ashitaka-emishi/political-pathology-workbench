@@ -44,13 +44,21 @@ def score_bar(v: int) -> str:
     return "■" * v + "□" * (5 - v)
 
 
-def render_case(case_id: str, meta: dict, passages: list, claims: list,
-                interpretations: list, scores: list, counterclaims: list) -> str:
+def render_chain_page(chain: dict, meta: dict, counterclaims: list) -> str:
     lines: list[str] = []
+    interpretations = chain.get("interpretations", [])
+    scores = [s for i in interpretations for s in i.get("scores", [])]
+    claims_by_id = {}
+    passages_by_id = {}
+    for interpretation in interpretations:
+        for claim in interpretation.get("claims", []):
+            claims_by_id.setdefault(claim.get("claimId", ""), claim)
+            for passage in claim.get("passages", []):
+                passages_by_id.setdefault(passage.get("passageId", ""), passage)
 
     lines += [
         "::: {.callout-warning}",
-        "Draft gold case. All evidence is provisional and under source review.",
+        "Draft case page. All evidence is provisional and under source review.",
         "Public availability does not imply scholarly finality.",
         ":::",
         "",
@@ -80,24 +88,24 @@ def render_case(case_id: str, meta: dict, passages: list, claims: list,
 
     # Passages
     lines += ["## Passages", ""]
-    for p in passages:
+    for p in passages_by_id.values():
         lines += [
-            f"> {p['text']}",
+            f"> {p.get('text', '')}",
             "",
-            f"**Locator:** {p['locator']}  ",
+            f"**Locator:** {p.get('locator', '—')}  ",
             f"**Role:** {p.get('evidenceRole', '—')} · "
-            f"Source: `{p['sourceId']}`  ",
+            f"Source: `{p.get('sourceId', '—')}`  ",
             f"**Review status:** `{p.get('reviewStatus', 'draft')}`",
             "",
             "---",
             "",
         ]
-    if not passages:
+    if not passages_by_id:
         lines += ["*No passages recorded.*", ""]
 
     # Claims
-    lines += ["## Claim", ""]
-    for c in claims:
+    lines += ["## Claims", ""]
+    for c in claims_by_id.values():
         conf = c.get("confidence", {})
         uf = conf.get("uncertaintyFactors", [])
         lines += [
@@ -109,7 +117,7 @@ def render_case(case_id: str, meta: dict, passages: list, claims: list,
         if uf:
             lines.append(f"**Uncertainty factors:** {', '.join(uf)}")
         lines.append("")
-    if not claims:
+    if not claims_by_id:
         lines += ["*No claims recorded.*", ""]
 
     # Interpretations
@@ -146,6 +154,17 @@ def render_case(case_id: str, meta: dict, passages: list, claims: list,
         lines += ["*No counterclaims recorded.*", ""]
 
     return "\n".join(lines)
+
+
+def render_case_qmd(chain: dict) -> str:
+    return "\n".join([
+        "---",
+        f"title: \"{chain.get('title', title_case(chain.get('caseId', '')))}\"",
+        "---",
+        "",
+        f"{{{{< include _chains/{chain['caseSlug']}.md >}}}}",
+        "",
+    ])
 
 
 def render_dashboard(scores: list[dict], case_meta: dict) -> str:
@@ -355,7 +374,7 @@ GOLD_PAGE_SLUGS = {
     "nazi-germany": "nazi-germany",
     "postwar-germany": "postwar-germany",
     "imperial-japan": "imperial-japan",
-    "soviet-union-collapse": "soviet-collapse",
+    "soviet-union-collapse": "soviet-union-collapse",
     "united-states-after-vietnam": "united-states-after-vietnam",
 }
 
@@ -387,7 +406,7 @@ def render_cases_index(scores: list[dict], counterclaims: list[dict],
     ]
     for c in gold:
         cid = c["caseId"]
-        slug = GOLD_PAGE_SLUGS.get(cid, cid)
+        slug = c.get("slug", GOLD_PAGE_SLUGS.get(cid, cid))
         n_scores = sum(1 for s in scores if s["caseId"] == cid)
         n_cc = cc_counts.get(cid, 0)
         lines.append(
@@ -400,7 +419,7 @@ def render_cases_index(scores: list[dict], counterclaims: list[dict],
 
     # Non-gold cases grouped by outcome
     lines += ["## Structural Comparators", "",
-              "Counterclaims recorded; evidence chains not yet built.", ""]
+              "Generated evidence-chain pages are available for every case.", ""]
 
     from collections import defaultdict
     by_outcome: dict[str, list] = defaultdict(list)
@@ -418,7 +437,7 @@ def render_cases_index(scores: list[dict], counterclaims: list[dict],
             cid = c["caseId"]
             n_cc = cc_counts.get(cid, 0)
             lines.append(
-                f"| {c['title']} "
+                f"| [{c['title']}]({c.get('slug', cid)}.qmd) "
                 f"| {title_case(c.get('caseSelectionRole', ''))} "
                 f"| {n_cc} |"
             )
@@ -1075,7 +1094,7 @@ def case_id_to_slug(case_id: str) -> str:
         "nazi-germany": "cases/nazi-germany",
         "postwar-germany": "cases/postwar-germany",
         "imperial-japan": "cases/imperial-japan",
-        "soviet-union-collapse": "cases/soviet-collapse",
+        "soviet-union-collapse": "cases/soviet-union-collapse",
         "united-states-after-vietnam": "cases/united-states-after-vietnam",
     }
     return slugs.get(case_id, f"cases/{case_id}")
@@ -1105,20 +1124,24 @@ def main() -> None:
     interpretations = load("interpretations")
     scores = load("scores")
     counterclaims = load("counterclaims")
+    chains = load("chains")
 
-    for case_id in GOLD_CASES:
-        content = render_case(
-            case_id,
+    for stale_chain in OUT.glob("*.md"):
+        stale_chain.unlink()
+    for chain in chains:
+        case_id = chain["caseId"]
+        content = render_chain_page(
+            chain,
             case_meta.get(case_id, {}),
-            [p for p in passages if p["caseId"] == case_id],
-            [c for c in claims if c["caseId"] == case_id],
-            [i for i in interpretations if i["caseId"] == case_id],
-            [s for s in scores if s["caseId"] == case_id],
             [cc for cc in counterclaims if cc["caseId"] == case_id],
         )
-        out_path = OUT / f"{case_id}.md"
+        out_path = OUT / f"{chain['caseSlug']}.md"
         out_path.write_text(content, encoding="utf-8")
         print(f"  [pre-render] Wrote {out_path.relative_to(PROJECT_ROOT)}")
+
+        qmd_path = SITE_DIR / "cases" / f"{chain['caseSlug']}.qmd"
+        qmd_path.write_text(render_case_qmd(chain), encoding="utf-8")
+        print(f"  [pre-render] Wrote {qmd_path.relative_to(PROJECT_ROOT)}")
 
     # Dashboard
     dashboard = render_dashboard(scores, case_meta)

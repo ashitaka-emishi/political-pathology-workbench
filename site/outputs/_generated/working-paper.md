@@ -4,7 +4,7 @@ Working paper skeleton. Not for citation as final scholarship. All evidence chai
 
 ## Abstract
 
-Political orders do not merely organize power — they embody symbolic structures that define collective identity, legitimate sacrifice, and resist correction. This working paper presents a traceable comparative framework for analyzing political pathology: the condition in which an embodied symbolic order preserves itself at the expense of truth, human flourishing, and corrigibility. The framework introduces a proposed law governing the self-preservation dynamics of symbolic orders, a six-outcome taxonomy, and a structured evidence-chain model in which every interpretive claim is traceable to specific passages, sources, and scoring rationales. Five gold cases — Nazi Germany, Imperial Japan, Postwar Germany, the Soviet Union, and the United States after Vietnam — are analyzed to test the framework against historical evidence and competing explanations. All scores and interpretations are provisional research scaffolds subject to source verification and intercoder review.
+Political orders do not merely organize power — they embody symbolic structures that define collective identity, legitimate sacrifice, and resist correction. This working paper presents a traceable comparative framework for analyzing political pathology: the condition in which an embodied sacred political order preserves itself at the expense of truth, human flourishing, and corrigibility. The framework introduces a proposed law governing the self-preservation dynamics of sacred political orders, a six-outcome taxonomy, and a structured evidence-chain model in which every interpretive claim is traceable to specific passages, sources, and scoring rationales. Five gold cases — Nazi Germany, Imperial Japan, Postwar Germany, the Soviet Union, and the United States after Vietnam — are analyzed to test the framework against historical evidence and competing explanations. All scores and interpretations are provisional research scaffolds subject to source verification and intercoder review.
 
 ## Introduction
 
@@ -18,11 +18,11 @@ The workbench that supports this analysis is designed for corrigibility: every i
 
 ### The Proposed Law
 
-> Every symbolic order seeks embodiment. Every embodied order tends toward self-preservation. Unless continually ordered toward transcendent truth, self-preservation becomes self-sacralization, and self-sacralization legitimizes sacrifice under conditions of perceived existential threat.
+> Every sacred political order seeks embodiment. Every embodied order tends toward self-preservation. Unless continually ordered toward transcendent truth, self-preservation becomes self-sacralization, and self-sacralization legitimizes sacrifice under conditions of perceived existential threat.
 
 *— Sacrifice Law, v1*
 
-The proposed law identifies a default dynamic in embodied symbolic orders. It does not claim determinism: the dynamic can be interrupted by corrigibility, pluralist resistance, constitutional design, or anti-sacrificial memory. The five gold cases were selected to test where and how interruption occurs.
+The proposed law identifies a default dynamic in embodied sacred political orders. It does not claim determinism: the dynamic can be interrupted by corrigibility, pluralist resistance, constitutional design, or anti-sacrificial memory. The five gold cases were selected to test where and how interruption occurs.
 
 ### Component Theories
 
@@ -102,7 +102,7 @@ The national body is represented as enduring beyond individual mortality, making
 **Scores:**
 
 - Collective Immortality: ■■■□□ 3/5 (moderate)
-- Symbolic Order Strength: ■■■■■ 5/5 (moderate)
+- Sacred Political Order Strength: ■■■■■ 5/5 (moderate)
 - Corrigibility: ■□□□□ 1/5 (high)
 
 ::: {.callout-note appearance="minimal"}
@@ -121,7 +121,7 @@ The national body is represented as enduring beyond individual mortality, making
 
 The founding constitutional document embeds human dignity as inviolable and unamendable, directly blocking the collective-body logic that characterized the preceding pathological order.
 
-> The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German symbolic order.
+> The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German sacred political order.
 
 *Confidence: moderate-high (0.76) · Review: `argument-review`*
 
@@ -148,7 +148,7 @@ The founding constitutional document embeds human dignity as inviolable and unam
 **Primary mechanism:** Collective Immortality To Sacrifice  
 **Sacrifice health:** pathological
 
-The imperial symbolic order represented the national body as divinely eternal; individual death in service of that body was encoded as participation in its immortality, making sacrifice the highest moral act.
+The imperial sacred political order represented the national body as divinely eternal; individual death in service of that body was encoded as participation in its immortality, making sacrifice the highest moral act.
 
 > Imperial Japanese political language encoded the Emperor's divine sovereignty and the national body (kokutai) as sacred, demanding individual self-sacrifice in service of imperial survival as the highest moral obligation overriding personal survival.
 
@@ -160,13 +160,13 @@ The imperial symbolic order represented the national body as divinely eternal; i
 
 **Scores:**
 
-- Symbolic Order Strength: ■■■■■ 5/5 (moderate-high)
+- Sacred Political Order Strength: ■■■■■ 5/5 (moderate-high)
 - Corrigibility: ■□□□□ 1/5 (moderate-high)
 
 ::: {.callout-note appearance="minimal"}
-**Challenge (qualifies):** The Taisho democracy period (c. 1912-1926) demonstrates significant liberal and pluralist contestation within the Imperial Japanese symbolic order, complicating a reading of kokutai strength as uniformly maximal across the 1868-1945 period.
+**Challenge (qualifies):** The Taisho democracy period (c. 1912-1926) demonstrates significant liberal and pluralist contestation within the Imperial Japanese sacred political order, complicating a reading of kokutai strength as uniformly maximal across the 1868-1945 period.
 
-*The symbolic order's strength intensified sharply during wartime mobilization; treating the full 1868-1945 period as uniformly high-strength conflates distinct phases of the imperial order.*
+*The sacred political order's strength intensified sharply during wartime mobilization; treating the full 1868-1945 period as uniformly high-strength conflates distinct phases of the imperial order.*
 :::
 
 ---
@@ -177,9 +177,9 @@ The imperial symbolic order represented the national body as divinely eternal; i
 **Primary mechanism:** Legitimacy Collapse  
 **Sacrifice health:** pathological
 
-The Soviet symbolic order's inability to acknowledge systemic failure until too late — a decades-long suppression of correction — depleted the legitimacy of its founding claims, and the reform process that might have saved the order instead revealed and accelerated its disintegration.
+The Soviet sacred political order's inability to acknowledge systemic failure until too late — a decades-long suppression of correction — depleted the legitimacy of its founding claims, and the reform process that might have saved the order instead revealed and accelerated its disintegration.
 
-> The Soviet symbolic order collapsed when decades of institutional rigidity exhausted the founding legitimacy claims of Marxism-Leninism, and Gorbachev's reform attempts accelerated institutional disintegration rather than restoring coherence, culminating in the formal dissolution of the USSR.
+> The Soviet sacred political order collapsed when decades of institutional rigidity exhausted the founding legitimacy claims of Marxism-Leninism, and Gorbachev's reform attempts accelerated institutional disintegration rather than restoring coherence, culminating in the formal dissolution of the USSR.
 
 *Confidence: moderate-high (0.72) · Review: `argument-review`*
 
@@ -189,13 +189,13 @@ The Soviet symbolic order's inability to acknowledge systemic failure until too 
 
 **Scores:**
 
-- Symbolic Order Strength: ■■□□□ 2/5 (moderate)
+- Sacred Political Order Strength: ■■□□□ 2/5 (moderate)
 - Corrigibility: ■□□□□ 1/5 (moderate)
 
 ::: {.callout-note appearance="minimal"}
-**Challenge (complicates):** The Soviet collapse may reflect institutional fragmentation and nationalist mobilization rather than legitimacy collapse of the Marxist-Leninist symbolic order per se — many Soviet citizens remained ideologically committed even as republics seceded, suggesting the order retained partial legitimacy while its institutional vessel failed.
+**Challenge (complicates):** The Soviet collapse may reflect institutional fragmentation and nationalist mobilization rather than legitimacy collapse of the Marxist-Leninist sacred political order per se — many Soviet citizens remained ideologically committed even as republics seceded, suggesting the order retained partial legitimacy while its institutional vessel failed.
 
-*Survey data from the late Soviet period and post-Soviet nostalgia research suggest the symbolic order did not simply lose credibility uniformly; the collapse was also a function of elite defection, economic crisis, and nationalist institutional dynamics that are analytically separable from legitimacy per se.*
+*Survey data from the late Soviet period and post-Soviet nostalgia research suggest the sacred political order did not simply lose credibility uniformly; the collapse was also a function of elite defection, economic crisis, and nationalist institutional dynamics that are analytically separable from legitimacy per se.*
 :::
 
 ---
@@ -208,7 +208,7 @@ The Soviet symbolic order's inability to acknowledge systemic failure until too 
 
 The collective memory of Vietnam failure — institutionalized as the War Powers Resolution and expressed in Carter's crisis rhetoric — restrained further sacrificial escalation and enabled a period of constrained reordering rather than pathological self-preservation.
 
-> The US symbolic order responded to the Vietnam defeat through institutional correction mechanisms and public acknowledgment of national crisis, demonstrating restrained reordering rather than sacrificial escalation: the War Powers Resolution attempted to embed congressional oversight of military commitments, while Carter named a national confidence crisis without calling for sacrifice.
+> The US sacred political order responded to the Vietnam defeat through institutional correction mechanisms and public acknowledgment of national crisis, demonstrating restrained reordering rather than sacrificial escalation: the War Powers Resolution attempted to embed congressional oversight of military commitments, while Carter named a national confidence crisis without calling for sacrifice.
 
 *Confidence: moderate (0.68) · Review: `argument-review`*
 
@@ -219,10 +219,10 @@ The collective memory of Vietnam failure — institutionalized as the War Powers
 **Scores:**
 
 - Corrigibility: ■■■□□ 3/5 (moderate)
-- Symbolic Order Strength: ■■■□□ 3/5 (moderate)
+- Sacred Political Order Strength: ■■■□□ 3/5 (moderate)
 
 ::: {.callout-note appearance="minimal"}
-**Challenge (complicates):** Reagan's explicit campaign to overcome the Vietnam syndrome — framing Vietnam as a noble cause betrayed by domestic weakness rather than a failed war — demonstrates that the post-Vietnam restraint was shallow and contested, and that the US symbolic order quickly reasserted sacrificial framing rather than institutionalizing correction.
+**Challenge (complicates):** Reagan's explicit campaign to overcome the Vietnam syndrome — framing Vietnam as a noble cause betrayed by domestic weakness rather than a failed war — demonstrates that the post-Vietnam restraint was shallow and contested, and that the US sacred political order quickly reasserted sacrificial framing rather than institutionalizing correction.
 
 *If the restrained-reordering outcome characterizes only the 1975-1980 window before Reagan reversed it, the case may be better coded as hybrid-transitional rather than restrained-reordering across the full post-Vietnam period.*
 :::
@@ -235,7 +235,7 @@ The collective memory of Vietnam failure — institutionalized as the War Powers
 
 The five gold cases span four outcome categories and two sacrifice health assessments (pathological, healthy, ambiguous), enabling preliminary cross-case inference.
 
-| Case | Outcome | Collective Immortality | Corrigibility | Symbolic Order Strength | Mechanism | Sacrifice health |
+| Case | Outcome | Collective Immortality | Corrigibility | Sacred Political Order Strength | Mechanism | Sacrifice health |
 |---| --- | --- | --- | --- | --- | --- |
 | Nazi Germany | Sacrificial Escalation | ■■■□□ 3/5 | ■□□□□ 1/5 | ■■■■■ 5/5 | Collective Immortality To Sacrifice | pathological |
 | Postwar Germany | Restrained Reordering | — | ■■■■□ 4/5 | — | Constitutional Containment | healthy |
@@ -245,7 +245,7 @@ The five gold cases span four outcome categories and two sacrifice health assess
 
 ### Theoretical Implications
 
-The Nazi Germany and Imperial Japan cases share the `collective-immortality-to-sacrifice` mechanism, suggesting that when the symbolic order represents the collective body as divinely or racially eternal, mortal sacrifice becomes not only tolerable but demanded. Postwar Germany's `constitutional-containment` outcome directly addresses this dynamic: the Grundgesetz embeds inviolable human dignity precisely to block the sacralization of the collective at the expense of persons.
+The Nazi Germany and Imperial Japan cases share the `collective-immortality-to-sacrifice` mechanism, suggesting that when the sacred political order represents the collective body as divinely or racially eternal, mortal sacrifice becomes not only tolerable but demanded. Postwar Germany's `constitutional-containment` outcome directly addresses this dynamic: the Grundgesetz embeds inviolable human dignity precisely to block the sacralization of the collective at the expense of persons.
 
 The Soviet Union case isolates the role of corrigibility failure: the order's inability to acknowledge systemic error until legitimacy collapse was irreversible suggests that pathology is sustained not by sacrificial escalation alone but by the structural suppression of corrective feedback.
 

@@ -1,0 +1,5 @@
+---
+title: "World War I Nationalisms"
+---
+
+{{< include _chains/world-war-i-nationalisms.md >}}

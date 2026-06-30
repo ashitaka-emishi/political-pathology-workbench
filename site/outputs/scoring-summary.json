@@ -1,15 +1,30 @@
 {
-  "scoreCount": 6,
+  "scoreCount": 26,
   "caseAverages": {
-    "imperial-japan": 5.0,
-    "nazi-germany": 4.0,
-    "postwar-germany": 4.0,
-    "soviet-union-collapse": 2.0,
-    "united-states-after-vietnam": 3.0
+    "american-civil-war-union": 4.0,
+    "british-empire-to-commonwealth": 3.0,
+    "canada": 4.0,
+    "confederacy": 4.0,
+    "european-union": 4.0,
+    "gandhian-indian-independence": 3.0,
+    "imperial-japan": 3.0,
+    "khmer-rouge-cambodia": 5.0,
+    "maoist-china": 5.0,
+    "nazi-germany": 3.0,
+    "north-korea": 5.0,
+    "post-9-11-united-states": 4.0,
+    "postwar-germany": 4.5,
+    "revolutionary-france": 5.0,
+    "soviet-communism": 5.0,
+    "soviet-union-collapse": 1.5,
+    "switzerland": 5.0,
+    "united-states-after-vietnam": 3.0,
+    "western-roman-empire": 5.0,
+    "world-war-i-nationalisms": 5.0
   },
   "variableAverages": {
-    "collective-immortality": 3.0,
-    "corrigibility": 3.5,
-    "symbolic-order-strength": 4.0
+    "collective-immortality": 4.33,
+    "corrigibility": 3.1,
+    "sacred-political-order-strength": 4.23
   }
 }

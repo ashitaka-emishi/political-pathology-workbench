@@ -1,0 +1,5 @@
+---
+title: "Western Roman Empire"
+---
+
+{{< include _chains/western-roman-empire.md >}}

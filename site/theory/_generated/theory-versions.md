@@ -36,6 +36,6 @@ A comparative theory of how embodied symbolic orders respond to crisis through s
 
 **Gold cases scored under this theory:** American Civil War Union, British Empire To Commonwealth, Canada, Confederacy, European Union, Gandhian Indian Independence, Imperial Japan, Khmer Rouge Cambodia, Maoist China, Nazi Germany, North Korea, Post 9 11 United States, Postwar Germany, Revolutionary France, Soviet Communism, Soviet Union Collapse, Switzerland, United States After Vietnam, Western Roman Empire, World War I Nationalisms
 
-**Variables scored:** Collective Immortality, Corrigibility, Symbolic Order Strength
+**Variables scored:** Collective Immortality, Corrigibility, Sacred Political Order Strength
 
 ---

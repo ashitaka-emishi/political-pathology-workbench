@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { readJson, requireFields } from "../validate/json.js";
 import { validateEvidenceModules } from "../validate/validate-evidence-modules.js";
 import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
@@ -75,6 +76,17 @@ function readArray(file) {
     throw new Error(`${file}: expected an array`);
   }
   return value;
+}
+
+function validateGeneratedChainPagesAreUntracked() {
+  if (!fs.existsSync(path.join(root, ".git"))) return;
+  const tracked = execFileSync("git", ["ls-files", "site/cases/_chains/*.md"], {
+    cwd: root,
+    encoding: "utf8"
+  }).trim().split("\n").filter(Boolean);
+  for (const file of tracked) {
+    addError(`${file}: generated chain markdown must not be committed; run site/pre-render.py to regenerate it`);
+  }
 }
 
 function validateTheory(theoryDir) {
@@ -275,6 +287,8 @@ for (const w of claimPromotionResult.warnings) warnings.push(w);
 const migrationManifestResult = validateMigrationManifest(root);
 for (const e of migrationManifestResult.errors) errors.push(e);
 for (const w of migrationManifestResult.warnings) warnings.push(w);
+
+validateGeneratedChainPagesAreUntracked();
 
 for (const warning of warnings) {
   console.warn(`Warning: ${warning}`);

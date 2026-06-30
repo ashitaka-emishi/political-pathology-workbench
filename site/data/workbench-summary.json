@@ -1,6 +1,6 @@
 {
   "status": "draft-research-spike",
-  "generatedAt": "2026-06-29T04:06:11.150Z",
+  "generatedAt": "2026-06-30T12:42:17.494Z",
   "caseCount": 20,
   "theoryCount": 3,
   "scoreCount": 26,
@@ -13,9 +13,9 @@
       "outcome": "hybrid-transitional",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "american-civil-war-union-symbolic-order",
-      "symbolicOrderName": "American Civil War / Union symbolic order",
-      "symbolicOrderStrength": 4,
+      "sacredPoliticalOrderId": "american-civil-war-union-sacred-political-order",
+      "sacredPoliticalOrderName": "American Civil War / Union sacred political order",
+      "sacredPoliticalOrderStrength": 4,
       "caseSelectionRole": "hybrid-case"
     },
     {
@@ -25,9 +25,9 @@
       "outcome": "absorption-transformation",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "british-empire-to-commonwealth-symbolic-order",
-      "symbolicOrderName": "British Empire to Commonwealth symbolic order",
-      "symbolicOrderStrength": 4,
+      "sacredPoliticalOrderId": "british-empire-to-commonwealth-sacred-political-order",
+      "sacredPoliticalOrderName": "British Empire to Commonwealth sacred political order",
+      "sacredPoliticalOrderStrength": 4,
       "caseSelectionRole": "transformation-case"
     },
     {
@@ -37,9 +37,9 @@
       "outcome": "restrained-reordering",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "canada-symbolic-order",
-      "symbolicOrderName": "Canada symbolic order",
-      "symbolicOrderStrength": 3,
+      "sacredPoliticalOrderId": "canada-sacred-political-order",
+      "sacredPoliticalOrderName": "Canada sacred political order",
+      "sacredPoliticalOrderStrength": 3,
       "caseSelectionRole": "countercase"
     },
     {
@@ -49,9 +49,9 @@
       "outcome": "collapse",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "confederacy-symbolic-order",
-      "symbolicOrderName": "Confederacy symbolic order",
-      "symbolicOrderStrength": 4,
+      "sacredPoliticalOrderId": "confederacy-sacred-political-order",
+      "sacredPoliticalOrderName": "Confederacy sacred political order",
+      "sacredPoliticalOrderStrength": 4,
       "caseSelectionRole": "collapse-case"
     },
     {
@@ -61,9 +61,9 @@
       "outcome": "restrained-reordering",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "european-union-symbolic-order",
-      "symbolicOrderName": "European Union symbolic order",
-      "symbolicOrderStrength": 3,
+      "sacredPoliticalOrderId": "european-union-sacred-political-order",
+      "sacredPoliticalOrderName": "European Union sacred political order",
+      "sacredPoliticalOrderStrength": 3,
       "caseSelectionRole": "countercase"
     },
     {
@@ -73,9 +73,9 @@
       "outcome": "restrained-reordering",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "gandhian-indian-independence-symbolic-order",
-      "symbolicOrderName": "Gandhian Indian Independence symbolic order",
-      "symbolicOrderStrength": 3,
+      "sacredPoliticalOrderId": "gandhian-indian-independence-sacred-political-order",
+      "sacredPoliticalOrderName": "Gandhian Indian Independence sacred political order",
+      "sacredPoliticalOrderStrength": 3,
       "caseSelectionRole": "countercase"
     },
     {
@@ -85,9 +85,9 @@
       "outcome": "sacrificial-escalation",
       "goldCase": true,
       "publicationStatus": "draft",
-      "symbolicOrderId": "imperial-japan-symbolic-order",
-      "symbolicOrderName": "Imperial Japan symbolic order",
-      "symbolicOrderStrength": 5,
+      "sacredPoliticalOrderId": "imperial-japan-sacred-political-order",
+      "sacredPoliticalOrderName": "Imperial Japan sacred political order",
+      "sacredPoliticalOrderStrength": 5,
       "caseSelectionRole": "gold-case"
     },
     {
@@ -97,9 +97,9 @@
       "outcome": "sacrificial-escalation",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "khmer-rouge-cambodia-symbolic-order",
-      "symbolicOrderName": "Khmer Rouge Cambodia symbolic order",
-      "symbolicOrderStrength": 5,
+      "sacredPoliticalOrderId": "khmer-rouge-cambodia-sacred-political-order",
+      "sacredPoliticalOrderName": "Khmer Rouge Cambodia sacred political order",
+      "sacredPoliticalOrderStrength": 5,
       "caseSelectionRole": "high-pathology-case"
     },
     {
@@ -109,9 +109,9 @@
       "outcome": "sacrificial-escalation",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "maoist-china-symbolic-order",
-      "symbolicOrderName": "Maoist China symbolic order",
-      "symbolicOrderStrength": 5,
+      "sacredPoliticalOrderId": "maoist-china-sacred-political-order",
+      "sacredPoliticalOrderName": "Maoist China sacred political order",
+      "sacredPoliticalOrderStrength": 5,
       "caseSelectionRole": "high-pathology-case"
     },
     {
@@ -121,9 +121,9 @@
       "outcome": "sacrificial-escalation",
       "goldCase": true,
       "publicationStatus": "draft",
-      "symbolicOrderId": "nazi-germany-symbolic-order",
-      "symbolicOrderName": "Nazi Germany symbolic order",
-      "symbolicOrderStrength": 5,
+      "sacredPoliticalOrderId": "nazi-germany-sacred-political-order",
+      "sacredPoliticalOrderName": "Nazi Germany sacred political order",
+      "sacredPoliticalOrderStrength": 5,
       "caseSelectionRole": "gold-case"
     },
     {
@@ -133,9 +133,9 @@
       "outcome": "stagnation-frozen-pathology",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "north-korea-symbolic-order",
-      "symbolicOrderName": "North Korea symbolic order",
-      "symbolicOrderStrength": 5,
+      "sacredPoliticalOrderId": "north-korea-sacred-political-order",
+      "sacredPoliticalOrderName": "North Korea sacred political order",
+      "sacredPoliticalOrderStrength": 5,
       "caseSelectionRole": "stagnation-case"
     },
     {
@@ -145,9 +145,9 @@
       "outcome": "hybrid-transitional",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "post-9-11-united-states-symbolic-order",
-      "symbolicOrderName": "Post-9/11 United States symbolic order",
-      "symbolicOrderStrength": 4,
+      "sacredPoliticalOrderId": "post-9-11-united-states-sacred-political-order",
+      "sacredPoliticalOrderName": "Post-9/11 United States sacred political order",
+      "sacredPoliticalOrderStrength": 4,
       "caseSelectionRole": "hybrid-case"
     },
     {
@@ -157,9 +157,9 @@
       "outcome": "restrained-reordering",
       "goldCase": true,
       "publicationStatus": "draft",
-      "symbolicOrderId": "postwar-germany-symbolic-order",
-      "symbolicOrderName": "Postwar Germany symbolic order",
-      "symbolicOrderStrength": 3,
+      "sacredPoliticalOrderId": "postwar-germany-sacred-political-order",
+      "sacredPoliticalOrderName": "Postwar Germany sacred political order",
+      "sacredPoliticalOrderStrength": 3,
       "caseSelectionRole": "gold-case"
     },
     {
@@ -169,9 +169,9 @@
       "outcome": "sacrificial-escalation",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "revolutionary-france-symbolic-order",
-      "symbolicOrderName": "Revolutionary France symbolic order",
-      "symbolicOrderStrength": 5,
+      "sacredPoliticalOrderId": "revolutionary-france-sacred-political-order",
+      "sacredPoliticalOrderName": "Revolutionary France sacred political order",
+      "sacredPoliticalOrderStrength": 5,
       "caseSelectionRole": "high-pathology-case"
     },
     {
@@ -181,9 +181,9 @@
       "outcome": "hybrid-transitional",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "soviet-communism-symbolic-order",
-      "symbolicOrderName": "Soviet Communism symbolic order",
-      "symbolicOrderStrength": 4,
+      "sacredPoliticalOrderId": "soviet-communism-sacred-political-order",
+      "sacredPoliticalOrderName": "Soviet Communism sacred political order",
+      "sacredPoliticalOrderStrength": 4,
       "caseSelectionRole": "hybrid-case"
     },
     {
@@ -193,9 +193,9 @@
       "outcome": "collapse",
       "goldCase": true,
       "publicationStatus": "draft",
-      "symbolicOrderId": "soviet-union-collapse-symbolic-order",
-      "symbolicOrderName": "Soviet Union Collapse symbolic order",
-      "symbolicOrderStrength": 4,
+      "sacredPoliticalOrderId": "soviet-union-collapse-sacred-political-order",
+      "sacredPoliticalOrderName": "Soviet Union Collapse sacred political order",
+      "sacredPoliticalOrderStrength": 4,
       "caseSelectionRole": "gold-case"
     },
     {
@@ -205,9 +205,9 @@
       "outcome": "restrained-reordering",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "switzerland-symbolic-order",
-      "symbolicOrderName": "Switzerland symbolic order",
-      "symbolicOrderStrength": 3,
+      "sacredPoliticalOrderId": "switzerland-sacred-political-order",
+      "sacredPoliticalOrderName": "Switzerland sacred political order",
+      "sacredPoliticalOrderStrength": 3,
       "caseSelectionRole": "countercase"
     },
     {
@@ -217,9 +217,9 @@
       "outcome": "restrained-reordering",
       "goldCase": true,
       "publicationStatus": "draft",
-      "symbolicOrderId": "united-states-after-vietnam-symbolic-order",
-      "symbolicOrderName": "United States after Vietnam symbolic order",
-      "symbolicOrderStrength": 3,
+      "sacredPoliticalOrderId": "united-states-after-vietnam-sacred-political-order",
+      "sacredPoliticalOrderName": "United States after Vietnam sacred political order",
+      "sacredPoliticalOrderStrength": 3,
       "caseSelectionRole": "gold-case"
     },
     {
@@ -229,9 +229,9 @@
       "outcome": "collapse",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "western-roman-empire-symbolic-order",
-      "symbolicOrderName": "Western Roman Empire symbolic order",
-      "symbolicOrderStrength": 4,
+      "sacredPoliticalOrderId": "western-roman-empire-sacred-political-order",
+      "sacredPoliticalOrderName": "Western Roman Empire sacred political order",
+      "sacredPoliticalOrderStrength": 4,
       "caseSelectionRole": "collapse-case"
     },
     {
@@ -241,9 +241,9 @@
       "outcome": "sacrificial-escalation",
       "goldCase": false,
       "publicationStatus": "draft",
-      "symbolicOrderId": "world-war-i-nationalisms-symbolic-order",
-      "symbolicOrderName": "World War I Nationalisms symbolic order",
-      "symbolicOrderStrength": 5,
+      "sacredPoliticalOrderId": "world-war-i-nationalisms-sacred-political-order",
+      "sacredPoliticalOrderName": "World War I Nationalisms sacred political order",
+      "sacredPoliticalOrderStrength": 5,
       "caseSelectionRole": "high-pathology-case"
     }
   ],

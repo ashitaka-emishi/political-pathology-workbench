@@ -1,4 +1,4 @@
-.PHONY: validate generate site-data analyze render build publish-preview
+.PHONY: validate generate site-data analyze pre-render render build publish-preview
 
 validate:
 	npm run validate
@@ -12,9 +12,12 @@ site-data:
 analyze:
 	PYTHONPATH=src-py python3 -m political_pathology.scoring.summary
 
+pre-render:
+	python3 site/pre-render.py
+
 render:
 	cd site && quarto render
 
-build: validate generate analyze site-data
+build: validate generate analyze site-data pre-render
 
 publish-preview: build render
