@@ -1,0 +1,36 @@
+{
+  "corpusId": "lincoln-deep-28",
+  "importStatus": "pending",
+  "importNotes": "Document-level metadata will be populated when PPW #195 (48-document Lincoln v4 core corpus inventory) is implemented. The 28-document baseline reflects the original lincoln-metaphor-analysis core set; v4 expansion adds 20 documents to reach 48.",
+  "ppwInventoryIssues": [195, 196, 197],
+  "sourceInventoryRef": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "documentTiers": [
+    {
+      "tier": "core",
+      "v3BaselineCount": 28,
+      "v4ExpansionTarget": 48,
+      "currentCount": 0,
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/195",
+      "description": "Fully annotated core set; receives passage segmentation, claim extraction, and scoring. corpus.json documentCount reflects the v3 baseline (28); v4 expands to 48 per PPW #195.",
+      "importStatus": "pending"
+    },
+    {
+      "tier": "validation",
+      "targetCount": null,
+      "targetRange": "75-100",
+      "currentCount": 0,
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/196",
+      "description": "Lighter annotation; used for inter-annotator reliability sampling",
+      "importStatus": "pending"
+    },
+    {
+      "tier": "reference",
+      "targetCount": null,
+      "currentCount": 0,
+      "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/197",
+      "description": "Indexed for search only; not annotated",
+      "importStatus": "pending"
+    }
+  ],
+  "documents": []
+}

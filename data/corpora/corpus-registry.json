@@ -6,7 +6,7 @@
     "originModuleId": "lincoln-metaphor-analysis",
     "caseIds": ["american-civil-war-union"],
     "documentCount": 28,
-    "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), selected for full annotation in lincoln-metaphor-analysis. Validation and reference tiers are tracked as separate future corpus records once imported.",
+    "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), selected for full annotation in lincoln-metaphor-analysis. A v4 expansion to 48 core documents is tracked in PPW #195. Validation (75-100 docs) and reference tiers are tracked in PPW #196 and #197 respectively as separate future corpus records.",
     "corpusPurpose": "core",
     "rightsStatus": "fair-use",
     "normalizationStatus": "pending",
@@ -21,7 +21,7 @@
       "github:ashitaka-emishi/political-pathology-workbench#197",
       "github:ashitaka-emishi/political-pathology-workbench#198"
     ],
-    "notes": "Corpus document metadata and raw text import planned for Milestones 15-16 (see docs/architecture/imported-projects.md). No documents imported yet as of Milestone 14; this record establishes the registry entry ahead of import."
+    "notes": "Corpus document metadata and raw text import planned for Milestones 15-16 (see docs/architecture/imported-projects.md). No documents imported yet as of Milestone 15; per-corpus folder created in PPW #137."
   },
   {
     "corpusId": "sacrifice-law-comparative-41",
