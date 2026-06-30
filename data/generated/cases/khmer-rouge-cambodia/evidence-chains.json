@@ -1,0 +1,52 @@
+{
+  "caseId": "khmer-rouge-cambodia",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "khmer-rouge-cambodia-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "collective-immortality",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "khmer-rouge-cambodia-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "khmer-rouge-cambodia-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "democratic-kampuchea-constitution-1976",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "khmer-rouge-cambodia-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "dk-national-anthem-1975",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "khmer-rouge-cambodia-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "collective-immortality"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

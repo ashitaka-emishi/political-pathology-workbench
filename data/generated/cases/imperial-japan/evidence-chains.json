@@ -1,0 +1,91 @@
+{
+  "caseId": "imperial-japan",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "imperial-japan-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "imperial-japan-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "imperial-japan-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "imperial-rescript-education-1890",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "imperial-japan-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "imperial-rescript-soldiers-sailors-1882",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "imperial-japan-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      },
+      {
+        "interpretationId": "imperial-japan-interpretation-002",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "imperial-japan-claim-002",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "imperial-japan-passage-003",
+                "linkStatus": "resolved",
+                "sourceId": "kokutai-no-hongi-1937",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "imperial-japan-passage-004",
+                "linkStatus": "resolved",
+                "sourceId": "hirohito-war-rescript-1941",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "imperial-japan-score-002",
+            "value": 1,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

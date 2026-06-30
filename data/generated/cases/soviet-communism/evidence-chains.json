@@ -1,0 +1,52 @@
+{
+  "caseId": "soviet-communism",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "soviet-communism-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "soviet-communism-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "soviet-communism-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "marx-engels-communist-manifesto-1848",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "soviet-communism-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "ussr-constitution-1977",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "soviet-communism-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

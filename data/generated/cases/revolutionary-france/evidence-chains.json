@@ -1,0 +1,52 @@
+{
+  "caseId": "revolutionary-france",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "revolutionary-france-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "revolutionary-france-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "revolutionary-france-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "declaration-rights-man-citizen-1789",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "revolutionary-france-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "robespierre-political-morality-1794",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "revolutionary-france-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

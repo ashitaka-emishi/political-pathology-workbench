@@ -1,0 +1,102 @@
+{
+  "caseId": "american-civil-war-union",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "american-civil-war-union-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "american-civil-war-union-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "american-civil-war-union-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "lincoln-gettysburg-address-1863",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "american-civil-war-union-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "lincoln-second-inaugural-1865",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "american-civil-war-union-score-001",
+            "value": 4,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [
+    {
+      "draftClaimId": "lma-draft-claim-001",
+      "claimStatus": "draft",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "lma-draft-claim-002",
+      "claimStatus": "draft",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "lma-draft-claim-003",
+      "claimStatus": "draft",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "lma-draft-claim-004",
+      "claimStatus": "draft",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "slw-draft-claim-001",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "slw-draft-claim-002",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "slw-draft-claim-004",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "none"
+    }
+  ],
+  "promotedClaims": []
+}

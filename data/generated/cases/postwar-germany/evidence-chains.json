@@ -1,0 +1,91 @@
+{
+  "caseId": "postwar-germany",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "postwar-germany-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "postwar-germany-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "postwar-germany-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "grundgesetz-1949",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "postwar-germany-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "grundgesetz-1949",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "postwar-germany-passage-003",
+                "linkStatus": "resolved",
+                "sourceId": "adenauer-regierungserklaerung-1949",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "postwar-germany-score-001",
+            "value": 4,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      },
+      {
+        "interpretationId": "postwar-germany-interpretation-002",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "postwar-germany-claim-002",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "postwar-germany-passage-004",
+                "linkStatus": "resolved",
+                "sourceId": "grundgesetz-1949",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "postwar-germany-score-002",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

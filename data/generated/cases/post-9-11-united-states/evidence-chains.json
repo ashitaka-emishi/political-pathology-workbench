@@ -1,0 +1,52 @@
+{
+  "caseId": "post-9-11-united-states",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "post-9-11-united-states-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "post-9-11-united-states-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "post-9-11-united-states-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "aumf-2001",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "post-9-11-united-states-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "bush-address-congress-2001",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "post-9-11-united-states-score-001",
+            "value": 4,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

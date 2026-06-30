@@ -1,0 +1,91 @@
+{
+  "caseId": "united-states-after-vietnam",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "united-states-after-vietnam-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "united-states-after-vietnam-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "united-states-after-vietnam-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "war-powers-resolution-1973",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "united-states-after-vietnam-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "carter-crisis-confidence-speech-1979",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "united-states-after-vietnam-score-001",
+            "value": 3,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      },
+      {
+        "interpretationId": "united-states-after-vietnam-interpretation-002",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "united-states-after-vietnam-claim-002",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "united-states-after-vietnam-passage-003",
+                "linkStatus": "resolved",
+                "sourceId": "war-powers-resolution-1973",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "united-states-after-vietnam-passage-004",
+                "linkStatus": "resolved",
+                "sourceId": "weinberger-uses-military-power-1984",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "united-states-after-vietnam-score-002",
+            "value": 3,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

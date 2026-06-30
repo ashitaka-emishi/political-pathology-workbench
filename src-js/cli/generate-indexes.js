@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { readJson } from "../validate/json.js";
 import { generateEvidenceIndexes } from "../generate/generate-evidence-indexes.js";
+import { generateCaseEvidenceChains } from "../generate/generate-case-evidence-chains.js";
 
 const root = process.cwd();
 const casesDir = path.join(root, "data", "cases");
@@ -191,6 +192,8 @@ const crossCaseDir = path.join(root, "data", "cross-case");
 writeJson(path.join(crossCaseDir, "comparison-table.json"), comparisonTable);
 
 const evidenceResult = generateEvidenceIndexes(root);
+const chainResult = generateCaseEvidenceChains(root);
 
 console.log(`Generated indexes for ${allCases.length} cases, ${allClaims.length} claims, ${allScores.length} scores, and ${allCounterclaims.length} counterclaims.`);
 console.log(`Generated evidence indexes for ${evidenceResult.moduleCount} modules, ${evidenceResult.corpusCount} corpora, ${evidenceResult.draftClaimCount} draft claims, ${evidenceResult.promotedClaimCount} promoted claims.`);
+console.log(`Generated per-case evidence chains for ${chainResult.caseCount} cases.`);

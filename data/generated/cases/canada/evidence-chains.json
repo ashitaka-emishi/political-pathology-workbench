@@ -1,0 +1,52 @@
+{
+  "caseId": "canada",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "canada-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "canada-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "canada-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "canadian-charter-1982",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "canada-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "canadian-charter-1982",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "canada-score-001",
+            "value": 4,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

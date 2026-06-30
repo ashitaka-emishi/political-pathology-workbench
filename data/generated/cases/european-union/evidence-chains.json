@@ -1,0 +1,52 @@
+{
+  "caseId": "european-union",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "european-union-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "european-union-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "european-union-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "treaty-european-union-consolidated",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "european-union-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "treaty-european-union-consolidated",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "european-union-score-001",
+            "value": 4,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

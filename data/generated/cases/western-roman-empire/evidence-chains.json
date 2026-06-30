@@ -1,0 +1,52 @@
+{
+  "caseId": "western-roman-empire",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "western-roman-empire-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "western-roman-empire-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "western-roman-empire-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "vegetius-de-re-militari-c390",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "western-roman-empire-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "augustine-city-of-god-413",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "western-roman-empire-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}
