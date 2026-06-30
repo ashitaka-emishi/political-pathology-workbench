@@ -9,7 +9,6 @@ import { validateMigrationManifest } from "../validate/validate-migration-manife
 const root = process.cwd();
 const errors = [];
 const warnings = [];
-const REVIEW_STATUS_ORDER = ["draft", "source-review", "evidence-review", "argument-review", "score-review", "human-reviewed", "approved"];
 
 const VOCAB = {
   outcomes: new Set(["sacrificial-escalation", "restrained-reordering", "collapse", "absorption-transformation", "stagnation-frozen-pathology", "hybrid-transitional"]),
@@ -30,14 +29,8 @@ function isPublicFacing(publicationStatus) {
   return ["public-preview", "published"].includes(publicationStatus);
 }
 
-function isAtReviewGate(reviewStatus, minimumStatus) {
-  const reviewIndex = REVIEW_STATUS_ORDER.indexOf(reviewStatus);
-  const minimumIndex = REVIEW_STATUS_ORDER.indexOf(minimumStatus);
-  return reviewIndex !== -1 && minimumIndex !== -1 && reviewIndex >= minimumIndex;
-}
-
 function shouldErrorOnGoldEvidenceOrphan(caseRecord) {
-  return Boolean(caseRecord.goldCase) && isAtReviewGate(caseRecord.reviewStatus, "argument-review");
+  return Boolean(caseRecord.goldCase);
 }
 
 function addCaseEvidenceIssue(caseRecord, message, shouldError) {
@@ -46,6 +39,10 @@ function addCaseEvidenceIssue(caseRecord, message, shouldError) {
   } else {
     addWarning(`${caseRecord.caseId}: ${message}`);
   }
+}
+
+function hasHumanReviewedScore(scores) {
+  return scores.some((score) => ["human-reviewed", "approved"].includes(score.reviewStatus));
 }
 
 function validateEnum(label, value, allowed) {
@@ -234,7 +231,14 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
     }
 
     if (caseRecord.goldCase && (passages.length === 0 || claims.length === 0 || interpretations.length === 0 || scores.length === 0)) {
-      addWarning(`${caseRecord.caseId}: gold case is missing a complete evidence chain`);
+      addError(`${caseRecord.caseId}: gold case is missing a complete evidence chain`);
+    }
+    if (caseRecord.goldCase && !hasHumanReviewedScore(scores)) {
+      addCaseEvidenceIssue(
+        caseRecord,
+        "gold case has no human-reviewed or approved score",
+        isPublicFacing(caseRecord.publicationStatus)
+      );
     }
     if (sourcePack.sources.length === 1) addWarning(`${caseRecord.caseId}: case has only one source`);
     if (counterclaims.length === 0) addWarning(`${caseRecord.caseId}: case has no counterevidence yet`);
