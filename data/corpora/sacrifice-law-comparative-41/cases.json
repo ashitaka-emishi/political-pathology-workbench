@@ -63,8 +63,9 @@
       "proposedPpwCaseId": "world-war-i-nationalisms",
       "alternateProposedPpwCaseId": "british-world-war-i",
       "ppwCaseFolderExists": true,
-      "caseMappingStatus": "needs-review",
-      "notes": "Listed as a possible mapping in PPW #149, but the current canonical Sacrifice Law corpus metadata does not identify a British World War I source case. The existing world-war-i-nationalisms case is broader than a British-only target."
+      "caseMappingStatus": "deferred-out-of-scope-current-corpus",
+      "reviewDecisionIssue": 253,
+      "notes": "Reviewed in PPW #253. The current canonical Sacrifice Law corpus metadata identifies American Revolution, Napoleon, Lincoln, and Hitler as source cases; it does not identify British World War I as a source case. The existing world-war-i-nationalisms case is broader than a British-only target, and no british-world-war-i PPW case should be created for Sacrifice Law unless the source corpus metadata is revised or a specific British World War I source subset is confirmed."
     }
   ]
 }

@@ -65,7 +65,7 @@ Follow-up issues carried forward from #152 and tracked by #148:
 | #250 | Complete | Created the American Revolution PPW case folder and reference-only Sacrifice Law subset link. |
 | #251 | Complete | Created the Napoleonic France PPW case folder and reference-only Sacrifice Law subset link. |
 | #252 | Complete | Reviewed French Revolution and deferred it as out of scope for the current canonical Sacrifice Law corpus. |
-| #253 | Open | Review whether British World War I belongs in the Sacrifice Law corpus mapping. |
+| #253 | Complete | Reviewed British World War I and deferred it as out of scope for the current canonical Sacrifice Law corpus. |
 
 ## 3. Child-Project Issue Migration
 
@@ -108,7 +108,7 @@ The canonical artifact-family inventory is `data/corpora/sacrifice-law-comparati
 | American Revolution | `american-revolution` exists | Confirmed; minimal case folder and reference-only subset link exist. |
 | Napoleon / Napoleonic Era | `napoleonic-france` exists | Confirmed; minimal case folder and reference-only subset link exist. |
 | French Revolution | Candidate `revolutionary-france` | Deferred as out of scope for the current canonical corpus by PPW #252; no subset link should be created unless source metadata changes. |
-| British World War I | Candidate `world-war-i-nationalisms` or `british-world-war-i` | Review-only; current canonical Sacrifice Law corpus metadata does not identify this as a source case. |
+| British World War I | Candidate `world-war-i-nationalisms` or `british-world-war-i` | Deferred as out of scope for the current canonical corpus by PPW #253; no subset link or new case folder should be created unless source metadata changes. |
 
 ## 6. Draft Claim State
 
@@ -138,7 +138,7 @@ These are candidate review paths, not promotion decisions.
 ## 8. Remaining Risks
 
 1. **Case coverage risk:** American Revolution and Napoleonic France have only minimal scaffolds and no passage evidence.
-2. **Candidate mapping risk:** French Revolution and British World War I are review-only candidates and must not receive subset links without revised source-corpus evidence.
+2. **Candidate mapping risk:** French Revolution and British World War I are deferred as out of scope for the current canonical corpus and must not receive subset links without revised source-corpus evidence.
 3. **Rights risk:** Nazi-era translations and scholarly apparatus require source-level rights review before text import.
 4. **Provenance risk:** Several artifact families have only partial provenance records in PPW and still rely on child-repository context.
 5. **Reliability risk:** Reliability sampling for the expanded Sacrifice Law corpus is deferred to PPW #192.
