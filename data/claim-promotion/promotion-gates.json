@@ -1,0 +1,70 @@
+{
+  "fileVersion": "1.0",
+  "description": "Defines valid status transitions in the PPW claim-promotion lifecycle. Authoritative state definitions are in schemas/claim-promotion.schema.json.",
+  "promotionStages": [
+    {
+      "status": "raw-artifact",
+      "description": "Corpus artifact identified but not yet extracted as a draft claim.",
+      "allowedTransitionsTo": ["draft-claim", "retired"]
+    },
+    {
+      "status": "draft-claim",
+      "description": "Claim text extracted from a corpus artifact; not yet reviewed.",
+      "allowedTransitionsTo": ["reviewed-claim", "blocked", "retired"]
+    },
+    {
+      "status": "reviewed-claim",
+      "description": "Claim has passed source-level review and is eligible to advance toward promotion.",
+      "allowedTransitionsTo": ["promoted-finding", "blocked", "retired"]
+    },
+    {
+      "status": "promoted-finding",
+      "description": "Claim promoted to a PPW finding; contributes to case scores. Requires reviewStatus human-reviewed or approved.",
+      "allowedTransitionsTo": ["retired"]
+    },
+    {
+      "status": "blocked",
+      "description": "Claim cannot advance until listed blockers are resolved. Requires evidence refs or missingEvidenceReason.",
+      "allowedTransitionsTo": ["draft-claim", "reviewed-claim", "retired"]
+    },
+    {
+      "status": "retired",
+      "description": "Claim withdrawn from the promotion pipeline; no longer active.",
+      "allowedTransitionsTo": []
+    }
+  ],
+  "reviewGates": [
+    {
+      "gate": "draft",
+      "description": "Initial state; no review has occurred."
+    },
+    {
+      "gate": "source-review",
+      "description": "Bibliography source references verified as valid and sufficient."
+    },
+    {
+      "gate": "evidence-review",
+      "description": "Passage-level anchoring and evidentiary grounding verified."
+    },
+    {
+      "gate": "argument-review",
+      "description": "Logical and argumentative soundness assessed."
+    },
+    {
+      "gate": "score-review",
+      "description": "Score impact assessed for consistency with existing PPW case scores."
+    },
+    {
+      "gate": "human-reviewed",
+      "description": "Human reviewer has completed a full review pass across all gates."
+    },
+    {
+      "gate": "approved",
+      "description": "Claim approved for promotion to promoted-finding."
+    },
+    {
+      "gate": "rejected",
+      "description": "Claim rejected; must return to draft-claim or be retired."
+    }
+  ]
+}
