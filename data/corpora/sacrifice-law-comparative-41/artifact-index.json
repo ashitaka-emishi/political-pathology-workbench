@@ -15,7 +15,7 @@
     {
       "family": "corpus-manifest",
       "description": "Manifest-driven pipeline output defining the 41-document stratified corpus",
-      "ppwLocation": "data/corpora/sacrifice-law-comparative-41/documents.json",
+      "ppwLocation": "data/corpora/sacrifice-law-comparative-41/corpus.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-now",
       "importStatus": "pending",

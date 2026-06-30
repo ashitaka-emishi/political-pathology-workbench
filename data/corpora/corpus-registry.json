@@ -30,7 +30,7 @@
     "originModuleId": "sacrifice-law-workbench",
     "caseIds": ["american-civil-war-union", "nazi-germany"],
     "documentCount": 41,
-    "samplingFrame": "41-document stratified corpus spanning American Revolution, Napoleonic, Lincoln, and Nazi-era cases under Koenigsberg's Law of Sacrifice, selected via the sacrifice-law-workbench manifest-driven pipeline.",
+    "samplingFrame": "41-document stratified corpus spanning American Revolution, Napoleonic, Lincoln, and Nazi-era cases under Koenigsberg's Law of Sacrifice, selected via the sacrifice-law-workbench manifest-driven pipeline. American Revolution and Napoleon case mapping to PPW cases is pending confirmation (PPW #149-#151). Corpus import into PPW is planned for Milestone 17.",
     "corpusPurpose": "core",
     "rightsStatus": "fair-use",
     "normalizationStatus": "pending",
@@ -40,12 +40,13 @@
     "claimPromotionStatus": "not-started",
     "sourceIssueMigrationStatus": "in-progress",
     "sourceIssueRefs": [
+      "github:ashitaka-emishi/political-pathology-workbench#138",
       "github:ashitaka-emishi/political-pathology-workbench#149",
       "github:ashitaka-emishi/political-pathology-workbench#150",
       "github:ashitaka-emishi/political-pathology-workbench#151",
       "github:ashitaka-emishi/political-pathology-workbench#154",
       "github:ashitaka-emishi/political-pathology-workbench#192"
     ],
-    "notes": "American Revolution and Napoleon cases do not yet have corresponding PPW case files; case mapping must be confirmed (PPW #149-#151) before their corpus subsets are imported. Corpus import planned for Milestone 17. No documents imported yet as of Milestone 14."
+    "notes": "American Revolution and Napoleon cases do not yet have corresponding PPW case files; case mapping must be confirmed (PPW #149-#151) before their corpus subsets are imported. Corpus import planned for Milestone 17. No documents imported yet as of Milestone 15; per-corpus folder created in PPW #138."
   }
 ]

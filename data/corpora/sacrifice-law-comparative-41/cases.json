@@ -25,7 +25,7 @@
       "ppwCaseMapped": false,
       "caseMappingStatus": "pending",
       "documentSubsetCount": null,
-      "governingIssues": [149, 150, 151],
+      "blockingIssues": [149, 150, 151],
       "notes": "No PPW case registered yet. Case mapping and PPW case creation required before this subset can be imported (PPW #149-#151)."
     },
     {
@@ -34,7 +34,7 @@
       "ppwCaseMapped": false,
       "caseMappingStatus": "pending",
       "documentSubsetCount": null,
-      "governingIssues": [149, 150, 151],
+      "blockingIssues": [149, 150, 151],
       "notes": "No PPW case registered yet. Case mapping and PPW case creation required before this subset can be imported (PPW #149-#151)."
     }
   ]
