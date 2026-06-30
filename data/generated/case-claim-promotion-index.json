@@ -47,7 +47,15 @@
           "scoreImpact": "none"
         }
       ],
-      "promotedClaims": []
+      "promotedClaims": [
+        {
+          "promotionId": "prom-001",
+          "claimId": "lma-draft-claim-001",
+          "originModuleId": "lincoln-metaphor-analysis",
+          "promotionStatus": "reviewed-claim",
+          "reviewStatus": "source-review"
+        }
+      ]
     },
     {
       "caseId": "american-revolution",
