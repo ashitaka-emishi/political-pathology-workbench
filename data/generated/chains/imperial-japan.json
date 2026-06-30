@@ -1,0 +1,257 @@
+{
+  "caseId": "imperial-japan",
+  "caseSlug": "imperial-japan",
+  "title": "Imperial Japan",
+  "interpretations": [
+    {
+      "interpretationId": "imperial-japan-interpretation-001",
+      "caseId": "imperial-japan",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The Imperial Rescripts institutionalized a maximally strong sacred political order in which the kokutai (national polity) organized identity, legitimacy, obligation, memory, and sacrifice around the Emperor as a divine collective body. Individual survival was explicitly subordinated to imperial survival, and death in service of the Emperor was framed as the highest moral fulfillment.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.68,
+        "label": "moderate",
+        "rationale": "Structural alignment with the theory is strong; chain is a minimal stub requiring expansion with wartime sources and secondary scholarship before scholarly use.",
+        "uncertaintyFactors": [
+          "minimal-evidence-chain",
+          "passage-text-pending-source-verification"
+        ]
+      },
+      "mechanism": "collective-immortality-to-sacrifice",
+      "mechanismSummary": "The imperial sacred political order represented the national body as divinely eternal; individual death in service of that body was encoded as participation in its immortality, making sacrifice the highest moral act.",
+      "alternativeMechanisms": [
+        "sacred-enemy-escalation",
+        "institutional-self-preservation"
+      ],
+      "sacrificeForm": [
+        "death",
+        "killing",
+        "bodily-risk",
+        "conscience"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "mixed",
+      "definitionRefs": [
+        "sacred-political-order-strength",
+        "sacred-political-order",
+        "collective-immortality",
+        "sacrifice",
+        "pathology"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "imperial-japan-claim-001",
+          "caseId": "imperial-japan",
+          "claim": "Imperial Japanese political language encoded the Emperor's divine sovereignty and the national body (kokutai) as sacred, demanding individual self-sacrifice in service of imperial survival as the highest moral obligation overriding personal survival.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.75,
+            "label": "moderate-high",
+            "rationale": "Both passages advanced to evidence-review. Passage text confirmed against multiple independent online scholarly sources (worldjpn.net, Wikipedia, rikukaigun.org); core wording verified accurately. Tsunoda et al. (1958) p.139 and McLaren (1914) p.197 edition-specific wording requires physical library verification. Confidence raised from 0.70 reflecting confirmed passage integrity.",
+            "uncertaintyFactors": [
+              "tsunoda-1958-edition-wording-unconfirmed",
+              "mclaren-1914-edition-wording-unconfirmed",
+              "chain-requires-expansion"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "imperial-japan-passage-001",
+              "caseId": "imperial-japan",
+              "sourceId": "imperial-rescript-education-1890",
+              "locator": "Imperial Rescript on Education (Kyoiku Chokugo), 30 October 1890; English translation, Japanese Ministry of Education; in Tsunoda, Ryusaku, Wm. Theodore de Bary, and Donald Keene, eds., Sources of Japanese Tradition, Vol. 2 (New York: Columbia University Press, 1958), p. 139. Text confirmed against Wikipedia English translation and worldjpn.net (The World and Japan Database): https://worldjpn.net/documents/texts/pw/18901030.O1E.html. Tsunoda et al. (1958) p.139 edition-specific wording requires physical library verification.",
+              "text": "Should emergency arise, offer yourselves courageously to the State; and thus guard and maintain the prosperity of Our Imperial Throne coeval with heaven and earth.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim imperial-japan-claim-001: 'offer yourselves courageously to the State' directly encodes the collective-immortality-to-sacrifice mechanism — sacrifice in defense of the imperial collective body is framed as a primary obligation. Evidence role 'grounds' is correct. Text confirmed against worldjpn.net source in evidence-review pass.",
+              "source": {
+                "sourceId": "imperial-rescript-education-1890",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Issued by Emperor Meiji, 30 October 1890. Public domain. Standard English translation published by the Japanese Ministry of Education. Widely reproduced in primary-source collections."
+              }
+            },
+            {
+              "passageId": "imperial-japan-passage-002",
+              "caseId": "imperial-japan",
+              "sourceId": "imperial-rescript-soldiers-sailors-1882",
+              "locator": "Imperial Rescript to Soldiers and Sailors (Gunjin Chokuyu), 4 January 1882; English translation in McLaren, W. W., ed., Japanese Government Documents, Transactions of the Asiatic Society of Japan 42 (1914), p. 197. Text confirmed against multiple online scholarly sources including https://rikukaigun.org/General/Imperial%20Rescript%20to%20Soldiers%20and%20Sailors.html and Wikipedia. McLaren (1914) p.197 edition-specific wording requires physical library verification.",
+              "text": "Bear in mind that duty is weightier than a mountain, while death is lighter than a feather.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim imperial-japan-claim-001: 'duty is weightier than a mountain, while death is lighter than a feather' encodes death in service as the highest moral act, directly instantiating the sacrifice-to-immortality logic. Evidence role 'grounds' is correct. Text confirmed against scholarly sources in evidence-review pass.",
+              "source": {
+                "sourceId": "imperial-rescript-soldiers-sailors-1882",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Issued by Emperor Meiji, 4 January 1882. Public domain. English translation widely reproduced in scholarship on Japanese militarism."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "imperial-japan-score-001",
+          "caseId": "imperial-japan",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "imperial-japan-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.7,
+            "label": "moderate-high",
+            "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum sacred-political-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
+            "uncertaintyFactors": [
+              "physical-edition-verification-pending",
+              "chain-requires-expansion"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order-strength",
+            "collective-immortality",
+            "sacrifice"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified and chain-requires-expansion resolved."
+        }
+      ]
+    },
+    {
+      "interpretationId": "imperial-japan-interpretation-002",
+      "caseId": "imperial-japan",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "The Kokutai no Hongi defined corrigibility-elimination as an ideological positive: loyalty requires 'casting ourselves aside,' making individual judgment an act of disloyalty and Western individualism a contaminant to be overcome. The sole legitimate mode of existence for subjects was unconditional service to the Emperor — 'the sole Way in which we subjects may live.' This is not merely a practical constraint but a constitutive ontological claim: individual selfhood outside imperial service is framed as non-existence. Combined with the 1941 war rescript's existential framing of the Pacific War, the sacred political order produced a corrigibility floor of near-zero: no institutional mechanism existed for questioning the war's direction without transgressing the fundamental definition of what it meant to 'live' as a Japanese subject.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.75,
+        "label": "moderate-high",
+        "rationale": "Kokutai no Hongi text directly supports the corrigibility-elimination interpretation: the equation of loyalty with self-erasure and the framing of Western individualism as contamination make the claim textually grounded. War rescript adds the sacred-enemy dimension. Confidence capped: operational documentation of how these ideological prescriptions functioned in practice requires chain expansion.",
+        "uncertaintyFactors": [
+          "ministry-of-education-translation-mediated",
+          "chain-requires-operational-documentation"
+        ]
+      },
+      "mechanism": "collective-immortality-to-sacrifice",
+      "mechanismSummary": "The Kokutai no Hongi defined individual selfhood outside imperial service as non-existence, eliminating the basis for legitimate dissent; the war rescript activated sacred-enemy escalation by framing the war as defense of national existence — together producing minimum corrigibility.",
+      "alternativeMechanisms": [
+        "sacred-enemy-escalation",
+        "institutional-self-preservation"
+      ],
+      "sacrificeForm": [
+        "death",
+        "bodily-risk",
+        "conscience",
+        "agency"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "corrigibility",
+        "sacred-political-order-strength",
+        "collective-immortality",
+        "sacrifice"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "imperial-japan-claim-002",
+          "caseId": "imperial-japan",
+          "claim": "The Kokutai no Hongi eliminated corrigibility by defining the sole legitimate mode of existence for Japanese subjects as 'casting ourselves aside' in unconditional service to the Emperor — framing individual thought and dissent not as rights but as symptoms of foreign individualism to be overcome; simultaneously, the 1941 war rescript activated sacred-enemy escalation by framing the Pacific War as necessary defense of the nation's very existence against an encircling threat.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.77,
+            "label": "moderate-high",
+            "rationale": "Passage-003 is from a Columbia University Press scholarly translation verified at Asia for Educators; the corrigibility-elimination claim follows directly from the text's explicit equation of loyalty with self-erasure. Passage-004 is verified at worldjpn.net; the sacred-enemy-escalation framing ('endanger the very existence of Our nation') is unambiguous. Confidence capped: Kokutai's Ministry of Education translation adds one layer of institutional mediation.",
+            "uncertaintyFactors": [
+              "ministry-of-education-translation-mediated",
+              "chain-requires-operational-documentation"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "imperial-japan-passage-003",
+              "caseId": "imperial-japan",
+              "sourceId": "kokutai-no-hongi-1937",
+              "locator": "Kokutai no Hongi (Cardinal Principles of the National Polity), 1937, section on loyalty; English translation in de Bary, Gluck, and Tiedemann, eds., Sources of Japanese Tradition, 2nd ed., vol. 2 (New York: Columbia University Press, 2005), pp. 968–969; excerpt verified at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf",
+              "text": "Loyalty means to revere the emperor as [our] pivot and to follow him implicitly. By implicit obedience is meant casting ourselves aside and serving the emperor intently. To walk this Way of loyalty is the sole Way in which we subjects may 'live' and the fountainhead of all energy. Hence, offering our lives for the sake of the emperor does not mean so-called self-sacrifice but the casting aside of our little selves to live under his august grace and the enhancing of the genuine life of the people of a state.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim imperial-japan-claim-002: 'casting ourselves aside and serving the emperor intently' and 'offering our lives... does not mean so-called self-sacrifice but the casting aside of our little selves to live under his august grace' encodes the ontological equation of individual existence with imperial service that eliminates the basis for legitimate dissent. Evidence role 'grounds' is correct. Text confirmed against Asia for Educators (Columbia University) source in evidence-review pass.",
+              "source": {
+                "sourceId": "kokutai-no-hongi-1937",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Japanese Ministry of Education, 1937. English translation excerpt verified at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf. Full translation in de Bary et al., Sources of Japanese Tradition, 2nd ed., vol. 2 (Columbia University Press, 2005)."
+              }
+            },
+            {
+              "passageId": "imperial-japan-passage-004",
+              "caseId": "imperial-japan",
+              "sourceId": "hirohito-war-rescript-1941",
+              "locator": "Imperial Rescript Declaring War, 8 December 1941; English text verified at The World and Japan Database (worldjpn.net): https://worldjpn.net/documents/texts/docs/19411208.O1E.html",
+              "text": "We, by grace of heaven, Emperor of Japan, seated on the Throne of a line unbroken for ages eternal, enjoin upon ye, Our loyal and brave subjects: We hereby declare war on the United States of America and the British Empire. This trend of affairs would, if left unchecked, not only nullify Our Empire's efforts of many years for the sake of the stabilization of East Asia, but also endanger the very existence of Our nation.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim imperial-japan-claim-002: Hirohito's war rescript frames the Pacific War as defense of national existence ('endanger the very existence of Our nation'), activating the sacred-enemy-escalation dynamic alongside the corrigibility-elimination mechanism from passage-003. Evidence role 'grounds' is correct. Text confirmed against worldjpn.net source in evidence-review pass.",
+              "source": {
+                "sourceId": "hirohito-war-rescript-1941",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Imperial Rescript, 8 December 1941. Public domain. English text verified at worldjpn.net: https://worldjpn.net/documents/texts/docs/19411208.O1E.html"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "imperial-japan-score-002",
+          "caseId": "imperial-japan",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "imperial-japan-interpretation-002",
+          "value": 1,
+          "confidence": {
+            "value": 0.75,
+            "label": "moderate-high",
+            "rationale": "Minimum corrigibility: the Kokutai no Hongi ontologically equated individual judgment with disloyalty and 'non-existence,' eliminating the conceptual basis for legitimate dissent. Score of 1 (not 0) acknowledges that factional disputes within the military and government constituted marginal corrigibility channels, but the doctrinal framework made their operation transgressive rather than legitimate.",
+            "uncertaintyFactors": [
+              "ministry-of-education-translation-mediated",
+              "chain-requires-operational-documentation"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "collective-immortality",
+            "institutional-self-preservation"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 1/5 defensible: Kokutai no Hongi's ontological equation of loyalty with self-erasure and the framing of individual selfhood outside imperial service as non-existence eliminates the conceptual basis for legitimate dissent. Score of 1 (not 0) correctly acknowledges that military factional disputes provided a marginal corrigibility channel. Confidence 0.75 is well-calibrated. Ready for human-reviewed pending chain expansion to document operational corrigibility limits."
+        }
+      ]
+    }
+  ]
+}

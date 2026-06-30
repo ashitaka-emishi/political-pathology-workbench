@@ -1,0 +1,128 @@
+{
+  "caseId": "khmer-rouge-cambodia",
+  "caseSlug": "khmer-rouge-cambodia",
+  "title": "Khmer Rouge Cambodia",
+  "interpretations": [
+    {
+      "interpretationId": "khmer-rouge-cambodia-interpretation-001",
+      "caseId": "khmer-rouge-cambodia",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "collective-immortality",
+      "interpretation": "The DK sacred political order explicitly encoded the collective revolutionary body as sacred and eternal, demanding the sacrifice of children and family members by the hundreds of thousands. The national anthem literalized blood sacrifice as the constitutive act of the nation. This is a maximum collective-immortality case: the individual is absorbed into the collective body and their death is framed as the body's self-renewal.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.7,
+        "label": "moderate-high",
+        "rationale": "Chain is thin but passages are directly on point. Score is defensible; pending chain expansion.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "instrumental-vs-symbolic-dispute"
+        ]
+      },
+      "mechanism": "collective-immortality-to-sacrifice",
+      "mechanismSummary": "The Angkar represented the collective revolutionary body as a sacred entity whose survival transcended individual life; the Constitution and anthem explicitly frame the sacrifice of family and blood as constitutive of national rebirth.",
+      "alternativeMechanisms": [
+        "sacred-enemy-escalation",
+        "institutional-self-preservation"
+      ],
+      "sacrificeForm": [
+        "death",
+        "family-life",
+        "blood-sacrifice"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "in-group",
+      "definitionRefs": [
+        "collective-immortality",
+        "sacrifice",
+        "pathology",
+        "sacred-political-order"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "khmer-rouge-cambodia-claim-001",
+          "caseId": "khmer-rouge-cambodia",
+          "claim": "The Khmer Rouge structured its sacred political order around the sacrificial identity of the revolutionary people, whose blood was explicitly framed as the foundation of the new Cambodia, demanding individual self-annihilation — including of children and family — in service of collective rebirth.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.7,
+            "label": "moderate-high",
+            "rationale": "Both passages are public-domain constitutional and anthemic texts confirmed via Wikisource and nationalanthems.info. The DK Constitution preamble and national anthem together document the Khmer Rouge's explicit framing of collective blood sacrifice as constitutive of national identity. Confidence capped pending chain expansion beyond these founding documents.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "instrumental-vs-symbolic-dispute"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "khmer-rouge-cambodia-passage-001",
+              "caseId": "khmer-rouge-cambodia",
+              "sourceId": "democratic-kampuchea-constitution-1976",
+              "locator": "Preamble, Constitution of Democratic Kampuchea, 5 January 1976; text verified at https://en.wikisource.org/wiki/Constitution_of_Democratic_Kampuchea",
+              "text": "sending unhesitatingly their children and their husbands to fight by tens and hundreds of thousands on the battlefield",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "democratic-kampuchea-constitution-1976",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Available at Wikisource and DC-Cam."
+              }
+            },
+            {
+              "passageId": "khmer-rouge-cambodia-passage-002",
+              "caseId": "khmer-rouge-cambodia",
+              "sourceId": "dk-national-anthem-1975",
+              "locator": "National Anthem of Democratic Kampuchea (Dap Prampi Mesa Chokchey), verse 1, 1975; English translation verified at https://nationalanthems.info/kh-79.htm",
+              "text": "The bright red blood was spilled over the towns and over the plain of Kampuchea, our motherland, the blood of our good workers and farmers and of our revolutionary combatants, both men and women. Their blood produced a great anger and the courage to contend with heroism.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "dk-national-anthem-1975",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. English translation verified at nationalanthems.info."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "khmer-rouge-cambodia-score-001",
+          "caseId": "khmer-rouge-cambodia",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "collective-immortality",
+          "interpretationId": "khmer-rouge-cambodia-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.65,
+            "label": "moderate",
+            "rationale": "Maximum collective-immortality score is directly supported by the DK Constitution preamble (sacrifice of children by the hundreds of thousands) and the national anthem (blood as constitutive of the nation). Confidence capped at moderate pending chain expansion.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "instrumental-vs-symbolic-dispute"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "collective-immortality",
+            "sacrifice",
+            "pathology"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: collective-immortality mechanism (Year Zero temporal annihilation, agrarian utopia as eternal return) supports maximum collective-immortality score. Confidence 0.65 reflects chain-requires-expansion (chain is minimal) and the instrumental-vs-symbolic interpretive dispute. Hold at score-review until chain expansion to ≥4 passages."
+        }
+      ]
+    }
+  ]
+}

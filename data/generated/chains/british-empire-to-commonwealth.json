@@ -1,0 +1,128 @@
+{
+  "caseId": "british-empire-to-commonwealth",
+  "caseSlug": "british-empire-to-commonwealth",
+  "title": "British Empire to Commonwealth",
+  "interpretations": [
+    {
+      "interpretationId": "british-empire-to-commonwealth-interpretation-001",
+      "caseId": "british-empire-to-commonwealth",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "The British Empire to Commonwealth transition scores high on corrigibility through its demonstration of symbolic transformation from above: the Balfour Declaration reframed hierarchical subordination as equal voluntary association, and the Statute of Westminster legally implemented this reframing by requiring Dominion consent for shared constitutional changes. This is the absorption-transformation archetype — an imperial order that avoided frozen-pathology by redesigning its own symbolic architecture in response to the changed conditions produced by World War I and rising Dominion nationalism. The transformation was incomplete (decolonization of non-Dominion territories remained partial and violent), but the symbolic redesign itself demonstrates a corrigibility mechanism: the ability to fundamentally revise the order's constitutive hierarchy without sacrificial escalation against internal challengers.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.63,
+        "label": "moderate",
+        "rationale": "Chain thin; passages are the constitutive legal moments of the transformation but require expansion to include decolonization history and Commonwealth operational record.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "neocolonial-continuity-complicates-equality-claim"
+        ]
+      },
+      "mechanism": "symbolic-transformation",
+      "mechanismSummary": "The British imperial order redesigned its constitutive symbolic architecture from hierarchical subordination to equal voluntary association, converting the Crown from instrument of control to symbol of free association — demonstrating corrigibility through self-revision rather than sacrificial defense of the existing order.",
+      "alternativeMechanisms": [
+        "pluralist-reordering",
+        "institutional-fragmentation"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "economic-security",
+        "agency"
+      ],
+      "sacrificeHealth": "ambiguous",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "out-group",
+      "definitionRefs": [
+        "corrigibility",
+        "symbolic-transformation",
+        "sacred-political-order-strength"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "british-empire-to-commonwealth-claim-001",
+          "caseId": "british-empire-to-commonwealth",
+          "claim": "The transition from British Empire to Commonwealth demonstrates symbolic transformation through constitutional redesign: the Balfour Declaration replaced the empire's hierarchical sacred political order with a new order of equal, freely associated communities, while the Statute of Westminster gave that transformation legal force by requiring Dominion consent for changes to shared constitutional arrangements — converting the Crown from instrument of sovereign control to symbol of voluntary association.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.7,
+            "label": "moderate-high",
+            "rationale": "Both passages are public-domain texts verified against official sources. The Balfour Declaration and Statute of Westminster together constitute the definitive legal record of the Empire-to-Commonwealth symbolic transformation. Confidence capped: chain requires expansion to include the process by which decolonization proceeded after 1931 and the degree to which the new Commonwealth sacred political order achieved genuine equality vs. neocolonial continuity.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "neocolonial-continuity-complicates-equality-claim",
+              "transformation-incomplete-post-1931"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "british-empire-to-commonwealth-passage-001",
+              "caseId": "british-empire-to-commonwealth",
+              "sourceId": "balfour-declaration-1926",
+              "locator": "Inter-Imperial Relations Committee Report (Balfour Declaration), 1926 Imperial Conference, approved 15 November 1926; text verified against The Canadian Encyclopedia: https://www.thecanadianencyclopedia.ca/en/article/document-balfour-report-1926 and Wikipedia: https://en.wikipedia.org/wiki/Balfour_Declaration_of_1926",
+              "text": "autonomous Communities within the British Empire, equal in status, in no way subordinate one to another in any aspect of their domestic or external affairs, though united by a common allegiance to the Crown, and freely associated as members of the British Commonwealth of Nations",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "balfour-declaration-1926",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Text verified against The Canadian Encyclopedia (https://www.thecanadianencyclopedia.ca/en/article/document-balfour-report-1926) and Founding Docs of Australia (https://www.foundingdocs.gov.au/item-did-24.html)."
+              }
+            },
+            {
+              "passageId": "british-empire-to-commonwealth-passage-002",
+              "caseId": "british-empire-to-commonwealth",
+              "sourceId": "statute-of-westminster-1931",
+              "locator": "Statute of Westminster 1931, 22 Geo. 5, c. 4, Preamble; text verified at https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/introduction",
+              "text": "inasmuch as the Crown is the symbol of the free association of the members of the British Commonwealth of Nations, and as they are united by a common allegiance to the Crown, it would be in accord with the established constitutional position of all the members of the Commonwealth in relation to one another that any alteration in the law touching the Succession to the Throne or the Royal Style and Titles shall hereafter require the assent as well of the Parliaments of all the Dominions as of the Parliament of the United Kingdom",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "statute-of-westminster-1931",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "UK legislation, public domain. Full text at legislation.gov.uk: https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/introduction"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "british-empire-to-commonwealth-score-001",
+          "caseId": "british-empire-to-commonwealth",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "british-empire-to-commonwealth-interpretation-001",
+          "value": 3,
+          "confidence": {
+            "value": 0.58,
+            "label": "moderate",
+            "rationale": "Score of 3 reflects moderate corrigibility: the Empire-to-Commonwealth transformation demonstrates genuine symbolic self-revision at the constitutional level, but the neocolonial continuity of the post-1931 relationship and the subsequent violence of decolonization (Kenya, India partition, Cyprus, etc.) reveal that the symbolic redesign was partial and did not extend the corrigibility mechanism to the full scope of imperial relationships. Higher than North Korea (frozen) but substantially lower than Canada or Switzerland.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "neocolonial-continuity-complicates-equality-claim",
+              "transformation-incomplete-post-1931"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "symbolic-transformation"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 3/5 defensible: symbolic-transformation mechanism (Balfour Declaration / Statute of Westminster) represents partial corrigibility — the order relinquished some authority without fully embracing equality. Confidence 0.58 is proportionate: neocolonial continuity and incomplete transformation are genuine uncertainty factors, not overcautious caveats. Hold at score-review until chain expansion to ≥4 passages."
+        }
+      ]
+    }
+  ]
+}

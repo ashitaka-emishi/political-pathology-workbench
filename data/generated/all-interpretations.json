@@ -7,7 +7,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "sacred-political-order-strength",
-    "interpretation": "The Union sacred political order at its Civil War peak demonstrates high symbolic-order strength animated by anti-sacrificial restraint: Lincoln's Gettysburg framing directs the dead soldiers' sacrifice toward democratic re-founding rather than collective immortality through enemy annihilation, while the Second Inaugural — delivered at the moment of military victory — refuses malice and calls for charity toward the defeated. This is a hybrid case because the order required enormous sacrifice to preserve itself, yet its leading symbolic architect explicitly refused to convert that sacrifice into sacral hatred of the enemy. The result is a sacred political order that achieved high strength through bounded sacrifice, distinguishing it from escalatory cases like Nazi Germany or Khmer Rouge.",
+    "interpretation": "The Union sacred political order at its Civil War peak demonstrates high sacred-political-order strength animated by anti-sacrificial restraint: Lincoln's Gettysburg framing directs the dead soldiers' sacrifice toward democratic re-founding rather than collective immortality through enemy annihilation, while the Second Inaugural — delivered at the moment of military victory — refuses malice and calls for charity toward the defeated. This is a hybrid case because the order required enormous sacrifice to preserve itself, yet its leading symbolic architect explicitly refused to convert that sacrifice into sacral hatred of the enemy. The result is a sacred political order that achieved high strength through bounded sacrifice, distinguishing it from escalatory cases like Nazi Germany or Khmer Rouge.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -105,7 +105,7 @@
       ]
     },
     "mechanism": "constitutional-containment",
-    "mechanismSummary": "Section 1's proportionality review requirement institutionalizes symbolic-order self-correction, preventing rights violations from becoming entrenched — a constitutional-containment mechanism that structurally opposes sacrificial escalation.",
+    "mechanismSummary": "Section 1's proportionality review requirement institutionalizes order self-correction, preventing rights violations from becoming entrenched — a constitutional-containment mechanism that structurally opposes sacrificial escalation.",
     "alternativeMechanisms": [
       "pluralist-reordering",
       "anti-sacrificial-restraint"
@@ -140,7 +140,7 @@
     "confidence": {
       "value": 0.67,
       "label": "moderate",
-      "rationale": "Chain is thin but passages are directly on point and verified. Score reflects high symbolic-order strength at founding; collapse mechanism requires separate chain expansion.",
+      "rationale": "Chain is thin but passages are directly on point and verified. Score reflects high sacred-political-order strength at founding; collapse mechanism requires separate chain expansion.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "collapse-not-chain-driven"
@@ -524,7 +524,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
-    "interpretation": "The Nazi sacred political order scores at minimum corrigibility: the Wehrmacht oath's 'unconditional obedience' and readiness to die for the oath eliminated institutional capacity for legitimate dissent within the armed forces by converting legal obligation from constitutional duty to personal fealty to the Führer; simultaneously, the Law Against Formation of New Parties legally extinguished the pluralist competition that enables symbolic-order self-correction. Together these two legal acts in 1933–1934 completed the structural elimination of corrigibility: no institutional actor could legitimately challenge the sacred political order's direction without violating a personal sacred oath or committing a criminal act. This is the corrigibility-elimination that distinguishes Nazi Germany from the restrained-reordering cases.",
+    "interpretation": "The Nazi sacred political order scores at minimum corrigibility: the Wehrmacht oath's 'unconditional obedience' and readiness to die for the oath eliminated institutional capacity for legitimate dissent within the armed forces by converting legal obligation from constitutional duty to personal fealty to the Führer; simultaneously, the Law Against Formation of New Parties legally extinguished the pluralist competition that enables order self-correction. Together these two legal acts in 1933–1934 completed the structural elimination of corrigibility: no institutional actor could legitimately challenge the sacred political order's direction without violating a personal sacred oath or committing a criminal act. This is the corrigibility-elimination that distinguishes Nazi Germany from the restrained-reordering cases.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -566,7 +566,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "sacred-political-order-strength",
-    "interpretation": "North Korea presents the clearest constitutional case of frozen-pathology in the dataset: the state is definitionally the application of the eternal leaders' Juche ideas, and the entire population is constitutionally bound to uphold those eternal leaders and carry their ideas forward unchanged. This produces maximum symbolic-order strength through total institutional monopoly while eliminating corrigibility by constitutional design — the sacred political order cannot correct itself because correction is constitutionally prohibited as a violation of the eternal leaders' mandate. The mechanism is frozen-pathology rather than active sacrificial escalation: the order is not generating new enemies but is locked in a permanent defensive posture that prevents adaptation.",
+    "interpretation": "North Korea presents the clearest constitutional case of frozen-pathology in the dataset: the state is definitionally the application of the eternal leaders' Juche ideas, and the entire population is constitutionally bound to uphold those eternal leaders and carry their ideas forward unchanged. This produces maximum sacred-political-order strength through total institutional monopoly while eliminating corrigibility by constitutional design — the sacred political order cannot correct itself because correction is constitutionally prohibited as a violation of the eternal leaders' mandate. The mechanism is frozen-pathology rather than active sacrificial escalation: the order is not generating new enemies but is locked in a permanent defensive posture that prevents adaptation.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -611,7 +611,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "sacred-political-order-strength",
-    "interpretation": "The post-9/11 US sacred political order demonstrates a hybrid pattern: high symbolic-order strength achieved through sacred-enemy escalation rather than constitutional-containment. The AUMF's unlimited force authorization and Bush's globally totalized binary ('with us or with the terrorists') temporarily maximized the sacred political order's strength by sacralizing national identity through absolute external threat. This distinguishes post-9/11 from the Vietnam aftermath (which produced constitutional-containment via the WPR) and from the gold high-pathology cases (where sacred-enemy escalation targeted internal populations). The 'forever war' trajectory shows the instability of strength-through-sacred-enemy — the enemy definition expanded indefinitely, producing institutional fragmentation rather than consolidation.",
+    "interpretation": "The post-9/11 US sacred political order demonstrates a hybrid pattern: high sacred-political-order strength achieved through sacred-enemy escalation rather than constitutional-containment. The AUMF's unlimited force authorization and Bush's globally totalized binary ('with us or with the terrorists') temporarily maximized the sacred political order's strength by sacralizing national identity through absolute external threat. This distinguishes post-9/11 from the Vietnam aftermath (which produced constitutional-containment via the WPR) and from the gold high-pathology cases (where sacred-enemy escalation targeted internal populations). The 'forever war' trajectory shows the instability of strength-through-sacred-enemy — the enemy definition expanded indefinitely, producing institutional fragmentation rather than consolidation.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -624,7 +624,7 @@
       ]
     },
     "mechanism": "sacred-enemy-escalation",
-    "mechanismSummary": "9/11 shock was channeled into a globally totalized sacred-enemy binary through unlimited congressional force authorization and presidential framing, temporarily maximizing symbolic-order strength at the cost of institutional constraint and long-term legitimacy.",
+    "mechanismSummary": "9/11 shock was channeled into a globally totalized sacred-enemy binary through unlimited congressional force authorization and presidential framing, temporarily maximizing sacred-political-order strength at the cost of institutional constraint and long-term legitimacy.",
     "alternativeMechanisms": [
       "institutional-self-preservation",
       "collective-immortality-to-sacrifice"
@@ -738,7 +738,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "sacred-political-order-strength",
-    "interpretation": "The revolutionary sacred political order achieved maximum symbolic-order strength by vesting all legitimate authority exclusively in the Nation, while Robespierre's virtue-terror synthesis sacralized the revolutionary order itself as the embodiment of virtue. This produced a configuration in which the sacred political order could not be corrected without betraying the revolution — critique became treason, and terror became a moral obligation.",
+    "interpretation": "The revolutionary sacred political order achieved maximum sacred-political-order strength by vesting all legitimate authority exclusively in the Nation, while Robespierre's virtue-terror synthesis sacralized the revolutionary order itself as the embodiment of virtue. This produced a configuration in which the sacred political order could not be corrected without betraying the revolution — critique became treason, and terror became a moral obligation.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -782,7 +782,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "sacred-political-order-strength",
-    "interpretation": "The Soviet communist sacred political order achieved maximum symbolic-order strength at its Stalinist peak by fusing class-struggle eschatology (proletarians have a world to win) with institutional monopoly (the CPSU as nucleus of all Soviet life). This is a hybrid case: the order's founding logic demanded sacrifice toward collective immortality through historical inevitability, and its constitutional structure eliminated the institutional corrigibility needed to correct that demand. The result is a sacred political order of high initial strength that could not self-correct, producing the frozen-pathology trajectory observed in the terminal phase (see soviet-union-collapse). The two passages bookend this arc: the Manifesto's world-historical call for total transformation, and the Brezhnev Constitution's legalization of the party's unchallengeability.",
+    "interpretation": "The Soviet communist sacred political order achieved maximum sacred-political-order strength at its Stalinist peak by fusing class-struggle eschatology (proletarians have a world to win) with institutional monopoly (the CPSU as nucleus of all Soviet life). This is a hybrid case: the order's founding logic demanded sacrifice toward collective immortality through historical inevitability, and its constitutional structure eliminated the institutional corrigibility needed to correct that demand. The result is a sacred political order of high initial strength that could not self-correct, producing the frozen-pathology trajectory observed in the terminal phase (see soviet-union-collapse). The two passages bookend this arc: the Manifesto's world-historical call for total transformation, and the Brezhnev Constitution's legalization of the party's unchallengeability.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -959,7 +959,7 @@
     ],
     "theoryId": "general-theory-political-pathology-v1",
     "variableId": "corrigibility",
-    "interpretation": "The post-Vietnam US sacred political order exhibited moderate corrigibility: the War Powers Resolution institutionalized congressional oversight as a correction mechanism against unilateral executive war-making, and Carter's public acknowledgment of national crisis represented a symbolic-order willingness to receive criticism rather than deflect it through sacrificial mobilization. This contrasts with Imperial Japan and Nazi Germany, where equivalent crises intensified sacrificial demands. Corrigibility was partial and contested — Reagan's explicit campaign to overcome the Vietnam syndrome within a decade shows the correction was not deeply institutionalized.",
+    "interpretation": "The post-Vietnam US sacred political order exhibited moderate corrigibility: the War Powers Resolution institutionalized congressional oversight as a correction mechanism against unilateral executive war-making, and Carter's public acknowledgment of national crisis represented a order willingness to receive criticism rather than deflect it through sacrificial mobilization. This contrasts with Imperial Japan and Nazi Germany, where equivalent crises intensified sacrificial demands. Corrigibility was partial and contested — Reagan's explicit campaign to overcome the Vietnam syndrome within a decade shows the correction was not deeply institutionalized.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
     "confidence": {
@@ -1011,12 +1011,12 @@
       "rationale": "The sacred-political-order-strength reading is strongly supported by the Carter passage (explicit crisis diagnosis) and consistent with the WPR and Weinberger passages. Score of 3 is plausible but contested: the Cold War consensus partially survived Vietnam, and Reagan's successful rearmament campaign by 1983 suggests symbolic-order recovery was faster than a mid-period reading implies.",
       "uncertaintyFactors": [
         "periodization-1973-1984-vs-longer-arc",
-        "reagan-rearmament-suggests-symbolic-order-recovery",
+        "reagan-rearmament-suggests-order-recovery",
         "cold-war-consensus-partially-intact"
       ]
     },
     "mechanism": "memory-driven-restraint",
-    "mechanismSummary": "The Vietnam memory restrained symbolic-order expansion by requiring legal authorization and public consent before military deployment, reducing the available repertoire of sacrificial mobilization and constraining executive unilateralism.",
+    "mechanismSummary": "The Vietnam memory restrained order expansion by requiring legal authorization and public consent before military deployment, reducing the available repertoire of sacrificial mobilization and constraining executive unilateralism.",
     "alternativeMechanisms": [
       "constitutional-containment",
       "pluralist-reordering"

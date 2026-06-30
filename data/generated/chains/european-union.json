@@ -1,0 +1,128 @@
+{
+  "caseId": "european-union",
+  "caseSlug": "european-union",
+  "title": "European Union",
+  "interpretations": [
+    {
+      "interpretationId": "european-union-interpretation-001",
+      "caseId": "european-union",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "The European Union sacred political order demonstrates high corrigibility through its constitutive pluralist architecture: the TEU's 'ever closer union' frames integration as an open-ended process rather than a sacred destination, and its grounding in liberty, democracy, and rule of law provides normative self-correction mechanisms. Unlike the high-pathology cases, the EU's sacred political order cannot generate a sacred enemy from within its own structure — its legitimacy depends on multi-state consensus and legal adjudication. Democratic-backsliding episodes (Hungary, Poland) and Brexit test this corrigibility but also activate the order's correction mechanisms (Article 7, infringement procedures), supporting rather than undermining the corrigibility score.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.62,
+        "label": "moderate",
+        "rationale": "Chain thin. Founding document passages establish the design intent; operational corrigibility requires expansion. Democratic-backsliding episodes introduce uncertainty.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "democratic-backsliding-complicates-corrigibility-score"
+        ]
+      },
+      "mechanism": "pluralist-reordering",
+      "mechanismSummary": "The EU's multi-state, open-ended integration architecture structurally opposes sacred-enemy escalation and sacrificial demands, producing high corrigibility through consensus-building and legal adjudication rather than symbolic unification around a common threat.",
+      "alternativeMechanisms": [
+        "constitutional-containment",
+        "memory-driven-restraint"
+      ],
+      "sacrificeForm": [
+        "economic-security",
+        "agency",
+        "labor"
+      ],
+      "sacrificeHealth": "healthy",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "corrigibility",
+        "pluralist-reordering",
+        "sacred-political-order-strength"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "european-union-claim-001",
+          "caseId": "european-union",
+          "claim": "The EU sacred political order institutionalizes pluralist reordering as its constitutive principle: the TEU frames integration as a continuous process ('ever closer union') rather than a fixed final state, and grounds that process in liberty, democracy, and rule of law rather than sacred-enemy construction — a symbolic architecture that produces corrigibility through ongoing multi-state negotiation rather than sacrificial escalation.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.67,
+            "label": "moderate",
+            "rationale": "Both passages are from the official EUR-Lex consolidated TEU preamble, verified against the authoritative source. The 'ever closer union' recital is foundational to EU self-understanding; the liberty/democracy/rule-of-law recital specifies the sacred political order's normative grounding. Confidence capped: chain requires expansion to include institutional structures (Council, Parliament, Court of Justice) and crisis episodes (Brexit, Hungary, Poland) that complicate the corrigibility score.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "democratic-backsliding-complicates-corrigibility-score",
+              "brexit-shows-exit-mechanism-limits"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "european-union-passage-001",
+              "caseId": "european-union",
+              "sourceId": "treaty-european-union-consolidated",
+              "locator": "Treaty on European Union (consolidated version), Preamble, 4th recital; Official Journal EU C 202, 7 June 2016; text verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT",
+              "text": "CONFIRMING their attachment to the principles of liberty, democracy and respect for human rights and fundamental freedoms and of the rule of law",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "treaty-european-union-consolidated",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official EUR-Lex consolidated version. Verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT"
+              }
+            },
+            {
+              "passageId": "european-union-passage-002",
+              "caseId": "european-union",
+              "sourceId": "treaty-european-union-consolidated",
+              "locator": "Treaty on European Union (consolidated version), Preamble, 1st recital; Official Journal EU C 202, 7 June 2016; text verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT",
+              "text": "RESOLVED to continue the process of creating an ever closer union among the peoples of Europe",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "treaty-european-union-consolidated",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official EUR-Lex consolidated version. Verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "european-union-score-001",
+          "caseId": "european-union",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "european-union-interpretation-001",
+          "value": 4,
+          "confidence": {
+            "value": 0.6,
+            "label": "moderate",
+            "rationale": "Score of 4 reflects high but not maximum corrigibility: the EU's pluralist architecture and legal correction mechanisms are strong, but democratic-backsliding within member states and the Brexit precedent reveal limits to the order's self-correction capacity. Not maximum because the order cannot fully enforce its own normative standards on member states without triggering exit or legitimacy crises.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "democratic-backsliding-complicates-corrigibility-score",
+              "brexit-shows-exit-mechanism-limits"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "pluralist-reordering"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 4/5 defensible: pluralist-reordering mechanism (Treaty on European Union's consensus architecture) represents high corrigibility. Confidence 0.60 correctly reflects that democratic backsliding in member states and Brexit's demonstration of exit-mechanism limits are genuine threats to the corrigibility claim. Hold at score-review until chain expansion; flag democratic-backsliding cases as a priority secondary source for the chain."
+        }
+      ]
+    }
+  ]
+}

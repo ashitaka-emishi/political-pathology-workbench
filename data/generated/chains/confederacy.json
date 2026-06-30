@@ -1,0 +1,127 @@
+{
+  "caseId": "confederacy",
+  "caseSlug": "confederacy",
+  "title": "Confederacy",
+  "interpretations": [
+    {
+      "interpretationId": "confederacy-interpretation-001",
+      "caseId": "confederacy",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The Confederacy's founding documents establish a sacred political order of high initial strength: the Constitution claims divine guidance for permanent federal sovereignty, while Stephens explicitly codes racial hierarchy as the order's 'corner-stone' — an immutable natural truth rather than a political arrangement subject to revision. This sacralization of racial hierarchy made the order incorrigible by design, producing the rigidity that contributed to collapse when military defeat removed the institutional basis for sustaining the claim.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.67,
+        "label": "moderate",
+        "rationale": "Chain is thin but passages are directly on point and verified. Score reflects high sacred-political-order strength at founding; collapse mechanism requires separate chain expansion.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "collapse-not-chain-driven"
+        ]
+      },
+      "mechanism": "institutional-fragmentation",
+      "mechanismSummary": "The Confederate sacred political order achieved high founding strength by sacralizing racial hierarchy as natural truth, but its institutional base collapsed under military defeat without the corrigibility needed to adapt, producing terminal fragmentation.",
+      "alternativeMechanisms": [
+        "legitimacy-collapse",
+        "sacred-enemy-escalation"
+      ],
+      "sacrificeForm": [
+        "death",
+        "blood-sacrifice",
+        "labor"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "out-group",
+      "definitionRefs": [
+        "sacred-political-order",
+        "sacred-political-order-strength",
+        "sacralization",
+        "corrigibility"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "confederacy-claim-001",
+          "caseId": "confederacy",
+          "claim": "The Confederate sacred political order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high sacred-political-order strength at founding but could not survive military defeat.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.7,
+            "label": "moderate-high",
+            "rationale": "Both passages are well-attested public-domain founding documents verified against Avalon Project and American Battlefield Trust. The CSA Constitution's invocation of divine guidance and Stephens' explicit statement of racial hierarchy as constitutional cornerstone together establish the sacred political order's founding sacral logic. Confidence capped pending chain expansion beyond founding documents.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "collapse-not-chain-driven"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "confederacy-passage-001",
+              "caseId": "confederacy",
+              "sourceId": "csa-constitution-1861",
+              "locator": "Preamble, Constitution of the Confederate States of America, 11 March 1861; text verified at https://avalon.law.yale.edu/19th_century/csa_csa.asp",
+              "text": "We, the people of the Confederate States, each State acting in its sovereign and independent character, in order to form a permanent federal government, establish justice, insure domestic tranquillity, and secure the blessings of liberty to ourselves and our posterity invoking the favor and guidance of Almighty God do ordain and establish this Constitution for the Confederate States of America.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "csa-constitution-1861",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Verified at Avalon Project, Yale Law School."
+              }
+            },
+            {
+              "passageId": "confederacy-passage-002",
+              "caseId": "confederacy",
+              "sourceId": "stephens-cornerstone-speech-1861",
+              "locator": "Alexander H. Stephens, 'Cornerstone Speech,' Savannah, Georgia, 21 March 1861; transcribed in Savannah Republican; text verified at https://www.battlefields.org/learn/primary-sources/cornerstone-speech",
+              "text": "Our new government is founded upon exactly the opposite idea; its foundations are laid, its corner-stone rests, upon the great truth that the negro is not equal to the white man.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "stephens-cornerstone-speech-1861",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Extemporaneous speech transcribed by Savannah Republican; public domain. Available at American Battlefield Trust and Teaching American History."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "confederacy-score-001",
+          "caseId": "confederacy",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "confederacy-interpretation-001",
+          "value": 4,
+          "confidence": {
+            "value": 0.62,
+            "label": "moderate",
+            "rationale": "High but not maximum sacred-political-order strength: the founding documents establish strong sacral logic (divine favor, racial hierarchy as natural truth), but the four-year lifespan and dependence on military success suggest the order could not fully consolidate. Score of 4 reflects high founding strength with fragility built in.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "collapse-not-chain-driven"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order-strength",
+            "sacralization"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 4/5 defensible: high sacred-political-order-strength in the founding Confederate order (CSA Constitution's slavery permanence clause, Stephens Cornerstone Speech) supports elevated but not maximum score — the order collapsed too quickly to sustain escalation to 5. Confidence 0.62 reflects the chain-requires-expansion uncertainty. Hold at score-review until chain expansion to ≥4 passages."
+        }
+      ]
+    }
+  ]
+}

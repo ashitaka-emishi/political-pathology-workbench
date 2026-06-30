@@ -9,7 +9,7 @@
     "confidence": {
       "value": 0.63,
       "label": "moderate",
-      "rationale": "Score of 4 reflects high symbolic-order strength at the war's end: the Union's constitutional order survived, and Lincoln gave it a powerful new sacral legitimation through democratic-rebirth framing. Not maximum because the order's strength was achieved through enormous material sacrifice and was not yet institutionally consolidated; Reconstruction collapse suggests the symbolic renewal did not fully take hold.",
+      "rationale": "Score of 4 reflects high sacred-political-order strength at the war's end: the Union's constitutional order survived, and Lincoln gave it a powerful new sacral legitimation through democratic-rebirth framing. Not maximum because the order's strength was achieved through enormous material sacrifice and was not yet institutionally consolidated; Reconstruction collapse suggests the symbolic renewal did not fully take hold.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "reconstruction-failure-complicates-anti-sacrificial-score"
@@ -88,7 +88,7 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "High but not maximum symbolic-order strength: the founding documents establish strong sacral logic (divine favor, racial hierarchy as natural truth), but the four-year lifespan and dependence on military success suggest the order could not fully consolidate. Score of 4 reflects high founding strength with fragility built in.",
+      "rationale": "High but not maximum sacred-political-order strength: the founding documents establish strong sacral logic (divine favor, racial hierarchy as natural truth), but the four-year lifespan and dependence on military success suggest the order could not fully consolidate. Score of 4 reflects high founding strength with fragility built in.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "collapse-not-chain-driven"
@@ -141,7 +141,7 @@
     "confidence": {
       "value": 0.58,
       "label": "moderate",
-      "rationale": "Score of 3 reflects moderate symbolic-order strength: the Gandhian order achieved independence and generated enormous moral authority, but its strength was achieved without the institutional consolidation that produces maximum scores. Partition and subsequent Indian constitutional history suggest the Gandhian sacred political order did not fully transfer its anti-sacrificial principles to the state-building phase.",
+      "rationale": "Score of 3 reflects moderate sacred-political-order strength: the Gandhian order achieved independence and generated enormous moral authority, but its strength was achieved without the institutional consolidation that produces maximum scores. Partition and subsequent Indian constitutional history suggest the Gandhian sacred political order did not fully transfer its anti-sacrificial principles to the state-building phase.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "partition-violence-complicates-anti-sacrificial-score",
@@ -328,7 +328,7 @@
     "confidence": {
       "value": 0.82,
       "label": "high",
-      "rationale": "Minimum corrigibility: both legal instruments directly eliminate the institutional preconditions for symbolic-order self-correction — unconditional personal oath forecloses military dissent; single-party law forecloses political competition. Score of 1 (not 0) preserves the possibility that informal networks and internal party factionalism provided marginal corrigibility channels, but the constitutional-legal architecture is unambiguous.",
+      "rationale": "Minimum corrigibility: both legal instruments directly eliminate the institutional preconditions for order self-correction — unconditional personal oath forecloses military dissent; single-party law forecloses political competition. Score of 1 (not 0) preserves the possibility that informal networks and internal party factionalism provided marginal corrigibility channels, but the constitutional-legal architecture is unambiguous.",
       "uncertaintyFactors": [
         "chain-requires-integration-with-operational-documentation"
       ]
@@ -353,7 +353,7 @@
     "confidence": {
       "value": 0.55,
       "label": "moderate",
-      "rationale": "Maximum symbolic-order strength: the DPRK's constitutional design produces total institutional monopoly on symbolic production with no legitimate internal challenger. Score confidence is moderate rather than high due to translation-chain uncertainty and access-restricted primary sources — the score reflects the constitutional design intent and scholarly consensus on North Korean ideology, not verified operational documentation.",
+      "rationale": "Maximum sacred-political-order strength: the DPRK's constitutional design produces total institutional monopoly on symbolic production with no legitimate internal challenger. Score confidence is moderate rather than high due to translation-chain uncertainty and access-restricted primary sources — the score reflects the constitutional design intent and scholarly consensus on North Korean ideology, not verified operational documentation.",
       "uncertaintyFactors": [
         "translation-chain-unverified",
         "chain-requires-expansion",
@@ -380,7 +380,7 @@
     "confidence": {
       "value": 0.6,
       "label": "moderate",
-      "rationale": "Score of 4 reflects high but not maximum symbolic-order strength: the immediate post-9/11 order achieved strong public cohesion and institutional mobilization, but the unlimited enemy definition and absence of constitutional containment produced instability. Not maximum because the order's strength was fear-driven and began declining within years of the founding moment.",
+      "rationale": "Score of 4 reflects high but not maximum sacred-political-order strength: the immediate post-9/11 order achieved strong public cohesion and institutional mobilization, but the unlimited enemy definition and absence of constitutional containment produced instability. Not maximum because the order's strength was fear-driven and began declining within years of the founding moment.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "enemy-definition-broadened-over-time"
@@ -618,7 +618,7 @@
     "confidence": {
       "value": 0.6,
       "label": "moderate",
-      "rationale": "Score of 3 (moderate) for the 1973–1984 post-Vietnam period: the sacred political order retained democratic institutional coherence but lost Cold War consensus, executive war authority, and public confidence (per Carter). Mid-range score reflects the order's ambiguous status — neither collapsed (Soviet 1991) nor highly constrained (postwar Germany) nor strongly expansive (imperial Japan). Confidence at 0.60 because periodization is genuinely contested: Reagan-era rearmament suggests symbolic-order strength recovered more than a 3 implies by the mid-1980s.",
+      "rationale": "Score of 3 (moderate) for the 1973–1984 post-Vietnam period: the sacred political order retained democratic institutional coherence but lost Cold War consensus, executive war authority, and public confidence (per Carter). Mid-range score reflects the order's ambiguous status — neither collapsed (Soviet 1991) nor highly constrained (postwar Germany) nor strongly expansive (imperial Japan). Confidence at 0.60 because periodization is genuinely contested: Reagan-era rearmament suggests sacred-political-order strength recovered more than a 3 implies by the mid-1980s.",
       "uncertaintyFactors": [
         "periodization-1973-1984-vs-later-recovery",
         "cold-war-framing-kept-some-consensus-intact"

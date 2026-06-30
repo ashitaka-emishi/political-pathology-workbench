@@ -1,0 +1,251 @@
+{
+  "caseId": "united-states-after-vietnam",
+  "caseSlug": "united-states-after-vietnam",
+  "title": "United States after Vietnam",
+  "interpretations": [
+    {
+      "interpretationId": "united-states-after-vietnam-interpretation-001",
+      "caseId": "united-states-after-vietnam",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "The post-Vietnam US sacred political order exhibited moderate corrigibility: the War Powers Resolution institutionalized congressional oversight as a correction mechanism against unilateral executive war-making, and Carter's public acknowledgment of national crisis represented a order willingness to receive criticism rather than deflect it through sacrificial mobilization. This contrasts with Imperial Japan and Nazi Germany, where equivalent crises intensified sacrificial demands. Corrigibility was partial and contested — Reagan's explicit campaign to overcome the Vietnam syndrome within a decade shows the correction was not deeply institutionalized.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.62,
+        "label": "moderate",
+        "rationale": "Structural alignment with corrigibility is supported by the legislative and rhetorical evidence, but the subsequent rollback complicates the score. Minimal stub requiring expansion.",
+        "uncertaintyFactors": [
+          "minimal-evidence-chain",
+          "periodization-contested",
+          "reagan-era-complicates-reading"
+        ]
+      },
+      "mechanism": "memory-driven-restraint",
+      "mechanismSummary": "The collective memory of Vietnam failure — institutionalized as the War Powers Resolution and expressed in Carter's crisis rhetoric — restrained further sacrificial escalation and enabled a period of constrained reordering rather than pathological self-preservation.",
+      "alternativeMechanisms": [
+        "anti-sacrificial-restraint",
+        "pluralist-reordering"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "economic-security",
+        "conscience"
+      ],
+      "sacrificeHealth": "ambiguous",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "corrigibility",
+        "memory-driven-restraint",
+        "sacred-political-order-strength"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "united-states-after-vietnam-claim-001",
+          "caseId": "united-states-after-vietnam",
+          "claim": "The US sacred political order responded to the Vietnam defeat through institutional correction mechanisms and public acknowledgment of national crisis, demonstrating restrained reordering rather than sacrificial escalation: the War Powers Resolution attempted to embed congressional oversight of military commitments, while Carter named a national confidence crisis without calling for sacrifice.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.68,
+            "label": "moderate",
+            "rationale": "Both passages advanced to evidence-review. WPR § 2(a) text corrected against Cornell LII codified form ('joint resolution' → 'chapter'; truncated final clause restored). Carter speech confirmed verbatim against Miller Center archive. Confidence raised from 0.65. Capped pending chain expansion; Reagan-era Vietnam syndrome reversal remains a complicating factor.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "periodization-contested"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "united-states-after-vietnam-passage-001",
+              "caseId": "united-states-after-vietnam",
+              "sourceId": "war-powers-resolution-1973",
+              "locator": "War Powers Resolution, Public Law 93-148, § 2(a), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1541(a). Text confirmed against Cornell LII (https://www.law.cornell.edu/uscode/text/50/1541). Corrected 'joint resolution' to 'chapter' (codified form) and restored truncated final clause.",
+              "text": "It is the purpose of this chapter to fulfill the intent of the framers of the Constitution of the United States and insure that the collective judgment of both the Congress and the President will apply to the introduction of United States Armed Forces into hostilities, or into situations where imminent involvement in hostilities is clearly indicated by the circumstances, and to the continued use of such forces in hostilities or in such situations.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-001: WPR § 2(a)'s purpose clause ('collective judgment of both the Congress and the President will apply') institutionalizes the Vietnam-memory lesson as a legal requirement for shared war authority. Evidence role 'grounds' is correct. Text confirmed and corrected ('joint resolution' → 'chapter') against Cornell LII in evidence-review pass.",
+              "source": {
+                "sourceId": "war-powers-resolution-1973",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public Law 93-148, enacted 7 November 1973. United States federal law; public domain. Full text in US Statutes at Large 87 Stat. 555 and codified at 50 U.S.C. §§ 1541-1548."
+              }
+            },
+            {
+              "passageId": "united-states-after-vietnam-passage-002",
+              "caseId": "united-states-after-vietnam",
+              "sourceId": "carter-crisis-confidence-speech-1979",
+              "locator": "Address to the Nation, President Jimmy Carter, 15 July 1979; archived at Miller Center, University of Virginia (https://millercenter.org/the-presidency/presidential-speeches/july-15-1979-crisis-confidence-speech). Text confirmed verbatim against Miller Center archive.",
+              "text": "The erosion of our confidence in the future is threatening to destroy the social and the political fabric of America. The confidence that we have always had as a people is not simply some romantic dream or a proverb in a dusty book that we read just on the Fourth of July. It is the idea which founded our Nation and has guided our development as a people.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-001: Carter's 'erosion of our confidence... threatening to destroy the social and political fabric' directly names the sacred-political-order crisis the claim identifies, and frames it as a failure of the founding confidence rather than a temporary setback. Evidence role 'grounds' is correct. Text confirmed against Miller Center archive in evidence-review pass.",
+              "source": {
+                "sourceId": "carter-crisis-confidence-speech-1979",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Address by President Jimmy Carter, 15 July 1979. Public domain US government document. Archived at the Jimmy Carter Presidential Library and Miller Center, University of Virginia."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "united-states-after-vietnam-score-001",
+          "caseId": "united-states-after-vietnam",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "united-states-after-vietnam-interpretation-001",
+          "value": 3,
+          "confidence": {
+            "value": 0.62,
+            "label": "moderate",
+            "rationale": "Passages advanced to evidence-review. Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Confidence raised from 0.58. Capped pending chain expansion.",
+            "uncertaintyFactors": [
+              "periodization-contested",
+              "chain-requires-expansion"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "memory-driven-restraint"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 3/5 defensible: memory-driven-restraint mechanism (WPR § 2(a) purpose clause, Carter crisis speech) represents partial corrigibility — present in the legislative and rhetorical record but contested and partially reversed in the Reagan era. Confidence 0.62 is well-calibrated given the periodization uncertainty. Chain-requires-expansion resolved (Milestone 7 added §5(b) and Weinberger passages). Ready for human-reviewed with periodization caveat noted."
+        }
+      ]
+    },
+    {
+      "interpretationId": "united-states-after-vietnam-interpretation-002",
+      "caseId": "united-states-after-vietnam",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The post-Vietnam US sacred political order exhibits moderate and declining strength during the 1973–1984 period covered by the chain: War Powers § 5(b)'s automatic withdrawal mechanism encodes Congress's assessment that the President alone could not be trusted to maintain symbolic-order coherence under crisis pressure, implying the founding legitimacy framework (executive war authority, Cold War consensus) had significantly eroded; Carter's crisis diagnosis (passage-002) names sacred-political-order-strength erosion explicitly as the central national problem; and Weinberger's explicit return to pre-engagement public consent-seeking (passage-004) shows the order reconstructing its authority basis around democratic accountability rather than imperial prerogative. Score of 3 reflects a sacred political order that retains structural coherence (democratic institutions, legal framework) but whose legitimacy claims have been substantially contested and its sacrifice demands constrained by collective memory.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.65,
+        "label": "moderate",
+        "rationale": "The sacred-political-order-strength reading is strongly supported by the Carter passage (explicit crisis diagnosis) and consistent with the WPR and Weinberger passages. Score of 3 is plausible but contested: the Cold War consensus partially survived Vietnam, and Reagan's successful rearmament campaign by 1983 suggests symbolic-order recovery was faster than a mid-period reading implies.",
+        "uncertaintyFactors": [
+          "periodization-1973-1984-vs-longer-arc",
+          "reagan-rearmament-suggests-order-recovery",
+          "cold-war-consensus-partially-intact"
+        ]
+      },
+      "mechanism": "memory-driven-restraint",
+      "mechanismSummary": "The Vietnam memory restrained order expansion by requiring legal authorization and public consent before military deployment, reducing the available repertoire of sacrificial mobilization and constraining executive unilateralism.",
+      "alternativeMechanisms": [
+        "constitutional-containment",
+        "pluralist-reordering"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "economic-security",
+        "conscience"
+      ],
+      "sacrificeHealth": "ambiguous",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "sacred-political-order-strength",
+        "memory-driven-restraint",
+        "corrigibility"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "united-states-after-vietnam-claim-002",
+          "caseId": "united-states-after-vietnam",
+          "claim": "The Vietnam memory was institutionalized at two levels simultaneously: War Powers § 5(b) hardened the purpose clause into a binding 60-day withdrawal requirement, creating an automatic termination mechanism that does not require an affirmative congressional vote to take effect; and the Weinberger Doctrine (1984) codified the Vietnam lessons as executive doctrine, explicitly citing Vietnam as the case where the absence of public and congressional support made war politically unsustainable — together these show the post-Vietnam order converting the defeat's memory into both a legal constraint and a doctrine of pre-engagement consent-seeking.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.72,
+            "label": "moderate-high",
+            "rationale": "Both passages verified against authoritative sources. The claim that Vietnam memory was institutionalized at two levels is analytically grounded: § 5(b) is a binding legal rule; Weinberger is executive doctrine. The two-level institutionalization strengthens the corrigibility reading beyond the purpose clause alone. Confidence capped: Weinberger Doctrine was doctrine, not law, and Reagan's Vietnam-syndrome-reversal rhetoric coexisted with it.",
+            "uncertaintyFactors": [
+              "weinberger-doctrine-revoked-by-powell-and-subsequent-administrations",
+              "reagan-era-vietnam-syndrome-reversal-complicates-memory-driven-restraint-reading"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "united-states-after-vietnam-passage-003",
+              "caseId": "united-states-after-vietnam",
+              "sourceId": "war-powers-resolution-1973",
+              "locator": "War Powers Resolution, Public Law 93-148, § 5(b), 7 November 1973; 87 Stat. 555; codified at 50 U.S.C. § 1544(b). Text confirmed against Cornell LII (https://www.law.cornell.edu/uscode/text/50/1544).",
+              "text": "Within sixty calendar days after a report is submitted or is required to be submitted pursuant to section 1543(a)(1) of this title, whichever is earlier, the President shall terminate any use of United States Armed Forces with respect to which such report was submitted (or required to be submitted), unless the Congress (1) has declared war or has enacted a specific authorization for such use of United States Armed Forces, (2) has extended by law such sixty-day period, or (3) is physically unable to meet as a result of an armed attack upon the United States.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-002: WPR § 5(b)'s automatic 60-day withdrawal clock converts the purpose clause (passage-001) into a binding enforcement mechanism — the President must terminate forces unless Congress affirmatively acts. This is the constitutional-containment dimension of the Vietnam-memory institutionalization the claim describes. Evidence role 'grounds' is correct. Text confirmed against Cornell LII in evidence-review pass.",
+              "source": {
+                "sourceId": "war-powers-resolution-1973",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public Law 93-148, enacted 7 November 1973. United States federal law; public domain. Full text in US Statutes at Large 87 Stat. 555 and codified at 50 U.S.C. §§ 1541-1548."
+              }
+            },
+            {
+              "passageId": "united-states-after-vietnam-passage-004",
+              "caseId": "united-states-after-vietnam",
+              "sourceId": "weinberger-uses-military-power-1984",
+              "locator": "Caspar W. Weinberger, Secretary of Defense, 'The Uses of Military Power,' address to the National Press Club, Washington, D.C., 28 November 1984; primary source at Office of the Historian, U.S. Department of State, Foreign Relations of the United States 1981–1988, vol. I, doc. 219 (https://history.state.gov/historicaldocuments/frus1981-88v01/d219); full text also archived at PBS FRONTLINE (https://www.pbs.org/wgbh/pages/frontline/shows/military/force/weinberger.html).",
+              "text": "We cannot fight a battle with the Congress at home while asking our troops to win a war overseas or, as in the case of Vietnam, in effect asking our troops not to win, but just to be there. [...] Fifth, before the U.S. commits combat forces abroad, there must be some reasonable assurance we will have the support of the American people and their elected representatives in Congress. This support cannot be achieved unless we are candid in making clear the threats we face; the support cannot be sustained without continuing and close consultation.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim united-states-after-vietnam-claim-002: Weinberger explicitly names Vietnam ('in effect asking our troops not to win, but just to be there') and codifies the lesson as a doctrine of pre-engagement public and congressional consent. This is the executive-doctrine layer of the two-level institutionalization the claim describes. Evidence role 'grounds' is correct. Text confirmed against State Dept FRUS 1981-88 vol. I doc. 219 and PBS FRONTLINE in evidence-review pass. Note: Weinberger Doctrine was doctrine, not law — documented as uncertainty factor.",
+              "source": {
+                "sourceId": "weinberger-uses-military-power-1984",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Secretary of Defense Caspar W. Weinberger, address to the National Press Club, 28 November 1984. Public domain US government document. Primary source: Office of the Historian, FRUS 1981–1988, vol. I, doc. 219; also archived at PBS FRONTLINE."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "united-states-after-vietnam-score-002",
+          "caseId": "united-states-after-vietnam",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "united-states-after-vietnam-interpretation-002",
+          "value": 3,
+          "confidence": {
+            "value": 0.6,
+            "label": "moderate",
+            "rationale": "Score of 3 (moderate) for the 1973–1984 post-Vietnam period: the sacred political order retained democratic institutional coherence but lost Cold War consensus, executive war authority, and public confidence (per Carter). Mid-range score reflects the order's ambiguous status — neither collapsed (Soviet 1991) nor highly constrained (postwar Germany) nor strongly expansive (imperial Japan). Confidence at 0.60 because periodization is genuinely contested: Reagan-era rearmament suggests sacred-political-order strength recovered more than a 3 implies by the mid-1980s.",
+            "uncertaintyFactors": [
+              "periodization-1973-1984-vs-later-recovery",
+              "cold-war-framing-kept-some-consensus-intact"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order-strength",
+            "memory-driven-restraint"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 3/5 defensible: sacred-political-order-strength = 3 for the 1973-1984 post-Vietnam period captures the order's retained democratic coherence against its significant confidence and legitimacy erosion. Confidence 0.60 reflects periodization uncertainty (Reagan rearmament suggests faster recovery than a 3 implies). Hold at score-review; periodization should be explicitly bounded to 1973-1984 before human-reviewed."
+        }
+      ]
+    }
+  ]
+}

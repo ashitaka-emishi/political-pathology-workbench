@@ -1,0 +1,129 @@
+{
+  "caseId": "world-war-i-nationalisms",
+  "caseSlug": "world-war-i-nationalisms",
+  "title": "World War I Nationalisms",
+  "interpretations": [
+    {
+      "interpretationId": "world-war-i-nationalisms-interpretation-001",
+      "caseId": "world-war-i-nationalisms",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "At the outbreak of World War I, multiple belligerent sacred political orders achieved maximum mobilizational strength by invoking the nation as a sacred collective body that dissolved all internal distinctions. Kaiser Wilhelm's dissolution of party divisions and Poincaré's 'sacred union' both demonstrate the mechanism: the sacred political order expands to absorb all individuals into a single sacrificial body at the moment of perceived existential threat.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.65,
+        "label": "moderate",
+        "rationale": "Passages are well-attested verified texts. The mechanism is well-supported for the mobilization moment. Confidence capped given multi-nation unit of analysis.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "multi-nation-unit-of-analysis"
+        ]
+      },
+      "mechanism": "collective-immortality-to-sacrifice",
+      "mechanismSummary": "At war outbreak, national sacred political orders in Germany and France suppressed all internal distinctions and sacralized the nation as a collective body demanding total sacrifice — Kaiser Wilhelm recognized 'only Germans,' Poincaré invoked 'sacred union.'",
+      "alternativeMechanisms": [
+        "sacred-enemy-escalation",
+        "institutional-self-preservation"
+      ],
+      "sacrificeForm": [
+        "death",
+        "blood-sacrifice",
+        "family-life"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "out-group",
+      "definitionRefs": [
+        "sacred-political-order",
+        "sacred-political-order-strength",
+        "collective-immortality",
+        "sacrifice"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "world-war-i-nationalisms-claim-001",
+          "caseId": "world-war-i-nationalisms",
+          "claim": "The outbreak of World War I was accompanied by multi-national sacred political orders invoking sacred national unity that dissolved class, party, and individual distinctions — framing the nation as a sacred collective body for whom total sacrifice was both possible and obligatory.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.65,
+            "label": "moderate",
+            "rationale": "Kaiser Wilhelm's 'I recognize only Germans' and Poincaré's 'sacred union' are well-attested public-domain texts verified via GHDI and firstworldwar.com. Both document the sacrificial-nationalist moment at war outbreak across two major belligerents. Confidence capped because the case covers multiple nations with variable outcomes; the claim holds for the mobilization moment but not uniformly across the war's duration.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "multi-nation-unit-of-analysis"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "world-war-i-nationalisms-passage-001",
+              "caseId": "world-war-i-nationalisms",
+              "sourceId": "kaiser-wilhelm-reichstag-speech-1914",
+              "locator": "Kaiser Wilhelm II, Address to the Reichstag, 4 August 1914; English translation in German History in Documents and Images (GHDI): https://ghdi.ghi-dc.org/sub_document.cfm?document_id=815",
+              "text": "I no longer recognize any parties; I recognize only Germans.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "kaiser-wilhelm-reichstag-speech-1914",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. English translation verified at GHDI."
+              }
+            },
+            {
+              "passageId": "world-war-i-nationalisms-passage-002",
+              "caseId": "world-war-i-nationalisms",
+              "sourceId": "poincare-war-message-1914",
+              "locator": "Raymond Poincaré, Message to the French Chambers, 4 August 1914; English translation at https://www.firstworldwar.com/source/poincare_aug1914.htm",
+              "text": "She will be heroically defended by all her sons; nothing will break their sacred union before the enemy; today they are joined together as brothers in a common indignation against the aggressor, and in a common patriotic faith.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "poincare-war-message-1914",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. English translation verified at firstworldwar.com and BYU WWI archive."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "world-war-i-nationalisms-score-001",
+          "caseId": "world-war-i-nationalisms",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "world-war-i-nationalisms-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.6,
+            "label": "moderate",
+            "rationale": "Maximum sacred-political-order-strength score is supported by both the German and French mobilization declarations dissolving internal distinctions and invoking sacred national unity. Confidence capped at moderate given the multi-nation unit-of-analysis and variable national trajectories after mobilization.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "multi-nation-unit-of-analysis"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order",
+            "sacred-political-order-strength",
+            "collective-immortality",
+            "sacrifice"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (nationalist sacrifice discourse across all major belligerents) supports maximum sacred-political-order-strength. Confidence 0.60 reflects chain-requires-expansion and the multi-nation unit-of-analysis problem (the case aggregates several national orders). Hold at score-review; specify the unit of analysis before human-reviewed."
+        }
+      ]
+    }
+  ]
+}

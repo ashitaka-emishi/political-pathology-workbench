@@ -1,0 +1,126 @@
+{
+  "caseId": "canada",
+  "caseSlug": "canada",
+  "title": "Canada",
+  "interpretations": [
+    {
+      "interpretationId": "canada-interpretation-001",
+      "caseId": "canada",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "The Canadian sacred political order scores high on corrigibility through the Charter's built-in self-correction mechanism: Section 1 makes every rights guarantee provisional on demonstrable justification in a free and democratic society, embedding proportionality review as a permanent institutional corrective. Section 15's equality guarantee pairs with this to prevent the sacred political order from entrenching hierarchy through sacred-enemy or in-group/out-group distinctions. The result is a constitutional order that maintains high symbolic strength while preserving the institutional capacity to correct pathological tendencies — the structural inverse of the high-pathology sacrificial-escalation cases.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.68,
+        "label": "moderate",
+        "rationale": "Chain thin but passages are directly constitutive. The notwithstanding clause (s.33) and its use by Quebec complicates a maximum corrigibility score. Score reflects the design intent of the order, not every operational episode.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "notwithstanding-clause-s33-complicates-corrigibility-score"
+        ]
+      },
+      "mechanism": "constitutional-containment",
+      "mechanismSummary": "Section 1's proportionality review requirement institutionalizes order self-correction, preventing rights violations from becoming entrenched — a constitutional-containment mechanism that structurally opposes sacrificial escalation.",
+      "alternativeMechanisms": [
+        "pluralist-reordering",
+        "anti-sacrificial-restraint"
+      ],
+      "sacrificeForm": [
+        "time",
+        "labor",
+        "economic-security"
+      ],
+      "sacrificeHealth": "healthy",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "corrigibility",
+        "constitutional-containment",
+        "sacred-political-order-strength"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "canada-claim-001",
+          "caseId": "canada",
+          "claim": "The Canadian constitutional order embeds high corrigibility through the Charter's Section 1 'reasonable limits' clause: rights guarantees are deliberately constructed as non-absolute, requiring governments to demonstrate proportionality under judicial review — a mechanism that institutionalizes the sacred political order's capacity to self-correct without sacrificial escalation or sacred-enemy construction.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.73,
+            "label": "moderate-high",
+            "rationale": "Both passages are official government legislative texts verified against the Department of Justice Canada. The Section 1 limitations clause is analytically central: it institutionalizes proportionality review as the corrective mechanism for rights-order tensions. Confidence capped pending chain expansion to include Oakes test jurisprudence and notwithstanding clause complications.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "notwithstanding-clause-s33-complicates-corrigibility-score"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "canada-passage-001",
+              "caseId": "canada",
+              "sourceId": "canadian-charter-1982",
+              "locator": "Canadian Charter of Rights and Freedoms, Schedule B to the Constitution Act, 1982, Section 1; text verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+              "text": "The Canadian Charter of Rights and Freedoms guarantees the rights and freedoms set out in it subject only to such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "canadian-charter-1982",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official government text. Verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+              }
+            },
+            {
+              "passageId": "canada-passage-002",
+              "caseId": "canada",
+              "sourceId": "canadian-charter-1982",
+              "locator": "Canadian Charter of Rights and Freedoms, Schedule B to the Constitution Act, 1982, Section 15(1); text verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+              "text": "Every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination and, in particular, without discrimination based on race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "canadian-charter-1982",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official government text. Verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "canada-score-001",
+          "caseId": "canada",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "canada-interpretation-001",
+          "value": 4,
+          "confidence": {
+            "value": 0.65,
+            "label": "moderate",
+            "rationale": "Score of 4 reflects high but not maximum corrigibility: the Section 1 proportionality mechanism is among the strongest constitutionally embedded self-correction systems in the dataset, but the notwithstanding clause (s.33) provides a legislative escape valve that has been used, capping the score below maximum.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "notwithstanding-clause-s33-complicates-corrigibility-score"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "constitutional-containment"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Canadian Charter s.1/s.2) represents high corrigibility with one caveat — the notwithstanding clause (s.33) creates a legislative override that is the documented uncertainty factor. Confidence 0.65 reflects this structural complication. Ready for human-reviewed pending chain expansion to ≥4 passages."
+        }
+      ]
+    }
+  ]
+}

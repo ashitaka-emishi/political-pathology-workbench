@@ -1,0 +1,133 @@
+{
+  "caseId": "north-korea",
+  "caseSlug": "north-korea",
+  "title": "North Korea",
+  "interpretations": [
+    {
+      "interpretationId": "north-korea-interpretation-001",
+      "caseId": "north-korea",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "North Korea presents the clearest constitutional case of frozen-pathology in the dataset: the state is definitionally the application of the eternal leaders' Juche ideas, and the entire population is constitutionally bound to uphold those eternal leaders and carry their ideas forward unchanged. This produces maximum sacred-political-order strength through total institutional monopoly while eliminating corrigibility by constitutional design — the sacred political order cannot correct itself because correction is constitutionally prohibited as a violation of the eternal leaders' mandate. The mechanism is frozen-pathology rather than active sacrificial escalation: the order is not generating new enemies but is locked in a permanent defensive posture that prevents adaptation.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.58,
+        "label": "moderate",
+        "rationale": "Constitutional text supports the interpretation clearly, but confidence is capped by translation-chain uncertainty and the absence of operational documentation. Source access limitations documented in source-pack.",
+        "uncertaintyFactors": [
+          "translation-chain-unverified",
+          "chain-requires-expansion",
+          "access-restricted-primary-sources"
+        ]
+      },
+      "mechanism": "frozen-pathology",
+      "mechanismSummary": "The DPRK sacred political order constitutionally encodes the eternal leaders' ideas as the unchangeable foundation of the state, eliminating corrigibility by design and locking the order in permanent Juche ideology regardless of changing conditions.",
+      "alternativeMechanisms": [
+        "institutional-self-preservation",
+        "sacred-enemy-escalation"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "agency",
+        "economic-security",
+        "conscience",
+        "bodily-risk"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "in-group",
+      "definitionRefs": [
+        "sacred-political-order-strength",
+        "frozen-pathology",
+        "corrigibility"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "north-korea-claim-001",
+          "caseId": "north-korea",
+          "claim": "The DPRK sacred political order constitutionally encodes frozen-pathology as a design principle: the state is defined as the application of the eternal leaders' ideas (passage 1), and the population is constitutionally bound to 'uphold the eternal leaders' and 'defend and carry forward their ideas' without revision (passage 2) — a constitutional prohibition on sacred-political-order correction that maximizes sacred-political-order strength while eliminating corrigibility by definition.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.62,
+            "label": "moderate",
+            "rationale": "Both passages are from the University of Hawaiʻi at Mānoa Korean Studies Center 2024 English translation of the 2019 DPRK Constitution — the best available scholarly translation; no official DPRK English translation exists. The constitutional encoding of the eternal-leaders principle (영원한 수령) and the prohibition on revision ('defending and carrying forward their ideas') is analytically unambiguous in all available English translations and confirmed by secondary literature (Lankov 2013; Myers 2010; Collins 2012). Translation-chain gap formally documented in passage reviewNote fields (see issue #83 resolution). Confidence capped at moderate: Korean-original verification pending; chain limited to constitutional text without operational documentation of frozen-pathology in practice.",
+            "uncertaintyFactors": [
+              "translation-chain-unverified",
+              "chain-requires-expansion",
+              "access-restricted-primary-sources"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "north-korea-passage-001",
+              "caseId": "north-korea",
+              "sourceId": "dprk-constitution-2019",
+              "locator": "DPRK Socialist Constitution (2019), Preamble, opening sentence; English translation by University of Hawaiʻi at Mānoa Korean Studies Center (2024), p.1; PDF at https://manoa.hawaii.edu/koreanstudies/wp-content/uploads/2024/10/DPRK-Constitution-2019-EN.pdf. Translation unverified against Korean original.",
+              "text": "The Democratic People's Republic of Korea is the socialist State of Juche where the ideas of the great leader Comrade Kim Il Sung and the great leader Comrade Kim Jong Il on State building and their exploits in it are applied.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "source-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Translation-chain gap documented (resolution: option 4 — retain at source-review with formal uncertainty notation). The UH Mānoa Korean Studies Center 2024 translation is the best available English-language scholarly translation of the 2019 DPRK Constitution; no official DPRK English translation exists. The key Korean terms in this sentence are: 주체(Juche) — rendered correctly by all major translations; 위대한 수령(great leader) — standard transliteration; 사상과 업적(ideas and exploits) — rendered consistently across Lankov, Myers, and NK Leadership Watch sources. The passage's constitutional structure (state defined as application of leaders' ideas) is confirmed in secondary literature: Andrei Lankov, The Real North Korea (Oxford UP, 2013), ch.1; B.R. Myers, The Cleanest Race (Melville House, 2010), ch.2; Robert Collins, Denial of Status (HRNK, 2012). To advance to evidence-review, a Korean Studies scholar should verify the UH Mānoa rendering against the Korean original or cite an authoritative bilingual edition (e.g., DPRK Korean-language original from NK Leadership Watch's constitutional archive). Until then, the passage is analytically usable with the translation-chain caveat documented.",
+              "source": {
+                "sourceId": "dprk-constitution-2019",
+                "role": "primary-grounds",
+                "access": "restricted-translation-only",
+                "notes": "Access limitation: authoritative Korean-language text is on DPRK state website (Naenara), accessible only intermittently from outside the DPRK and without independent translation verification. English translation used here is from University of Hawaiʻi at Mānoa Korean Studies Center (2024), which is the scholarly standard but cannot be certified against the authoritative original. Kim Jong-un era operational documents (party resolutions, state media) are accessible via KCNA Watch and other monitoring services but present translation-chain verification challenges. This case is limited to constitutional-level primary sources to minimize translation uncertainty."
+              }
+            },
+            {
+              "passageId": "north-korea-passage-002",
+              "caseId": "north-korea",
+              "sourceId": "dprk-constitution-2019",
+              "locator": "DPRK Socialist Constitution (2019), Preamble, penultimate paragraph; English translation by University of Hawaiʻi at Mānoa Korean Studies Center (2024), p.2; PDF at https://manoa.hawaii.edu/koreanstudies/wp-content/uploads/2024/10/DPRK-Constitution-2019-EN.pdf. Translation unverified against Korean original.",
+              "text": "Under the leadership of the Workers' Party of Korea, the Democratic People's Republic of Korea and the Korean people will uphold the great Comrade Kim Il Sung and the great Comrade Kim Jong Il as the eternal leaders of Juche Korea, and will carry the revolutionary cause of Juche through to completion by defending and carrying forward their ideas and achievements.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "source-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Translation-chain gap documented (resolution: option 4 — retain at source-review with formal uncertainty notation). Same UH Mānoa 2024 translation caveat applies as passage-001. The key Korean terms in this sentence are: 영원한 수령(eternal leaders) — the term 영원한 (yeong-won-han, 'eternal') is analytically critical to the frozen-pathology interpretation; its rendering as 'eternal' is confirmed by multiple independent translations (Lankov, Byung-Ho Chung in Asia Pacific Viewpoint). 혁명위업(revolutionary cause) and 받들고 (uphold) are rendered consistently across sources. The constitutional prohibition on revision — 'defending and carrying forward their ideas and achievements' with no amendment clause permitting revision of the leaders' foundational ideas — is the key analytical fact, and this structure is unambiguous in all available English translations and is confirmed by secondary literature. To advance to evidence-review: same requirement as passage-001. The claim this passage supports (north-korea-claim-001) is analytically defensible with the translation gap documented as a scored uncertainty factor (confidence 0.55, translated to score-review).",
+              "source": {
+                "sourceId": "dprk-constitution-2019",
+                "role": "primary-grounds",
+                "access": "restricted-translation-only",
+                "notes": "Access limitation: authoritative Korean-language text is on DPRK state website (Naenara), accessible only intermittently from outside the DPRK and without independent translation verification. English translation used here is from University of Hawaiʻi at Mānoa Korean Studies Center (2024), which is the scholarly standard but cannot be certified against the authoritative original. Kim Jong-un era operational documents (party resolutions, state media) are accessible via KCNA Watch and other monitoring services but present translation-chain verification challenges. This case is limited to constitutional-level primary sources to minimize translation uncertainty."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "north-korea-score-001",
+          "caseId": "north-korea",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "north-korea-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.55,
+            "label": "moderate",
+            "rationale": "Maximum sacred-political-order strength: the DPRK's constitutional design produces total institutional monopoly on symbolic production with no legitimate internal challenger. Score confidence is moderate rather than high due to translation-chain uncertainty and access-restricted primary sources — the score reflects the constitutional design intent and scholarly consensus on North Korean ideology, not verified operational documentation.",
+            "uncertaintyFactors": [
+              "translation-chain-unverified",
+              "chain-requires-expansion",
+              "access-restricted-primary-sources"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order-strength",
+            "frozen-pathology"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: frozen-pathology mechanism (DPRK Constitution's Juche and Songun provisions) supports maximum sacred-political-order-strength. Confidence 0.55 is appropriately low: passages are at source-review (translation unverified), chain requires expansion, and primary sources are access-restricted. Hold at score-review until North Korea translation-chain gap (#83) is resolved and passages advance to evidence-review."
+        }
+      ]
+    }
+  ]
+}

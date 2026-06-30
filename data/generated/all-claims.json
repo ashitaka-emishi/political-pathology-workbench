@@ -72,7 +72,7 @@
   {
     "claimId": "confederacy-claim-001",
     "caseId": "confederacy",
-    "claim": "The Confederate sacred political order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high symbolic-order strength at founding but could not survive military defeat.",
+    "claim": "The Confederate sacred political order built its founding legitimacy on racial hierarchy as a divinely ordained natural truth, invoking God's favor and the permanence of its constitutional order — a claim to sacral authority that produced high sacred-political-order strength at founding but could not survive military defeat.",
     "derivedFrom": [
       "confederacy-passage-001",
       "confederacy-passage-002"
@@ -259,7 +259,7 @@
   {
     "claimId": "nazi-germany-claim-002",
     "caseId": "nazi-germany",
-    "claim": "The Nazi regime eliminated corrigibility through two simultaneous legal mechanisms: the Wehrmacht oath (2 August 1934) replaced the constitutional oath to the German nation with a personal oath of unconditional obedience to Hitler and explicit readiness to die for it, removing the institutional basis for legitimate dissent within the armed forces; the Law Against Formation of New Parties (14 July 1933) legally mandated single-party rule, eliminating the pluralist competition that enables symbolic-order correction.",
+    "claim": "The Nazi regime eliminated corrigibility through two simultaneous legal mechanisms: the Wehrmacht oath (2 August 1934) replaced the constitutional oath to the German nation with a personal oath of unconditional obedience to Hitler and explicit readiness to die for it, removing the institutional basis for legitimate dissent within the armed forces; the Law Against Formation of New Parties (14 July 1933) legally mandated single-party rule, eliminating the pluralist competition that enables order correction.",
     "derivedFrom": [
       "nazi-germany-passage-003",
       "nazi-germany-passage-004"
@@ -281,7 +281,7 @@
   {
     "claimId": "north-korea-claim-001",
     "caseId": "north-korea",
-    "claim": "The DPRK sacred political order constitutionally encodes frozen-pathology as a design principle: the state is defined as the application of the eternal leaders' ideas (passage 1), and the population is constitutionally bound to 'uphold the eternal leaders' and 'defend and carry forward their ideas' without revision (passage 2) — a constitutional prohibition on symbolic correction that maximizes symbolic-order strength while eliminating corrigibility by definition.",
+    "claim": "The DPRK sacred political order constitutionally encodes frozen-pathology as a design principle: the state is defined as the application of the eternal leaders' ideas (passage 1), and the population is constitutionally bound to 'uphold the eternal leaders' and 'defend and carry forward their ideas' without revision (passage 2) — a constitutional prohibition on sacred-political-order correction that maximizes sacred-political-order strength while eliminating corrigibility by definition.",
     "derivedFrom": [
       "north-korea-passage-001",
       "north-korea-passage-002"
@@ -331,7 +331,8 @@
     "claim": "The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German sacred political order.",
     "derivedFrom": [
       "postwar-germany-passage-001",
-      "postwar-germany-passage-002"
+      "postwar-germany-passage-002",
+      "postwar-germany-passage-003"
     ],
     "createdBy": "human",
     "reviewedBy": "andrew-hammer",
@@ -340,10 +341,9 @@
     "confidence": {
       "value": 0.76,
       "label": "moderate-high",
-      "rationale": "Both Grundgesetz passages advanced to evidence-review after text confirmation against the official Bundestag English translation at gesetze-im-internet.de. Art. 1(1) confirmed verbatim; Art. 79(3) text corrected ('on principle' → 'in principle'). Confidence raised from 0.72 reflecting confirmed passage integrity. Capped pending chain expansion and secondary-source corroboration.",
+      "rationale": "Both Grundgesetz passages advanced to evidence-review after text confirmation against the official Bundestag English translation at gesetze-im-internet.de. Art. 1(1) confirmed verbatim; Art. 79(3) text corrected ('on principle' → 'in principle'). Adenauer's 1949 government declaration provides corroborating evidence that the founding executive framed democracy and rule of law as commitments to be defended. Confidence raised from 0.72 reflecting confirmed passage integrity and corroborating support.",
       "uncertaintyFactors": [
-        "chain-requires-expansion",
-        "single-source"
+        "adenauer-english-translation-physical-verification-pending"
       ]
     },
     "caseSlug": "postwar-germany"
@@ -547,7 +547,7 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "Both passages are public-domain texts from near-contemporary witnesses of the late Roman order (Vegetius c. 390, Augustine 413–426). They provide independent diagnoses of institutional decay. Confidence capped: the passages describe the order at decline-onset, not at its peak, and the causal chain from symbolic-order decay to institutional collapse requires fuller reconstruction.",
+      "rationale": "Both passages are public-domain texts from near-contemporary witnesses of the late Roman order (Vegetius c. 390, Augustine 413–426). They provide independent diagnoses of institutional decay. Confidence capped: the passages describe the order at decline-onset, not at its peak, and the causal chain from order decay to institutional collapse requires fuller reconstruction.",
       "uncertaintyFactors": [
         "chain-requires-expansion",
         "contemporaneous-diagnosis-not-retrospective-proof",
