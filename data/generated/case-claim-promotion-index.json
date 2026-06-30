@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-06-30",
+  "cases": [
+    {
+      "caseId": "american-civil-war-union",
+      "draftClaims": [
+        {
+          "draftClaimId": "lma-draft-claim-001",
+          "originModuleId": "lincoln-metaphor-analysis",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "lma-draft-claim-002",
+          "originModuleId": "lincoln-metaphor-analysis",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "lma-draft-claim-003",
+          "originModuleId": "lincoln-metaphor-analysis",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "lma-draft-claim-004",
+          "originModuleId": "lincoln-metaphor-analysis",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "slw-draft-claim-002",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "slw-draft-claim-004",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "none"
+        }
+      ],
+      "promotedClaims": []
+    },
+    {
+      "caseId": "american-revolution",
+      "draftClaims": [
+        {
+          "draftClaimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "slw-draft-claim-004",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "none"
+        }
+      ],
+      "promotedClaims": []
+    },
+    {
+      "caseId": "napoleonic-france",
+      "draftClaims": [
+        {
+          "draftClaimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "slw-draft-claim-004",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "none"
+        }
+      ],
+      "promotedClaims": []
+    },
+    {
+      "caseId": "nazi-germany",
+      "draftClaims": [
+        {
+          "draftClaimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "slw-draft-claim-003",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "candidate"
+        },
+        {
+          "draftClaimId": "slw-draft-claim-004",
+          "originModuleId": "sacrifice-law-workbench",
+          "reviewStatus": "draft",
+          "scoreImpact": "none"
+        }
+      ],
+      "promotedClaims": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "moduleId": "lincoln-metaphor-analysis",
+    "moduleName": "Lincoln Metaphor Analysis",
+    "moduleType": "deep-case",
+    "caseIds": [
+      "american-civil-war-union"
+    ],
+    "corpusIds": [
+      "lincoln-deep-28"
+    ],
+    "claimPromotionPolicy": "standard",
+    "reliabilityStatus": "pending"
+  },
+  {
+    "moduleId": "sacrifice-law-workbench",
+    "moduleName": "Sacrifice Law Workbench",
+    "moduleType": "comparative",
+    "caseIds": [
+      "american-civil-war-union",
+      "nazi-germany"
+    ],
+    "corpusIds": [
+      "sacrifice-law-comparative-41"
+    ],
+    "claimPromotionPolicy": "standard",
+    "reliabilityStatus": "pending"
+  }
+]
