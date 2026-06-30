@@ -1,0 +1,50 @@
+{
+  "corpusId": "lincoln-deep-28",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "artifactFamilies": [
+    {
+      "family": "corpus-metadata",
+      "description": "Document-level metadata: title, date, author, source URL, archive reference",
+      "ppwLocation": "data/corpora/lincoln-deep-28/documents.json",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "importStatus": "pending",
+      "governingIssues": [195, 196, 197]
+    },
+    {
+      "family": "raw-text",
+      "description": "Segmented source texts with stable sentence IDs from lincoln-metaphor-analysis pipeline",
+      "ppwLocation": "data/cases/american-civil-war-union/source-pack.json",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "importStatus": "pending",
+      "governingIssues": [198],
+      "rightsNote": "Lincoln's own writings (1838-1865) are public domain. Third-party texts require rights confirmation before import."
+    },
+    {
+      "family": "passage-records",
+      "description": "Segmented passages with stable IDs (Stage 4A segmentation output)",
+      "ppwLocation": "data/cases/american-civil-war-union/passages.json",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "importStatus": "pending",
+      "governingIssues": [143],
+      "note": "Requires PPW passage schema validation; import deferred to Milestone 16."
+    },
+    {
+      "family": "draft-claims",
+      "description": "Draft claim candidates from Stage 4A model scoring and cluster profiling",
+      "ppwLocation": "data/cases/american-civil-war-union/claims.json",
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "importStatus": "pending",
+      "governingIssues": [145],
+      "note": "Imported with reviewStatus: draft; subject to PPW claim-promotion gates."
+    },
+    {
+      "family": "reliability-artifacts",
+      "description": "Stage 4H/4J human coding and adjudication records; inter-annotator agreement metrics",
+      "ppwLocation": null,
+      "sourceLocation": "ashitaka-emishi/lincoln-metaphor-analysis",
+      "importStatus": "reference-only",
+      "governingIssues": [],
+      "note": "Reference only; inform PPW review-gate design but do not become PPW data."
+    }
+  ]
+}
