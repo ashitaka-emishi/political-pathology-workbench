@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -44,17 +45,52 @@ def score_bar(v: int) -> str:
     return "■" * v + "□" * (5 - v)
 
 
+def first_url(text: str) -> str | None:
+    match = re.search(r"https?://[^\s,)]+", text or "")
+    return match.group(0).rstrip(".;:") if match else None
+
+
+def source_anchor(source_id: str) -> str:
+    slug = re.sub(r"[^a-z0-9-]+", "-", source_id.lower()).strip("-")
+    return f"source-{slug or 'reference'}"
+
+
+def source_citation(passage: dict) -> str:
+    source_id = passage.get("sourceId", "source")
+    return f"[{source_id}](#{source_anchor(source_id)})"
+
+
+def confidence_label(record: dict) -> str:
+    confidence = record.get("confidence", {})
+    value = confidence.get("value")
+    if isinstance(value, (int, float)):
+        value_text = f"{value:.2f}"
+    else:
+        value_text = "—"
+    return f"{confidence.get('label', '—')} ({value_text})"
+
+
+def uncertainty_line(record: dict) -> str | None:
+    uncertainty_factors = record.get("confidence", {}).get("uncertaintyFactors", [])
+    if not uncertainty_factors:
+        return None
+    return f"**Uncertainty factors:** {', '.join(uncertainty_factors)}"
+
+
 def render_chain_page(chain: dict, meta: dict, counterclaims: list) -> str:
     lines: list[str] = []
     interpretations = chain.get("interpretations", [])
     scores = [s for i in interpretations for s in i.get("scores", [])]
-    claims_by_id = {}
-    passages_by_id = {}
+    sources_by_id: dict[str, dict] = {}
     for interpretation in interpretations:
         for claim in interpretation.get("claims", []):
-            claims_by_id.setdefault(claim.get("claimId", ""), claim)
             for passage in claim.get("passages", []):
-                passages_by_id.setdefault(passage.get("passageId", ""), passage)
+                source_id = passage.get("sourceId")
+                if source_id and source_id not in sources_by_id:
+                    sources_by_id[source_id] = {
+                        "source": passage.get("source", {}),
+                        "locator": passage.get("locator", ""),
+                    }
 
     lines += [
         "::: {.callout-warning}",
@@ -69,62 +105,12 @@ def render_chain_page(chain: dict, meta: dict, counterclaims: list) -> str:
         "",
     ]
 
-    # Scores
-    lines += ["## Scores", ""]
-    if scores:
-        lines += ["| Variable | Value | Confidence | Review status |",
-                  "|---|---|---|---|"]
-        for s in scores:
-            conf = s.get("confidence", {})
-            lines.append(
-                f"| {title_case(s['variableId'])} "
-                f"| {score_bar(s['value'])} {s['value']}/5 "
-                f"| {conf.get('label', '—')} ({conf.get('value', 0):.2f}) "
-                f"| `{s['reviewStatus']}` |"
-            )
-        lines.append("")
-    else:
-        lines += ["*No scores recorded.*", ""]
-
-    # Passages
-    lines += ["## Passages", ""]
-    for p in passages_by_id.values():
-        lines += [
-            f"> {p.get('text', '')}",
-            "",
-            f"**Locator:** {p.get('locator', '—')}  ",
-            f"**Role:** {p.get('evidenceRole', '—')} · "
-            f"Source: `{p.get('sourceId', '—')}`  ",
-            f"**Review status:** `{p.get('reviewStatus', 'draft')}`",
-            "",
-            "---",
-            "",
-        ]
-    if not passages_by_id:
-        lines += ["*No passages recorded.*", ""]
-
-    # Claims
-    lines += ["## Claims", ""]
-    for c in claims_by_id.values():
-        conf = c.get("confidence", {})
-        uf = conf.get("uncertaintyFactors", [])
-        lines += [
-            c["claim"],
-            "",
-            f"**Confidence:** {conf.get('label', '—')} ({conf.get('value', 0):.2f})  ",
-            f"**Review status:** `{c.get('reviewStatus', 'draft')}`  ",
-        ]
-        if uf:
-            lines.append(f"**Uncertainty factors:** {', '.join(uf)}")
-        lines.append("")
-    if not claims_by_id:
-        lines += ["*No claims recorded.*", ""]
-
-    # Interpretations
-    lines += ["## Interpretations", ""]
+    lines += ["## Evidence threads", ""]
     for i in interpretations:
         lines += [
-            f"**Variable:** {title_case(i['variableId'])}  ",
+            "::: {.callout-note}",
+            f"### Interpretation: {title_case(i['variableId'])}",
+            "",
             f"**Mechanism:** {title_case(i.get('mechanism', '—'))}  ",
             f"**Review status:** `{i.get('reviewStatus', 'draft')}`",
             "",
@@ -133,9 +119,107 @@ def render_chain_page(chain: dict, meta: dict, counterclaims: list) -> str:
             lines += [f"*{i['mechanismSummary']}*", ""]
         if i.get("interpretation"):
             lines += [i["interpretation"], ""]
-        lines += ["---", ""]
+        uncertainty = uncertainty_line(i)
+        if uncertainty:
+            lines += [uncertainty, ""]
+
+        claims = i.get("claims", [])
+        if claims:
+            lines += ["#### Supporting claims", ""]
+            for c in claims:
+                lines += [
+                    f"##### Claim: `{c.get('claimId', 'claim')}`",
+                    "",
+                    c.get("claim", ""),
+                    "",
+                    f"**Confidence:** {confidence_label(c)}  ",
+                    f"**Review status:** `{c.get('reviewStatus', 'draft')}`",
+                    "",
+                ]
+                uncertainty = uncertainty_line(c)
+                if uncertainty:
+                    lines += [uncertainty, ""]
+
+                passages = c.get("passages", [])
+                if passages:
+                    lines += ["**Grounding passages:**", ""]
+                    for p in passages:
+                        lines += [
+                            (
+                                f"- **Passage:** `{p.get('passageId', 'passage')}` · "
+                                f"**Role:** {p.get('evidenceRole', 'evidence')} · "
+                                f"**Source:** {source_citation(p)}"
+                            ),
+                            "",
+                            "<details>",
+                            "<summary>Show passage text and locator</summary>",
+                            "",
+                            f"> {p.get('text', '')}",
+                            "",
+                            f"**Locator:** {p.get('locator', '—')}  ",
+                            f"**Review status:** `{p.get('reviewStatus', 'draft')}`",
+                            "",
+                            "</details>",
+                            "",
+                        ]
+                else:
+                    lines += ["*No passages linked to this claim.*", ""]
+        else:
+            lines += ["*No claims linked to this interpretation.*", ""]
+
+        scores_for_interpretation = i.get("scores", [])
+        if scores_for_interpretation:
+            lines += ["#### Scores", ""]
+            for s in scores_for_interpretation:
+                lines += [
+                    f"**{title_case(s['variableId'])}:** {score_bar(s['value'])} "
+                    f"{s['value']}/5  ",
+                    f"**Confidence:** {confidence_label(s)}  ",
+                    f"**Review status:** `{s.get('reviewStatus', 'draft')}`",
+                    "",
+                ]
+                uncertainty = uncertainty_line(s)
+                if uncertainty:
+                    lines += [uncertainty, ""]
+        else:
+            lines += ["*No scores linked to this interpretation.*", ""]
+
+        lines += [":::", ""]
     if not interpretations:
         lines += ["*No interpretations recorded.*", ""]
+
+    if scores:
+        lines += ["## Score summary", ""]
+        lines += ["| Variable | Value | Confidence | Review status |",
+                  "|---|---|---|---|"]
+        for s in scores:
+            lines.append(
+                f"| {title_case(s['variableId'])} "
+                f"| {score_bar(s['value'])} {s['value']}/5 "
+                f"| {confidence_label(s)} "
+                f"| `{s['reviewStatus']}` |"
+            )
+        lines.append("")
+
+    if sources_by_id:
+        lines += ["## Source references", ""]
+        for source_id, source_entry in sources_by_id.items():
+            source = source_entry.get("source", {})
+            locator = source_entry.get("locator", "")
+            external_url = first_url(locator)
+            lines += [
+                f"### {source_id} {{#{source_anchor(source_id)}}}",
+                "",
+                f"**Role:** {source.get('role', '—')}  ",
+                f"**Access:** {source.get('access', '—')}",
+                "",
+            ]
+            if external_url:
+                lines += [f"**External source:** [{external_url}]({external_url})", ""]
+            if locator:
+                lines += [f"**Locator:** {locator}", ""]
+            if source.get("notes"):
+                lines += [source["notes"], ""]
 
     # Counterclaims
     lines += ["## Counterclaims", ""]
