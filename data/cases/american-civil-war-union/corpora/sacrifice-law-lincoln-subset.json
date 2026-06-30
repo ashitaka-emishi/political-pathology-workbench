@@ -1,0 +1,35 @@
+{
+  "corpusSubsetId": "sacrifice-law-lincoln-subset",
+  "corpusId": "sacrifice-law-comparative-41",
+  "parentCorpusId": "sacrifice-law-comparative-41",
+  "caseId": "american-civil-war-union",
+  "sourceCaseLabel": "Lincoln / American Civil War (Union)",
+  "evidenceModuleId": "sacrifice-law-workbench",
+  "sourceRepository": "https://github.com/ashitaka-emishi/sacrifice-law-workbench",
+  "corpusPurpose": "comparative-case-subset",
+  "purposeDescription": "Lincoln subset of the Sacrifice Law comparative corpus. This link records the American Civil War Union case's participation in the four-case sacrifice-law-workbench corpus for cross-case comparison under Koenigsberg's Law of Sacrifice.",
+  "distinctionFromLincolnDeepCorpus": "This subset is not the lincoln-deep-28 corpus. The lincoln-deep-28 corpus supports single-case Lincoln mechanism discovery through the Lincoln metaphor-analysis evidence module. This Sacrifice Law subset supports cross-case comparison only and does not provide PPW deep Lincoln annotation, passage extraction, claim extraction, interpretation, or scoring by itself.",
+  "subsetStatus": {
+    "caseMappingStatus": "confirmed",
+    "documentSubsetCount": null,
+    "documentImportStatus": "pending",
+    "normalizationStatus": "pending",
+    "segmentationStatus": "pending",
+    "annotationStatus": "pending"
+  },
+  "claimStatus": {
+    "overallStatus": "reference-only",
+    "promotionGateStatus": "not-started",
+    "reviewStatus": "not-started",
+    "publicSupportRatingsPromoted": false,
+    "notes": "No Sacrifice Law child-repository claims, public support ratings, or comparative conclusions are promoted into PPW findings by this link. Any future draft claims must enter PPW at reviewStatus: draft and pass the PPW claim-promotion gate before appearing as reviewed findings."
+  },
+  "sourceRefs": {
+    "ppwCorpusRecord": "data/corpora/sacrifice-law-comparative-41/corpus.json",
+    "ppwCaseMappingRecord": "data/corpora/sacrifice-law-comparative-41/cases.json",
+    "childRepository": "ashitaka-emishi/sacrifice-law-workbench"
+  },
+  "sourceIssueRefs": [
+    "github:ashitaka-emishi/political-pathology-workbench#150"
+  ]
+}
