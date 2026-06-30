@@ -26,15 +26,14 @@
     },
     {
       "sourceCase": "American Revolution",
-      "ppwCaseId": null,
+      "ppwCaseId": "american-revolution",
       "proposedPpwCaseId": "american-revolution",
-      "ppwCaseMapped": false,
-      "ppwCaseFolderExists": false,
-      "caseMappingStatus": "missing-case-folder",
+      "ppwCaseMapped": true,
+      "ppwCaseFolderExists": true,
+      "caseMappingStatus": "confirmed",
       "documentSubsetCount": null,
-      "blockingIssues": [152],
-      "requiredFollowUp": "Create or approve the american-revolution PPW case folder before importing this subset.",
-      "notes": "Proposed PPW canonical case ID recorded by PPW #149. No PPW case folder exists yet, so this subset remains blocked on follow-up case creation or mapping review."
+      "requiredFollowUp": "Populate document rows and passage-level evidence before importing this subset into claims.",
+      "notes": "PPW #250 confirms american-revolution as the canonical PPW case ID and creates the minimal case folder plus reference-only subset link. No Sacrifice Law documents, claims, interpretations, scores, or public support ratings are imported by this mapping."
     },
     {
       "sourceCase": "Napoleon / Napoleonic Era",

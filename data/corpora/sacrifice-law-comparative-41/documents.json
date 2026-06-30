@@ -1,8 +1,8 @@
 {
   "corpusId": "sacrifice-law-comparative-41",
   "importStatus": "pending",
-  "importNotes": "Document-level metadata will be populated when the Sacrifice Law corpus is imported into PPW (Milestone 17, PPW #138). The 41-document count reflects the sacrifice-law-workbench manifest-driven pipeline output. PPW #149 records proposed case IDs for American Revolution and Napoleon; those subsets remain blocked until PPW case folders are created or the mappings are otherwise approved.",
-  "ppwImportIssues": [138, 149, 150, 151],
+  "importNotes": "Document-level metadata will be populated when the Sacrifice Law corpus is imported into PPW. The 41-document count reflects the sacrifice-law-workbench manifest-driven pipeline output. PPW #250 confirms American Revolution as american-revolution with a scaffold folder and reference-only subset link; Napoleon remains blocked until its PPW case folder is created or the mapping is otherwise approved.",
+  "ppwImportIssues": [138, 149, 150, 151, 250],
   "sourceInventoryRef": "ashitaka-emishi/sacrifice-law-workbench",
   "caseSubsets": [
     {
@@ -21,12 +21,11 @@
     },
     {
       "sourceCase": "American Revolution",
-      "ppwCaseId": null,
+      "ppwCaseId": "american-revolution",
       "proposedPpwCaseId": "american-revolution",
       "documentCount": null,
-      "importStatus": "blocked",
-      "blockingIssues": [152],
-      "notes": "Proposed PPW case ID recorded by PPW #149. Blocked because the american-revolution case folder does not yet exist."
+      "importStatus": "pending",
+      "notes": "PPW #250 confirms the american-revolution case folder and reference-only subset link. Document rows and passages remain pending."
     },
     {
       "sourceCase": "Napoleon / Napoleonic Era",

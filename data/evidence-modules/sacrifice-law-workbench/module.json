@@ -7,6 +7,7 @@
   "description": "Comparative corpus evidence module covering multiple historical cases under Koenigsberg's Law of Sacrifice (American Revolution, Napoleon, Lincoln, Hitler): a multi-case stratified corpus with manifest-driven pipeline and cross-case synthesis research site.",
   "caseIds": [
     "american-civil-war-union",
+    "american-revolution",
     "nazi-germany"
   ],
   "theoryIds": [
@@ -28,5 +29,5 @@
   "reliabilityStatus": "pending",
   "claimPromotionPolicy": "standard",
   "sourceIssueMigrationStatus": "in-progress",
-  "maintainerNotes": "American Revolution and Napoleon have proposed PPW case IDs in data/corpora/sacrifice-law-comparative-41/cases.json, but the corresponding PPW case folders do not yet exist; create or approve those folders before importing their subsets. Rights vary by era; pre-1928 texts are generally public domain, Nazi-era translations and apparatus require review. Corpus import scheduled for Milestone 17; no artifacts imported yet as of Milestone 14."
+  "maintainerNotes": "American Revolution is confirmed as american-revolution with a minimal PPW case folder and reference-only subset link. Napoleon remains a proposed PPW case ID in data/corpora/sacrifice-law-comparative-41/cases.json; create or approve that folder before importing its subset. Rights vary by era; pre-1928 texts are generally public domain, Nazi-era translations and apparatus require review. Corpus import metadata is represented in Milestone 17; no full texts or promoted support ratings are imported."
 }

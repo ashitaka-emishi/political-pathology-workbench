@@ -1,0 +1,24 @@
+{
+  "caseId": "american-revolution",
+  "title": "American Revolution",
+  "subtype": "revolutionary-independence",
+  "period": "1765-1783",
+  "outcome": "hybrid-transitional",
+  "goldCase": false,
+  "publicationStatus": "draft",
+  "reviewStatus": "draft",
+  "audience": "researcher-review",
+  "theoryVersions": [
+    "general-theory-political-pathology-v1",
+    "sacrifice-law-v1"
+  ],
+  "summary": "Minimal draft scaffold for the American Revolution case, created to unblock Sacrifice Law corpus mapping. No PPW evidence chain, interpretation, score, or Sacrifice Law support rating is imported by this scaffold.",
+  "sacredPoliticalOrderId": "american-revolution-sacred-political-order",
+  "sacredPoliticalOrderName": "American Revolution sacred political order",
+  "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with the American Revolution.",
+  "sacredPoliticalOrderStrength": 3,
+  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
+  "caseSelectionRole": "deferred-case",
+  "selectionRationale": "Created as the canonical PPW target for the American Revolution source case in the Sacrifice Law comparative corpus. Substantive case coding remains deferred until PPW evidence-chain work is added.",
+  "theoryTest": "Will test how revolutionary independence, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed."
+}

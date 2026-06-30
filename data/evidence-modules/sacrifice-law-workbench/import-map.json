@@ -6,16 +6,16 @@
       "disposition": "import-now",
       "description": "Corpus document metadata (title, date, author, source URL) for the four-case stratified corpus (American Revolution, Napoleon, Lincoln, Hitler)",
       "scheduledMilestone": 17,
-      "ppwIssues": [138, 149],
-      "notes": "Imported via PPW corpus registry entries. PPW #149 records proposed case IDs for American Revolution and Napoleon; those subsets remain blocked until PPW case folders exist."
+      "ppwIssues": [138, 149, 250],
+      "notes": "Imported via PPW corpus registry entries. PPW #250 confirms American Revolution as american-revolution with a case folder and reference-only subset link; the Napoleon subset remains blocked until a PPW case folder exists."
     },
     {
       "artifactClass": "corpus",
       "disposition": "import-now",
       "description": "Corpus manifest (manifest-driven pipeline output defining the stratified corpus)",
       "scheduledMilestone": 17,
-      "ppwIssues": [138, 149],
-      "notes": "Import as PPW corpus registry entries. PPW #149 records proposed case IDs for American Revolution and Napoleon; case-folder creation remains a follow-up."
+      "ppwIssues": [138, 149, 250],
+      "notes": "Import as PPW corpus registry entries. PPW #250 confirms American Revolution as american-revolution; Napoleon case-folder creation remains a follow-up."
     },
     {
       "artifactClass": "corpus",
@@ -23,7 +23,7 @@
       "description": "Raw text files for Sacrifice Law corpus cases",
       "scheduledMilestone": 17,
       "ppwIssues": [],
-      "notes": "After PPW case folders exist for proposed American Revolution and Napoleon targets. Rights vary by era; pre-1928 texts generally public domain."
+      "notes": "After PPW case folders and rights review are complete for all targets. American Revolution has a scaffold folder; Napoleon remains a proposed target without a folder. Rights vary by era; pre-1928 texts generally public domain."
     },
     {
       "artifactClass": "methodology",
