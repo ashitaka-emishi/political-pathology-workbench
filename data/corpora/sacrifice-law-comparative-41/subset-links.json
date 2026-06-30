@@ -1,0 +1,61 @@
+{
+  "corpusId": "sacrifice-law-comparative-41",
+  "originModuleId": "sacrifice-law-workbench",
+  "parentCorpusId": "sacrifice-law-comparative-41",
+  "sourceRepository": "https://github.com/ashitaka-emishi/sacrifice-law-workbench",
+  "createdSubsetLinks": [
+    {
+      "sourceCaseLabel": "Lincoln / American Civil War (Union)",
+      "ppwCaseId": "american-civil-war-union",
+      "subsetLinkPath": "data/cases/american-civil-war-union/corpora/sacrifice-law-lincoln-subset.json",
+      "status": "created",
+      "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#150"
+    },
+    {
+      "sourceCaseLabel": "Hitler / Nazi Germany",
+      "ppwCaseId": "nazi-germany",
+      "subsetLinkPath": "data/cases/nazi-germany/corpora/sacrifice-law-hitler-subset.json",
+      "status": "created",
+      "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#151"
+    }
+  ],
+  "deferredTargets": [
+    {
+      "sourceCaseLabel": "American Revolution",
+      "ppwCaseId": null,
+      "proposedSubsetLinkPath": "data/cases/american-revolution/corpora/sacrifice-law-american-revolution-subset.json",
+      "status": "not-created",
+      "reason": "No confirmed PPW case mapping and no existing american-revolution case folder.",
+      "blockingIssues": [149, 151]
+    },
+    {
+      "sourceCaseLabel": "Napoleon / Napoleonic Era",
+      "ppwCaseId": null,
+      "proposedSubsetLinkPath": "data/cases/napoleonic-france/corpora/sacrifice-law-napoleon-subset.json",
+      "status": "not-created",
+      "reason": "No confirmed PPW case mapping and no existing napoleonic-france case folder.",
+      "blockingIssues": [149, 151]
+    }
+  ],
+  "ambiguousPotentialTargets": [
+    {
+      "candidatePpwCaseId": "revolutionary-france",
+      "proposedSubsetLinkPath": "data/cases/revolutionary-france/corpora/sacrifice-law-french-revolution-subset.json",
+      "status": "not-created",
+      "reason": "The issue listed this as a potential target, but the canonical Sacrifice Law corpus case mapping does not currently identify a French Revolution source case."
+    },
+    {
+      "candidatePpwCaseId": "world-war-i-nationalisms",
+      "proposedSubsetLinkPath": "data/cases/world-war-i-nationalisms/corpora/sacrifice-law-british-wwi-subset.json",
+      "status": "not-created",
+      "reason": "The issue listed this as a potential target, but the canonical Sacrifice Law corpus case mapping does not currently identify a British WWI source case."
+    }
+  ],
+  "claimPromotionPolicy": {
+    "publicSupportRatingsPromoted": false,
+    "notes": "Subset links identify corpus membership and provenance only. Public support ratings and child-repository comparative conclusions are not automatically promoted into PPW claims, interpretations, scores, or findings."
+  },
+  "sourceIssueRefs": [
+    "github:ashitaka-emishi/political-pathology-workbench#151"
+  ]
+}

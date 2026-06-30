@@ -24,6 +24,17 @@
       "notes": "Case mapping for American Revolution and Napoleon must be confirmed before import (PPW #149-#151)."
     },
     {
+      "family": "case-subset-links",
+      "description": "PPW case-level links for confirmed Sacrifice Law comparative corpus subsets, plus deferred and ambiguous target notes",
+      "ppwLocation": "data/corpora/sacrifice-law-comparative-41/subset-links.json",
+      "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
+      "disposition": "import-now",
+      "importStatus": "partial",
+      "governingIssues": [150, 151],
+      "scheduledMilestone": 17,
+      "notes": "Lincoln and Nazi Germany subset links are represented in existing PPW case folders. American Revolution and Napoleon remain deferred until case mapping is confirmed."
+    },
+    {
       "family": "raw-text",
       "description": "Raw text files for the four-case corpus",
       "ppwLocation": null,

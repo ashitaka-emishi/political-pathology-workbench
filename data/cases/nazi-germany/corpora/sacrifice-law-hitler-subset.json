@@ -1,0 +1,38 @@
+{
+  "corpusSubsetId": "sacrifice-law-hitler-subset",
+  "corpusId": "sacrifice-law-comparative-41",
+  "parentCorpusId": "sacrifice-law-comparative-41",
+  "caseId": "nazi-germany",
+  "sourceCaseLabel": "Hitler / Nazi Germany",
+  "evidenceModuleId": "sacrifice-law-workbench",
+  "sourceRepository": "https://github.com/ashitaka-emishi/sacrifice-law-workbench",
+  "corpusPurpose": "comparative-case-subset",
+  "purposeDescription": "Hitler / Nazi Germany subset of the Sacrifice Law comparative corpus. This link records the Nazi Germany case's participation in the four-case sacrifice-law-workbench corpus for cross-case comparison under Koenigsberg's Law of Sacrifice.",
+  "subsetStatus": {
+    "caseMappingStatus": "confirmed",
+    "documentSubsetCount": null,
+    "documentImportStatus": "pending",
+    "normalizationStatus": "pending",
+    "segmentationStatus": "pending",
+    "annotationStatus": "pending"
+  },
+  "rightsStatus": {
+    "overallStatus": "review-required",
+    "notes": "Nazi-era source texts may include public-domain originals, but translations and scholarly apparatus require rights review before import."
+  },
+  "claimStatus": {
+    "overallStatus": "reference-only",
+    "promotionGateStatus": "not-started",
+    "reviewStatus": "not-started",
+    "publicSupportRatingsPromoted": false,
+    "notes": "No Sacrifice Law child-repository claims, public support ratings, or comparative conclusions are promoted into PPW findings by this link. Any future draft claims must enter PPW at reviewStatus: draft and pass the PPW claim-promotion gate before appearing as reviewed findings."
+  },
+  "sourceRefs": {
+    "ppwCorpusRecord": "data/corpora/sacrifice-law-comparative-41/corpus.json",
+    "ppwCaseMappingRecord": "data/corpora/sacrifice-law-comparative-41/cases.json",
+    "childRepository": "ashitaka-emishi/sacrifice-law-workbench"
+  },
+  "sourceIssueRefs": [
+    "github:ashitaka-emishi/political-pathology-workbench#151"
+  ]
+}
