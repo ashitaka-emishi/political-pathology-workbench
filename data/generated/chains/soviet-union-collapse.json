@@ -1,0 +1,253 @@
+{
+  "caseId": "soviet-union-collapse",
+  "caseSlug": "soviet-union-collapse",
+  "title": "Soviet Union Collapse",
+  "interpretations": [
+    {
+      "interpretationId": "soviet-union-collapse-interpretation-001",
+      "caseId": "soviet-union-collapse",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The Soviet sacred political order had historically high strength (Marxist-Leninist ideology organizing identity, legitimacy, obligation, and sacrifice across a vast institutional apparatus), but by 1985-1991 that strength had eroded to the point where the order could not survive sustained crisis pressure. Gorbachev's admission of systemic failure and the formal dissolution of the USSR mark the terminal phase of legitimacy collapse: the sacred political order could neither sustain its founding claims nor suppress the centrifugal forces its rigidity had generated.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.65,
+        "label": "moderate",
+        "rationale": "Legitimacy-collapse reading is well-supported by the dissolution evidence; the precise trajectory from strength to collapse requires fuller periodization and secondary source corroboration.",
+        "uncertaintyFactors": [
+          "minimal-evidence-chain",
+          "periodization-requires-expansion"
+        ]
+      },
+      "mechanism": "legitimacy-collapse",
+      "mechanismSummary": "The Soviet sacred political order's inability to acknowledge systemic failure until too late — a decades-long suppression of correction — depleted the legitimacy of its founding claims, and the reform process that might have saved the order instead revealed and accelerated its disintegration.",
+      "alternativeMechanisms": [
+        "institutional-fragmentation",
+        "frozen-pathology"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "agency",
+        "economic-security",
+        "conscience"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "in-group",
+      "definitionRefs": [
+        "sacred-political-order-strength",
+        "sacred-political-order",
+        "corrigibility",
+        "pathology"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "soviet-union-collapse-claim-001",
+          "caseId": "soviet-union-collapse",
+          "claim": "The Soviet sacred political order collapsed when decades of institutional rigidity exhausted the founding legitimacy claims of Marxism-Leninism, and Gorbachev's reform attempts accelerated institutional disintegration rather than restoring coherence, culminating in the formal dissolution of the USSR.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.72,
+            "label": "moderate-high",
+            "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending chain expansion.",
+            "uncertaintyFactors": [
+              "gorbachev-doubleday-1996-edition-wording-unconfirmed",
+              "chain-requires-expansion"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "soviet-union-collapse-passage-001",
+              "caseId": "soviet-union-collapse",
+              "sourceId": "gorbachev-resignation-speech-1991",
+              "locator": "Resignation address of Mikhail Gorbachev, President of the USSR, 25 December 1991; English translation in Gorbachev, Mikhail, Memoirs (New York: Doubleday, 1996), appendix; also widely reproduced in press collections. Text updated to match Marxists.org translation (https://www.marxists.org/archive/gorbachev/1991/december-25.htm) as the most accessible authoritative English version; Doubleday 1996 Memoirs edition wording may differ and requires physical library verification.",
+              "text": "Fate had it that when I found myself at the head of the state it was already clear that all was not well in the country. There is plenty of everything: land, oil and gas, other natural riches, and God gave us lots of intelligence and talent, yet we lived much worse than developed countries and keep falling behind them more and more.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-001: Gorbachev's resignation diagnosis ('all was not well in the country... we lived much worse than developed countries') is the terminal-phase acknowledgment of legitimacy failure that the claim identifies as the endpoint of the sacred political order's collapse. Evidence role 'grounds' is correct. Text confirmed against Marxists.org translation in evidence-review pass. Note: Doubleday 1996 Memoirs edition wording may differ — documented as uncertainty factor.",
+              "source": {
+                "sourceId": "gorbachev-resignation-speech-1991",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Delivered 25 December 1991, broadcast on Soviet state television. English translation widely reproduced; passage text requires verification against a scholarly edition."
+              }
+            },
+            {
+              "passageId": "soviet-union-collapse-passage-002",
+              "caseId": "soviet-union-collapse",
+              "sourceId": "alma-ata-declaration-1991",
+              "locator": "Alma-Ata Declaration, 21 December 1991, signed by eleven former Soviet republics; reproduced in International Legal Materials 31:1 (1992), p. 148. Text confirmed verbatim against https://eccis.org/en/page/178 and https://www.bits.de/NRANEU/START/documents/alma-ata91.htm",
+              "text": "With the formation of the Commonwealth of Independent States, the Union of Soviet Socialist Republics ceases to exist.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-001: 'the Union of Soviet Socialist Republics ceases to exist' is the formal dissolution declaration, constituting the strongest possible grounds for the legitimacy-collapse interpretation. Evidence role 'grounds' is correct. Text confirmed against ECCIS and bits.de sources in evidence-review pass.",
+              "source": {
+                "sourceId": "alma-ata-declaration-1991",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Signed 21 December 1991 by eleven former Soviet republics. Official governmental document; public domain. English text reproduced in major international law collections."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "soviet-union-collapse-score-001",
+          "caseId": "soviet-union-collapse",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "soviet-union-collapse-interpretation-001",
+          "value": 2,
+          "confidence": {
+            "value": 0.65,
+            "label": "moderate",
+            "rationale": "Passages advanced to evidence-review. Score of 2 reflects the terminal-phase strength of the Soviet sacred political order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period. Confidence raised from 0.60. Capped pending chain expansion.",
+            "uncertaintyFactors": [
+              "periodization-ambiguity",
+              "chain-requires-expansion"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order-strength",
+            "legitimacy-collapse"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 2/5 defensible: legitimacy-collapse mechanism (Gorbachev's resignation diagnosis, Alma-Ata dissolution) documents the terminal-phase sacred-political-order-strength — the order retains some institutional inertia but can no longer sustain its founding claims. Score of 2 (not 1) correctly distinguishes this from North Korea's frozen pathology. Confidence 0.65 reflects periodization ambiguity (scores the 1985-1991 collapse phase, not the historical peak). Ready for human-reviewed pending chain expansion to ≥4 passages — now resolved (Milestone 7)."
+        }
+      ]
+    },
+    {
+      "interpretationId": "soviet-union-collapse-interpretation-002",
+      "caseId": "soviet-union-collapse",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "The Soviet order's corrigibility failure is documented by two symmetrical failures bracketing the reform period: Gorbachev's 1987 CC Plenum diagnosis shows the order's late-stage awareness that stagnation had accumulated ('difficulties and unsolved problems began to pile up'), but the 'no other way' framing reveals correction as a last-resort imperative rather than a functioning institutional mechanism — the order could acknowledge failure but had no path to correction at scale. The GKChP's 1991 declaration that reform 'has reached a dead end' shows that when correction was finally attempted, the order's own institutional actors mobilized to abort it. This two-sided failure — correction too late and correction suppressed from within — is the characteristic signature of minimal corrigibility: the system contained neither the early-warning mechanisms nor the institutional consensus required to course-correct before terminal crisis.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.72,
+        "label": "moderate-high",
+        "rationale": "Both passage texts are verified. The interpretation extends the existing legitimacy-collapse reading by documenting the corrigibility dimension: the mechanisms available for self-correction were insufficient and ultimately self-defeating. Confidence below 0.80 because corrigibility = 1 (minimum) requires ruling out alternative mechanisms — factionalism did provide some channel for contestation, and Gorbachev's reforms themselves constituted a corrigibility attempt.",
+        "uncertaintyFactors": [
+          "gorbachev-reforms-as-corrigibility-counterevidence",
+          "attribution-to-institutional-structure-vs-individual-actors-contested"
+        ]
+      },
+      "mechanism": "institutional-fragmentation",
+      "mechanismSummary": "The order's inability to correct stagnation before crisis and the counter-coup blocking correction in 1991 together demonstrate institutional fragmentation severe enough to prevent effective corrigibility from either direction.",
+      "alternativeMechanisms": [
+        "legitimacy-collapse",
+        "frozen-pathology"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "agency",
+        "economic-security",
+        "conscience"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "in-group",
+      "definitionRefs": [
+        "corrigibility",
+        "institutional-fragmentation",
+        "legitimacy-collapse"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "soviet-union-collapse-claim-002",
+          "caseId": "soviet-union-collapse",
+          "claim": "The Soviet order's corrigibility deficit operated in two registers simultaneously documented by passage-003 and passage-004: Gorbachev's 1987 CC Plenum speech reveals the order's awareness of systemic failure — stagnation, lost momentum, accumulated problems — but frames correction as the only remaining option ('we have nowhere to retreat to'), signaling corrigibility was attempted too late and too shallowly; the GKChP's 1991 coup statement reveals that correction itself triggered institutional self-preservation from within, as hardliners declared reform 'has reached a dead end' and attempted to abort the correction. Together, the passages document a system that could acknowledge failure but whose institutional structure prevented effective correction from either direction.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.74,
+            "label": "moderate-high",
+            "rationale": "Both passages are verified against academic and archival sources. The corrigibility-failure interpretation is textually grounded: Gorbachev's 'no other way' framing and the GKChP's 'dead end' declaration together constitute evidence of the correction-suppression dynamic. Confidence capped pending secondary-source corroboration of the claim that this dynamic, not external factors, was primary.",
+            "uncertaintyFactors": [
+              "gkchp-passage-excerpt-may-not-represent-full-statement",
+              "attribution-to-corrigibility-rather-than-external-forces-contested"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "soviet-union-collapse-passage-003",
+              "caseId": "soviet-union-collapse",
+              "sourceId": "gorbachev-cc-plenum-1987",
+              "locator": "Mikhail S. Gorbachev, Report to the Plenary Session of the CPSU Central Committee, 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Passage verified at Seventeen Moments in Soviet History (Michigan State University): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/",
+              "text": "At a certain stage the country began to lose momentum, difficulties and unsolved problems began to pile up, and stagnation and other phenomena alien to socialism appeared. [...] This fundamental change of direction is necessary, since we simply have no other way. We must not retreat, and we have nowhere to retreat to.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-002: Gorbachev's 'stagnation and other phenomena alien to socialism appeared' diagnoses accumulated failure; 'we have nowhere to retreat to' frames correction as last resort rather than functioning mechanism — precisely the corrigibility-attempt-too-late dynamic the claim identifies. Evidence role 'grounds' is correct. Text confirmed against Seventeen Moments in Soviet History (MSU) in evidence-review pass.",
+              "source": {
+                "sourceId": "gorbachev-cc-plenum-1987",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Report to the CPSU Central Committee Plenary Session, 27 January 1987; published in Pravda and Izvestiia, 28 January 1987. Passage verified at Seventeen Moments in Soviet History (MSU): https://soviethistory.msu.edu/1985/perestroika-and-glasnost/perestroika-and-glasnost-texts/gorbachev-challenges-the-party/"
+              }
+            },
+            {
+              "passageId": "soviet-union-collapse-passage-004",
+              "caseId": "soviet-union-collapse",
+              "sourceId": "gkchp-appeal-1991",
+              "locator": "State Committee on the State of Emergency (GKChP), Appeal to the Soviet People, broadcast on Soviet radio and television, 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm",
+              "text": "Deadly danger awaits our great homeland! The policy of reforms that Mikhail Gorbachev initiated as a means of guaranteeing dynamic development of our country and the democratization of society, due to a series of reasons, has reached a dead end.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim soviet-union-collapse-claim-002: GKChP's declaration that reforms have 'reached a dead end' is the institutional self-preservation response to correction — the order's actors blocking the correction that Gorbachev's 1987 passage acknowledged was necessary. Evidence role 'grounds' is correct. Text confirmed against GlobalSecurity.org in evidence-review pass.",
+              "source": {
+                "sourceId": "gkchp-appeal-1991",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "GKChP Appeal to the Soviet People, broadcast 19 August 1991. Passage verified at GlobalSecurity.org: https://www.globalsecurity.org/military/world/war/russia2.htm"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "soviet-union-collapse-score-002",
+          "caseId": "soviet-union-collapse",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "soviet-union-collapse-interpretation-002",
+          "value": 1,
+          "confidence": {
+            "value": 0.68,
+            "label": "moderate",
+            "rationale": "Score of 1 (near-minimum) reflects structural corrigibility failure: the order lacked early-warning mechanisms and when correction was attempted, institutional actors aborted it. Score above 0 acknowledges that Gorbachev's reform attempt itself constitutes a corrigibility signal — the system could produce a reformer — but the reformer's failure to prevent collapse and the coup's demonstration that the institutional base would reject correction support the near-minimum score. Lower confidence than other scores because the question of structural vs. contingent failure (could the reforms have succeeded?) remains contested in the historiography.",
+            "uncertaintyFactors": [
+              "gorbachev-reform-attempt-as-partial-corrigibility",
+              "historiography-divides-on-structural-vs-contingent-failure"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "institutional-fragmentation",
+            "legitimacy-collapse"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 1/5 defensible: institutional-fragmentation mechanism (1987 CC Plenum failure, GKChP coup) documents corrigibility failure from both directions — correction attempted too late and correction aborted from within. Score of 1 (not 0) acknowledges Gorbachev's reform attempt as a partial corrigibility signal. Confidence 0.68 correctly reflects the contested historiography on structural vs. contingent failure. Ready for human-reviewed with the historiographic caveat noted."
+        }
+      ]
+    }
+  ]
+}

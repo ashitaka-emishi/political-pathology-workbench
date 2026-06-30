@@ -1,0 +1,129 @@
+{
+  "caseId": "western-roman-empire",
+  "caseSlug": "western-roman-empire",
+  "title": "Western Roman Empire",
+  "interpretations": [
+    {
+      "interpretationId": "western-roman-empire-interpretation-001",
+      "caseId": "western-roman-empire",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The Western Roman sacred political order had achieved maximum strength at its height through civic sacrifice, legal order, and the myth of eternal Rome. By the late fourth century, contemporary witnesses diagnosed decay: Vegetius saw military discipline collapse under peacetime complacency; Augustine, writing after the Sack of Rome (410), analyzed how Roman civic virtue had been animated by love of glory for the earthly city rather than transcendent goods — a motivation that could not sustain the sacred political order when its material conditions failed. This is a collapse case driven by institutional fragmentation rather than sacrificial escalation.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Chain is thin; passages are diagnostic rather than constitutive. Score reflects the order's peak strength, not its terminal state. Pending chain expansion.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "periodization-ambiguity"
+        ]
+      },
+      "mechanism": "institutional-fragmentation",
+      "mechanismSummary": "Long peace eroded the military discipline sustaining the sacred political order; Augustine's analysis suggests the order's civic sacrifice logic was grounded in glory-seeking for the earthly city rather than transcendent goods, making it unable to renew itself as material conditions deteriorated.",
+      "alternativeMechanisms": [
+        "legitimacy-collapse",
+        "frozen-pathology"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "time",
+        "economic-security"
+      ],
+      "sacrificeHealth": "ambiguous",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "sacred-political-order",
+        "sacred-political-order-strength",
+        "corrigibility",
+        "sacrifice"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "western-roman-empire-claim-001",
+          "caseId": "western-roman-empire",
+          "claim": "The Western Roman sacred political order sustained its institutional coherence through a culture of public sacrifice for the republic, but by the late fourth century this culture of civic self-abnegation had decayed — as Vegetius observed in the army and Augustine analyzed in the moral order — producing institutional fragmentation that the order could not reverse.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.62,
+            "label": "moderate",
+            "rationale": "Both passages are public-domain texts from near-contemporary witnesses of the late Roman order (Vegetius c. 390, Augustine 413–426). They provide independent diagnoses of institutional decay. Confidence capped: the passages describe the order at decline-onset, not at its peak, and the causal chain from order decay to institutional collapse requires fuller reconstruction.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "contemporaneous-diagnosis-not-retrospective-proof",
+              "periodization-ambiguity"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "western-roman-empire-passage-001",
+              "caseId": "western-roman-empire",
+              "sourceId": "vegetius-de-re-militari-c390",
+              "locator": "Vegetius, De Re Militari, Book I (c. 390 AD); Clarke translation (1767); text verified at https://archive.org/stream/pdfy-sOkC3FmoLlr4C6zz/The+Military+Institutions+Of+The+Romans+[De+Re+Militari]_djvu.txt",
+              "text": "The security established by long peace has altered their dispositions, drawn them off from military to civil pursuits and infused into them a love of idleness and ease.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "vegetius-de-re-militari-c390",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Clarke (1767) translation at Internet Archive."
+              }
+            },
+            {
+              "passageId": "western-roman-empire-passage-002",
+              "caseId": "western-roman-empire",
+              "sourceId": "augustine-city-of-god-413",
+              "locator": "Augustine of Hippo, City of God, Book V, Chapter 15 (c. 413–426 AD); Marcus Dods translation; text verified at https://www.newadvent.org/fathers/120105.htm",
+              "text": "They despised their own private affairs for the sake of the republic, and for its treasury resisted avarice, consulted for the good of their country with a spirit of freedom.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "augustine-city-of-god-413",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Dods translation at New Advent: https://www.newadvent.org/fathers/120105.htm"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "western-roman-empire-score-001",
+          "caseId": "western-roman-empire",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "western-roman-empire-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.55,
+            "label": "moderate",
+            "rationale": "Maximum sacred-political-order-strength score reflects the peak Roman order, not its terminal phase. The passages document the order at decay onset rather than at full strength; the score applies to the order's historical maximum, with the collapse trajectory requiring separate analysis. Confidence capped at low-moderate given this periodization gap.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "periodization-ambiguity",
+              "peak-vs-terminal-score"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order",
+            "sacred-political-order-strength"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: institutional-fragmentation mechanism supports maximum sacred-political-order-strength — the Western Empire maintained the full Roman symbolic apparatus through the terminal decline period, which is why its fall was so culturally significant. Confidence 0.55 is the lowest in the dataset, reflecting three compounding uncertainties (chain minimal, periodization ambiguous, peak-vs-terminal question). Hold at score-review until chain expansion and periodization bounded to a specific period (late Western Empire, 376-476 CE)."
+        }
+      ]
+    }
+  ]
+}

@@ -164,7 +164,7 @@
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "imperial-japan"
   },
   {
@@ -187,8 +187,8 @@
     "sacredPoliticalOrderStrength": 5,
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
-    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "khmer-rouge-cambodia"
   },
   {
@@ -211,8 +211,8 @@
     "sacredPoliticalOrderStrength": 5,
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
-    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "maoist-china"
   },
   {
@@ -238,7 +238,7 @@
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "nazi-germany"
   },
   {
@@ -310,7 +310,7 @@
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "postwar-germany"
   },
   {
@@ -333,8 +333,8 @@
     "sacredPoliticalOrderStrength": 5,
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
-    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "revolutionary-france"
   },
   {
@@ -382,7 +382,7 @@
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "soviet-union-collapse"
   },
   {
@@ -430,7 +430,7 @@
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "united-states-after-vietnam"
   },
   {
@@ -477,8 +477,8 @@
     "sacredPoliticalOrderStrength": 5,
     "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
-    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong symbolic-order pressure.",
-    "theoryTest": "Tests the relationship among symbolic-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
+    "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
     "slug": "world-war-i-nationalisms"
   }
 ]

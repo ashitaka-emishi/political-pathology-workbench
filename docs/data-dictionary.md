@@ -36,3 +36,27 @@
 - `effect`: contradicts, qualifies, limits, complicates, or supports alternative explanation
 - `targetClaimIds`: claims affected by the counterclaim
 - `sourceIds`: supporting source IDs
+
+## Generated Evidence Chain Files
+
+`make generate` writes resolved evidence chains to `data/generated/all-chains.json` and one per-case file under `data/generated/chains/{caseSlug}.json`.
+
+Each chain file contains one case-level object:
+
+- `caseId`: stable case identifier
+- `caseSlug`: directory slug for the case
+- `title`: human-readable case title
+- `interpretations`: resolved interpretation records for the case
+
+Each interpretation entry preserves the interpretation fields except `claimIds` and adds:
+
+- `claims`: full claim records referenced by `claimIds`
+- `scores`: full score records whose `interpretationId` matches the interpretation
+
+Each claim entry preserves the claim fields except `derivedFrom` and adds:
+
+- `passages`: full passage records referenced by `derivedFrom`
+
+Each passage entry preserves the passage fields and adds:
+
+- `source`: full source-pack record for the passage `sourceId`

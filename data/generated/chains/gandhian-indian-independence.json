@@ -1,0 +1,131 @@
+{
+  "caseId": "gandhian-indian-independence",
+  "caseSlug": "gandhian-indian-independence",
+  "title": "Gandhian Indian Independence",
+  "interpretations": [
+    {
+      "interpretationId": "gandhian-indian-independence-interpretation-001",
+      "caseId": "gandhian-indian-independence",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The Gandhian sacred political order achieves moderate-high symbolic strength through a theoretically novel route: rather than sacralizing national identity through sacred-enemy construction or blood-sacrifice demands, Gandhi's doctrine redirects sacrifice entirely to self-suffering. Body-force (violence against the enemy) is explicitly rejected as inferior to soul-force (accepting penalty for truth-bearing resistance). This anti-sacrificial logic gives the sacred political order high corrigibility — the movement cannot generate internal purges or sacrificial escalation from its own constitutive principles — while achieving independence through collective action. The clearest theoretical countercase to the pathological sacrificial-escalation gold cases.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.65,
+        "label": "moderate",
+        "rationale": "Chain thin; theoretical founding texts only. Operational episodes and partition violence complicate the score.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "partition-violence-complicates-anti-sacrificial-score",
+          "practice-theory-gap"
+        ]
+      },
+      "mechanism": "anti-sacrificial-restraint",
+      "mechanismSummary": "Gandhi's satyagraha doctrine explicitly substitutes self-suffering for enemy-directed violence, achieving political transformation through soul-force rather than body-force — a constitutive anti-sacrificial restraint that structurally prevents sacred-enemy escalation.",
+      "alternativeMechanisms": [
+        "pluralist-reordering",
+        "constitutional-containment"
+      ],
+      "sacrificeForm": [
+        "time",
+        "agency",
+        "dignity",
+        "bodily-risk"
+      ],
+      "sacrificeHealth": "healthy",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "sacred-political-order-strength",
+        "anti-sacrificial-restraint",
+        "corrigibility",
+        "sacrifice"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "gandhian-indian-independence-claim-001",
+          "caseId": "gandhian-indian-independence",
+          "claim": "The Gandhian independence movement built its sacred political order around anti-sacrificial restraint at the theoretical level: Gandhi's satyagraha doctrine explicitly redirects sacrifice from enemy destruction to voluntary self-suffering — accepting penalty rather than inflicting violence — and claims superiority to body-force precisely because it refuses the sacred-enemy escalation logic. This makes the Gandhian case the clearest theoretical inverse of the pathological sacrificial-escalation cases.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.7,
+            "label": "moderate-high",
+            "rationale": "Both passages are from Gandhi's own English translation of Hind Swaraj, verified at the Sabarmati Ashram digital archive. The soul-force / body-force distinction is the foundational conceptual claim of the movement's sacred political order. Confidence capped: chain limited to theoretical founding texts; operational episodes (salt march, partition violence) require separate treatment and complicate the clean anti-sacrificial reading.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "partition-violence-complicates-anti-sacrificial-score",
+              "practice-theory-gap"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "gandhian-indian-independence-passage-001",
+              "caseId": "gandhian-indian-independence",
+              "sourceId": "gandhi-hind-swaraj-1909",
+              "locator": "M. K. Gandhi, Hind Swaraj, Chapter 17 ('Passive Resistance'), 1909; author's English translation (1910); text verified at https://www.gandhiashramsevagram.org/hind-swaraj/chapter-17-passive-resistance.php",
+              "text": "If by using violence I force the Government to repeal the law, I am employing what may be termed body-force. If I do not obey the law and accept the penalty for its breach, I use soul-force.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "gandhi-hind-swaraj-1909",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Author's English translation (1910) verified at https://www.gandhiashramsevagram.org/hind-swaraj/"
+              }
+            },
+            {
+              "passageId": "gandhian-indian-independence-passage-002",
+              "caseId": "gandhian-indian-independence",
+              "sourceId": "gandhi-hind-swaraj-1909",
+              "locator": "M. K. Gandhi, Hind Swaraj, Chapter 17 ('Passive Resistance'), 1909; author's English translation (1910); text verified at https://www.gandhiashramsevagram.org/hind-swaraj/chapter-17-passive-resistance.php",
+              "text": "Passive resistance, that is, soul-force, is matchless. It is superior to the force of arms.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "gandhi-hind-swaraj-1909",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Author's English translation (1910) verified at https://www.gandhiashramsevagram.org/hind-swaraj/"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "gandhian-indian-independence-score-001",
+          "caseId": "gandhian-indian-independence",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "gandhian-indian-independence-interpretation-001",
+          "value": 3,
+          "confidence": {
+            "value": 0.58,
+            "label": "moderate",
+            "rationale": "Score of 3 reflects moderate sacred-political-order strength: the Gandhian order achieved independence and generated enormous moral authority, but its strength was achieved without the institutional consolidation that produces maximum scores. Partition and subsequent Indian constitutional history suggest the Gandhian sacred political order did not fully transfer its anti-sacrificial principles to the state-building phase.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "partition-violence-complicates-anti-sacrificial-score",
+              "practice-theory-gap"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order-strength",
+            "anti-sacrificial-restraint"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 3/5 defensible: anti-sacrificial-restraint mechanism (Hind Swaraj's satyagraha framework) represents moderate sacred-political-order-strength — the movement had strong moral legitimacy but limited institutional embodiment. Confidence 0.58 appropriately low given that partition violence directly contradicts the anti-sacrificial claim and the theory-practice gap is a genuine analytical problem. Hold at score-review; partition violence counterclaim requires explicit address before human-reviewed."
+        }
+      ]
+    }
+  ]
+}

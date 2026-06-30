@@ -1,0 +1,247 @@
+{
+  "caseId": "postwar-germany",
+  "caseSlug": "postwar-germany",
+  "title": "Postwar Germany",
+  "interpretations": [
+    {
+      "interpretationId": "postwar-germany-interpretation-001",
+      "caseId": "postwar-germany",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "The Basic Law's inviolable human dignity provision (Art. 1 GG) and eternity clause (Art. 79(3) GG) are direct constitutional embodiments of high corrigibility: the postwar sacred political order structurally limits its own capacity for pathological escalation by placing individual dignity beyond collective override.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.7,
+        "label": "moderate-high",
+        "rationale": "Interpretation is well-grounded in the constitutional text and contrasts cleanly with the Nazi Germany sacrificial-escalation case. Chain is currently a minimal stub.",
+        "uncertaintyFactors": [
+          "minimal-evidence-chain",
+          "requires-secondary-source-corroboration"
+        ]
+      },
+      "mechanism": "constitutional-containment",
+      "mechanismSummary": "The founding constitutional document embeds human dignity as inviolable and unamendable, directly blocking the collective-body logic that characterized the preceding pathological order.",
+      "alternativeMechanisms": [
+        "memory-driven-restraint",
+        "pluralist-reordering"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "economic-security"
+      ],
+      "sacrificeHealth": "healthy",
+      "sacrificeBoundedness": "bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "corrigibility",
+        "constitutional-containment",
+        "sacred-political-order"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "postwar-germany-claim-001",
+          "caseId": "postwar-germany",
+          "claim": "The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German sacred political order.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.76,
+            "label": "moderate-high",
+            "rationale": "Both Grundgesetz passages advanced to evidence-review after text confirmation against the official Bundestag English translation at gesetze-im-internet.de. Art. 1(1) confirmed verbatim; Art. 79(3) text corrected ('on principle' → 'in principle'). Adenauer's 1949 government declaration provides corroborating evidence that the founding executive framed democracy and rule of law as commitments to be defended. Confidence raised from 0.72 reflecting confirmed passage integrity and corroborating support.",
+            "uncertaintyFactors": [
+              "adenauer-english-translation-physical-verification-pending"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "postwar-germany-passage-001",
+              "caseId": "postwar-germany",
+              "sourceId": "grundgesetz-1949",
+              "locator": "Art. 1(1), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
+              "text": "Human dignity shall be inviolable. To respect and protect it shall be the duty of all state authority.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim postwar-germany-claim-001: Art. 1(1) GG ('Human dignity shall be inviolable') encodes individual dignity as beyond collective override, directly blocking the Nazi-era mechanism of subordinating persons to the eternal collective body. Evidence role 'grounds' is correct. Text confirmed against official Bundestag English translation in evidence-review pass.",
+              "source": {
+                "sourceId": "grundgesetz-1949",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official English translation, Deutscher Bundestag, 2012 ed. Art. 1(1) and Art. 79(3) (eternity clause) are the key passages for this chain."
+              }
+            },
+            {
+              "passageId": "postwar-germany-passage-002",
+              "caseId": "postwar-germany",
+              "sourceId": "grundgesetz-1949",
+              "locator": "Art. 79(3), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed and corrected against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html (corrected 'on principle' to 'in principle').",
+              "text": "Amendments to this Basic Law affecting the division of the Federation into Länder, their participation in principle in the legislative process, or the principles laid down in Articles 1 and 20 shall be inadmissible.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim postwar-germany-claim-001: Art. 79(3) GG makes Art. 1 and Art. 20 unamendable, constituting the constitutional-containment architecture by which the eternity clause protects the dignity provision. Evidence role 'grounds' is correct. Text confirmed and corrected ('on principle' → 'in principle') against official Bundestag translation in evidence-review pass.",
+              "source": {
+                "sourceId": "grundgesetz-1949",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official English translation, Deutscher Bundestag, 2012 ed. Art. 1(1) and Art. 79(3) (eternity clause) are the key passages for this chain."
+              }
+            },
+            {
+              "passageId": "postwar-germany-passage-003",
+              "caseId": "postwar-germany",
+              "sourceId": "adenauer-regierungserklaerung-1949",
+              "locator": "Regierungserklärung des Bundeskanzlers, Konrad Adenauer, 20 September 1949; in Verhandlungen des Deutschen Bundestages, 1. Wahlperiode, 5. Sitzung, p. 22; English translation in Adenauer, Konrad, Memoirs 1945–53 (London: Weidenfeld & Nicolson, 1966). German original confirmed at https://www.konrad-adenauer.de/seite/20-september-1949-regierungserklaerung-des-bundeskanzlers-vor-dem-deutschen-bundestag/ and dserver.bundestag.de. English translation (Weidenfeld & Nicolson, 1966) requires physical library verification.",
+              "text": "The Federal Government is determined to maintain democracy and to defend it against all attacks. It will act in accordance with the principles of the rule of law, which is the foundation of a free state.",
+              "evidenceRole": "corroboration",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Corroboration passage (role='corroboration'): Adenauer's 1949 inaugural government declaration affirms the rule of law and democratic defense as constitutional commitments. Not cited as primary grounds in any claim (claim-001 and claim-002 use GG text directly), but serves as corroborating evidence that the constitutional design was actively embraced by the founding executive. Corroboration role and argument connection are both valid. Advancing to argument-review: the corroboration function is correctly identified and the passage text supports it.",
+              "source": {
+                "sourceId": "adenauer-regierungserklaerung-1949",
+                "role": "corroboration",
+                "access": "public-domain-or-open",
+                "notes": "First government declaration to the Bundestag, 20 September 1949. Corroborates the constitutional-containment reading by showing the new sacred political order's explicit rejection of the Nazi-era collective-body logic at the moment of the Federal Republic's founding."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "postwar-germany-score-001",
+          "caseId": "postwar-germany",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "postwar-germany-interpretation-001",
+          "value": 4,
+          "confidence": {
+            "value": 0.7,
+            "label": "moderate-high",
+            "rationale": "Passages advanced to evidence-review after text confirmation against official Bundestag translation. High corrigibility score is structurally justified by the constitutional design; confidence raised from 0.65. Capped pending chain expansion and secondary-source corroboration.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "constitutional-containment"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Art. 1(1) human dignity + Art. 79(3) eternity clause) represents high corrigibility. Confidence 0.70 is well-calibrated — the mechanism is architecturally tight and directly contrasts with the Nazi Germany cor=1 case. Chain-requires-expansion uncertainty resolved by Milestone 7 chain expansion to 4 passages. Ready for human-reviewed: gold case chain is now at 4 passages, all at argument-review."
+        }
+      ]
+    },
+    {
+      "interpretationId": "postwar-germany-interpretation-002",
+      "caseId": "postwar-germany",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "Article 20's resistance clause (Art. 20(4) GG) is the constitutive memory-driven-restraint provision of the postwar German sacred political order: the framers converted the Weimar experience of legal revolution — Hitler's use of enabling legislation to abolish parliamentary democracy through formally legal means — into a positive constitutional right to resist abolition of the democratic order. Combined with Art. 79(3)'s protection of Art. 20 as an eternity clause, this creates a two-layer corrigibility architecture: Art. 20 defines the protected democratic-social order; Art. 79(3) makes it unamendable; Art. 20(4) arms citizens to defend it when all other remedies fail. The memory of the pathological order is thus encoded as a constitutional right of resistance against its repetition — the clearest example of memory-driven-restraint in the dataset.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.82,
+        "label": "high",
+        "rationale": "Text verified against official translation; scholarly consensus on framers' intent is clear (Weimar-lesson design); the Art. 20(4) / Art. 79(3) architectural relationship is analytically tight. Confidence capped: Art. 20(4) was added in 1968, not 1949, and the right has never been formally invoked, raising questions about its operative force.",
+        "uncertaintyFactors": [
+          "art-20-4-added-1968-not-1949-original",
+          "right-of-resistance-never-invoked-in-practice"
+        ]
+      },
+      "mechanism": "memory-driven-restraint",
+      "mechanismSummary": "Art. 20(1)+(4) converts the Weimar trauma of legal revolution into a constitutional right of resistance, encoding the memory of pathological collapse as a positive corrective mechanism — the democratic order cannot be legally abolished, and citizens are constitutionally empowered to prevent its abolition by other means.",
+      "alternativeMechanisms": [
+        "constitutional-containment",
+        "pluralist-reordering"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "time",
+        "economic-security"
+      ],
+      "sacrificeHealth": "healthy",
+      "sacrificeBoundedness": "bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "corrigibility",
+        "memory-driven-restraint",
+        "constitutional-containment"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "postwar-germany-claim-002",
+          "caseId": "postwar-germany",
+          "claim": "Article 20 encodes memory-driven-restraint as a constitutional principle: by defining the democratic and social federal state as the protected constitutional order and granting all Germans the right to resist any person seeking to abolish it, the framers institutionalized the Weimar lesson — that legal revolution (Hitler's use of enabling legislation to abolish democracy) must be made constitutionally impossible — converting historical trauma into a positive right of resistance embedded in the highest law.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.82,
+            "label": "high",
+            "rationale": "Art. 20(1) and 20(4) are directly verified against the official Bundestag English translation. The memory-driven-restraint claim is strongly supported: Art. 20(4) was added in 1968 precisely as a response to the experience of legal revolution under Weimar. The Weimar-lesson interpretation is the scholarly consensus on the framers' intent; the text itself unambiguously encodes a constitutional right of resistance against abolition of the democratic order. High confidence given text clarity and scholarly consensus on intent.",
+            "uncertaintyFactors": [
+              "art-20-4-added-1968-not-1949-original",
+              "right-of-resistance-never-invoked-in-practice"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "postwar-germany-passage-004",
+              "caseId": "postwar-germany",
+              "sourceId": "grundgesetz-1949",
+              "locator": "Art. 20(1) and 20(4), Basic Law for the Federal Republic of Germany, 23 May 1949; official English translation, Deutscher Bundestag, 2012 ed. Text confirmed verbatim against https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
+              "text": "The Federal Republic of Germany is a democratic and social federal state. [...] All Germans shall have the right to resist any person seeking to abolish this constitutional order if no other remedy is available.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "argument-review",
+              "publicationStatus": "draft",
+              "reviewNote": "Passage text directly supports claim postwar-germany-claim-002: Art. 20(1) defines the democratic and social federal state that is constitutionally protected; Art. 20(4) grants citizens the right to resist its abolition. Together these encode the memory-driven-restraint interpretation: the Weimar legal-revolution experience converted into a positive right of resistance. Evidence role 'grounds' is correct. Text confirmed against official Bundestag translation in evidence-review pass. Note: Art. 20(4) added in 1968 amendment, not 1949 original — documented as uncertainty factor in claim and score.",
+              "source": {
+                "sourceId": "grundgesetz-1949",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official English translation, Deutscher Bundestag, 2012 ed. Art. 1(1) and Art. 79(3) (eternity clause) are the key passages for this chain."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "postwar-germany-score-002",
+          "caseId": "postwar-germany",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "postwar-germany-interpretation-002",
+          "value": 5,
+          "confidence": {
+            "value": 0.78,
+            "label": "moderate-high",
+            "rationale": "Art. 20's resistance clause, protected by Art. 79(3) as an eternity clause, constitutes maximum institutional corrigibility architecture: the democratic order cannot be legally amended away, and citizens hold a constitutional right to resist attempts to abolish it. Score of 5 reflects this design maximum. Confidence below 1.0: Art. 20(4) has never been invoked in practice, so the operative force of maximum corrigibility remains theoretically asserted rather than empirically demonstrated.",
+            "uncertaintyFactors": [
+              "art-20-4-added-1968-not-1949-original",
+              "right-of-resistance-never-invoked-in-practice"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "memory-driven-restraint",
+            "constitutional-containment"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: memory-driven-restraint mechanism (Art. 20(1)+(4) resistance clause, protected by Art. 79(3)) represents maximum corrigibility architecture — the democratic order cannot be legally abolished and citizens are constitutionally empowered to resist its abolition. Confidence 0.78 correctly reflects two uncertainty factors: Art. 20(4) added in 1968 (not 1949), and the resistance right has never been formally invoked. Ready for human-reviewed with those caveats noted."
+        }
+      ]
+    }
+  ]
+}

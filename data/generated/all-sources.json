@@ -16,6 +16,214 @@
     "caseSlug": "american-civil-war-union"
   },
   {
+    "sourceId": "lincoln-lyceum-address-1838",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works of Abraham Lincoln vol.1 pp.108-115 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-peoria-speech-1854",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works of Abraham Lincoln vol.2 pp.247-283 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-house-divided-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works of Abraham Lincoln vol.2 pp.461-469 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-cooper-union-1860",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works of Abraham Lincoln vol.3 pp.522-550 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-first-inaugural-1861",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works of Abraham Lincoln vol.4 pp.262-271 (Basler ed.). Note: some passages revised by Seward; authorshipConfidence: partial for affected passages (see lma-doc-009).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-temperance-address-1842",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.1 pp.271-279 (Basler ed.). Delivered to Washington Temperance Society.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-eulogy-clay-1852",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.2 pp.121-132 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-douglas-debate-1-ottawa-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.3 pp.1-37 (Basler ed.). Lincoln's portions only.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-douglas-debate-2-freeport-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.3 pp.38-76 (Basler ed.). Lincoln's portions only.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-douglas-debate-3-jonesboro-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.3 pp.102-144 (Basler ed.). Lincoln's portions only.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-douglas-debate-4-charleston-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.3 pp.145-201 (Basler ed.). Lincoln's portions only.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-douglas-debate-5-galesburg-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.3 pp.207-244 (Basler ed.). Lincoln's portions only.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-douglas-debate-6-quincy-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.3 pp.245-282 (Basler ed.). Lincoln's portions only.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-douglas-debate-7-alton-1858",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.3 pp.283-325 (Basler ed.). Lincoln's portions only.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-farewell-address-springfield-1861",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.4 pp.190-191 (Basler ed.). Two versions; Basler final text used.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-message-congress-july4-1861",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.4 pp.421-441 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-fragment-constitution-union-1861",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.4 pp.168-169 (Basler ed.). Date uncertain; Basler assigns January 1861.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-letter-greeley-1862",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.5 pp.388-389 (Basler ed.). Letter dated August 22, 1862.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-preliminary-emancipation-proclamation-1862",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.5 pp.433-436 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-annual-message-congress-december-1-1862",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.5 pp.518-537 (Basler ed.).",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-emancipation-proclamation-1863",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.6 pp.28-31 (Basler ed.). Final Proclamation, January 1, 1863.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-letter-conkling-1863",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.6 pp.406-410 (Basler ed.). Letter to James C. Conkling, August 26, 1863.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-memorandum-reelection-1864",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.7 pp.514-515 (Basler ed.). Blind memorandum, August 23, 1864.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-letter-hodges-1864",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.7 pp.281-283 (Basler ed.). Letter to Albert G. Hodges, April 4, 1864.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-response-serenade-november-1864",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.8 pp.96-97 (Basler ed.). Response to a serenade, November 10, 1864.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
+    "sourceId": "lincoln-last-public-address-1865",
+    "role": "primary-grounds",
+    "access": "public-domain-or-open",
+    "notes": "Public domain. Collected Works vol.8 pp.399-405 (Basler ed.). April 11, 1865.",
+    "caseId": "american-civil-war-union",
+    "caseSlug": "american-civil-war-union"
+  },
+  {
     "sourceId": "balfour-declaration-1926",
     "role": "primary-grounds",
     "access": "public-domain-or-open",

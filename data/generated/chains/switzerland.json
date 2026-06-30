@@ -1,0 +1,127 @@
+{
+  "caseId": "switzerland",
+  "caseSlug": "switzerland",
+  "title": "Switzerland",
+  "interpretations": [
+    {
+      "interpretationId": "switzerland-interpretation-001",
+      "caseId": "switzerland",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretation": "Switzerland scores high on corrigibility through its constitutional inversion of the sacrificial symbolic logic: the Preamble defines collective strength as the well-being of the weakest rather than the sacrifice of the weak for the strong, while Article 2 pluralizes the order's aims (welfare, diversity, sustainability, peaceful order) in ways that structurally resist sacred-enemy simplification. The federalist and direct-democracy mechanisms compound this: power is constitutionally distributed across cantons and referenda, preventing symbolic concentration that enables sacrificial escalation. This is the structural countercase to the frozen-pathology trajectory — the Swiss order achieves stability through pluralist consensus rather than through vanguard monopoly.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.65,
+        "label": "moderate",
+        "rationale": "Chain thin; passages are directly constitutive but require expansion to direct-democracy practices and federalism. Historical exclusion of women's suffrage (until 1971 federally) complicates maximum corrigibility score.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "direct-democracy-exclusion-history-complicates-score"
+        ]
+      },
+      "mechanism": "pluralist-reordering",
+      "mechanismSummary": "Constitutional definition of strength-as-welfare-of-weakest plus pluralized aims and federalist/direct-democracy structures prevent symbolic concentration and sacred-enemy escalation, producing high corrigibility through consensus rather than vanguard monopoly.",
+      "alternativeMechanisms": [
+        "constitutional-containment",
+        "anti-sacrificial-restraint"
+      ],
+      "sacrificeForm": [
+        "time",
+        "labor",
+        "economic-security"
+      ],
+      "sacrificeHealth": "healthy",
+      "sacrificeBoundedness": "partially-bounded",
+      "sacrificeTarget": "self",
+      "definitionRefs": [
+        "corrigibility",
+        "pluralist-reordering",
+        "sacred-political-order-strength",
+        "sacrifice"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "switzerland-claim-001",
+          "caseId": "switzerland",
+          "claim": "The Swiss sacred political order institutionalizes pluralist restraint through two constitutive commitments: the Preamble's definition of collective strength as the well-being of the weakest members (inverting the sacrificial logic that equates strength with elimination of weakness), and Article 2's programmatic aims of common welfare, cultural diversity, and peaceful international order — a symbolic architecture that generates corrigibility through federal consensus rather than sacred-enemy escalation.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.7,
+            "label": "moderate-high",
+            "rationale": "Both passages are from the official English translation of the Swiss Federal Constitution verified at Constitute Project. The Preamble's strength-as-welfare-of-weakest formulation is analytically powerful as a direct inversion of sacrificial symbolic logic. Confidence capped pending chain expansion to include direct-democracy and federalism mechanisms.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "direct-democracy-exclusion-history-complicates-score"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "switzerland-passage-001",
+              "caseId": "switzerland",
+              "sourceId": "swiss-federal-constitution-1999",
+              "locator": "Federal Constitution of the Swiss Confederation, 18 April 1999, Preamble; official English translation verified at https://www.constituteproject.org/constitution/Switzerland_2014",
+              "text": "The Swiss People and the Cantons, mindful of their responsibility towards future generations, and aware that only those who use their freedom remain free, and that the strength of a people is measured by the well-being of its weakest members, adopt the following Constitution.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "swiss-federal-constitution-1999",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official English translation. Verified at https://www.constituteproject.org/constitution/Switzerland_2014"
+              }
+            },
+            {
+              "passageId": "switzerland-passage-002",
+              "caseId": "switzerland",
+              "sourceId": "swiss-federal-constitution-1999",
+              "locator": "Federal Constitution of the Swiss Confederation, 18 April 1999, Article 2 (Aims); official English translation verified at https://www.constituteproject.org/constitution/Switzerland_2014",
+              "text": "The Swiss Confederation shall protect the liberty and rights of the people and safeguard the independence and security of the country. It shall promote the common welfare, sustainable development, internal cohesion and cultural diversity of the country. It shall ensure the greatest possible equality of opportunity among its citizens. It shall strive for the long term preservation of natural resources and to a just and peaceful international order.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "swiss-federal-constitution-1999",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Official English translation. Verified at https://www.constituteproject.org/constitution/Switzerland_2014"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "switzerland-score-001",
+          "caseId": "switzerland",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "corrigibility",
+          "interpretationId": "switzerland-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.6,
+            "label": "moderate",
+            "rationale": "Maximum corrigibility score: Switzerland's constitutional definition of strength-as-welfare-of-weakest, multi-aim pluralism, federalist distribution, and direct-democracy referendum mechanisms together constitute the most institutionally robust corrigibility architecture in the dataset. Score reflects the design and practice of the order; the historical exclusion of women's suffrage introduces uncertainty that caps confidence below high.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "direct-democracy-exclusion-history-complicates-score"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "corrigibility",
+            "pluralist-reordering"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: pluralist-reordering mechanism (Swiss federal constitution's consensus architecture, direct democracy, four-language federalism) supports maximum corrigibility. Confidence 0.60 reflects that the direct-democracy exclusion history (women's suffrage only in 1971 federally) complicates the corrigibility claim and requires explicit treatment. Hold at score-review until historical exclusion is addressed in the chain and counterclaim."
+        }
+      ]
+    }
+  ]
+}

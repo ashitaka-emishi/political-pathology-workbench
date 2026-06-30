@@ -28,6 +28,52 @@ const allClaims = [];
 const allInterpretations = [];
 const allScores = [];
 const allCounterclaims = [];
+const allChains = [];
+
+function indexBy(records, key) {
+  return new Map(records.map((record) => [record[key], record]));
+}
+
+function buildCaseChain({ caseRecord, slug, sourcePack, passages, claims, interpretations, scores }) {
+  const sourcesById = indexBy(sourcePack.sources, "sourceId");
+  const passagesById = indexBy(passages, "passageId");
+  const claimsById = indexBy(claims, "claimId");
+  const scoresByInterpretationId = new Map();
+
+  for (const score of scores) {
+    if (!scoresByInterpretationId.has(score.interpretationId)) {
+      scoresByInterpretationId.set(score.interpretationId, []);
+    }
+    scoresByInterpretationId.get(score.interpretationId).push(score);
+  }
+
+  return {
+    caseId: caseRecord.caseId,
+    caseSlug: slug,
+    title: caseRecord.title,
+    interpretations: interpretations.map((interpretation) => {
+      const { claimIds = [], ...interpretationFields } = interpretation;
+      return {
+        ...interpretationFields,
+        claims: claimIds.map((claimId) => {
+          const claim = claimsById.get(claimId) ?? { claimId };
+          const { derivedFrom = [], ...claimFields } = claim;
+          return {
+            ...claimFields,
+            passages: derivedFrom.map((passageId) => {
+              const passage = passagesById.get(passageId) ?? { passageId };
+              return {
+                ...passage,
+                source: sourcesById.get(passage.sourceId) ?? null
+              };
+            })
+          };
+        }),
+        scores: scoresByInterpretationId.get(interpretation.interpretationId) ?? []
+      };
+    })
+  };
+}
 
 for (const slug of listDirs(casesDir)) {
   const caseDir = path.join(casesDir, slug);
@@ -46,6 +92,7 @@ for (const slug of listDirs(casesDir)) {
   allInterpretations.push(...interpretations.map((record) => ({ ...record, caseSlug: slug })));
   allScores.push(...scores.map((record) => ({ ...record, caseSlug: slug })));
   allCounterclaims.push(...counterclaims.map((record) => ({ ...record, caseSlug: slug })));
+  allChains.push(buildCaseChain({ caseRecord, slug, sourcePack, passages, claims, interpretations, scores }));
 }
 
 const theoryIndex = listDirs(theoriesDir).map((slug) => {
@@ -60,6 +107,11 @@ writeJson(path.join(generatedDir, "all-claims.json"), allClaims);
 writeJson(path.join(generatedDir, "all-interpretations.json"), allInterpretations);
 writeJson(path.join(generatedDir, "all-scores.json"), allScores);
 writeJson(path.join(generatedDir, "all-counterclaims.json"), allCounterclaims);
+writeJson(path.join(generatedDir, "all-chains.json"), allChains);
+fs.rmSync(path.join(generatedDir, "chains"), { recursive: true, force: true });
+for (const chain of allChains) {
+  writeJson(path.join(generatedDir, "chains", `${chain.caseSlug}.json`), chain);
+}
 writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus, sacredPoliticalOrderId, sacredPoliticalOrderName, sacredPoliticalOrderStrength, caseSelectionRole }) => ({
   caseId,
   title,

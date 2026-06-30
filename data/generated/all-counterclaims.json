@@ -88,7 +88,7 @@
   {
     "counterclaimId": "khmer-rouge-cambodia-counterclaim-001",
     "caseId": "khmer-rouge-cambodia",
-    "claim": "The Khmer Rouge's sacrificial-escalation mechanism is contested between a collective-immortality-to-sacrifice reading (the Angkar as sacred collective body) and an agrarian-utopian reading in which sacrifice was instrumentalized toward ideological goals rather than rooted in symbolic-order sacralization per se.",
+    "claim": "The Khmer Rouge's sacrificial-escalation mechanism is contested between a collective-immortality-to-sacrifice reading (the Angkar as sacred collective body) and an agrarian-utopian reading in which sacrifice was instrumentalized toward ideological goals rather than rooted in order sacralization per se.",
     "effect": "complicates",
     "targetClaimIds": [],
     "sourceIds": [],
@@ -104,7 +104,7 @@
     "effect": "qualifies",
     "targetClaimIds": [],
     "sourceIds": [],
-    "rationale": "The 1949-1976 period contains multiple distinct symbolic-order phases; treating them as a unified sacrificial-escalation case conflates the order's different phases and may obscure the internal dynamics by which the CCP moved from partial corrigibility toward frozen pathology and then escalation.",
+    "rationale": "The 1949-1976 period contains multiple distinct order phases; treating them as a unified sacrificial-escalation case conflates the order's different phases and may obscure the internal dynamics by which the CCP moved from partial corrigibility toward frozen pathology and then escalation.",
     "reviewStatus": "draft",
     "publicationStatus": "draft",
     "caseSlug": "maoist-china"
@@ -168,7 +168,7 @@
     "effect": "qualifies",
     "targetClaimIds": [],
     "sourceIds": [],
-    "rationale": "The Revolution's internal diversity means a single outcome code suppresses the sequence of symbolic-order phases; the escalation from pluralist reordering to total sacrificial mobilization and back is itself the theoretically interesting phenomenon, not the endpoint alone.",
+    "rationale": "The Revolution's internal diversity means a single outcome code suppresses the sequence of order phases; the escalation from pluralist reordering to total sacrificial mobilization and back is itself the theoretically interesting phenomenon, not the endpoint alone.",
     "reviewStatus": "draft",
     "publicationStatus": "draft",
     "caseSlug": "revolutionary-france"
@@ -240,7 +240,7 @@
   {
     "counterclaimId": "world-war-i-nationalisms-counterclaim-001",
     "caseId": "world-war-i-nationalisms",
-    "claim": "The unit of analysis for world-war-i-nationalisms is contested: individual belligerent nations varied significantly in their sacrificial mobilization patterns, symbolic-order strength, and outcomes (German collapse, British restrained-reordering, French hybrid). Treating the case as a unified sacrificial-escalation instance may suppress theoretically important cross-national variation.",
+    "claim": "The unit of analysis for world-war-i-nationalisms is contested: individual belligerent nations varied significantly in their sacrificial mobilization patterns, sacred-political-order strength, and outcomes (German collapse, British restrained-reordering, French hybrid). Treating the case as a unified sacrificial-escalation instance may suppress theoretically important cross-national variation.",
     "effect": "complicates",
     "targetClaimIds": [],
     "sourceIds": [],

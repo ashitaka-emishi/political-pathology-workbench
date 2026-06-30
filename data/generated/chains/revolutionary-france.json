@@ -1,0 +1,129 @@
+{
+  "caseId": "revolutionary-france",
+  "caseSlug": "revolutionary-france",
+  "title": "Revolutionary France",
+  "interpretations": [
+    {
+      "interpretationId": "revolutionary-france-interpretation-001",
+      "caseId": "revolutionary-france",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The revolutionary sacred political order achieved maximum sacred-political-order strength by vesting all legitimate authority exclusively in the Nation, while Robespierre's virtue-terror synthesis sacralized the revolutionary order itself as the embodiment of virtue. This produced a configuration in which the sacred political order could not be corrected without betraying the revolution — critique became treason, and terror became a moral obligation.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.68,
+        "label": "moderate",
+        "rationale": "Passages are well-attested canonical texts. The mechanism is well-supported for the Terror phase. Confidence capped because the claim applies primarily to 1793–1794.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "periodization-ambiguity"
+        ]
+      },
+      "mechanism": "sacred-enemy-escalation",
+      "mechanismSummary": "The Declaration of Rights invested the Nation with absolute sovereignty while Robespierre fused virtue and terror — making the revolutionary order itself sacred and directing violence at internal enemies whose elimination was framed as moral necessity.",
+      "alternativeMechanisms": [
+        "collective-immortality-to-sacrifice",
+        "institutional-self-preservation"
+      ],
+      "sacrificeForm": [
+        "death",
+        "conscience",
+        "agency"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "in-group",
+      "definitionRefs": [
+        "sacred-political-order",
+        "sacred-political-order-strength",
+        "sacralization",
+        "sacrifice",
+        "pathology"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "revolutionary-france-claim-001",
+          "caseId": "revolutionary-france",
+          "claim": "The French revolutionary sacred political order sacralized 'the Nation' as the sole and absolute source of sovereignty, then progressively fused virtue with coercive violence during the Terror, making the revolutionary order itself the object of sacred preservation at the expense of individual persons.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.68,
+            "label": "moderate",
+            "rationale": "Declaration of Rights Article 3 establishes the nation as the exclusive source of all authority; Robespierre's virtue-terror synthesis shows the progressive sacralization of the revolutionary order itself. Both passages are well-attested public-domain texts. Confidence capped because the claim applies primarily to the Terror phase (1793–1794); the Revolution's earlier phases exhibit more restrained-reordering features.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "periodization-ambiguity"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "revolutionary-france-passage-001",
+              "caseId": "revolutionary-france",
+              "sourceId": "declaration-rights-man-citizen-1789",
+              "locator": "Declaration of the Rights of Man and Citizen, Article 3, 26 August 1789; English translation at https://avalon.law.yale.edu/18th_century/rightsof.asp",
+              "text": "The principle of all sovereignty resides essentially in the nation. No body nor individual may exercise any authority which does not proceed directly from the nation.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "declaration-rights-man-citizen-1789",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Verified at avalon.law.yale.edu."
+              }
+            },
+            {
+              "passageId": "revolutionary-france-passage-002",
+              "caseId": "revolutionary-france",
+              "sourceId": "robespierre-political-morality-1794",
+              "locator": "Robespierre, 'On the Principles of Political Morality,' 5 February 1794; English translation at https://revolution.chnm.org/d/413",
+              "text": "If the mainspring of popular government in peacetime is virtue, amid revolution it is at the same time [both] virtue and terror: virtue, without which terror is fatal; terror, without which virtue is impotent.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "robespierre-political-morality-1794",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Verified at revolution.chnm.org and alphahistory.com."
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "revolutionary-france-score-001",
+          "caseId": "revolutionary-france",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "revolutionary-france-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.63,
+            "label": "moderate",
+            "rationale": "Maximum sacred-political-order-strength score is supported by the Declaration of Rights' absolute vesting of sovereignty in the Nation and Robespierre's sacralization of the revolutionary order. Confidence capped at moderate; applies primarily to the Terror phase (1793–1794).",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "periodization-ambiguity"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order",
+            "sacred-political-order-strength",
+            "sacralization"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: sacred-enemy-escalation mechanism (Committee of Public Safety, Law of Suspects, Festival of the Supreme Being) supports maximum sacred-political-order-strength during the Terror. Confidence 0.63 reflects chain-requires-expansion and periodization ambiguity (which revolutionary phase?). Hold at score-review; specify the 1793-94 Terror period as the scored period before human-reviewed."
+        }
+      ]
+    }
+  ]
+}

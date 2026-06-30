@@ -1,0 +1,134 @@
+{
+  "caseId": "soviet-communism",
+  "caseSlug": "soviet-communism",
+  "title": "Soviet Communism",
+  "interpretations": [
+    {
+      "interpretationId": "soviet-communism-interpretation-001",
+      "caseId": "soviet-communism",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "sacred-political-order-strength",
+      "interpretation": "The Soviet communist sacred political order achieved maximum sacred-political-order strength at its Stalinist peak by fusing class-struggle eschatology (proletarians have a world to win) with institutional monopoly (the CPSU as nucleus of all Soviet life). This is a hybrid case: the order's founding logic demanded sacrifice toward collective immortality through historical inevitability, and its constitutional structure eliminated the institutional corrigibility needed to correct that demand. The result is a sacred political order of high initial strength that could not self-correct, producing the frozen-pathology trajectory observed in the terminal phase (see soviet-union-collapse). The two passages bookend this arc: the Manifesto's world-historical call for total transformation, and the Brezhnev Constitution's legalization of the party's unchallengeability.",
+      "reviewStatus": "argument-review",
+      "publicationStatus": "draft",
+      "confidence": {
+        "value": 0.65,
+        "label": "moderate",
+        "rationale": "Chain thin but passages are definitional. Requires expansion from founding ideology to institutional practice to complete the arc. Hybrid complexity acknowledged.",
+        "uncertaintyFactors": [
+          "chain-requires-expansion",
+          "founding-text-to-practice-gap",
+          "historical-periodization-wide"
+        ]
+      },
+      "mechanism": "collective-immortality-to-sacrifice",
+      "mechanismSummary": "The Soviet sacred political order fused world-historical eschatology with vanguard institutional monopoly, demanding sacrifice in service of collective communist immortality — a structure that produced high initial strength but no corrigibility, making frozen-pathology the terminal outcome.",
+      "alternativeMechanisms": [
+        "frozen-pathology",
+        "institutional-self-preservation"
+      ],
+      "sacrificeForm": [
+        "labor",
+        "agency",
+        "death",
+        "economic-security",
+        "conscience"
+      ],
+      "sacrificeHealth": "pathological",
+      "sacrificeBoundedness": "unbounded",
+      "sacrificeTarget": "in-group",
+      "definitionRefs": [
+        "sacred-political-order",
+        "sacred-political-order-strength",
+        "collective-immortality",
+        "corrigibility",
+        "frozen-pathology"
+      ],
+      "codebookVersion": "v1",
+      "claims": [
+        {
+          "claimId": "soviet-communism-claim-001",
+          "caseId": "soviet-communism",
+          "claim": "The Soviet communist sacred political order built maximum-strength ideological authority on two pillars: the Manifesto's founding declaration of world-historical inevitability and collective sacrifice toward communist revolution, and the 1977 Constitution's legal enshrinement of the CPSU as the nucleus of all social life — a vanguard structure that concentrated symbolic power while eliminating the corrigibility mechanisms that might have allowed the order to adapt to changing conditions.",
+          "createdBy": "human",
+          "reviewedBy": "andrew-hammer",
+          "reviewStatus": "argument-review",
+          "publicationStatus": "draft",
+          "confidence": {
+            "value": 0.68,
+            "label": "moderate",
+            "rationale": "Both passages are well-attested public-domain texts. The Manifesto passage is the founding ideological document of the movement; the 1977 Constitution Article 6 is the legal culmination of Soviet vanguard theory. Together they span founding ideology to institutional crystallization. Confidence capped: chain requires expansion from founding texts to operational practices (collectivization, purges, nomenklatura) to complete the arc from sacred-political-order-strength to frozen-pathology.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "founding-text-to-practice-gap",
+              "historical-periodization-wide"
+            ]
+          },
+          "passages": [
+            {
+              "passageId": "soviet-communism-passage-001",
+              "caseId": "soviet-communism",
+              "sourceId": "marx-engels-communist-manifesto-1848",
+              "locator": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, 1848, Chapter 4 (closing); Samuel Moore English translation (1888); text verified at https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch04.htm",
+              "text": "The Communists disdain to conceal their views and aims. They openly declare that their ends can be attained only by the forcible overthrow of all existing social conditions. Let the ruling classes tremble at a Communistic revolution. The proletarians have nothing to lose but their chains. They have a world to win. Working Men of All Countries, Unite!",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "marx-engels-communist-manifesto-1848",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. Samuel Moore (1888) English translation verified at https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+              }
+            },
+            {
+              "passageId": "soviet-communism-passage-002",
+              "caseId": "soviet-communism",
+              "sourceId": "ussr-constitution-1977",
+              "locator": "Constitution (Fundamental Law) of the Union of Soviet Socialist Republics, 7 October 1977, Article 6; English text verified at https://www.departments.bucknell.edu/russian/const/77cons01.html",
+              "text": "The leading and guiding force of the Soviet society and the nucleus of its political system, of all state organisations and public organisations, is the Communist Party of the Soviet Union. The CPSU exists for the people and serves the people. The Communist Party, armed with Marxism-Leninism, determines the general perspectives of the development of society and the course of the home and foreign policy of the USSR, directs the great constructive work of the Soviet people, and imparts a planned, systematic and theoretically substantiated character to their struggle for the victory of communism.",
+              "evidenceRole": "grounds",
+              "reviewStatus": "evidence-review",
+              "publicationStatus": "draft",
+              "source": {
+                "sourceId": "ussr-constitution-1977",
+                "role": "primary-grounds",
+                "access": "public-domain-or-open",
+                "notes": "Public domain. English text verified at Bucknell University Russian Department: https://www.departments.bucknell.edu/russian/const/77cons01.html"
+              }
+            }
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "scoreId": "soviet-communism-score-001",
+          "caseId": "soviet-communism",
+          "theoryId": "general-theory-political-pathology-v1",
+          "variableId": "sacred-political-order-strength",
+          "interpretationId": "soviet-communism-interpretation-001",
+          "value": 5,
+          "confidence": {
+            "value": 0.6,
+            "label": "moderate",
+            "rationale": "Maximum score at Stalinist peak: the Soviet order combined messianic eschatology, revolutionary class identity, and constitutional vanguard monopoly to produce a sacred political order with no legitimate internal challenger. Score applies to peak strength (c. 1936-1953); terminal-phase decay is scored separately in the soviet-union-collapse case. Confidence moderate: requires expansion from founding texts to institutional practices.",
+            "uncertaintyFactors": [
+              "chain-requires-expansion",
+              "founding-text-to-practice-gap",
+              "historical-periodization-wide"
+            ]
+          },
+          "reviewStatus": "score-review",
+          "publicationStatus": "draft",
+          "definitionRefs": [
+            "sacred-political-order-strength",
+            "collective-immortality",
+            "frozen-pathology"
+          ],
+          "codebookVersion": "v1",
+          "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (Marxist-Leninist historical materialism, USSR Constitution 1977 collective ownership provisions) supports maximum sacred-political-order-strength in the high-period order. Confidence 0.60 reflects three uncertainty factors (chain minimal, founding-text-to-practice gap, wide periodization). Hold at score-review until chain expansion and periodization is bounded to a specific Soviet period."
+        }
+      ]
+    }
+  ]
+}
