@@ -1,0 +1,13 @@
+{
+  "moduleId": "fixture-missing-source-repository",
+  "moduleName": "Fixture Missing Source Repository",
+  "moduleType": "deep-case",
+  "sourceRepositoryRole": "deep-case-module",
+  "description": "Invalid fixture: omits the required sourceRepository field.",
+  "caseIds": ["american-civil-war-union"],
+  "provenanceStatus": "partial",
+  "rightsStatus": "fair-use",
+  "reliabilityStatus": "pending",
+  "claimPromotionPolicy": "standard",
+  "sourceIssueMigrationStatus": "in-progress"
+}
