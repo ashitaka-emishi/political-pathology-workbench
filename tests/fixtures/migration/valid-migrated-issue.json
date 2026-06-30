@@ -1,0 +1,13 @@
+{
+  "sourceRepo": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "sourceIssue": 42,
+  "sourceTitle": "Add passage-level annotation for obligatory-frame cluster",
+  "sourceUrl": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/42",
+  "sourceLabels": ["annotation", "corpus"],
+  "issueKind": "implementation",
+  "disposition": "migrate-as-ppw-issue",
+  "targetPpwIssue": null,
+  "targetMilestone": "Milestone 12: Child-Project Issue Migration",
+  "rationale": "Passage-level annotation work belongs in PPW once corpus import is complete.",
+  "closureInstruction": "leave open until PPW migration issue is created and supersession comment is approved"
+}

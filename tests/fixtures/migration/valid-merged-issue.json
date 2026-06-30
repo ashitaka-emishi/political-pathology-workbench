@@ -1,0 +1,13 @@
+{
+  "sourceRepo": "ashitaka-emishi/sacrifice-law-workbench",
+  "sourceIssue": 174,
+  "sourceTitle": "Track pre-v1 corpus expansion window",
+  "sourceUrl": "https://github.com/ashitaka-emishi/sacrifice-law-workbench/issues/174",
+  "sourceLabels": ["tracking", "corpus"],
+  "issueKind": "tracking",
+  "disposition": "merge-into-ppw-issue",
+  "targetPpwIssue": 110,
+  "targetMilestone": "Milestone 12: Child-Project Issue Migration",
+  "rationale": "Pre-v1 corpus expansion tracking should become checklist context for the existing PPW migration issue.",
+  "closureInstruction": "leave open until PPW target issue records the mapping and maintainer approves supersession comment"
+}
