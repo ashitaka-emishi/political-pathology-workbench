@@ -1,0 +1,152 @@
+{
+  "caseId": "nazi-germany",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "nazi-germany-interpretation-001",
+        "theoryId": "koenigsberg-immortal-body-v1",
+        "variableId": "collective-immortality",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "nazi-germany-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "nazi-germany-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "hitler-speech-1933-001",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "nazi-germany-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "nsdap-25-punkte-1920",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "nazi-germany-score-001",
+            "value": 3,
+            "reviewStatus": "score-review",
+            "variableId": "collective-immortality"
+          }
+        ],
+        "missingScores": null
+      },
+      {
+        "interpretationId": "nazi-germany-interpretation-002",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "nazi-germany-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "nazi-germany-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "hitler-speech-1933-001",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "nazi-germany-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "nsdap-25-punkte-1920",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "nazi-germany-score-002",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      },
+      {
+        "interpretationId": "nazi-germany-interpretation-003",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "nazi-germany-claim-002",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "nazi-germany-passage-003",
+                "linkStatus": "resolved",
+                "sourceId": "reichswehr-oath-1934",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "nazi-germany-passage-004",
+                "linkStatus": "resolved",
+                "sourceId": "law-against-parties-1933",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "nazi-germany-score-003",
+            "value": 1,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [
+    {
+      "draftClaimId": "slw-draft-claim-001",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "slw-draft-claim-003",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "slw-draft-claim-004",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "none"
+    }
+  ],
+  "promotedClaims": []
+}

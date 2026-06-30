@@ -1,0 +1,91 @@
+{
+  "caseId": "soviet-union-collapse",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "soviet-union-collapse-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "soviet-union-collapse-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "soviet-union-collapse-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "gorbachev-resignation-speech-1991",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "soviet-union-collapse-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "alma-ata-declaration-1991",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "soviet-union-collapse-score-001",
+            "value": 2,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      },
+      {
+        "interpretationId": "soviet-union-collapse-interpretation-002",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "soviet-union-collapse-claim-002",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "soviet-union-collapse-passage-003",
+                "linkStatus": "resolved",
+                "sourceId": "gorbachev-cc-plenum-1987",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "soviet-union-collapse-passage-004",
+                "linkStatus": "resolved",
+                "sourceId": "gkchp-appeal-1991",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "soviet-union-collapse-score-002",
+            "value": 1,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

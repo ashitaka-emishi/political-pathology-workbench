@@ -1,0 +1,27 @@
+{
+  "caseId": "american-revolution",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [
+    {
+      "draftClaimId": "slw-draft-claim-001",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate"
+    },
+    {
+      "draftClaimId": "slw-draft-claim-004",
+      "claimStatus": "draft",
+      "originModuleId": "sacrifice-law-workbench",
+      "reviewStatus": "draft",
+      "scoreImpact": "none"
+    }
+  ],
+  "promotedClaims": []
+}

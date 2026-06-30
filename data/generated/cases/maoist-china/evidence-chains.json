@@ -1,0 +1,52 @@
+{
+  "caseId": "maoist-china",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "maoist-china-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "collective-immortality",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "maoist-china-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "maoist-china-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "mao-serve-the-people-1944",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "maoist-china-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "mao-in-memory-norman-bethune-1939",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "maoist-china-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "collective-immortality"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

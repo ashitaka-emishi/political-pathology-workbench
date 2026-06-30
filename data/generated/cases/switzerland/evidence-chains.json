@@ -1,0 +1,52 @@
+{
+  "caseId": "switzerland",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "switzerland-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "switzerland-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "switzerland-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "swiss-federal-constitution-1999",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "switzerland-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "swiss-federal-constitution-1999",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "switzerland-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

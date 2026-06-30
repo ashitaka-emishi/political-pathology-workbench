@@ -1,0 +1,52 @@
+{
+  "caseId": "world-war-i-nationalisms",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "world-war-i-nationalisms-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "world-war-i-nationalisms-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "world-war-i-nationalisms-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "kaiser-wilhelm-reichstag-speech-1914",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "world-war-i-nationalisms-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "poincare-war-message-1914",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "world-war-i-nationalisms-score-001",
+            "value": 5,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

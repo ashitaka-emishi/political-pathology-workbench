@@ -1,0 +1,52 @@
+{
+  "caseId": "british-empire-to-commonwealth",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "british-empire-to-commonwealth-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "corrigibility",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "british-empire-to-commonwealth-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "british-empire-to-commonwealth-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "balfour-declaration-1926",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "british-empire-to-commonwealth-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "statute-of-westminster-1931",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "british-empire-to-commonwealth-score-001",
+            "value": 3,
+            "reviewStatus": "score-review",
+            "variableId": "corrigibility"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}

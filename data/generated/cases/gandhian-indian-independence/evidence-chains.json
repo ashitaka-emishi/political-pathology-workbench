@@ -1,0 +1,52 @@
+{
+  "caseId": "gandhian-indian-independence",
+  "generatedAt": "2026-06-30",
+  "nativeChain": {
+    "interpretations": [
+      {
+        "interpretationId": "gandhian-indian-independence-interpretation-001",
+        "theoryId": "general-theory-political-pathology-v1",
+        "variableId": "sacred-political-order-strength",
+        "reviewStatus": "argument-review",
+        "claims": [
+          {
+            "claimId": "gandhian-indian-independence-claim-001",
+            "claimStatus": "native",
+            "linkStatus": "resolved",
+            "reviewStatus": "argument-review",
+            "passages": [
+              {
+                "passageId": "gandhian-indian-independence-passage-001",
+                "linkStatus": "resolved",
+                "sourceId": "gandhi-hind-swaraj-1909",
+                "sourceLinkStatus": "resolved"
+              },
+              {
+                "passageId": "gandhian-indian-independence-passage-002",
+                "linkStatus": "resolved",
+                "sourceId": "gandhi-hind-swaraj-1909",
+                "sourceLinkStatus": "resolved"
+              }
+            ],
+            "missingPassages": null
+          }
+        ],
+        "missingClaims": null,
+        "scores": [
+          {
+            "scoreId": "gandhian-indian-independence-score-001",
+            "value": 3,
+            "reviewStatus": "score-review",
+            "variableId": "sacred-political-order-strength"
+          }
+        ],
+        "missingScores": null
+      }
+    ],
+    "orphanedPassages": [],
+    "orphanedClaims": [],
+    "orphanedInterpretations": []
+  },
+  "draftClaims": [],
+  "promotedClaims": []
+}
