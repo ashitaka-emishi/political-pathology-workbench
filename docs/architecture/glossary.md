@@ -8,21 +8,21 @@ Defines shared terms used across architecture docs, schemas, migration docs, and
 
 ## Symbolic order
 
-**Generic schema term.** A structure of shared meaning that organizes collective identity, authority, obligation, and sacrifice within a political community. Used in PPW schemas as the field name (`symbolicOrderId`, `symbolicOrderStrength`) to avoid over-specifying the theoretical interpretation.
+**Source-tradition term.** A structure of shared meaning that organizes collective identity, authority, obligation, and sacrifice within a political community. PPW retains this phrase only when discussing the intellectual background for the project.
 
-A symbolic order is the schema-level container. Whether a specific symbolic order is also a *sacred political order* (see below) is a theory-level claim, not a schema constraint.
+The active case schema no longer uses `symbolicOrder*` field names. Cases use `sacredPoliticalOrder*` because the workbench's operational unit of analysis is a sacred political order, not the broader symbolic field.
 
-*Schema fields:* `symbolicOrderId`, `symbolicOrderName`, `symbolicOrderDefinition`, `symbolicOrderStrength`, `symbolicOrderStrengthRationale` in `case.schema.json`.
+*Historical note:* earlier scaffold documents used `symbolicOrder*` field names. Those remain only in `docs/history/` or in explicit lineage discussions.
 
 ---
 
 ## Sacred political order
 
-**Theory-specific interpretation of symbolic order.** A symbolic order organized around sacred objects, values, or persons — things whose violation is experienced collectively as desecration. See `site/methods/glossary.qmd` for the full theory definition.
+**Workbench unit of analysis.** A durable structure of shared political meaning organized around sacred objects, values, or persons — things whose violation is experienced collectively as desecration. See `site/methods/glossary.qmd` for the full theory definition.
 
-In practice: every case in PPW currently uses *sacred political order* as the operative interpretation of its symbolic order. The schema uses the generic `symbolicOrder` fields; the theory-level label appears in methodology documentation and site prose.
+In practice: every case in PPW currently uses *sacred political order* as the operative analytical unit. The schema, validator, data dictionary, and site prose all use the `sacredPoliticalOrder*` field family.
 
-*Relationship to `symbolicOrder`:* Sacred political order is one possible interpretation of symbolic order. Future cases might identify a symbolic order that is not organized around sacred objects; the schema accommodates this without change.
+*Schema fields:* `sacredPoliticalOrderId`, `sacredPoliticalOrderName`, `sacredPoliticalOrderDefinition`, `sacredPoliticalOrderStrength`, and `sacredPoliticalOrderStrengthRationale` in `case.schema.json`.
 
 ---
 

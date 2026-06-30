@@ -3,9 +3,9 @@ title: "Political Pathology Workbench"
 ---
 
 ::: {.callout-warning}
-This project is an active research spike. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
+This project is an active research repository. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
 :::
 
 The Political Pathology Workbench studies how sacred political orders become embodied in institutions, how those institutions respond to crisis, and when they generate sacrifice, reform, collapse, transformation, or stagnation.
 
-The current spike proves a thin end-to-end workflow: Source -> Passage -> Claim -> Interpretation -> Score -> Case Page.
+The current workbench maintains a traceable research workflow: Source -> Passage -> Claim -> Interpretation -> Score -> Case Page.

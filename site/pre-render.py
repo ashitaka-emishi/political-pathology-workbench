@@ -639,7 +639,7 @@ def render_proposed_law() -> str:
         "## Theoretical Cycle",
         "",
         "```",
-        "Symbolic Order",
+        "Sacred Political Order",
         "    ↓ seeks",
         "Institutional Embodiment",
         "    ↓ tends toward",
@@ -884,8 +884,8 @@ def render_working_paper(scores: list[dict], claims: list[dict],
         "",
         "### Outcome Taxonomy",
         "",
-        "The theory distinguishes six outcome types based on how an embodied symbolic "
-        "order responds when its self-preservation drive encounters crisis pressure:",
+        "The theory distinguishes six outcome types based on how an embodied sacred "
+        "political order responds when its self-preservation drive encounters crisis pressure:",
         "",
         "| Outcome | Description |",
         "|---|---|",
@@ -915,7 +915,7 @@ def render_working_paper(scores: list[dict], claims: list[dict],
         "",
         "Variables are scored 0–5. Scores require `confidence.value`, `confidence.label`, "
         "`confidence.rationale`, `reviewStatus`, `definitionRefs`, and `codebookVersion`. "
-        "Current core variables: Symbolic Order Strength, Sacralization, "
+        "Current core variables: Sacred Political Order Strength, Sacralization, "
         "Collective Immortality, Sacred Enemy, Corrigibility, Pathology. "
         "See [Scoring Rubric](../methods/scoring-rubric.qmd).",
         "",

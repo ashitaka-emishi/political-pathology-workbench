@@ -8,8 +8,8 @@
     "theoryId": { "type": "string" },
     "title": { "type": "string" },
     "version": { "type": "string" },
-    "status": { "type": "string" },
-    "publicationStatus": { "type": "string" },
+    "status": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+    "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" },
     "description": { "type": "string" }
   }
 }

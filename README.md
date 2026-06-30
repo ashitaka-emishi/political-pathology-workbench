@@ -2,19 +2,19 @@
 
 **Site:** [ashitaka-emishi.github.io/political-pathology-workbench](https://ashitaka-emishi.github.io/political-pathology-workbench/)
 
-> Status: active research spike. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
+> Status: active research repository. Materials may be incomplete, provisional, or under review. Public availability does not imply scholarly finality.
 
 The Political Pathology Workbench is a research platform for studying how sacred political orders become embodied in institutions, how those institutions respond to crisis, and when they generate sacrifice, violence, reform, collapse, transformation, or stagnation.
 
-This repository is the v2 scaffold implementation. It sets up theory-as-data, structured case folders, traceable evidence objects, validation tooling, Python analysis stubs, and a lean Quarto publication site.
+This repository is the coordination home for the Political Pathology Workbench. It maintains theory-as-data, structured case folders, traceable evidence objects, validation tooling, evidence-module metadata, generated indexes, Python analysis stubs, and a Quarto publication site.
 
-## Current Spike Goals
+## Current Project Focus
 
-- Represent three theory versions as data.
-- Maintain a balanced initial set of twenty cases.
-- Demonstrate a thin Source -> Passage -> Claim -> Interpretation -> Score chain for Nazi Germany.
-- Generate global JSON indexes from case folders.
-- Provide draft Quarto pages for public review.
+- Keep source-to-score evidence chains machine-checkable and reproducible.
+- Preserve clear boundaries between draft research objects, reviewed claims, and public-facing artifacts.
+- Integrate evidence modules from related child repositories without silently promoting provisional claims.
+- Generate site and data artifacts from canonical source records.
+- Use GitHub milestones and issues as the active roadmap.
 
 ## Quick Start
 

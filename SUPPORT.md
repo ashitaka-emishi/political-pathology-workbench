@@ -1,6 +1,6 @@
 # Support
 
-This is a public research spike, not a production service.
+This is a public research draft, not a production service.
 
 Use GitHub issues for:
 

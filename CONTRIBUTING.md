@@ -1,6 +1,6 @@
 # Contributing
 
-This repository is an active research spike. Contributions should preserve the distinction between provisional research objects and reviewed scholarly claims.
+This repository is an active research repository. Contributions should preserve the distinction between provisional research objects and reviewed scholarly claims.
 
 ## Ground Rules
 
