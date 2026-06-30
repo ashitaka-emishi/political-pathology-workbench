@@ -8,9 +8,9 @@
       "resumeCondition": "Milestone 17 corpus registry and claim import"
     },
     {
-      "limitation": "Case mapping for American Revolution and Napoleon cases is not yet confirmed in PPW",
+      "limitation": "American Revolution and Napoleon case folders do not yet exist in PPW",
       "impact": "Corpus subsets for those two cases cannot be imported until corresponding PPW case files exist",
-      "resumeCondition": "PPW #149-#151 (case mapping confirmation for American Revolution and Napoleon)"
+      "resumeCondition": "Create or approve PPW case folders for the proposed american-revolution and napoleonic-france targets recorded by PPW #149"
     },
     {
       "limitation": "Reliability sampling design for Sacrifice Law corpus not yet adapted to PPW framework",

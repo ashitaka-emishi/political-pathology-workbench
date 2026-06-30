@@ -23,18 +23,20 @@
     {
       "sourceCaseLabel": "American Revolution",
       "ppwCaseId": null,
+      "proposedPpwCaseId": "american-revolution",
       "proposedSubsetLinkPath": "data/cases/american-revolution/corpora/sacrifice-law-american-revolution-subset.json",
       "status": "not-created",
-      "reason": "No confirmed PPW case mapping and no existing american-revolution case folder.",
-      "blockingIssues": [149, 151]
+      "reason": "PPW #149 records american-revolution as the proposed target, but no american-revolution case folder exists.",
+      "blockingIssues": [152]
     },
     {
       "sourceCaseLabel": "Napoleon / Napoleonic Era",
       "ppwCaseId": null,
+      "proposedPpwCaseId": "napoleonic-france",
       "proposedSubsetLinkPath": "data/cases/napoleonic-france/corpora/sacrifice-law-napoleon-subset.json",
       "status": "not-created",
-      "reason": "No confirmed PPW case mapping and no existing napoleonic-france case folder.",
-      "blockingIssues": [149, 151]
+      "reason": "PPW #149 records napoleonic-france as the proposed target, but no napoleonic-france case folder exists.",
+      "blockingIssues": [152]
     }
   ],
   "ambiguousPotentialTargets": [

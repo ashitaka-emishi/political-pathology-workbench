@@ -1,11 +1,14 @@
 {
   "corpusId": "sacrifice-law-comparative-41",
   "originModuleId": "sacrifice-law-workbench",
+  "mappingPolicy": "ppwCaseId is populated only when a PPW case folder exists. proposedPpwCaseId records the intended canonical PPW target for source cases whose folders are missing.",
   "corpusCases": [
     {
       "sourceCase": "Lincoln / American Civil War (Union)",
       "ppwCaseId": "american-civil-war-union",
+      "proposedPpwCaseId": "american-civil-war-union",
       "ppwCaseMapped": true,
+      "ppwCaseFolderExists": true,
       "caseMappingStatus": "confirmed",
       "documentSubsetCount": null,
       "notes": "PPW case exists. Corpus subset composition will be documented when import-map data is available (PPW #138)."
@@ -13,7 +16,9 @@
     {
       "sourceCase": "Hitler / Nazi Germany",
       "ppwCaseId": "nazi-germany",
+      "proposedPpwCaseId": "nazi-germany",
       "ppwCaseMapped": true,
+      "ppwCaseFolderExists": true,
       "caseMappingStatus": "confirmed",
       "documentSubsetCount": null,
       "rightsNote": "Nazi-era texts: some are out of copyright; translations and scholarly apparatus require rights review before import.",
@@ -22,20 +27,45 @@
     {
       "sourceCase": "American Revolution",
       "ppwCaseId": null,
+      "proposedPpwCaseId": "american-revolution",
       "ppwCaseMapped": false,
-      "caseMappingStatus": "pending",
+      "ppwCaseFolderExists": false,
+      "caseMappingStatus": "missing-case-folder",
       "documentSubsetCount": null,
-      "blockingIssues": [149, 150, 151],
-      "notes": "No PPW case registered yet. Case mapping and PPW case creation required before this subset can be imported (PPW #149-#151)."
+      "blockingIssues": [152],
+      "requiredFollowUp": "Create or approve the american-revolution PPW case folder before importing this subset.",
+      "notes": "Proposed PPW canonical case ID recorded by PPW #149. No PPW case folder exists yet, so this subset remains blocked on follow-up case creation or mapping review."
     },
     {
       "sourceCase": "Napoleon / Napoleonic Era",
       "ppwCaseId": null,
+      "proposedPpwCaseId": "napoleonic-france",
       "ppwCaseMapped": false,
-      "caseMappingStatus": "pending",
+      "ppwCaseFolderExists": false,
+      "caseMappingStatus": "missing-case-folder",
       "documentSubsetCount": null,
-      "blockingIssues": [149, 150, 151],
-      "notes": "No PPW case registered yet. Case mapping and PPW case creation required before this subset can be imported (PPW #149-#151)."
+      "blockingIssues": [152],
+      "requiredFollowUp": "Create or approve the napoleonic-france PPW case folder before importing this subset.",
+      "notes": "Proposed PPW canonical case ID recorded by PPW #149. No PPW case folder exists yet, so this subset remains blocked on follow-up case creation or mapping review."
+    }
+  ],
+  "candidateMappingsRequiringReview": [
+    {
+      "sourceCase": "French Revolution",
+      "sourceCaseInCorpus": false,
+      "proposedPpwCaseId": "revolutionary-france",
+      "ppwCaseFolderExists": true,
+      "caseMappingStatus": "needs-review",
+      "notes": "Listed as a possible mapping in PPW #149, but the current canonical Sacrifice Law corpus metadata does not identify a French Revolution source case."
+    },
+    {
+      "sourceCase": "British World War I",
+      "sourceCaseInCorpus": false,
+      "proposedPpwCaseId": "world-war-i-nationalisms",
+      "alternateProposedPpwCaseId": "british-world-war-i",
+      "ppwCaseFolderExists": true,
+      "caseMappingStatus": "needs-review",
+      "notes": "Listed as a possible mapping in PPW #149, but the current canonical Sacrifice Law corpus metadata does not identify a British World War I source case. The existing world-war-i-nationalisms case is broader than a British-only target."
     }
   ]
 }
