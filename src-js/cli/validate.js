@@ -279,7 +279,7 @@ const evidenceModuleResult = validateEvidenceModules(root, caseIds);
 for (const e of evidenceModuleResult.errors) errors.push(e);
 for (const w of evidenceModuleResult.warnings) warnings.push(w);
 
-const corpusRegistryResult = validateCorpusRegistry(root, evidenceModuleResult.moduleIds);
+const corpusRegistryResult = validateCorpusRegistry(root, evidenceModuleResult.moduleIds, caseIds);
 for (const e of corpusRegistryResult.errors) errors.push(e);
 for (const w of corpusRegistryResult.warnings) warnings.push(w);
 

@@ -1,0 +1,16 @@
+{
+  "corpusId": "sacrifice-law-comparative-41",
+  "corpusName": "Sacrifice Law Comparative Corpus (41-document set)",
+  "corpusType": "comparative",
+  "originModuleId": "sacrifice-law-workbench",
+  "caseIds": ["american-civil-war-union", "nazi-germany"],
+  "documentCount": 41,
+  "corpusPurpose": "core",
+  "rightsStatus": "fair-use",
+  "normalizationStatus": "pending",
+  "segmentationStatus": "pending",
+  "annotationStatus": "pending",
+  "reliabilityStatus": "pending",
+  "claimPromotionStatus": "not-started",
+  "sourceIssueMigrationStatus": "in-progress"
+}

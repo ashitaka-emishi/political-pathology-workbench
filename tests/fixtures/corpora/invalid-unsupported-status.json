@@ -1,0 +1,15 @@
+{
+  "corpusId": "fixture-unsupported-status",
+  "corpusName": "Fixture Unsupported Status",
+  "corpusType": "invalid-type-not-in-enum",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseIds": ["american-civil-war-union"],
+  "corpusPurpose": "core",
+  "rightsStatus": "fair-use",
+  "normalizationStatus": "pending",
+  "segmentationStatus": "pending",
+  "annotationStatus": "pending",
+  "reliabilityStatus": "pending",
+  "claimPromotionStatus": "not-started",
+  "sourceIssueMigrationStatus": "in-progress"
+}

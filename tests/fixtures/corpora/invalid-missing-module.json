@@ -1,0 +1,15 @@
+{
+  "corpusId": "fixture-missing-module",
+  "corpusName": "Fixture Missing Module",
+  "corpusType": "deep-case",
+  "originModuleId": "nonexistent-module-does-not-exist",
+  "caseIds": ["american-civil-war-union"],
+  "corpusPurpose": "core",
+  "rightsStatus": "fair-use",
+  "normalizationStatus": "pending",
+  "segmentationStatus": "pending",
+  "annotationStatus": "pending",
+  "reliabilityStatus": "pending",
+  "claimPromotionStatus": "not-started",
+  "sourceIssueMigrationStatus": "in-progress"
+}
