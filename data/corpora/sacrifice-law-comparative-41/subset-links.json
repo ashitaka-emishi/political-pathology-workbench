@@ -24,19 +24,16 @@
       "subsetLinkPath": "data/cases/american-revolution/corpora/sacrifice-law-american-revolution-subset.json",
       "status": "created",
       "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#250"
-    }
-  ],
-  "deferredTargets": [
+    },
     {
       "sourceCaseLabel": "Napoleon / Napoleonic Era",
-      "ppwCaseId": null,
-      "proposedPpwCaseId": "napoleonic-france",
-      "proposedSubsetLinkPath": "data/cases/napoleonic-france/corpora/sacrifice-law-napoleon-subset.json",
-      "status": "not-created",
-      "reason": "PPW #149 records napoleonic-france as the proposed target, but no napoleonic-france case folder exists.",
-      "blockingIssues": [152]
+      "ppwCaseId": "napoleonic-france",
+      "subsetLinkPath": "data/cases/napoleonic-france/corpora/sacrifice-law-napoleon-subset.json",
+      "status": "created",
+      "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#251"
     }
   ],
+  "deferredTargets": [],
   "ambiguousPotentialTargets": [
     {
       "candidatePpwCaseId": "revolutionary-france",
@@ -57,6 +54,7 @@
   },
   "sourceIssueRefs": [
     "github:ashitaka-emishi/political-pathology-workbench#151",
-    "github:ashitaka-emishi/political-pathology-workbench#250"
+    "github:ashitaka-emishi/political-pathology-workbench#250",
+    "github:ashitaka-emishi/political-pathology-workbench#251"
   ]
 }

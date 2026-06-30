@@ -5,11 +5,10 @@
   "caseIds": [
     "american-civil-war-union",
     "nazi-germany",
-    "american-revolution"
-  ],
-  "proposedCaseIds": [
+    "american-revolution",
     "napoleonic-france"
   ],
+  "proposedCaseIds": [],
   "candidateCaseIdsRequiringReview": [
     "revolutionary-france",
     "world-war-i-nationalisms",
@@ -26,11 +25,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": "data/corpora/sacrifice-law-comparative-41/corpus.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-now",
@@ -42,10 +40,11 @@
       "governingIssues": [
         138,
         149,
-        250
+        250,
+        251
       ],
       "scheduledMilestone": 17,
-      "notes": "PPW #250 confirms american-revolution as a mapped case; import remains blocked for the Napoleon subset until the napoleonic-france case folder exists."
+      "notes": "PPW #250 and #251 confirm american-revolution and napoleonic-france as mapped cases with reference-only subset links. Document import remains pending for the corpus."
     },
     {
       "family": "corpus-metadata",
@@ -53,11 +52,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": "data/corpora/sacrifice-law-comparative-41/documents.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-now",
@@ -79,11 +77,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "candidateCaseIdsRequiringReview": [
         "revolutionary-france",
         "world-war-i-nationalisms",
@@ -107,7 +104,7 @@
         253
       ],
       "scheduledMilestone": 17,
-      "notes": "Lincoln, American Revolution, and Nazi Germany subset links are represented in existing PPW case folders. Napoleon has a proposed PPW case ID but remains deferred until its case folder is created or approved."
+      "notes": "Lincoln, American Revolution, Napoleon, and Nazi Germany subset links are represented in existing PPW case folders. Links are reference-only and do not promote child-repository support ratings."
     },
     {
       "family": "rights-review-records",
@@ -115,11 +112,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "blocked",
@@ -138,11 +134,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-later",
@@ -156,7 +151,7 @@
         251
       ],
       "scheduledMilestone": 17,
-      "notes": "Raw texts are blocked by rights review and by the missing PPW case folder for Napoleon."
+      "notes": "Raw texts are blocked by rights review and remain unimported even though the four source-case folders now exist in PPW."
     },
     {
       "family": "normalized-text-references",
@@ -164,11 +159,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -179,7 +173,7 @@
       "claimPromotionStatus": "not-started",
       "governingIssues": [],
       "scheduledMilestone": 17,
-      "notes": "Keep normalized text outputs in the child repository until rights review and complete PPW case-folder coverage are complete."
+      "notes": "Keep normalized text outputs in the child repository until rights review and passage-level PPW import decisions are complete."
     },
     {
       "family": "segmentation-outputs",
@@ -187,11 +181,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -210,11 +203,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -235,11 +227,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -261,11 +252,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -284,11 +274,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -310,11 +299,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-later",
@@ -335,11 +323,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": "data/evidence-modules/sacrifice-law-workbench/reliability.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-later",
@@ -360,11 +347,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "do-not-import",
@@ -386,11 +372,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "do-not-import",
@@ -409,11 +394,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench#174",
       "disposition": "reference-only",

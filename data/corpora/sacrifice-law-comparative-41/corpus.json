@@ -3,9 +3,14 @@
   "corpusName": "Sacrifice Law Comparative Corpus (41-document set)",
   "corpusType": "comparative",
   "originModuleId": "sacrifice-law-workbench",
-  "caseIds": ["american-civil-war-union", "american-revolution", "nazi-germany"],
+  "caseIds": [
+    "american-civil-war-union",
+    "american-revolution",
+    "nazi-germany",
+    "napoleonic-france"
+  ],
   "documentCount": 41,
-  "samplingFrame": "41-document stratified corpus spanning four cases (American Revolution, Napoleon, Lincoln, Nazi Germany) under Koenigsberg's Law of Sacrifice, selected via the sacrifice-law-workbench manifest-driven pipeline. PPW #250 confirms american-revolution as the PPW target for American Revolution; Napoleon still requires a PPW case folder before its subset can be imported. Corpus import into PPW is planned for Milestone 17.",
+  "samplingFrame": "41-document stratified corpus spanning four cases (American Revolution, Napoleon, Lincoln, Nazi Germany) under Koenigsberg's Law of Sacrifice, selected via the sacrifice-law-workbench manifest-driven pipeline. PPW #250 and #251 confirm american-revolution and napoleonic-france as PPW case targets with reference-only subset links. Corpus import into PPW is planned for Milestone 17.",
   "corpusPurpose": "core",
   "rightsStatus": "fair-use",
   "normalizationStatus": "pending",
@@ -21,7 +26,8 @@
     "github:ashitaka-emishi/political-pathology-workbench#151",
     "github:ashitaka-emishi/political-pathology-workbench#154",
     "github:ashitaka-emishi/political-pathology-workbench#250",
-    "github:ashitaka-emishi/political-pathology-workbench#192"
+    "github:ashitaka-emishi/political-pathology-workbench#192",
+    "github:ashitaka-emishi/political-pathology-workbench#251"
   ],
-  "notes": "caseIds lists the PPW case folders that currently exist and are mapped for this corpus (american-civil-war-union, american-revolution, nazi-germany). The Napoleon mapping is recorded in cases.json as proposedPpwCaseId napoleonic-france, but that case folder does not yet exist. No documents imported yet as of Milestone 17. Claim promotion is separate from corpus availability and requires PPW review gates."
+  "notes": "caseIds lists the PPW case folders that currently exist and are mapped for this corpus (american-civil-war-union, american-revolution, napoleonic-france, nazi-germany). No documents imported yet as of Milestone 17. Claim promotion is separate from corpus availability and requires PPW review gates."
 }

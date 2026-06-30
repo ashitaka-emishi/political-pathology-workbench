@@ -120,6 +120,18 @@
     "caseSelectionRole": "high-pathology-case"
   },
   {
+    "caseId": "napoleonic-france",
+    "title": "Napoleonic France",
+    "slug": "napoleonic-france",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "sacredPoliticalOrderId": "napoleonic-france-sacred-political-order",
+    "sacredPoliticalOrderName": "Napoleonic France sacred political order",
+    "sacredPoliticalOrderStrength": 3,
+    "caseSelectionRole": "deferred-case"
+  },
+  {
     "caseId": "nazi-germany",
     "title": "Nazi Germany",
     "slug": "nazi-germany",
