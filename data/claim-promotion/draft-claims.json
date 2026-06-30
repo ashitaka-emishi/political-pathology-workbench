@@ -1,0 +1,152 @@
+{
+  "fileVersion": "1.0",
+  "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/145",
+  "sourceModule": "lincoln-metaphor-analysis",
+  "importNotes": "Draft claim candidates derived from lincoln-metaphor-analysis Stage 4A cluster profiling. No claim in this file has been reviewed or promoted. All carry scoreImpact: candidate and reviewStatus: draft. Promotion requires passing the PPW claim-promotion gate (Milestone 18, PPW #129).",
+  "draftClaims": [
+    {
+      "draftClaimId": "lma-draft-claim-001",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "caseId": "american-civil-war-union",
+      "cluster": "obligatory-frame",
+      "claim": "Lincoln's rhetoric constructs the Civil War as a test that must be endured rather than won — an obligatory frame in which the nation has no choice but to pass through suffering to prove its founding promise. This frame appears across formal addresses (Gettysburg, Second Inaugural), private letters (to Hodges, 1864), and annual messages, suggesting a stable cognitive structure rather than an occasional rhetorical device.",
+      "sourceArtifacts": [
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-017",
+          "ppwSourceId": "lincoln-gettysburg-address-1863",
+          "passageIds": []
+        },
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-021",
+          "ppwSourceId": "lincoln-second-inaugural-1865",
+          "passageIds": []
+        },
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-018",
+          "ppwSourceId": null,
+          "passageIds": []
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate",
+      "limitations": [
+        "Passage-level anchoring not yet completed; claim rests on document-level corpus inventory, not imported passage records",
+        "Cross-register frequency not quantified; anecdotal cross-genre appearance cited but not systematically measured",
+        "Obligatory-frame definition may overlap with sacrifice cluster; conceptual boundary requires review-gate clarification"
+      ],
+      "promotionBlockers": [
+        "Passage records must be imported (PPW #143) and claim anchored to specific passages",
+        "Inter-annotator reliability check required for cluster-membership judgment",
+        "Claim-promotion gate not yet designed (PPW #129, Milestone 18)"
+      ]
+    },
+    {
+      "draftClaimId": "lma-draft-claim-002",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "caseId": "american-civil-war-union",
+      "cluster": "body-organic",
+      "claim": "Lincoln consistently uses organic body metaphors — bleeding wounds, healing, the sick body politic — to frame the Union not as a legal compact but as a living organism whose injury and recovery are morally legible. This framing intensifies after 1862 and reaches its apex in the Second Inaugural's 'every drop of blood' passage, structuring the war's meaning as medical rather than punitive.",
+      "sourceArtifacts": [
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-021",
+          "ppwSourceId": "lincoln-second-inaugural-1865",
+          "passageIds": []
+        },
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-014",
+          "ppwSourceId": null,
+          "passageIds": []
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate",
+      "limitations": [
+        "Passage-level anchoring not yet completed",
+        "Diachronic intensification claim (stronger after 1862) requires quantitative evidence from full passage import",
+        "Organic metaphor may be conventional political rhetoric of the period; comparative baseline against contemporaries (Douglas, Chase) not yet established"
+      ],
+      "promotionBlockers": [
+        "Passage records must be imported (PPW #143)",
+        "Contemporaneous-context comparison documents needed (PPW #197 reference tier)",
+        "Claim-promotion gate not yet designed (PPW #129)"
+      ]
+    },
+    {
+      "draftClaimId": "lma-draft-claim-003",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "caseId": "american-civil-war-union",
+      "cluster": "covenant-over-freedom",
+      "claim": "In Lincoln's Peoria Speech and subsequent antislavery addresses, the covenant with the Founders' principles (all men created equal) functions as the supreme moral authority over both the legal institution of slavery and the practical demands of war. Freedom is framed not as a natural right asserted from below but as a promise owed upward to a founding covenant — a structure that constrains the moral logic of emancipation.",
+      "sourceArtifacts": [
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-004",
+          "ppwSourceId": "lincoln-peoria-speech-1854",
+          "passageIds": []
+        },
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-005",
+          "ppwSourceId": "lincoln-house-divided-1858",
+          "passageIds": []
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate",
+      "limitations": [
+        "Passage-level anchoring not yet completed",
+        "Relationship between covenant-over-freedom cluster and obligatory-frame cluster is not yet formally distinguished; theoretical boundary requires review-gate adjudication",
+        "Emancipation Proclamation (lma-doc-015/016) explicitly suppresses covenant rhetoric in favor of military necessity; the cluster's absence in that document is a negative finding that should be incorporated"
+      ],
+      "promotionBlockers": [
+        "Passage records must be imported (PPW #143)",
+        "Cluster boundary definition requires inter-annotator reliability check",
+        "Claim-promotion gate not yet designed (PPW #129)"
+      ]
+    },
+    {
+      "draftClaimId": "lma-draft-claim-004",
+      "originModuleId": "lincoln-metaphor-analysis",
+      "caseId": "american-civil-war-union",
+      "cluster": "sacrifice",
+      "claim": "Lincoln's sacrifice cluster in the Gettysburg Address reframes soldiers' deaths as generative rather than tragic: the dead do not merely die for the Union but give birth to a new nation. This generative sacrifice logic — distinguishing Lincoln's rhetoric from pure martyrology — is absent from the Emancipation Proclamations, suggesting it is register-specific (formal civic address) rather than a universal feature of his moral vocabulary.",
+      "sourceArtifacts": [
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-017",
+          "ppwSourceId": "lincoln-gettysburg-address-1863",
+          "passageIds": []
+        },
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-015",
+          "ppwSourceId": null,
+          "passageIds": []
+        },
+        {
+          "type": "corpus-document",
+          "documentId": "lma-doc-016",
+          "ppwSourceId": null,
+          "passageIds": []
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate",
+      "limitations": [
+        "Passage-level anchoring not yet completed",
+        "Register-specificity claim (formal civic address vs. legal proclamation) requires systematic cross-register analysis across the full corpus",
+        "Generative vs. tragic sacrifice distinction requires precise operationalisation before it can be reliably coded by independent annotators"
+      ],
+      "promotionBlockers": [
+        "Passage records must be imported (PPW #143)",
+        "Cross-register corpus coverage requires validation-tier documents (PPW #196, pending LMA #114)",
+        "Claim-promotion gate not yet designed (PPW #129)"
+      ]
+    }
+  ]
+}
