@@ -36,7 +36,7 @@ The mapping record lives in `data/corpora/sacrifice-law-comparative-41/cases.jso
 
 Two additional candidates are recorded as mapping-review items, not active corpus cases:
 
-- French Revolution -> `revolutionary-france`
+- French Revolution -> `revolutionary-france` (deferred as out of scope for the current canonical corpus by PPW #252)
 - British World War I -> `world-war-i-nationalisms` or a possible `british-world-war-i`
 
 These candidates must not receive subset links unless the source corpus metadata is revised or a specific source subset is confirmed.

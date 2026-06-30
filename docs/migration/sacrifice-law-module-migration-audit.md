@@ -64,7 +64,7 @@ Follow-up issues carried forward from #152 and tracked by #148:
 |---|---|---|
 | #250 | Complete | Created the American Revolution PPW case folder and reference-only Sacrifice Law subset link. |
 | #251 | Complete | Created the Napoleonic France PPW case folder and reference-only Sacrifice Law subset link. |
-| #252 | Open | Review whether French Revolution belongs in the Sacrifice Law corpus mapping. |
+| #252 | Complete | Reviewed French Revolution and deferred it as out of scope for the current canonical Sacrifice Law corpus. |
 | #253 | Open | Review whether British World War I belongs in the Sacrifice Law corpus mapping. |
 
 ## 3. Child-Project Issue Migration
@@ -107,7 +107,7 @@ The canonical artifact-family inventory is `data/corpora/sacrifice-law-comparati
 | Hitler / Nazi Germany | `nazi-germany` exists | Confirmed; subset link exists, with rights review required for Nazi-era translations and scholarly apparatus. |
 | American Revolution | `american-revolution` exists | Confirmed; minimal case folder and reference-only subset link exist. |
 | Napoleon / Napoleonic Era | `napoleonic-france` exists | Confirmed; minimal case folder and reference-only subset link exist. |
-| French Revolution | Candidate `revolutionary-france` | Review-only; current canonical Sacrifice Law corpus metadata does not identify this as a source case. |
+| French Revolution | Candidate `revolutionary-france` | Deferred as out of scope for the current canonical corpus by PPW #252; no subset link should be created unless source metadata changes. |
 | British World War I | Candidate `world-war-i-nationalisms` or `british-world-war-i` | Review-only; current canonical Sacrifice Law corpus metadata does not identify this as a source case. |
 
 ## 6. Draft Claim State

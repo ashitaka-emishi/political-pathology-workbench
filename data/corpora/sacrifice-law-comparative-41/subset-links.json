@@ -38,8 +38,9 @@
     {
       "candidatePpwCaseId": "revolutionary-france",
       "proposedSubsetLinkPath": "data/cases/revolutionary-france/corpora/sacrifice-law-french-revolution-subset.json",
-      "status": "not-created",
-      "reason": "The issue listed this as a potential target, but the canonical Sacrifice Law corpus case mapping does not currently identify a French Revolution source case."
+      "status": "deferred-out-of-scope-current-corpus",
+      "reviewDecisionIssue": 252,
+      "reason": "Reviewed in PPW #252. The canonical Sacrifice Law corpus case mapping does not currently identify a French Revolution source case, so no subset link should be created unless source corpus metadata is revised or a specific French Revolution source subset is confirmed."
     },
     {
       "candidatePpwCaseId": "world-war-i-nationalisms",
