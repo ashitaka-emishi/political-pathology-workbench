@@ -75,8 +75,8 @@ It reconciles module records, corpus registry records, and migration manifest re
 
 **Corpus record summary:**
 - `corpusType`: deep-case; `corpusPurpose`: core
-- `documentCount`: 28 (v3 baseline); v4 expansion to 48 tracked in PPW #195
-- Three tiers documented: core (48-doc target, PPW #195), validation (75-100 docs, PPW #196), reference (PPW #197)
+- `documentCount`: 28 (confirmed v3 baseline); `registeredDocumentCount`: 36 (28 confirmed + 8 planned v4 additions from LMA #113, registered by PPW #195)
+- Three tiers documented: core (36 registered, 48-doc v4 target; gap of 12 pending LMA #113, PPW #195), validation (75-100 docs, PPW #196), reference (PPW #197)
 - All status fields: pending / not-started
 
 ### 3.2 sacrifice-law-comparative-41 (PPW #138)
@@ -117,11 +117,11 @@ These issues are within Milestone 15 scope but not yet closed:
 
 | Artifact | PPW Issue | Scheduled Milestone |
 |---|---|---|
-| 48-doc core corpus document inventory (v4 expansion) | #195 | 15 |
+| 36-doc core corpus inventory (28 confirmed + 8 planned v4 additions; 12-doc gap to 48-doc target pending LMA #113) | #195 | 15 |
 | 75-100 doc validation corpus inventory | #196 | 15 |
 | Search-only reference corpus inventory | #197 | 15 |
 
-These must be completed before Milestone 16 artifact-import work begins.
+PPW #195 has been substantially addressed by this PR (36 of 48 planned documents registered). PPW #196 and #197 remain open and must be completed before Milestone 16 artifact-import work begins.
 
 ### 4.3 Deferred to Milestone 16 (Lincoln)
 
@@ -251,7 +251,8 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 | American Revolution / Napoleon PPW case mapping not confirmed | SLW | High | #149, #150, #151 |
 | 7 absorbed source issues (LMA) not individually listed in source-issue-map.json | LMA | Low | Follow-up reconciliation |
 | Reliability sampling strategy not yet adapted to PPW | LMA, SLW | Medium | #199 (LMA), #192 (SLW) |
-| Per-corpus `documents[]` arrays empty — no document-level metadata yet | Both | Medium | #195, #196, #197 (LMA); no issue yet (SLW M17 import issue to be created) |
+| Per-corpus `documents[]` arrays empty — no document-level metadata yet | SLW | Medium | #196, #197 (LMA validation/reference tiers); no issue yet (SLW M17 import issue to be created) |
+| lincoln-deep-28 core-tier documents[] partially populated (36 of 48 planned entries; 12-doc gap pending LMA #113 resolution) | LMA | Low | #195 (substantially addressed) |
 | SLW raw-text import has no governing PPW issue (import-map.json ppwIssues: []) | SLW | Medium | (no issue; must be created for M17 planning) |
 | No schemas govern per-corpus folder files (corpus.json, documents.json, artifact-index.json) | Both | Low | (infrastructure gap, out of scope M15) |
 

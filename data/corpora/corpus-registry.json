@@ -6,7 +6,7 @@
     "originModuleId": "lincoln-metaphor-analysis",
     "caseIds": ["american-civil-war-union"],
     "documentCount": 28,
-    "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), selected for full annotation in lincoln-metaphor-analysis. A v4 expansion to 48 core documents is tracked in PPW #195. Validation (75-100 docs) and reference tiers are tracked in PPW #196 and #197 respectively as separate future corpus records.",
+    "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis. PPW #195 registered 36 documents: 28 confirmed (v3 baseline, present in corpus_manifest.json) plus 8 planned v4 additions from LMA #113. The v4 target of 48 requires 12 more documents when LMA #113 resolves. Validation (75-100 docs) and reference tiers tracked in PPW #196 and #197.",
     "corpusPurpose": "core",
     "rightsStatus": "fair-use",
     "normalizationStatus": "pending",
@@ -21,7 +21,7 @@
       "github:ashitaka-emishi/political-pathology-workbench#197",
       "github:ashitaka-emishi/political-pathology-workbench#198"
     ],
-    "notes": "Corpus document metadata and raw text import planned for Milestones 15-16 (see docs/architecture/imported-projects.md). No documents imported yet as of Milestone 15; per-corpus folder created in PPW #137."
+    "notes": "PPW #195 populated documents.json with 36 entries: 28 confirmed (v3 baseline from corpus_manifest.json) and 8 planned v4 additions from LMA #113. Per-corpus folder created in PPW #137. 12 more documents needed to reach v4 target of 48; these will be specified when LMA #113 resolves. Raw text import planned for Milestone 16 (PPW #198)."
   },
   {
     "corpusId": "sacrifice-law-comparative-41",
