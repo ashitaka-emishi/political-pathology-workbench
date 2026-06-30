@@ -1,0 +1,16 @@
+{
+  "draftClaimId": "fixture-draft-claim-001",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseId": "american-civil-war-union",
+  "claim": "Lincoln constructs the Civil War as an obligatory test rather than a choice, framing suffering as morally necessary to redeem the nation's founding promise.",
+  "reviewStatus": "draft",
+  "scoreImpact": "candidate",
+  "sourceArtifacts": [
+    {
+      "type": "corpus-document",
+      "documentId": "lma-doc-017",
+      "ppwSourceId": "lincoln-gettysburg-address-1863",
+      "passageIds": []
+    }
+  ]
+}

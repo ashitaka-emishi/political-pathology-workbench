@@ -9,7 +9,7 @@
     "validate": "node src-js/cli/validate.js",
     "generate": "node src-js/cli/generate-indexes.js",
     "site-data": "node src-js/cli/generate-site-data.js",
-    "test": "node tests/run-evidence-module-fixtures.js && node tests/run-corpus-fixtures.js",
+    "test": "node tests/run-evidence-module-fixtures.js && node tests/run-corpus-fixtures.js && node tests/run-claim-promotion-fixtures.js",
     "build": "npm run validate && npm run generate && npm run site-data"
   },
   "engines": {

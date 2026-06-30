@@ -1,0 +1,11 @@
+{
+  "promotionId": "fixture-prom-invalid-review",
+  "claimId": "lma-draft-claim-001",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseId": "american-civil-war-union",
+  "promotionStatus": "promoted-finding",
+  "reviewStatus": "draft",
+  "sourceRefs": ["lincoln-gettysburg-address-1863"],
+  "passageRefs": [],
+  "artifactRefs": []
+}
