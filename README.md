@@ -21,6 +21,7 @@ This repository is the coordination home for the Political Pathology Workbench. 
 ```sh
 npm run validate
 npm run generate
+npm run summary
 python3 -m political_pathology.scoring.summary
 ```
 
@@ -29,6 +30,8 @@ For Python imports from the local source tree:
 ```sh
 PYTHONPATH=src-py python3 -m political_pathology.scoring.summary
 ```
+
+`npm run summary` prints a project-wide evidence-module validation summary: module and corpus counts, artifact counts, claim-promotion counts by status (draft / reviewed / promoted / blocked), child-issue migration counts by disposition, and all validation warnings and failures. Run it after `npm run validate` for a human-readable overview, or as a standalone audit command. Exits non-zero if any validation error is found.
 
 ## Repository Map
 

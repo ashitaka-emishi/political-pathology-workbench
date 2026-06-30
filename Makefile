@@ -1,10 +1,13 @@
-.PHONY: validate generate site-data analyze pre-render render build publish-preview
+.PHONY: validate generate summary site-data analyze pre-render render build publish-preview
 
 validate:
 	npm run validate
 
 generate:
 	npm run generate
+
+summary:
+	npm run summary
 
 site-data:
 	npm run site-data
