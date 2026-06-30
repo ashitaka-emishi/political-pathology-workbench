@@ -5,7 +5,8 @@
   "originModuleId": "lincoln-metaphor-analysis",
   "caseIds": ["american-civil-war-union"],
   "documentCount": 28,
-  "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), selected for full annotation in lincoln-metaphor-analysis. A v4 expansion to 48 core documents is tracked in PPW #195. Validation (75-100 docs) and reference tiers are tracked in PPW #196 and #197 respectively.",
+  "registeredDocumentCount": 36,
+  "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis (pipeline_stage_completed: 4 in source manifest). PPW #195 registered 36 documents: 28 confirmed (v3 baseline, present in corpus_manifest.json) plus 8 planned v4 additions identified in LMA #113 but not yet in the source-repo manifest. The v4 target of 48 requires 12 more documents to be specified when LMA #113 is resolved. Validation (75-100 docs) and reference tiers tracked in PPW #196 and #197 respectively.",
   "corpusPurpose": "core",
   "rightsStatus": "fair-use",
   "normalizationStatus": "pending",
@@ -20,5 +21,5 @@
     "github:ashitaka-emishi/political-pathology-workbench#197",
     "github:ashitaka-emishi/political-pathology-workbench#198"
   ],
-  "notes": "Document-level metadata (titles, dates, source URLs) will be populated by PPW #195 (48-doc core inventory), #196 (validation tier), and #197 (reference tier). No documents imported yet as of Milestone 15. Raw text import planned for Milestone 16 (PPW #198)."
+  "notes": "PPW #195 populated documents.json with 36 document entries: 28 confirmed (v3 baseline from corpus_manifest.json) and 8 planned v4 additions from LMA #113. documentCount (28) reflects confirmed pipeline documents; registeredDocumentCount (36) reflects documents.json entries including planned additions. 12 more documents are needed to reach the v4 target of 48; these will be specified when LMA #113 is resolved. Validation inventory (PPW #196) and reference inventory (PPW #197) remain pending. Raw text import planned for Milestone 16 (PPW #198)."
 }

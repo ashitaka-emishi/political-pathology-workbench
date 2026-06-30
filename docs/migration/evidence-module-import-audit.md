@@ -69,7 +69,7 @@ It reconciles module records, corpus registry records, and migration manifest re
 | File | Status |
 |---|---|
 | `data/corpora/lincoln-deep-28/corpus.json` | Created |
-| `data/corpora/lincoln-deep-28/documents.json` | Created (empty documents[]) |
+| `data/corpora/lincoln-deep-28/documents.json` | Created (empty documents[]) in PPW #137; populated with 36 entries in PPW #195 |
 | `data/corpora/lincoln-deep-28/artifact-index.json` | Created |
 | `data/corpora/corpus-registry.json` (lincoln-deep-28 entry) | Updated |
 
