@@ -5,7 +5,8 @@
     "claim": "The Grundgesetz placed human dignity beyond political revision, embedding a constitutional limit on collective-body claims as the structural foundation of the postwar German sacred political order.",
     "derivedFrom": [
       "postwar-germany-passage-001",
-      "postwar-germany-passage-002"
+      "postwar-germany-passage-002",
+      "postwar-germany-passage-003"
     ],
     "createdBy": "human",
     "reviewedBy": "andrew-hammer",
@@ -14,10 +15,9 @@
     "confidence": {
       "value": 0.76,
       "label": "moderate-high",
-      "rationale": "Both Grundgesetz passages advanced to evidence-review after text confirmation against the official Bundestag English translation at gesetze-im-internet.de. Art. 1(1) confirmed verbatim; Art. 79(3) text corrected ('on principle' → 'in principle'). Confidence raised from 0.72 reflecting confirmed passage integrity. Capped pending chain expansion and secondary-source corroboration.",
+      "rationale": "Both Grundgesetz passages advanced to evidence-review after text confirmation against the official Bundestag English translation at gesetze-im-internet.de. Art. 1(1) confirmed verbatim; Art. 79(3) text corrected ('on principle' → 'in principle'). Adenauer's 1949 government declaration provides corroborating evidence that the founding executive framed democracy and rule of law as commitments to be defended. Confidence raised from 0.72 reflecting confirmed passage integrity and corroborating support.",
       "uncertaintyFactors": [
-        "chain-requires-expansion",
-        "single-source"
+        "adenauer-english-translation-physical-verification-pending"
       ]
     }
   },
