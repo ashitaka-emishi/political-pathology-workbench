@@ -12,6 +12,36 @@
       "role": "primary-grounds",
       "access": "public-domain-or-open",
       "notes": "Public domain. Verified at Avalon Project, Yale Law School."
+    },
+    {
+      "sourceId": "lincoln-lyceum-address-1838",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Collected Works of Abraham Lincoln vol.1 pp.108-115 (Basler ed.)."
+    },
+    {
+      "sourceId": "lincoln-peoria-speech-1854",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Collected Works of Abraham Lincoln vol.2 pp.247-283 (Basler ed.)."
+    },
+    {
+      "sourceId": "lincoln-house-divided-1858",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Collected Works of Abraham Lincoln vol.2 pp.461-469 (Basler ed.)."
+    },
+    {
+      "sourceId": "lincoln-cooper-union-1860",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Collected Works of Abraham Lincoln vol.3 pp.522-550 (Basler ed.)."
+    },
+    {
+      "sourceId": "lincoln-first-inaugural-1861",
+      "role": "primary-grounds",
+      "access": "public-domain-or-open",
+      "notes": "Public domain. Collected Works of Abraham Lincoln vol.4 pp.262-271 (Basler ed.). Note: some passages revised by Seward; authorshipConfidence: partial for affected passages (see lma-doc-009)."
     }
   ]
 }

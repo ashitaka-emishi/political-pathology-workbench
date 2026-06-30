@@ -2,9 +2,16 @@
   "corpusId": "lincoln-deep-28",
   "importStatus": "partial",
   "importNotes": "36 of 48 planned v4 core corpus documents are registered here: 28 confirmed documents from the current lincoln-metaphor-analysis corpus_manifest.json (all at pipeline_stage_completed: 4) and 8 additional documents identified in LMA issue #113 as v4 priority additions not yet in the source-repo manifest. The remaining 12 documents needed to reach the 48-doc v4 target have not yet been specified in the source repository (LMA #113 is still open). This inventory will be updated when the child-repo v4 corpus expansion is complete. Provenance source: ashitaka-emishi/lincoln-metaphor-analysis.",
-  "ppwInventoryIssues": [195, 196, 197],
+  "ppwInventoryIssues": [
+    195,
+    196,
+    197,
+    143
+  ],
   "sourceInventoryRef": "ashitaka-emishi/lincoln-metaphor-analysis",
   "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+  "ppwSourceMappingStatus": "partial",
+  "ppwSourceMappingNote": "PPW source IDs (ppwSourceId) are assigned per document where a matching entry exists in bibliography/sources.csl.json and data/cases/american-civil-war-union/source-pack.json. As of PPW #143, 7 of 36 documents are mapped: lma-doc-001 (Lyceum Address), lma-doc-004 (Peoria Speech), lma-doc-005 (House Divided), lma-doc-007 (Cooper Union), lma-doc-009 (First Inaugural), lma-doc-017 (Gettysburg Address), lma-doc-021 (Second Inaugural). Remaining 29 documents carry ppwSourceStatus: unmapped and ppwSourceId: null; they may still be cited via sourceUrl and sourceEdition fields. Source-pack expansion continues as follow-on work.",
   "documentTiers": [
     {
       "tier": "core",
@@ -33,7 +40,7 @@
       "tierDefinition": {
         "annotationLevel": "validation",
         "ppwAnnotationScope": "passage-level segmentation only; no claim extraction, no scoring",
-        "vsCoreTier": "Core tier receives full annotation pipeline (passages → claims → interpretations → scores). Validation tier receives passage segmentation only, enabling reliability sampling without requiring full claim extraction.",
+        "vsCoreTier": "Core tier receives full annotation pipeline (passages \u2192 claims \u2192 interpretations \u2192 scores). Validation tier receives passage segmentation only, enabling reliability sampling without requiring full claim extraction.",
         "reliabilityUse": "Stratified sample from validation tier used for inter-annotator reliability study (PPW #199). Annotators code passages independently; agreement measured against core-tier adjudicated annotations.",
         "negativeUse": "Validation tier documents outside the core set test for recurrence (does metaphor cluster appear in less-studied documents?) and negative findings (documents in the same genre or period where cluster is absent)."
       },
@@ -46,7 +53,7 @@
         },
         {
           "category": "proclamations",
-          "description": "Thanksgiving and national day proclamations (1861-1865); Proclamation of Amnesty and Reconstruction (December 8, 1863) and related proclamations. Note: avoid double-counting with reconstruction-documents category — the Proclamation of Amnesty should be counted in only one category.",
+          "description": "Thanksgiving and national day proclamations (1861-1865); Proclamation of Amnesty and Reconstruction (December 8, 1863) and related proclamations. Note: avoid double-counting with reconstruction-documents category \u2014 the Proclamation of Amnesty should be counted in only one category.",
           "estimatedCount": "8-12",
           "rationale": "Legal/ritual register; test whether covenant and sacrifice metaphors appear in formal proclamation genre or are suppressed as in Emancipation Proclamations"
         },
@@ -93,7 +100,7 @@
           "rationale": "Diachronic endpoint for organism cluster beyond Last Public Address; tracks post-war body-politic frame"
         }
       ],
-      "notes": "The 36 documents registered in the core tier (#195) are implicitly included in the validation tier — they receive validation-level annotation (passage segmentation) as a subset of their full core-tier processing. This `currentCount: 0` reflects additional-only documents beyond the core set that have not yet been individually selected. Specific document selection requires LMA #114 to be resolved in the child repository. Validation tier documents will be added to this documents[] array when LMA #114 closes."
+      "notes": "The 36 documents registered in the core tier (#195) are implicitly included in the validation tier \u2014 they receive validation-level annotation (passage segmentation) as a subset of their full core-tier processing. This `currentCount: 0` reflects additional-only documents beyond the core set that have not yet been individually selected. Specific document selection requires LMA #114 to be resolved in the child repository. Validation tier documents will be added to this documents[] array when LMA #114 closes."
     },
     {
       "tier": "reference",
@@ -108,15 +115,15 @@
       "tierDefinition": {
         "annotationLevel": "reference",
         "ppwAnnotationScope": "search indexing only; no passage segmentation, no claim extraction, no scoring",
-        "vsCoreTier": "Core tier receives full annotation pipeline (passages → claims → interpretations → scores). Reference tier is indexed only — documents are retrievable and citable but carry no annotation structure.",
-        "vsValidationTier": "Validation tier receives passage segmentation for reliability sampling. Reference tier receives no annotation at all — not even passage boundaries.",
+        "vsCoreTier": "Core tier receives full annotation pipeline (passages \u2192 claims \u2192 interpretations \u2192 scores). Reference tier is indexed only \u2014 documents are retrievable and citable but carry no annotation structure.",
+        "vsValidationTier": "Validation tier receives passage segmentation for reliability sampling. Reference tier receives no annotation at all \u2014 not even passage boundaries.",
         "searchUse": "Reference-tier documents enable contextual search across a broader Lincoln corpus: keyword queries, inter-document navigation, and negative-space checks (confirming a metaphor cluster is absent in a given register or period).",
         "annotationExclusion": "Reference tier documents must NOT be promoted to claim candidates or used as the basis for scoring without explicit upgrade to validation or core tier."
       },
       "candidateCategories": [
         {
           "category": "broader-collected-works",
-          "description": "Lincoln Collected Works documents not in core or validation tiers — campaign speeches, lesser-known addresses, minor correspondence. Note: the congressional-speeches, legal-documents, and campaign-materials categories below are subsets of this broader pool; do not count a document in both this category and a named subset category.",
+          "description": "Lincoln Collected Works documents not in core or validation tiers \u2014 campaign speeches, lesser-known addresses, minor correspondence. Note: the congressional-speeches, legal-documents, and campaign-materials categories below are subsets of this broader pool; do not count a document in both this category and a named subset category.",
           "estimatedCount": "open",
           "rationale": "Exhaustive Lincoln coverage for search; ensures no significant document is outside the search index"
         },
@@ -142,7 +149,7 @@
           "category": "contemporaneous-context",
           "description": "Selected documents by contemporaries (Douglas, Chase, Seward, Frederick Douglass) for comparative-context search",
           "estimatedCount": "10-20",
-          "rationale": "Non-Lincoln documents for negative-space and contrast searches; must be marked authorId ≠ Lincoln and excluded from any Lincoln-specific metaphor scoring",
+          "rationale": "Non-Lincoln documents for negative-space and contrast searches; must be marked authorId \u2260 Lincoln and excluded from any Lincoln-specific metaphor scoring",
           "authorshipNote": "These documents are NOT Lincoln-authored. Use the author field (not 'Lincoln') and corpusTier field to prevent accidental inclusion in Lincoln-metaphor scoring runs."
         },
         {
@@ -153,7 +160,7 @@
           "textQualityNote": "Transcription fidelity varies; flag with riskFlags: [transcription-uncertainty] and do not use as primary text for any annotation work."
         }
       ],
-      "notes": "The core (36 registered) and validation (75-100 total) tier documents are implicitly included in the reference index — all annotated documents are also searchable. This `currentCount: 0` reflects additional-only reference documents beyond the validation set that have not yet been individually selected. targetCount is null (open-ended): the reference corpus grows to encompass whatever documents are useful for contextual search without a fixed ceiling. Contemporaneous-context documents (non-Lincoln) must be clearly marked to prevent inclusion in metaphor-scoring runs. Specific document selection requires LMA #115 to be resolved in the child repository."
+      "notes": "The core (36 registered) and validation (75-100 total) tier documents are implicitly included in the reference index \u2014 all annotated documents are also searchable. This `currentCount: 0` reflects additional-only reference documents beyond the validation set that have not yet been individually selected. targetCount is null (open-ended): the reference corpus grows to encompass whatever documents are useful for contextual search without a fixed ceiling. Contemporaneous-context documents (non-Lincoln) must be clearly marked to prevent inclusion in metaphor-scoring runs. Specific document selection requires LMA #115 to be resolved in the child repository."
     }
   ],
   "documents": [
@@ -179,9 +186,13 @@
       "riskFlags": [],
       "analyticalPriority": "high",
       "wordCountApprox": 3000,
-      "selectionRationale": "Earliest major speech. Proto-covenant and proto-organism metaphors before Lincoln has political stakes — valuable baseline.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Earliest major speech. Proto-covenant and proto-organism metaphors before Lincoln has political stakes \u2014 valuable baseline.",
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": "lincoln-lyceum-address-1838",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-002",
@@ -205,9 +216,13 @@
       "riskFlags": [],
       "analyticalPriority": "medium",
       "wordCountApprox": 2800,
-      "selectionRationale": "Body/disease cluster in alcohol reform context — establishes pre-political use of organic metaphors.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Body/disease cluster in alcohol reform context \u2014 establishes pre-political use of organic metaphors.",
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-003",
@@ -232,8 +247,12 @@
       "analyticalPriority": "medium",
       "wordCountApprox": 3500,
       "selectionRationale": "Ancestral-debt cluster. Lincoln positions Clay as exemplar of covenant-keeping.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-004",
@@ -254,12 +273,18 @@
       "sourceEdition": "Collected Works of Abraham Lincoln, University of Michigan digital edition",
       "editorialStatus": "reported_or_extemporaneous_text_with_transcription_noise",
       "authorshipConfidence": 0.91,
-      "riskFlags": ["transcription_noise"],
+      "riskFlags": [
+        "transcription_noise"
+      ],
       "analyticalPriority": "high",
       "wordCountApprox": 17000,
       "selectionRationale": "First major deployment of experiment/proposition frame re: slavery. 17,000 words.",
-      "knownLimitations": ["Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": "lincoln-peoria-speech-1854",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-005",
@@ -284,8 +309,12 @@
       "analyticalPriority": "critical",
       "wordCountApprox": 3200,
       "selectionRationale": "Body-organism cluster at full intensity. Dual activation: house = body AND household covenant.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": "lincoln-house-divided-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-006a",
@@ -307,12 +336,18 @@
       "editorialStatus": "newspaper_transcription_with_variant_risk",
       "authorshipConfidence": 0.83,
       "authorshipNotes": "Transcribed from newspaper accounts; annotate Lincoln turns only.",
-      "riskFlags": ["transcription_variants"],
+      "riskFlags": [
+        "transcription_variants"
+      ],
       "analyticalPriority": "high",
       "wordCountApprox": 22000,
       "selectionRationale": "Metaphors under adversarial pressure. Annotate Lincoln turns only.",
-      "knownLimitations": ["Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-006b",
@@ -334,12 +369,18 @@
       "editorialStatus": "newspaper_transcription_with_variant_risk",
       "authorshipConfidence": 0.83,
       "authorshipNotes": "Transcribed from newspaper accounts; annotate Lincoln turns only.",
-      "riskFlags": ["transcription_variants"],
+      "riskFlags": [
+        "transcription_variants"
+      ],
       "analyticalPriority": "high",
       "wordCountApprox": 21000,
       "selectionRationale": "Proposition cluster under maximum argumentative pressure.",
-      "knownLimitations": ["Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-006c",
@@ -361,12 +402,18 @@
       "editorialStatus": "newspaper_transcription_with_variant_risk",
       "authorshipConfidence": 0.82,
       "authorshipNotes": "Transcribed from newspaper accounts; annotate Lincoln turns only.",
-      "riskFlags": ["transcription_variants"],
+      "riskFlags": [
+        "transcription_variants"
+      ],
       "analyticalPriority": "medium",
       "wordCountApprox": 20000,
-      "selectionRationale": "Southern IL audience — watch for metaphor suppression vs. northern venues.",
-      "knownLimitations": ["Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Southern IL audience \u2014 watch for metaphor suppression vs. northern venues.",
+      "knownLimitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-006d",
@@ -388,12 +435,18 @@
       "editorialStatus": "newspaper_transcription_with_variant_risk",
       "authorshipConfidence": 0.82,
       "authorshipNotes": "Transcribed from newspaper accounts; annotate Lincoln turns only.",
-      "riskFlags": ["transcription_variants"],
+      "riskFlags": [
+        "transcription_variants"
+      ],
       "analyticalPriority": "medium",
       "wordCountApprox": 20500,
       "selectionRationale": "CRITICAL for absence analysis: Lincoln suppresses equality-proposition cluster here. Tag explicitly.",
-      "knownLimitations": ["Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-006e",
@@ -415,12 +468,18 @@
       "editorialStatus": "newspaper_transcription_with_variant_risk",
       "authorshipConfidence": 0.83,
       "authorshipNotes": "Transcribed from newspaper accounts; annotate Lincoln turns only.",
-      "riskFlags": ["transcription_variants"],
+      "riskFlags": [
+        "transcription_variants"
+      ],
       "analyticalPriority": "medium",
       "wordCountApprox": 19000,
       "selectionRationale": "Compare cluster activation with Jonesboro (suppressed) and Galesburg (receptive).",
-      "knownLimitations": ["Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-006f",
@@ -442,12 +501,18 @@
       "editorialStatus": "newspaper_transcription_with_variant_risk",
       "authorshipConfidence": 0.83,
       "authorshipNotes": "Transcribed from newspaper accounts; annotate Lincoln turns only.",
-      "riskFlags": ["transcription_variants"],
+      "riskFlags": [
+        "transcription_variants"
+      ],
       "analyticalPriority": "medium",
       "wordCountApprox": 21000,
       "selectionRationale": "Included as the sixth Lincoln-Douglas debate for full debate-series coverage and register-controlled comparison.",
-      "knownLimitations": ["Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-006g",
@@ -469,12 +534,18 @@
       "editorialStatus": "newspaper_transcription_with_variant_risk",
       "authorshipConfidence": 0.83,
       "authorshipNotes": "Transcribed from newspaper accounts; annotate Lincoln turns only.",
-      "riskFlags": ["transcription_variants"],
+      "riskFlags": [
+        "transcription_variants"
+      ],
       "analyticalPriority": "high",
       "wordCountApprox": 19500,
-      "selectionRationale": "Final debate — Lincoln's closing synthesis after 7 rounds of adversarial pressure.",
-      "knownLimitations": ["Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Final debate \u2014 Lincoln's closing synthesis after 7 rounds of adversarial pressure.",
+      "knownLimitations": [
+        "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-007",
@@ -499,8 +570,12 @@
       "analyticalPriority": "critical",
       "wordCountApprox": 7700,
       "selectionRationale": "Best single document for fathers/inheritance cluster. Lincoln cites founders by name.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": "lincoln-cooper-union-1860",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-008",
@@ -522,12 +597,18 @@
       "editorialStatus": "multiple_version_text",
       "authorshipConfidence": 0.95,
       "authorshipNotes": "Two versions exist: extemporaneous transcription and Lincoln's written reconstruction. Analyze both.",
-      "riskFlags": ["two_versions"],
+      "riskFlags": [
+        "two_versions"
+      ],
       "analyticalPriority": "medium",
       "wordCountApprox": 150,
       "selectionRationale": "Providence cluster in unguarded form. Lincoln speaking extemporaneously about his own death.",
-      "knownLimitations": ["Two textual versions circulate; variant-sensitive claims should identify the version used."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Two textual versions circulate; variant-sensitive claims should identify the version used."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-009",
@@ -549,12 +630,18 @@
       "editorialStatus": "collaborative_revision_with_seward_passages",
       "authorshipConfidence": 0.93,
       "authorshipNotes": "Seward-origin/revised closing peroration. Use three tiers: received text, Lincoln-adopted Seward-origin wording, and strict Lincoln-origin evidence.",
-      "riskFlags": ["co_authored_seward"],
+      "riskFlags": [
+        "co_authored_seward"
+      ],
       "analyticalPriority": "critical",
       "wordCountApprox": 3600,
       "selectionRationale": "Retain as a Lincoln-primary inaugural address while applying sentence-level Seward controls: received text, Lincoln-adopted wording, and strict Lincoln-origin evidence.",
-      "knownLimitations": ["Includes Seward-origin/revised closing passages; authorship-sensitive analysis should caveat inst_00076 and exclude inst_00077 from Lincoln-sole or strict Lincoln-origin claims."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Includes Seward-origin/revised closing passages; authorship-sensitive analysis should caveat inst_00076 and exclude inst_00077 from Lincoln-sole or strict Lincoln-origin claims."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": "lincoln-first-inaugural-1861",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-010",
@@ -579,8 +666,12 @@
       "analyticalPriority": "high",
       "wordCountApprox": 6900,
       "selectionRationale": "Experiment/proposition most explicit here. Note how metaphors operate in administrative register.",
-      "knownLimitations": ["Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-011",
@@ -602,12 +693,19 @@
       "editorialStatus": "private_fragment_with_uncertain_date",
       "authorshipConfidence": 0.85,
       "authorshipNotes": "Date uncertain; probably January 1861. Private note with no intended audience.",
-      "riskFlags": ["date_uncertain"],
+      "riskFlags": [
+        "date_uncertain"
+      ],
       "analyticalPriority": "high",
       "wordCountApprox": 200,
       "selectionRationale": "Lincoln privately reasons Union is 'picture of silver', liberty the 'apple of gold'. Rare explicit metaphor theorizing. High epistemic value.",
-      "knownLimitations": ["Private fragment with uncertain date; diachronic placement should be treated cautiously.", "Private fragment has limited audience context and short length; frequency claims require caution."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Private fragment with uncertain date; diachronic placement should be treated cautiously.",
+        "Private fragment has limited audience context and short length; frequency claims require caution."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-012",
@@ -632,8 +730,12 @@
       "analyticalPriority": "critical",
       "wordCountApprox": 450,
       "selectionRationale": "CRITICAL. Metaphor suppression event. Written 2 months before Preliminary Emancipation. Track covenant-over-freedom suppression.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-013",
@@ -653,13 +755,17 @@
       "sourceUrl": "https://quod.lib.umich.edu/l/lincoln/lincoln5/1:345",
       "sourceEdition": "Collected Works of Abraham Lincoln, University of Michigan digital edition",
       "editorialStatus": "official_legal_text",
-      "authorshipConfidence": 0.90,
+      "authorshipConfidence": 0.9,
       "riskFlags": [],
       "analyticalPriority": "medium",
       "wordCountApprox": 700,
       "selectionRationale": "Deliberately flat. Absence of birth/body clusters is the finding. Use as control document.",
-      "knownLimitations": ["Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-014",
@@ -683,9 +789,13 @@
       "riskFlags": [],
       "analyticalPriority": "high",
       "wordCountApprox": 6300,
-      "selectionRationale": "'Last best hope of earth' — experiment frame at high intensity in administrative register.",
-      "knownLimitations": ["Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "'Last best hope of earth' \u2014 experiment frame at high intensity in administrative register.",
+      "knownLimitations": [
+        "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-015",
@@ -705,13 +815,17 @@
       "sourceUrl": "https://quod.lib.umich.edu/l/lincoln/lincoln6/1:20",
       "sourceEdition": "Collected Works of Abraham Lincoln, University of Michigan digital edition",
       "editorialStatus": "official_legal_text",
-      "authorshipConfidence": 0.90,
+      "authorshipConfidence": 0.9,
       "riskFlags": [],
       "analyticalPriority": "medium",
       "wordCountApprox": 700,
-      "selectionRationale": "Compare to preliminary — same flatness. The document actually freeing enslaved people contains almost no metaphor. Flatness is data.",
-      "knownLimitations": ["Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Compare to preliminary \u2014 same flatness. The document actually freeing enslaved people contains almost no metaphor. Flatness is data.",
+      "knownLimitations": [
+        "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-016",
@@ -736,8 +850,12 @@
       "analyticalPriority": "high",
       "wordCountApprox": 1300,
       "selectionRationale": "Written to be read aloud at rally. Defends emancipation to war Democrats. Track obligatory frame distribution across racial lines.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-017",
@@ -759,12 +877,18 @@
       "editorialStatus": "manuscript_variant_tradition",
       "authorshipConfidence": 0.99,
       "authorshipNotes": "Use Bliss copy as authoritative text.",
-      "riskFlags": ["manuscript_variants"],
+      "riskFlags": [
+        "manuscript_variants"
+      ],
       "analyticalPriority": "critical",
       "wordCountApprox": 272,
       "selectionRationale": "272 words. Birth, proposition, sacrifice, ancestral-debt all present. Highest metaphor density. Use Bliss copy.",
-      "knownLimitations": ["Multiple manuscript witnesses exist; variant-sensitive claims should identify the copy used."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Multiple manuscript witnesses exist; variant-sensitive claims should identify the copy used."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": "lincoln-gettysburg-address-1863",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-018",
@@ -789,8 +913,12 @@
       "analyticalPriority": "high",
       "wordCountApprox": 100,
       "selectionRationale": "Private note sealed from cabinet. Providence cluster in purely private form. Key test: does public providence rhetoric reflect genuine private cognition?",
-      "knownLimitations": ["Private fragment has limited audience context and short length; frequency claims require caution."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Private fragment has limited audience context and short length; frequency claims require caution."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-019",
@@ -815,8 +943,12 @@
       "analyticalPriority": "critical",
       "wordCountApprox": 650,
       "selectionRationale": "'I claim not to have controlled events but confess plainly that events have controlled me.' Obligatory frame canonical. Also proto-Second-Inaugural theodicy.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-020",
@@ -837,12 +969,18 @@
       "sourceEdition": "Collected Works of Abraham Lincoln, University of Michigan digital edition",
       "editorialStatus": "reported_or_extemporaneous_text_with_transcription_noise",
       "authorshipConfidence": 0.88,
-      "riskFlags": ["transcription_noise"],
+      "riskFlags": [
+        "transcription_noise"
+      ],
       "analyticalPriority": "medium",
       "wordCountApprox": 350,
-      "selectionRationale": "Extemporaneous. Experiment/proof frame unguarded — election result as empirical evidence.",
-      "knownLimitations": ["Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Extemporaneous. Experiment/proof frame unguarded \u2014 election result as empirical evidence.",
+      "knownLimitations": [
+        "Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-doc-021",
@@ -867,8 +1005,12 @@
       "analyticalPriority": "critical",
       "wordCountApprox": 700,
       "selectionRationale": "All clusters present. Providence/theodicy at full development. Distributed guilt. Obligatory frame at maximum. Diachronic endpoint.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": "lincoln-second-inaugural-1865",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-022",
@@ -893,8 +1035,12 @@
       "analyticalPriority": "high",
       "wordCountApprox": 1900,
       "selectionRationale": "Reconstruction policy. Wound-and-healing now programmatic. Diachronic endpoint for organism cluster. Delivered 4 days before assassination.",
-      "knownLimitations": ["No special provenance caution recorded."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "No special provenance caution recorded."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-001",
@@ -919,8 +1065,12 @@
       "analyticalPriority": "medium",
       "wordCountApprox": 1200,
       "selectionRationale": "Lincoln's first public document (age 23). Earliest baseline for political voice before covenant and organism metaphors develop. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-002",
@@ -944,9 +1094,13 @@
       "riskFlags": [],
       "analyticalPriority": "medium",
       "wordCountApprox": 350,
-      "selectionRationale": "Lincoln's private pessimism about peaceful resolution — 'blood will flow' — written ten months after Peoria as Lincoln processes the limits of argument. Covenant-breaking frame in private register. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Lincoln's private pessimism about peaceful resolution \u2014 'blood will flow' \u2014 written ten months after Peoria as Lincoln processes the limits of argument. Covenant-breaking frame in private register. Required addition from LMA v4 corpus expansion (LMA #113).",
+      "knownLimitations": [
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-003",
@@ -970,9 +1124,13 @@
       "riskFlags": [],
       "analyticalPriority": "high",
       "wordCountApprox": 750,
-      "selectionRationale": "Nine days after Robertson letter. Lincoln explains his moral position on slavery to a slaveowner friend. Nation-as-body frame in private register — highly candid. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Nine days after Robertson letter. Lincoln explains his moral position on slavery to a slaveowner friend. Nation-as-body frame in private register \u2014 highly candid. Required addition from LMA v4 corpus expansion (LMA #113).",
+      "knownLimitations": [
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-004",
@@ -993,12 +1151,19 @@
       "sourceEdition": "Collected Works of Abraham Lincoln, University of Michigan digital edition",
       "editorialStatus": "standard_collected_works_text",
       "authorshipConfidence": 0.94,
-      "riskFlags": ["transcription_noise"],
+      "riskFlags": [
+        "transcription_noise"
+      ],
       "analyticalPriority": "high",
       "wordCountApprox": 4500,
       "selectionRationale": "Lincoln's direct response to Taney's ruling. Proposition and experiment frames deployed against constitutional regression. Critical link between Peoria and Douglas debates. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Reported speech text may contain transcription noise.", "Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Reported speech text may contain transcription noise.",
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-005",
@@ -1018,13 +1183,20 @@
       "sourceUrl": "https://quod.lib.umich.edu/l/lincoln/lincoln4/1:53",
       "sourceEdition": "Collected Works of Abraham Lincoln, University of Michigan digital edition",
       "editorialStatus": "reported_or_extemporaneous_text_with_transcription_noise",
-      "authorshipConfidence": 0.90,
-      "riskFlags": ["transcription_noise"],
+      "authorshipConfidence": 0.9,
+      "riskFlags": [
+        "transcription_noise"
+      ],
       "analyticalPriority": "high",
       "wordCountApprox": 400,
-      "selectionRationale": "Lincoln publicly ties himself to the Declaration of Independence days before taking office — willingness to die for the promise. Birth/covenant cluster at maximum intensity in compressed form. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Reported speech; transcription noise possible.", "Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Lincoln publicly ties himself to the Declaration of Independence days before taking office \u2014 willingness to die for the promise. Birth/covenant cluster at maximum intensity in compressed form. Required addition from LMA v4 corpus expansion (LMA #113).",
+      "knownLimitations": [
+        "Reported speech; transcription noise possible.",
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-006",
@@ -1049,8 +1221,13 @@
       "analyticalPriority": "medium",
       "wordCountApprox": 6000,
       "selectionRationale": "First wartime annual message. Compare with July 4, 1861 special message and December 1862 message for diachronic administrative-register metaphor tracking. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Administrative register constrains metaphor density; control before comparing to formal addresses.", "Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Administrative register constrains metaphor density; control before comparing to formal addresses.",
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-007",
@@ -1075,8 +1252,12 @@
       "analyticalPriority": "high",
       "wordCountApprox": 2800,
       "selectionRationale": "Lincoln's extended defense of executive war powers and suspension of habeas corpus. Necessity/emergency frame under direct challenge. Important for constitutional-covenant cluster outside speech genre. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "knownLimitations": [
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     },
     {
       "documentId": "lma-v4-008",
@@ -1097,12 +1278,20 @@
       "sourceEdition": "Collected Works of Abraham Lincoln, University of Michigan digital edition",
       "editorialStatus": "private_fragment_with_uncertain_date",
       "authorshipConfidence": 0.95,
-      "riskFlags": ["date_uncertain"],
+      "riskFlags": [
+        "date_uncertain"
+      ],
       "analyticalPriority": "critical",
       "wordCountApprox": 250,
-      "selectionRationale": "Lincoln's private theodicy — written for himself alone, probably September 1862. Purest expression of the obligatory-frame: God controls outcomes, Lincoln is instrument. Proto-Second-Inaugural in compressed form. Rare unmediated access to Lincoln's private metaphysical reasoning. Required addition from LMA v4 corpus expansion (LMA #113).",
-      "knownLimitations": ["Date uncertain; dated 'September 1862' by editors based on content proximity to Emancipation Proclamation decision.", "Private fragment has limited audience context; frequency claims require caution.", "Not yet added to source-repo corpus_manifest.json; LMA #113 open."],
-      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
+      "selectionRationale": "Lincoln's private theodicy \u2014 written for himself alone, probably September 1862. Purest expression of the obligatory-frame: God controls outcomes, Lincoln is instrument. Proto-Second-Inaugural in compressed form. Rare unmediated access to Lincoln's private metaphysical reasoning. Required addition from LMA v4 corpus expansion (LMA #113).",
+      "knownLimitations": [
+        "Date uncertain; dated 'September 1862' by editors based on content proximity to Emancipation Proclamation decision.",
+        "Private fragment has limited audience context; frequency claims require caution.",
+        "Not yet added to source-repo corpus_manifest.json; LMA #113 open."
+      ],
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "ppwSourceId": null,
+      "ppwSourceStatus": "unmapped"
     }
   ]
 }
