@@ -1,8 +1,14 @@
 {
   "fileVersion": "1.0",
-  "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/145",
-  "sourceModule": "lincoln-metaphor-analysis",
-  "importNotes": "Draft claim candidates derived from lincoln-metaphor-analysis Stage 4A cluster profiling. No claim in this file has been reviewed or promoted. All carry scoreImpact: candidate and reviewStatus: draft. Promotion requires passing the PPW claim-promotion gate (Milestone 18, PPW #129).",
+  "governingIssues": [
+    "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/145",
+    "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/154"
+  ],
+  "sourceModules": [
+    "lincoln-metaphor-analysis",
+    "sacrifice-law-workbench"
+  ],
+  "importNotes": "Draft claim candidates derived from evidence-module artifacts. No claim in this file has been reviewed or promoted. All carry reviewStatus: draft and scoreImpact: candidate or none. Promotion requires passing PPW claim-promotion gates; no child-repository support rating is automatically promoted.",
   "draftClaims": [
     {
       "draftClaimId": "lma-draft-claim-001",
@@ -146,6 +152,181 @@
         "Passage records must be imported (PPW #143)",
         "Cross-register corpus coverage requires validation-tier documents (PPW #196, pending LMA #114)",
         "Claim-promotion gate not yet designed (PPW #129)"
+      ]
+    },
+    {
+      "draftClaimId": "slw-draft-claim-001",
+      "originModuleId": "sacrifice-law-workbench",
+      "claimScope": "cross-case",
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany"
+      ],
+      "proposedCaseIds": [
+        "american-revolution",
+        "napoleonic-france"
+      ],
+      "claim": "The Sacrifice Law comparative corpus is suitable for testing whether sacred-political orders under perceived existential pressure generate sacrificial rhetoric across multiple political settings, but the current PPW evidence state supports only a draft comparative candidate, not a public support rating.",
+      "artifactRefs": [
+        "sacrifice-law-comparative-41:corpus-manifest",
+        "sacrifice-law-comparative-41:case-subset-links",
+        "sacrifice-law-comparative-41:cross-case-synthesis-artifacts"
+      ],
+      "sourceArtifacts": [
+        {
+          "type": "artifact-family",
+          "artifactId": "sacrifice-law-comparative-41:corpus-manifest",
+          "artifactFamily": "corpus-manifest",
+          "ppwLocation": "data/corpora/sacrifice-law-comparative-41/corpus.json"
+        },
+        {
+          "type": "artifact-family",
+          "artifactId": "sacrifice-law-comparative-41:case-subset-links",
+          "artifactFamily": "case-subset-links",
+          "ppwLocation": "data/corpora/sacrifice-law-comparative-41/subset-links.json"
+        },
+        {
+          "type": "artifact-family",
+          "artifactId": "sacrifice-law-comparative-41:cross-case-synthesis-artifacts",
+          "artifactFamily": "cross-case-synthesis-artifacts",
+          "ppwLocation": null
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate",
+      "limitations": [
+        "Candidate is based on corpus-level and artifact-family metadata, not imported passage records",
+        "American Revolution and Napoleon have proposed PPW case IDs but no case folders yet",
+        "No reliability sampling design has been adapted to PPW for this corpus",
+        "No child-repository public support rating is promoted by this draft candidate"
+      ],
+      "promotionBlockers": [
+        "Import or reference passage-level evidence for every included PPW case",
+        "Create or approve PPW case folders for proposed American Revolution and Napoleon targets where needed",
+        "Complete reliability and claim-promotion review gates before any public finding"
+      ]
+    },
+    {
+      "draftClaimId": "slw-draft-claim-002",
+      "originModuleId": "sacrifice-law-workbench",
+      "claimScope": "single-case",
+      "caseIds": [
+        "american-civil-war-union"
+      ],
+      "claim": "The Lincoln subset of the Sacrifice Law comparative corpus may support a draft contrast between bounded civic sacrifice and more pathological sacrifice patterns, but PPW should keep this separate from the lincoln-deep-28 mechanism-discovery corpus until passage-level evidence and review gates are in place.",
+      "artifactRefs": [
+        "sacrifice-law-comparative-41:case-subset-links",
+        "sacrifice-law-comparative-41:annotation-outputs",
+        "sacrifice-law-comparative-41:cross-case-synthesis-artifacts"
+      ],
+      "sourceArtifacts": [
+        {
+          "type": "case-subset-link",
+          "artifactId": "sacrifice-law-comparative-41:case-subset-links",
+          "ppwLocation": "data/cases/american-civil-war-union/corpora/sacrifice-law-lincoln-subset.json"
+        },
+        {
+          "type": "artifact-family",
+          "artifactId": "sacrifice-law-comparative-41:annotation-outputs",
+          "artifactFamily": "annotation-outputs",
+          "ppwLocation": null
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate",
+      "limitations": [
+        "The Sacrifice Law Lincoln subset is comparative and does not replace lincoln-deep-28",
+        "No Sacrifice Law passage records have been imported into PPW for this candidate",
+        "The bounded-vs-pathological contrast requires operational review before scoring impact can be assessed"
+      ],
+      "promotionBlockers": [
+        "Anchor candidate to imported or referenced Sacrifice Law subset passages",
+        "Review overlap with existing Lincoln metaphor-analysis draft claims",
+        "Complete claim-promotion gate review before any score impact is applied"
+      ]
+    },
+    {
+      "draftClaimId": "slw-draft-claim-003",
+      "originModuleId": "sacrifice-law-workbench",
+      "claimScope": "single-case",
+      "caseIds": [
+        "nazi-germany"
+      ],
+      "claim": "The Hitler / Nazi Germany subset is a plausible candidate evidence source for pathological sacrifice under a totalizing sacred-political order, but rights review, translation provenance, and passage-level anchoring must be completed before PPW treats it as evidence for any finding.",
+      "artifactRefs": [
+        "sacrifice-law-comparative-41:case-subset-links",
+        "sacrifice-law-comparative-41:rights-review-records",
+        "sacrifice-law-comparative-41:annotation-outputs"
+      ],
+      "sourceArtifacts": [
+        {
+          "type": "case-subset-link",
+          "artifactId": "sacrifice-law-comparative-41:case-subset-links",
+          "ppwLocation": "data/cases/nazi-germany/corpora/sacrifice-law-hitler-subset.json"
+        },
+        {
+          "type": "artifact-family",
+          "artifactId": "sacrifice-law-comparative-41:rights-review-records",
+          "artifactFamily": "rights-review-records",
+          "ppwLocation": null
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "candidate",
+      "limitations": [
+        "Nazi-era translations and scholarly apparatus require rights review",
+        "No Sacrifice Law passage records have been imported into PPW for this candidate",
+        "Candidate may overlap with existing Nazi Germany scaffold scores and must not be used to strengthen them without review"
+      ],
+      "promotionBlockers": [
+        "Complete rights and provenance review for source texts and translations",
+        "Anchor candidate to imported or referenced passages",
+        "Complete claim-promotion gate review before any score impact is applied"
+      ]
+    },
+    {
+      "draftClaimId": "slw-draft-claim-004",
+      "originModuleId": "sacrifice-law-workbench",
+      "claimScope": "cross-case",
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany"
+      ],
+      "proposedCaseIds": [
+        "american-revolution",
+        "napoleonic-france"
+      ],
+      "claim": "American Revolution and Napoleon are necessary proposed targets for a complete four-case Sacrifice Law comparison, but PPW should treat their current status as case-coverage blockers rather than evidentiary support until the corresponding case folders and subset links exist.",
+      "artifactRefs": [
+        "sacrifice-law-comparative-41:corpus-manifest",
+        "sacrifice-law-comparative-41:case-subset-links",
+        "sacrifice-law-comparative-41:raw-text"
+      ],
+      "sourceArtifacts": [
+        {
+          "type": "artifact-family",
+          "artifactId": "sacrifice-law-comparative-41:corpus-manifest",
+          "artifactFamily": "corpus-manifest",
+          "ppwLocation": "data/corpora/sacrifice-law-comparative-41/cases.json"
+        },
+        {
+          "type": "artifact-family",
+          "artifactId": "sacrifice-law-comparative-41:raw-text",
+          "artifactFamily": "raw-text",
+          "ppwLocation": null
+        }
+      ],
+      "reviewStatus": "draft",
+      "scoreImpact": "none",
+      "limitations": [
+        "This is a coverage and planning candidate, not an evidentiary claim about case outcomes",
+        "American Revolution and Napoleon case folders do not yet exist in PPW",
+        "No support rating or score impact should be inferred from this blocker record"
+      ],
+      "promotionBlockers": [
+        "Resolve #250 and #251 or explicitly reject the proposed case targets",
+        "Create subset links only after case folders exist",
+        "Reclassify this blocker candidate before any evidentiary use"
       ]
     }
   ]
