@@ -2,7 +2,7 @@
 
 **Milestone:** 15 — Evidence Module Metadata Import  
 **Date:** 2026-06-30  
-**Issues covered:** #135, #136, #137, #138, #139  
+**Issues covered:** #135, #136, #137, #138, #139, #195, #196, #197 (open)  
 **Governing tracking issue:** #134  
 
 ---
@@ -111,27 +111,40 @@ It reconciles module records, corpus registry records, and migration manifest re
 | sacrifice-law-workbench | Quarto research site | Child-repo site remains live; PPW will have own module pages (PPW #176, #178) |
 | sacrifice-law-workbench | Pipeline scripts | Child-repo-specific; inform PPW pipeline design (Milestone 19) |
 
-### 4.2 Deferred to Milestone 16 (Lincoln)
+### 4.2 Open in Milestone 15 (in progress)
+
+These issues are within Milestone 15 scope but not yet closed:
+
+| Artifact | PPW Issue | Scheduled Milestone |
+|---|---|---|
+| 48-doc core corpus document inventory (v4 expansion) | #195 | 15 |
+| 75-100 doc validation corpus inventory | #196 | 15 |
+| Search-only reference corpus inventory | #197 | 15 |
+
+These must be completed before Milestone 16 artifact-import work begins.
+
+### 4.3 Deferred to Milestone 16 (Lincoln)
 
 | Artifact | PPW Issue | Scheduled Milestone |
 |---|---|---|
 | Define Lincoln corpus expansion architecture | #194 | 16 |
-| 48-doc core corpus document inventory (v4 expansion) | #195 | 15 (in progress) |
-| 75-100 doc validation corpus inventory | #196 | 15 (in progress) |
-| Search-only reference corpus inventory | #197 | 15 (in progress) |
 | Raw text files for v4 core additions | #198 | 16 |
 | Passage records (segmented, stable IDs) | #143 | 16 |
 | Draft claim candidates | #145 | 16 |
 | Cluster profiles (Stage 4A annotation outputs) | #144 | 16 |
 
-### 4.3 Deferred to Milestone 17 (Sacrifice Law)
+Note: PPW #194 (corpus expansion architecture) is a structural upstream of the #195–#197 inventories. If #194 and #195–#197 are in flight simultaneously, coordinate to avoid inventory work invalidating architecture decisions.
+
+### 4.4 Deferred to Milestone 17 (Sacrifice Law)
 
 | Artifact | PPW Issue | Scheduled Milestone |
 |---|---|---|
-| Corpus document metadata (titles, dates, sources) | #138 | 17 |
-| Corpus manifest (stratified corpus definition) | #138 | 17 |
-| Raw text files for the four-case corpus | — | 17 |
+| Corpus document metadata (titles, dates, sources) | — (no issue yet) | 17 |
+| Corpus manifest (stratified corpus definition) | — (no issue yet) | 17 |
+| Raw text files for the four-case corpus | — (no issue yet) | 17 |
 | Draft comparative claims | #154 | 17 |
+
+Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is closed. The actual document-metadata and corpus-manifest import work for Milestone 17 has no PPW tracking issue yet; one must be created as part of Milestone 17 planning.
 
 ### 4.4 Deferred to Milestone 19 (Validation)
 
@@ -161,7 +174,7 @@ It reconciles module records, corpus registry records, and migration manifest re
 | Category | Count | PPW Issues |
 |---|---|---|
 | Migrated as PPW issues | 6 | #194, #195, #196, #197, #198, #199 |
-| Merged into coordination issues | 38 | PPW #112 (25 absorbed), PPW #113 (6 absorbed); 7 absorbed by other coordination issues |
+| Merged into coordination issues | 38 | PPW #112 (25 absorbed), PPW #113 (6 absorbed); 7 source issues in summary count but not individually listed (gap) |
 | Deferred | 3 | LMA #85, #95, #108 |
 | **Total** | **47** | |
 
@@ -196,7 +209,7 @@ It reconciles module records, corpus registry records, and migration manifest re
 | Per-corpus folder exists | ✓ | ✓ |
 | provenance.json created | ✓ ppwMigrationIssue → #111 | ✓ ppwMigrationIssue → #110 |
 | reliability.json created | ✓ reliabilityStatus: pending | ✓ reliabilityStatus: pending |
-| source-issue-map.json created | ✓ 47 issues reconciled | ✓ 2 issues reconciled |
+| source-issue-map.json created | ✓ 47 issues counted; 40 individually listed (7-issue gap in merged list) | ✓ 2 issues reconciled |
 | import-map.json created | ✓ | ✓ |
 | sourceIssueMigrationStatus | in-progress | in-progress |
 
@@ -238,7 +251,8 @@ It reconciles module records, corpus registry records, and migration manifest re
 | American Revolution / Napoleon PPW case mapping not confirmed | SLW | High | #149, #150, #151 |
 | 7 absorbed source issues (LMA) not individually listed in source-issue-map.json | LMA | Low | Follow-up reconciliation |
 | Reliability sampling strategy not yet adapted to PPW | LMA, SLW | Medium | #199 (LMA), #192 (SLW) |
-| Per-corpus `documents[]` arrays empty — no document-level metadata yet | Both | Medium | #195, #196, #197 (LMA); #138 import (SLW) |
+| Per-corpus `documents[]` arrays empty — no document-level metadata yet | Both | Medium | #195, #196, #197 (LMA); no issue yet (SLW M17 import issue to be created) |
+| SLW raw-text import has no governing PPW issue (import-map.json ppwIssues: []) | SLW | Medium | (no issue; must be created for M17 planning) |
 | No schemas govern per-corpus folder files (corpus.json, documents.json, artifact-index.json) | Both | Low | (infrastructure gap, out of scope M15) |
 
 ---
