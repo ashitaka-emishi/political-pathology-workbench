@@ -1,0 +1,41 @@
+{
+  "corpusId": "sacrifice-law-comparative-41",
+  "originModuleId": "sacrifice-law-workbench",
+  "corpusCases": [
+    {
+      "sourceCase": "Lincoln / American Civil War (Union)",
+      "ppwCaseId": "american-civil-war-union",
+      "ppwCaseMapped": true,
+      "caseMappingStatus": "confirmed",
+      "documentSubsetCount": null,
+      "notes": "PPW case exists. Corpus subset composition will be documented when import-map data is available (PPW #138)."
+    },
+    {
+      "sourceCase": "Hitler / Nazi Germany",
+      "ppwCaseId": "nazi-germany",
+      "ppwCaseMapped": true,
+      "caseMappingStatus": "confirmed",
+      "documentSubsetCount": null,
+      "rightsNote": "Nazi-era texts: some are out of copyright; translations and scholarly apparatus require rights review before import.",
+      "notes": "PPW case exists. Rights review for Nazi-era text translations required before import."
+    },
+    {
+      "sourceCase": "American Revolution",
+      "ppwCaseId": null,
+      "ppwCaseMapped": false,
+      "caseMappingStatus": "pending",
+      "documentSubsetCount": null,
+      "blockingIssues": [149, 150, 151],
+      "notes": "No PPW case registered yet. Case mapping and PPW case creation required before this subset can be imported (PPW #149-#151)."
+    },
+    {
+      "sourceCase": "Napoleon / Napoleonic Era",
+      "ppwCaseId": null,
+      "ppwCaseMapped": false,
+      "caseMappingStatus": "pending",
+      "documentSubsetCount": null,
+      "blockingIssues": [149, 150, 151],
+      "notes": "No PPW case registered yet. Case mapping and PPW case creation required before this subset can be imported (PPW #149-#151)."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "corpusId": "sacrifice-law-comparative-41",
+  "importStatus": "pending",
+  "importNotes": "Document-level metadata will be populated when the Sacrifice Law corpus is imported into PPW (Milestone 17, PPW #138). The 41-document count reflects the sacrifice-law-workbench manifest-driven pipeline output. Case mapping for American Revolution and Napoleon must be confirmed first (PPW #149-#151).",
+  "ppwImportIssues": [138, 149, 150, 151],
+  "sourceInventoryRef": "ashitaka-emishi/sacrifice-law-workbench",
+  "caseSubsets": [
+    {
+      "sourceCase": "Lincoln / American Civil War (Union)",
+      "ppwCaseId": "american-civil-war-union",
+      "documentCount": null,
+      "importStatus": "pending",
+      "notes": "Subset count pending manifest analysis."
+    },
+    {
+      "sourceCase": "Hitler / Nazi Germany",
+      "ppwCaseId": "nazi-germany",
+      "documentCount": null,
+      "importStatus": "pending",
+      "notes": "Subset count pending manifest analysis. Rights review required for Nazi-era translations."
+    },
+    {
+      "sourceCase": "American Revolution",
+      "ppwCaseId": null,
+      "documentCount": null,
+      "importStatus": "blocked",
+      "blockingIssues": [149, 150, 151],
+      "notes": "Blocked on PPW case mapping (PPW #149-#151)."
+    },
+    {
+      "sourceCase": "Napoleon / Napoleonic Era",
+      "ppwCaseId": null,
+      "documentCount": null,
+      "importStatus": "blocked",
+      "blockingIssues": [149, 150, 151],
+      "notes": "Blocked on PPW case mapping (PPW #149-#151)."
+    }
+  ],
+  "documents": []
+}
