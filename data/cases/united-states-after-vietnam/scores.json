@@ -9,10 +9,9 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "Passages advanced to evidence-review. Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Confidence raised from 0.58. Capped pending chain expansion.",
+      "rationale": "Passages advanced to evidence-review. Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Confidence raised from 0.58. Capped by periodization uncertainty.",
       "uncertaintyFactors": [
-        "periodization-contested",
-        "chain-requires-expansion"
+        "periodization-contested"
       ]
     },
     "reviewStatus": "score-review",
@@ -22,7 +21,7 @@
       "memory-driven-restraint"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 3/5 defensible: memory-driven-restraint mechanism (WPR § 2(a) purpose clause, Carter crisis speech) represents partial corrigibility — present in the legislative and rhetorical record but contested and partially reversed in the Reagan era. Confidence 0.62 is well-calibrated given the periodization uncertainty. Chain-requires-expansion resolved (Milestone 7 added §5(b) and Weinberger passages). Ready for human-reviewed with periodization caveat noted."
+    "reviewNote": "Score value 3/5 defensible: memory-driven-restraint mechanism (WPR § 2(a) purpose clause, Carter crisis speech) represents partial corrigibility — present in the legislative and rhetorical record but contested and partially reversed in the Reagan era. Confidence 0.62 is well-calibrated given the periodization uncertainty. Chain expansion resolved (Milestone 7 added §5(b) and Weinberger passages). Ready for human-reviewed with periodization caveat noted."
   },
   {
     "scoreId": "united-states-after-vietnam-score-002",

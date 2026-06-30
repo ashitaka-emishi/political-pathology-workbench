@@ -158,8 +158,7 @@
       "rationale": "Both passages advanced to evidence-review. Passage text confirmed against multiple independent online scholarly sources (worldjpn.net, Wikipedia, rikukaigun.org); core wording verified accurately. Tsunoda et al. (1958) p.139 and McLaren (1914) p.197 edition-specific wording requires physical library verification. Confidence raised from 0.70 reflecting confirmed passage integrity.",
       "uncertaintyFactors": [
         "tsunoda-1958-edition-wording-unconfirmed",
-        "mclaren-1914-edition-wording-unconfirmed",
-        "chain-requires-expansion"
+        "mclaren-1914-edition-wording-unconfirmed"
       ]
     },
     "caseSlug": "imperial-japan"
@@ -432,10 +431,9 @@
     "confidence": {
       "value": 0.72,
       "label": "moderate-high",
-      "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending chain expansion.",
+      "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending physical edition verification.",
       "uncertaintyFactors": [
-        "gorbachev-doubleday-1996-edition-wording-unconfirmed",
-        "chain-requires-expansion"
+        "gorbachev-doubleday-1996-edition-wording-unconfirmed"
       ]
     },
     "caseSlug": "soviet-union-collapse"
@@ -501,9 +499,8 @@
     "confidence": {
       "value": 0.68,
       "label": "moderate",
-      "rationale": "Both passages advanced to evidence-review. WPR § 2(a) text corrected against Cornell LII codified form ('joint resolution' → 'chapter'; truncated final clause restored). Carter speech confirmed verbatim against Miller Center archive. Confidence raised from 0.65. Capped pending chain expansion; Reagan-era Vietnam syndrome reversal remains a complicating factor.",
+      "rationale": "Both passages advanced to evidence-review. WPR § 2(a) text corrected against Cornell LII codified form ('joint resolution' → 'chapter'; truncated final clause restored). Carter speech confirmed verbatim against Miller Center archive. Confidence raised from 0.65. Reagan-era Vietnam syndrome reversal remains a complicating factor.",
       "uncertaintyFactors": [
-        "chain-requires-expansion",
         "periodization-contested"
       ]
     },

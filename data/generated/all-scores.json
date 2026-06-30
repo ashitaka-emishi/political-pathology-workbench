@@ -168,10 +168,9 @@
     "confidence": {
       "value": 0.7,
       "label": "moderate-high",
-      "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum sacred-political-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
+      "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum sacred-political-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification remains required before further advance.",
       "uncertaintyFactors": [
-        "physical-edition-verification-pending",
-        "chain-requires-expansion"
+        "physical-edition-verification-pending"
       ]
     },
     "reviewStatus": "score-review",
@@ -182,7 +181,7 @@
       "sacrifice"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified and chain-requires-expansion resolved.",
+    "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified.",
     "caseSlug": "imperial-japan"
   },
   {
@@ -406,9 +405,9 @@
     "confidence": {
       "value": 0.7,
       "label": "moderate-high",
-      "rationale": "Passages advanced to evidence-review after text confirmation against official Bundestag translation. High corrigibility score is structurally justified by the constitutional design; confidence raised from 0.65. Capped pending chain expansion and secondary-source corroboration.",
+      "rationale": "Passages advanced to evidence-review after text confirmation against official Bundestag translation. High corrigibility score is structurally justified by the constitutional design; confidence raised from 0.65. Capped pending secondary-source corroboration.",
       "uncertaintyFactors": [
-        "chain-requires-expansion"
+        "requires-secondary-source-corroboration"
       ]
     },
     "reviewStatus": "score-review",
@@ -418,7 +417,7 @@
       "constitutional-containment"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Art. 1(1) human dignity + Art. 79(3) eternity clause) represents high corrigibility. Confidence 0.70 is well-calibrated — the mechanism is architecturally tight and directly contrasts with the Nazi Germany cor=1 case. Chain-requires-expansion uncertainty resolved by Milestone 7 chain expansion to 4 passages. Ready for human-reviewed: gold case chain is now at 4 passages, all at argument-review.",
+    "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Art. 1(1) human dignity + Art. 79(3) eternity clause) represents high corrigibility. Confidence 0.70 is well-calibrated — the mechanism is architecturally tight and directly contrasts with the Nazi Germany cor=1 case. Chain expansion uncertainty resolved by Milestone 7 chain expansion to 4 passages. Ready for human-reviewed: gold case chain is now at 4 passages, all at argument-review.",
     "caseSlug": "postwar-germany"
   },
   {
@@ -513,10 +512,9 @@
     "confidence": {
       "value": 0.65,
       "label": "moderate",
-      "rationale": "Passages advanced to evidence-review. Score of 2 reflects the terminal-phase strength of the Soviet sacred political order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period. Confidence raised from 0.60. Capped pending chain expansion.",
+      "rationale": "Passages advanced to evidence-review. Score of 2 reflects the terminal-phase strength of the Soviet sacred political order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period. Confidence raised from 0.60. Capped by periodization ambiguity.",
       "uncertaintyFactors": [
-        "periodization-ambiguity",
-        "chain-requires-expansion"
+        "periodization-ambiguity"
       ]
     },
     "reviewStatus": "score-review",
@@ -526,7 +524,7 @@
       "legitimacy-collapse"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 2/5 defensible: legitimacy-collapse mechanism (Gorbachev's resignation diagnosis, Alma-Ata dissolution) documents the terminal-phase sacred-political-order-strength — the order retains some institutional inertia but can no longer sustain its founding claims. Score of 2 (not 1) correctly distinguishes this from North Korea's frozen pathology. Confidence 0.65 reflects periodization ambiguity (scores the 1985-1991 collapse phase, not the historical peak). Ready for human-reviewed pending chain expansion to ≥4 passages — now resolved (Milestone 7).",
+    "reviewNote": "Score value 2/5 defensible: legitimacy-collapse mechanism (Gorbachev's resignation diagnosis, Alma-Ata dissolution) documents the terminal-phase sacred-political-order-strength — the order retains some institutional inertia but can no longer sustain its founding claims. Score of 2 (not 1) correctly distinguishes this from North Korea's frozen pathology. Confidence 0.65 reflects periodization ambiguity (scores the 1985-1991 collapse phase, not the historical peak). Ready for human-reviewed with the Milestone 7 chain expansion resolved.",
     "caseSlug": "soviet-union-collapse"
   },
   {
@@ -592,10 +590,9 @@
     "confidence": {
       "value": 0.62,
       "label": "moderate",
-      "rationale": "Passages advanced to evidence-review. Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Confidence raised from 0.58. Capped pending chain expansion.",
+      "rationale": "Passages advanced to evidence-review. Score of 3 reflects partial corrigibility: present in the War Powers Resolution and Carter-era crisis acknowledgment, but contested and partially reversed in the Reagan era. Confidence raised from 0.58. Capped by periodization uncertainty.",
       "uncertaintyFactors": [
-        "periodization-contested",
-        "chain-requires-expansion"
+        "periodization-contested"
       ]
     },
     "reviewStatus": "score-review",
@@ -605,7 +602,7 @@
       "memory-driven-restraint"
     ],
     "codebookVersion": "v1",
-    "reviewNote": "Score value 3/5 defensible: memory-driven-restraint mechanism (WPR § 2(a) purpose clause, Carter crisis speech) represents partial corrigibility — present in the legislative and rhetorical record but contested and partially reversed in the Reagan era. Confidence 0.62 is well-calibrated given the periodization uncertainty. Chain-requires-expansion resolved (Milestone 7 added §5(b) and Weinberger passages). Ready for human-reviewed with periodization caveat noted.",
+    "reviewNote": "Score value 3/5 defensible: memory-driven-restraint mechanism (WPR § 2(a) purpose clause, Carter crisis speech) represents partial corrigibility — present in the legislative and rhetorical record but contested and partially reversed in the Reagan era. Confidence 0.62 is well-calibrated given the periodization uncertainty. Chain expansion resolved (Milestone 7 added §5(b) and Weinberger passages). Ready for human-reviewed with periodization caveat noted.",
     "caseSlug": "united-states-after-vietnam"
   },
   {

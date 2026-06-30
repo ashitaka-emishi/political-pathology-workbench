@@ -14,9 +14,8 @@
     "confidence": {
       "value": 0.68,
       "label": "moderate",
-      "rationale": "Both passages advanced to evidence-review. WPR § 2(a) text corrected against Cornell LII codified form ('joint resolution' → 'chapter'; truncated final clause restored). Carter speech confirmed verbatim against Miller Center archive. Confidence raised from 0.65. Capped pending chain expansion; Reagan-era Vietnam syndrome reversal remains a complicating factor.",
+      "rationale": "Both passages advanced to evidence-review. WPR § 2(a) text corrected against Cornell LII codified form ('joint resolution' → 'chapter'; truncated final clause restored). Carter speech confirmed verbatim against Miller Center archive. Confidence raised from 0.65. Reagan-era Vietnam syndrome reversal remains a complicating factor.",
       "uncertaintyFactors": [
-        "chain-requires-expansion",
         "periodization-contested"
       ]
     }
