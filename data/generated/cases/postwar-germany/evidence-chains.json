@@ -86,6 +86,19 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "postwar-germany-counterclaim-001",
+      "claim": "The Grundgesetz's constitutional corrigibility did not prevent significant postwar German pathologies, including Berufsverbot restrictions on political participation and ongoing debates about memory and Vergangenheitsbewältigung, complicating a straightforward high-corrigibility reading.",
+      "effect": "qualifies",
+      "targetClaimIds": [
+        "postwar-germany-claim-001"
+      ],
+      "sourceIds": [],
+      "rationale": "Constitutional design and actual political practice diverge; high formal corrigibility coexisted with episodes of constrained dissent and contested memory politics. The current chain addresses only the formal constitutional foundation.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

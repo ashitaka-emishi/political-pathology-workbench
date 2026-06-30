@@ -86,6 +86,19 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "united-states-after-vietnam-counterclaim-001",
+      "claim": "Reagan's explicit campaign to overcome the Vietnam syndrome — framing Vietnam as a noble cause betrayed by domestic weakness rather than a failed war — demonstrates that the post-Vietnam restraint was shallow and contested, and that the US sacred political order quickly reasserted sacrificial framing rather than institutionalizing correction.",
+      "effect": "complicates",
+      "targetClaimIds": [
+        "united-states-after-vietnam-claim-001"
+      ],
+      "sourceIds": [],
+      "rationale": "If the restrained-reordering outcome characterizes only the 1975-1980 window before Reagan reversed it, the case may be better coded as hybrid-transitional rather than restrained-reordering across the full post-Vietnam period.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

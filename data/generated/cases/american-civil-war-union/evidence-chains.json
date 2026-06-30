@@ -47,6 +47,22 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "american-civil-war-union-counterclaim-001",
+      "claim": "The Union's hybrid-transitional coding may understate the sacrificial-escalation logic of total-war mobilization: conscription, mass casualties, and rhetoric of national rebirth through blood share structural features with high-pathology cases, complicating a clean hybrid reading.",
+      "effect": "complicates",
+      "targetClaimIds": [
+        "american-civil-war-union-claim-001"
+      ],
+      "sourceIds": [
+        "lincoln-gettysburg-address-1863",
+        "lincoln-second-inaugural-1865"
+      ],
+      "rationale": "The hybrid-transitional outcome distinguishes the Union from pure sacrificial-escalation cases, but the war period itself exhibits escalating sacrifice demands that may warrant a more complex periodized coding separating wartime (sacrificial-escalation) from Reconstruction (restrained-reordering).",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [
     {
       "draftClaimId": "lma-draft-claim-001",
@@ -105,7 +121,17 @@
       "claimStatus": "promoted",
       "originModuleId": "lincoln-metaphor-analysis",
       "promotionStatus": "reviewed-claim",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [
+        "Passage-level anchoring not yet completed; claim rests on document-level corpus inventory, not imported passage records",
+        "Cross-register frequency of the obligatory frame is cited anecdotally but not systematically measured",
+        "Obligatory-frame definition may overlap with sacrifice cluster; conceptual boundary requires evidence-review-level clarification",
+        "Review is source-only; evidence-review and argument-review gates have not yet been cleared"
+      ],
+      "promotionBlockers": [
+        "Passage records must be imported (PPW #143) before advancing to promoted-finding",
+        "Inter-annotator reliability check required for obligatory-frame cluster membership"
+      ]
     },
     {
       "promotionId": "prom-002",
@@ -113,7 +139,13 @@
       "claimStatus": "promoted",
       "originModuleId": "sacrifice-law-workbench",
       "promotionStatus": "blocked",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [],
+      "promotionBlockers": [
+        "Import passage-level evidence for every included PPW case before advancing beyond blocked",
+        "Complete reliability sampling design for the Sacrifice Law corpus (PPW #192)",
+        "Complete adjudication before any promoted-finding status"
+      ]
     },
     {
       "promotionId": "prom-003",
@@ -121,7 +153,13 @@
       "claimStatus": "promoted",
       "originModuleId": "sacrifice-law-workbench",
       "promotionStatus": "blocked",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [],
+      "promotionBlockers": [
+        "Import passage records for the Lincoln Sacrifice Law subset",
+        "Resolve analytical separation between lincoln-deep-28 (LMA) and Sacrifice Law Lincoln subset",
+        "Complete reliability sampling and adjudication"
+      ]
     },
     {
       "promotionId": "prom-005",
@@ -129,7 +167,12 @@
       "claimStatus": "promoted",
       "originModuleId": "sacrifice-law-workbench",
       "promotionStatus": "blocked",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [],
+      "promotionBlockers": [
+        "Resolve analytical separation between LMA and Sacrifice Law Lincoln subsets",
+        "Confirm methodological boundary in evidence-review gate before advancing"
+      ]
     }
   ]
 }

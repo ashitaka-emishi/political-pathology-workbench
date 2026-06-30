@@ -47,6 +47,17 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "post-9-11-united-states-counterclaim-001",
+      "claim": "The hybrid-transitional coding may understate the sacrificial-escalation logic of the post-9/11 War on Terror: the sacred-enemy framing of jihadist Islam, the open-ended sacrifice demands of indefinite war, and the suspension of habeas corpus and torture authorization exhibit structural features of high-pathology cases rather than hybrid transition.",
+      "effect": "complicates",
+      "targetClaimIds": [],
+      "sourceIds": [],
+      "rationale": "The post-9/11 case is hybrid only if institutional constraints ultimately contained the sacrificial logic; critics argue those constraints were progressively dismantled (Patriot Act, AUMF, Abu Ghraib, Guantanamo) such that the period is better characterized as sacrificial-escalation with incomplete institutional resistance.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

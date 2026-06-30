@@ -47,6 +47,17 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "khmer-rouge-cambodia-counterclaim-001",
+      "claim": "The Khmer Rouge's sacrificial-escalation mechanism is contested between a collective-immortality-to-sacrifice reading (the Angkar as sacred collective body) and an agrarian-utopian reading in which sacrifice was instrumentalized toward ideological goals rather than rooted in order sacralization per se.",
+      "effect": "complicates",
+      "targetClaimIds": [],
+      "sourceIds": [],
+      "rationale": "The distinction matters for theory-testing: if Khmer Rouge violence was primarily instrumental (eliminating class enemies for material goals) rather than symbolic (sacrifice for collective immortality), it may test a different causal pathway than the primary theory predicts.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

@@ -47,6 +47,17 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "canada-counterclaim-001",
+      "claim": "Canada's restrained-reordering coding assumes a stable sacred political order, but the ongoing Quebec sovereignty crisis and unresolved questions of Indigenous rights and treaty obligations indicate a sacred political order under chronic contestation that may be better coded as hybrid-transitional or stagnation.",
+      "effect": "qualifies",
+      "targetClaimIds": [],
+      "sourceIds": [],
+      "rationale": "The Canadian sacred political order has not achieved the kind of settled corrigibility that postwar Germany or Switzerland exhibit — its restrained-reordering is internally contested and periodically destabilized by nationalist and Indigenous mobilization.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

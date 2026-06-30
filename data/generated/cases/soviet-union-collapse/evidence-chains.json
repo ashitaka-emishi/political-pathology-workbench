@@ -86,6 +86,19 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "soviet-union-collapse-counterclaim-001",
+      "claim": "The Soviet collapse may reflect institutional fragmentation and nationalist mobilization rather than legitimacy collapse of the Marxist-Leninist sacred political order per se — many Soviet citizens remained ideologically committed even as republics seceded, suggesting the order retained partial legitimacy while its institutional vessel failed.",
+      "effect": "complicates",
+      "targetClaimIds": [
+        "soviet-union-collapse-claim-001"
+      ],
+      "sourceIds": [],
+      "rationale": "Survey data from the late Soviet period and post-Soviet nostalgia research suggest the sacred political order did not simply lose credibility uniformly; the collapse was also a function of elite defection, economic crisis, and nationalist institutional dynamics that are analytically separable from legitimacy per se.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }
