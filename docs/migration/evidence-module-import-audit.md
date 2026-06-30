@@ -69,14 +69,14 @@ It reconciles module records, corpus registry records, and migration manifest re
 | File | Status |
 |---|---|
 | `data/corpora/lincoln-deep-28/corpus.json` | Created |
-| `data/corpora/lincoln-deep-28/documents.json` | Created (empty documents[]) in PPW #137; populated with 36 entries in PPW #195 |
+| `data/corpora/lincoln-deep-28/documents.json` | Created (empty documents[]) in PPW #137; populated with 36 core entries in PPW #195; validation-tier scope and annotation definition added in PPW #196 |
 | `data/corpora/lincoln-deep-28/artifact-index.json` | Created |
 | `data/corpora/corpus-registry.json` (lincoln-deep-28 entry) | Updated |
 
 **Corpus record summary:**
 - `corpusType`: deep-case; `corpusPurpose`: core
 - `documentCount`: 28 (confirmed v3 baseline); `registeredDocumentCount`: 36 (28 confirmed + 8 planned v4 additions from LMA #113, registered by PPW #195)
-- Three tiers documented: core (36 registered, 48-doc v4 target; gap of 12 pending LMA #113, PPW #195), validation (75-100 docs, PPW #196), reference (PPW #197)
+- Three tiers documented: core (36 registered, 48-doc v4 target; gap of 12 pending LMA #113, PPW #195), validation (scope defined by PPW #196: 75-100 docs, passage-segmentation-only annotation, 9 candidate categories; additional documents pending LMA #114), reference (PPW #197)
 - All status fields: pending / not-started
 
 ### 3.2 sacrifice-law-comparative-41 (PPW #138)
@@ -118,10 +118,10 @@ These issues are within Milestone 15 scope but not yet closed:
 | Artifact | PPW Issue | Scheduled Milestone |
 |---|---|---|
 | 36-doc core corpus inventory (28 confirmed + 8 planned v4 additions; 12-doc gap to 48-doc target pending LMA #113) | #195 | 15 |
-| 75-100 doc validation corpus inventory | #196 | 15 |
+| Validation tier scope, annotation definition, and 9 candidate categories (additional documents pending LMA #114) | #196 | 15 |
 | Search-only reference corpus inventory | #197 | 15 |
 
-PPW #195 has been substantially addressed by this PR (36 of 48 planned documents registered). PPW #196 and #197 remain open and must be completed before Milestone 16 artifact-import work begins.
+PPW #195 substantially addressed (36 of 48 planned documents registered). PPW #196 substantially addressed (validation-tier scope and annotation level defined; specific additional documents pending LMA #114 resolution). PPW #197 remains open and must be completed before Milestone 16 artifact-import work begins.
 
 ### 4.3 Deferred to Milestone 16 (Lincoln)
 
