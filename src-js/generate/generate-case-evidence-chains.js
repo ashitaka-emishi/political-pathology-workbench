@@ -143,6 +143,8 @@ export function generateCaseEvidenceChains(root) {
         originModuleId: claim.originModuleId,
         promotionStatus: claim.promotionStatus,
         reviewStatus: claim.reviewStatus,
+        limitations: claim.limitations ?? [],
+        promotionBlockers: claim.promotionBlockers ?? [],
       });
       promotedClaimsByCase.set(caseId, list);
     }
@@ -157,11 +159,17 @@ export function generateCaseEvidenceChains(root) {
     const caseRecord = readJson(caseJsonPath);
     const caseId = caseRecord.caseId;
     const nativeChain = buildNativeChain(caseDir);
+    const counterclaims = readArray(path.join(caseDir, "counterclaims.json")).map(
+      ({ counterclaimId, claim, effect, targetClaimIds, sourceIds, rationale, reviewStatus }) => ({
+        counterclaimId, claim, effect, targetClaimIds: targetClaimIds ?? [], sourceIds: sourceIds ?? [], rationale, reviewStatus,
+      })
+    );
 
     const chainDoc = {
       caseId,
       generatedAt,
       nativeChain,
+      counterclaims,
       draftClaims: draftClaimsByCase.get(caseId) ?? [],
       promotedClaims: promotedClaimsByCase.get(caseId) ?? [],
     };

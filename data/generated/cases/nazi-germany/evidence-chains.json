@@ -125,6 +125,19 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "nazi-germany-counterclaim-001",
+      "claim": "The current Nazi Germany evidence chain is a thin draft demonstration and should not yet be treated as full scholarly support for the case-level interpretation.",
+      "effect": "qualifies",
+      "targetClaimIds": [
+        "nazi-germany-claim-001"
+      ],
+      "sourceIds": [],
+      "rationale": "Two real attributed passages now ground the claim (Hitler Proclamation 1933; NSDAP 25 Points 1920 Point 10), but passage text requires verification against cited scholarly editions before this chain supports scholarly conclusions.",
+      "reviewStatus": "argument-review"
+    }
+  ],
   "draftClaims": [
     {
       "draftClaimId": "slw-draft-claim-001",
@@ -155,7 +168,13 @@
       "claimStatus": "promoted",
       "originModuleId": "sacrifice-law-workbench",
       "promotionStatus": "blocked",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [],
+      "promotionBlockers": [
+        "Import passage-level evidence for every included PPW case before advancing beyond blocked",
+        "Complete reliability sampling design for the Sacrifice Law corpus (PPW #192)",
+        "Complete adjudication before any promoted-finding status"
+      ]
     },
     {
       "promotionId": "prom-004",
@@ -163,7 +182,13 @@
       "claimStatus": "promoted",
       "originModuleId": "sacrifice-law-workbench",
       "promotionStatus": "blocked",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [],
+      "promotionBlockers": [
+        "Complete rights review for Nazi-era translations and scholarly apparatus",
+        "Import passage records after rights clearance",
+        "Complete reliability sampling and adjudication"
+      ]
     }
   ]
 }

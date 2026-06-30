@@ -47,6 +47,17 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "western-roman-empire-counterclaim-001",
+      "claim": "The collapse coding for the Western Roman Empire is contested by the transformation thesis: rather than collapsing, the Roman sacred political order was absorbed and transformed by successor Germanic kingdoms and the Catholic Church, which preserved and transmitted Roman institutional forms — suggesting absorption-transformation may be as accurate as collapse.",
+      "effect": "complicates",
+      "targetClaimIds": [],
+      "sourceIds": [],
+      "rationale": "The Gibbon decline-and-fall narrative has been challenged by historians who argue the period 376-568 CE involved continuity and transformation rather than collapse; the choice between collapse and absorption-transformation codings has significant implications for what the case tests in the theory.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

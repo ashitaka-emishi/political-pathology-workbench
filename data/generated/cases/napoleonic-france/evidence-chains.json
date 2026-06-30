@@ -7,6 +7,7 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [],
   "draftClaims": [
     {
       "draftClaimId": "slw-draft-claim-001",
@@ -30,7 +31,13 @@
       "claimStatus": "promoted",
       "originModuleId": "sacrifice-law-workbench",
       "promotionStatus": "blocked",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [],
+      "promotionBlockers": [
+        "Import passage-level evidence for every included PPW case before advancing beyond blocked",
+        "Complete reliability sampling design for the Sacrifice Law corpus (PPW #192)",
+        "Complete adjudication before any promoted-finding status"
+      ]
     },
     {
       "promotionId": "prom-005",
@@ -38,7 +45,12 @@
       "claimStatus": "promoted",
       "originModuleId": "sacrifice-law-workbench",
       "promotionStatus": "blocked",
-      "reviewStatus": "source-review"
+      "reviewStatus": "source-review",
+      "limitations": [],
+      "promotionBlockers": [
+        "Resolve analytical separation between LMA and Sacrifice Law Lincoln subsets",
+        "Confirm methodological boundary in evidence-review gate before advancing"
+      ]
     }
   ]
 }

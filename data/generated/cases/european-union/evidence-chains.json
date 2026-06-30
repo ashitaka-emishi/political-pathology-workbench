@@ -47,6 +47,17 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "european-union-counterclaim-001",
+      "claim": "The EU's restrained-reordering coding was plausible through the 2000s but is complicated by Brexit, democratic backsliding in Hungary and Poland, and the rise of sovereigntist movements — the sacred political order may be entering a hybrid-transitional or legitimacy-crisis phase rather than sustaining restrained reordering.",
+      "effect": "qualifies",
+      "targetClaimIds": [],
+      "sourceIds": [],
+      "rationale": "Periodization matters: the EU as countercase is most defensible for the 1990s-2010s period; more recent dynamics suggest the order's corrigibility and restraint mechanisms are under significant stress, potentially requiring a revised outcome coding.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

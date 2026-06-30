@@ -47,6 +47,17 @@
     "orphanedClaims": [],
     "orphanedInterpretations": []
   },
+  "counterclaims": [
+    {
+      "counterclaimId": "maoist-china-counterclaim-001",
+      "claim": "Coding Maoist China as uniform sacrificial-escalation obscures significant internal variation: the early PRC (1949-1956) exhibited partial restrained-reordering relative to Nationalist rule, while the Great Leap Forward (1958-1962) and Cultural Revolution (1966-1976) represent escalating sacrificial demands — periodization substantially changes the case's theoretical significance.",
+      "effect": "qualifies",
+      "targetClaimIds": [],
+      "sourceIds": [],
+      "rationale": "The 1949-1976 period contains multiple distinct order phases; treating them as a unified sacrificial-escalation case conflates the order's different phases and may obscure the internal dynamics by which the CCP moved from partial corrigibility toward frozen pathology and then escalation.",
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }
