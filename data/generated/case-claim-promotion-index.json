@@ -54,6 +54,27 @@
           "originModuleId": "lincoln-metaphor-analysis",
           "promotionStatus": "reviewed-claim",
           "reviewStatus": "source-review"
+        },
+        {
+          "promotionId": "prom-002",
+          "claimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        },
+        {
+          "promotionId": "prom-003",
+          "claimId": "slw-draft-claim-002",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        },
+        {
+          "promotionId": "prom-005",
+          "claimId": "slw-draft-claim-004",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
         }
       ]
     },
@@ -73,7 +94,22 @@
           "scoreImpact": "none"
         }
       ],
-      "promotedClaims": []
+      "promotedClaims": [
+        {
+          "promotionId": "prom-002",
+          "claimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        },
+        {
+          "promotionId": "prom-005",
+          "claimId": "slw-draft-claim-004",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        }
+      ]
     },
     {
       "caseId": "napoleonic-france",
@@ -91,7 +127,22 @@
           "scoreImpact": "none"
         }
       ],
-      "promotedClaims": []
+      "promotedClaims": [
+        {
+          "promotionId": "prom-002",
+          "claimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        },
+        {
+          "promotionId": "prom-005",
+          "claimId": "slw-draft-claim-004",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        }
+      ]
     },
     {
       "caseId": "nazi-germany",
@@ -115,7 +166,22 @@
           "scoreImpact": "none"
         }
       ],
-      "promotedClaims": []
+      "promotedClaims": [
+        {
+          "promotionId": "prom-002",
+          "claimId": "slw-draft-claim-001",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        },
+        {
+          "promotionId": "prom-004",
+          "claimId": "slw-draft-claim-003",
+          "originModuleId": "sacrifice-law-workbench",
+          "promotionStatus": "blocked",
+          "reviewStatus": "source-review"
+        }
+      ]
     }
   ]
 }

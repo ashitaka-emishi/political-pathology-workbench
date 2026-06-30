@@ -36,5 +36,125 @@
       "Passage records must be imported (PPW #143) before advancing to promoted-finding",
       "Inter-annotator reliability check required for obligatory-frame cluster membership"
     ]
+  },
+  {
+    "promotionId": "prom-002",
+    "claimId": "slw-draft-claim-001",
+    "originModuleId": "sacrifice-law-workbench",
+    "caseIds": [
+      "american-civil-war-union",
+      "nazi-germany",
+      "american-revolution",
+      "napoleonic-france"
+    ],
+    "promotionStatus": "blocked",
+    "reviewStatus": "source-review",
+    "reviewedBy": "andrew-hammer",
+    "reviewDate": "2026-06-30",
+    "reviewNotes": "Reviewed in PPW #163. Corpus-level suitability claim. Blocked because passage-level evidence has not been imported for any of the included PPW case subsets. No PPW public support rating should be derived until all blockers are resolved.",
+    "sourceRefs": [],
+    "passageRefs": [],
+    "artifactRefs": [
+      "sacrifice-law-comparative-41"
+    ],
+    "missingEvidenceReason": "Comparative corpus passage-level evidence not yet imported for any included case subset. Artifact references confirm corpus existence; passage-level grounding required for promotion.",
+    "scoreImpact": {
+      "expectedDirection": "unknown",
+      "rationale": "Corpus suitability claim; no score impact until passage-level evidence and reliability sampling are complete.",
+      "magnitude": "candidate"
+    },
+    "promotionBlockers": [
+      "Import passage-level evidence for every included PPW case before advancing beyond blocked",
+      "Complete reliability sampling design for the Sacrifice Law corpus (PPW #192)",
+      "Complete adjudication before any promoted-finding status"
+    ]
+  },
+  {
+    "promotionId": "prom-003",
+    "claimId": "slw-draft-claim-002",
+    "originModuleId": "sacrifice-law-workbench",
+    "caseId": "american-civil-war-union",
+    "promotionStatus": "blocked",
+    "reviewStatus": "source-review",
+    "reviewedBy": "andrew-hammer",
+    "reviewDate": "2026-06-30",
+    "reviewNotes": "Reviewed in PPW #163. Lincoln Sacrifice Law subset contrast claim. Blocked — must be kept analytically separate from the LMA corpus (lincoln-deep-28) until passage-level evidence and review gates are in place for both.",
+    "sourceRefs": [],
+    "passageRefs": [],
+    "artifactRefs": [
+      "sacrifice-law-comparative-41"
+    ],
+    "missingEvidenceReason": "Passage-level evidence for the Lincoln Sacrifice Law subset not imported. Corpus artifact references confirm subset existence only.",
+    "scoreImpact": {
+      "expectedDirection": "unknown",
+      "rationale": "Contrast claim; direction depends on passage-level analysis of bounded vs pathological sacrifice indicators.",
+      "magnitude": "candidate"
+    },
+    "promotionBlockers": [
+      "Import passage records for the Lincoln Sacrifice Law subset",
+      "Resolve analytical separation between lincoln-deep-28 (LMA) and Sacrifice Law Lincoln subset",
+      "Complete reliability sampling and adjudication"
+    ]
+  },
+  {
+    "promotionId": "prom-004",
+    "claimId": "slw-draft-claim-003",
+    "originModuleId": "sacrifice-law-workbench",
+    "caseId": "nazi-germany",
+    "promotionStatus": "blocked",
+    "reviewStatus": "source-review",
+    "reviewedBy": "andrew-hammer",
+    "reviewDate": "2026-06-30",
+    "reviewNotes": "Reviewed in PPW #163. Nazi Germany Sacrifice Law subset high-pathology claim. Blocked — Nazi-era translations require rights review before text import, and no passage records have been imported.",
+    "sourceRefs": [],
+    "passageRefs": [],
+    "artifactRefs": [
+      "sacrifice-law-comparative-41"
+    ],
+    "missingEvidenceReason": "Passage-level evidence not imported; rights review for Nazi-era translations required before text can be brought into PPW.",
+    "scoreImpact": {
+      "expectedDirection": "increase",
+      "affectedVariables": [
+        "sacred-political-order-strength",
+        "corrigibility"
+      ],
+      "rationale": "High-pathology claim; if confirmed by passage evidence it would support sacrificial-escalation scores for nazi-germany.",
+      "magnitude": "candidate"
+    },
+    "promotionBlockers": [
+      "Complete rights review for Nazi-era translations and scholarly apparatus",
+      "Import passage records after rights clearance",
+      "Complete reliability sampling and adjudication"
+    ]
+  },
+  {
+    "promotionId": "prom-005",
+    "claimId": "slw-draft-claim-004",
+    "originModuleId": "sacrifice-law-workbench",
+    "caseIds": [
+      "american-civil-war-union",
+      "american-revolution",
+      "napoleonic-france"
+    ],
+    "promotionStatus": "blocked",
+    "reviewStatus": "source-review",
+    "reviewedBy": "andrew-hammer",
+    "reviewDate": "2026-06-30",
+    "reviewNotes": "Reviewed in PPW #163. Methodological delineation claim — keep lincoln-deep-28 (LMA) analytically separate from the Sacrifice Law Lincoln subset. No score impact; this is a methodological constraint, not an evidentiary assertion.",
+    "sourceRefs": [],
+    "passageRefs": [],
+    "artifactRefs": [
+      "sacrifice-law-comparative-41"
+    ],
+    "missingEvidenceReason": "Methodological constraint claim; evidentiary grounding not applicable. Blocked pending methodological review and analytical separation decision.",
+    "scoreImpact": {
+      "expectedDirection": "neutral",
+      "rationale": "Methodological delineation only; no direct score impact.",
+      "magnitude": "none"
+    },
+    "promotionBlockers": [
+      "Resolve analytical separation between LMA and Sacrifice Law Lincoln subsets",
+      "Confirm methodological boundary in evidence-review gate before advancing"
+    ]
   }
 ]

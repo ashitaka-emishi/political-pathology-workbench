@@ -106,6 +106,30 @@
       "originModuleId": "lincoln-metaphor-analysis",
       "promotionStatus": "reviewed-claim",
       "reviewStatus": "source-review"
+    },
+    {
+      "promotionId": "prom-002",
+      "claimId": "slw-draft-claim-001",
+      "claimStatus": "promoted",
+      "originModuleId": "sacrifice-law-workbench",
+      "promotionStatus": "blocked",
+      "reviewStatus": "source-review"
+    },
+    {
+      "promotionId": "prom-003",
+      "claimId": "slw-draft-claim-002",
+      "claimStatus": "promoted",
+      "originModuleId": "sacrifice-law-workbench",
+      "promotionStatus": "blocked",
+      "reviewStatus": "source-review"
+    },
+    {
+      "promotionId": "prom-005",
+      "claimId": "slw-draft-claim-004",
+      "claimStatus": "promoted",
+      "originModuleId": "sacrifice-law-workbench",
+      "promotionStatus": "blocked",
+      "reviewStatus": "source-review"
     }
   ]
 }
