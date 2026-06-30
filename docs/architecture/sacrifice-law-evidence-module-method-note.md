@@ -29,7 +29,7 @@ The Sacrifice Law source corpus currently identifies four source cases:
 |---|---|
 | Lincoln / American Civil War (Union) | Confirmed as `american-civil-war-union`; subset link exists |
 | Hitler / Nazi Germany | Confirmed as `nazi-germany`; subset link exists |
-| American Revolution | Proposed as `american-revolution`; case folder follow-up required |
+| American Revolution | Confirmed as `american-revolution`; minimal case folder and reference-only subset link exist |
 | Napoleon / Napoleonic Era | Proposed as `napoleonic-france`; case folder follow-up required |
 
 The mapping record lives in `data/corpora/sacrifice-law-comparative-41/cases.json`. The subset-link status record lives in `data/corpora/sacrifice-law-comparative-41/subset-links.json`.
@@ -107,7 +107,7 @@ Until promotion gates pass:
 
 The module is currently limited by four review conditions:
 
-1. **Case coverage:** American Revolution and Napoleon have proposed PPW IDs but no case folders yet.
+1. **Case coverage:** American Revolution has a minimal PPW case folder and reference-only subset link; Napoleon has a proposed PPW ID but no case folder yet.
 2. **Rights review:** Nazi-era translations and scholarly apparatus require source-level review.
 3. **Reliability design:** Sacrifice Law reliability sampling is tracked separately in PPW #192.
 4. **Passage anchoring:** No Sacrifice Law passage records have been imported into PPW claims.

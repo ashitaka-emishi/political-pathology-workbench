@@ -12,6 +12,18 @@
     "caseSelectionRole": "hybrid-case"
   },
   {
+    "caseId": "american-revolution",
+    "title": "American Revolution",
+    "slug": "american-revolution",
+    "outcome": "hybrid-transitional",
+    "goldCase": false,
+    "publicationStatus": "draft",
+    "sacredPoliticalOrderId": "american-revolution-sacred-political-order",
+    "sacredPoliticalOrderName": "American Revolution sacred political order",
+    "sacredPoliticalOrderStrength": 3,
+    "caseSelectionRole": "deferred-case"
+  },
+  {
     "caseId": "british-empire-to-commonwealth",
     "title": "British Empire to Commonwealth",
     "slug": "british-empire-to-commonwealth",

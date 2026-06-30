@@ -8,9 +8,9 @@
       "resumeCondition": "Milestone 17 corpus registry and claim import"
     },
     {
-      "limitation": "American Revolution and Napoleon case folders do not yet exist in PPW",
-      "impact": "Corpus subsets for those two cases cannot be imported until corresponding PPW case files exist",
-      "resumeCondition": "Create or approve PPW case folders for the proposed american-revolution and napoleonic-france targets recorded by PPW #149"
+      "limitation": "Napoleon case folder does not yet exist in PPW, and American Revolution has only a minimal scaffold",
+      "impact": "The Napoleon subset cannot be imported until a corresponding PPW case folder exists; the American Revolution subset remains reference-only until passage-level evidence is imported or linked",
+      "resumeCondition": "Create or approve the proposed napoleonic-france target recorded by PPW #149 and add passage-level evidence for American Revolution before claim review"
     },
     {
       "limitation": "Reliability sampling design for Sacrifice Law corpus not yet adapted to PPW framework",

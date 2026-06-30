@@ -17,18 +17,16 @@
       "subsetLinkPath": "data/cases/nazi-germany/corpora/sacrifice-law-hitler-subset.json",
       "status": "created",
       "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#151"
+    },
+    {
+      "sourceCaseLabel": "American Revolution",
+      "ppwCaseId": "american-revolution",
+      "subsetLinkPath": "data/cases/american-revolution/corpora/sacrifice-law-american-revolution-subset.json",
+      "status": "created",
+      "sourceIssueRef": "github:ashitaka-emishi/political-pathology-workbench#250"
     }
   ],
   "deferredTargets": [
-    {
-      "sourceCaseLabel": "American Revolution",
-      "ppwCaseId": null,
-      "proposedPpwCaseId": "american-revolution",
-      "proposedSubsetLinkPath": "data/cases/american-revolution/corpora/sacrifice-law-american-revolution-subset.json",
-      "status": "not-created",
-      "reason": "PPW #149 records american-revolution as the proposed target, but no american-revolution case folder exists.",
-      "blockingIssues": [152]
-    },
     {
       "sourceCaseLabel": "Napoleon / Napoleonic Era",
       "ppwCaseId": null,
@@ -58,6 +56,7 @@
     "notes": "Subset links identify corpus membership and provenance only. Public support ratings and child-repository comparative conclusions are not automatically promoted into PPW claims, interpretations, scores, or findings."
   },
   "sourceIssueRefs": [
-    "github:ashitaka-emishi/political-pathology-workbench#151"
+    "github:ashitaka-emishi/political-pathology-workbench#151",
+    "github:ashitaka-emishi/political-pathology-workbench#250"
   ]
 }

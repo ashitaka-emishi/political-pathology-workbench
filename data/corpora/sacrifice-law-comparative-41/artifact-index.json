@@ -2,9 +2,19 @@
   "corpusId": "sacrifice-law-comparative-41",
   "originModuleId": "sacrifice-law-workbench",
   "sourceRepository": "ashitaka-emishi/sacrifice-law-workbench",
-  "caseIds": ["american-civil-war-union", "nazi-germany"],
-  "proposedCaseIds": ["american-revolution", "napoleonic-france"],
-  "candidateCaseIdsRequiringReview": ["revolutionary-france", "world-war-i-nationalisms", "british-world-war-i"],
+  "caseIds": [
+    "american-civil-war-union",
+    "nazi-germany",
+    "american-revolution"
+  ],
+  "proposedCaseIds": [
+    "napoleonic-france"
+  ],
+  "candidateCaseIdsRequiringReview": [
+    "revolutionary-france",
+    "world-war-i-nationalisms",
+    "british-world-war-i"
+  ],
   "reliabilityStatus": "pending",
   "claimPromotionStatus": "not-started",
   "publicSupportRatingsPromoted": false,
@@ -13,8 +23,14 @@
     {
       "family": "corpus-manifest",
       "description": "Manifest-driven pipeline output defining the 41-document stratified corpus and source-case assignments.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": "data/corpora/sacrifice-law-comparative-41/corpus.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-now",
@@ -23,15 +39,25 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "pending",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [138, 149],
+      "governingIssues": [
+        138,
+        149,
+        250
+      ],
       "scheduledMilestone": 17,
-      "notes": "PPW #149 records proposed case IDs for American Revolution and Napoleon; import remains blocked for those subsets until the corresponding PPW case folders exist."
+      "notes": "PPW #250 confirms american-revolution as a mapped case; import remains blocked for the Napoleon subset until the napoleonic-france case folder exists."
     },
     {
       "family": "corpus-metadata",
       "description": "Document-level metadata: title, date, author, source URL, source case, and rights status.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": "data/corpora/sacrifice-law-comparative-41/documents.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-now",
@@ -40,16 +66,29 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "not-applicable",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [138, 149],
+      "governingIssues": [
+        138,
+        149
+      ],
       "scheduledMilestone": 17,
       "notes": "Metadata shell exists in PPW; document rows remain pending. Rights vary by source text and translation."
     },
     {
       "family": "case-subset-links",
       "description": "PPW case-level links for confirmed Sacrifice Law comparative corpus subsets, plus deferred and ambiguous target notes.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
-      "candidateCaseIdsRequiringReview": ["revolutionary-france", "world-war-i-nationalisms", "british-world-war-i"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
+      "candidateCaseIdsRequiringReview": [
+        "revolutionary-france",
+        "world-war-i-nationalisms",
+        "british-world-war-i"
+      ],
       "ppwLocation": "data/corpora/sacrifice-law-comparative-41/subset-links.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-now",
@@ -58,15 +97,29 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "not-applicable",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [149, 150, 151, 250, 251, 252, 253],
+      "governingIssues": [
+        149,
+        150,
+        151,
+        250,
+        251,
+        252,
+        253
+      ],
       "scheduledMilestone": 17,
-      "notes": "Lincoln and Nazi Germany subset links are represented in existing PPW case folders. American Revolution and Napoleon have proposed PPW case IDs but remain deferred until case folders are created or approved."
+      "notes": "Lincoln, American Revolution, and Nazi Germany subset links are represented in existing PPW case folders. Napoleon has a proposed PPW case ID but remains deferred until its case folder is created or approved."
     },
     {
       "family": "rights-review-records",
       "description": "Rights review records for source texts, translations, scholarly apparatus, and derivative metadata.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "blocked",
@@ -82,8 +135,14 @@
     {
       "family": "raw-text",
       "description": "Raw text files for the four-case source corpus.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-later",
@@ -92,15 +151,24 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "not-applicable",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [250, 251],
+      "governingIssues": [
+        250,
+        251
+      ],
       "scheduledMilestone": 17,
-      "notes": "Raw texts are blocked by rights review and by missing PPW case folders for American Revolution and Napoleon."
+      "notes": "Raw texts are blocked by rights review and by the missing PPW case folder for Napoleon."
     },
     {
       "family": "normalized-text-references",
       "description": "References to normalized text outputs produced by the child repository pipeline.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -111,13 +179,19 @@
       "claimPromotionStatus": "not-started",
       "governingIssues": [],
       "scheduledMilestone": 17,
-      "notes": "Keep normalized text outputs in the child repository until rights review and PPW case-folder coverage are complete."
+      "notes": "Keep normalized text outputs in the child repository until rights review and complete PPW case-folder coverage are complete."
     },
     {
       "family": "segmentation-outputs",
       "description": "Sentence, passage, or comparable segmentation outputs used for downstream annotation.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -133,8 +207,14 @@
     {
       "family": "mipvu-worklists",
       "description": "MIPVU or metaphor-identification worklists used by the child repository annotation process.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -143,15 +223,23 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "pending",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [192],
+      "governingIssues": [
+        192
+      ],
       "scheduledMilestone": 19,
       "notes": "Worklists are methodological evidence for review-gate design. They are not PPW claims or public support ratings."
     },
     {
       "family": "annotation-outputs",
       "description": "Child-repository annotation outputs, model judgments, or coded observations.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -160,15 +248,24 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "pending",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [154, 192],
+      "governingIssues": [
+        154,
+        192
+      ],
       "scheduledMilestone": 17,
       "notes": "Annotation outputs may inform draft claim candidates, but no annotation output is a PPW finding without claim-promotion review."
     },
     {
       "family": "concordance-outputs",
       "description": "Concordances, keyword-in-context views, or lexical summaries generated from the comparative corpus.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -184,8 +281,14 @@
     {
       "family": "cross-case-synthesis-artifacts",
       "description": "Comparative synthesis notes, tables, and analysis artifacts spanning multiple source cases.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "reference-only",
@@ -194,15 +297,24 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "pending",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [154, 155],
+      "governingIssues": [
+        154,
+        155
+      ],
       "scheduledMilestone": 17,
       "notes": "Synthesis artifacts can inform draft comparative claim candidates but do not promote public support ratings."
     },
     {
       "family": "draft-claims",
       "description": "Draft comparative claim candidates spanning the Sacrifice Law source cases.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-later",
@@ -211,15 +323,23 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "pending",
       "claimPromotionStatus": "draft-only",
-      "governingIssues": [154],
+      "governingIssues": [
+        154
+      ],
       "scheduledMilestone": 17,
       "notes": "Any imported candidates must enter PPW as draft claims and pass claim-promotion gates before becoming findings."
     },
     {
       "family": "reliability-design-artifacts",
       "description": "Reliability sampling design and review-gate planning for the Sacrifice Law corpus.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": "data/evidence-modules/sacrifice-law-workbench/reliability.json",
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "import-later",
@@ -228,15 +348,23 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "pending",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [192],
+      "governingIssues": [
+        192
+      ],
       "scheduledMilestone": 19,
       "notes": "Reliability design is tracked for Milestone 19; no baseline inter-annotator reliability artifact is imported here."
     },
     {
       "family": "publication-artifacts",
       "description": "Child-repository Quarto site pages and publication outputs for cross-case synthesis.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "do-not-import",
@@ -245,15 +373,24 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "not-applicable",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [176, 178],
+      "governingIssues": [
+        176,
+        178
+      ],
       "scheduledMilestone": 20,
       "notes": "The child-repository site remains the publication source. PPW will build its own module pages without copying publication structure."
     },
     {
       "family": "pipeline-scripts",
       "description": "Manifest-driven pipeline scripts for corpus ingestion, stratification, normalization, and validation.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench",
       "disposition": "do-not-import",
@@ -269,8 +406,14 @@
     {
       "family": "pre-v1-tracking",
       "description": "Pre-v1 corpus expansion tracking context from Sacrifice Law Workbench issue migration.",
-      "caseIds": ["american-civil-war-union", "nazi-germany"],
-      "proposedCaseIds": ["american-revolution", "napoleonic-france"],
+      "caseIds": [
+        "american-civil-war-union",
+        "nazi-germany",
+        "american-revolution"
+      ],
+      "proposedCaseIds": [
+        "napoleonic-france"
+      ],
       "ppwLocation": null,
       "sourceLocation": "ashitaka-emishi/sacrifice-law-workbench#174",
       "disposition": "reference-only",
@@ -279,7 +422,9 @@
       "provenanceStatus": "partial",
       "reliabilityStatus": "not-applicable",
       "claimPromotionStatus": "not-started",
-      "governingIssues": [110],
+      "governingIssues": [
+        110
+      ],
       "scheduledMilestone": 12,
       "notes": "Context recorded in PPW migration coordination; not imported as corpus data."
     }

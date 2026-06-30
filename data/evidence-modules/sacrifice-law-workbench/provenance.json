@@ -11,7 +11,7 @@
     {
       "family": "corpus",
       "description": "Multi-case stratified corpus covering American Revolution, Napoleon, Lincoln, and Hitler under Koenigsberg's Law of Sacrifice; manifest-driven pipeline with 41-document baseline",
-      "rightsNotes": "Texts before ~1928 are generally public domain in the US. Nazi-era texts: some are out of copyright; translations and scholarly apparatus require review. American Revolution and Napoleon have proposed PPW case IDs, but their case folders must exist before import."
+      "rightsNotes": "Texts before ~1928 are generally public domain in the US. Nazi-era texts: some are out of copyright; translations and scholarly apparatus require review. American Revolution has a PPW case folder and reference-only subset link; Napoleon remains proposed and must have a case folder before import."
     },
     {
       "family": "methodology",
