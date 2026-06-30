@@ -9,6 +9,7 @@ import { validateMigrationManifest } from "../validate/validate-migration-manife
 const root = process.cwd();
 const errors = [];
 const warnings = [];
+const REVIEW_STATUS_ORDER = ["draft", "source-review", "evidence-review", "argument-review", "score-review", "human-reviewed", "approved"];
 
 const VOCAB = {
   outcomes: new Set(["sacrificial-escalation", "restrained-reordering", "collapse", "absorption-transformation", "stagnation-frozen-pathology", "hybrid-transitional"]),
@@ -27,6 +28,24 @@ const VOCAB = {
 
 function isPublicFacing(publicationStatus) {
   return ["public-preview", "published"].includes(publicationStatus);
+}
+
+function isAtReviewGate(reviewStatus, minimumStatus) {
+  const reviewIndex = REVIEW_STATUS_ORDER.indexOf(reviewStatus);
+  const minimumIndex = REVIEW_STATUS_ORDER.indexOf(minimumStatus);
+  return reviewIndex !== -1 && minimumIndex !== -1 && reviewIndex >= minimumIndex;
+}
+
+function shouldErrorOnGoldEvidenceOrphan(caseRecord) {
+  return Boolean(caseRecord.goldCase) && isAtReviewGate(caseRecord.reviewStatus, "argument-review");
+}
+
+function addCaseEvidenceIssue(caseRecord, message, shouldError) {
+  if (shouldError) {
+    addError(`${caseRecord.caseId}: ${message}`);
+  } else {
+    addWarning(`${caseRecord.caseId}: ${message}`);
+  }
 }
 
 function validateEnum(label, value, allowed) {
@@ -107,6 +126,9 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
     const passageIds = new Set(passages.map((passage) => passage.passageId));
     const claimIds = new Set(claims.map((claim) => claim.claimId));
     const interpretationIds = new Set(interpretations.map((interpretation) => interpretation.interpretationId));
+    const referencedPassageIds = new Set();
+    const referencedClaimIds = new Set();
+    const scoredInterpretationIds = new Set();
 
     for (const source of sourcePack.sources) {
       validateEnum(`${caseRecord.caseId}.source.${source.sourceId}.role`, source.role, VOCAB.sourceRoles);
@@ -128,6 +150,7 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
       validateEnum(`${claim.claimId}.reviewStatus`, claim.reviewStatus, VOCAB.reviewStatuses);
       validateEnum(`${claim.claimId}.publicationStatus`, claim.publicationStatus, VOCAB.publicationStatuses);
       for (const passageId of claim.derivedFrom ?? []) {
+        referencedPassageIds.add(passageId);
         if (!passageIds.has(passageId)) addError(`${claim.claimId}: derivedFrom passage ${passageId} is missing`);
       }
       if (claim.createdBy === "ai" && isPublicFacing(claim.publicationStatus) && !["human-reviewed", "approved"].includes(claim.reviewStatus)) {
@@ -150,6 +173,7 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
       validateEnum(`${interpretation.interpretationId}.sacrificeTarget`, interpretation.sacrificeTarget, VOCAB.sacrificeTargets);
       if (!theoryIds.has(interpretation.theoryId)) addError(`${interpretation.interpretationId}: unknown theoryId ${interpretation.theoryId}`);
       for (const claimId of interpretation.claimIds ?? []) {
+        referencedClaimIds.add(claimId);
         if (!claimIds.has(claimId)) addError(`${interpretation.interpretationId}: claim ${claimId} is missing`);
       }
       if (interpretation.sacrificeHealth && !interpretation.interpretation) addError(`${interpretation.interpretationId}: sacrifice-health classification lacks interpretation notes`);
@@ -159,6 +183,7 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
       requireFields(`${caseDir}/scores.json:${score.scoreId}`, score, ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "value", "confidence", "reviewStatus"]);
       validateEnum(`${score.scoreId}.reviewStatus`, score.reviewStatus, VOCAB.reviewStatuses);
       validateEnum(`${score.scoreId}.publicationStatus`, score.publicationStatus, VOCAB.publicationStatuses);
+      scoredInterpretationIds.add(score.interpretationId);
       if (!interpretationIds.has(score.interpretationId)) addError(`${score.scoreId}: interpretation ${score.interpretationId} is missing`);
       if (typeof score.value !== "number" || score.value < 0 || score.value > 5) addError(`${score.scoreId}: value must be a number from 0 to 5`);
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
@@ -175,6 +200,36 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
       validateEnum(`${counterclaim.counterclaimId}.publicationStatus`, counterclaim.publicationStatus, VOCAB.publicationStatuses);
       for (const claimId of counterclaim.targetClaimIds ?? []) {
         if (!claimIds.has(claimId)) addError(`${counterclaim.counterclaimId}: target claim ${claimId} is missing`);
+      }
+    }
+
+    for (const passage of passages) {
+      if (!referencedPassageIds.has(passage.passageId)) {
+        addCaseEvidenceIssue(
+          caseRecord,
+          `passage ${passage.passageId} is not cited by any claim derivedFrom`,
+          isPublicFacing(caseRecord.publicationStatus) || shouldErrorOnGoldEvidenceOrphan(caseRecord)
+        );
+      }
+    }
+
+    for (const claim of claims) {
+      if (!referencedClaimIds.has(claim.claimId)) {
+        addCaseEvidenceIssue(
+          caseRecord,
+          `claim ${claim.claimId} is not referenced by any interpretation claimIds`,
+          (caseRecord.goldCase && isPublicFacing(caseRecord.publicationStatus)) || shouldErrorOnGoldEvidenceOrphan(caseRecord)
+        );
+      }
+    }
+
+    for (const interpretation of interpretations) {
+      if (!scoredInterpretationIds.has(interpretation.interpretationId)) {
+        addCaseEvidenceIssue(
+          caseRecord,
+          `interpretation ${interpretation.interpretationId} is not covered by any score interpretationId`,
+          caseRecord.publicationStatus === "published" || shouldErrorOnGoldEvidenceOrphan(caseRecord)
+        );
       }
     }
 
