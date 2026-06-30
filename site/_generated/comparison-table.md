@@ -6,7 +6,7 @@ All 20 cases scored across key theory variables, grouped by outcome cluster. Sco
 
 ### Sacrificial Escalation
 
-| Case | Symbolic Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
+| Case | Sacred Political Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
 |---| --- | --- |---|---|---|
 | [Imperial Japan](../cases/imperial-japan.qmd) | ■■■■■ 5/5 | ■□□□□ 1/5 | Collective Immortality To Sacrifice | pathological | unbounded |
 | Khmer Rouge Cambodia | — | — | Collective Immortality To Sacrifice | pathological | unbounded |
@@ -17,15 +17,15 @@ All 20 cases scored across key theory variables, grouped by outcome cluster. Sco
 
 ### Collapse
 
-| Case | Symbolic Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
+| Case | Sacred Political Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
 |---| --- | --- |---|---|---|
 | Confederacy | ■■■■□ 4/5 | — | Institutional Fragmentation | pathological | unbounded |
-| [Soviet Union Collapse](../cases/soviet-collapse.qmd) | ■■□□□ 2/5 | ■□□□□ 1/5 | Legitimacy Collapse | pathological | partially-bounded |
+| [Soviet Union Collapse](../cases/soviet-union-collapse.qmd) | ■■□□□ 2/5 | ■□□□□ 1/5 | Legitimacy Collapse | pathological | partially-bounded |
 | Western Roman Empire | ■■■■■ 5/5 | — | Institutional Fragmentation | ambiguous | partially-bounded |
 
 ### Hybrid / Transitional
 
-| Case | Symbolic Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
+| Case | Sacred Political Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
 |---| --- | --- |---|---|---|
 | American Civil War / Union | ■■■■□ 4/5 | — | Anti Sacrificial Restraint | mixed | partially-bounded |
 | Post-9/11 United States | ■■■■□ 4/5 | — | Sacred Enemy Escalation | pathological | unbounded |
@@ -33,7 +33,7 @@ All 20 cases scored across key theory variables, grouped by outcome cluster. Sco
 
 ### Restrained Reordering
 
-| Case | Symbolic Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
+| Case | Sacred Political Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
 |---| --- | --- |---|---|---|
 | Canada | — | ■■■■□ 4/5 | Constitutional Containment | healthy | partially-bounded |
 | European Union | — | ■■■■□ 4/5 | Pluralist Reordering | healthy | partially-bounded |
@@ -44,12 +44,12 @@ All 20 cases scored across key theory variables, grouped by outcome cluster. Sco
 
 ### Stagnation / Frozen Pathology
 
-| Case | Symbolic Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
+| Case | Sacred Political Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
 |---| --- | --- |---|---|---|
 | North Korea | ■■■■■ 5/5 | — | Frozen Pathology | pathological | unbounded |
 
 ### Absorption / Transformation
 
-| Case | Symbolic Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
+| Case | Sacred Political Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
 |---| --- | --- |---|---|---|
 | British Empire to Commonwealth | — | ■■■□□ 3/5 | Symbolic Transformation | ambiguous | partially-bounded |

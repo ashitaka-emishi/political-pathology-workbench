@@ -1,0 +1,5 @@
+---
+title: "Canada"
+---
+
+{{< include _chains/canada.md >}}

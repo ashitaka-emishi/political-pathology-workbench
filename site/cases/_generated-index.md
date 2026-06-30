@@ -9,54 +9,54 @@ Full Source → Passage → Claim → Interpretation → Score chains.
 | [Imperial Japan](imperial-japan.qmd) | Sacrificial Escalation | 2 | 1 |
 | [Nazi Germany](nazi-germany.qmd) | Sacrificial Escalation | 3 | 1 |
 | [Postwar Germany](postwar-germany.qmd) | Restrained Reordering | 2 | 1 |
-| [Soviet Union Collapse](soviet-collapse.qmd) | Collapse | 2 | 1 |
+| [Soviet Union Collapse](soviet-union-collapse.qmd) | Collapse | 2 | 1 |
 | [United States after Vietnam](united-states-after-vietnam.qmd) | Restrained Reordering | 2 | 1 |
 
 ## Structural Comparators
 
-Counterclaims recorded; evidence chains not yet built.
+Generated evidence-chain pages are available for every case.
 
 ### Sacrificial Escalation
 
 | Case | Case role | Counterclaims |
 |---|---|---|
-| Khmer Rouge Cambodia | High Pathology Case | 1 |
-| Maoist China | High Pathology Case | 1 |
-| Revolutionary France | High Pathology Case | 1 |
-| World War I Nationalisms | High Pathology Case | 1 |
+| [Khmer Rouge Cambodia](khmer-rouge-cambodia.qmd) | High Pathology Case | 1 |
+| [Maoist China](maoist-china.qmd) | High Pathology Case | 1 |
+| [Revolutionary France](revolutionary-france.qmd) | High Pathology Case | 1 |
+| [World War I Nationalisms](world-war-i-nationalisms.qmd) | High Pathology Case | 1 |
 
 ### Collapse
 
 | Case | Case role | Counterclaims |
 |---|---|---|
-| Confederacy | Collapse Case | 1 |
-| Western Roman Empire | Collapse Case | 1 |
+| [Confederacy](confederacy.qmd) | Collapse Case | 1 |
+| [Western Roman Empire](western-roman-empire.qmd) | Collapse Case | 1 |
 
 ### Hybrid / Transitional
 
 | Case | Case role | Counterclaims |
 |---|---|---|
-| American Civil War / Union | Hybrid Case | 1 |
-| Post-9/11 United States | Hybrid Case | 1 |
-| Soviet Communism | Hybrid Case | 1 |
+| [American Civil War / Union](american-civil-war-union.qmd) | Hybrid Case | 1 |
+| [Post-9/11 United States](post-9-11-united-states.qmd) | Hybrid Case | 1 |
+| [Soviet Communism](soviet-communism.qmd) | Hybrid Case | 1 |
 
 ### Restrained Reordering
 
 | Case | Case role | Counterclaims |
 |---|---|---|
-| Canada | Countercase | 1 |
-| European Union | Countercase | 1 |
-| Gandhian Indian Independence | Countercase | 1 |
-| Switzerland | Countercase | 1 |
+| [Canada](canada.qmd) | Countercase | 1 |
+| [European Union](european-union.qmd) | Countercase | 1 |
+| [Gandhian Indian Independence](gandhian-indian-independence.qmd) | Countercase | 1 |
+| [Switzerland](switzerland.qmd) | Countercase | 1 |
 
 ### Stagnation / Frozen Pathology
 
 | Case | Case role | Counterclaims |
 |---|---|---|
-| North Korea | Stagnation Case | 1 |
+| [North Korea](north-korea.qmd) | Stagnation Case | 1 |
 
 ### Absorption / Transformation
 
 | Case | Case role | Counterclaims |
 |---|---|---|
-| British Empire to Commonwealth | Transformation Case | 1 |
+| [British Empire to Commonwealth](british-empire-to-commonwealth.qmd) | Transformation Case | 1 |

@@ -9,3 +9,4 @@ __pycache__/
 venv/
 site/_site/
 site/.quarto/
+site/cases/_chains/*.md

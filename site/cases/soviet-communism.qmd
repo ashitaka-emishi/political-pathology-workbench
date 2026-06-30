@@ -1,0 +1,5 @@
+---
+title: "Soviet Communism"
+---
+
+{{< include _chains/soviet-communism.md >}}

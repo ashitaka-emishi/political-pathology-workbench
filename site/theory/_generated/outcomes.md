@@ -2,7 +2,7 @@
 Draft taxonomy. Outcome assignments are provisional.
 :::
 
-The theory distinguishes six outcome types based on how an embodied symbolic order responds when its self-preservation drive encounters crisis pressure.
+The theory distinguishes six outcome types based on how an embodied sacred political order responds when its self-preservation drive encounters crisis pressure.
 
 | Outcome | Description |
 |---|---|
