@@ -11,7 +11,7 @@
   "sourceInventoryRef": "ashitaka-emishi/lincoln-metaphor-analysis",
   "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
   "ppwSourceMappingStatus": "partial",
-  "ppwSourceMappingNote": "PPW source IDs (ppwSourceId) are assigned per document where a matching entry exists in bibliography/sources.csl.json and data/cases/american-civil-war-union/source-pack.json. As of PPW #143, 7 of 36 documents are mapped: lma-doc-001 (Lyceum Address), lma-doc-004 (Peoria Speech), lma-doc-005 (House Divided), lma-doc-007 (Cooper Union), lma-doc-009 (First Inaugural), lma-doc-017 (Gettysburg Address), lma-doc-021 (Second Inaugural). Remaining 29 documents carry ppwSourceStatus: unmapped and ppwSourceId: null; they may still be cited via sourceUrl and sourceEdition fields. Source-pack expansion continues as follow-on work.",
+  "ppwSourceMappingNote": "PPW source IDs (ppwSourceId) are assigned per document where a matching entry exists in bibliography/sources.csl.json and data/cases/american-civil-war-union/source-pack.json. As of PPW #198, 28 of 36 documents are mapped (all 28 confirmed v3-baseline documents). The 8 planned v4 additions (lma-v4-001 through lma-v4-008) are unmapped pending LMA #113 resolution. Unmapped documents may be cited via sourceUrl and sourceEdition fields.",
   "documentTiers": [
     {
       "tier": "core",
@@ -221,8 +221,8 @@
         "No special provenance caution recorded."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-temperance-address-1842",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-003",
@@ -251,8 +251,8 @@
         "No special provenance caution recorded."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-eulogy-clay-1852",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-004",
@@ -346,8 +346,8 @@
         "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-douglas-debate-1-ottawa-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-006b",
@@ -379,8 +379,8 @@
         "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-douglas-debate-2-freeport-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-006c",
@@ -412,8 +412,8 @@
         "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-douglas-debate-3-jonesboro-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-006d",
@@ -445,8 +445,8 @@
         "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-douglas-debate-4-charleston-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-006e",
@@ -478,8 +478,8 @@
         "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-douglas-debate-5-galesburg-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-006f",
@@ -511,8 +511,8 @@
         "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-douglas-debate-6-quincy-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-006g",
@@ -544,8 +544,8 @@
         "Debate text depends on nineteenth-century newspaper transcriptions; exact wording and span boundaries require caution. Annotation and analysis are limited to Lincoln turns."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-douglas-debate-7-alton-1858",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-007",
@@ -607,8 +607,8 @@
         "Two textual versions circulate; variant-sensitive claims should identify the version used."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-farewell-address-springfield-1861",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-009",
@@ -670,8 +670,8 @@
         "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-message-congress-july4-1861",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-011",
@@ -704,8 +704,8 @@
         "Private fragment has limited audience context and short length; frequency claims require caution."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-fragment-constitution-union-1861",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-012",
@@ -734,8 +734,8 @@
         "No special provenance caution recorded."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-letter-greeley-1862",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-013",
@@ -764,8 +764,8 @@
         "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-preliminary-emancipation-proclamation-1862",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-014",
@@ -794,8 +794,8 @@
         "Administrative register constrains metaphor density and should be controlled before comparing to formal addresses."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-annual-message-congress-december-1-1862",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-015",
@@ -824,8 +824,8 @@
         "Legal register intentionally suppresses metaphor; absence findings should be interpreted as register-controlled evidence, not as source failure."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-emancipation-proclamation-1863",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-016",
@@ -854,8 +854,8 @@
         "No special provenance caution recorded."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-letter-conkling-1863",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-017",
@@ -917,8 +917,8 @@
         "Private fragment has limited audience context and short length; frequency claims require caution."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-memorandum-reelection-1864",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-019",
@@ -947,8 +947,8 @@
         "No special provenance caution recorded."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-letter-hodges-1864",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-020",
@@ -979,8 +979,8 @@
         "Reported or extemporaneous text may contain transcription noise; exact wording and span boundaries require caution."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-response-serenade-november-1864",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-doc-021",
@@ -1039,8 +1039,8 @@
         "No special provenance caution recorded."
       ],
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
-      "ppwSourceId": null,
-      "ppwSourceStatus": "unmapped"
+      "ppwSourceId": "lincoln-last-public-address-1865",
+      "ppwSourceStatus": "mapped"
     },
     {
       "documentId": "lma-v4-001",

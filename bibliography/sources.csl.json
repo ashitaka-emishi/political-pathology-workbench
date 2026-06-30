@@ -893,5 +893,479 @@
     },
     "publisher-place": "Washington, D.C.",
     "note": "Public domain. Collected Works of Abraham Lincoln vol.4 pp.262-271 (Basler ed.). Some passages revised by William H. Seward; authorshipConfidence: partial for affected passages."
+  },
+  {
+    "id": "lincoln-temperance-address-1842",
+    "type": "speech",
+    "title": "Temperance Address",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1842,
+          2,
+          22
+        ]
+      ]
+    },
+    "publisher-place": "Springfield, Illinois",
+    "note": "Public domain. Collected Works vol.1 pp.271-279 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-eulogy-clay-1852",
+    "type": "speech",
+    "title": "Eulogy on Henry Clay",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1852,
+          7,
+          6
+        ]
+      ]
+    },
+    "publisher-place": "Springfield, Illinois",
+    "note": "Public domain. Collected Works vol.2 pp.121-132 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-douglas-debate-1-ottawa-1858",
+    "type": "speech",
+    "title": "First Lincoln-Douglas Debate, Ottawa, Illinois (Lincoln's portions)",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1858,
+          8,
+          21
+        ]
+      ]
+    },
+    "publisher-place": "Ottawa, Illinois",
+    "note": "Public domain. Collected Works vol.3 pp.1-37 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-douglas-debate-2-freeport-1858",
+    "type": "speech",
+    "title": "Second Lincoln-Douglas Debate, Freeport, Illinois (Lincoln's portions)",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1858,
+          8,
+          27
+        ]
+      ]
+    },
+    "publisher-place": "Freeport, Illinois",
+    "note": "Public domain. Collected Works vol.3 pp.38-76 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-douglas-debate-3-jonesboro-1858",
+    "type": "speech",
+    "title": "Third Lincoln-Douglas Debate, Jonesboro, Illinois (Lincoln's portions)",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1858,
+          9,
+          15
+        ]
+      ]
+    },
+    "publisher-place": "Jonesboro, Illinois",
+    "note": "Public domain. Collected Works vol.3 pp.102-144 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-douglas-debate-4-charleston-1858",
+    "type": "speech",
+    "title": "Fourth Lincoln-Douglas Debate, Charleston, Illinois (Lincoln's portions)",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1858,
+          9,
+          18
+        ]
+      ]
+    },
+    "publisher-place": "Charleston, Illinois",
+    "note": "Public domain. Collected Works vol.3 pp.145-201 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-douglas-debate-5-galesburg-1858",
+    "type": "speech",
+    "title": "Fifth Lincoln-Douglas Debate, Galesburg, Illinois (Lincoln's portions)",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1858,
+          10,
+          7
+        ]
+      ]
+    },
+    "publisher-place": "Galesburg, Illinois",
+    "note": "Public domain. Collected Works vol.3 pp.207-244 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-douglas-debate-6-quincy-1858",
+    "type": "speech",
+    "title": "Sixth Lincoln-Douglas Debate, Quincy, Illinois (Lincoln's portions)",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1858,
+          10,
+          13
+        ]
+      ]
+    },
+    "publisher-place": "Quincy, Illinois",
+    "note": "Public domain. Collected Works vol.3 pp.245-282 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-douglas-debate-7-alton-1858",
+    "type": "speech",
+    "title": "Seventh Lincoln-Douglas Debate, Alton, Illinois (Lincoln's portions)",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1858,
+          10,
+          15
+        ]
+      ]
+    },
+    "publisher-place": "Alton, Illinois",
+    "note": "Public domain. Collected Works vol.3 pp.283-325 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-farewell-address-springfield-1861",
+    "type": "speech",
+    "title": "Farewell Address at Springfield, Illinois",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1861,
+          2,
+          11
+        ]
+      ]
+    },
+    "publisher-place": "Springfield, Illinois",
+    "note": "Public domain. Collected Works vol.4 pp.190-191 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-message-congress-july4-1861",
+    "type": "speech",
+    "title": "Message to Congress in Special Session, July 4, 1861",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1861,
+          7,
+          4
+        ]
+      ]
+    },
+    "publisher-place": "Washington, D.C.",
+    "note": "Public domain. Collected Works vol.4 pp.421-441 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-fragment-constitution-union-1861",
+    "type": "manuscript",
+    "title": "Fragment on the Constitution and the Union",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1861,
+          1
+        ]
+      ]
+    },
+    "note": "Public domain. Collected Works vol.4 pp.168-169 (Basler ed.). Date uncertain; assigned January 1861 by Basler."
+  },
+  {
+    "id": "lincoln-letter-greeley-1862",
+    "type": "personal_communication",
+    "title": "Letter to Horace Greeley",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "recipient": [
+      {
+        "family": "Greeley",
+        "given": "Horace"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1862,
+          8,
+          22
+        ]
+      ]
+    },
+    "note": "Public domain. Collected Works vol.5 pp.388-389 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-preliminary-emancipation-proclamation-1862",
+    "type": "legislation",
+    "title": "Preliminary Emancipation Proclamation",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1862,
+          9,
+          22
+        ]
+      ]
+    },
+    "publisher-place": "Washington, D.C.",
+    "note": "Public domain. Collected Works vol.5 pp.433-436 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-annual-message-congress-december-1-1862",
+    "type": "speech",
+    "title": "Annual Message to Congress, December 1, 1862",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1862,
+          12,
+          1
+        ]
+      ]
+    },
+    "publisher-place": "Washington, D.C.",
+    "note": "Public domain. Collected Works vol.5 pp.518-537 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-emancipation-proclamation-1863",
+    "type": "legislation",
+    "title": "Emancipation Proclamation",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1863,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher-place": "Washington, D.C.",
+    "note": "Public domain. Collected Works vol.6 pp.28-31 (Basler ed.). Final Proclamation."
+  },
+  {
+    "id": "lincoln-letter-conkling-1863",
+    "type": "personal_communication",
+    "title": "Letter to James C. Conkling",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "recipient": [
+      {
+        "family": "Conkling",
+        "given": "James C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1863,
+          8,
+          26
+        ]
+      ]
+    },
+    "note": "Public domain. Collected Works vol.6 pp.406-410 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-memorandum-reelection-1864",
+    "type": "manuscript",
+    "title": "Memorandum Concerning His Probable Failure of Re-election",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1864,
+          8,
+          23
+        ]
+      ]
+    },
+    "note": "Public domain. Collected Works vol.7 pp.514-515 (Basler ed.). Blind memorandum."
+  },
+  {
+    "id": "lincoln-letter-hodges-1864",
+    "type": "personal_communication",
+    "title": "Letter to Albert G. Hodges",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "recipient": [
+      {
+        "family": "Hodges",
+        "given": "Albert G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1864,
+          4,
+          4
+        ]
+      ]
+    },
+    "note": "Public domain. Collected Works vol.7 pp.281-283 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-response-serenade-november-1864",
+    "type": "speech",
+    "title": "Response to a Serenade, November 10, 1864",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1864,
+          11,
+          10
+        ]
+      ]
+    },
+    "publisher-place": "Washington, D.C.",
+    "note": "Public domain. Collected Works vol.8 pp.96-97 (Basler ed.)."
+  },
+  {
+    "id": "lincoln-last-public-address-1865",
+    "type": "speech",
+    "title": "Last Public Address",
+    "author": [
+      {
+        "family": "Lincoln",
+        "given": "Abraham"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1865,
+          4,
+          11
+        ]
+      ]
+    },
+    "publisher-place": "Washington, D.C.",
+    "note": "Public domain. Collected Works vol.8 pp.399-405 (Basler ed.)."
   }
 ]
