@@ -281,12 +281,13 @@ Third-party rights review (scholarly commentary, translations) should be tracked
 
 ### Milestone 17 — Sacrifice Law Comparative Evidence Module
 
-**Recommendation: Do not begin until PPW #149–#151 are resolved.**
+**Recommendation: Case mapping prerequisite resolved; proceed only through review gates.**
 
-The module-level and corpus-level metadata for Sacrifice Law is in place (PPW #136, #138). However, Milestone 17 artifact import is structurally blocked by the American Revolution and Napoleon case mapping gap. Two of four corpus cases have no PPW case files; importing the full 41-document corpus or draft comparative claims before case mapping is confirmed risks misrouted data.
+The module-level and corpus-level metadata for Sacrifice Law is in place (PPW #136, #138). PPW #149-#151, #250, and #251 confirm the four source-case mappings and create reference-only subset links for Lincoln, Nazi Germany, American Revolution, and Napoleonic France. The remaining blocker is no longer case-folder coverage; it is passage-level evidence import, rights/provenance review, reliability design, and claim-promotion review.
 
-**Prerequisites for Milestone 17 start:**
-1. PPW #149-#151 (case mapping and PPW case creation for American Revolution and Napoleon) resolved, OR
-2. Milestone 17 scoped explicitly to the Lincoln and Nazi Germany subsets only, with American Revolution and Napoleon explicitly deferred.
+**Remaining prerequisites before evidentiary use:**
+1. Populate or reference passage-level evidence for the four mapped case targets.
+2. Complete rights/provenance review, especially for Nazi-era translations and scholarly apparatus.
+3. Complete reliability and claim-promotion gates before any Sacrifice Law candidate affects PPW findings or scores.
 
 Rights review for Nazi-era translations should be initiated during Milestone 17 planning; it does not block the pre-1928 public-domain text subset.

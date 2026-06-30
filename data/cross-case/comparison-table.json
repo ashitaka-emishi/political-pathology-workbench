@@ -231,6 +231,18 @@
           "sacrificeBoundedness": null
         },
         {
+          "caseId": "napoleonic-france",
+          "title": "Napoleonic France",
+          "goldCase": false,
+          "scores": {
+            "sacred-political-order-strength": null,
+            "corrigibility": null
+          },
+          "primaryMechanism": null,
+          "sacrificeHealth": null,
+          "sacrificeBoundedness": null
+        },
+        {
           "caseId": "post-9-11-united-states",
           "title": "Post-9/11 United States",
           "goldCase": false,

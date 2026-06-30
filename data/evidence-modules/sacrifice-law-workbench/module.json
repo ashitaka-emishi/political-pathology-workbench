@@ -8,7 +8,8 @@
   "caseIds": [
     "american-civil-war-union",
     "american-revolution",
-    "nazi-germany"
+    "nazi-germany",
+    "napoleonic-france"
   ],
   "theoryIds": [
     "sacrifice-law-v1",
@@ -29,5 +30,5 @@
   "reliabilityStatus": "pending",
   "claimPromotionPolicy": "standard",
   "sourceIssueMigrationStatus": "in-progress",
-  "maintainerNotes": "American Revolution is confirmed as american-revolution with a minimal PPW case folder and reference-only subset link. Napoleon remains a proposed PPW case ID in data/corpora/sacrifice-law-comparative-41/cases.json; create or approve that folder before importing its subset. Rights vary by era; pre-1928 texts are generally public domain, Nazi-era translations and apparatus require review. Corpus import metadata is represented in Milestone 17; no full texts or promoted support ratings are imported."
+  "maintainerNotes": "American Revolution and Napoleonic France are confirmed with minimal PPW case folders and reference-only subset links. Rights vary by era; pre-1928 texts are generally public domain, Nazi-era translations and apparatus require review. Corpus import metadata is represented in Milestone 17; no full texts or promoted support ratings are imported."
 }

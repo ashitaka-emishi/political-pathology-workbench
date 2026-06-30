@@ -161,11 +161,10 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
+      "proposedCaseIds": [],
       "claim": "The Sacrifice Law comparative corpus is suitable for testing whether sacred-political orders under perceived existential pressure generate sacrificial rhetoric across multiple political settings, but the current PPW evidence state supports only a draft comparative candidate, not a public support rating.",
       "artifactRefs": [
         "sacrifice-law-comparative-41:corpus-manifest",
@@ -196,13 +195,13 @@
       "scoreImpact": "candidate",
       "limitations": [
         "Candidate is based on corpus-level and artifact-family metadata, not imported passage records",
-        "American Revolution now has a PPW case folder and reference-only subset link, but no Sacrifice Law passage records; Napoleon remains a proposed PPW case target without a case folder",
+        "American Revolution and Napoleonic France now have PPW case folders and reference-only subset links, but no Sacrifice Law passage records are imported for those subsets",
         "No reliability sampling design has been adapted to PPW for this corpus",
         "No child-repository public support rating is promoted by this draft candidate"
       ],
       "promotionBlockers": [
         "Import or reference passage-level evidence for every included PPW case",
-        "Create or approve the proposed Napoleon PPW case folder and add passage-level evidence for all included case targets",
+        "Add passage-level evidence for every included case target before review or promotion",
         "Complete reliability and claim-promotion review gates before any public finding"
       ]
     },
@@ -291,12 +290,11 @@
       "caseIds": [
         "american-civil-war-union",
         "nazi-germany",
-        "american-revolution"
-      ],
-      "proposedCaseIds": [
+        "american-revolution",
         "napoleonic-france"
       ],
-      "claim": "American Revolution now has a minimal PPW case folder and reference-only Sacrifice Law subset link, while Napoleon remains a proposed target for a complete four-case Sacrifice Law comparison. PPW should treat this as a coverage and evidence-import blocker rather than evidentiary support until remaining case and passage work is complete.",
+      "proposedCaseIds": [],
+      "claim": "American Revolution and Napoleonic France now have minimal PPW case folders and reference-only Sacrifice Law subset links, completing the four-case coverage scaffold. PPW should treat this as an evidence-import and review-gate blocker rather than evidentiary support until passage work is complete.",
       "artifactRefs": [
         "sacrifice-law-comparative-41:corpus-manifest",
         "sacrifice-law-comparative-41:case-subset-links",
@@ -320,11 +318,11 @@
       "scoreImpact": "none",
       "limitations": [
         "This is a coverage and planning candidate, not an evidentiary claim about case outcomes",
-        "American Revolution has a minimal PPW case folder and reference-only subset link; Napoleon still lacks a PPW case folder",
+        "American Revolution and Napoleonic France have minimal PPW case folders and reference-only subset links, but no Sacrifice Law passage records",
         "No support rating or score impact should be inferred from this blocker record"
       ],
       "promotionBlockers": [
-        "Resolve #251 or explicitly reject the proposed Napoleon target",
+        "Import or reference passage-level evidence before any evidentiary use",
         "Create subset links only after case folders exist",
         "Reclassify this blocker candidate before any evidentiary use"
       ]

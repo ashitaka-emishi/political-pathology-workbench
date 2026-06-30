@@ -6,16 +6,26 @@
       "disposition": "import-now",
       "description": "Corpus document metadata (title, date, author, source URL) for the four-case stratified corpus (American Revolution, Napoleon, Lincoln, Hitler)",
       "scheduledMilestone": 17,
-      "ppwIssues": [138, 149, 250],
-      "notes": "Imported via PPW corpus registry entries. PPW #250 confirms American Revolution as american-revolution with a case folder and reference-only subset link; the Napoleon subset remains blocked until a PPW case folder exists."
+      "ppwIssues": [
+        138,
+        149,
+        250,
+        251
+      ],
+      "notes": "Imported via PPW corpus registry entries. PPW #250 and #251 confirm American Revolution and Napoleonic France with case folders and reference-only subset links; document rows and passages remain pending."
     },
     {
       "artifactClass": "corpus",
       "disposition": "import-now",
       "description": "Corpus manifest (manifest-driven pipeline output defining the stratified corpus)",
       "scheduledMilestone": 17,
-      "ppwIssues": [138, 149, 250],
-      "notes": "Import as PPW corpus registry entries. PPW #250 confirms American Revolution as american-revolution; Napoleon case-folder creation remains a follow-up."
+      "ppwIssues": [
+        138,
+        149,
+        250,
+        251
+      ],
+      "notes": "Import as PPW corpus registry entries. PPW #250 and #251 confirm American Revolution and Napoleonic France case-folder coverage; document import remains pending."
     },
     {
       "artifactClass": "corpus",
@@ -23,14 +33,16 @@
       "description": "Raw text files for Sacrifice Law corpus cases",
       "scheduledMilestone": 17,
       "ppwIssues": [],
-      "notes": "After PPW case folders and rights review are complete for all targets. American Revolution has a scaffold folder; Napoleon remains a proposed target without a folder. Rights vary by era; pre-1928 texts generally public domain."
+      "notes": "After rights review and PPW passage-import decisions. The four source-case folders now exist, but raw texts remain unimported. Rights vary by era; pre-1928 texts generally public domain."
     },
     {
       "artifactClass": "methodology",
       "disposition": "reference-only",
       "description": "Pre-v1 corpus expansion tracking context (SLW #174)",
       "scheduledMilestone": null,
-      "ppwIssues": [110],
+      "ppwIssues": [
+        110
+      ],
       "notes": "Context recorded in PPW #110 migration coordination issue; not imported as data."
     },
     {
@@ -38,7 +50,9 @@
       "disposition": "import-later",
       "description": "Reliability sampling design for Sacrifice Law corpus",
       "scheduledMilestone": 19,
-      "ppwIssues": [192],
+      "ppwIssues": [
+        192
+      ],
       "notes": "After PPW review-gate framework (Milestone 19); PPW #192."
     },
     {
@@ -54,7 +68,9 @@
       "disposition": "import-later",
       "description": "Draft comparative claims",
       "scheduledMilestone": 17,
-      "ppwIssues": [154],
+      "ppwIssues": [
+        154
+      ],
       "notes": "After PPW Sacrifice Law corpus registry is established (Milestone 17); PPW #154."
     },
     {
@@ -62,7 +78,10 @@
       "disposition": "do-not-import",
       "description": "Quarto research site pages",
       "scheduledMilestone": null,
-      "ppwIssues": [176, 178],
+      "ppwIssues": [
+        176,
+        178
+      ],
       "notes": "Child-repo site remains live. PPW will have its own Sacrifice Law module pages (PPW #176, #178)."
     },
     {

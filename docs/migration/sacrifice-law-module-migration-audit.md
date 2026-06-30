@@ -63,7 +63,7 @@ Follow-up issues carried forward from #152 and tracked by #148:
 | PPW issue | Status | Purpose |
 |---|---|---|
 | #250 | Complete | Created the American Revolution PPW case folder and reference-only Sacrifice Law subset link. |
-| #251 | Open | Create the Napoleonic France PPW case folder before importing or linking that subset. |
+| #251 | Complete | Created the Napoleonic France PPW case folder and reference-only Sacrifice Law subset link. |
 | #252 | Open | Review whether French Revolution belongs in the Sacrifice Law corpus mapping. |
 | #253 | Open | Review whether British World War I belongs in the Sacrifice Law corpus mapping. |
 
@@ -106,7 +106,7 @@ The canonical artifact-family inventory is `data/corpora/sacrifice-law-comparati
 | Lincoln / American Civil War (Union) | `american-civil-war-union` exists | Confirmed; subset link exists. |
 | Hitler / Nazi Germany | `nazi-germany` exists | Confirmed; subset link exists, with rights review required for Nazi-era translations and scholarly apparatus. |
 | American Revolution | `american-revolution` exists | Confirmed; minimal case folder and reference-only subset link exist. |
-| Napoleon / Napoleonic Era | Proposed `napoleonic-france` | Blocked until #251 creates or approves the PPW case folder. |
+| Napoleon / Napoleonic Era | `napoleonic-france` exists | Confirmed; minimal case folder and reference-only subset link exist. |
 | French Revolution | Candidate `revolutionary-france` | Review-only; current canonical Sacrifice Law corpus metadata does not identify this as a source case. |
 | British World War I | Candidate `world-war-i-nationalisms` or `british-world-war-i` | Review-only; current canonical Sacrifice Law corpus metadata does not identify this as a source case. |
 
@@ -119,7 +119,7 @@ Sacrifice Law draft candidates live in `data/claim-promotion/draft-claims.json`.
 | `slw-draft-claim-001` | Cross-case | `draft` | `candidate` | Not ready for review; requires passage-level evidence, proposed case resolution, and reliability/promotion gates. |
 | `slw-draft-claim-002` | Single case: `american-civil-war-union` | `draft` | `candidate` | Not ready for review; requires passage anchoring and review against Lincoln metaphor-analysis overlap. |
 | `slw-draft-claim-003` | Single case: `nazi-germany` | `draft` | `candidate` | Not ready for review; requires rights/provenance review and passage anchoring. |
-| `slw-draft-claim-004` | Cross-case coverage blocker | `draft` | `none` | Not an evidentiary claim; requires #251 resolution or explicit rejection of the proposed Napoleon target. |
+| `slw-draft-claim-004` | Cross-case coverage blocker | `draft` | `none` | Not an evidentiary claim; four-case scaffold exists, but passage evidence and review gates remain incomplete. |
 
 No Sacrifice Law claim is ready to become a public PPW finding in Milestone 17. Later review can begin only after case-folder coverage, rights/provenance review, passage anchoring, and reliability design are completed.
 
@@ -129,7 +129,7 @@ No comparative claim is ready for formal review yet.
 
 The closest later-review candidates are:
 
-- `slw-draft-claim-001`, after #251 resolves the remaining four-case coverage gap and passage-level evidence is anchored.
+- `slw-draft-claim-001`, after passage-level evidence is anchored for all four mapped case targets.
 - `slw-draft-claim-002`, after Lincoln subset passages are anchored and overlap with Lincoln metaphor-analysis candidates is reviewed.
 - `slw-draft-claim-003`, after Nazi Germany rights/provenance constraints and passage anchoring are resolved.
 
@@ -137,7 +137,7 @@ These are candidate review paths, not promotion decisions.
 
 ## 8. Remaining Risks
 
-1. **Case coverage risk:** American Revolution has only a minimal scaffold and no passage evidence; Napoleon remains a proposed PPW target without a case folder.
+1. **Case coverage risk:** American Revolution and Napoleonic France have only minimal scaffolds and no passage evidence.
 2. **Candidate mapping risk:** French Revolution and British World War I are review-only candidates and must not receive subset links without revised source-corpus evidence.
 3. **Rights risk:** Nazi-era translations and scholarly apparatus require source-level rights review before text import.
 4. **Provenance risk:** Several artifact families have only partial provenance records in PPW and still rely on child-repository context.
