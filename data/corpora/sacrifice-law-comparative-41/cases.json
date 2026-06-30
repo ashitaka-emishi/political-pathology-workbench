@@ -53,8 +53,9 @@
       "sourceCaseInCorpus": false,
       "proposedPpwCaseId": "revolutionary-france",
       "ppwCaseFolderExists": true,
-      "caseMappingStatus": "needs-review",
-      "notes": "Listed as a possible mapping in PPW #149, but the current canonical Sacrifice Law corpus metadata does not identify a French Revolution source case."
+      "caseMappingStatus": "deferred-out-of-scope-current-corpus",
+      "reviewDecisionIssue": 252,
+      "notes": "Reviewed in PPW #252. The current canonical Sacrifice Law corpus metadata identifies American Revolution, Napoleon, Lincoln, and Hitler as source cases; it does not identify French Revolution as a source case. Do not create a Sacrifice Law subset link for revolutionary-france unless the source corpus metadata is revised or a specific French Revolution source subset is confirmed."
     },
     {
       "sourceCase": "British World War I",
