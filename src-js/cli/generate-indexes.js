@@ -37,7 +37,7 @@ function indexBy(records, key) {
 }
 
 function buildCaseChain({ caseRecord, slug, sourcePack, passages, claims, interpretations, scores }) {
-  const sourcesById = indexBy(sourcePack.sources, "sourceId");
+  const sourcesById = indexBy(sourcePack.sources ?? [], "sourceId");
   const passagesById = indexBy(passages, "passageId");
   const claimsById = indexBy(claims, "claimId");
   const scoresByInterpretationId = new Map();
@@ -88,7 +88,7 @@ for (const slug of listDirs(casesDir)) {
   const counterclaims = readArray(path.join(caseDir, "counterclaims.json"));
 
   allCases.push({ ...caseRecord, slug });
-  allSources.push(...sourcePack.sources.map((source) => ({ ...source, caseId: caseRecord.caseId, caseSlug: slug })));
+  allSources.push(...(sourcePack.sources ?? []).map((source) => ({ ...source, caseId: caseRecord.caseId, caseSlug: slug })));
   allPassages.push(...passages.map((record) => ({ ...record, caseSlug: slug })));
   allClaims.push(...claims.map((record) => ({ ...record, caseSlug: slug })));
   allInterpretations.push(...interpretations.map((record) => ({ ...record, caseSlug: slug })));
