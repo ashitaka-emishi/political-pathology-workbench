@@ -116,7 +116,7 @@
       "candidateCategories": [
         {
           "category": "broader-collected-works",
-          "description": "Lincoln Collected Works documents not in core or validation tiers — campaign speeches, lesser-known addresses, minor correspondence",
+          "description": "Lincoln Collected Works documents not in core or validation tiers — campaign speeches, lesser-known addresses, minor correspondence. Note: the congressional-speeches, legal-documents, and campaign-materials categories below are subsets of this broader pool; do not count a document in both this category and a named subset category.",
           "estimatedCount": "open",
           "rationale": "Exhaustive Lincoln coverage for search; ensures no significant document is outside the search index"
         },
@@ -143,7 +143,7 @@
           "description": "Selected documents by contemporaries (Douglas, Chase, Seward, Frederick Douglass) for comparative-context search",
           "estimatedCount": "10-20",
           "rationale": "Non-Lincoln documents for negative-space and contrast searches; must be marked authorId ≠ Lincoln and excluded from any Lincoln-specific metaphor scoring",
-          "authorshipNote": "These documents are NOT Lincoln-authored. Use authorId and corpusTier fields to prevent accidental inclusion in Lincoln-metaphor scoring runs."
+          "authorshipNote": "These documents are NOT Lincoln-authored. Use the author field (not 'Lincoln') and corpusTier field to prevent accidental inclusion in Lincoln-metaphor scoring runs."
         },
         {
           "category": "newspaper-transcripts",
