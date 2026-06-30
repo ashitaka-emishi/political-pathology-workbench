@@ -1,0 +1,9 @@
+{
+  "draftClaimId": "fixture-draft-claim-invalid-score",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseId": "american-civil-war-union",
+  "claim": "Lincoln's rhetoric increases the sacred-political-order-strength score.",
+  "reviewStatus": "draft",
+  "scoreImpact": "increase",
+  "sourceArtifacts": []
+}

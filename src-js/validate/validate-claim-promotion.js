@@ -12,6 +12,90 @@ function hasEvidence(record) {
   return (record.sourceRefs ?? []).length > 0 || (record.passageRefs ?? []).length > 0 || (record.artifactRefs ?? []).length > 0;
 }
 
+export function validatePromotionRecord(record, promotionIds, moduleIds, caseIds, errors, warnings, label) {
+  try {
+    requireFields(label, record, ["promotionId", "claimId", "originModuleId", "promotionStatus", "reviewStatus"]);
+  } catch (error) {
+    errors.push(error.message);
+    return;
+  }
+
+  if (promotionIds.has(record.promotionId)) errors.push(`${label}: duplicate promotionId`);
+  promotionIds.add(record.promotionId);
+
+  if (!PROMOTION_STATUSES.has(record.promotionStatus)) errors.push(`${label}: unsupported promotionStatus ${record.promotionStatus}`);
+  if (!REVIEW_STATUSES.has(record.reviewStatus)) errors.push(`${label}: unsupported reviewStatus ${record.reviewStatus}`);
+  if (record.scoreImpact?.expectedDirection && !SCORE_IMPACT_DIRECTIONS.has(record.scoreImpact.expectedDirection)) {
+    errors.push(`${label}: unsupported scoreImpact.expectedDirection ${record.scoreImpact.expectedDirection}`);
+  }
+
+  if (moduleIds.size > 0 && !moduleIds.has(record.originModuleId)) {
+    errors.push(`${label}: unknown originModuleId ${record.originModuleId}`);
+  }
+  if (record.caseId && caseIds.size > 0 && !caseIds.has(record.caseId)) {
+    errors.push(`${label}: unknown caseId ${record.caseId}`);
+  }
+
+  if (record.promotionStatus === "promoted-finding" && !ACTIVE_REVIEW_STATUSES.has(record.reviewStatus)) {
+    errors.push(`${label}: promoted-finding requires reviewStatus human-reviewed or approved`);
+  }
+
+  if (record.promotionStatus === "blocked" && !hasEvidence(record) && !record.missingEvidenceReason) {
+    errors.push(`${label}: blocked promotion lacks evidence refs and missingEvidenceReason`);
+  }
+
+  if (record.promotionStatus !== "raw-artifact" && record.promotionStatus !== "blocked" && !hasEvidence(record)) {
+    warnings.push(`${label}: non-raw-artifact claim lacks source/passage/artifact references`);
+  }
+
+  for (const id of record.caseIds ?? []) {
+    if (caseIds.size > 0 && !caseIds.has(id)) errors.push(`${label}: unknown caseId ${id} in caseIds`);
+  }
+}
+
+export function validateDraftClaimRecord(claim, draftIds, moduleIds, caseIds, errors, warnings, label) {
+  try {
+    requireFields(label, claim, ["draftClaimId", "originModuleId", "claim", "reviewStatus", "scoreImpact"]);
+  } catch (error) {
+    errors.push(error.message);
+    return;
+  }
+
+  if (draftIds.has(claim.draftClaimId)) errors.push(`${label}: duplicate draftClaimId`);
+  draftIds.add(claim.draftClaimId);
+
+  if (moduleIds.size > 0 && !moduleIds.has(claim.originModuleId)) {
+    errors.push(`${label}: unknown originModuleId ${claim.originModuleId}`);
+  }
+
+  const singleCaseId = claim.caseId || null;
+  const multiCaseIds = Array.isArray(claim.caseIds) ? claim.caseIds : [];
+  if (!singleCaseId && multiCaseIds.length === 0) {
+    errors.push(`${label}: must specify caseId or caseIds`);
+  }
+  if (singleCaseId && multiCaseIds.length > 0) {
+    warnings.push(`${label}: both caseId and caseIds are set; caseId takes precedence`);
+  }
+  if (singleCaseId && caseIds.size > 0 && !caseIds.has(singleCaseId)) {
+    errors.push(`${label}: unknown caseId ${singleCaseId}`);
+  }
+  for (const id of multiCaseIds) {
+    if (caseIds.size > 0 && !caseIds.has(id)) errors.push(`${label}: unknown caseId ${id} in caseIds`);
+  }
+
+  if (!REVIEW_STATUSES.has(claim.reviewStatus)) {
+    errors.push(`${label}: unsupported reviewStatus ${claim.reviewStatus}`);
+  }
+
+  if (!DRAFT_SCORE_IMPACTS.has(claim.scoreImpact)) {
+    errors.push(`${label}: draft claim has active scoreImpact "${claim.scoreImpact}"; only "candidate" or "none" are permitted`);
+  }
+
+  if ((claim.sourceArtifacts ?? []).length === 0) {
+    warnings.push(`${label}: draft claim has no sourceArtifacts`);
+  }
+}
+
 function validatePromotionRegistry(registryPath, moduleIds, caseIds, errors, warnings) {
   if (!fs.existsSync(registryPath)) return;
 
@@ -31,44 +115,7 @@ function validatePromotionRegistry(registryPath, moduleIds, caseIds, errors, war
   const promotionIds = new Set();
   for (const record of records) {
     const label = `${registryPath}:${record.promotionId ?? "<unknown>"}`;
-    try {
-      requireFields(label, record, ["promotionId", "claimId", "originModuleId", "promotionStatus", "reviewStatus"]);
-    } catch (error) {
-      errors.push(error.message);
-      continue;
-    }
-
-    if (promotionIds.has(record.promotionId)) errors.push(`${label}: duplicate promotionId`);
-    promotionIds.add(record.promotionId);
-
-    if (!PROMOTION_STATUSES.has(record.promotionStatus)) errors.push(`${label}: unsupported promotionStatus ${record.promotionStatus}`);
-    if (!REVIEW_STATUSES.has(record.reviewStatus)) errors.push(`${label}: unsupported reviewStatus ${record.reviewStatus}`);
-    if (record.scoreImpact?.expectedDirection && !SCORE_IMPACT_DIRECTIONS.has(record.scoreImpact.expectedDirection)) {
-      errors.push(`${label}: unsupported scoreImpact.expectedDirection ${record.scoreImpact.expectedDirection}`);
-    }
-
-    if (moduleIds.size > 0 && !moduleIds.has(record.originModuleId)) {
-      errors.push(`${label}: unknown originModuleId ${record.originModuleId}`);
-    }
-    if (record.caseId && caseIds.size > 0 && !caseIds.has(record.caseId)) {
-      errors.push(`${label}: unknown caseId ${record.caseId}`);
-    }
-
-    if (record.promotionStatus === "promoted-finding" && !ACTIVE_REVIEW_STATUSES.has(record.reviewStatus)) {
-      errors.push(`${label}: promoted-finding requires reviewStatus human-reviewed or approved`);
-    }
-
-    if (record.promotionStatus === "blocked" && !hasEvidence(record) && !record.missingEvidenceReason) {
-      errors.push(`${label}: blocked promotion lacks evidence refs and missingEvidenceReason`);
-    }
-
-    if (record.promotionStatus !== "raw-artifact" && record.promotionStatus !== "blocked" && !hasEvidence(record)) {
-      warnings.push(`${label}: non-raw-artifact claim lacks source/passage/artifact references`);
-    }
-
-    for (const id of record.caseIds ?? []) {
-      if (caseIds.size > 0 && !caseIds.has(id)) errors.push(`${label}: unknown caseId ${id} in caseIds`);
-    }
+    validatePromotionRecord(record, promotionIds, moduleIds, caseIds, errors, warnings, label);
   }
 }
 
@@ -97,46 +144,7 @@ function validateDraftClaims(draftClaimsPath, moduleIds, caseIds, errors, warnin
   const draftIds = new Set();
   for (const claim of claims) {
     const label = `${draftClaimsPath}:${claim.draftClaimId ?? "<unknown>"}`;
-    try {
-      requireFields(label, claim, ["draftClaimId", "originModuleId", "claim", "reviewStatus", "scoreImpact"]);
-    } catch (error) {
-      errors.push(error.message);
-      continue;
-    }
-
-    if (draftIds.has(claim.draftClaimId)) errors.push(`${label}: duplicate draftClaimId`);
-    draftIds.add(claim.draftClaimId);
-
-    if (moduleIds.size > 0 && !moduleIds.has(claim.originModuleId)) {
-      errors.push(`${label}: unknown originModuleId ${claim.originModuleId}`);
-    }
-
-    const singleCaseId = claim.caseId || null;
-    const multiCaseIds = Array.isArray(claim.caseIds) ? claim.caseIds : [];
-    if (!singleCaseId && multiCaseIds.length === 0) {
-      errors.push(`${label}: must specify caseId or caseIds`);
-    }
-    if (singleCaseId && multiCaseIds.length > 0) {
-      warnings.push(`${label}: both caseId and caseIds are set; caseId takes precedence`);
-    }
-    if (singleCaseId && caseIds.size > 0 && !caseIds.has(singleCaseId)) {
-      errors.push(`${label}: unknown caseId ${singleCaseId}`);
-    }
-    for (const id of multiCaseIds) {
-      if (caseIds.size > 0 && !caseIds.has(id)) errors.push(`${label}: unknown caseId ${id} in caseIds`);
-    }
-
-    if (!REVIEW_STATUSES.has(claim.reviewStatus)) {
-      errors.push(`${label}: unsupported reviewStatus ${claim.reviewStatus}`);
-    }
-
-    if (!DRAFT_SCORE_IMPACTS.has(claim.scoreImpact)) {
-      errors.push(`${label}: draft claim has active scoreImpact "${claim.scoreImpact}"; only "candidate" or "none" are permitted`);
-    }
-
-    if ((claim.sourceArtifacts ?? []).length === 0) {
-      warnings.push(`${label}: draft claim has no sourceArtifacts`);
-    }
+    validateDraftClaimRecord(claim, draftIds, moduleIds, caseIds, errors, warnings, label);
   }
 }
 

@@ -1,0 +1,11 @@
+{
+  "promotionId": "fixture-prom-promoted-001",
+  "claimId": "lma-draft-claim-001",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseId": "american-civil-war-union",
+  "promotionStatus": "promoted-finding",
+  "reviewStatus": "approved",
+  "sourceRefs": ["lincoln-gettysburg-address-1863", "lincoln-second-inaugural-1865"],
+  "passageRefs": [],
+  "artifactRefs": ["lincoln-deep-28"]
+}

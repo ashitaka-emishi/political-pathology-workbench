@@ -1,0 +1,11 @@
+{
+  "promotionId": "fixture-prom-invalid-module",
+  "claimId": "lma-draft-claim-001",
+  "originModuleId": "nonexistent-module-does-not-exist",
+  "caseId": "american-civil-war-union",
+  "promotionStatus": "reviewed-claim",
+  "reviewStatus": "source-review",
+  "sourceRefs": ["lincoln-gettysburg-address-1863"],
+  "passageRefs": [],
+  "artifactRefs": []
+}
