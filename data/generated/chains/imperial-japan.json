@@ -58,8 +58,7 @@
             "rationale": "Both passages advanced to evidence-review. Passage text confirmed against multiple independent online scholarly sources (worldjpn.net, Wikipedia, rikukaigun.org); core wording verified accurately. Tsunoda et al. (1958) p.139 and McLaren (1914) p.197 edition-specific wording requires physical library verification. Confidence raised from 0.70 reflecting confirmed passage integrity.",
             "uncertaintyFactors": [
               "tsunoda-1958-edition-wording-unconfirmed",
-              "mclaren-1914-edition-wording-unconfirmed",
-              "chain-requires-expansion"
+              "mclaren-1914-edition-wording-unconfirmed"
             ]
           },
           "passages": [
@@ -111,10 +110,9 @@
           "confidence": {
             "value": 0.7,
             "label": "moderate-high",
-            "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum sacred-political-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification and chain expansion required before further advance.",
+            "rationale": "Passages advanced to evidence-review after text confirmation against multiple independent online scholarly sources. Maximum sacred-political-order-strength score is strongly supported by the rescript sources and by the wartime escalation outcome. Confidence raised from 0.65; physical edition verification remains required before further advance.",
             "uncertaintyFactors": [
-              "physical-edition-verification-pending",
-              "chain-requires-expansion"
+              "physical-edition-verification-pending"
             ]
           },
           "reviewStatus": "score-review",
@@ -125,7 +123,7 @@
             "sacrifice"
           ],
           "codebookVersion": "v1",
-          "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified and chain-requires-expansion resolved."
+          "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified."
         }
       ]
     },

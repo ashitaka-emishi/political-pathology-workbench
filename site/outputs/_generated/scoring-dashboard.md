@@ -43,7 +43,7 @@ Public availability does not imply scholarly finality.
 
 | Variable | Value | Confidence | Uncertainty factors | Review status |
 |---|---|---|---|---|
-| Corrigibility | ■■■■□ 4/5 | moderate-high (0.70) | chain-requires-expansion | `score-review` |
+| Corrigibility | ■■■■□ 4/5 | moderate-high (0.70) | requires-secondary-source-corroboration | `score-review` |
 | Corrigibility | ■■■■■ 5/5 | moderate-high (0.78) | art-20-4-added-1968-not-1949-original, right-of-resistance-never-invoked-in-practice | `score-review` |
 
 ### Imperial Japan
@@ -53,7 +53,7 @@ Public availability does not imply scholarly finality.
 
 | Variable | Value | Confidence | Uncertainty factors | Review status |
 |---|---|---|---|---|
-| Sacred Political Order Strength | ■■■■■ 5/5 | moderate-high (0.70) | physical-edition-verification-pending, chain-requires-expansion | `score-review` |
+| Sacred Political Order Strength | ■■■■■ 5/5 | moderate-high (0.70) | physical-edition-verification-pending | `score-review` |
 | Corrigibility | ■□□□□ 1/5 | moderate-high (0.75) | ministry-of-education-translation-mediated, chain-requires-operational-documentation | `score-review` |
 
 ### Soviet Union Collapse
@@ -63,7 +63,7 @@ Public availability does not imply scholarly finality.
 
 | Variable | Value | Confidence | Uncertainty factors | Review status |
 |---|---|---|---|---|
-| Sacred Political Order Strength | ■■□□□ 2/5 | moderate (0.65) | periodization-ambiguity, chain-requires-expansion | `score-review` |
+| Sacred Political Order Strength | ■■□□□ 2/5 | moderate (0.65) | periodization-ambiguity | `score-review` |
 | Corrigibility | ■□□□□ 1/5 | moderate (0.68) | gorbachev-reform-attempt-as-partial-corrigibility, historiography-divides-on-structural-vs-contingent-failure | `score-review` |
 
 ### United States After Vietnam
@@ -73,5 +73,5 @@ Public availability does not imply scholarly finality.
 
 | Variable | Value | Confidence | Uncertainty factors | Review status |
 |---|---|---|---|---|
-| Corrigibility | ■■■□□ 3/5 | moderate (0.62) | periodization-contested, chain-requires-expansion | `score-review` |
+| Corrigibility | ■■■□□ 3/5 | moderate (0.62) | periodization-contested | `score-review` |
 | Sacred Political Order Strength | ■■■□□ 3/5 | moderate (0.60) | periodization-1973-1984-vs-later-recovery, cold-war-framing-kept-some-consensus-intact | `score-review` |

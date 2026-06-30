@@ -122,9 +122,9 @@
           "confidence": {
             "value": 0.7,
             "label": "moderate-high",
-            "rationale": "Passages advanced to evidence-review after text confirmation against official Bundestag translation. High corrigibility score is structurally justified by the constitutional design; confidence raised from 0.65. Capped pending chain expansion and secondary-source corroboration.",
+            "rationale": "Passages advanced to evidence-review after text confirmation against official Bundestag translation. High corrigibility score is structurally justified by the constitutional design; confidence raised from 0.65. Capped pending secondary-source corroboration.",
             "uncertaintyFactors": [
-              "chain-requires-expansion"
+              "requires-secondary-source-corroboration"
             ]
           },
           "reviewStatus": "score-review",
@@ -134,7 +134,7 @@
             "constitutional-containment"
           ],
           "codebookVersion": "v1",
-          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Art. 1(1) human dignity + Art. 79(3) eternity clause) represents high corrigibility. Confidence 0.70 is well-calibrated — the mechanism is architecturally tight and directly contrasts with the Nazi Germany cor=1 case. Chain-requires-expansion uncertainty resolved by Milestone 7 chain expansion to 4 passages. Ready for human-reviewed: gold case chain is now at 4 passages, all at argument-review."
+          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Art. 1(1) human dignity + Art. 79(3) eternity clause) represents high corrigibility. Confidence 0.70 is well-calibrated — the mechanism is architecturally tight and directly contrasts with the Nazi Germany cor=1 case. Chain expansion uncertainty resolved by Milestone 7 chain expansion to 4 passages. Ready for human-reviewed: gold case chain is now at 4 passages, all at argument-review."
         }
       ]
     },

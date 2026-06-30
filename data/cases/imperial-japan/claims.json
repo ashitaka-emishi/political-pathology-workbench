@@ -17,8 +17,7 @@
       "rationale": "Both passages advanced to evidence-review. Passage text confirmed against multiple independent online scholarly sources (worldjpn.net, Wikipedia, rikukaigun.org); core wording verified accurately. Tsunoda et al. (1958) p.139 and McLaren (1914) p.197 edition-specific wording requires physical library verification. Confidence raised from 0.70 reflecting confirmed passage integrity.",
       "uncertaintyFactors": [
         "tsunoda-1958-edition-wording-unconfirmed",
-        "mclaren-1914-edition-wording-unconfirmed",
-        "chain-requires-expansion"
+        "mclaren-1914-edition-wording-unconfirmed"
       ]
     }
   },

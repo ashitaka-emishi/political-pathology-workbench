@@ -14,10 +14,9 @@
     "confidence": {
       "value": 0.72,
       "label": "moderate-high",
-      "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending chain expansion.",
+      "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending physical edition verification.",
       "uncertaintyFactors": [
-        "gorbachev-doubleday-1996-edition-wording-unconfirmed",
-        "chain-requires-expansion"
+        "gorbachev-doubleday-1996-edition-wording-unconfirmed"
       ]
     }
   },

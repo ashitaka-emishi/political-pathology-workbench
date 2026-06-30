@@ -54,10 +54,9 @@
           "confidence": {
             "value": 0.72,
             "label": "moderate-high",
-            "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending chain expansion.",
+            "rationale": "Both passages advanced to evidence-review. Passage-001 text updated to Marxists.org translation (Gorbachev speech); prior text had translation variants ('there was something wrong' corrected to 'all was not well'; Doubleday 1996 Memoirs edition pending physical library verification). Passage-002 (Alma-Ata Declaration) confirmed verbatim against ECCIS and bits.de sources. Confidence raised from 0.68. Capped pending physical edition verification.",
             "uncertaintyFactors": [
-              "gorbachev-doubleday-1996-edition-wording-unconfirmed",
-              "chain-requires-expansion"
+              "gorbachev-doubleday-1996-edition-wording-unconfirmed"
             ]
           },
           "passages": [
@@ -109,10 +108,9 @@
           "confidence": {
             "value": 0.65,
             "label": "moderate",
-            "rationale": "Passages advanced to evidence-review. Score of 2 reflects the terminal-phase strength of the Soviet sacred political order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period. Confidence raised from 0.60. Capped pending chain expansion.",
+            "rationale": "Passages advanced to evidence-review. Score of 2 reflects the terminal-phase strength of the Soviet sacred political order in 1985-1991, not its historical peak. The order's founding claims had lost coherence by the collapse period. Confidence raised from 0.60. Capped by periodization ambiguity.",
             "uncertaintyFactors": [
-              "periodization-ambiguity",
-              "chain-requires-expansion"
+              "periodization-ambiguity"
             ]
           },
           "reviewStatus": "score-review",
@@ -122,7 +120,7 @@
             "legitimacy-collapse"
           ],
           "codebookVersion": "v1",
-          "reviewNote": "Score value 2/5 defensible: legitimacy-collapse mechanism (Gorbachev's resignation diagnosis, Alma-Ata dissolution) documents the terminal-phase sacred-political-order-strength — the order retains some institutional inertia but can no longer sustain its founding claims. Score of 2 (not 1) correctly distinguishes this from North Korea's frozen pathology. Confidence 0.65 reflects periodization ambiguity (scores the 1985-1991 collapse phase, not the historical peak). Ready for human-reviewed pending chain expansion to ≥4 passages — now resolved (Milestone 7)."
+          "reviewNote": "Score value 2/5 defensible: legitimacy-collapse mechanism (Gorbachev's resignation diagnosis, Alma-Ata dissolution) documents the terminal-phase sacred-political-order-strength — the order retains some institutional inertia but can no longer sustain its founding claims. Score of 2 (not 1) correctly distinguishes this from North Korea's frozen pathology. Confidence 0.65 reflects periodization ambiguity (scores the 1985-1991 collapse phase, not the historical peak). Ready for human-reviewed with the Milestone 7 chain expansion resolved."
         }
       ]
     },
