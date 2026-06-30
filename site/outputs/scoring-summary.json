@@ -1,5 +1,7 @@
 {
   "scoreCount": 26,
+  "excludedByPromotionFilter": 0,
+  "excludedScores": [],
   "caseAverages": {
     "american-civil-war-union": 4.0,
     "british-empire-to-commonwealth": 3.0,
