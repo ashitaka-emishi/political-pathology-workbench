@@ -251,7 +251,8 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 | American Revolution / Napoleon PPW case mapping not confirmed | SLW | High | #149, #150, #151 |
 | 7 absorbed source issues (LMA) not individually listed in source-issue-map.json | LMA | Low | Follow-up reconciliation |
 | Reliability sampling strategy not yet adapted to PPW | LMA, SLW | Medium | #199 (LMA), #192 (SLW) |
-| Per-corpus `documents[]` arrays empty — no document-level metadata yet | SLW | Medium | #196, #197 (LMA validation/reference tiers); no issue yet (SLW M17 import issue to be created) |
+| LMA validation-tier documents[] has no individual documents yet — scope defined but specific selection pending LMA #114 | LMA | Low | #196 (substantially addressed: tier scope, annotation level, and 9 candidate categories defined in PPW #196; additional documents pending LMA #114 resolution) |
+| LMA reference-tier and SLW documents[] arrays empty — no document-level metadata yet | LMA, SLW | Medium | #197 (LMA reference tier); no issue yet (SLW M17 import issue to be created) |
 | lincoln-deep-28 core-tier documents[] partially populated (36 of 48 planned entries; 12-doc gap pending LMA #113 resolution) | LMA | Low | #195 (substantially addressed) |
 | SLW raw-text import has no governing PPW issue (import-map.json ppwIssues: []) | SLW | Medium | (no issue; must be created for M17 planning) |
 | No schemas govern per-corpus folder files (corpus.json, documents.json, artifact-index.json) | Both | Low | (infrastructure gap, out of scope M15) |

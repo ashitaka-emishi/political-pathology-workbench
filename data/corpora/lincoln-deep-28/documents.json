@@ -25,10 +25,11 @@
       "coreDocumentsIncluded": true,
       "coreDocumentCount": 36,
       "additionalDocumentsNeeded": "39-64",
+      "candidateCountRange": "45-69",
       "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/196",
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#114",
       "importStatus": "pending",
-      "description": "Lighter annotation tier for inter-annotator reliability sampling and recurrence/negative-finding testing. Includes all v4-core documents (36 registered in PPW #195) plus 39-64 additional documents drawn from the candidate categories below. Specific document selection awaits LMA #114 resolution.",
+      "description": "Lighter annotation tier for inter-annotator reliability sampling and recurrence/negative-finding testing. Includes all v4-core documents (36 registered in PPW #195) plus 39-64 additional documents selected from the candidate category pools below. The categories are overlapping candidate pools (estimated aggregate 45-69 documents); not all categories need be represented and no single category must be drawn to its stated maximum. Final selection must keep total additional count within 39-64 (total tier within 75-100). Specific document selection awaits LMA #114 resolution.",
       "tierDefinition": {
         "annotationLevel": "validation",
         "ppwAnnotationScope": "passage-level segmentation only; no claim extraction, no scoring",
@@ -40,12 +41,12 @@
         {
           "category": "additional-annual-messages",
           "description": "Annual messages to Congress not in the core set (December 1863, December 1864)",
-          "estimatedCount": "2",
+          "estimatedCount": "1-2",
           "rationale": "Complete the administrative-register chronological series; diachronic tracking of obligatory frame in formal reports"
         },
         {
           "category": "proclamations",
-          "description": "Thanksgiving and national day proclamations (1861-1865); Amnesty and Reconstruction proclamations",
+          "description": "Thanksgiving and national day proclamations (1861-1865); Proclamation of Amnesty and Reconstruction (December 8, 1863) and related proclamations. Note: avoid double-counting with reconstruction-documents category — the Proclamation of Amnesty should be counted in only one category.",
           "estimatedCount": "8-12",
           "rationale": "Legal/ritual register; test whether covenant and sacrifice metaphors appear in formal proclamation genre or are suppressed as in Emancipation Proclamations"
         },
@@ -81,13 +82,13 @@
         },
         {
           "category": "condolence-letters",
-          "description": "Letters of condolence to bereaved families of Union soldiers",
+          "description": "Letters of condolence to bereaved families of Union soldiers. Authorship caution: the Bixby Letter (November 21, 1864) is the most prominent condolence letter but authorship is disputed (possible John Hay attribution); apply authorship confidence controls analogous to Seward passages in lma-doc-009 if included.",
           "estimatedCount": "5-8",
           "rationale": "Wound-and-healing and sacrifice clusters in highly personal private register; tests unguarded theodicy expression"
         },
         {
           "category": "reconstruction-documents",
-          "description": "Reconstruction policy documents and correspondence not in core set",
+          "description": "Reconstruction policy documents and correspondence not in core set (e.g., Wade-Davis Pocket Veto message, Louisiana reconstruction correspondence, letters to governors on restoration). Note: avoid double-counting Proclamation of Amnesty and Reconstruction with the proclamations category.",
           "estimatedCount": "4-6",
           "rationale": "Diachronic endpoint for organism cluster beyond Last Public Address; tracks post-war body-politic frame"
         }

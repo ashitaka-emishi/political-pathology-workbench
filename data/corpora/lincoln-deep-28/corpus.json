@@ -6,7 +6,7 @@
   "caseIds": ["american-civil-war-union"],
   "documentCount": 28,
   "registeredDocumentCount": 36,
-  "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis (pipeline_stage_completed: 4 in source manifest). PPW #195 registered 36 documents: 28 confirmed (v3 baseline, present in corpus_manifest.json) plus 8 planned v4 additions identified in LMA #113 but not yet in the source-repo manifest. The v4 target of 48 requires 12 more documents to be specified when LMA #113 is resolved. Validation (75-100 docs) and reference tiers tracked in PPW #196 and #197 respectively.",
+  "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis (pipeline_stage_completed: 4 in source manifest). PPW #195 registered 36 documents: 28 confirmed (v3 baseline, present in corpus_manifest.json) plus 8 planned v4 additions identified in LMA #113 but not yet in the source-repo manifest. The v4 target of 48 requires 12 more documents to be specified when LMA #113 is resolved. PPW #196 defined the validation-tier scope (75-100 docs; passage-segmentation-only annotation; 9 candidate categories; specific documents pending LMA #114). Reference tier scope pending PPW #197.",
   "corpusPurpose": "core",
   "rightsStatus": "fair-use",
   "normalizationStatus": "pending",
