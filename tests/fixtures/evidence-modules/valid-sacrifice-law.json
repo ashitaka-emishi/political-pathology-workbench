@@ -1,0 +1,17 @@
+{
+  "moduleId": "sacrifice-law-workbench",
+  "moduleName": "Sacrifice Law Workbench",
+  "moduleType": "comparative",
+  "sourceRepository": "ashitaka-emishi/sacrifice-law-workbench",
+  "sourceRepositoryRole": "comparative-corpus-module",
+  "description": "Comparative corpus evidence module covering multiple historical cases under Koenigsberg's Law of Sacrifice.",
+  "caseIds": ["american-civil-war-union", "nazi-germany"],
+  "theoryIds": ["sacrifice-law-v1", "general-theory-political-pathology-v1"],
+  "corpusIds": ["sacrifice-law-comparative-41"],
+  "artifactClasses": ["corpus", "annotations", "methodology", "publication", "pipeline-scripts"],
+  "provenanceStatus": "partial",
+  "rightsStatus": "fair-use",
+  "reliabilityStatus": "pending",
+  "claimPromotionPolicy": "standard",
+  "sourceIssueMigrationStatus": "in-progress"
+}

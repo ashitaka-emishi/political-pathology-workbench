@@ -275,7 +275,7 @@ const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.j
 const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
 const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, bibliographyIds)).filter(Boolean);
 
-const evidenceModuleResult = validateEvidenceModules(root);
+const evidenceModuleResult = validateEvidenceModules(root, caseIds);
 for (const e of evidenceModuleResult.errors) errors.push(e);
 for (const w of evidenceModuleResult.warnings) warnings.push(w);
 

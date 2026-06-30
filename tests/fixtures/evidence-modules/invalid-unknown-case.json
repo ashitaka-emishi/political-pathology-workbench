@@ -1,0 +1,14 @@
+{
+  "moduleId": "fixture-unknown-case",
+  "moduleName": "Fixture Unknown Case",
+  "moduleType": "deep-case",
+  "sourceRepository": "ashitaka-emishi/fixture-unknown-case",
+  "sourceRepositoryRole": "deep-case-module",
+  "description": "Invalid fixture: references a caseId that does not exist in data/cases.",
+  "caseIds": ["nonexistent-case-does-not-exist"],
+  "provenanceStatus": "partial",
+  "rightsStatus": "fair-use",
+  "reliabilityStatus": "pending",
+  "claimPromotionPolicy": "standard",
+  "sourceIssueMigrationStatus": "in-progress"
+}

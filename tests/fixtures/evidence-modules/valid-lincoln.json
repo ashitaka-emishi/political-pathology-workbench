@@ -1,0 +1,17 @@
+{
+  "moduleId": "lincoln-metaphor-analysis",
+  "moduleName": "Lincoln Metaphor Analysis",
+  "moduleType": "deep-case",
+  "sourceRepository": "ashitaka-emishi/lincoln-metaphor-analysis",
+  "sourceRepositoryRole": "deep-case-module",
+  "description": "Deep single-case evidence module covering Abraham Lincoln's rhetoric (1838-1865).",
+  "caseIds": ["american-civil-war-union"],
+  "theoryIds": ["koenigsberg-immortal-body-v1", "sacrifice-law-v1", "general-theory-political-pathology-v1"],
+  "corpusIds": ["lincoln-deep-28"],
+  "artifactClasses": ["corpus", "annotations", "reliability-study", "methodology", "publication", "pipeline-scripts"],
+  "provenanceStatus": "partial",
+  "rightsStatus": "fair-use",
+  "reliabilityStatus": "pending",
+  "claimPromotionPolicy": "standard",
+  "sourceIssueMigrationStatus": "in-progress"
+}
