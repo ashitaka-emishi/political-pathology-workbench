@@ -165,9 +165,32 @@ export function generateCaseEvidenceChains(root) {
       })
     );
 
+    const generationWarnings = [];
+    for (const interp of nativeChain.interpretations) {
+      for (const claim of interp.claims) {
+        if (claim.linkStatus === "broken") {
+          generationWarnings.push(`broken claim link: ${claim.claimId} in interpretation ${interp.interpretationId}`);
+        }
+        for (const passage of claim.passages ?? []) {
+          if (passage.linkStatus === "broken") {
+            generationWarnings.push(`broken passage link: ${passage.passageId} in claim ${claim.claimId}`);
+          }
+          if (passage.sourceLinkStatus === "broken") {
+            generationWarnings.push(`broken source link: sourceId ${passage.sourceId} for passage ${passage.passageId}`);
+          }
+        }
+      }
+    }
+    if (generationWarnings.length > 0) {
+      for (const w of generationWarnings) {
+        process.stderr.write(`Warning [${caseId}]: ${w}\n`);
+      }
+    }
+
     const chainDoc = {
       caseId,
       generatedAt,
+      generationWarnings,
       nativeChain,
       counterclaims,
       draftClaims: draftClaimsByCase.get(caseId) ?? [],
