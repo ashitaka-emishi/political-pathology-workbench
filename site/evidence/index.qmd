@@ -1,0 +1,26 @@
+---
+title: "Evidence Modules"
+---
+
+::: {.callout-warning}
+Evidence modules are imported research packages under review. They do not convert draft claims into PPW findings unless the claim-promotion gates have been met.
+:::
+
+An evidence module is a bounded package of source-project material brought into the Political Pathology Workbench with explicit provenance, corpus metadata, reliability status, and claim-promotion controls. Modules may contain corpora, annotations, methodology notes, migration records, and draft claim candidates, but each artifact keeps its review state visible.
+
+The evidence-module workflow separates three claim states:
+
+- **Draft claims** are candidates preserved for traceability and review. They are not findings.
+- **Reviewed claims** have passed the required evidence and argument review gates but have not been promoted into public findings.
+- **Promoted claims** have passed promotion gates and may be represented as PPW findings.
+
+## Current modules
+
+| Module | Scope | Current publication status |
+|---|---|---|
+| [Lincoln Metaphor Analysis](https://github.com/ashitaka-emishi/political-pathology-workbench/blob/master/docs/related-projects/lincoln-metaphor-analysis.md) | Deep single-case module for Abraham Lincoln's rhetoric and the American Civil War / Union case. | Imported as a module registry entry with corpus and reliability metadata under review. |
+| [Sacrifice Law Workbench](https://github.com/ashitaka-emishi/political-pathology-workbench/blob/master/docs/related-projects/sacrifice-law-workbench.md) | Comparative module for Sacrifice Law source cases, including American Revolution, Napoleonic France, Lincoln, and Hitler/Nazi Germany materials. | Imported as a comparative module with reference-only subset links and draft claim candidates under review. |
+
+## Publication guardrails
+
+The PPW site may summarize an evidence module's corpus, provenance, and review state. It must not present provisional source-project claims as PPW findings until the relevant promotion gates are satisfied. When a module is connected to a case page, the case page should preserve the evidence chain from source to passage to claim to interpretation, and should distinguish imported evidence from scored PPW conclusions.
