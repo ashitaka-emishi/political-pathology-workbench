@@ -24,3 +24,5 @@ The evidence-module workflow separates three claim states:
 ## Publication guardrails
 
 The PPW site may summarize an evidence module's corpus, provenance, and review state. It must not present provisional source-project claims as PPW findings until the relevant promotion gates are satisfied. When a module is connected to a case page, the case page should preserve the evidence chain from source to passage to claim to interpretation, and should distinguish imported evidence from scored PPW conclusions.
+
+See [Claim Promotion Status](claim-promotion-status.qmd) for current draft, reviewed, promoted, blocked, and retired claim counts.

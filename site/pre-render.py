@@ -15,6 +15,7 @@ OUT_OUTPUTS = SITE_DIR / "outputs" / "_generated"
 OUT_THEORY = SITE_DIR / "theory" / "_generated"
 OUT_METHODS = SITE_DIR / "methods" / "_generated"
 OUT_GEN = SITE_DIR / "_generated"
+OUT_EVIDENCE = SITE_DIR / "evidence" / "_generated"
 DOCS_METHODOLOGY = PROJECT_ROOT / "docs" / "methodology"
 
 THEORY_IDS = [
@@ -1345,6 +1346,85 @@ def load_case_corpora(case_id: str) -> list[dict]:
     return corpora
 
 
+def load_claim_promotion(filename: str) -> object:
+    path = PROJECT_ROOT / "data" / "claim-promotion" / filename
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def render_claim_promotion_summary() -> str:
+    draft_data = load_claim_promotion("draft-claims.json")
+    draft_claims = draft_data.get("draftClaims", []) if isinstance(draft_data, dict) else []
+    reviewed_claims = load_claim_promotion("reviewed-claims.json")
+    promoted_claims = load_claim_promotion("promoted-claims.json")
+    retired_claims = load_claim_promotion("retired-claims.json")
+    registry = load_claim_promotion("promotion-registry.json")
+
+    blocked_records = [
+        record for record in registry
+        if record.get("promotionStatus") == "blocked"
+    ]
+    reviewed_records = [
+        record for record in registry
+        if record.get("promotionStatus") == "reviewed-claim"
+    ]
+
+    lines = [
+        "| Status | Count | Public score effect |",
+        "|---|---:|---|",
+        f"| Draft candidates | {len(draft_claims)} | None; draft claims do not drive public scores. |",
+        f"| Reviewed claim records | {len(reviewed_claims) + len(reviewed_records)} | None unless a linked score separately passes score-review/publication gates. |",
+        f"| Promoted findings | {len(promoted_claims)} | Eligible only when promotion and score-publication requirements are satisfied. |",
+        f"| Blocked promotion records | {len(blocked_records)} | None; blocked records document why promotion cannot proceed. |",
+        f"| Retired claims | {len(retired_claims)} | None; retired claims are preserved for provenance only. |",
+        "",
+    ]
+
+    module_counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    for claim in draft_claims:
+        module_counts[claim.get("originModuleId", "unknown")]["draft"] += 1
+    for record in registry:
+        status = record.get("promotionStatus", "unknown")
+        key = {
+            "reviewed-claim": "reviewed",
+            "blocked": "blocked",
+            "promoted-finding": "promoted",
+        }.get(status, status)
+        module_counts[record.get("originModuleId", "unknown")][key] += 1
+
+    if module_counts:
+        lines += [
+            "## Module Breakdown",
+            "",
+            "| Module | Draft | Reviewed records | Promoted findings | Blocked |",
+            "|---|---:|---:|---:|---:|",
+        ]
+        for module_id in sorted(module_counts):
+            counts = module_counts[module_id]
+            lines.append(
+                f"| {module_label(module_id)} "
+                f"| {counts.get('draft', 0)} "
+                f"| {counts.get('reviewed', 0)} "
+                f"| {counts.get('promoted', 0)} "
+                f"| {counts.get('blocked', 0)} |"
+            )
+        lines.append("")
+
+    if blocked_records:
+        lines += ["## Blocked Promotion Records", ""]
+        for record in blocked_records:
+            blockers = record.get("promotionBlockers", [])
+            blocker_text = "; ".join(blockers) if blockers else "Blocker not specified"
+            lines.append(
+                f"- `{record.get('claimId', record.get('promotionId', 'claim'))}` "
+                f"({module_label(record.get('originModuleId', 'unknown'))}): {blocker_text}"
+            )
+        lines.append("")
+
+    return "\n".join(lines)
+
+
 def main() -> None:
     import subprocess
     subprocess.run(
@@ -1359,6 +1439,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     OUT_OUTPUTS.mkdir(parents=True, exist_ok=True)
     OUT_GEN.mkdir(parents=True, exist_ok=True)
+    OUT_EVIDENCE.mkdir(parents=True, exist_ok=True)
 
     summary_path = SITE_DIR / "data" / "workbench-summary.json"
     summary = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {"cases": []}
@@ -1401,6 +1482,11 @@ def main() -> None:
     comp_path = OUT_OUTPUTS / "case-comparison.md"
     comp_path.write_text(comparison, encoding="utf-8")
     print(f"  [pre-render] Wrote {comp_path.relative_to(PROJECT_ROOT)}")
+
+    claim_promotion_summary = render_claim_promotion_summary()
+    claim_promotion_path = OUT_EVIDENCE / "claim-promotion-summary.md"
+    claim_promotion_path.write_text(claim_promotion_summary, encoding="utf-8")
+    print(f"  [pre-render] Wrote {claim_promotion_path.relative_to(PROJECT_ROOT)}")
 
     # Methods pages
     OUT_METHODS.mkdir(parents=True, exist_ok=True)
