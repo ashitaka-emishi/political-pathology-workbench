@@ -19,7 +19,7 @@ The evidence-module workflow separates three claim states:
 | Module | Scope | Current publication status |
 |---|---|---|
 | [Lincoln Metaphor Analysis](lincoln-metaphor-analysis.qmd) | Deep single-case module for Abraham Lincoln's rhetoric and the American Civil War / Union case. | Imported as a module registry entry with corpus and reliability metadata under review. |
-| [Sacrifice Law Workbench](https://github.com/ashitaka-emishi/political-pathology-workbench/blob/master/docs/related-projects/sacrifice-law-workbench.md) | Comparative module for Sacrifice Law source cases, including American Revolution, Napoleonic France, Lincoln, and Hitler/Nazi Germany materials. | Imported as a comparative module with reference-only subset links and draft claim candidates under review. |
+| [Sacrifice Law Workbench](sacrifice-law-workbench.qmd) | Comparative module for Sacrifice Law source cases, including American Revolution, Napoleonic France, Lincoln, and Hitler/Nazi Germany materials. | Imported as a comparative module with reference-only subset links and draft claim candidates under review. |
 
 ## Publication guardrails
 

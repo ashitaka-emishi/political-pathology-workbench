@@ -1,0 +1,71 @@
+---
+title: "Sacrifice Law Workbench"
+---
+
+::: {.callout-warning}
+The Sacrifice Law module is a comparative evidence module under review. It does not publish PPW support ratings, and its draft cross-case claims are not final findings.
+:::
+
+The Sacrifice Law Workbench module preserves a four-case comparative corpus organized around Koenigsberg's Law of Sacrifice. In PPW, the module supplies corpus metadata, case mappings, artifact-family records, and draft claim candidates for review. PPW remains responsible for public claims, interpretations, scores, and promotion decisions.
+
+## Module role
+
+This module is a comparative corpus module, not a replacement for PPW's case model or theory layer. It helps test whether crisis political communities represent the collective body as sacred and legitimate individual sacrifice for its continuation. That question belongs to `sacrifice-law-v1`, but any public PPW finding must still pass through source, passage, claim, interpretation, and score review.
+
+| Field | Status |
+|---|---|
+| Module ID | `sacrifice-law-workbench` |
+| Module type | Comparative corpus module |
+| Corpus ID | `sacrifice-law-comparative-41` |
+| Document frame | 41-document stratified corpus |
+| Reliability status | Pending |
+| Public support ratings promoted | No |
+
+## Mapped PPW cases
+
+| Source case | PPW case | Mapping status |
+|---|---|---|
+| Lincoln / American Civil War (Union) | [`american-civil-war-union`](../cases/american-civil-war-union.qmd) | Confirmed; subset link exists |
+| Hitler / Nazi Germany | [`nazi-germany`](../cases/nazi-germany.qmd) | Confirmed; subset link exists |
+| American Revolution | [`american-revolution`](../cases/american-revolution.qmd) | Confirmed with minimal case folder and reference-only subset link |
+| Napoleon / Napoleonic Era | [`napoleonic-france`](../cases/napoleonic-france.qmd) | Confirmed with minimal case folder and reference-only subset link |
+
+French Revolution and British World War I are recorded only as mapping-review candidates. They are not active Sacrifice Law corpus cases and should not receive subset links unless the source corpus metadata is revised.
+
+## Comparative corpus purpose
+
+The `sacrifice-law-comparative-41` corpus is designed to preserve a cross-case evidence frame for Sacrifice Law review. It can support later questions about whether Sacrifice Law patterns recur across cases, but the current PPW import is metadata-first: document rows, raw texts, passage records, reliability artifacts, and final support ratings are not promoted by this page.
+
+## Koenigsberg theory relationship
+
+Koenigsberg's Law of Sacrifice is the organizing lens for this module. Within PPW, it remains one comparative evidence lens alongside the broader political-pathology theory stack. Sacrifice Law evidence may inform `sacrifice-law-v1`, `koenigsberg-immortal-body-v1`, and `general-theory-political-pathology-v1`, but it cannot bypass PPW review gates.
+
+## Claim statuses
+
+| Status | Current Sacrifice Law module state |
+|---|---|
+| Draft | Conservative cross-case candidates are registered for traceability and review. |
+| Reviewed | None of the public support ratings are reviewed PPW findings. |
+| Promoted | None. Public support ratings require promotion before publication as findings. |
+
+All Sacrifice Law candidates remain limited by missing passage anchoring, pending reliability review, rights review for some source material, and corpus import gaps. Draft candidates may describe possible comparative support, but they must not be presented as final cross-case support for the theory.
+
+## Artifact families
+
+| Artifact family | PPW disposition | Publication limit |
+|---|---|---|
+| Corpus manifest | Partial import | Metadata only |
+| Corpus metadata | Pending document rows | No claim effect |
+| Case subset links | Partial import | Reference-only links |
+| Rights review records | Blocked | Required before text import |
+| Raw text | Blocked / import later | Not published here |
+| Annotation and concordance outputs | Reference only | Not findings |
+| Cross-case synthesis artifacts | Reference only | May inform draft candidates |
+| Draft claims | Deferred / draft only | Require promotion gates |
+| Reliability design artifacts | Deferred | Milestone 19 review support |
+| Publication artifacts | Do not import | Child site remains separate |
+| Pipeline scripts | Do not import | Child-repository specific |
+
+## Source provenance
+
+The source repository `ashitaka-emishi/sacrifice-law-workbench` remains the provenance home for raw and normalized corpus files, annotation outputs, worklists, pipeline scripts, and its own publication site. PPW references those artifacts through metadata, subset links, and claim-promotion records rather than copying the child publication structure.
