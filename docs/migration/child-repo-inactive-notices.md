@@ -47,7 +47,7 @@ The site is Quarto-generated. The least-invasive way to add a notice is to prepe
 
 ```markdown
 ::: {.callout-note}
-## This site is archived
+## This site is retained for reference
 
 This project has moved to the [Political Pathology Workbench](https://github.com/ashitaka-emishi/political-pathology-workbench). This site remains published for reference and citation. New work, documentation updates, and publication artifacts will appear at PPW.
 :::
@@ -91,7 +91,7 @@ GitHub Pages site: https://ashitaka-emishi.github.io/lincoln-metaphor-analysis/
 
 ```markdown
 ::: {.callout-note}
-## This site is archived
+## This site is retained for reference
 
 This project has moved to the [Political Pathology Workbench](https://github.com/ashitaka-emishi/political-pathology-workbench). This site remains published for reference and citation. New work, documentation updates, and publication artifacts will appear at PPW.
 :::
