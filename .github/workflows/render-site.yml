@@ -11,6 +11,10 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: "22"
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
       - uses: quarto-dev/quarto-actions/setup@v2
       - run: npm run build
+      - run: python3 site/pre-render.py
       - run: cd site && quarto render
