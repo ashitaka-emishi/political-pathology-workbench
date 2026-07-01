@@ -1,0 +1,63 @@
+---
+title: "Lincoln Metaphor Analysis"
+---
+
+::: {.callout-warning}
+The Lincoln module is a deep-case evidence module under review. Its draft claim candidates are not PPW findings and do not change case scores unless they pass the claim-promotion gates.
+:::
+
+The Lincoln Metaphor Analysis module provides a deep single-case evidence base for the [American Civil War / Union](../cases/american-civil-war-union.qmd) case. Its role is to preserve and review source-project material about Abraham Lincoln's rhetoric, metaphor systems, and Union political theology without treating preliminary analysis as final PPW interpretation.
+
+## Module role
+
+The module is scoped to mechanism discovery inside one case. It differs from the Sacrifice Law comparative corpus, where Lincoln is one case among several. In PPW terms, this module supports review of source passages, metaphor-cluster interpretations, and draft claim candidates for `american-civil-war-union`.
+
+| Field | Status |
+|---|---|
+| Module ID | `lincoln-metaphor-analysis` |
+| Module type | Deep single-case module |
+| Case link | [`american-civil-war-union`](../cases/american-civil-war-union.qmd) |
+| Corpus ID | `lincoln-deep-28` |
+| Reliability status | Pending |
+| Claim-promotion policy | Standard PPW promotion gates |
+
+## Corpus purpose
+
+The `lincoln-deep-28` corpus is a three-tier Lincoln document corpus. Its core tier supports the full annotation pathway from source texts to passages, interpretations, draft claims, and later review. Validation-tier documents are for passage-segmentation checks only, and reference-tier documents are for search and context, not scoring.
+
+The registered corpus metadata currently records 36 documents: 28 confirmed core documents from the source project baseline and 8 planned v4 additions. Raw text, passage segmentation, reliability review, and claim promotion remain pending.
+
+## Artifact families
+
+| Artifact family | PPW disposition | Claim status impact |
+|---|---|---|
+| Corpus metadata | Imported | Does not generate claims |
+| Raw text | Pending import | Does not generate claims |
+| Passage records | Pending import | Required before claim review |
+| Metaphor-cluster profiles | Pending import | May generate draft claim candidates |
+| Evidence-chain links | Partial | Traceability structure only |
+| Draft claims | Pending import / draft registry entries | Draft only |
+| Reliability artifacts | Reference only | Supports review gates |
+| Methodology documents | Reference only | Context for review |
+| Pipeline scripts | Not imported | No PPW claim effect |
+| Publication site | Not imported | Child-repository publication remains separate |
+
+## Claim statuses
+
+The Lincoln module has draft claim candidates registered for review, but no Lincoln metaphor claim has been promoted into a PPW finding.
+
+| Status | Current Lincoln module state |
+|---|---|
+| Draft | Four conservative draft claim candidates are registered for traceability and future review. |
+| Reviewed | None. Evidence and argument review gates have not been completed. |
+| Promoted | None. No Lincoln module claim should be cited as a PPW finding. |
+
+Promotion requires passage-level anchoring, reliability review, and the PPW claim-promotion gate. Until those prerequisites are complete, the module can document provisional evidence relationships but cannot justify case-score changes.
+
+## Evidence chains
+
+Generated case evidence-chain material is available on the [American Civil War / Union case page](../cases/american-civil-war-union.qmd#evidence-threads). The current evidence-chain structure links existing PPW case evidence; per-passage Lincoln module links remain partial until passage records and claim candidates are imported.
+
+## Source provenance
+
+The child repository `ashitaka-emishi/lincoln-metaphor-analysis` remains canonical for raw annotation records, reliability artifacts, pipeline scripts, and its own publication site. PPW preserves the module through registry metadata, corpus metadata, provenance records, migration notes, and this site page.
