@@ -27,6 +27,7 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - run: npm run build
       - run: PYTHONPATH=src-py python3 -m political_pathology.scoring.summary
+      - run: python3 site/pre-render.py
       - run: cd site && quarto render
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
