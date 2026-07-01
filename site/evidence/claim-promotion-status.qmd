@@ -1,0 +1,29 @@
+---
+title: "Claim Promotion Status"
+---
+
+::: {.callout-warning}
+Draft claims are review candidates. They do not drive public scores, findings, or support ratings unless they pass the PPW promotion gates.
+:::
+
+The claim-promotion workflow keeps imported evidence-module claims separate from PPW findings. A claim can move from draft status into public use only after the required source, evidence, argument, score, human-review, and publication gates are complete.
+
+For the governing rules, see the [Claim Promotion Policy](https://github.com/ashitaka-emishi/political-pathology-workbench/blob/master/docs/architecture/claim-promotion.md).
+
+## Status meanings
+
+| Status | Meaning |
+|---|---|
+| Draft | Candidate claim preserved for traceability and review; excluded from public scoring. |
+| Reviewed | A promotion record has reached a reviewed-claim state, but this is not automatically a promoted finding or score. |
+| Promoted | A claim has passed promotion gates and may be published as a PPW finding when linked scoring/publication gates also pass. |
+| Blocked | A promotion record documents unresolved source, evidence, reliability, or argument blockers. |
+| Retired | A claim is preserved for provenance but superseded or excluded from active scoring. |
+
+## Generated summary
+
+{{< include _generated/claim-promotion-summary.md >}}
+
+## Score effect
+
+Draft claims do not drive scores. Public scoring summaries require claims and scores to pass their respective review gates; blocked and retired records remain audit artifacts only.
