@@ -1,0 +1,50 @@
+---
+title: "Sacrifice Law Case Index"
+---
+
+::: {.callout-warning}
+This index records Sacrifice Law corpus mappings and subset status. It does not publish final support ratings or convert draft comparative claims into PPW findings.
+:::
+
+The Sacrifice Law comparative corpus currently maps four source cases into PPW. Each mapping is a corpus-subset/provenance link, not a promoted claim about support for Koenigsberg's Law of Sacrifice.
+
+## Mapping status summary
+
+| Mapping state | Current cases | Meaning |
+|---|---|---|
+| Available / created | Lincoln / American Civil War (Union); Hitler / Nazi Germany; American Revolution; Napoleon / Napoleonic Era | A PPW case target exists and a Sacrifice Law subset link is recorded. |
+| Missing | None currently recorded for the canonical four-case corpus | No known source case in the active corpus lacks a PPW case target. |
+| Ambiguous | British World War I | The existing PPW target is broader than a British-only source case, and no active corpus subset is confirmed. |
+| Deferred | French Revolution; British World War I | Reviewed as out of scope for the current canonical corpus. |
+| Blocked | No active case mapping is blocked | Some downstream imports are blocked or pending because document rows, passage evidence, rights review, or reliability review are incomplete. |
+
+## Mapped PPW cases
+
+| Source case | PPW case page | Subset link | Subset status | Public support ratings |
+|---|---|---|---|---|
+| Lincoln / American Civil War (Union) | [`american-civil-war-union`](../cases/american-civil-war-union.qmd) | `sacrifice-law-lincoln-subset` | Mapping confirmed; document import pending; normalization pending; segmentation pending; annotation pending | Not promoted |
+| Hitler / Nazi Germany | [`nazi-germany`](../cases/nazi-germany.qmd) | `sacrifice-law-hitler-subset` | Mapping confirmed; document import pending; rights review required for translations/apparatus; annotation pending | Not promoted |
+| American Revolution | [`american-revolution`](../cases/american-revolution.qmd) | `sacrifice-law-american-revolution-subset` | Mapping confirmed; minimal case folder exists; document import pending; annotation pending | Not promoted |
+| Napoleon / Napoleonic Era | [`napoleonic-france`](../cases/napoleonic-france.qmd) | `sacrifice-law-napoleon-subset` | Mapping confirmed; minimal case folder exists; document import pending; annotation pending | Not promoted |
+
+## Deferred and ambiguous candidates
+
+| Candidate | Candidate PPW target | Status | Decision basis |
+|---|---|---|---|
+| French Revolution | [`revolutionary-france`](../cases/revolutionary-france.qmd) | Deferred out of scope | The canonical Sacrifice Law corpus metadata does not identify French Revolution as a source case. No subset link should be created unless the source metadata is revised or a specific source subset is confirmed. |
+| British World War I | [`world-war-i-nationalisms`](../cases/world-war-i-nationalisms.qmd) or `british-world-war-i` | Ambiguous and deferred out of scope | The current PPW case is broader than a British-only target, and no British World War I source subset is confirmed in the canonical corpus. |
+
+## Claim status by mapped case
+
+| PPW case | Draft Sacrifice Law candidates | Reviewed Sacrifice Law findings | Promoted support ratings |
+|---|---|---|---|
+| `american-civil-war-union` | 3 | 0 | 0 |
+| `nazi-germany` | 3 | 0 | 0 |
+| `american-revolution` | 2 | 0 | 0 |
+| `napoleonic-france` | 2 | 0 | 0 |
+
+Draft candidates remain review artifacts. Public support ratings require passage-level evidence, reliability review, and explicit promotion through PPW claim gates before they can appear as findings.
+
+## Source records
+
+The mapping and status records are maintained in `data/corpora/sacrifice-law-comparative-41/cases.json`, `data/corpora/sacrifice-law-comparative-41/subset-links.json`, each case's `corpora/` subset link, and the generated claim-promotion index.

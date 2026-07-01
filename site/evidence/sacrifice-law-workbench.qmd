@@ -32,6 +32,8 @@ This module is a comparative corpus module, not a replacement for PPW's case mod
 
 French Revolution and British World War I are recorded only as mapping-review candidates. They are not active Sacrifice Law corpus cases and should not receive subset links unless the source corpus metadata is revised.
 
+See the [Sacrifice Law case index](sacrifice-law-cases.qmd) for subset status and deferred mapping candidates.
+
 ## Comparative corpus purpose
 
 The `sacrifice-law-comparative-41` corpus is designed to preserve a cross-case evidence frame for Sacrifice Law review. It can support later questions about whether Sacrifice Law patterns recur across cases, but the current PPW import is metadata-first: document rows, raw texts, passage records, reliability artifacts, and final support ratings are not promoted by this page.
