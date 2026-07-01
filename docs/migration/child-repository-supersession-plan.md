@@ -4,6 +4,8 @@ Part of [#123](https://github.com/ashitaka-emishi/political-pathology-workbench/
 
 Defines the recommended lifecycle state for each child repository after Milestone 12 migration is complete. See the [child-issue migration audit](child-issue-migration-audit.md) for the full migration summary.
 
+Milestone 21 records the final lifecycle decision in [child-repository-lifecycle-decision.md](child-repository-lifecycle-decision.md): both child repositories remain open, public, and unarchived as reduced-maintenance provenance sources.
+
 ---
 
 ## Recommended lifecycle states
@@ -67,7 +69,7 @@ GitHub's "archive" state makes a repository read-only and adds an archived banne
 2. **The GitHub Pages site stops updating when a repo is archived** if the Pages workflow uses `push` triggers — the site would remain at its last published state but could not be re-rendered. This is acceptable but should be a deliberate decision, not an accidental side effect.
 3. **Archiving sends a stronger signal than intended.** "Archived" implies the project is abandoned. "Reduced-maintenance source" is more accurate: the project is complete as a child repo and its outputs are being used by PPW.
 
-**Recommended sequence:** Apply inactive notices first (per maintainer checklist in [child-repo-inactive-notices.md](child-repo-inactive-notices.md)). Revisit archiving at Milestone 21 (Final Integration Audit) when the PPW evidence browser is live and the child-repo site can be permanently superseded.
+**Milestone 21 decision:** Do not archive either child repository now. Apply reduced-maintenance notices first (per maintainer checklist in [child-repo-inactive-notices.md](child-repo-inactive-notices.md)) and keep both repositories open, public, and unarchived as provenance sources. A future archive decision remains possible, but it is not the current lifecycle state.
 
 ---
 
@@ -91,7 +93,7 @@ Before any state change is applied to a child repository, the maintainer must ap
 
 - [ ] **Inactive notice application** — README, description, and Pages callout (per [child-repo-inactive-notices.md](child-repo-inactive-notices.md))
 - [ ] **Supersession comment posting** — 49 comments on child issues (per [child-repo-supersession-comments.md](child-repo-supersession-comments.md))
-- [ ] **Archive decision** — defer to Milestone 21; do not archive before PPW evidence browser is live
+- [x] **Archive decision** — resolved in Milestone 21: do not archive now; keep both repositories open and unarchived as reduced-maintenance provenance sources
 - [ ] **Deferred issue lifecycle** — revisit LMA #85, #95, #108 when Milestone 19 opens
 
 No child repository should be archived, deleted, or unpublished without explicit maintainer approval at each step.
