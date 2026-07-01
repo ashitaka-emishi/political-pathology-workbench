@@ -77,8 +77,149 @@ def uncertainty_line(record: dict) -> str | None:
     return f"**Uncertainty factors:** {', '.join(uncertainty_factors)}"
 
 
-def render_chain_page(chain: dict, meta: dict, counterclaims: list) -> str:
+def module_label(module_id: str) -> str:
+    labels = {
+        "lincoln-metaphor-analysis": "Lincoln Metaphor Analysis",
+        "sacrifice-law-workbench": "Sacrifice Law Workbench",
+    }
+    return labels.get(module_id, title_case(module_id))
+
+
+def corpus_label(corpus: dict) -> str:
+    return corpus.get("corpusId") or corpus.get("corpusSubsetId") or "corpus"
+
+
+def corpus_status(corpus: dict) -> str:
+    if "subsetStatus" in corpus:
+        status = corpus["subsetStatus"]
+        return (
+            f"mapping `{status.get('caseMappingStatus', '—')}`, "
+            f"documents `{status.get('documentImportStatus', '—')}`, "
+            f"annotations `{status.get('annotationStatus', '—')}`"
+        )
+    claim_status = corpus.get("claimStatus", {})
+    return (
+        f"purpose `{corpus.get('corpusPurpose', '—')}`, "
+        f"claims `{claim_status.get('overallStatus', '—')}`"
+    )
+
+
+def render_module_context(corpora: list[dict]) -> list[str]:
+    if not corpora:
+        return []
+
+    lines = [
+        "## Evidence module context",
+        "",
+        "This case page distinguishes native PPW evidence chains from evidence-module records. "
+        "Module records identify corpus provenance and claim-review status; they do not promote draft material into findings.",
+        "",
+        "| Module | Corpus or subset | Purpose | Status |",
+        "|---|---|---|---|",
+    ]
+    for corpus in corpora:
+        module_id = corpus.get("evidenceModuleId") or corpus.get("originModuleId", "")
+        purpose = corpus.get("purposeDescription") or corpus.get("corpusPurpose", "")
+        lines.append(
+            f"| {module_label(module_id)} "
+            f"| `{corpus_label(corpus)}` "
+            f"| {purpose} "
+            f"| {corpus_status(corpus)} |"
+        )
+
+    distinction_lines = []
+    for corpus in corpora:
+        distinction = (
+            corpus.get("distinctionFromSacrificeLawSubset")
+            or corpus.get("distinctionFromLincolnDeepCorpus")
+        )
+        if distinction:
+            distinction_lines.append(distinction)
+
+    if distinction_lines:
+        lines += ["", "### Corpus distinction", ""]
+        for distinction in distinction_lines:
+            lines += [f"- {distinction}"]
+
+    lines.append("")
+    return lines
+
+
+def render_claim_status_context(case_audit: dict) -> list[str]:
+    draft_claims = case_audit.get("draftClaims", [])
+    promotion_records = case_audit.get("promotedClaims", [])
+    if not draft_claims and not promotion_records:
+        return []
+
+    by_module: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    for claim in draft_claims:
+        by_module[claim.get("originModuleId", "unknown")]["draft"] += 1
+    for claim in promotion_records:
+        status = claim.get("promotionStatus", "unknown")
+        if status == "reviewed-claim":
+            by_module[claim.get("originModuleId", "unknown")]["reviewed"] += 1
+        elif status in {"promoted-finding", "promoted"}:
+            by_module[claim.get("originModuleId", "unknown")]["promoted"] += 1
+        elif status == "blocked":
+            by_module[claim.get("originModuleId", "unknown")]["blocked"] += 1
+        else:
+            by_module[claim.get("originModuleId", "unknown")][status] += 1
+
+    lines = [
+        "## Module claim status",
+        "",
+        "| Module | Draft candidates | Reviewed claims | Promoted findings | Blocked promotion records |",
+        "|---|---|---|---|---|",
+    ]
+    for module_id in sorted(by_module):
+        counts = by_module[module_id]
+        lines.append(
+            f"| {module_label(module_id)} "
+            f"| {counts.get('draft', 0)} "
+            f"| {counts.get('reviewed', 0)} "
+            f"| {counts.get('promoted', 0)} "
+            f"| {counts.get('blocked', 0)} |"
+        )
+
+    lines += [
+        "",
+        "Draft candidates are shown for traceability only. Reviewed claim records are not promoted findings unless the promotion status explicitly reaches `promoted-finding`.",
+        "",
+    ]
+
+    records_with_limits = [
+        record for record in promotion_records
+        if record.get("limitations") or record.get("promotionBlockers")
+    ]
+    if records_with_limits:
+        lines += ["### Promotion limitations", ""]
+        for record in records_with_limits:
+            lines += [
+                f"#### `{record.get('claimId', record.get('promotionId', 'claim'))}`",
+                "",
+                f"**Module:** {module_label(record.get('originModuleId', 'unknown'))}  ",
+                f"**Promotion status:** `{record.get('promotionStatus', 'unknown')}`  ",
+                f"**Review status:** `{record.get('reviewStatus', 'draft')}`",
+                "",
+            ]
+            if record.get("limitations"):
+                lines += ["**Limitations:**", ""]
+                lines.extend(f"- {item}" for item in record["limitations"])
+                lines.append("")
+            if record.get("promotionBlockers"):
+                lines += ["**Promotion blockers:**", ""]
+                lines.extend(f"- {item}" for item in record["promotionBlockers"])
+                lines.append("")
+
+    return lines
+
+
+def render_chain_page(chain: dict, meta: dict, counterclaims: list,
+                      case_audit: dict | None = None,
+                      case_corpora: list[dict] | None = None) -> str:
     lines: list[str] = []
+    case_audit = case_audit or {}
+    case_corpora = case_corpora or []
     interpretations = chain.get("interpretations", [])
     scores = [s for i in interpretations for s in i.get("scores", [])]
     sources_by_id: dict[str, dict] = {}
@@ -104,6 +245,9 @@ def render_chain_page(chain: dict, meta: dict, counterclaims: list) -> str:
         f"| **Case role** | {title_case(meta.get('caseSelectionRole', ''))} |",
         "",
     ]
+
+    lines += render_module_context(case_corpora)
+    lines += render_claim_status_context(case_audit)
 
     lines += ["## Evidence threads", ""]
     for i in interpretations:
@@ -1184,6 +1328,23 @@ def case_id_to_slug(case_id: str) -> str:
     return slugs.get(case_id, f"cases/{case_id}")
 
 
+def load_case_audit(case_id: str) -> dict:
+    path = GEN / "cases" / case_id / "evidence-chains.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_case_corpora(case_id: str) -> list[dict]:
+    corpus_dir = PROJECT_ROOT / "data" / "cases" / case_id / "corpora"
+    if not corpus_dir.exists():
+        return []
+    corpora = []
+    for path in sorted(corpus_dir.glob("*.json")):
+        corpora.append(json.loads(path.read_text(encoding="utf-8")))
+    return corpora
+
+
 def main() -> None:
     import subprocess
     subprocess.run(
@@ -1218,6 +1379,8 @@ def main() -> None:
             chain,
             case_meta.get(case_id, {}),
             [cc for cc in counterclaims if cc["caseId"] == case_id],
+            load_case_audit(case_id),
+            load_case_corpora(case_id),
         )
         out_path = OUT / f"{chain['caseSlug']}.md"
         out_path.write_text(content, encoding="utf-8")
