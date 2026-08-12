@@ -2,7 +2,7 @@
 Draft cross-case comparison. All scores are provisional and under source review.
 :::
 
-All 20 cases scored across key theory variables, grouped by outcome cluster. Score bars: ■ = scored point, □ = unscored point (scale 0–5). Ranges (e.g. 4–5/5) indicate multiple interpretations of the same variable. — indicates no score recorded for that variable.
+All 22 cases are listed across key theory variables, grouped by outcome cluster. Score bars: ■ = scored point, □ = unscored point (scale 0–5). Ranges (e.g. 4–5/5) indicate multiple interpretations of the same variable. — indicates no score recorded for that variable.
 
 ### Sacrificial Escalation
 
@@ -28,6 +28,8 @@ All 20 cases scored across key theory variables, grouped by outcome cluster. Sco
 | Case | Sacred Political Order Strength | Corrigibility | Mechanism | Sacrifice health | Boundedness |
 |---| --- | --- |---|---|---|
 | American Civil War / Union | ■■■■□ 4/5 | — | Anti Sacrificial Restraint | mixed | partially-bounded |
+| American Revolution | — | — | — | — | — |
+| Napoleonic France | — | — | — | — | — |
 | Post-9/11 United States | ■■■■□ 4/5 | — | Sacred Enemy Escalation | pathological | unbounded |
 | Soviet Communism | ■■■■■ 5/5 | — | Collective Immortality To Sacrifice | pathological | unbounded |
 

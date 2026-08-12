@@ -1247,15 +1247,16 @@ DISPLAY_VARS = ["sacred-political-order-strength", "corrigibility"]
 
 def render_comparison_table(scores: list[dict], interpretations: list[dict],
                             case_meta: dict) -> str:
-    """All-20-case cross-case comparison table, grouped by outcome cluster."""
+    """Cross-case comparison table, grouped by outcome cluster."""
     lines: list[str] = []
+    case_count = len(case_meta)
 
     lines += [
         "::: {.callout-warning}",
         "Draft cross-case comparison. All scores are provisional and under source review.",
         ":::",
         "",
-        "All 20 cases scored across key theory variables, grouped by outcome cluster. "
+        f"All {case_count} cases are listed across key theory variables, grouped by outcome cluster. "
         "Score bars: ■ = scored point, □ = unscored point (scale 0–5). "
         "Ranges (e.g. 4–5/5) indicate multiple interpretations of the same variable. "
         "— indicates no score recorded for that variable.",
@@ -1524,7 +1525,7 @@ def main() -> None:
     wp_path.write_text(working_paper, encoding="utf-8")
     print(f"  [pre-render] Wrote {wp_path.relative_to(PROJECT_ROOT)}")
 
-    # Cross-case comparison table (all 20 cases)
+    # Cross-case comparison table
     comp_table = render_comparison_table(scores, interpretations, case_meta)
     comp_table_path = OUT_GEN / "comparison-table.md"
     comp_table_path.write_text(comp_table, encoding="utf-8")

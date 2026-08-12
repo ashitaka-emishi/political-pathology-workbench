@@ -1,0 +1,5 @@
+---
+title: "American Revolution"
+---
+
+{{< include _chains/american-revolution.md >}}

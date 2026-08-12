@@ -1,0 +1,5 @@
+---
+title: "Napoleonic France"
+---
+
+{{< include _chains/napoleonic-france.md >}}

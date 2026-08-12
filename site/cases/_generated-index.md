@@ -1,4 +1,4 @@
-The workbench tracks **20 cases** across six outcome categories. **5 gold cases** have full evidence chains; the remaining 15 are structural comparators with counterclaims.
+The workbench tracks **22 cases** across six outcome categories. **5 gold cases** have full evidence chains; the remaining 17 are structural comparators with counterclaims.
 
 ## Gold Cases
 
@@ -37,6 +37,8 @@ Generated evidence-chain pages are available for every case.
 | Case | Case role | Counterclaims |
 |---|---|---|
 | [American Civil War / Union](american-civil-war-union.qmd) | Hybrid Case | 1 |
+| [American Revolution](american-revolution.qmd) | Deferred Case | 0 |
+| [Napoleonic France](napoleonic-france.qmd) | Deferred Case | 0 |
 | [Post-9/11 United States](post-9-11-united-states.qmd) | Hybrid Case | 1 |
 | [Soviet Communism](soviet-communism.qmd) | Hybrid Case | 1 |
 
