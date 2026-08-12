@@ -63,6 +63,6 @@ The system persists through repression, ritualized ideology, inertia, or fear.
 
 Multiple outcomes occur in sequence or tension.
 
-*Comparators:* American Civil War / Union, Post-9/11 United States, Soviet Communism
+*Comparators:* American Civil War / Union, American Revolution, Napoleonic France, Post-9/11 United States, Soviet Communism
 
 ---
