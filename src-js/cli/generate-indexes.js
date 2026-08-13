@@ -3,7 +3,7 @@ import path from "node:path";
 import { readJson } from "../validate/json.js";
 import { generateEvidenceIndexes } from "../generate/generate-evidence-indexes.js";
 import { generateCaseEvidenceChains } from "../generate/generate-case-evidence-chains.js";
-import { deriveAnalyticalEligibility } from "../validate/validate-score-semantics.js";
+import { classifyAnalyticalEligibility } from "../validate/validate-score-semantics.js";
 
 const root = process.cwd();
 const casesDir = path.join(root, "data", "cases");
@@ -134,6 +134,7 @@ writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, ti
 writeJson(path.join(generatedDir, "theory-index.json"), theoryIndex);
 
 // Cross-case comparison table JSON
+const promotionRegistry = readArray(path.join(root, "data", "claim-promotion", "promotion-registry.json"));
 const OUTCOME_CLUSTERS = [
   { outcomeId: "sacrificial-escalation",      label: "Sacrificial Escalation" },
   { outcomeId: "collapse",                    label: "Collapse" },
@@ -147,7 +148,13 @@ const DISPLAY_VARS = ["sacred-political-order-strength", "corrigibility"];
 const scoresByCase = {};
 for (const s of allScores) {
   const caseRecord = allCases.find((record) => record.caseId === s.caseId);
-  if (!deriveAnalyticalEligibility(s, { holdoutStatus: caseRecord?.holdoutStatus }).eligible) continue;
+  if (!classifyAnalyticalEligibility({
+    score: s,
+    interpretations: allInterpretations,
+    claims: allClaims,
+    promotionRegistry,
+    caseRecord
+  }).eligible) continue;
   if (!scoresByCase[s.caseId]) scoresByCase[s.caseId] = {};
   if (!scoresByCase[s.caseId][s.variableId]) scoresByCase[s.caseId][s.variableId] = [];
   if (typeof s.value === "number") {

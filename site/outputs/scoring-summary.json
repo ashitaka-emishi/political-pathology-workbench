@@ -1,136 +1,139 @@
 {
   "scoreCount": 0,
-  "excludedByPromotionFilter": 26,
+  "excludedScoreCount": 26,
+  "exclusionCounts": {
+    "exclude-origin-legacy": 26
+  },
   "excludedScores": [
     {
       "scoreId": "american-civil-war-union-score-001",
       "caseId": "american-civil-war-union",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "british-empire-to-commonwealth-score-001",
       "caseId": "british-empire-to-commonwealth",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "canada-score-001",
       "caseId": "canada",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "confederacy-score-001",
       "caseId": "confederacy",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "european-union-score-001",
       "caseId": "european-union",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "gandhian-indian-independence-score-001",
       "caseId": "gandhian-indian-independence",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "imperial-japan-score-001",
       "caseId": "imperial-japan",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "imperial-japan-score-002",
       "caseId": "imperial-japan",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "khmer-rouge-cambodia-score-001",
       "caseId": "khmer-rouge-cambodia",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "maoist-china-score-001",
       "caseId": "maoist-china",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "nazi-germany-score-001",
       "caseId": "nazi-germany",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "nazi-germany-score-002",
       "caseId": "nazi-germany",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "nazi-germany-score-003",
       "caseId": "nazi-germany",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "north-korea-score-001",
       "caseId": "north-korea",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "post-9-11-united-states-score-001",
       "caseId": "post-9-11-united-states",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "postwar-germany-score-001",
       "caseId": "postwar-germany",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "postwar-germany-score-002",
       "caseId": "postwar-germany",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "revolutionary-france-score-001",
       "caseId": "revolutionary-france",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "soviet-communism-score-001",
       "caseId": "soviet-communism",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "soviet-union-collapse-score-001",
       "caseId": "soviet-union-collapse",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "soviet-union-collapse-score-002",
       "caseId": "soviet-union-collapse",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "switzerland-score-001",
       "caseId": "switzerland",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "united-states-after-vietnam-score-001",
       "caseId": "united-states-after-vietnam",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "united-states-after-vietnam-score-002",
       "caseId": "united-states-after-vietnam",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "western-roman-empire-score-001",
       "caseId": "western-roman-empire",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     },
     {
       "scoreId": "world-war-i-nationalisms-score-001",
       "caseId": "world-war-i-nationalisms",
-      "reason": "exclude-not-substantive-analysis"
+      "reason": "exclude-origin-legacy"
     }
   ],
   "caseAverages": {},
