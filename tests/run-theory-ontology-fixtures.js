@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readJson } from "../src-js/validate/json.js";
-import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateTheoryVariableReference } from "../src-js/validate/validate-theory-ontology.js";
+import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateMagnitudeAnchors, validateScoreableVariableReference, validateTheoryVariableReference } from "../src-js/validate/validate-theory-ontology.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -52,6 +52,38 @@ for (const fileName of fs.readdirSync(fixturesDir).sort()) {
   } else {
     failures += 1;
     console.error(`FAIL ${fileName}: expected ${expectValid ? "no errors" : "at least one error"}, got ${JSON.stringify(errors)}`);
+  }
+}
+
+{
+  const errors = [];
+  validateMagnitudeAnchors({
+    "0": "No evidence in current record.",
+    "1": "Marginal presence.",
+    "2": "Low presence.",
+    "3": "Moderate presence.",
+    "4": "Strong presence.",
+    "5": "Maximal presence."
+  }, errors, "invalid-evidence-anchor");
+  if (errors.length > 0) {
+    console.log("PASS invalid-evidence-strength-anchor");
+  } else {
+    failures += 1;
+    console.error("FAIL invalid-evidence-strength-anchor: expected at least one error");
+  }
+}
+
+{
+  const errors = [];
+  validateScoreableVariableReference({
+    theoryId: "general-theory-political-pathology-v1",
+    variableId: "symbolic-order"
+  }, "variableId", theoryVariables, errors, "invalid-non-scoreable-score");
+  if (errors.length > 0) {
+    console.log("PASS invalid-non-scoreable-score-variable");
+  } else {
+    failures += 1;
+    console.error("FAIL invalid-non-scoreable-score-variable: expected at least one error");
   }
 }
 

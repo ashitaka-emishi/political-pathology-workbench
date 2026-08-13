@@ -15,6 +15,10 @@
         "enum": ["active", "deprecated", "retired", "experimental"]
       },
       "versionIntroduced": { "type": "string" },
+      "measurementRole": {
+        "type": "string",
+        "enum": ["scoreable", "derived", "mechanism-only", "descriptive", "experimental", "not-scored"]
+      },
       "aliases": {
         "type": "array",
         "items": { "type": "string" }
