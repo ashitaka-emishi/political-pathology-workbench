@@ -15,8 +15,6 @@
   "sacredPoliticalOrderId": "gandhian-indian-independence-sacred-political-order",
   "sacredPoliticalOrderName": "Gandhian Indian Independence sacred political order",
   "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Gandhian Indian Independence.",
-  "sacredPoliticalOrderStrength": 3,
-  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "countercase",
   "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
   "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
@@ -37,5 +35,11 @@
       "sources are unavailable or rights-restricted beyond draft scaffolding",
       "case duplicates another unit without adding mechanism variation"
     ]
+  },
+  "legacyScaffold": {
+    "sacredPoliticalOrderStrength": 3,
+    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "analyticalUse": "prohibited",
+    "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
   }
 }

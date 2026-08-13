@@ -115,7 +115,7 @@ fs.rmSync(path.join(generatedDir, "chains"), { recursive: true, force: true });
 for (const chain of allChains) {
   writeJson(path.join(generatedDir, "chains", `${chain.caseSlug}.json`), chain);
 }
-writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus, sacredPoliticalOrderId, sacredPoliticalOrderName, sacredPoliticalOrderStrength, caseSelectionRole, unitClass, caseType, comparabilityGroup, evaluationRole, holdoutStatus }) => ({
+writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus, sacredPoliticalOrderId, sacredPoliticalOrderName, caseSelectionRole, unitClass, caseType, comparabilityGroup, evaluationRole, holdoutStatus }) => ({
   caseId,
   title,
   slug,
@@ -124,7 +124,6 @@ writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, ti
   publicationStatus,
   sacredPoliticalOrderId,
   sacredPoliticalOrderName,
-  sacredPoliticalOrderStrength,
   caseSelectionRole,
   unitClass,
   caseType,

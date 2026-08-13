@@ -15,8 +15,6 @@
   "sacredPoliticalOrderId": "north-korea-sacred-political-order",
   "sacredPoliticalOrderName": "North Korea sacred political order",
   "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with North Korea.",
-  "sacredPoliticalOrderStrength": 5,
-  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "stagnation-case",
   "selectionRationale": "Included to test frozen pathology and persistence without reform or collapse.",
   "theoryTest": "Tests whether an order can persist through repression, inertia, dependency, or managed dysfunction.",
@@ -37,5 +35,11 @@
       "sources are unavailable or rights-restricted beyond draft scaffolding",
       "case duplicates another unit without adding mechanism variation"
     ]
+  },
+  "legacyScaffold": {
+    "sacredPoliticalOrderStrength": 5,
+    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "analyticalUse": "prohibited",
+    "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
   }
 }

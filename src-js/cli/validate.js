@@ -210,7 +210,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
 
   try {
     const caseRecord = readJson(casePath);
-    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"]);
+    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"]);
     validateEnum(`${caseRecord.caseId}.outcome`, caseRecord.outcome, VOCAB.outcomes);
     validateEnum(`${caseRecord.caseId}.reviewStatus`, caseRecord.reviewStatus, VOCAB.reviewStatuses);
     validateEnum(`${caseRecord.caseId}.publicationStatus`, caseRecord.publicationStatus, VOCAB.publicationStatuses);
@@ -225,7 +225,12 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     if (!caseRecord.samplingMetadata?.targetPopulation || !Array.isArray(caseRecord.samplingMetadata?.inclusionCriteria) || !Array.isArray(caseRecord.samplingMetadata?.exclusionCriteria)) {
       addError(`${caseRecord.caseId}: samplingMetadata requires targetPopulation, inclusionCriteria, and exclusionCriteria`);
     }
-    if (typeof caseRecord.sacredPoliticalOrderStrength !== "number" || caseRecord.sacredPoliticalOrderStrength < 0 || caseRecord.sacredPoliticalOrderStrength > 5) addError(`${caseRecord.caseId}: sacredPoliticalOrderStrength must be a number from 0 to 5`);
+    if (Object.hasOwn(caseRecord, "sacredPoliticalOrderStrength") || Object.hasOwn(caseRecord, "sacredPoliticalOrderStrengthRationale")) {
+      addError(`${caseRecord.caseId}: case-level analytical score fields are prohibited; preserve old values only under legacyScaffold with analyticalUse prohibited`);
+    }
+    if (caseRecord.legacyScaffold?.analyticalUse !== undefined && caseRecord.legacyScaffold.analyticalUse !== "prohibited") {
+      addError(`${caseRecord.caseId}: legacyScaffold.analyticalUse must be prohibited`);
+    }
 
     const sourcePack = readJson(path.join(caseDir, "source-pack.json"));
     requireFields(path.join(caseDir, "source-pack.json"), sourcePack, ["caseId", "sources"]);
@@ -257,7 +262,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       if (claims.length > 0 || interpretations.length > 0 || scores.length > 0) {
         addError(`${caseRecord.caseId}: sealed holdout cannot contain claims, interpretations, or scores`);
       }
-      if (caseRecord.outcome && caseRecord.sacredPoliticalOrderStrengthRationale?.toLowerCase().includes("outcome")) {
+      if (caseRecord.outcome && caseRecord.legacyScaffold?.sacredPoliticalOrderStrengthRationale?.toLowerCase().includes("outcome")) {
         addWarning(`${caseRecord.caseId}: sealed holdout retains scaffold outcome metadata; keep it out of theory-development workflows until opened`);
       }
     }
@@ -336,7 +341,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
       if (score.publicationStatus === "published" && !score.confidence?.rationale) addError(`${score.scoreId}: published score lacks confidence rationale`);
       if (score.confidence?.value < 0.5) addWarning(`${score.scoreId}: score confidence is below 0.5`);
-      if (typeof score.value === "number" && score.value >= 4 && score.variableId === "sacred-political-order-strength" && !caseRecord.sacredPoliticalOrderStrengthRationale) addWarning(`${score.scoreId}: high sacred-political-order score lacks obligation or sacrifice rationale`);
+      if (typeof score.value === "number" && score.value >= 4 && score.variableId === "sacred-political-order-strength" && !score.confidence?.rationale) addWarning(`${score.scoreId}: high sacred-political-order score lacks score-level rationale`);
       if (typeof score.value === "number" && score.value >= 4 && ["sacralization", "collective-immortality", "sacred-enemy", "pathology", "corrigibility"].includes(score.variableId) && !(score.definitionRefs ?? []).includes(score.variableId)) addWarning(`${score.scoreId}: high ${score.variableId} score should cite its definition`);
     }
 

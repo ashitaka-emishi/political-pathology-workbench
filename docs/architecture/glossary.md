@@ -22,7 +22,7 @@ The active case schema no longer uses `symbolicOrder*` field names. Cases use `s
 
 In practice: every case in PPW currently uses *sacred political order* as the operative analytical unit. The schema, validator, data dictionary, and site prose all use the `sacredPoliticalOrder*` field family.
 
-*Schema fields:* `sacredPoliticalOrderId`, `sacredPoliticalOrderName`, `sacredPoliticalOrderDefinition`, `sacredPoliticalOrderStrength`, and `sacredPoliticalOrderStrengthRationale` in `case.schema.json`.
+*Schema fields:* `sacredPoliticalOrderId`, `sacredPoliticalOrderName`, and `sacredPoliticalOrderDefinition` in `case.schema.json`. Historical scaffold strengths may appear only under `legacyScaffold` with `analyticalUse: "prohibited"`; governed analytical values must come from `scores.json`.
 
 ---
 
