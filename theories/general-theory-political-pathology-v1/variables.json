@@ -30,6 +30,21 @@
     "description": "Degree to which a sacred political order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice."
   },
   {
+    "variableId": "sacred-political-order-strength",
+    "label": "Sacred Political Order Strength",
+    "description": "Canonical score variable for the degree to which a sacred political order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice."
+  },
+  {
+    "variableId": "sacralization",
+    "label": "Sacralization",
+    "description": "Degree to which an order, institution, leader, people, cause, memory, or territory is treated as morally non-negotiable and resistant to correction."
+  },
+  {
+    "variableId": "collective-immortality",
+    "label": "Collective Immortality",
+    "description": "Degree to which mortal individuals are symbolically linked to an enduring collective body whose continuation gives meaning to death or sacrifice."
+  },
+  {
     "variableId": "sacred-enemy",
     "label": "Sacred Enemy",
     "description": "Degree to which an opponent is represented as contaminating, existential, profaning, or morally absolute."
