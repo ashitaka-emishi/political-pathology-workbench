@@ -148,6 +148,74 @@ function validateDraftClaims(draftClaimsPath, moduleIds, caseIds, errors, warnin
   }
 }
 
+export function buildClaimPromotionIndex(root) {
+  const registryPath = path.join(root, "data", "claim-promotion", "promotion-registry.json");
+  const index = {
+    byModuleClaim: new Map(),
+    ambiguousClaimIds: new Set()
+  };
+  if (!fs.existsSync(registryPath)) return index;
+
+  const records = readJson(registryPath);
+  if (!Array.isArray(records)) return index;
+
+  const claimIdsSeen = new Set();
+  for (const record of records) {
+    if (!record.originModuleId || !record.claimId) continue;
+    const namespacedKey = `${record.originModuleId}:${record.claimId}`;
+    index.byModuleClaim.set(namespacedKey, record);
+    if (claimIdsSeen.has(record.claimId)) index.ambiguousClaimIds.add(record.claimId);
+    claimIdsSeen.add(record.claimId);
+  }
+  return index;
+}
+
+function parseModuleClaimRef(claimId) {
+  const match = /^module:([^:]+):claim:(.+)$/.exec(claimId);
+  if (!match) return null;
+  return {
+    originModuleId: match[1],
+    claimId: match[2]
+  };
+}
+
+export function validateScoreClaimPromotion(score, interpretation, claimsById, promotionIndex, errors, label) {
+  if (score.includeInSubstantiveAnalysis !== true) return;
+
+  if (!interpretation) {
+    errors.push(`${label}: included score cannot resolve interpretation ${score.interpretationId}`);
+    return;
+  }
+
+  for (const claimId of interpretation.claimIds ?? []) {
+    const nativeClaim = claimsById.get(claimId);
+    if (nativeClaim) {
+      if (!ACTIVE_REVIEW_STATUSES.has(nativeClaim.reviewStatus)) {
+        errors.push(`${label}: included score references native claim ${claimId} with reviewStatus ${nativeClaim.reviewStatus}; human-reviewed or approved is required`);
+      }
+      if (nativeClaim.publicationStatus === "withdrawn") {
+        errors.push(`${label}: included score references withdrawn native claim ${claimId}`);
+      }
+      continue;
+    }
+
+    const moduleRef = parseModuleClaimRef(claimId);
+    if (!moduleRef) {
+      errors.push(`${label}: included score references unresolved claim ${claimId}; use native case claim IDs or module:<originModuleId>:claim:<claimId> refs`);
+      continue;
+    }
+
+    const promotion = promotionIndex.byModuleClaim.get(`${moduleRef.originModuleId}:${moduleRef.claimId}`);
+    if (!promotion) {
+      errors.push(`${label}: included score references unresolved evidence-module claim ${claimId}`);
+      continue;
+    }
+    if (promotion.promotionStatus !== "promoted-finding" || !ACTIVE_REVIEW_STATUSES.has(promotion.reviewStatus)) {
+      errors.push(`${label}: included score references evidence-module claim ${claimId} with promotionStatus ${promotion.promotionStatus} and reviewStatus ${promotion.reviewStatus}; promoted-finding plus human-reviewed/approved is required`);
+    }
+  }
+}
+
 export function validateClaimPromotion(root, moduleIds = new Set(), caseIds = new Set()) {
   const errors = [];
   const warnings = [];

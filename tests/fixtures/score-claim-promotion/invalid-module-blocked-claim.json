@@ -1,0 +1,21 @@
+{
+  "score": {
+    "scoreId": "fixture-score-001",
+    "interpretationId": "fixture-interpretation-001",
+    "includeInSubstantiveAnalysis": true
+  },
+  "interpretation": {
+    "interpretationId": "fixture-interpretation-001",
+    "claimIds": [
+      "module:sacrifice-law-workbench:claim:slw-draft-claim-001"
+    ]
+  },
+  "moduleClaims": [
+    {
+      "claimId": "slw-draft-claim-001",
+      "originModuleId": "sacrifice-law-workbench",
+      "promotionStatus": "blocked",
+      "reviewStatus": "source-review"
+    }
+  ]
+}
