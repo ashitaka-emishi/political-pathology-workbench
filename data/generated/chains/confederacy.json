@@ -40,7 +40,7 @@
         "sacralization",
         "corrigibility"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "confederacy-claim-001",

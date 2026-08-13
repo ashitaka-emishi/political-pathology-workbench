@@ -38,7 +38,7 @@
         "constitutional-containment",
         "sacred-political-order"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "postwar-germany-claim-001",
@@ -178,7 +178,7 @@
         "memory-driven-restraint",
         "constitutional-containment"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "postwar-germany-claim-002",

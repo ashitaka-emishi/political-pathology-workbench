@@ -40,7 +40,7 @@
         "memory-driven-restraint",
         "sacred-political-order-strength"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "united-states-after-vietnam-claim-001",
@@ -164,7 +164,7 @@
         "memory-driven-restraint",
         "corrigibility"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "united-states-after-vietnam-claim-002",

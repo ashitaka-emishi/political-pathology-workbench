@@ -42,7 +42,7 @@
         "sacrifice",
         "pathology"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "imperial-japan-claim-001",
@@ -169,7 +169,7 @@
         "collective-immortality",
         "sacrifice"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "imperial-japan-claim-002",

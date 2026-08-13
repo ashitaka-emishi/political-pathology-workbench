@@ -24,6 +24,15 @@
       "type": "string",
       "description": "ID of the evidence module this claim originated from."
     },
+    "caseId": {
+      "type": "string",
+      "description": "Single PPW case this promotion record applies to, when scoped to one case."
+    },
+    "caseIds": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "PPW cases this promotion record applies to, when scoped comparatively."
+    },
     "promotionStatus": {
       "type": "string",
       "enum": [
@@ -70,8 +79,26 @@
       "description": "Required when promotionStatus is blocked and source/passage/artifact refs are absent. Explains why evidence cannot be linked."
     },
     "limitations": {
-      "type": "string",
+      "type": ["string", "array"],
+      "items": { "type": "string" },
       "description": "Known scope limits, evidentiary gaps, or generalizability constraints."
+    },
+    "reviewedBy": {
+      "type": "string",
+      "description": "Reviewer or maintainer who recorded the latest review state."
+    },
+    "reviewDate": {
+      "type": "string",
+      "description": "Date the latest review state was recorded."
+    },
+    "reviewNotes": {
+      "type": "string",
+      "description": "Review notes, caveats, or disposition rationale."
+    },
+    "promotionBlockers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Blocking conditions that prevent promotion."
     },
     "counterclaimIds": {
       "type": "array",
@@ -94,6 +121,19 @@
         "confidenceNote": {
           "type": "string",
           "description": "Brief rationale for the expected score impact."
+        },
+        "affectedVariables": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Theory variables potentially affected by the claim."
+        },
+        "rationale": {
+          "type": "string",
+          "description": "Rationale for the expected score impact."
+        },
+        "magnitude": {
+          "type": "string",
+          "description": "Qualitative magnitude or candidate status for score impact."
         }
       },
       "additionalProperties": false

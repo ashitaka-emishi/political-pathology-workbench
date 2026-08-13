@@ -39,7 +39,7 @@
       "anti-sacrificial-restraint",
       "corrigibility"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "american-civil-war-union"
   },
   {
@@ -81,7 +81,7 @@
       "symbolic-transformation",
       "sacred-political-order-strength"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "british-empire-to-commonwealth"
   },
   {
@@ -123,7 +123,7 @@
       "constitutional-containment",
       "sacred-political-order-strength"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "canada"
   },
   {
@@ -166,7 +166,7 @@
       "sacralization",
       "corrigibility"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "confederacy"
   },
   {
@@ -208,7 +208,7 @@
       "pluralist-reordering",
       "sacred-political-order-strength"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "european-union"
   },
   {
@@ -253,7 +253,7 @@
       "corrigibility",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "gandhian-indian-independence"
   },
   {
@@ -298,7 +298,7 @@
       "sacrifice",
       "pathology"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "imperial-japan"
   },
   {
@@ -342,7 +342,7 @@
       "collective-immortality",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "imperial-japan"
   },
   {
@@ -385,7 +385,7 @@
       "pathology",
       "sacred-political-order"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "khmer-rouge-cambodia"
   },
   {
@@ -428,7 +428,7 @@
       "pathology",
       "sacred-political-order"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "maoist-china"
   },
   {
@@ -471,7 +471,7 @@
       "sacrifice",
       "pathology"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "nazi-germany"
   },
   {
@@ -501,7 +501,7 @@
       "sacred-political-order-strength",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "interpretation": "The Nazi Volksgemeinschaft is provisionally coded as a very strong sacred political order, while remaining explicitly draft pending verified source passages and broader evidence.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
@@ -555,7 +555,7 @@
       "sacred-political-order-strength",
       "institutional-self-preservation"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "nazi-germany"
   },
   {
@@ -600,7 +600,7 @@
       "frozen-pathology",
       "corrigibility"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "north-korea"
   },
   {
@@ -644,7 +644,7 @@
       "sacred-enemy-escalation",
       "corrigibility"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "post-9-11-united-states"
   },
   {
@@ -685,7 +685,7 @@
       "constitutional-containment",
       "sacred-political-order"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "postwar-germany"
   },
   {
@@ -727,7 +727,7 @@
       "memory-driven-restraint",
       "constitutional-containment"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "postwar-germany"
   },
   {
@@ -771,7 +771,7 @@
       "sacrifice",
       "pathology"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "revolutionary-france"
   },
   {
@@ -818,7 +818,7 @@
       "corrigibility",
       "frozen-pathology"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "soviet-communism"
   },
   {
@@ -862,7 +862,7 @@
       "corrigibility",
       "pathology"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "soviet-union-collapse"
   },
   {
@@ -905,7 +905,7 @@
       "institutional-fragmentation",
       "legitimacy-collapse"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "soviet-union-collapse"
   },
   {
@@ -948,7 +948,7 @@
       "sacred-political-order-strength",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "switzerland"
   },
   {
@@ -991,7 +991,7 @@
       "memory-driven-restraint",
       "sacred-political-order-strength"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "united-states-after-vietnam"
   },
   {
@@ -1034,7 +1034,7 @@
       "memory-driven-restraint",
       "corrigibility"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "united-states-after-vietnam"
   },
   {
@@ -1077,7 +1077,7 @@
       "corrigibility",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "western-roman-empire"
   },
   {
@@ -1120,7 +1120,7 @@
       "collective-immortality",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "caseSlug": "world-war-i-nationalisms"
   }
 ]
