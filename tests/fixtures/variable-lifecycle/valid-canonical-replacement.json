@@ -1,0 +1,22 @@
+{
+  "variableIds": [
+    "symbolic-order-strength",
+    "sacred-political-order-strength"
+  ],
+  "variable": {
+    "variableId": "sacred-political-order-strength",
+    "label": "Sacred Political Order Strength",
+    "description": "Canonical score variable.",
+    "status": "active",
+    "versionIntroduced": "v1",
+    "aliases": [
+      "symbolic-order-strength"
+    ],
+    "replaces": [
+      "symbolic-order-strength"
+    ],
+    "compatibility": {
+      "newRecordsPolicy": "canonical-required"
+    }
+  }
+}

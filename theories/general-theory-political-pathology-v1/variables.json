@@ -2,61 +2,101 @@
   {
     "variableId": "symbolic-order",
     "label": "Sacred Political Order",
-    "description": "The shared sacred-political structure that organizes political identity and meaning."
+    "description": "The shared sacred-political structure that organizes political identity and meaning.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "institutional-embodiment",
     "label": "Institutional Embodiment",
-    "description": "The degree to which institutions carry and enforce the order."
+    "description": "The degree to which institutions carry and enforce the order.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "self-preservation",
     "label": "Self-Preservation",
-    "description": "The embodied order acts to preserve its continuity and authority."
+    "description": "The embodied order acts to preserve its continuity and authority.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "crisis-sacralization",
     "label": "Crisis / Sacralization",
-    "description": "Crisis conditions intensify sacred claims around survival."
+    "description": "Crisis conditions intensify sacred claims around survival.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "correction-capacity",
     "label": "Correction Capacity",
-    "description": "Pluralism, review, limits, dissent, memory, and institutional design restrain pathological escalation."
+    "description": "Pluralism, review, limits, dissent, memory, and institutional design restrain pathological escalation.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "symbolic-order-strength",
     "label": "Sacred Political Order Strength",
-    "description": "Degree to which a sacred political order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice."
+    "description": "Degree to which a sacred political order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice.",
+    "status": "deprecated",
+    "versionIntroduced": "v1",
+    "replacedBy": [
+      "sacred-political-order-strength"
+    ],
+    "deprecationNote": "Historical identifier preserved for compatibility; use sacred-political-order-strength for new analytical records.",
+    "compatibility": {
+      "newRecordsPolicy": "historical-preserved"
+    }
   },
   {
     "variableId": "sacred-political-order-strength",
     "label": "Sacred Political Order Strength",
-    "description": "Canonical score variable for the degree to which a sacred political order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice."
+    "description": "Canonical score variable for the degree to which a sacred political order coherently organizes collective identity, legitimacy, obligation, memory, moral judgment, and sacrifice.",
+    "status": "active",
+    "versionIntroduced": "v1",
+    "aliases": [
+      "symbolic-order-strength"
+    ],
+    "replaces": [
+      "symbolic-order-strength"
+    ],
+    "compatibility": {
+      "newRecordsPolicy": "canonical-required"
+    }
   },
   {
     "variableId": "sacralization",
     "label": "Sacralization",
-    "description": "Degree to which an order, institution, leader, people, cause, memory, or territory is treated as morally non-negotiable and resistant to correction."
+    "description": "Degree to which an order, institution, leader, people, cause, memory, or territory is treated as morally non-negotiable and resistant to correction.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "collective-immortality",
     "label": "Collective Immortality",
-    "description": "Degree to which mortal individuals are symbolically linked to an enduring collective body whose continuation gives meaning to death or sacrifice."
+    "description": "Degree to which mortal individuals are symbolically linked to an enduring collective body whose continuation gives meaning to death or sacrifice.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "sacred-enemy",
     "label": "Sacred Enemy",
-    "description": "Degree to which an opponent is represented as contaminating, existential, profaning, or morally absolute."
+    "description": "Degree to which an opponent is represented as contaminating, existential, profaning, or morally absolute.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "pathology",
     "label": "Pathology",
-    "description": "Maladaptive self-preservation at the expense of truth, correction, personhood, and human flourishing."
+    "description": "Maladaptive self-preservation at the expense of truth, correction, personhood, and human flourishing.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "corrigibility",
     "label": "Corrigibility",
-    "description": "Capacity of an embodied order to receive criticism, acknowledge error, limit power, and repair harm."
+    "description": "Capacity of an embodied order to receive criticism, acknowledge error, limit power, and repair harm.",
+    "status": "active",
+    "versionIntroduced": "v1"
   }
 ]

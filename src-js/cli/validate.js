@@ -7,7 +7,7 @@ import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js"
 import { validateClaimPromotion } from "../validate/validate-claim-promotion.js";
 import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
 import { validateScoreSemantics } from "../validate/validate-score-semantics.js";
-import { buildDefinitionRefs, validateDefinitionRefs, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
+import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateTheoryVariableRecord, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
 
 const root = process.cwd();
 const errors = [];
@@ -106,18 +106,35 @@ function validateTheory(theoryDir) {
     const variables = readArray(variablesPath);
     const variableIds = new Set();
     for (const variable of variables) {
-      requireFields(`${variablesPath}:${variable.variableId ?? "<unknown>"}`, variable, ["variableId", "label", "description"]);
+      const label = `${variablesPath}:${variable.variableId ?? "<unknown>"}`;
+      requireFields(label, variable, ["variableId", "label", "description", "status", "versionIntroduced"]);
       if (variableIds.has(variable.variableId)) addError(`${variablesPath}: duplicate variableId ${variable.variableId}`);
       variableIds.add(variable.variableId);
     }
-    return { ...manifest, variableIds };
+    for (const variable of variables) {
+      validateTheoryVariableRecord(variable, variableIds, errors, `${variablesPath}:${variable.variableId}`);
+    }
+    const variableRegistry = buildTheoryVariableRegistry(variables);
+    const rubricPath = path.join(theoryDir, "scoring-rubric.json");
+    if (fs.existsSync(rubricPath)) {
+      const rubric = readJson(rubricPath);
+      for (const variableId of rubric.variables ?? []) {
+        const variable = variableRegistry.get(variableId);
+        if (!variable) {
+          addError(`${rubricPath}: scoring-rubric variable ${variableId} is not defined in variables.json`);
+        } else if (["deprecated", "retired"].includes(variable.status)) {
+          addError(`${rubricPath}: scoring-rubric variable ${variableId} is ${variable.status}; use canonical active variables for new analytical records`);
+        }
+      }
+    }
+    return { ...manifest, variables: variableRegistry };
   } catch (error) {
     addError(error.message);
     return null;
   }
 }
 
-function validateCase(caseDir, theoryIds, theoryVariableIds, allowedDefinitionRefs, bibliographyIds) {
+function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds) {
   const casePath = path.join(caseDir, "case.json");
   if (!fs.existsSync(casePath)) {
     addError(`${casePath}: missing case.json`);
@@ -193,7 +210,7 @@ function validateCase(caseDir, theoryIds, theoryVariableIds, allowedDefinitionRe
       validateEnum(`${interpretation.interpretationId}.sacrificeBoundedness`, interpretation.sacrificeBoundedness, VOCAB.sacrificeBoundedness);
       validateEnum(`${interpretation.interpretationId}.sacrificeTarget`, interpretation.sacrificeTarget, VOCAB.sacrificeTargets);
       if (!theoryIds.has(interpretation.theoryId)) addError(`${interpretation.interpretationId}: unknown theoryId ${interpretation.theoryId}`);
-      validateTheoryVariableReference(interpretation, "variableId", theoryVariableIds, errors, `${caseDir}/interpretations.json:${interpretation.interpretationId}`);
+      validateTheoryVariableReference(interpretation, "variableId", theoryVariables, errors, warnings, `${caseDir}/interpretations.json:${interpretation.interpretationId}`);
       for (const claimId of interpretation.claimIds ?? []) {
         referencedClaimIds.add(claimId);
         if (!claimIds.has(claimId)) addError(`${interpretation.interpretationId}: claim ${claimId} is missing`);
@@ -207,7 +224,7 @@ function validateCase(caseDir, theoryIds, theoryVariableIds, allowedDefinitionRe
       validateEnum(`${score.scoreId}.publicationStatus`, score.publicationStatus, VOCAB.publicationStatuses);
       scoredInterpretationIds.add(score.interpretationId);
       if (!interpretationIds.has(score.interpretationId)) addError(`${score.scoreId}: interpretation ${score.interpretationId} is missing`);
-      validateTheoryVariableReference(score, "variableId", theoryVariableIds, errors, `${caseDir}/scores.json:${score.scoreId}`);
+      validateTheoryVariableReference(score, "variableId", theoryVariables, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       validateDefinitionRefs(score.definitionRefs, allowedDefinitionRefs, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
@@ -280,15 +297,15 @@ function validateCase(caseDir, theoryIds, theoryVariableIds, allowedDefinitionRe
 const theoryDirs = listDirs(path.join(root, "theories")).map((name) => path.join(root, "theories", name));
 const theories = theoryDirs.map(validateTheory).filter(Boolean);
 const theoryIds = new Set(theories.map((theory) => theory.theoryId));
-const theoryVariableIds = new Map(theories.map((theory) => [theory.theoryId, theory.variableIds]));
-const allowedDefinitionRefs = buildDefinitionRefs(theoryVariableIds, VOCAB.mechanisms);
+const theoryVariables = new Map(theories.map((theory) => [theory.theoryId, theory.variables]));
+const allowedDefinitionRefs = buildDefinitionRefs(theoryVariables, VOCAB.mechanisms);
 const bibliographyPath = path.join(root, "bibliography", "sources.csl.json");
 const bibliography = fs.existsSync(bibliographyPath) ? readJson(bibliographyPath) : [];
 const bibliographyIds = new Set(bibliography.map((source) => source.id));
 
 const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.join(root, "data", "cases", name));
 const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
-const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariableIds, allowedDefinitionRefs, bibliographyIds)).filter(Boolean);
+const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds)).filter(Boolean);
 
 const evidenceModuleResult = validateEvidenceModules(root, caseIds);
 for (const e of evidenceModuleResult.errors) errors.push(e);
