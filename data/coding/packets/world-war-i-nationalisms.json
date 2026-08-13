@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-world-war-i-nationalisms-packet",
+  "caseId": "world-war-i-nationalisms",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "world-war-i-nationalisms",
+      "title": "World War I Nationalisms",
+      "subtype": "war",
+      "period": "1914-1918",
+      "sacredPoliticalOrderId": "world-war-i-nationalisms-sacred-political-order",
+      "sacredPoliticalOrderName": "World War I Nationalisms sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with World War I Nationalisms.",
+      "unitClass": "historical-episode",
+      "designStratum": "historical-episode:war",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "kaiser-wilhelm-reichstag-speech-1914",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "poincare-war-message-1914",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "world-war-i-nationalisms-passage-001",
+        "sourceId": "kaiser-wilhelm-reichstag-speech-1914",
+        "locator": "Kaiser Wilhelm II, Address to the Reichstag, 4 August 1914; English translation in German History in Documents and Images (GHDI): https://ghdi.ghi-dc.org/sub_document.cfm?document_id=815",
+        "text": "I no longer recognize any parties; I recognize only Germans.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "world-war-i-nationalisms-passage-002",
+        "sourceId": "poincare-war-message-1914",
+        "locator": "Raymond Poincaré, Message to the French Chambers, 4 August 1914; English translation at https://www.firstworldwar.com/source/poincare_aug1914.htm",
+        "text": "She will be heroically defended by all her sons; nothing will break their sacred union before the enemy; today they are joined together as brothers in a common indignation against the aggressor, and in a common patriotic faith.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:c3be276b347b37afeb1f71150498324447cf5124092c087791704b720f4cf309"
+}

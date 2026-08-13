@@ -1,0 +1,14 @@
+[
+  {
+    "eventId": "holdout-controls-established-2026-08-13",
+    "eventType": "controls-established",
+    "date": "2026-08-13",
+    "actor": "maintainer-required",
+    "affectedCaseIds": [
+      "american-revolution",
+      "napoleonic-france"
+    ],
+    "reviewStatus": "draft",
+    "rationale": "Records that outcome-blind packet controls exist before any fresh holdout selection, packet release, opening, or unblinding decision. No sealed holdout is opened by this event."
+  }
+]

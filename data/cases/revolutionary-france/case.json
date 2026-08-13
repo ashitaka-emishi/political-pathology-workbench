@@ -4,6 +4,7 @@
   "subtype": "revolution",
   "period": "1789-1799",
   "outcome": "sacrificial-escalation",
+  "outcomeClass": "sacrificial-escalation",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
   "unitClass": "historical-episode",
   "caseType": "positive-pathology-case",
-  "comparabilityGroup": "historical-episode:sacrificial-escalation",
+  "designStratum": "historical-episode:revolution",
+  "comparabilityGroup": "historical-episode:revolution",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

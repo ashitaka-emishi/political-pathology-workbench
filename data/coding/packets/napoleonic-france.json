@@ -1,0 +1,54 @@
+{
+  "packetId": "round-001-napoleonic-france-packet",
+  "caseId": "napoleonic-france",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "napoleonic-france",
+      "title": "Napoleonic France",
+      "subtype": "imperial-revolutionary-state",
+      "period": "1799-1815",
+      "sacredPoliticalOrderId": "napoleonic-france-sacred-political-order",
+      "sacredPoliticalOrderName": "Napoleonic France sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Napoleonic France.",
+      "unitClass": "historical-episode",
+      "designStratum": "historical-episode:imperial-revolutionary-state",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1",
+        "sacrifice-law-v1"
+      ],
+      "summary": "Minimal draft scaffold for the Napoleonic France case, created to unblock Sacrifice Law corpus mapping. No PPW evidence chain, interpretation, score, or Sacrifice Law support rating is imported by this scaffold."
+    },
+    "sources": [],
+    "passages": []
+  },
+  "packetHash": "sha256:765917f2e028b8f4b21fe49cc63994760ba25385f5fd03f80c091301de5d0396"
+}

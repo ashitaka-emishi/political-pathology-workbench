@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-western-roman-empire-packet",
+  "caseId": "western-roman-empire",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "western-roman-empire",
+      "title": "Western Roman Empire",
+      "subtype": "empire",
+      "period": "395-476",
+      "sacredPoliticalOrderId": "western-roman-empire-sacred-political-order",
+      "sacredPoliticalOrderName": "Western Roman Empire sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Western Roman Empire.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:empire",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "vegetius-de-re-militari-c390",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "augustine-city-of-god-413",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "western-roman-empire-passage-001",
+        "sourceId": "vegetius-de-re-militari-c390",
+        "locator": "Vegetius, De Re Militari, Book I (c. 390 AD); Clarke translation (1767); text verified at https://archive.org/stream/pdfy-sOkC3FmoLlr4C6zz/The+Military+Institutions+Of+The+Romans+[De+Re+Militari]_djvu.txt",
+        "text": "The security established by long peace has altered their dispositions, drawn them off from military to civil pursuits and infused into them a love of idleness and ease.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "western-roman-empire-passage-002",
+        "sourceId": "augustine-city-of-god-413",
+        "locator": "Augustine of Hippo, City of God, Book V, Chapter 15 (c. 413–426 AD); Marcus Dods translation; text verified at https://www.newadvent.org/fathers/120105.htm",
+        "text": "They despised their own private affairs for the sake of the republic, and for its treasury resisted avarice, consulted for the good of their country with a spirit of freedom.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:5d36b1df33a78a743d238041ced8827636f9b62dd00afc16b8aa65f6ccb3dd7c"
+}

@@ -1,0 +1,73 @@
+{
+  "packetId": "round-001-european-union-packet",
+  "caseId": "european-union",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "european-union",
+      "title": "European Union",
+      "subtype": "postwar-order",
+      "period": "1993-present",
+      "sacredPoliticalOrderId": "european-union-sacred-political-order",
+      "sacredPoliticalOrderName": "European Union sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with European Union.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:postwar-order",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "treaty-european-union-consolidated",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "european-union-passage-001",
+        "sourceId": "treaty-european-union-consolidated",
+        "locator": "Treaty on European Union (consolidated version), Preamble, 4th recital; Official Journal EU C 202, 7 June 2016; text verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT",
+        "text": "CONFIRMING their attachment to the principles of liberty, democracy and respect for human rights and fundamental freedoms and of the rule of law",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "european-union-passage-002",
+        "sourceId": "treaty-european-union-consolidated",
+        "locator": "Treaty on European Union (consolidated version), Preamble, 1st recital; Official Journal EU C 202, 7 June 2016; text verified at https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:12016ME/TXT",
+        "text": "RESOLVED to continue the process of creating an ever closer union among the peoples of Europe",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:f54ce4605c3acafb6aca088bf10924b476ca0d6fdf1852156a72f2fc388228af"
+}

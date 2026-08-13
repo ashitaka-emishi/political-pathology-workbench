@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { readJson, requireFields } from "../validate/json.js";
+import { validateCodingPackets } from "../validate/validate-coding-packets.js";
 import { validateEvidenceModules } from "../validate/validate-evidence-modules.js";
 import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
 import { buildClaimPromotionIndex, validateClaimPromotion, validateScoreClaimPromotion } from "../validate/validate-claim-promotion.js";
@@ -210,8 +211,9 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
 
   try {
     const caseRecord = readJson(casePath);
-    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"]);
+    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "outcomeClass", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "designStratum", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"]);
     validateEnum(`${caseRecord.caseId}.outcome`, caseRecord.outcome, VOCAB.outcomes);
+    validateEnum(`${caseRecord.caseId}.outcomeClass`, caseRecord.outcomeClass, VOCAB.outcomes);
     validateEnum(`${caseRecord.caseId}.reviewStatus`, caseRecord.reviewStatus, VOCAB.reviewStatuses);
     validateEnum(`${caseRecord.caseId}.publicationStatus`, caseRecord.publicationStatus, VOCAB.publicationStatuses);
     validateEnum(`${caseRecord.caseId}.caseSelectionRole`, caseRecord.caseSelectionRole, VOCAB.caseSelectionRoles);
@@ -221,7 +223,10 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     validateEnum(`${caseRecord.caseId}.holdoutStatus`, caseRecord.holdoutStatus, VOCAB.holdoutStatuses);
     if (caseRecord.evaluationRole === "holdout-evaluation" && caseRecord.holdoutStatus === "not-held-out") addError(`${caseRecord.caseId}: holdout-evaluation cases must not use holdoutStatus not-held-out`);
     if (caseRecord.holdoutStatus === "sealed" && !caseRecord.holdoutProtocol) addError(`${caseRecord.caseId}: sealed holdout requires holdoutProtocol`);
-    if (!caseRecord.comparabilityGroup?.startsWith(`${caseRecord.unitClass}:`)) addWarning(`${caseRecord.caseId}: comparabilityGroup should start with unitClass`);
+    if (caseRecord.outcomeClass !== caseRecord.outcome) addError(`${caseRecord.caseId}: outcomeClass must match outcome until outcome migration completes`);
+    if (!caseRecord.designStratum?.startsWith(`${caseRecord.unitClass}:`)) addError(`${caseRecord.caseId}: designStratum must start with unitClass`);
+    if (VOCAB.outcomes.has(caseRecord.designStratum?.split(":").at(-1))) addError(`${caseRecord.caseId}: designStratum must not encode an outcome class`);
+    if (caseRecord.comparabilityGroup !== caseRecord.designStratum) addError(`${caseRecord.caseId}: comparabilityGroup must equal pre-outcome designStratum`);
     if (!caseRecord.samplingMetadata?.targetPopulation || !Array.isArray(caseRecord.samplingMetadata?.inclusionCriteria) || !Array.isArray(caseRecord.samplingMetadata?.exclusionCriteria)) {
       addError(`${caseRecord.caseId}: samplingMetadata requires targetPopulation, inclusionCriteria, and exclusionCriteria`);
     }
@@ -450,6 +455,9 @@ const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
 const claimPromotionIndex = buildClaimPromotionIndex(root);
 const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds, claimPromotionIndex)).filter(Boolean);
 validateRepositoryGraph(cases, errors);
+
+const codingPacketResult = validateCodingPackets(root, cases);
+for (const e of codingPacketResult.errors) errors.push(e);
 
 const evidenceModuleResult = validateEvidenceModules(root, caseIds);
 for (const e of evidenceModuleResult.errors) errors.push(e);

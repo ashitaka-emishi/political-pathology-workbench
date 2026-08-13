@@ -4,6 +4,7 @@
   "subtype": "war",
   "period": "1914-1918",
   "outcome": "sacrificial-escalation",
+  "outcomeClass": "sacrificial-escalation",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
   "unitClass": "historical-episode",
   "caseType": "positive-pathology-case",
-  "comparabilityGroup": "historical-episode:sacrificial-escalation",
+  "designStratum": "historical-episode:war",
+  "comparabilityGroup": "historical-episode:war",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

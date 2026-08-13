@@ -1,0 +1,22 @@
+{
+  "codingRoundId": "round-001",
+  "status": "draft",
+  "theoryId": "general-theory-political-pathology-v1",
+  "theoryVersion": "v1",
+  "codebookVersion": "v1.1",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "packetVersion": "v1.0",
+  "packetManifest": "data/coding/packets/manifest.json",
+  "assignmentManifest": "data/coding/assignments/round-001.json",
+  "frozenInputs": {
+    "theory": "theories/general-theory-political-pathology-v1/manifest.json",
+    "measurementSpec": "theories/general-theory-political-pathology-v1/measurement-spec.json",
+    "blindingPolicy": "policies/blinding-policy.json"
+  },
+  "humanGates": [
+    "packet-release",
+    "fresh-holdout-selection",
+    "holdout-opening",
+    "unblinding"
+  ]
+}

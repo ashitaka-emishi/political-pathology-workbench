@@ -1,0 +1,99 @@
+{
+  "packetId": "round-001-imperial-japan-packet",
+  "caseId": "imperial-japan",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "imperial-japan",
+      "title": "Imperial Japan",
+      "subtype": "regime",
+      "period": "1868-1945",
+      "sacredPoliticalOrderId": "imperial-japan-sacred-political-order",
+      "sacredPoliticalOrderName": "Imperial Japan sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Imperial Japan.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:regime",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft gold-case placeholder for future source, passage, claim, interpretation, and score chains."
+    },
+    "sources": [
+      {
+        "sourceId": "imperial-rescript-education-1890",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "imperial-rescript-soldiers-sailors-1882",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "kokutai-no-hongi-1937",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "hirohito-war-rescript-1941",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "imperial-japan-passage-001",
+        "sourceId": "imperial-rescript-education-1890",
+        "locator": "Imperial Rescript on Education (Kyoiku Chokugo), 30 October 1890; English translation, Japanese Ministry of Education; in Tsunoda, Ryusaku, Wm. Theodore de Bary, and Donald Keene, eds., Sources of Japanese Tradition, Vol. 2 (New York: Columbia University Press, 1958), p. 139. Text confirmed against Wikipedia English translation and worldjpn.net (The World and Japan Database): https://worldjpn.net/documents/texts/pw/18901030.O1E.html. Tsunoda et al. (1958) p.139 edition-specific wording requires physical library verification.",
+        "text": "Should emergency arise, offer yourselves courageously to the State; and thus guard and maintain the prosperity of Our Imperial Throne coeval with heaven and earth.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "imperial-japan-passage-002",
+        "sourceId": "imperial-rescript-soldiers-sailors-1882",
+        "locator": "Imperial Rescript to Soldiers and Sailors (Gunjin Chokuyu), 4 January 1882; English translation in McLaren, W. W., ed., Japanese Government Documents, Transactions of the Asiatic Society of Japan 42 (1914), p. 197. Text confirmed against multiple online scholarly sources including https://rikukaigun.org/General/Imperial%20Rescript%20to%20Soldiers%20and%20Sailors.html and Wikipedia. McLaren (1914) p.197 edition-specific wording requires physical library verification.",
+        "text": "Bear in mind that duty is weightier than a mountain, while death is lighter than a feather.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "imperial-japan-passage-003",
+        "sourceId": "kokutai-no-hongi-1937",
+        "locator": "Kokutai no Hongi (Cardinal Principles of the National Polity), 1937, section on loyalty; English translation in de Bary, Gluck, and Tiedemann, eds., Sources of Japanese Tradition, 2nd ed., vol. 2 (New York: Columbia University Press, 2005), pp. 968–969; excerpt verified at Asia for Educators, Columbia University: https://afe.easia.columbia.edu/ps/japan/kokutai.pdf",
+        "text": "Loyalty means to revere the emperor as [our] pivot and to follow him implicitly. By implicit obedience is meant casting ourselves aside and serving the emperor intently. To walk this Way of loyalty is the sole Way in which we subjects may 'live' and the fountainhead of all energy. Hence, offering our lives for the sake of the emperor does not mean so-called self-sacrifice but the casting aside of our little selves to live under his august grace and the enhancing of the genuine life of the people of a state.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "imperial-japan-passage-004",
+        "sourceId": "hirohito-war-rescript-1941",
+        "locator": "Imperial Rescript Declaring War, 8 December 1941; English text verified at The World and Japan Database (worldjpn.net): https://worldjpn.net/documents/texts/docs/19411208.O1E.html",
+        "text": "We, by grace of heaven, Emperor of Japan, seated on the Throne of a line unbroken for ages eternal, enjoin upon ye, Our loyal and brave subjects: We hereby declare war on the United States of America and the British Empire. This trend of affairs would, if left unchecked, not only nullify Our Empire's efforts of many years for the sake of the stabilization of East Asia, but also endanger the very existence of Our nation.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:ca411687e04fee908f1bf545422d209148fada3bbeac8d9b39e5754eca0f476d"
+}
