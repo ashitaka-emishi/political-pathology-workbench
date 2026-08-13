@@ -25,6 +25,17 @@ export const VARIABLE_COMPATIBILITY_POLICIES = new Set([
   "historical-preserved"
 ]);
 
+export const MEASUREMENT_ROLES = new Set([
+  "scoreable",
+  "derived",
+  "mechanism-only",
+  "descriptive",
+  "experimental",
+  "not-scored"
+]);
+
+const EVIDENCE_STRENGTH_ANCHOR_PATTERN = /\b(no evidence|weak evidence|moderate evidence|strong evidence|traceable evidence|evidence quality)\b/i;
+
 function requireStringArray(record, fieldName, errors, label) {
   if (record[fieldName] === undefined) return;
   if (!Array.isArray(record[fieldName])) {
@@ -80,6 +91,10 @@ export function validateTheoryVariableRecord(variable, variableIds, errors, labe
       errors.push(`${label}: compatibility.newRecordsPolicy must be one of ${Array.from(VARIABLE_COMPATIBILITY_POLICIES).join(", ")}`);
     }
   }
+
+  if (variable.measurementRole !== undefined && !MEASUREMENT_ROLES.has(variable.measurementRole)) {
+    errors.push(`${label}: measurementRole must be one of ${Array.from(MEASUREMENT_ROLES).join(", ")}`);
+  }
 }
 
 export function buildDefinitionRefs(theoryVariables, mechanismIds) {
@@ -112,6 +127,26 @@ export function validateTheoryVariableReference(record, fieldName, theoryVariabl
   }
   if (variable.status === "retired") {
     errors.push(`${label}: ${fieldName} ${variableId} is retired and cannot be used in analytical records`);
+  }
+}
+
+export function validateScoreableVariableReference(record, fieldName, theoryVariables, errors, label) {
+  const theoryId = record.theoryId;
+  const variableId = record[fieldName];
+  const variable = theoryVariables.get(theoryId)?.get(variableId);
+  if (!variable) return;
+  if (variable.measurementRole !== "scoreable") {
+    errors.push(`${label}: ${fieldName} ${variableId} has measurementRole ${variable.measurementRole ?? "unspecified"} and cannot receive a formal score`);
+  }
+}
+
+export function validateMagnitudeAnchors(anchors, errors, label) {
+  for (const key of ["0", "1", "2", "3", "4", "5"]) {
+    if (typeof anchors?.[key] !== "string" || anchors[key].length === 0) {
+      errors.push(`${label}: anchor ${key} must be defined`);
+    } else if (EVIDENCE_STRENGTH_ANCHOR_PATTERN.test(anchors[key])) {
+      errors.push(`${label}: anchor ${key} uses evidence-strength language instead of construct-magnitude language`);
+    }
   }
 }
 

@@ -3,11 +3,19 @@
     "min": 0,
     "max": 5,
     "anchors": {
-      "0": "No evidence in current record.",
-      "1": "Weak or indirect evidence.",
-      "3": "Moderate evidence across at least one source chain.",
-      "5": "Strong, repeated, and directly traceable evidence."
+      "0": "Substantive absence or minimum of the construct in the coded unit and period.",
+      "1": "Marginal or residual presence of the construct.",
+      "2": "Low or partial presence of the construct.",
+      "3": "Moderate presence of the construct.",
+      "4": "Strong but not maximal presence of the construct.",
+      "5": "Maximal or near-maximal presence under the variable definition."
     }
   },
-  "variables": ["collective-immortality", "individual-sacrifice"]
+  "variables": [
+    "collective-immortality",
+    "individual-sacrifice"
+  ],
+  "version": "v1.1",
+  "valueSemantics": "construct-magnitude",
+  "unknownValue": null
 }

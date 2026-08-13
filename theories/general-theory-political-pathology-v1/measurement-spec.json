@@ -1,0 +1,90 @@
+{
+  "measurementSpecId": "general-theory-political-pathology-v1-measurement-v1.1",
+  "theoryId": "general-theory-political-pathology-v1",
+  "version": "v1.1",
+  "valueSemantics": "construct-magnitude",
+  "unknownValue": null,
+  "unknownRule": "Use null with unknownReason when available evidence cannot support a construct-magnitude estimate. Do not encode insufficient evidence as 0.",
+  "generalAnchors": {
+    "0": "Substantive absence or minimum of the construct in the coded unit and period.",
+    "1": "Marginal or residual presence of the construct.",
+    "2": "Low or partial presence of the construct.",
+    "3": "Moderate presence of the construct.",
+    "4": "Strong but not maximal presence of the construct.",
+    "5": "Maximal or near-maximal presence under the variable definition."
+  },
+  "variables": {
+    "sacred-political-order-strength": {
+      "definitionRef": "sacred-political-order-strength",
+      "neighboringVariables": ["sacralization", "collective-immortality"],
+      "anchors": {
+        "0": "No durable sacred-political ordering of identity, legitimacy, obligation, memory, moral judgment, or sacrifice is visible in the coded period.",
+        "1": "Sacred-political symbols are residual or ceremonial, with little evidence that they organize public authority or obligation.",
+        "2": "Some sacred-political ordering is present, but it is partial, contested, weakly institutionalized, or limited to narrow settings.",
+        "3": "Sacred-political meaning moderately organizes identity and legitimacy, with traceable but bounded institutional or public-authority expression.",
+        "4": "Sacred-political ordering strongly organizes identity, legitimacy, obligation, memory, and sacrifice across major institutions or public narratives.",
+        "5": "Sacred-political ordering is near-maximal: authority, identity, obligation, memory, and sacrifice are pervasively organized around non-negotiable sacred objects."
+      }
+    },
+    "sacralization": {
+      "definitionRef": "sacralization",
+      "neighboringVariables": ["sacred-political-order-strength", "sacred-enemy"],
+      "anchors": {
+        "0": "Political objects remain ordinary, negotiable, and corrigible.",
+        "1": "Reverent or solemn language appears, but non-negotiability is minimal or unclear.",
+        "2": "Some objects are treated as specially inviolable, but the effect is limited or inconsistently enforced.",
+        "3": "A political object is moderately sacralized, with repeated evidence of moral inviolability or resistance to ordinary correction.",
+        "4": "Sacralization strongly constrains criticism, revision, or compromise around the object.",
+        "5": "The object is treated as an ultimate concern whose violation is broadly framed as desecration, betrayal, pollution, or existential danger."
+      }
+    },
+    "collective-immortality": {
+      "definitionRef": "collective-immortality",
+      "neighboringVariables": ["sacrifice", "sacred-political-order-strength"],
+      "anchors": {
+        "0": "Individual mortality, suffering, or sacrifice is not symbolically linked to an enduring collective body.",
+        "1": "Commemorative continuity is faint or conventional, without clear mortality-transcendence.",
+        "2": "Some deaths or sacrifices are linked to collective continuation, but the pattern is episodic or weakly developed.",
+        "3": "The collective body moderately gives meaning to death or sacrifice through repeated rhetoric, ritual, or institutional memory.",
+        "4": "The collective body strongly frames mortality and sacrifice as participation in an enduring people, nation, cause, party, church, or order.",
+        "5": "Collective immortality is near-maximal: individual death is pervasively interpreted as continuation, rebirth, or obligation of the enduring collective body."
+      }
+    },
+    "sacred-enemy": {
+      "definitionRef": "sacred-enemy",
+      "neighboringVariables": ["sacralization", "pathology"],
+      "anchors": {
+        "0": "Opponents are treated as ordinary political, military, or policy adversaries.",
+        "1": "Enemy language is elevated but remains mostly conventional or tactical.",
+        "2": "Some opponents are morally absolutized or contaminating, but the framing is partial or contested.",
+        "3": "An opponent is moderately represented as existential, profaning, contaminating, or morally absolute.",
+        "4": "Sacred-enemy framing strongly shapes public justification, coercion, exclusion, or sacrifice demands.",
+        "5": "The enemy is near-maximally sacralized as a polluting or existential force whose defeat overrides ordinary correction and restraint."
+      }
+    },
+    "pathology": {
+      "definitionRef": "pathology",
+      "neighboringVariables": ["corrigibility", "sacred-enemy"],
+      "anchors": {
+        "0": "No maladaptive self-preservation of the order is visible in the coded period.",
+        "1": "Self-protective distortion or harm is marginal and corrected by ordinary institutions or norms.",
+        "2": "Pathological self-preservation appears in limited domains but remains constrained or reversible.",
+        "3": "The order moderately preserves itself at the expense of truth, correction, personhood, or human flourishing.",
+        "4": "Pathological preservation strongly overrides correction, accountability, or ordinary human costs.",
+        "5": "Pathology is near-maximal: preserving the sacred order or embodied institution pervasively justifies severe distortion, coercion, sacrifice, or dehumanization."
+      }
+    },
+    "corrigibility": {
+      "definitionRef": "corrigibility",
+      "neighboringVariables": ["pathology", "institutional-health"],
+      "anchors": {
+        "0": "The order has little or no capacity to receive criticism, acknowledge error, limit power, or repair harm.",
+        "1": "Corrective capacity is marginal, symbolic, or routinely overridden.",
+        "2": "Some correction mechanisms exist, but they are weak, narrow, or unreliable under pressure.",
+        "3": "Correction capacity is moderate: pluralism, review, limits, dissent, or memory can constrain important errors but not all high-pressure failures.",
+        "4": "Correction capacity is strong across major institutions or public practices, with meaningful accountability and repair mechanisms.",
+        "5": "Correction capacity is near-maximal: the order robustly institutionalizes criticism, error recognition, power limitation, and repair even under crisis."
+      }
+    }
+  }
+}

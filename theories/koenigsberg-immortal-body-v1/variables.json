@@ -4,13 +4,15 @@
     "label": "Collective Immortality",
     "description": "The political community is represented as an enduring body that transcends individual mortality.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "scoreable"
   },
   {
     "variableId": "individual-sacrifice",
     "label": "Individual Sacrifice",
     "description": "Individual suffering, killing, or dying is framed as meaningful because it preserves the collective body.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "scoreable"
   }
 ]

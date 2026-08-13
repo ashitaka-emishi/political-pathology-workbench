@@ -4,35 +4,40 @@
     "label": "Sacred Political Order",
     "description": "The shared sacred-political structure that organizes political identity and meaning.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "descriptive"
   },
   {
     "variableId": "institutional-embodiment",
     "label": "Institutional Embodiment",
     "description": "The degree to which institutions carry and enforce the order.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "mechanism-only"
   },
   {
     "variableId": "self-preservation",
     "label": "Self-Preservation",
     "description": "The embodied order acts to preserve its continuity and authority.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "mechanism-only"
   },
   {
     "variableId": "crisis-sacralization",
     "label": "Crisis / Sacralization",
     "description": "Crisis conditions intensify sacred claims around survival.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "mechanism-only"
   },
   {
     "variableId": "correction-capacity",
     "label": "Correction Capacity",
     "description": "Pluralism, review, limits, dissent, memory, and institutional design restrain pathological escalation.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "mechanism-only"
   },
   {
     "variableId": "symbolic-order-strength",
@@ -46,7 +51,8 @@
     "deprecationNote": "Historical identifier preserved for compatibility; use sacred-political-order-strength for new analytical records.",
     "compatibility": {
       "newRecordsPolicy": "historical-preserved"
-    }
+    },
+    "measurementRole": "not-scored"
   },
   {
     "variableId": "sacred-political-order-strength",
@@ -62,41 +68,47 @@
     ],
     "compatibility": {
       "newRecordsPolicy": "canonical-required"
-    }
+    },
+    "measurementRole": "scoreable"
   },
   {
     "variableId": "sacralization",
     "label": "Sacralization",
     "description": "Degree to which an order, institution, leader, people, cause, memory, or territory is treated as morally non-negotiable and resistant to correction.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "scoreable"
   },
   {
     "variableId": "collective-immortality",
     "label": "Collective Immortality",
     "description": "Degree to which mortal individuals are symbolically linked to an enduring collective body whose continuation gives meaning to death or sacrifice.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "scoreable"
   },
   {
     "variableId": "sacred-enemy",
     "label": "Sacred Enemy",
     "description": "Degree to which an opponent is represented as contaminating, existential, profaning, or morally absolute.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "scoreable"
   },
   {
     "variableId": "pathology",
     "label": "Pathology",
     "description": "Maladaptive self-preservation at the expense of truth, correction, personhood, and human flourishing.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "scoreable"
   },
   {
     "variableId": "corrigibility",
     "label": "Corrigibility",
     "description": "Capacity of an embodied order to receive criticism, acknowledge error, limit power, and repair harm.",
     "status": "active",
-    "versionIntroduced": "v1"
+    "versionIntroduced": "v1",
+    "measurementRole": "scoreable"
   }
 ]

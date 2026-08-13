@@ -9,7 +9,7 @@ import { validateMigrationManifest } from "../validate/validate-migration-manife
 import { validateRepositoryGraph } from "../validate/validate-repository-graph.js";
 import { validateSchemaRegistry } from "../validate/validate-schema-registry.js";
 import { validateScoreIndependence, validateScoreSemantics } from "../validate/validate-score-semantics.js";
-import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateTheoryVariableRecord, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
+import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateMagnitudeAnchors, validateScoreableVariableReference, validateTheoryVariableRecord, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
 
 const root = process.cwd();
 const errors = [];
@@ -160,13 +160,37 @@ function validateTheory(theoryDir, bibliographyIds) {
     const rubricPath = path.join(theoryDir, "scoring-rubric.json");
     if (fs.existsSync(rubricPath)) {
       const rubric = readJson(rubricPath);
+      if (rubric.valueSemantics !== "construct-magnitude") addError(`${rubricPath}: valueSemantics must be construct-magnitude`);
+      if (rubric.unknownValue !== null) addError(`${rubricPath}: unknownValue must be null`);
+      validateMagnitudeAnchors(rubric.scale?.anchors, errors, `${rubricPath}:scale.anchors`);
       for (const variableId of rubric.variables ?? []) {
         const variable = variableRegistry.get(variableId);
         if (!variable) {
           addError(`${rubricPath}: scoring-rubric variable ${variableId} is not defined in variables.json`);
         } else if (["deprecated", "retired"].includes(variable.status)) {
           addError(`${rubricPath}: scoring-rubric variable ${variableId} is ${variable.status}; use canonical active variables for new analytical records`);
+        } else if (variable.measurementRole !== "scoreable") {
+          addError(`${rubricPath}: scoring-rubric variable ${variableId} has measurementRole ${variable.measurementRole ?? "unspecified"}; only scoreable variables belong in scoring rubrics`);
         }
+      }
+    }
+    const measurementSpecPath = path.join(theoryDir, "measurement-spec.json");
+    if (fs.existsSync(measurementSpecPath)) {
+      const measurementSpec = readJson(measurementSpecPath);
+      requireFields(measurementSpecPath, measurementSpec, ["measurementSpecId", "theoryId", "version", "valueSemantics", "generalAnchors", "variables"]);
+      if (!Object.hasOwn(measurementSpec, "unknownValue")) addError(`${measurementSpecPath}: missing required field unknownValue`);
+      if (measurementSpec.theoryId !== manifest.theoryId) addError(`${measurementSpecPath}: theoryId ${measurementSpec.theoryId} does not match manifest ${manifest.theoryId}`);
+      if (measurementSpec.valueSemantics !== "construct-magnitude") addError(`${measurementSpecPath}: valueSemantics must be construct-magnitude`);
+      if (measurementSpec.unknownValue !== null) addError(`${measurementSpecPath}: unknownValue must be null`);
+      validateMagnitudeAnchors(measurementSpec.generalAnchors, errors, `${measurementSpecPath}:generalAnchors`);
+      const scoreableVariableIds = variables.filter((variable) => variable.measurementRole === "scoreable" && variable.status === "active").map((variable) => variable.variableId);
+      for (const variableId of scoreableVariableIds) {
+        const variableSpec = measurementSpec.variables?.[variableId];
+        if (!variableSpec) {
+          addError(`${measurementSpecPath}: missing measurement spec for scoreable variable ${variableId}`);
+          continue;
+        }
+        validateMagnitudeAnchors(variableSpec.anchors, errors, `${measurementSpecPath}:variables.${variableId}.anchors`);
       }
     }
     return { ...manifest, variables: variableRegistry };
@@ -304,6 +328,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
         if (score.codebookVersion && interpretation.codebookVersion && score.codebookVersion !== interpretation.codebookVersion) addError(`${score.scoreId}: codebookVersion ${score.codebookVersion} does not match interpretation ${score.interpretationId} codebookVersion ${interpretation.codebookVersion}`);
       }
       validateTheoryVariableReference(score, "variableId", theoryVariables, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
+      validateScoreableVariableReference(score, "variableId", theoryVariables, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateDefinitionRefs(score.definitionRefs, allowedDefinitionRefs, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreIndependence(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`, isPublicFacing(score.publicationStatus));
