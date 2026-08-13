@@ -44,12 +44,18 @@ def classify_score(
     promotion_status: dict[str, str],
 ) -> str:
     """
-    Return 'include', 'exclude-draft-claim', or 'exclude-blocked' for a score.
+    Return 'include' or an explicit exclusion reason for a score.
 
-    A score is excluded only when ALL of its underlying claims are tracked in
-    the promotion registry at a non-scorable status (draft-claim or blocked).
-    Scores with no promotion-registry claims are always included.
+    Scores must first pass the substantive-analysis independence gate. Scores
+    that pass it are then checked against evidence-module promotion status.
     """
+    if score.get("includeInSubstantiveAnalysis") is not True:
+        return "exclude-not-substantive-analysis"
+    if score.get("outcomeVisibleToCoder") is True:
+        return "exclude-outcome-visible"
+    if score.get("scoreOrigin") in {"scaffold", "legacy", "outcome-derived"}:
+        return f"exclude-{score.get('scoreOrigin')}"
+
     claim_ids = interp_claims.get(score.get("interpretationId", ""), [])
     # NOTE: registry_statuses will be empty until interpretations directly reference
     # evidence-module claim IDs (e.g. lma-draft-claim-001). Today, interpretations use
@@ -85,6 +91,13 @@ def summarize_scores(
                 "scoreId": score.get("scoreId"),
                 "caseId": score.get("caseId"),
                 "reason": verdict,
+            })
+            continue
+        if score.get("value") is None:
+            excluded.append({
+                "scoreId": score.get("scoreId"),
+                "caseId": score.get("caseId"),
+                "reason": "exclude-unknown-value",
             })
             continue
         value = float(score["value"])

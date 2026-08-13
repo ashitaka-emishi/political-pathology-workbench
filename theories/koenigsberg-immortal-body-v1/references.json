@@ -1,6 +1,13 @@
 [
   {
     "sourceId": "koenigsberg-nations-have-right-to-kill",
-    "role": "theoretical-warrant"
+    "role": "theoretical-warrant",
+    "supportsVariables": [
+      "collective-immortality",
+      "individual-sacrifice"
+    ],
+    "supportsPropositions": [
+      "kib-collective-body-sacrifice"
+    ]
   }
 ]

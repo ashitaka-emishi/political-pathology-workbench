@@ -96,7 +96,7 @@ function validateGeneratedChainPagesAreUntracked() {
   }
 }
 
-function validateTheory(theoryDir) {
+function validateTheory(theoryDir, bibliographyIds) {
   const manifestPath = path.join(theoryDir, "manifest.json");
   if (!fs.existsSync(manifestPath)) {
     addError(`${manifestPath}: missing theory manifest`);
@@ -120,6 +120,41 @@ function validateTheory(theoryDir) {
       validateTheoryVariableRecord(variable, variableIds, errors, `${variablesPath}:${variable.variableId}`);
     }
     const variableRegistry = buildTheoryVariableRegistry(variables);
+    const propositionIds = new Set();
+    const propositionsPath = path.join(theoryDir, "propositions.json");
+    if (fs.existsSync(propositionsPath)) {
+      const propositions = readArray(propositionsPath);
+      for (const proposition of propositions) {
+        const label = `${propositionsPath}:${proposition.propositionId ?? "<unknown>"}`;
+        requireFields(label, proposition, ["propositionId", "text", "variableIds", "falsificationCriteria", "referenceIds"]);
+        if (propositionIds.has(proposition.propositionId)) addError(`${propositionsPath}: duplicate propositionId ${proposition.propositionId}`);
+        propositionIds.add(proposition.propositionId);
+        for (const variableId of proposition.variableIds ?? []) {
+          if (!variableRegistry.has(variableId)) addError(`${label}: variableId ${variableId} is not defined in variables.json`);
+        }
+        if ((proposition.falsificationCriteria ?? []).length === 0) addError(`${label}: falsificationCriteria must not be empty`);
+        for (const sourceId of proposition.referenceIds ?? []) {
+          if (!bibliographyIds.has(sourceId)) addError(`${label}: referenceId ${sourceId} lacks citation metadata in bibliography/sources.csl.json`);
+        }
+      }
+    }
+
+    const referencesPath = path.join(theoryDir, "references.json");
+    if (fs.existsSync(referencesPath)) {
+      const references = readArray(referencesPath);
+      for (const reference of references) {
+        const label = `${referencesPath}:${reference.sourceId ?? "<unknown>"}`;
+        requireFields(label, reference, ["sourceId", "role"]);
+        if (!bibliographyIds.has(reference.sourceId)) addError(`${label}: sourceId lacks citation metadata in bibliography/sources.csl.json`);
+        for (const variableId of reference.supportsVariables ?? []) {
+          if (!variableRegistry.has(variableId)) addError(`${label}: supportsVariables ${variableId} is not defined in variables.json`);
+        }
+        for (const propositionId of reference.supportsPropositions ?? []) {
+          if (!propositionIds.has(propositionId)) addError(`${label}: supportsPropositions ${propositionId} is not defined in propositions.json`);
+        }
+      }
+    }
+
     const rubricPath = path.join(theoryDir, "scoring-rubric.json");
     if (fs.existsSync(rubricPath)) {
       const rubric = readJson(rubricPath);
@@ -353,14 +388,14 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
   }
 }
 
-const theoryDirs = listDirs(path.join(root, "theories")).map((name) => path.join(root, "theories", name));
-const theories = theoryDirs.map(validateTheory).filter(Boolean);
-const theoryIds = new Set(theories.map((theory) => theory.theoryId));
-const theoryVariables = new Map(theories.map((theory) => [theory.theoryId, theory.variables]));
-const allowedDefinitionRefs = buildDefinitionRefs(theoryVariables, VOCAB.mechanisms);
 const bibliographyPath = path.join(root, "bibliography", "sources.csl.json");
 const bibliography = fs.existsSync(bibliographyPath) ? readJson(bibliographyPath) : [];
 const bibliographyIds = new Set(bibliography.map((source) => source.id));
+const theoryDirs = listDirs(path.join(root, "theories")).map((name) => path.join(root, "theories", name));
+const theories = theoryDirs.map((theoryDir) => validateTheory(theoryDir, bibliographyIds)).filter(Boolean);
+const theoryIds = new Set(theories.map((theory) => theory.theoryId));
+const theoryVariables = new Map(theories.map((theory) => [theory.theoryId, theory.variables]));
+const allowedDefinitionRefs = buildDefinitionRefs(theoryVariables, VOCAB.mechanisms);
 
 const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.join(root, "data", "cases", name));
 const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));

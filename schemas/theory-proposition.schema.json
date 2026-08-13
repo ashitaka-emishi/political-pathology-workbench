@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/theory-proposition.schema.json",
+  "title": "Theory Propositions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["propositionId", "text", "variableIds", "falsificationCriteria", "referenceIds"],
+    "properties": {
+      "propositionId": { "type": "string" },
+      "text": { "type": "string" },
+      "variableIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "falsificationCriteria": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "referenceIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    }
+  }
+}

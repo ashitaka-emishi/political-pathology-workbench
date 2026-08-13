@@ -12,6 +12,9 @@
 ## Validation
 
 - [ ] `npm run validate`
+- [ ] `npm test`
 - [ ] `npm run generate`
 - [ ] `PYTHONPATH=src-py python3 -m political_pathology.scoring.summary`
+- [ ] `git diff --check`
+- [ ] `git diff --exit-code`
 - [ ] `cd site && quarto render`

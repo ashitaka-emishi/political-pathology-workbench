@@ -1,0 +1,18 @@
+[
+  {
+    "propositionId": "kib-collective-body-sacrifice",
+    "text": "Political communities can be imagined as immortal collective bodies for which individual mortality and sacrifice become meaningful.",
+    "variableIds": [
+      "collective-immortality",
+      "individual-sacrifice"
+    ],
+    "falsificationCriteria": [
+      "Cases with high sacrificial demand show no evidence of collective-body or collective-immortality language.",
+      "Individual sacrifice is justified entirely through instrumental coercion without symbolic participation in an enduring community.",
+      "Disconfirming searches repeatedly find that collective-body language is incidental rather than mechanism-bearing."
+    ],
+    "referenceIds": [
+      "koenigsberg-nations-have-right-to-kill"
+    ]
+  }
+]
