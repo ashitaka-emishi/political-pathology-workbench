@@ -1,0 +1,14 @@
+{
+  "variableIds": [
+    "old-variable",
+    "new-variable"
+  ],
+  "variable": {
+    "variableId": "old-variable",
+    "label": "Old Variable",
+    "description": "Deprecated without a migration target.",
+    "status": "deprecated",
+    "versionIntroduced": "v1",
+    "deprecationNote": "Use the canonical variable."
+  }
+}

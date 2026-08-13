@@ -1,0 +1,15 @@
+{
+  "variableIds": [
+    "canonical-variable"
+  ],
+  "variable": {
+    "variableId": "canonical-variable",
+    "label": "Canonical Variable",
+    "description": "Alias points nowhere.",
+    "status": "active",
+    "versionIntroduced": "v1",
+    "aliases": [
+      "missing-variable"
+    ]
+  }
+}

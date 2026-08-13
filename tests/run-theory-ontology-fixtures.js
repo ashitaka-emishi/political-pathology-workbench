@@ -2,19 +2,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readJson } from "../src-js/validate/json.js";
-import { buildDefinitionRefs, validateDefinitionRefs, validateTheoryVariableReference } from "../src-js/validate/validate-theory-ontology.js";
+import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateTheoryVariableReference } from "../src-js/validate/validate-theory-ontology.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const fixturesDir = path.join(__dirname, "fixtures", "theory-ontology");
 
-const theoryVariableIds = new Map();
+const theoryVariables = new Map();
 for (const slug of fs.readdirSync(path.join(root, "theories")).sort()) {
   const theoryDir = path.join(root, "theories", slug);
   if (!fs.statSync(theoryDir).isDirectory()) continue;
   const manifest = readJson(path.join(theoryDir, "manifest.json"));
   const variables = readJson(path.join(theoryDir, "variables.json"));
-  theoryVariableIds.set(manifest.theoryId, new Set(variables.map((variable) => variable.variableId)));
+  theoryVariables.set(manifest.theoryId, buildTheoryVariableRegistry(variables));
 }
 
 const mechanismIds = new Set([
@@ -30,7 +30,7 @@ const mechanismIds = new Set([
   "symbolic-transformation",
   "frozen-pathology"
 ]);
-const allowedDefinitionRefs = buildDefinitionRefs(theoryVariableIds, mechanismIds);
+const allowedDefinitionRefs = buildDefinitionRefs(theoryVariables, mechanismIds);
 
 let failures = 0;
 
@@ -42,7 +42,8 @@ for (const fileName of fs.readdirSync(fixturesDir).sort()) {
   const fixturePath = path.join(fixturesDir, fileName);
   const record = readJson(fixturePath);
   const errors = [];
-  validateTheoryVariableReference(record, "variableId", theoryVariableIds, errors, fixturePath);
+  const warnings = [];
+  validateTheoryVariableReference(record, "variableId", theoryVariables, errors, warnings, fixturePath);
   validateDefinitionRefs(record.definitionRefs, allowedDefinitionRefs, errors, fixturePath);
 
   const passed = expectValid ? errors.length === 0 : errors.length > 0;

@@ -1,0 +1,20 @@
+{
+  "variableIds": [
+    "symbolic-order-strength",
+    "sacred-political-order-strength"
+  ],
+  "variable": {
+    "variableId": "symbolic-order-strength",
+    "label": "Sacred Political Order Strength",
+    "description": "Historical identifier.",
+    "status": "deprecated",
+    "versionIntroduced": "v1",
+    "replacedBy": [
+      "sacred-political-order-strength"
+    ],
+    "deprecationNote": "Historical identifier preserved for compatibility; use sacred-political-order-strength for new analytical records.",
+    "compatibility": {
+      "newRecordsPolicy": "historical-preserved"
+    }
+  }
+}

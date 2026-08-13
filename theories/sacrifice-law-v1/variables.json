@@ -2,36 +2,50 @@
   {
     "variableId": "symbolic-order",
     "label": "Sacred Political Order",
-    "description": "The shared sacred-political structure that organizes political identity and meaning."
+    "description": "The shared sacred-political structure that organizes political identity and meaning.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "institutional-embodiment",
     "label": "Institutional Embodiment",
-    "description": "The degree to which the sacred political order is carried by institutions."
+    "description": "The degree to which the sacred political order is carried by institutions.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "self-sacralization",
     "label": "Self-Sacralization",
-    "description": "The order treats its own survival as sacred."
+    "description": "The order treats its own survival as sacred.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "sacrificial-demand",
     "label": "Sacrificial Demand",
-    "description": "The order demands suffering, killing, or dying in response to threat."
+    "description": "The order demands suffering, killing, or dying in response to threat.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "sacrifice-form",
     "label": "Sacrifice Form",
-    "description": "Human good surrendered, including time, labor, health, conscience, family life, speech, agency, bodily risk, death, killing, martyrdom, or ritual sacrifice."
+    "description": "Human good surrendered, including time, labor, health, conscience, family life, speech, agency, bodily risk, death, killing, martyrdom, or ritual sacrifice.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "sacrifice-health",
     "label": "Sacrifice Health",
-    "description": "Whether sacrifice is healthy, ambiguous, pathological, mixed, or unknown."
+    "description": "Whether sacrifice is healthy, ambiguous, pathological, mixed, or unknown.",
+    "status": "active",
+    "versionIntroduced": "v1"
   },
   {
     "variableId": "sacrifice-boundedness",
     "label": "Sacrifice Boundedness",
-    "description": "Whether sacrificial demand is bounded, partially bounded, unbounded, or unknown."
+    "description": "Whether sacrificial demand is bounded, partially bounded, unbounded, or unknown.",
+    "status": "active",
+    "versionIntroduced": "v1"
   }
 ]

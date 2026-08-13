@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/theory-variable.schema.json",
+  "title": "Theory Variables",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["variableId", "label", "description", "status", "versionIntroduced"],
+    "properties": {
+      "variableId": { "type": "string" },
+      "label": { "type": "string" },
+      "description": { "type": "string" },
+      "status": {
+        "type": "string",
+        "enum": ["active", "deprecated", "retired", "experimental"]
+      },
+      "versionIntroduced": { "type": "string" },
+      "aliases": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "replaces": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "replacedBy": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "deprecationNote": { "type": "string" },
+      "compatibility": {
+        "type": "object",
+        "properties": {
+          "newRecordsPolicy": {
+            "type": "string",
+            "enum": ["canonical-required", "historical-preserved"]
+          }
+        },
+        "required": ["newRecordsPolicy"]
+      }
+    }
+  }
+}
