@@ -124,7 +124,10 @@
           ],
           "codebookVersion": "v1.1",
           "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the two Imperial Rescripts (duty weightier than a mountain; offer yourselves to the State) and the wartime escalation outcome. Confidence 0.70 reflects confirmed passage texts with one pending uncertainty (physical edition verification for the Tsunoda et al. 1958 edition). Ready for human-reviewed once physical edition is verified.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     },
@@ -249,7 +252,10 @@
           ],
           "codebookVersion": "v1.1",
           "reviewNote": "Score value 1/5 defensible: Kokutai no Hongi's ontological equation of loyalty with self-erasure and the framing of individual selfhood outside imperial service as non-existence eliminates the conceptual basis for legitimate dissent. Score of 1 (not 0) correctly acknowledges that military factional disputes provided a marginal corrigibility channel. Confidence 0.75 is well-calibrated. Ready for human-reviewed pending chain expansion to document operational corrigibility limits.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     }

@@ -122,7 +122,10 @@
           ],
           "codebookVersion": "v1.1",
           "reviewNote": "Score value 5/5 defensible: sacred-enemy-escalation mechanism (Committee of Public Safety, Law of Suspects, Festival of the Supreme Being) supports maximum sacred-political-order-strength during the Terror. Confidence 0.63 reflects chain-requires-expansion and periodization ambiguity (which revolutionary phase?). Hold at score-review; specify the 1793-94 Terror period as the scored period before human-reviewed.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     }

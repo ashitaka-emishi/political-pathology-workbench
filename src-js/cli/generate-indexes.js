@@ -3,6 +3,7 @@ import path from "node:path";
 import { readJson } from "../validate/json.js";
 import { generateEvidenceIndexes } from "../generate/generate-evidence-indexes.js";
 import { generateCaseEvidenceChains } from "../generate/generate-case-evidence-chains.js";
+import { isSubstantiveAnalysisScore } from "../validate/validate-score-semantics.js";
 
 const root = process.cwd();
 const casesDir = path.join(root, "data", "cases");
@@ -141,6 +142,7 @@ const DISPLAY_VARS = ["sacred-political-order-strength", "corrigibility"];
 
 const scoresByCase = {};
 for (const s of allScores) {
+  if (!isSubstantiveAnalysisScore(s)) continue;
   if (!scoresByCase[s.caseId]) scoresByCase[s.caseId] = {};
   if (!scoresByCase[s.caseId][s.variableId]) scoresByCase[s.caseId][s.variableId] = [];
   if (typeof s.value === "number") {

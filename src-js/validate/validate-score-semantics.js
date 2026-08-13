@@ -1,4 +1,13 @@
 const VALUE_SEMANTICS = new Set(["construct-magnitude", "unknown"]);
+const SCORE_ORIGINS = new Set([
+  "scaffold",
+  "legacy",
+  "outcome-derived",
+  "independent-coding",
+  "adjudicated",
+  "final"
+]);
+const EXCLUDED_SCORE_ORIGINS = new Set(["scaffold", "legacy", "outcome-derived"]);
 
 function isNumber(value) {
   return typeof value === "number" && Number.isFinite(value);
@@ -60,5 +69,35 @@ export function validateScoreSemantics(score, errors, warnings, label) {
 
   if (score.value === 0 && score.confidence?.rationale?.toLowerCase().includes("no evidence")) {
     warnings.push(`${label}: value 0 should mean substantive absence/minimum; use value null for insufficient evidence`);
+  }
+}
+
+export function isSubstantiveAnalysisScore(score) {
+  return score.includeInSubstantiveAnalysis === true &&
+    !EXCLUDED_SCORE_ORIGINS.has(score.scoreOrigin) &&
+    score.outcomeVisibleToCoder === false;
+}
+
+export function validateScoreIndependence(score, errors, warnings, label, isPublicFacingScore = false) {
+  if (!SCORE_ORIGINS.has(score.scoreOrigin)) {
+    errors.push(`${label}: scoreOrigin must be one of ${Array.from(SCORE_ORIGINS).join(", ")}`);
+  }
+  if (typeof score.outcomeVisibleToCoder !== "boolean") {
+    errors.push(`${label}: outcomeVisibleToCoder must be boolean`);
+  }
+  if (typeof score.includeInSubstantiveAnalysis !== "boolean") {
+    errors.push(`${label}: includeInSubstantiveAnalysis must be boolean`);
+  }
+
+  if (score.includeInSubstantiveAnalysis === true && !isSubstantiveAnalysisScore(score)) {
+    errors.push(`${label}: scores included in substantive analysis must be independently coded, not outcome-visible, and not scaffold/legacy/outcome-derived`);
+  }
+
+  if (isPublicFacingScore && !isSubstantiveAnalysisScore(score)) {
+    errors.push(`${label}: publication-facing scores must be independent of outcome-visible or scaffold-derived scoring`);
+  }
+
+  if (score.scoreOrigin === "outcome-derived") {
+    warnings.push(`${label}: outcome-derived score requires independent replacement before publication-facing use`);
   }
 }
