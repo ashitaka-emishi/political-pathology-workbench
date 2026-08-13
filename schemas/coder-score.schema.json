@@ -67,6 +67,7 @@
       },
       "submittedAt": { "type": "string" },
       "adjudicationId": { "type": "string" },
+      "supersedesCoderScoreId": { "type": "string" },
       "notes": { "type": "string" }
     }
   }

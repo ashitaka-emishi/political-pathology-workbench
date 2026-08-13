@@ -14,6 +14,9 @@
       "adjudicatedValue",
       "valueSemantics",
       "decisionState",
+      "disagreementCategories",
+      "inputRange",
+      "absoluteDisagreement",
       "adjudicatorId",
       "timestamp",
       "rationale"
@@ -41,6 +44,28 @@
         "type": "string",
         "enum": ["unresolved", "adjudicated", "excluded"]
       },
+      "disagreementCategories": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["evidence-selection", "construct-boundary", "temporal-scope", "source-interpretation", "scale-boundary", "missing-evidence", "codebook-ambiguity", "other"]
+        },
+        "minItems": 1
+      },
+      "inputRange": {
+        "type": "object",
+        "required": ["min", "max"],
+        "properties": {
+          "min": { "type": ["number", "null"], "minimum": 0, "maximum": 5 },
+          "max": { "type": ["number", "null"], "minimum": 0, "maximum": 5 }
+        }
+      },
+      "absoluteDisagreement": {
+        "type": ["number", "null"],
+        "minimum": 0,
+        "maximum": 5
+      },
+      "selfAdjudicationCaveat": { "type": "string" },
       "definitionRefs": {
         "type": "array",
         "items": { "type": "string" }

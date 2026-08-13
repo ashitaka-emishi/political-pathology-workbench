@@ -37,6 +37,10 @@
         "enum": ["scaffold", "legacy", "outcome-derived", "independent-coding", "adjudicated", "final"],
         "description": "How this score was produced. Scaffold, legacy, and outcome-derived scores are excluded from substantive analysis by default."
       },
+      "adjudicationId": {
+        "type": "string",
+        "description": "Required by validation when scoreOrigin is adjudicated or final."
+      },
       "outcomeVisibleToCoder": {
         "type": "boolean",
         "description": "Whether the coder or scoring process had access to the case outcome category while producing the score."
