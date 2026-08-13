@@ -1,0 +1,35 @@
+{
+  "policyId": "analytical-eligibility-v1",
+  "scoreBaseEligibility": {
+    "allowedScoreOrigins": ["independent-coding", "adjudicated", "final"],
+    "requiredOutcomeVisibleToCoder": false,
+    "requiredReviewStatuses": ["human-reviewed", "approved"],
+    "allowNullValues": false,
+    "excludedHoldoutStatuses": ["sealed"],
+    "excludedPublicationStatuses": ["withdrawn"]
+  },
+  "evidenceEligibility": {
+    "allowedNativeClaimReviewStatuses": ["human-reviewed", "approved"],
+    "excludedNativeClaimPublicationStatuses": ["withdrawn"],
+    "moduleClaimRefPattern": "module:<originModuleId>:claim:<claimId>",
+    "requiredModulePromotionStatus": "promoted-finding",
+    "allowedModuleReviewStatuses": ["human-reviewed", "approved"],
+    "unresolvedRefsFailClosed": true
+  },
+  "reasonCodes": [
+    "include",
+    "exclude-origin-<scoreOrigin>",
+    "exclude-outcome-visible",
+    "exclude-review-<reviewStatus>",
+    "exclude-unknown-value",
+    "exclude-sealed-holdout",
+    "exclude-withdrawn",
+    "exclude-unresolved-interpretation",
+    "exclude-native-claim-<reviewStatus>",
+    "exclude-native-claim-withdrawn",
+    "exclude-unresolved-claim",
+    "exclude-unresolved-module-claim",
+    "exclude-module-claim-<promotionStatus>",
+    "exclude-stored-not-substantive-analysis"
+  ]
+}

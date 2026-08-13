@@ -1,0 +1,326 @@
+[
+  {
+    "name": "eligible-native-claim",
+    "expected": "include",
+    "score": {
+      "scoreId": "score-native-ok",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-ok",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-native-ok", "claimIds": ["claim-reviewed"] }
+    ],
+    "claims": [
+      { "claimId": "claim-reviewed", "reviewStatus": "human-reviewed", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "blocked-native-claim",
+    "expected": "exclude-native-claim-draft",
+    "score": {
+      "scoreId": "score-native-draft",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-draft",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-native-draft", "claimIds": ["claim-draft"] }
+    ],
+    "claims": [
+      { "claimId": "claim-draft", "reviewStatus": "draft", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "eligible-module-claim",
+    "expected": "include",
+    "score": {
+      "scoreId": "score-module-ok",
+      "caseId": "case-a",
+      "interpretationId": "interp-module-ok",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-module-ok", "claimIds": ["module:mod-a:claim:claim-promoted"] }
+    ],
+    "claims": [],
+    "promotionRegistry": [
+      { "originModuleId": "mod-a", "claimId": "claim-promoted", "promotionStatus": "promoted-finding", "reviewStatus": "human-reviewed" }
+    ]
+  },
+  {
+    "name": "blocked-module-claim",
+    "expected": "exclude-module-claim-blocked",
+    "score": {
+      "scoreId": "score-module-blocked",
+      "caseId": "case-a",
+      "interpretationId": "interp-module-blocked",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-module-blocked", "claimIds": ["module:mod-a:claim:claim-blocked"] }
+    ],
+    "claims": [],
+    "promotionRegistry": [
+      { "originModuleId": "mod-a", "claimId": "claim-blocked", "promotionStatus": "blocked", "reviewStatus": "source-review" }
+    ]
+  },
+  {
+    "name": "mixed-module-claims-fail-closed",
+    "expected": "exclude-module-claim-blocked",
+    "score": {
+      "scoreId": "score-module-mixed",
+      "caseId": "case-a",
+      "interpretationId": "interp-module-mixed",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-module-mixed", "claimIds": ["module:mod-a:claim:claim-promoted", "module:mod-a:claim:claim-blocked"] }
+    ],
+    "claims": [],
+    "promotionRegistry": [
+      { "originModuleId": "mod-a", "claimId": "claim-promoted", "promotionStatus": "promoted-finding", "reviewStatus": "human-reviewed" },
+      { "originModuleId": "mod-a", "claimId": "claim-blocked", "promotionStatus": "blocked", "reviewStatus": "source-review" }
+    ]
+  },
+  {
+    "name": "unresolved-claim",
+    "expected": "exclude-unresolved-claim",
+    "score": {
+      "scoreId": "score-unresolved",
+      "caseId": "case-a",
+      "interpretationId": "interp-unresolved",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-unresolved", "claimIds": ["missing-claim"] }
+    ],
+    "claims": [],
+    "promotionRegistry": []
+  },
+  {
+    "name": "unresolved-interpretation",
+    "expected": "exclude-unresolved-interpretation",
+    "score": {
+      "scoreId": "score-unresolved-interpretation",
+      "caseId": "case-a",
+      "interpretationId": "interp-missing",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [],
+    "claims": [],
+    "promotionRegistry": []
+  },
+  {
+    "name": "unresolved-module-claim",
+    "expected": "exclude-unresolved-module-claim",
+    "score": {
+      "scoreId": "score-missing-module-claim",
+      "caseId": "case-a",
+      "interpretationId": "interp-missing-module-claim",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-missing-module-claim", "claimIds": ["module:mod-a:claim:claim-missing"] }
+    ],
+    "claims": [],
+    "promotionRegistry": []
+  },
+  {
+    "name": "outcome-visible",
+    "expected": "exclude-outcome-visible",
+    "score": {
+      "scoreId": "score-outcome-visible",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-ok",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": true,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": false
+    },
+    "interpretations": [
+      { "interpretationId": "interp-native-ok", "claimIds": ["claim-reviewed"] }
+    ],
+    "claims": [
+      { "claimId": "claim-reviewed", "reviewStatus": "human-reviewed", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "score-review-state",
+    "expected": "exclude-review-score-review",
+    "score": {
+      "scoreId": "score-score-review",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-ok",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "score-review",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": false
+    },
+    "interpretations": [
+      { "interpretationId": "interp-native-ok", "claimIds": ["claim-reviewed"] }
+    ],
+    "claims": [
+      { "claimId": "claim-reviewed", "reviewStatus": "human-reviewed", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "withdrawn-score",
+    "expected": "exclude-withdrawn",
+    "score": {
+      "scoreId": "score-withdrawn",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-ok",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "withdrawn",
+      "value": 3,
+      "includeInSubstantiveAnalysis": false
+    },
+    "interpretations": [
+      { "interpretationId": "interp-native-ok", "claimIds": ["claim-reviewed"] }
+    ],
+    "claims": [
+      { "claimId": "claim-reviewed", "reviewStatus": "human-reviewed", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "withdrawn-native-claim",
+    "expected": "exclude-native-claim-withdrawn",
+    "score": {
+      "scoreId": "score-withdrawn-native-claim",
+      "caseId": "case-a",
+      "interpretationId": "interp-withdrawn-native",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": true
+    },
+    "interpretations": [
+      { "interpretationId": "interp-withdrawn-native", "claimIds": ["claim-withdrawn"] }
+    ],
+    "claims": [
+      { "claimId": "claim-withdrawn", "reviewStatus": "human-reviewed", "publicationStatus": "withdrawn" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "legacy-score",
+    "expected": "exclude-origin-legacy",
+    "score": {
+      "scoreId": "score-legacy",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-ok",
+      "scoreOrigin": "legacy",
+      "outcomeVisibleToCoder": true,
+      "reviewStatus": "score-review",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": false
+    },
+    "interpretations": [
+      { "interpretationId": "interp-native-ok", "claimIds": ["claim-reviewed"] }
+    ],
+    "claims": [
+      { "claimId": "claim-reviewed", "reviewStatus": "human-reviewed", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "unknown-value",
+    "expected": "exclude-unknown-value",
+    "score": {
+      "scoreId": "score-unknown",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-ok",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": null,
+      "includeInSubstantiveAnalysis": false
+    },
+    "interpretations": [
+      { "interpretationId": "interp-native-ok", "claimIds": ["claim-reviewed"] }
+    ],
+    "claims": [
+      { "claimId": "claim-reviewed", "reviewStatus": "human-reviewed", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  },
+  {
+    "name": "sealed-holdout",
+    "expected": "exclude-sealed-holdout",
+    "score": {
+      "scoreId": "score-holdout",
+      "caseId": "case-a",
+      "interpretationId": "interp-native-ok",
+      "scoreOrigin": "independent-coding",
+      "outcomeVisibleToCoder": false,
+      "reviewStatus": "human-reviewed",
+      "publicationStatus": "draft",
+      "value": 3,
+      "includeInSubstantiveAnalysis": false
+    },
+    "case": { "holdoutStatus": "sealed" },
+    "interpretations": [
+      { "interpretationId": "interp-native-ok", "claimIds": ["claim-reviewed"] }
+    ],
+    "claims": [
+      { "claimId": "claim-reviewed", "reviewStatus": "human-reviewed", "publicationStatus": "draft" }
+    ],
+    "promotionRegistry": []
+  }
+]

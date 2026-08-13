@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+
 const VALUE_SEMANTICS = new Set(["construct-magnitude", "unknown"]);
 const SCORE_ORIGINS = new Set([
   "scaffold",
@@ -8,8 +11,38 @@ const SCORE_ORIGINS = new Set([
   "final"
 ]);
 const EXCLUDED_SCORE_ORIGINS = new Set(["scaffold", "legacy", "outcome-derived"]);
-const ELIGIBLE_SCORE_ORIGINS = new Set(["independent-coding", "adjudicated", "final"]);
-const ELIGIBLE_REVIEW_STATUSES = new Set(["human-reviewed", "approved"]);
+const DEFAULT_ANALYTICAL_ELIGIBILITY_POLICY = {
+  policyId: "analytical-eligibility-v1",
+  scoreBaseEligibility: {
+    allowedScoreOrigins: ["independent-coding", "adjudicated", "final"],
+    requiredOutcomeVisibleToCoder: false,
+    requiredReviewStatuses: ["human-reviewed", "approved"],
+    allowNullValues: false,
+    excludedHoldoutStatuses: ["sealed"],
+    excludedPublicationStatuses: ["withdrawn"]
+  },
+  evidenceEligibility: {
+    allowedNativeClaimReviewStatuses: ["human-reviewed", "approved"],
+    excludedNativeClaimPublicationStatuses: ["withdrawn"],
+    requiredModulePromotionStatus: "promoted-finding",
+    allowedModuleReviewStatuses: ["human-reviewed", "approved"]
+  }
+};
+
+function loadAnalyticalEligibilityPolicy() {
+  const policyPath = path.join(process.cwd(), "policies", "analytical-eligibility-policy.json");
+  if (!fs.existsSync(policyPath)) return DEFAULT_ANALYTICAL_ELIGIBILITY_POLICY;
+  return JSON.parse(fs.readFileSync(policyPath, "utf8"));
+}
+
+const ANALYTICAL_ELIGIBILITY_POLICY = loadAnalyticalEligibilityPolicy();
+const SCORE_BASE_ELIGIBILITY = ANALYTICAL_ELIGIBILITY_POLICY.scoreBaseEligibility;
+const EVIDENCE_ELIGIBILITY = ANALYTICAL_ELIGIBILITY_POLICY.evidenceEligibility;
+const ELIGIBLE_SCORE_ORIGINS = new Set(SCORE_BASE_ELIGIBILITY.allowedScoreOrigins);
+const ELIGIBLE_REVIEW_STATUSES = new Set(SCORE_BASE_ELIGIBILITY.requiredReviewStatuses);
+const ELIGIBLE_NATIVE_CLAIM_REVIEW_STATUSES = new Set(EVIDENCE_ELIGIBILITY.allowedNativeClaimReviewStatuses);
+const EXCLUDED_NATIVE_CLAIM_PUBLICATION_STATUSES = new Set(EVIDENCE_ELIGIBILITY.excludedNativeClaimPublicationStatuses);
+const ELIGIBLE_MODULE_CLAIM_REVIEW_STATUSES = new Set(EVIDENCE_ELIGIBILITY.allowedModuleReviewStatuses);
 
 function isNumber(value) {
   return typeof value === "number" && Number.isFinite(value);
@@ -81,16 +114,56 @@ export function isSubstantiveAnalysisScore(score) {
 export function deriveAnalyticalEligibility(score, context = {}) {
   const reasons = [];
   if (!ELIGIBLE_SCORE_ORIGINS.has(score.scoreOrigin)) reasons.push(`exclude-origin-${score.scoreOrigin ?? "missing"}`);
-  if (score.outcomeVisibleToCoder !== false) reasons.push("exclude-outcome-visible");
+  if (score.outcomeVisibleToCoder !== SCORE_BASE_ELIGIBILITY.requiredOutcomeVisibleToCoder) reasons.push("exclude-outcome-visible");
   if (!ELIGIBLE_REVIEW_STATUSES.has(score.reviewStatus)) reasons.push(`exclude-review-${score.reviewStatus ?? "missing"}`);
-  if (score.value === null) reasons.push("exclude-unknown-value");
-  if (context.holdoutStatus === "sealed") reasons.push("exclude-sealed-holdout");
-  if (score.publicationStatus === "withdrawn") reasons.push("exclude-withdrawn");
+  if (!SCORE_BASE_ELIGIBILITY.allowNullValues && score.value === null) reasons.push("exclude-unknown-value");
+  if (SCORE_BASE_ELIGIBILITY.excludedHoldoutStatuses.includes(context.holdoutStatus)) reasons.push("exclude-sealed-holdout");
+  if (SCORE_BASE_ELIGIBILITY.excludedPublicationStatuses.includes(score.publicationStatus)) reasons.push("exclude-withdrawn");
   return {
     eligible: reasons.length === 0,
     reasons,
-    policyVersion: "analytical-eligibility-v1"
+    policyVersion: ANALYTICAL_ELIGIBILITY_POLICY.policyId
   };
+}
+
+function parseModuleClaimRef(claimId) {
+  const match = /^module:([^:]+):claim:(.+)$/.exec(claimId);
+  if (!match) return null;
+  return { originModuleId: match[1], claimId: match[2] };
+}
+
+export function classifyAnalyticalEligibility({ score, interpretations = [], claims = [], promotionRegistry = [], caseRecord = {} }) {
+  const base = deriveAnalyticalEligibility(score, { holdoutStatus: caseRecord?.holdoutStatus });
+  if (!base.eligible) return { eligible: false, reason: base.reasons[0], reasons: base.reasons };
+
+  const interpretation = interpretations.find((record) => record.interpretationId === score.interpretationId);
+  if (!interpretation) return { eligible: false, reason: "exclude-unresolved-interpretation", reasons: ["exclude-unresolved-interpretation"] };
+
+  const claimsById = new Map(claims.map((claim) => [claim.claimId, claim]));
+  const promotionsByKey = new Map(promotionRegistry.map((promotion) => [`${promotion.originModuleId}:${promotion.claimId}`, promotion]));
+  for (const claimId of interpretation.claimIds ?? []) {
+    const nativeClaim = claimsById.get(claimId);
+    if (nativeClaim) {
+      if (!ELIGIBLE_NATIVE_CLAIM_REVIEW_STATUSES.has(nativeClaim.reviewStatus)) {
+        return { eligible: false, reason: `exclude-native-claim-${nativeClaim.reviewStatus ?? "missing"}`, reasons: [`exclude-native-claim-${nativeClaim.reviewStatus ?? "missing"}`] };
+      }
+      if (EXCLUDED_NATIVE_CLAIM_PUBLICATION_STATUSES.has(nativeClaim.publicationStatus)) {
+        return { eligible: false, reason: "exclude-native-claim-withdrawn", reasons: ["exclude-native-claim-withdrawn"] };
+      }
+      continue;
+    }
+
+    const moduleRef = parseModuleClaimRef(claimId);
+    if (!moduleRef) return { eligible: false, reason: "exclude-unresolved-claim", reasons: ["exclude-unresolved-claim"] };
+
+    const promotion = promotionsByKey.get(`${moduleRef.originModuleId}:${moduleRef.claimId}`);
+    if (!promotion) return { eligible: false, reason: "exclude-unresolved-module-claim", reasons: ["exclude-unresolved-module-claim"] };
+    if (promotion.promotionStatus !== EVIDENCE_ELIGIBILITY.requiredModulePromotionStatus || !ELIGIBLE_MODULE_CLAIM_REVIEW_STATUSES.has(promotion.reviewStatus)) {
+      return { eligible: false, reason: `exclude-module-claim-${promotion.promotionStatus ?? "missing"}`, reasons: [`exclude-module-claim-${promotion.promotionStatus ?? "missing"}`] };
+    }
+  }
+
+  return { eligible: true, reason: "include", reasons: [] };
 }
 
 export function validateScoreIndependence(score, errors, warnings, label, isPublicFacingScore = false, context = {}) {
