@@ -1,0 +1,24 @@
+{
+  "profileId": "published-analysis",
+  "distributionStatus": "human-gated-published-analysis",
+  "cases": [],
+  "measurementStatus": {
+    "storedScoreRecordCount": 26,
+    "substantiveScoreCount": 0,
+    "legacyScoreCount": 26,
+    "independentlyCodedScoreCount": 0,
+    "scoreCountByOrigin": {
+      "legacy": 26
+    },
+    "scoreCountByReviewStatus": {
+      "score-review": 26
+    },
+    "analyticallyEligibleCount": 0,
+    "analyticallyExcludedCount": 26,
+    "exclusionReasons": {
+      "exclude-origin-legacy": 26,
+      "exclude-outcome-visible": 26,
+      "exclude-review-score-review": 26
+    }
+  }
+}
