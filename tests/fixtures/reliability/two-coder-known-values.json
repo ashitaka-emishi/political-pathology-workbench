@@ -257,9 +257,90 @@
   ],
   "expected": {
     "coding_round_id": "round-fixture-v1",
+    "status": "ok",
+    "codebook_version": "v1.1",
     "unit_variable_count": 4,
     "pair_count": 4,
+    "known_pair_count": 4,
     "exact_agreement": 0.5,
-    "mean_absolute_difference": 0.75
-  }
+    "mean_absolute_difference": 0.75,
+    "krippendorff_alpha_ordinal": 0.7059,
+    "expected_assignment_count": 8,
+    "completed_assignment_count": 8,
+    "missing_assignment_count": 0,
+    "missingness_rate": 0.0,
+    "missing_assignments": [],
+    "by_variable": {
+      "corrigibility": {
+        "status": "ok",
+        "unit_variable_count": 2,
+        "pair_count": 2,
+        "known_pair_count": 2,
+        "exact_agreement": 0.5,
+        "mean_absolute_difference": 0.5,
+        "krippendorff_alpha_ordinal": 0.7273,
+        "expected_assignment_count": 4,
+        "completed_assignment_count": 4,
+        "missing_assignment_count": 0,
+        "missingness_rate": 0.0,
+        "missing_assignments": []
+      },
+      "sacred-political-order-strength": {
+        "status": "ok",
+        "unit_variable_count": 2,
+        "pair_count": 2,
+        "known_pair_count": 2,
+        "exact_agreement": 0.5,
+        "mean_absolute_difference": 1.0,
+        "krippendorff_alpha_ordinal": 0.7273,
+        "expected_assignment_count": 4,
+        "completed_assignment_count": 4,
+        "missing_assignment_count": 0,
+        "missingness_rate": 0.0,
+        "missing_assignments": []
+      }
+    }
+  },
+  "expectedAssignments": [
+    {
+      "coderId": "coder-a",
+      "unitId": "unit-001",
+      "variableId": "corrigibility"
+    },
+    {
+      "coderId": "coder-b",
+      "unitId": "unit-001",
+      "variableId": "corrigibility"
+    },
+    {
+      "coderId": "coder-a",
+      "unitId": "unit-002",
+      "variableId": "corrigibility"
+    },
+    {
+      "coderId": "coder-b",
+      "unitId": "unit-002",
+      "variableId": "corrigibility"
+    },
+    {
+      "coderId": "coder-a",
+      "unitId": "unit-003",
+      "variableId": "sacred-political-order-strength"
+    },
+    {
+      "coderId": "coder-b",
+      "unitId": "unit-003",
+      "variableId": "sacred-political-order-strength"
+    },
+    {
+      "coderId": "coder-a",
+      "unitId": "unit-004",
+      "variableId": "sacred-political-order-strength"
+    },
+    {
+      "coderId": "coder-b",
+      "unitId": "unit-004",
+      "variableId": "sacred-political-order-strength"
+    }
+  ]
 }

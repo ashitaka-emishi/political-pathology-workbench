@@ -1,0 +1,89 @@
+{
+  "codingRoundId": "round-fixture-sparse-v1",
+  "coderScores": [
+    {
+      "coderScoreId": "fixture-score-001-a",
+      "coderId": "coder-a",
+      "codingRoundId": "round-fixture-sparse-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-001",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-001",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 4,
+      "confidence": {
+        "value": 0.8,
+        "label": "high",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-001-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
+    }
+  ],
+  "expectedAssignments": [
+    {
+      "coderId": "coder-a",
+      "unitId": "unit-001",
+      "variableId": "corrigibility"
+    },
+    {
+      "coderId": "coder-b",
+      "unitId": "unit-001",
+      "variableId": "corrigibility"
+    }
+  ],
+  "expected": {
+    "coding_round_id": "round-fixture-sparse-v1",
+    "status": "insufficient-data",
+    "codebook_version": "v1.1",
+    "unit_variable_count": 1,
+    "pair_count": 0,
+    "known_pair_count": 0,
+    "exact_agreement": null,
+    "mean_absolute_difference": null,
+    "krippendorff_alpha_ordinal": null,
+    "expected_assignment_count": 2,
+    "completed_assignment_count": 1,
+    "missing_assignment_count": 1,
+    "missingness_rate": 0.5,
+    "missing_assignments": [
+      {
+        "coderId": "coder-b",
+        "unitId": "unit-001",
+        "variableId": "corrigibility"
+      }
+    ],
+    "by_variable": {
+      "corrigibility": {
+        "status": "insufficient-data",
+        "unit_variable_count": 1,
+        "pair_count": 0,
+        "known_pair_count": 0,
+        "exact_agreement": null,
+        "mean_absolute_difference": null,
+        "krippendorff_alpha_ordinal": null,
+        "expected_assignment_count": 2,
+        "completed_assignment_count": 1,
+        "missing_assignment_count": 1,
+        "missingness_rate": 0.5,
+        "missing_assignments": [
+          {
+            "coderId": "coder-b",
+            "unitId": "unit-001",
+            "variableId": "corrigibility"
+          }
+        ]
+      }
+    }
+  }
+}

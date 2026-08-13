@@ -31,8 +31,20 @@ magnitude. Adjudicated records do not overwrite raw coder submissions.
 
 The Python reliability module computes:
 
+- explicit `ok` vs `insufficient-data` status;
+- known-pair counts separate from all assignment pairs;
 - exact pairwise agreement;
-- mean absolute pairwise difference.
+- mean absolute pairwise difference;
+- Krippendorff-style ordinal alpha using squared distance on the 0-5
+  construct-magnitude scale;
+- by-variable reports;
+- expected/completed assignments, missing coder assignments, and missingness
+  rate.
+
+The metric function rejects duplicate active submissions for the same
+`codingRoundId`/`coderId`/`unitId`/`variableId` and refuses to pool records
+from incompatible `codebookVersion` values. Superseded submissions may be kept
+for audit if a newer record names `supersedesCoderScoreId`.
 
 Synthetic fixtures in `tests/fixtures/reliability/` provide known expected
 values and run through:

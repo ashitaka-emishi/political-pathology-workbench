@@ -12,9 +12,21 @@ FIXTURE_DIR = ROOT / "tests" / "fixtures" / "reliability"
 
 def run_fixture(path: Path) -> tuple[bool, dict, dict]:
     fixture = json.loads(path.read_text(encoding="utf-8"))
+    if "expectedError" in fixture:
+        try:
+            summarize_reliability(
+                fixture["coderScores"],
+                fixture.get("codingRoundId"),
+                fixture.get("expectedAssignments"),
+            )
+        except ValueError as error:
+            message = str(error)
+            return fixture["expectedError"] in message, {"error": message}, {"error": fixture["expectedError"]}
+        return False, {"error": None}, {"error": fixture["expectedError"]}
     summary = summarize_reliability(
         fixture["coderScores"],
         fixture.get("codingRoundId"),
+        fixture.get("expectedAssignments"),
     ).to_dict()
     expected = fixture["expected"]
     return summary == expected, summary, expected
@@ -24,7 +36,7 @@ def main() -> None:
     failures = 0
     for path in sorted(FIXTURE_DIR.glob("*.json")):
         fixture_data = json.loads(path.read_text(encoding="utf-8"))
-        if "expected" not in fixture_data:
+        if "expected" not in fixture_data and "expectedError" not in fixture_data:
             continue
         passed, summary, expected = run_fixture(path)
         if passed:
