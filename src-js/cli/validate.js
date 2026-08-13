@@ -7,6 +7,7 @@ import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js"
 import { validateClaimPromotion } from "../validate/validate-claim-promotion.js";
 import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
 import { validateScoreSemantics } from "../validate/validate-score-semantics.js";
+import { buildDefinitionRefs, validateDefinitionRefs, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
 
 const root = process.cwd();
 const errors = [];
@@ -101,14 +102,22 @@ function validateTheory(theoryDir) {
     requireFields(manifestPath, manifest, ["theoryId", "title", "version", "status", "publicationStatus"]);
     validateEnum(`${manifest.theoryId}.status`, manifest.status, VOCAB.reviewStatuses);
     validateEnum(`${manifest.theoryId}.publicationStatus`, manifest.publicationStatus, VOCAB.publicationStatuses);
-    return manifest;
+    const variablesPath = path.join(theoryDir, "variables.json");
+    const variables = readArray(variablesPath);
+    const variableIds = new Set();
+    for (const variable of variables) {
+      requireFields(`${variablesPath}:${variable.variableId ?? "<unknown>"}`, variable, ["variableId", "label", "description"]);
+      if (variableIds.has(variable.variableId)) addError(`${variablesPath}: duplicate variableId ${variable.variableId}`);
+      variableIds.add(variable.variableId);
+    }
+    return { ...manifest, variableIds };
   } catch (error) {
     addError(error.message);
     return null;
   }
 }
 
-function validateCase(caseDir, theoryIds, bibliographyIds) {
+function validateCase(caseDir, theoryIds, theoryVariableIds, allowedDefinitionRefs, bibliographyIds) {
   const casePath = path.join(caseDir, "case.json");
   if (!fs.existsSync(casePath)) {
     addError(`${casePath}: missing case.json`);
@@ -184,6 +193,7 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
       validateEnum(`${interpretation.interpretationId}.sacrificeBoundedness`, interpretation.sacrificeBoundedness, VOCAB.sacrificeBoundedness);
       validateEnum(`${interpretation.interpretationId}.sacrificeTarget`, interpretation.sacrificeTarget, VOCAB.sacrificeTargets);
       if (!theoryIds.has(interpretation.theoryId)) addError(`${interpretation.interpretationId}: unknown theoryId ${interpretation.theoryId}`);
+      validateTheoryVariableReference(interpretation, "variableId", theoryVariableIds, errors, `${caseDir}/interpretations.json:${interpretation.interpretationId}`);
       for (const claimId of interpretation.claimIds ?? []) {
         referencedClaimIds.add(claimId);
         if (!claimIds.has(claimId)) addError(`${interpretation.interpretationId}: claim ${claimId} is missing`);
@@ -197,6 +207,8 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
       validateEnum(`${score.scoreId}.publicationStatus`, score.publicationStatus, VOCAB.publicationStatuses);
       scoredInterpretationIds.add(score.interpretationId);
       if (!interpretationIds.has(score.interpretationId)) addError(`${score.scoreId}: interpretation ${score.interpretationId} is missing`);
+      validateTheoryVariableReference(score, "variableId", theoryVariableIds, errors, `${caseDir}/scores.json:${score.scoreId}`);
+      validateDefinitionRefs(score.definitionRefs, allowedDefinitionRefs, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
       if (score.publicationStatus === "published" && !score.confidence?.rationale) addError(`${score.scoreId}: published score lacks confidence rationale`);
@@ -268,13 +280,15 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
 const theoryDirs = listDirs(path.join(root, "theories")).map((name) => path.join(root, "theories", name));
 const theories = theoryDirs.map(validateTheory).filter(Boolean);
 const theoryIds = new Set(theories.map((theory) => theory.theoryId));
+const theoryVariableIds = new Map(theories.map((theory) => [theory.theoryId, theory.variableIds]));
+const allowedDefinitionRefs = buildDefinitionRefs(theoryVariableIds, VOCAB.mechanisms);
 const bibliographyPath = path.join(root, "bibliography", "sources.csl.json");
 const bibliography = fs.existsSync(bibliographyPath) ? readJson(bibliographyPath) : [];
 const bibliographyIds = new Set(bibliography.map((source) => source.id));
 
 const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.join(root, "data", "cases", name));
 const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
-const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, bibliographyIds)).filter(Boolean);
+const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariableIds, allowedDefinitionRefs, bibliographyIds)).filter(Boolean);
 
 const evidenceModuleResult = validateEvidenceModules(root, caseIds);
 for (const e of evidenceModuleResult.errors) errors.push(e);

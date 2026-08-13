@@ -1,0 +1,8 @@
+{
+  "theoryId": "general-theory-political-pathology-v1",
+  "variableId": "sacred-political-order-strength",
+  "definitionRefs": [
+    "sacred-political-order-strength",
+    "constitutional-containment"
+  ]
+}
