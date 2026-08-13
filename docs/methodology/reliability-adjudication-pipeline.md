@@ -27,6 +27,16 @@ unresolved adjudications may keep `adjudicatedValue: null` with an
 `unknownReason`, while resolved adjudications require a numeric construct
 magnitude. Adjudicated records do not overwrite raw coder submissions.
 
+Each adjudication must preserve disagreement geometry: `inputRange`,
+`absoluteDisagreement`, and at least one disagreement category. Supported
+categories are `evidence-selection`, `construct-boundary`, `temporal-scope`,
+`source-interpretation`, `scale-boundary`, `missing-evidence`,
+`codebook-ambiguity`, and `other`. The lineage validator requires all raw inputs
+to share the same coding round, unit, case, theory, variable, and codebook
+version. Final/adjudicated score records must reference exactly one valid
+adjudication and match its adjudicated value semantics. Self-adjudication is
+allowed only with an explicit caveat.
+
 ## Reproducible Metrics
 
 The Python reliability module computes:

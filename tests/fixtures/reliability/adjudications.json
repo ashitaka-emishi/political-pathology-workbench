@@ -9,12 +9,19 @@
       "fixture-score-002-b"
     ],
     "adjudicatedValue": 2.5,
+    "valueSemantics": "construct-magnitude",
+    "decisionState": "adjudicated",
+    "disagreementCategories": [
+      "scale-boundary"
+    ],
+    "inputRange": {
+      "min": 2,
+      "max": 3
+    },
+    "absoluteDisagreement": 1,
     "adjudicatorId": "adjudicator",
     "timestamp": "2026-08-13T01:00:00Z",
     "rationale": "Synthetic fixture adjudication preserves raw disagreement while recording the reconciled midpoint.",
-    "valueSemantics": "construct-magnitude",
-    "decisionState": "adjudicated",
-    "definitionRefs": [],
     "confidence": {
       "value": 0.75,
       "label": "moderate",
@@ -25,7 +32,7 @@
     },
     "packetRefs": [
       {
-        "packetId": "round-fixture-unit-002-packet",
+        "packetId": "round-fixture-fixture-case-002-packet",
         "packetHash": "sha256:fixture"
       }
     ],

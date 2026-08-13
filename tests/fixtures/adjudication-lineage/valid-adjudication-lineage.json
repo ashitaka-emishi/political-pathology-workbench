@@ -1,0 +1,124 @@
+{
+  "valid": true,
+  "coderScores": [
+    {
+      "coderScoreId": "fixture-score-002-a",
+      "coderId": "coder-a",
+      "codingRoundId": "round-fixture-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-002",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-002",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 2,
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
+    },
+    {
+      "coderScoreId": "fixture-score-002-b",
+      "coderId": "coder-b",
+      "codingRoundId": "round-fixture-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-002",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-002",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 3,
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
+    }
+  ],
+  "adjudications": [
+    {
+      "adjudicationId": "fixture-adj-001",
+      "codingRoundId": "round-fixture-v1",
+      "unitId": "unit-002",
+      "variableId": "corrigibility",
+      "inputCoderScoreIds": [
+        "fixture-score-002-a",
+        "fixture-score-002-b"
+      ],
+      "adjudicatedValue": 2.5,
+      "valueSemantics": "construct-magnitude",
+      "decisionState": "adjudicated",
+      "disagreementCategories": [
+        "scale-boundary"
+      ],
+      "inputRange": {
+        "min": 2,
+        "max": 3
+      },
+      "absoluteDisagreement": 1,
+      "adjudicatorId": "adjudicator",
+      "timestamp": "2026-08-13T01:00:00Z",
+      "rationale": "Synthetic fixture adjudication preserves raw disagreement while recording the reconciled midpoint.",
+      "confidence": {
+        "value": 0.75,
+        "label": "moderate",
+        "rationale": "Synthetic adjudication confidence.",
+        "uncertaintyFactors": [
+          "coder-disagreement"
+        ]
+      },
+      "packetRefs": [
+        {
+          "packetId": "round-fixture-fixture-case-002-packet",
+          "packetHash": "sha256:fixture"
+        }
+      ],
+      "evidenceRefs": []
+    }
+  ],
+  "finalScores": [
+    {
+      "scoreId": "fixture-final-score-001",
+      "caseId": "fixture-case-002",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "interpretationId": "fixture-interpretation-002",
+      "value": 2.5,
+      "valueSemantics": "construct-magnitude",
+      "confidence": {
+        "value": 0.75,
+        "label": "moderate",
+        "rationale": "Adjudicated fixture score."
+      },
+      "reviewStatus": "score-review",
+      "publicationStatus": "draft",
+      "scoreOrigin": "adjudicated",
+      "outcomeVisibleToCoder": false,
+      "includeInSubstantiveAnalysis": false,
+      "adjudicationId": "fixture-adj-001"
+    }
+  ]
+}
