@@ -75,12 +75,13 @@ GitHub's "archive" state makes a repository read-only and adds an archived banne
 
 ## Deferred issues in child repos
 
-Three LMA issues are deferred with no current PPW target:
+Two LMA issues are deferred with no current PPW target. LMA #95 was completed
+in the child repository after this supersession plan was drafted and is retained
+as reference-only context.
 
 | Issue | Status | Resume condition |
 |---|---|---|
 | LMA [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 reliability | deferred | After Milestone 19 (validation fixtures) |
-| LMA [#95](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95) — Classify human coder disagreements | deferred | After Milestone 19 (claim-promotion gates) |
 | LMA [#108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) — Tracking v3.0 reliability | deferred | After Milestone 19 (validation fixtures) |
 
 These issues should remain open in the child repo until Milestone 19 foundations exist. At that point, the maintainer should decide whether to create new PPW issues or fold the context into the M19 tracking issue (#165).
@@ -94,6 +95,6 @@ Before any state change is applied to a child repository, the maintainer must ap
 - [ ] **Inactive notice application** — README, description, and Pages callout (per [child-repo-inactive-notices.md](child-repo-inactive-notices.md))
 - [ ] **Supersession comment posting** — 49 comments on child issues (per [child-repo-supersession-comments.md](child-repo-supersession-comments.md))
 - [x] **Archive decision** — resolved in Milestone 21: do not archive now; keep both repositories open and unarchived as reduced-maintenance provenance sources
-- [ ] **Deferred issue lifecycle** — revisit LMA #85, #95, #108 when Milestone 19 opens
+- [ ] **Deferred issue lifecycle** — revisit LMA #85 and #108 when Milestone 19 opens
 
 No child repository should be archived, deleted, or unpublished without explicit maintainer approval at each step.

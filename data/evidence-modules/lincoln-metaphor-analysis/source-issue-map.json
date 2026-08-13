@@ -5,8 +5,9 @@
     "totalSourceIssues": 47,
     "migratedAsPpwIssues": 6,
     "mergedIntoPpwCoordinationIssues": 38,
-    "deferred": 3,
-    "migrationTrackerIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111"
+    "deferred": 2,
+    "migrationTrackerIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111",
+    "completedInChildAfterMigration": 1
   },
   "migratedIssues": [
     {
@@ -87,14 +88,18 @@
       "resumeCondition": "After Milestone 19 validation fixture foundations"
     },
     {
-      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95",
-      "sourceTitle": "Classify human coder disagreements",
-      "resumeCondition": "After Milestone 19 claim-promotion gate foundations"
-    },
-    {
       "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108",
       "sourceTitle": "Tracking v3.0 Human Inter-Annotator Reliability Study",
       "resumeCondition": "After Milestone 19 validation fixture foundations"
+    }
+  ],
+  "completedInChildAfterMigration": [
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95",
+      "sourceTitle": "Classify human coder disagreements",
+      "closedAt": "2026-08-12T06:15:46Z",
+      "disposition": "completed-in-child-after-migration",
+      "ppwDisposition": "reference-only; no separate PPW target issue required unless Milestone 19 review gates reopen this work"
     }
   ]
 }

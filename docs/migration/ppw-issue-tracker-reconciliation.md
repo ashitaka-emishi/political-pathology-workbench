@@ -57,14 +57,15 @@ reliability-sampling issues.
 | Source issue | Disposition | Live label | PPW target | Resume condition |
 |---|---|---|---|---|
 | [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) | `defer-to-post-integration` | `deferred` | None yet | Revisit after PPW validation fixture foundations |
-| [LMA #95](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95) | `defer-to-post-integration` | `deferred` | None yet | Revisit after PPW claim-promotion gate foundations |
 | [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) | `defer-to-post-integration` | `deferred` | None yet | Revisit after PPW validation fixture foundations |
 
 No PPW issues were created for these deferred entries. Their lifecycle remains
 an explicit maintainer decision, not an omitted tracker action. This audit
 created the `deferred` label in `ashitaka-emishi/lincoln-metaphor-analysis` and
-applied it to all three source issues so the child tracker matches the migration
-disposition. The same issues are visible in `data/migration/child-issue-migration-manifest.json`,
+applied it to the source issues so the child tracker matches the migration
+disposition. LMA #95 was later completed in the child repository and is no
+longer part of the open deferred set. The remaining deferred issues are visible in
+`data/migration/child-issue-migration-manifest.json`,
 `data/evidence-modules/lincoln-metaphor-analysis/source-issue-map.json`,
 [`child-repo-supersession-comments.md`](child-repo-supersession-comments.md),
 and [`child-repository-supersession-plan.md`](child-repository-supersession-plan.md).
@@ -104,6 +105,6 @@ issues. The remaining tracker work belongs to later Milestone 21 issues:
 | Migrated issues have correct milestones | Met |
 | Migrated issues have source links | Met |
 | Duplicate migrated issues are closed or merged only with maintainer approval | Met; no duplicate merge required |
-| Deferred issues are labeled | Met; LMA #85, #95, and #108 now carry `deferred` |
+| Deferred issues are labeled | Met for the remaining open deferred issues, LMA #85 and #108; LMA #95 later closed in the child repository |
 | Tracking issues reflect current state | Met after updating #118 |
 | Child-source provenance is visible | Met |

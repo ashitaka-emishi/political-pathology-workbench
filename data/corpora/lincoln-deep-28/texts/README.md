@@ -19,9 +19,9 @@ Text content follows these conventions:
 | Status | Count |
 |---|---|
 | Text complete | 2 |
-| Text pending import | 26 (confirmed documents; texts are public domain and will be added as source-pack grows) |
-| Planned but not yet registered | 8 (lma-v4-001 through lma-v4-008; pending LMA #113) |
-| Unspecified (gap to 48-doc target) | 12 (pending LMA #113 resolution) |
+| Text pending import | 34 (remaining PPW-registered metadata records; texts are public domain and will be added as source-pack grows) |
+| LMA v4 core source inventory records pending PPW metadata/text import | 12 (source inventory complete in LMA; PPW import pending) |
+| LMA v4 validation/reference source inventory records pending PPW import | 96 (78 validation-tier records and 18 additional reference-tier records; inventory complete in LMA, PPW import/review pending) |
 
 ## Completed texts
 
@@ -30,4 +30,4 @@ Text content follows these conventions:
 
 ## Pending texts (confirmed documents, public domain)
 
-All remaining confirmed documents (lma-doc-001 through lma-doc-022, excluding lma-doc-008 and lma-doc-017) are public domain and will be added in follow-on work. Priority order follows `analyticalPriority` in `documents.json`.
+All remaining PPW-registered documents are public domain and will be added in follow-on work. Priority order follows `analyticalPriority` in `documents.json`. LMA v4 inventory completion does not by itself create reviewed PPW text, passage, annotation, score, or claim-promotion records.

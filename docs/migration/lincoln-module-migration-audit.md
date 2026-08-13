@@ -42,7 +42,7 @@ This audit records what was created, updated, or deferred in Milestone 16 for th
 | LMA #109 (infra) | — | #145 | Closed — 4 draft claim candidates created |
 | LMA #109 (infra) | — | #146 | Closed — method note created |
 | LMA #109 (infra) | — | #147 | Closed (this issue) |
-| LMA #109 (infra) | Add raw text files | #198 | Open — deferred; depends on LMA #113 resolution |
+| LMA #109 (infra) | Add raw text files | #198 | Open — source inventory complete; PPW raw-text import pending |
 
 ---
 
@@ -50,11 +50,11 @@ This audit records what was created, updated, or deferred in Milestone 16 for th
 
 | Artifact Family | Disposition | Status |
 |---|---|---|
-| Corpus metadata (documents.json, 36 entries) | Imported | Complete |
+| Corpus metadata (documents.json, 36 PPW entries; LMA v4 source inventories complete) | Imported / referenced | PPW metadata partial relative to completed 48/78/18 LMA source inventories |
 | PPW source ID mappings (7 of 36 docs) | Imported (partial) | 29 docs unmapped; follow-on as source-pack grows |
 | Case corpus linkage (lincoln-deep-28.json) | Imported | Complete |
 | Evidence-chain link file | Imported (partial) | Structure complete; per-passage links require passage import |
-| Raw text files | Pending | PPW #198, Milestone 16 — blocked on LMA #113 |
+| Raw text files | Pending | PPW #198, Milestone 16 — source inventory complete; import/review pending |
 | Passage records | Pending | PPW #143 — scheduled Milestone 16 |
 | Metaphor cluster profiles | Pending | PPW #144 — scheduled Milestone 16 |
 | Draft claim candidates (4 stubs) | Imported (stub) | Anchored to documents, not yet to passages |
@@ -100,9 +100,9 @@ Earliest realistic review: **Milestone 18** (after passage import in M16 and gat
 |---|---|---|
 | 29 of 36 core documents have no PPW source ID — unmapped docs citable only by URL/edition | Low | Follow-on source-pack expansion (no issue yet) |
 | Passage records not yet imported — draft claims are document-anchored, not passage-anchored | High | PPW #143 (passage import) |
-| Validation and reference tier specific documents not yet selected | Medium | LMA #114 (validation), LMA #115 (reference) |
-| 12-document gap in core tier (36 of 48 registered) | Medium | PPW #195 (substantially addressed); LMA #113 resolution pending |
-| Raw text files not yet imported | Medium | PPW #198 — blocked on LMA #113 (which 12 docs to add) |
+| Validation and reference tier source inventories complete but not imported as PPW records | Medium | PPW #196, #197 |
+| PPW core metadata remains partial relative to completed 48-document LMA source inventory | Medium | PPW #195; PPW import/review follow-on |
+| Raw text files not yet imported | Medium | PPW #198 — source inventory complete; import/review pending |
 | Cluster-membership criteria and obligatory-frame / covenant-over-freedom boundary not yet formally defined for PPW | Medium | PPW #199 (reliability study, M19) |
 | No claim-promotion gate design exists — all claims remain indefinitely at draft status | High | PPW #129 (M18) |
 
@@ -110,6 +110,6 @@ Earliest realistic review: **Milestone 18** (after passage import in M16 and gat
 
 ## 8. Recommendation: May Milestone 17 Begin?
 
-Milestone 16 substantive issues (#141-#147) are closed. Issue #198 (raw text files) remains open but is blocked on LMA #113 and does not block Milestone 17.
+Milestone 16 substantive issues (#141-#147) are closed. Issue #198 (raw text files) remains open; it is no longer blocked on LMA v4 source-inventory selection, but PPW import/review work is still pending and does not block Milestone 17.
 
 **Milestone 17 (Sacrifice Law) prerequisite:** PPW #149-#151 (American Revolution and Napoleon case mapping) must be resolved before Milestone 17 artifact import can begin for those subsets. The Lincoln and Nazi Germany subsets of the SLW corpus can proceed without those issues.

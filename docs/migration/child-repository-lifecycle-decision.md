@@ -60,13 +60,13 @@ Work that should happen in PPW:
 
 ## Deferred Child Issues
 
-The deferred Lincoln issues remain open in `lincoln-metaphor-analysis` and
-carry the `deferred` label:
+The deferred Lincoln issues that remain open in `lincoln-metaphor-analysis`
+carry the `deferred` label. LMA #95 was completed in the child repository after
+the original migration audit and is no longer part of the open deferred set.
 
 | Source issue | Current state | Resume condition |
 |---|---|---|
 | [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) | Open, `deferred` | Revisit after PPW validation fixture foundations |
-| [LMA #95](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95) | Open, `deferred` | Revisit after PPW claim-promotion gate foundations |
 | [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) | Open, `deferred` | Revisit after PPW validation fixture foundations |
 
 When the relevant PPW foundations are ready, the maintainer should decide

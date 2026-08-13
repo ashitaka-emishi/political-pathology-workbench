@@ -40,9 +40,9 @@ The lincoln-deep-28 corpus has three annotation tiers, defined in `documentTiers
 
 | Tier | Target size | Annotation scope | Status |
 |---|---|---|---|
-| Core | 48 docs (36 registered) | Full pipeline: passages → claims → interpretations → scores | Inventory registered (PPW #195); passage import pending (PPW #143) |
-| Validation | 75-100 docs total | Passage segmentation only; no claim extraction or scoring | Scope defined (PPW #196); specific documents pending LMA #114 |
-| Reference | Open-ended | Search indexing only; no annotation | Scope defined (PPW #197); specific documents pending LMA #115 |
+| Core | 48 docs in LMA source inventory; 36 PPW metadata records | Full pipeline: passages → claims → interpretations → scores | Source inventory complete (LMA #113 / PPW #195); PPW raw text and passage import pending |
+| Validation | 78 docs in LMA source inventory | Passage segmentation only; no claim extraction or scoring | Source inventory complete (LMA #114 / PPW #196); PPW import/review pending |
+| Reference | 18 additional docs in LMA source inventory | Search indexing only; no annotation | Source inventory complete (LMA #115 / PPW #197); PPW import/review pending |
 
 **What "core tier annotation" means in PPW:** A document in the core tier is eligible for full annotation — passage segmentation, metaphor cluster coding, claim candidate generation, and scoring. It does not mean that annotation is complete; all annotation work is scheduled for Milestone 16 (passages) and subsequent milestones (claims, scoring).
 

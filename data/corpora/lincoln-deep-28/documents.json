@@ -1,17 +1,17 @@
 {
   "corpusId": "lincoln-deep-28",
   "importStatus": "partial",
-  "importNotes": "36 of 48 planned v4 core corpus documents are registered here: 28 confirmed documents from the current lincoln-metaphor-analysis corpus_manifest.json (all at pipeline_stage_completed: 4) and 8 additional documents identified in LMA issue #113 as v4 priority additions not yet in the source-repo manifest. The remaining 12 documents needed to reach the 48-doc v4 target have not yet been specified in the source repository (LMA #113 is still open). This inventory will be updated when the child-repo v4 corpus expansion is complete. Provenance source: ashitaka-emishi/lincoln-metaphor-analysis.",
+  "importNotes": "LMA v4 source inventories are complete through the non-human-review boundary: 48 core documents, 78 validation-tier documents, and 18 additional reference-tier documents are recorded in lincoln-metaphor-analysis inventory artifacts dated 2026-08-12/2026-08-13. PPW currently registers 36 document records in this corpus metadata: 28 v3 baseline documents plus 8 earlier v4 priority additions. The remaining LMA v4 inventory records are source-provenance artifacts pending PPW import, source-pack mapping, raw-text import, segmentation, annotation, reliability review, and claim-promotion gates. Provenance source: ashitaka-emishi/lincoln-metaphor-analysis.",
   "ppwInventoryIssues": [
     195,
     196,
     197,
     143
   ],
-  "sourceInventoryRef": "ashitaka-emishi/lincoln-metaphor-analysis",
-  "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+  "sourceInventoryRef": "ashitaka-emishi/lincoln-metaphor-analysis:data/corpus/corpus-v4-*-inventory.json",
+  "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#134",
   "ppwSourceMappingStatus": "partial",
-  "ppwSourceMappingNote": "PPW source IDs (ppwSourceId) are assigned per document where a matching entry exists in bibliography/sources.csl.json and data/cases/american-civil-war-union/source-pack.json. As of PPW #198, 28 of 36 documents are mapped (all 28 confirmed v3-baseline documents). The 8 planned v4 additions (lma-v4-001 through lma-v4-008) are unmapped pending LMA #113 resolution. Unmapped documents may be cited via sourceUrl and sourceEdition fields.",
+  "ppwSourceMappingNote": "PPW source IDs (ppwSourceId) are assigned per document where a matching entry exists in bibliography/sources.csl.json and data/cases/american-civil-war-union/source-pack.json. As of this sync, PPW maps the 28 confirmed v3-baseline documents represented in the current source-pack; LMA v4 inventory additions remain source-provenance records until PPW source-pack/raw-text import expands. Unmapped documents may be cited via sourceUrl and sourceEdition fields, but they are not human-reviewed PPW evidence records.",
   "documentTiers": [
     {
       "tier": "core",
@@ -19,24 +19,25 @@
       "v4ExpansionTarget": 48,
       "currentCount": 36,
       "confirmedCount": 28,
-      "plannedCount": 8,
-      "gapCount": 12,
       "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/195",
-      "description": "Fully annotated core set; receives passage segmentation, claim extraction, and scoring. 28 documents are confirmed (pipeline_stage_completed: 4 in source manifest); 8 are planned v4 additions from LMA #113 not yet in manifest; 12 remain unspecified.",
-      "importStatus": "partial"
+      "description": "Fully annotated core tier target. LMA v4 now records 48 core inventory documents as source artifacts. PPW currently registers 36 document records; additional source-pack mapping, raw text import, segmentation, annotation, review, scoring, and claim-promotion work remain pending before the full LMA v4 core can function as PPW evidence.",
+      "importStatus": "partial-ppw-import-source-inventory-complete",
+      "ppwRegisteredDocumentCount": 36,
+      "sourceInventoryCount": 48,
+      "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#113"
     },
     {
       "tier": "validation",
       "targetRange": "75-100",
       "currentCount": 0,
       "coreDocumentsIncluded": true,
-      "coreDocumentCount": 36,
-      "additionalDocumentsNeeded": "39-64",
+      "coreDocumentCount": 48,
+      "additionalDocumentsNeeded": "none in LMA source inventory; PPW import pending",
       "candidateCountRange": "45-69",
       "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/196",
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#114",
-      "importStatus": "pending",
-      "description": "Lighter annotation tier for inter-annotator reliability sampling and recurrence/negative-finding testing. Includes all v4-core documents (36 registered in PPW #195) plus 39-64 additional documents selected from the candidate category pools below. The categories are overlapping candidate pools (estimated aggregate 45-69 documents); not all categories need be represented and no single category must be drawn to its stated maximum. Final selection must keep total additional count within 39-64 (total tier within 75-100). Specific document selection awaits LMA #114 resolution.",
+      "importStatus": "source-inventory-complete-ppw-import-pending",
+      "description": "Lighter annotation tier for inter-annotator reliability sampling and recurrence/negative-finding testing. LMA v4 now records a 78-document validation inventory as a source artifact. PPW has not imported the additional validation-tier records as reviewable evidence; passage segmentation, annotation scope enforcement, and reliability review remain pending.",
       "tierDefinition": {
         "annotationLevel": "validation",
         "ppwAnnotationScope": "passage-level segmentation only; no claim extraction, no scoring",
@@ -100,7 +101,9 @@
           "rationale": "Diachronic endpoint for organism cluster beyond Last Public Address; tracks post-war body-politic frame"
         }
       ],
-      "notes": "The 36 documents registered in the core tier (#195) are implicitly included in the validation tier \u2014 they receive validation-level annotation (passage segmentation) as a subset of their full core-tier processing. This `currentCount: 0` reflects additional-only documents beyond the core set that have not yet been individually selected. Specific document selection requires LMA #114 to be resolved in the child repository. Validation tier documents will be added to this documents[] array when LMA #114 closes."
+      "notes": "LMA v4 validation document selection is complete in the child repository inventory. PPW import remains pending: no validation-tier records have been added to this documents[] array as PPW evidence records, and no validation-tier document should be treated as reviewed, scored, or claim-promoted.",
+      "ppwRegisteredDocumentCount": 0,
+      "sourceInventoryCount": 78
     },
     {
       "tier": "reference",
@@ -110,8 +113,8 @@
       "validationDocumentsIncluded": true,
       "governingIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/197",
       "sourceIssue": "github:ashitaka-emishi/lincoln-metaphor-analysis#115",
-      "importStatus": "pending",
-      "description": "Exhaustive contextual corpus indexed for keyword and context search only. No annotation at any level. Includes all core and validation tier documents plus additional Lincoln and contemporaneous documents that provide search context without adding annotation burden. Target count is open-ended (upper bound: complete Lincoln Collected Works plus key contemporaneous documents). Specific document selection awaits LMA #115 resolution.",
+      "importStatus": "source-inventory-complete-ppw-import-pending",
+      "description": "Search-only contextual corpus indexed for keyword and context search, with no annotation at any level. LMA v4 now records 18 additional reference-tier inventory documents as source artifacts. PPW has not imported them into its search/reference registry yet; they remain excluded from passage segmentation, claim extraction, scoring, and Lincoln-specific metaphor scoring unless explicitly promoted to another tier.",
       "tierDefinition": {
         "annotationLevel": "reference",
         "ppwAnnotationScope": "search indexing only; no passage segmentation, no claim extraction, no scoring",
@@ -160,7 +163,9 @@
           "textQualityNote": "Transcription fidelity varies; flag with riskFlags: [transcription-uncertainty] and do not use as primary text for any annotation work."
         }
       ],
-      "notes": "The core (36 registered) and validation (75-100 total) tier documents are implicitly included in the reference index \u2014 all annotated documents are also searchable. This `currentCount: 0` reflects additional-only reference documents beyond the validation set that have not yet been individually selected. targetCount is null (open-ended): the reference corpus grows to encompass whatever documents are useful for contextual search without a fixed ceiling. Contemporaneous-context documents (non-Lincoln) must be clearly marked to prevent inclusion in metaphor-scoring runs. Specific document selection requires LMA #115 to be resolved in the child repository."
+      "notes": "LMA v4 reference document selection is complete in the child repository inventory. PPW import remains pending: no additional reference-tier records have been added to this documents[] array as PPW reference records. Core and validation documents may be searchable after import, but reference-tier inventory completion does not imply annotation, review, or scoring readiness.",
+      "ppwRegisteredDocumentCount": 0,
+      "sourceInventoryCount": 18
     }
   ],
   "documents": [
@@ -1293,5 +1298,49 @@
       "ppwSourceId": null,
       "ppwSourceStatus": "unmapped"
     }
-  ]
+  ],
+  "lmaV4SourceInventories": {
+    "status": "complete-through-human-review-boundary",
+    "sourceRepository": "ashitaka-emishi/lincoln-metaphor-analysis",
+    "sourceTracker": "github:ashitaka-emishi/lincoln-metaphor-analysis#134",
+    "completedInventoryIssues": [
+      "github:ashitaka-emishi/lincoln-metaphor-analysis#113",
+      "github:ashitaka-emishi/lincoln-metaphor-analysis#114",
+      "github:ashitaka-emishi/lincoln-metaphor-analysis#115"
+    ],
+    "openDeferredIssues": [
+      "github:ashitaka-emishi/lincoln-metaphor-analysis#85",
+      "github:ashitaka-emishi/lincoln-metaphor-analysis#108"
+    ],
+    "inventoryArtifacts": [
+      {
+        "tier": "core",
+        "path": "data/corpus/corpus-v4-core-inventory.json",
+        "sourceDocumentCount": 48,
+        "createdDate": "2026-08-12",
+        "ppwImportStatus": "pending-expanded-import"
+      },
+      {
+        "tier": "validation",
+        "path": "data/corpus/corpus-v4-validation-inventory.json",
+        "sourceDocumentCount": 78,
+        "createdDate": "2026-08-12",
+        "ppwImportStatus": "pending-expanded-import"
+      },
+      {
+        "tier": "reference",
+        "path": "data/corpus/corpus-v4-reference-inventory.json",
+        "sourceDocumentCount": 18,
+        "createdDate": "2026-08-13",
+        "ppwImportStatus": "pending-expanded-import"
+      }
+    ],
+    "validationArtifacts": [
+      "data/corpus/corpus-v4-inventory-validation-report.json",
+      "data/corpus/corpus-v4-provenance-validation-report.json",
+      "data/corpus/corpus-v4-coverage-summary.json",
+      "data/corpus/corpus-v4-reliability-sample-frame.json"
+    ],
+    "humanReviewBoundary": "Inventory, provenance, coverage, and sample-frame artifacts are complete as source artifacts. PPW raw text import, passage segmentation, annotation, human/inter-annotator review, scoring, and claim promotion remain pending and must not be inferred from inventory completion."
+  }
 }
