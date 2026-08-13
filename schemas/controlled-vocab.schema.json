@@ -41,6 +41,13 @@
     "evidenceRole": {
       "type": "string",
       "enum": [
+        "supporting",
+        "contradicting",
+        "qualifying",
+        "contextual",
+        "background",
+        "temporal-counterexample",
+        "methodological",
         "grounds",
         "warrant",
         "backing",
@@ -134,6 +141,10 @@
         "complicates",
         "supports-alternative-explanation"
       ]
+    },
+    "searchPurpose": {
+      "type": "string",
+      "enum": ["supporting", "disconfirming", "neutral"]
     }
   }
 }

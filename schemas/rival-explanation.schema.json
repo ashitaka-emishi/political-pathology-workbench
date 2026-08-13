@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/rival-explanation.schema.json",
+  "title": "Rival Explanations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "rivalExplanationId",
+      "caseId",
+      "explanation",
+      "targetClaimIds",
+      "supportingEvidenceIds",
+      "contradictingEvidenceIds",
+      "discriminatingEvidence",
+      "reviewStatus",
+      "publicationStatus"
+    ],
+    "properties": {
+      "rivalExplanationId": { "type": "string" },
+      "caseId": { "type": "string" },
+      "explanation": { "type": "string" },
+      "targetClaimIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "supportingEvidenceIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "contradictingEvidenceIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "discriminatingEvidence": { "type": "string" },
+      "mechanismDiscrimination": {
+        "type": "object",
+        "properties": {
+          "ppwMechanism": { "type": "string" },
+          "rivalMechanism": { "type": "string" },
+          "discriminator": { "type": "string" }
+        }
+      },
+      "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+      "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" }
+    }
+  }
+}

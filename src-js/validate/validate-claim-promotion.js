@@ -7,6 +7,7 @@ const REVIEW_STATUSES = new Set(["draft", "source-review", "evidence-review", "a
 const SCORE_IMPACT_DIRECTIONS = new Set(["increase", "decrease", "neutral", "unknown"]);
 const ACTIVE_REVIEW_STATUSES = new Set(["human-reviewed", "approved"]);
 const DRAFT_SCORE_IMPACTS = new Set(["candidate", "none"]);
+const SEARCH_PURPOSES = new Set(["supporting", "disconfirming", "neutral"]);
 
 function hasEvidence(record) {
   return (record.sourceRefs ?? []).length > 0 || (record.passageRefs ?? []).length > 0 || (record.artifactRefs ?? []).length > 0;
@@ -38,6 +39,16 @@ export function validatePromotionRecord(record, promotionIds, moduleIds, caseIds
 
   if (record.promotionStatus === "promoted-finding" && !ACTIVE_REVIEW_STATUSES.has(record.reviewStatus)) {
     errors.push(`${label}: promoted-finding requires reviewStatus human-reviewed or approved`);
+  }
+  if (record.promotionStatus === "promoted-finding") {
+    const purposes = new Set((record.searchLogRefs ?? []).map((ref) => ref.purpose));
+    if (!purposes.has("supporting") || !purposes.has("disconfirming")) {
+      errors.push(`${label}: promoted-finding requires supporting and disconfirming searchLogRefs`);
+    }
+    for (const ref of record.searchLogRefs ?? []) {
+      if (!ref.searchId) errors.push(`${label}: searchLogRefs entries require searchId`);
+      if (!SEARCH_PURPOSES.has(ref.purpose)) errors.push(`${label}: unsupported searchLogRefs purpose ${ref.purpose}`);
+    }
   }
 
   if (record.promotionStatus === "blocked" && !hasEvidence(record) && !record.missingEvidenceReason) {

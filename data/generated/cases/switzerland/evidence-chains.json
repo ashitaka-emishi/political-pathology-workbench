@@ -59,6 +59,8 @@
       "reviewStatus": "draft"
     }
   ],
+  "searchLogs": [],
+  "rivalExplanations": [],
   "draftClaims": [],
   "promotedClaims": []
 }

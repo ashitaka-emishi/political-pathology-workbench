@@ -1,0 +1,29 @@
+[
+  {
+    "rivalExplanationId": "postwar-germany-rival-001",
+    "caseId": "postwar-germany",
+    "explanation": "Postwar Germany's restrained-reordering outcome may be explained less by sacred-political-order corrigibility than by external occupation, geopolitical constraints, and elite reconstruction under Allied oversight.",
+    "targetClaimIds": [
+      "postwar-germany-claim-001",
+      "postwar-germany-claim-002"
+    ],
+    "supportingEvidenceIds": [
+      "postwar-germany-search-002",
+      "postwar-germany-counterclaim-001"
+    ],
+    "contradictingEvidenceIds": [
+      "postwar-germany-passage-001",
+      "postwar-germany-passage-002",
+      "postwar-germany-passage-004",
+      "postwar-germany-search-001"
+    ],
+    "discriminatingEvidence": "Evidence discriminates between mechanisms when it shows whether restraint came from internal constitutional self-limitation that persisted after Allied control, or from external constraint that would not demonstrate endogenous corrigibility.",
+    "mechanismDiscrimination": {
+      "ppwMechanism": "constitutional-containment",
+      "rivalMechanism": "external-constraint-reconstruction",
+      "discriminator": "Does the case show durable internal legal limits and resistance rights, or mainly externally imposed containment?"
+    },
+    "reviewStatus": "draft",
+    "publicationStatus": "draft"
+  }
+]

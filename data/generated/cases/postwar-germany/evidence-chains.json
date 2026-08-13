@@ -100,6 +100,56 @@
       "reviewStatus": "draft"
     }
   ],
+  "searchLogs": [
+    {
+      "searchId": "postwar-germany-search-001",
+      "date": "2026-08-13",
+      "query": "\"Basic Law\" Article 1 Article 79 eternity clause human dignity",
+      "database": "PPW bibliography and official source pack",
+      "purpose": "supporting",
+      "includedSourceIds": [
+        "grundgesetz-1949",
+        "adenauer-regierungserklaerung-1949"
+      ],
+      "notes": "Search supports the constitutional-containment and memory-driven-restraint readings already present in the Postwar Germany evidence chain."
+    },
+    {
+      "searchId": "postwar-germany-search-002",
+      "date": "2026-08-13",
+      "query": "postwar Germany Berufsverbot democratic restriction memory politics counterevidence",
+      "database": "PPW counterevidence audit",
+      "purpose": "disconfirming",
+      "includedSourceIds": [],
+      "notes": "Search records the current counterclaim direction. Follow-up sourcing is required before any publication-facing use."
+    }
+  ],
+  "rivalExplanations": [
+    {
+      "rivalExplanationId": "postwar-germany-rival-001",
+      "explanation": "Postwar Germany's restrained-reordering outcome may be explained less by sacred-political-order corrigibility than by external occupation, geopolitical constraints, and elite reconstruction under Allied oversight.",
+      "targetClaimIds": [
+        "postwar-germany-claim-001",
+        "postwar-germany-claim-002"
+      ],
+      "supportingEvidenceIds": [
+        "postwar-germany-search-002",
+        "postwar-germany-counterclaim-001"
+      ],
+      "contradictingEvidenceIds": [
+        "postwar-germany-passage-001",
+        "postwar-germany-passage-002",
+        "postwar-germany-passage-004",
+        "postwar-germany-search-001"
+      ],
+      "discriminatingEvidence": "Evidence discriminates between mechanisms when it shows whether restraint came from internal constitutional self-limitation that persisted after Allied control, or from external constraint that would not demonstrate endogenous corrigibility.",
+      "mechanismDiscrimination": {
+        "ppwMechanism": "constitutional-containment",
+        "rivalMechanism": "external-constraint-reconstruction",
+        "discriminator": "Does the case show durable internal legal limits and resistance rights, or mainly externally imposed containment?"
+      },
+      "reviewStatus": "draft"
+    }
+  ],
   "draftClaims": [],
   "promotedClaims": []
 }

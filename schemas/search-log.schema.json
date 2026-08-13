@@ -5,12 +5,13 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["searchId", "date", "query", "database"],
+    "required": ["searchId", "date", "query", "database", "purpose"],
     "properties": {
       "searchId": { "type": "string" },
       "date": { "type": "string" },
       "query": { "type": "string" },
       "database": { "type": "string" },
+      "purpose": { "$ref": "controlled-vocab.schema.json#/$defs/searchPurpose" },
       "inclusionCriteria": {
         "type": "array",
         "items": { "type": "string" }
