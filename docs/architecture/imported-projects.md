@@ -81,6 +81,43 @@ need per-artifact provenance and review decisions before import.
 
 ---
 
+## `john-brown-metaphor-analysis`
+
+**Disposition:** Planned PPW deep-case candidate; defer registry entry until
+PPW source/corpus audit and case-boundary approval. See
+[`docs/migration/jbma-intake-disposition.md`](../migration/jbma-intake-disposition.md).
+
+John Brown Metaphor Analysis is a plausible future PPW deep-case module, but it
+should not be folded into the existing Lincoln case. Its likely PPW target is a
+new `john-brown-harpers-ferry` case with a later
+`john-brown-metaphor-analysis` evidence module, pending maintainer approval.
+
+| Artifact class | Import decision | Notes |
+|---|---|---|
+| **Source-register metadata** | Import later | Audit 20 source rows for rights, provenance, attribution, and witness class |
+| **Raw and normalized corpus files** | Import later | Only approved source rows with verified acquisition and raw/normalized separation may be considered |
+| **Passage locator and segmentation notes** | Import later | Candidate passage-audit input; exact quotations still need witness-level checks |
+| **Textual-variant notes** | Import later | Preserve variant and transmission caveats before any coding |
+| **Evidence matrix** | Do not import now | Source file is header-only at intake |
+| **Claims register** | Do not import now | Source file is header-only at intake |
+| **Approval and source-substitution notes** | Reference only | Governance context until re-expressed as PPW gates |
+| **Quarto site and generated publication files** | Do not import | JBMA site remains external; PPW has its own site structure |
+| **Pipeline scripts and project scaffolding** | Do not import | Project-specific tooling; do not merge into PPW |
+
+### Rights and provenance rules for JBMA intake
+
+- Treat source-repo corpus and source-substitution approvals as scoped source
+  history, not PPW approval for evidence import, interpretation, or publication.
+- Audit Brown authorship and attribution separately for autograph manuscripts,
+  copied extracts, reported statements, government records, newspaper variants,
+  and edited abolitionist pamphlet witnesses.
+- Keep discovery-only, OCR-noisy, rights-blocked, and attribution-uncertain
+  sources out of PPW evidence records until their gates are resolved.
+- Do not create a PPW module-registry entry until the case boundary and initial
+  source/corpus import plan are approved.
+
+---
+
 ## `sacrifice-law-workbench`
 
 | Artifact class | Import decision | Notes |
