@@ -11,6 +11,24 @@
     "adjudicatedValue": 2.5,
     "adjudicatorId": "adjudicator",
     "timestamp": "2026-08-13T01:00:00Z",
-    "rationale": "Synthetic fixture adjudication preserves raw disagreement while recording the reconciled midpoint."
+    "rationale": "Synthetic fixture adjudication preserves raw disagreement while recording the reconciled midpoint.",
+    "valueSemantics": "construct-magnitude",
+    "decisionState": "adjudicated",
+    "definitionRefs": [],
+    "confidence": {
+      "value": 0.75,
+      "label": "moderate",
+      "rationale": "Synthetic adjudication confidence.",
+      "uncertaintyFactors": [
+        "coder-disagreement"
+      ]
+    },
+    "packetRefs": [
+      {
+        "packetId": "round-fixture-unit-002-packet",
+        "packetHash": "sha256:fixture"
+      }
+    ],
+    "evidenceRefs": []
   }
 ]

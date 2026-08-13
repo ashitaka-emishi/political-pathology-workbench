@@ -26,8 +26,16 @@ def _pairs(records: Iterable[dict]) -> list[tuple[dict, dict]]:
     return list(combinations(sorted(records, key=lambda r: r["coderId"]), 2))
 
 
+def _known_value_pairs(pairs: Iterable[tuple[dict, dict]]) -> list[tuple[dict, dict]]:
+    return [
+        (left, right)
+        for left, right in pairs
+        if left.get("value") is not None and right.get("value") is not None
+    ]
+
+
 def exact_agreement(pairs: Iterable[tuple[dict, dict]]) -> float:
-    pair_list = list(pairs)
+    pair_list = _known_value_pairs(pairs)
     if not pair_list:
         return 0.0
     matches = sum(1 for left, right in pair_list if left["value"] == right["value"])
@@ -35,7 +43,7 @@ def exact_agreement(pairs: Iterable[tuple[dict, dict]]) -> float:
 
 
 def mean_absolute_difference(pairs: Iterable[tuple[dict, dict]]) -> float:
-    pair_list = list(pairs)
+    pair_list = _known_value_pairs(pairs)
     if not pair_list:
         return 0.0
     total = sum(abs(float(left["value"]) - float(right["value"])) for left, right in pair_list)

@@ -14,8 +14,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "corrigibility",
       "value": 4,
-      "confidence": 0.8,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.8,
+        "label": "high",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-001-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-001-b",
@@ -30,8 +42,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "corrigibility",
       "value": 4,
-      "confidence": 0.7,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.7,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-001-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-002-a",
@@ -46,8 +70,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "corrigibility",
       "value": 2,
-      "confidence": 0.6,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-002-b",
@@ -62,8 +98,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "corrigibility",
       "value": 3,
-      "confidence": 0.6,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-003-a",
@@ -78,8 +126,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "sacred-political-order-strength",
       "value": 5,
-      "confidence": 0.7,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.7,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-003-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-003-b",
@@ -94,8 +154,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "sacred-political-order-strength",
       "value": 3,
-      "confidence": 0.7,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.7,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-003-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-004-a",
@@ -110,8 +182,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "sacred-political-order-strength",
       "value": 1,
-      "confidence": 0.9,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.9,
+        "label": "high",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-004-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-004-b",
@@ -126,8 +210,20 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "sacred-political-order-strength",
       "value": 1,
-      "confidence": 0.9,
-      "adjudicationState": "raw-submitted"
+      "confidence": {
+        "value": 0.9,
+        "label": "high",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-004-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     },
     {
       "coderScoreId": "fixture-score-002-adjudicated",
@@ -142,9 +238,21 @@
       "theoryId": "general-theory-political-pathology-v1",
       "variableId": "corrigibility",
       "value": 2.5,
-      "confidence": 0.75,
+      "confidence": {
+        "value": 0.75,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
       "adjudicationState": "adjudicated",
-      "adjudicationId": "fixture-adj-001"
+      "adjudicationId": "fixture-adj-001",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic adjudicated record preserving raw disagreement.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
     }
   ],
   "expected": {

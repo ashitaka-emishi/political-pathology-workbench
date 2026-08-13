@@ -1,0 +1,66 @@
+[
+  {
+    "name": "valid-coder-numeric",
+    "kind": "coder-score",
+    "valid": true,
+    "record": {
+      "value": 3,
+      "valueSemantics": "construct-magnitude",
+      "confidence": { "value": 0.82, "label": "high", "rationale": "Evidence is direct.", "uncertaintyFactors": [] },
+      "coderRationale": "Coder assigns a middle-high construct magnitude.",
+      "packetRef": { "packetId": "packet-a", "packetHash": "sha256:abc" }
+    }
+  },
+  {
+    "name": "valid-coder-unknown",
+    "kind": "coder-score",
+    "valid": true,
+    "record": {
+      "value": null,
+      "valueSemantics": "unknown",
+      "unknownReason": "Packet lacks sufficient evidence for a magnitude.",
+      "confidence": { "value": 0.7, "label": "moderate", "rationale": "Unknown decision is evidence-based.", "uncertaintyFactors": ["insufficient-evidence"] },
+      "coderRationale": "Coder declines to encode missing evidence as 0.",
+      "packetRef": { "packetId": "packet-a", "packetHash": "sha256:abc" }
+    }
+  },
+  {
+    "name": "invalid-coder-null-without-reason",
+    "kind": "coder-score",
+    "valid": false,
+    "expectedError": "requires unknownReason",
+    "record": {
+      "value": null,
+      "valueSemantics": "unknown",
+      "confidence": { "value": 0.7, "label": "moderate", "rationale": "Evidence is insufficient." },
+      "coderRationale": "No magnitude.",
+      "packetRef": { "packetId": "packet-a", "packetHash": "sha256:abc" }
+    }
+  },
+  {
+    "name": "valid-unresolved-adjudication",
+    "kind": "adjudication",
+    "valid": true,
+    "record": {
+      "adjudicatedValue": null,
+      "valueSemantics": "unknown",
+      "unknownReason": "Adjudicators cannot resolve magnitude from the packet.",
+      "decisionState": "unresolved",
+      "rationale": "Preserves disagreement without forcing a numeric value.",
+      "confidence": { "value": 0.6, "label": "moderate", "rationale": "Unresolved state is justified.", "uncertaintyFactors": ["coder-disagreement"] }
+    }
+  },
+  {
+    "name": "invalid-adjudicated-null",
+    "kind": "adjudication",
+    "valid": false,
+    "expectedError": "adjudicated decisionState requires",
+    "record": {
+      "adjudicatedValue": null,
+      "valueSemantics": "unknown",
+      "unknownReason": "No magnitude.",
+      "decisionState": "adjudicated",
+      "rationale": "Invalid resolved state without value."
+    }
+  }
+]

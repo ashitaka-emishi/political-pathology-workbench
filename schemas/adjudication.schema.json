@@ -12,6 +12,8 @@
       "variableId",
       "inputCoderScoreIds",
       "adjudicatedValue",
+      "valueSemantics",
+      "decisionState",
       "adjudicatorId",
       "timestamp",
       "rationale"
@@ -26,9 +28,54 @@
         "items": { "type": "string" }
       },
       "adjudicatedValue": {
-        "type": "number",
+        "type": ["number", "null"],
         "minimum": 0,
         "maximum": 5
+      },
+      "valueSemantics": {
+        "type": "string",
+        "enum": ["construct-magnitude", "unknown"]
+      },
+      "unknownReason": { "type": "string" },
+      "decisionState": {
+        "type": "string",
+        "enum": ["unresolved", "adjudicated", "excluded"]
+      },
+      "definitionRefs": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "confidence": {
+        "type": "object",
+        "required": ["value", "label", "rationale"],
+        "properties": {
+          "value": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "label": { "type": "string" },
+          "rationale": { "type": "string" },
+          "uncertaintyFactors": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+      "packetRefs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["packetId", "packetHash"],
+          "properties": {
+            "packetId": { "type": "string" },
+            "packetHash": { "type": "string" }
+          }
+        }
+      },
+      "evidenceRefs": {
+        "type": "array",
+        "items": { "type": "string" }
       },
       "adjudicatorId": { "type": "string" },
       "timestamp": { "type": "string" },
