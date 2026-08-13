@@ -11,7 +11,14 @@
       "date": { "type": "string" },
       "query": { "type": "string" },
       "database": { "type": "string" },
+      "environment": { "type": "string" },
       "purpose": { "$ref": "controlled-vocab.schema.json#/$defs/searchPurpose" },
+      "evidencePolarity": { "$ref": "controlled-vocab.schema.json#/$defs/evidencePolarity" },
+      "argumentRole": { "$ref": "controlled-vocab.schema.json#/$defs/argumentRole" },
+      "completionStatus": {
+        "type": "string",
+        "enum": ["planned", "in-progress", "completed", "abandoned"]
+      },
       "inclusionCriteria": {
         "type": "array",
         "items": { "type": "string" }
@@ -20,9 +27,14 @@
         "type": "array",
         "items": { "type": "string" }
       },
-      "resultsCount": { "type": "number" },
-      "screenedCount": { "type": "number" },
+      "resultsCount": { "type": "integer", "minimum": 0 },
+      "screenedCount": { "type": "integer", "minimum": 0 },
+      "includedCount": { "type": "integer", "minimum": 0 },
       "includedSourceIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "includedPassageIds": {
         "type": "array",
         "items": { "type": "string" }
       },

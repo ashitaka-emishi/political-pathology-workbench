@@ -1,22 +1,15 @@
 {
-  "promotionId": "fixture-prom-promoted-001",
+  "promotionId": "fixture-prom-incomplete-search",
   "claimId": "lma-draft-claim-001",
   "originModuleId": "lincoln-metaphor-analysis",
   "caseId": "american-civil-war-union",
   "promotionStatus": "promoted-finding",
   "reviewStatus": "approved",
-  "sourceRefs": ["lincoln-gettysburg-address-1863", "lincoln-second-inaugural-1865"],
-  "passageRefs": [],
+  "sourceRefs": ["lincoln-gettysburg-address-1863"],
   "artifactRefs": ["lincoln-deep-28"],
   "searchLogRefs": [
-    {
-      "searchId": "fixture-search-supporting",
-      "purpose": "supporting"
-    },
-    {
-      "searchId": "fixture-search-disconfirming",
-      "purpose": "disconfirming"
-    }
+    { "searchId": "fixture-search-supporting", "purpose": "supporting" },
+    { "searchId": "fixture-search-disconfirming", "purpose": "disconfirming" }
   ],
   "fixtureSearchLogs": [
     {
@@ -29,8 +22,8 @@
       "completionStatus": "completed",
       "inclusionCriteria": ["direct supporting evidence"],
       "exclusionCriteria": ["irrelevant evidence"],
-      "resultsCount": 2,
-      "screenedCount": 2,
+      "resultsCount": 1,
+      "screenedCount": 1,
       "includedCount": 1,
       "includedSourceIds": ["lincoln-gettysburg-address-1863"]
     },
@@ -41,7 +34,7 @@
       "database": "fixture bibliography",
       "environment": "test-fixture",
       "purpose": "disconfirming",
-      "completionStatus": "completed",
+      "completionStatus": "in-progress",
       "inclusionCriteria": ["direct disconfirming evidence"],
       "exclusionCriteria": ["irrelevant evidence"],
       "resultsCount": 1,

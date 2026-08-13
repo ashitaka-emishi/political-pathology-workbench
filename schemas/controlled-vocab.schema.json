@@ -171,6 +171,14 @@
     "searchPurpose": {
       "type": "string",
       "enum": ["supporting", "disconfirming", "neutral"]
+    },
+    "evidencePolarity": {
+      "type": "string",
+      "enum": ["supports", "contradicts", "qualifies", "neutral", "mixed", "unknown"]
+    },
+    "argumentRole": {
+      "type": "string",
+      "enum": ["grounds", "warrant", "backing", "qualifier", "rebuttal", "context", "methodological"]
     }
   }
 }

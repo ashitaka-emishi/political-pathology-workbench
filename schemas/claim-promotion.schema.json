@@ -141,6 +141,19 @@
     "promotionNotes": {
       "type": "string",
       "description": "Free-text notes about promotion decisions, deferred gates, or reviewer guidance."
+    },
+    "searchLogRefs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["searchId", "purpose"],
+        "properties": {
+          "searchId": { "type": "string" },
+          "purpose": { "$ref": "controlled-vocab.schema.json#/$defs/searchPurpose" }
+        },
+        "additionalProperties": false
+      },
+      "description": "Search-log records that support promotion review, including both supporting and disconfirming searches for promoted findings."
     }
   },
   "if": {
