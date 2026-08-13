@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/adjudication.schema.json",
+  "title": "Score Adjudications",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "adjudicationId",
+      "codingRoundId",
+      "unitId",
+      "variableId",
+      "inputCoderScoreIds",
+      "adjudicatedValue",
+      "adjudicatorId",
+      "timestamp",
+      "rationale"
+    ],
+    "properties": {
+      "adjudicationId": { "type": "string" },
+      "codingRoundId": { "type": "string" },
+      "unitId": { "type": "string" },
+      "variableId": { "type": "string" },
+      "inputCoderScoreIds": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "adjudicatedValue": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 5
+      },
+      "adjudicatorId": { "type": "string" },
+      "timestamp": { "type": "string" },
+      "rationale": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "adjudicationId": "fixture-adj-001",
+    "codingRoundId": "round-fixture-v1",
+    "unitId": "unit-002",
+    "variableId": "corrigibility",
+    "inputCoderScoreIds": [
+      "fixture-score-002-a",
+      "fixture-score-002-b"
+    ],
+    "adjudicatedValue": 2.5,
+    "adjudicatorId": "adjudicator",
+    "timestamp": "2026-08-13T01:00:00Z",
+    "rationale": "Synthetic fixture adjudication preserves raw disagreement while recording the reconciled midpoint."
+  }
+]

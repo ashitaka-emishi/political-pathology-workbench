@@ -10,7 +10,7 @@
     "generate": "node src-js/cli/generate-indexes.js",
     "site-data": "node src-js/cli/generate-site-data.js",
     "summary": "node src-js/cli/summary.js",
-    "test": "node tests/run-evidence-module-fixtures.js && node tests/run-corpus-fixtures.js && node tests/run-claim-promotion-fixtures.js && node tests/run-score-claim-promotion-fixtures.js && node tests/run-migration-fixtures.js && node tests/run-score-semantics-fixtures.js && node tests/run-score-independence-fixtures.js && node tests/run-theory-ontology-fixtures.js && node tests/run-variable-lifecycle-fixtures.js",
+    "test": "node tests/run-evidence-module-fixtures.js && node tests/run-corpus-fixtures.js && node tests/run-claim-promotion-fixtures.js && node tests/run-score-claim-promotion-fixtures.js && node tests/run-migration-fixtures.js && node tests/run-score-semantics-fixtures.js && node tests/run-score-independence-fixtures.js && node tests/run-theory-ontology-fixtures.js && node tests/run-variable-lifecycle-fixtures.js && PYTHONPATH=src-py python3 -m political_pathology.reliability.fixtures",
     "build": "npm run validate && npm run generate && npm run site-data"
   },
   "engines": {
