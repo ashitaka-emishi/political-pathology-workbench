@@ -18,7 +18,7 @@
       "ppwTitle": "Resume Lincoln multi-model reliability stress-test migration",
       "ppwMilestone": 21,
       "disposition": "migrate-as-ppw-issue",
-      "migrationNote": "Originally deferred until PPW Milestone 19 validation fixture foundations existed; resumed after PPW #165 recorded Milestone 19 complete."
+      "migrationNote": "Originally deferred until PPW Milestone 19 validation fixture foundations existed; resumed after PPW #165 recorded Milestone 19 complete. PPW #300 records current Stage 4M artifacts as reference-only design/status records and points execution to PPW #303."
     },
     {
       "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108",

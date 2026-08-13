@@ -103,7 +103,7 @@ resumed reliability successor issues created from #297:
 - [#185](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/185) prepares final child-repository comments.
 - [#186](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/186) records the child-repository lifecycle decision.
 - [#187](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/187) tags or prepares the integration release.
-- [#300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) resumes the LMA #85 multi-model reliability migration.
+- [#300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) resumes the LMA #85 multi-model reliability migration; [`lma-stage4m-reliability-disposition.md`](lma-stage4m-reliability-disposition.md) records the reference-only/no-submission disposition and points execution to #303.
 - [#301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) resumes the LMA #108 human inter-annotator reliability migration.
 
 ## Acceptance Criteria Status

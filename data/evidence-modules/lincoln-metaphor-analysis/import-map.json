@@ -44,9 +44,17 @@
     {
       "artifactClass": "reliability-study",
       "disposition": "reference-only",
+      "description": "Stage 4M multi-model reliability stress-test packet, schema, no-submission comparison outputs, methodology pages, and workflow scripts",
+      "scheduledMilestone": null,
+      "ppwIssues": [300, 303],
+      "notes": "PPW #300 records the disposition: current artifacts are reference-only design/status records, not reliability evidence. PPW #303 is the separate external model-review pilot if model submissions are run."
+    },
+    {
+      "artifactClass": "reliability-study",
+      "disposition": "reference-only",
       "description": "Stage 4H/4J records (human coding and adjudication decisions)",
       "scheduledMilestone": null,
-      "ppwIssues": [],
+      "ppwIssues": [301],
       "notes": "Reliability artifacts; inform PPW review-gate design but do not become PPW data."
     },
     {

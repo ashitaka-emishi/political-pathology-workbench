@@ -182,7 +182,7 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 **Known gap:** The `mergedCoordinationIssues` arrays in `source-issue-map.json` account for 31 of the 38 merged source issues (25 in PPW #112, 6 in PPW #113). The remaining 7 merged source issues are counted in the migration summary but not individually listed. This should be reconciled in a follow-up migration audit or during Milestone 19.
 
 **Originally deferred issues now resumed:**
-- LMA #85: Tracking v2.0 Multi-Model Reliability Stress Test — PPW successor #300 after Milestone 19 validation fixtures were completed
+- LMA #85: Tracking v2.0 Multi-Model Reliability Stress Test — PPW successor #300 after Milestone 19 validation fixtures were completed; current disposition is recorded in [`lma-stage4m-reliability-disposition.md`](lma-stage4m-reliability-disposition.md), with external model-review execution deferred to PPW #303
 - LMA #108: Tracking v3.0 Human IAA Study — PPW successor #301 after Milestone 19 validation fixtures were completed; source tracker notes human submissions and adjudication remain incomplete
 
 **Completed after original migration audit:**
@@ -233,7 +233,7 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 ### 8.1 Lincoln
 
 - **provenanceStatus: partial** — provenance.json documents the source repository and artifact families but does not yet include per-document provenance records (deferred to Milestone 16 import).
-- **reliabilityStatus: pending** — Two child-repo reliability artifacts exist (v2 multi-model, v3 human IAA) but are reference-only. No PPW-native reliability assessment exists. Inter-annotator metrics cannot be independently verified by PPW until the review-gate framework (Milestone 19) is in place.
+- **reliabilityStatus: pending** — Two child-repo reliability artifact families exist (v2 multi-model, v3 human IAA) but are reference-only. PPW #300 records that current Stage 4M artifacts are designed but not executed, with no validated external model submissions; PPW #303 is the execution follow-up. PPW #301 remains the human IAA migration successor. No PPW-native reliability assessment exists yet.
 - **Rights gap** — Third-party commentary and translations in the Lincoln corpus are not individually rights-reviewed. Import of those texts is blocked until review is complete.
 
 ### 8.2 Sacrifice Law
