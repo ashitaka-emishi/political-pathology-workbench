@@ -39,7 +39,7 @@
       "memory-driven-restraint",
       "sacred-political-order-strength"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1.1"
   },
   {
     "interpretationId": "united-states-after-vietnam-interpretation-002",
@@ -81,6 +81,6 @@
       "memory-driven-restraint",
       "corrigibility"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1.1"
   }
 ]

@@ -39,7 +39,7 @@
       "sacrifice",
       "pathology"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1.1"
   },
   {
     "interpretationId": "nazi-germany-interpretation-002",
@@ -68,7 +68,7 @@
       "sacred-political-order-strength",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
+    "codebookVersion": "v1.1",
     "interpretation": "The Nazi Volksgemeinschaft is provisionally coded as a very strong sacred political order, while remaining explicitly draft pending verified source passages and broader evidence.",
     "reviewStatus": "argument-review",
     "publicationStatus": "draft",
@@ -121,6 +121,6 @@
       "sacred-political-order-strength",
       "institutional-self-preservation"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1.1"
   }
 ]

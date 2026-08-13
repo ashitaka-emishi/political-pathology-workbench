@@ -46,6 +46,15 @@
       "minimum": 0,
       "description": "Total number of documents in the corpus."
     },
+    "registeredDocumentCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of documents registered in PPW metadata."
+    },
+    "sourceInventoryCounts": {
+      "type": "object",
+      "description": "Source inventory counts imported from source-module audit metadata."
+    },
     "documentIds": {
       "type": "array",
       "items": { "type": "string" },

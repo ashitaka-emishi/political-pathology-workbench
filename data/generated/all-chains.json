@@ -41,7 +41,7 @@
           "anti-sacrificial-restraint",
           "corrigibility"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "american-civil-war-union-claim-001",
@@ -177,7 +177,7 @@
           "symbolic-transformation",
           "sacred-political-order-strength"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "british-empire-to-commonwealth-claim-001",
@@ -309,7 +309,7 @@
           "constitutional-containment",
           "sacred-political-order-strength"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "canada-claim-001",
@@ -440,7 +440,7 @@
           "sacralization",
           "corrigibility"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "confederacy-claim-001",
@@ -570,7 +570,7 @@
           "pluralist-reordering",
           "sacred-political-order-strength"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "european-union-claim-001",
@@ -705,7 +705,7 @@
           "corrigibility",
           "sacrifice"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "gandhian-indian-independence-claim-001",
@@ -840,7 +840,7 @@
           "sacrifice",
           "pathology"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "imperial-japan-claim-001",
@@ -967,7 +967,7 @@
           "collective-immortality",
           "sacrifice"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "imperial-japan-claim-002",
@@ -1101,7 +1101,7 @@
           "pathology",
           "sacred-political-order"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "khmer-rouge-cambodia-claim-001",
@@ -1233,7 +1233,7 @@
           "pathology",
           "sacred-political-order"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "maoist-china-claim-001",
@@ -1371,7 +1371,7 @@
           "sacrifice",
           "pathology"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "nazi-germany-claim-001",
@@ -1484,7 +1484,7 @@
           "sacred-political-order-strength",
           "sacrifice"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "interpretation": "The Nazi Volksgemeinschaft is provisionally coded as a very strong sacred political order, while remaining explicitly draft pending verified source passages and broader evidence.",
         "reviewStatus": "argument-review",
         "publicationStatus": "draft",
@@ -1621,7 +1621,7 @@
           "sacred-political-order-strength",
           "institutional-self-preservation"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "nazi-germany-claim-002",
@@ -1754,7 +1754,7 @@
           "frozen-pathology",
           "corrigibility"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "north-korea-claim-001",
@@ -1890,7 +1890,7 @@
           "sacred-enemy-escalation",
           "corrigibility"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "post-9-11-united-states-claim-001",
@@ -2019,7 +2019,7 @@
           "constitutional-containment",
           "sacred-political-order"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "postwar-germany-claim-001",
@@ -2159,7 +2159,7 @@
           "memory-driven-restraint",
           "constitutional-containment"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "postwar-germany-claim-002",
@@ -2277,7 +2277,7 @@
           "sacrifice",
           "pathology"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "revolutionary-france-claim-001",
@@ -2413,7 +2413,7 @@
           "corrigibility",
           "frozen-pathology"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "soviet-communism-claim-001",
@@ -2548,7 +2548,7 @@
           "corrigibility",
           "pathology"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "soviet-union-collapse-claim-001",
@@ -2672,7 +2672,7 @@
           "institutional-fragmentation",
           "legitimacy-collapse"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "soviet-union-collapse-claim-002",
@@ -2806,7 +2806,7 @@
           "sacred-political-order-strength",
           "sacrifice"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "switzerland-claim-001",
@@ -2937,7 +2937,7 @@
           "memory-driven-restraint",
           "sacred-political-order-strength"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "united-states-after-vietnam-claim-001",
@@ -3061,7 +3061,7 @@
           "memory-driven-restraint",
           "corrigibility"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "united-states-after-vietnam-claim-002",
@@ -3194,7 +3194,7 @@
           "corrigibility",
           "sacrifice"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "western-roman-empire-claim-001",
@@ -3327,7 +3327,7 @@
           "collective-immortality",
           "sacrifice"
         ],
-        "codebookVersion": "v1",
+        "codebookVersion": "v1.1",
         "claims": [
           {
             "claimId": "world-war-i-nationalisms-claim-001",

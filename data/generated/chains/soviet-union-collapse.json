@@ -41,7 +41,7 @@
         "corrigibility",
         "pathology"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "soviet-union-collapse-claim-001",
@@ -165,7 +165,7 @@
         "institutional-fragmentation",
         "legitimacy-collapse"
       ],
-      "codebookVersion": "v1",
+      "codebookVersion": "v1.1",
       "claims": [
         {
           "claimId": "soviet-union-collapse-claim-002",

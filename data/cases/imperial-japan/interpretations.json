@@ -41,7 +41,7 @@
       "sacrifice",
       "pathology"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1.1"
   },
   {
     "interpretationId": "imperial-japan-interpretation-002",
@@ -84,6 +84,6 @@
       "collective-immortality",
       "sacrifice"
     ],
-    "codebookVersion": "v1"
+    "codebookVersion": "v1.1"
   }
 ]

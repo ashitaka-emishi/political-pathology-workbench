@@ -6,6 +6,8 @@ import { validateEvidenceModules } from "../validate/validate-evidence-modules.j
 import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
 import { buildClaimPromotionIndex, validateClaimPromotion, validateScoreClaimPromotion } from "../validate/validate-claim-promotion.js";
 import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
+import { validateRepositoryGraph } from "../validate/validate-repository-graph.js";
+import { validateSchemaRegistry } from "../validate/validate-schema-registry.js";
 import { validateScoreIndependence, validateScoreSemantics } from "../validate/validate-score-semantics.js";
 import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateTheoryVariableRecord, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
 
@@ -175,6 +177,7 @@ function validateTheory(theoryDir, bibliographyIds) {
 }
 
 function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds, claimPromotionIndex) {
+  const caseSlug = path.basename(caseDir);
   const casePath = path.join(caseDir, "case.json");
   if (!fs.existsSync(casePath)) {
     addError(`${casePath}: missing case.json`);
@@ -211,6 +214,9 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     const counterclaims = readArray(path.join(caseDir, "counterclaims.json"));
     const searchLogs = readArray(path.join(caseDir, "search-log.json"));
     const rivalExplanations = readArray(path.join(caseDir, "rival-explanations.json"));
+
+    if (caseRecord.caseId !== caseSlug) addError(`${casePath}: caseId ${caseRecord.caseId} does not match directory slug ${caseSlug}`);
+    if (sourcePack.caseId !== caseRecord.caseId) addError(`${caseDir}/source-pack.json: caseId ${sourcePack.caseId} does not match ${caseRecord.caseId}`);
 
     const sourceIds = new Set(sourcePack.sources.map((source) => source.sourceId));
     const passageIds = new Set(passages.map((passage) => passage.passageId));
@@ -278,6 +284,8 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       for (const claimId of interpretation.claimIds ?? []) {
         referencedClaimIds.add(claimId);
         if (!claimIds.has(claimId)) addError(`${interpretation.interpretationId}: claim ${claimId} is missing`);
+        const claim = claimsById.get(claimId);
+        if (claim?.caseId !== interpretation.caseId) addError(`${interpretation.interpretationId}: claim ${claimId} caseId ${claim?.caseId} does not match interpretation caseId ${interpretation.caseId}`);
       }
       if (interpretation.sacrificeHealth && !interpretation.interpretation) addError(`${interpretation.interpretationId}: sacrifice-health classification lacks interpretation notes`);
     }
@@ -288,6 +296,13 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       validateEnum(`${score.scoreId}.publicationStatus`, score.publicationStatus, VOCAB.publicationStatuses);
       scoredInterpretationIds.add(score.interpretationId);
       if (!interpretationIds.has(score.interpretationId)) addError(`${score.scoreId}: interpretation ${score.interpretationId} is missing`);
+      const interpretation = interpretationsById.get(score.interpretationId);
+      if (interpretation) {
+        if (score.caseId !== interpretation.caseId) addError(`${score.scoreId}: caseId ${score.caseId} does not match interpretation ${score.interpretationId} caseId ${interpretation.caseId}`);
+        if (score.theoryId !== interpretation.theoryId) addError(`${score.scoreId}: theoryId ${score.theoryId} does not match interpretation ${score.interpretationId} theoryId ${interpretation.theoryId}`);
+        if (score.variableId !== interpretation.variableId) addError(`${score.scoreId}: variableId ${score.variableId} does not match interpretation ${score.interpretationId} variableId ${interpretation.variableId}`);
+        if (score.codebookVersion && interpretation.codebookVersion && score.codebookVersion !== interpretation.codebookVersion) addError(`${score.scoreId}: codebookVersion ${score.codebookVersion} does not match interpretation ${score.interpretationId} codebookVersion ${interpretation.codebookVersion}`);
+      }
       validateTheoryVariableReference(score, "variableId", theoryVariables, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       validateDefinitionRefs(score.definitionRefs, allowedDefinitionRefs, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
@@ -381,12 +396,15 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     if (sourcePack.sources.length === 1) addWarning(`${caseRecord.caseId}: case has only one source`);
     if (counterclaims.length === 0) addWarning(`${caseRecord.caseId}: case has no counterevidence yet`);
 
-    return { caseRecord, passages, claims, interpretations, scores, counterclaims };
+    return { caseRecord, caseSlug, sourcePack, passages, claims, interpretations, scores, counterclaims, searchLogs, rivalExplanations };
   } catch (error) {
     addError(error.message);
     return null;
   }
 }
+
+const schemaRegistryResult = validateSchemaRegistry(root);
+for (const e of schemaRegistryResult.errors) errors.push(e);
 
 const bibliographyPath = path.join(root, "bibliography", "sources.csl.json");
 const bibliography = fs.existsSync(bibliographyPath) ? readJson(bibliographyPath) : [];
@@ -401,6 +419,7 @@ const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.j
 const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
 const claimPromotionIndex = buildClaimPromotionIndex(root);
 const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds, claimPromotionIndex)).filter(Boolean);
+validateRepositoryGraph(cases, errors);
 
 const evidenceModuleResult = validateEvidenceModules(root, caseIds);
 for (const e of evidenceModuleResult.errors) errors.push(e);
