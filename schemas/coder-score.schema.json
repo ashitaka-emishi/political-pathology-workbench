@@ -5,11 +5,16 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["coderScoreId", "coderId", "caseId", "variableId", "value", "codebookVersion"],
+    "required": ["coderScoreId", "coderId", "codingRoundId", "codebookVersion", "timestamp", "unitId", "unitClass", "caseId", "theoryId", "variableId", "value", "confidence", "adjudicationState"],
     "properties": {
       "coderScoreId": { "type": "string" },
       "coderId": { "type": "string" },
+      "codingRoundId": { "type": "string" },
+      "timestamp": { "type": "string" },
+      "unitId": { "type": "string" },
+      "unitClass": { "$ref": "controlled-vocab.schema.json#/$defs/unitClass" },
       "caseId": { "type": "string" },
+      "theoryId": { "type": "string" },
       "variableId": { "type": "string" },
       "value": {
         "type": "number",
@@ -21,6 +26,17 @@
         "items": { "type": "string" }
       },
       "codebookVersion": { "type": "string" },
+      "confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "adjudicationState": {
+        "type": "string",
+        "enum": ["raw-submitted", "reconciled", "adjudicated", "excluded"]
+      },
+      "submittedAt": { "type": "string" },
+      "adjudicationId": { "type": "string" },
       "notes": { "type": "string" }
     }
   }
