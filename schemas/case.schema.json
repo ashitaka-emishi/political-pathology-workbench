@@ -3,7 +3,7 @@
   "$id": "https://political-pathology-workbench.local/schemas/case.schema.json",
   "title": "Case",
   "type": "object",
-  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"],
+  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"],
   "properties": {
     "caseId": { "type": "string" },
     "title": { "type": "string" },
@@ -16,12 +16,25 @@
     "sacredPoliticalOrderId": { "type": "string" },
     "sacredPoliticalOrderName": { "type": "string" },
     "sacredPoliticalOrderDefinition": { "type": "string" },
-    "sacredPoliticalOrderStrength": {
-      "type": "number",
-      "minimum": 0,
-      "maximum": 5
+    "legacyScaffold": {
+      "type": "object",
+      "description": "Explicitly non-analytical migration metadata preserved from pre-governed scaffold fields.",
+      "properties": {
+        "sacredPoliticalOrderStrength": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "sacredPoliticalOrderStrengthRationale": { "type": "string" },
+        "analyticalUse": {
+          "type": "string",
+          "enum": ["prohibited"]
+        },
+        "migrationNote": { "type": "string" }
+      },
+      "required": ["analyticalUse", "migrationNote"],
+      "additionalProperties": false
     },
-    "sacredPoliticalOrderStrengthRationale": { "type": "string" },
     "caseSelectionRole": { "$ref": "controlled-vocab.schema.json#/$defs/caseSelectionRole" },
     "selectionRationale": { "type": "string" },
     "theoryTest": { "type": "string" },

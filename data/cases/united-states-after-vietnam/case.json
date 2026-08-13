@@ -15,8 +15,6 @@
   "sacredPoliticalOrderId": "united-states-after-vietnam-sacred-political-order",
   "sacredPoliticalOrderName": "United States after Vietnam sacred political order",
   "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with United States after Vietnam.",
-  "sacredPoliticalOrderStrength": 3,
-  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "gold-case",
   "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
   "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -37,5 +35,11 @@
       "sources are unavailable or rights-restricted beyond draft scaffolding",
       "case duplicates another unit without adding mechanism variation"
     ]
+  },
+  "legacyScaffold": {
+    "sacredPoliticalOrderStrength": 3,
+    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "analyticalUse": "prohibited",
+    "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
   }
 }

@@ -9,8 +9,8 @@
 - `sacredPoliticalOrderId`: stable sacred-political-order identifier
 - `sacredPoliticalOrderName`: human-readable sacred-political-order name
 - `sacredPoliticalOrderDefinition`: short operational definition
-- `sacredPoliticalOrderStrength`: 0-5 score
-- `sacredPoliticalOrderStrengthRationale`: evidence-aware rationale
+- `legacyScaffold.sacredPoliticalOrderStrength`: non-analytical pre-governance scaffold value, preserved only with `legacyScaffold.analyticalUse: "prohibited"`
+- Governed analytical construct values must come from `scores.json`, not `case.json`.
 - `caseSelectionRole`: role in research design
 - `selectionRationale`: reason for inclusion
 - `theoryTest`: what the case tests

@@ -122,6 +122,24 @@ function baseCase() {
   assertFixture("graph-invalid-score-interpretation-variable", errors.some((error) => error.includes("does not match interpretation")), errors);
 }
 
+{
+  const leakedCaseFiles = [];
+  for (const slug of fs.readdirSync(path.join(root, "data", "cases")).sort()) {
+    const casePath = path.join(root, "data", "cases", slug, "case.json");
+    const record = JSON.parse(fs.readFileSync(casePath, "utf8"));
+    if (Object.hasOwn(record, "sacredPoliticalOrderStrength") || Object.hasOwn(record, "sacredPoliticalOrderStrengthRationale")) {
+      leakedCaseFiles.push(casePath);
+    }
+  }
+  assertFixture("canonical-cases-no-top-level-scaffold-score", leakedCaseFiles.length === 0, leakedCaseFiles);
+}
+
+{
+  const caseIndex = JSON.parse(fs.readFileSync(path.join(root, "data", "generated", "case-index.json"), "utf8"));
+  const leakedCases = caseIndex.filter((record) => Object.hasOwn(record, "sacredPoliticalOrderStrength"));
+  assertFixture("case-index-no-scaffold-score", leakedCases.length === 0, leakedCases.map((record) => record.caseId));
+}
+
 if (failures > 0) {
   console.error(`${failures} repository-integrity fixture(s) failed.`);
   process.exit(1);

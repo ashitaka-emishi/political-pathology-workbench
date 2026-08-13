@@ -16,8 +16,6 @@
     "sacredPoliticalOrderId": "american-civil-war-union-sacred-political-order",
     "sacredPoliticalOrderName": "American Civil War / Union sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with American Civil War / Union.",
-    "sacredPoliticalOrderStrength": 4,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "hybrid-case",
     "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
     "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
@@ -39,6 +37,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 4,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "american-civil-war-union"
   },
   {
@@ -59,8 +63,6 @@
     "sacredPoliticalOrderId": "american-revolution-sacred-political-order",
     "sacredPoliticalOrderName": "American Revolution sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with the American Revolution.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
     "caseSelectionRole": "deferred-case",
     "selectionRationale": "Created as the canonical PPW target for the American Revolution source case in the Sacrifice Law comparative corpus. Substantive case coding remains deferred until PPW evidence-chain work is added.",
     "theoryTest": "Will test how revolutionary independence, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed.",
@@ -83,6 +85,12 @@
       ]
     },
     "holdoutProtocol": "Do not add interpretations, scores, or outcome-informed theory-development notes until a maintainer explicitly opens the holdout case for evaluation.",
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "american-revolution"
   },
   {
@@ -102,8 +110,6 @@
     "sacredPoliticalOrderId": "british-empire-to-commonwealth-sacred-political-order",
     "sacredPoliticalOrderName": "British Empire to Commonwealth sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with British Empire to Commonwealth.",
-    "sacredPoliticalOrderStrength": 4,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "transformation-case",
     "selectionRationale": "Included to test absorption, reinterpretation, or successor-order transformation.",
     "theoryTest": "Tests whether sacred political orders can survive through reinterpretation or successor-order absorption.",
@@ -125,6 +131,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 4,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "british-empire-to-commonwealth"
   },
   {
@@ -144,8 +156,6 @@
     "sacredPoliticalOrderId": "canada-sacred-political-order",
     "sacredPoliticalOrderName": "Canada sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Canada.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
@@ -167,6 +177,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "canada"
   },
   {
@@ -186,8 +202,6 @@
     "sacredPoliticalOrderId": "confederacy-sacred-political-order",
     "sacredPoliticalOrderName": "Confederacy sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Confederacy.",
-    "sacredPoliticalOrderStrength": 4,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "collapse-case",
     "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
     "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice.",
@@ -209,6 +223,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 4,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "confederacy"
   },
   {
@@ -228,8 +248,6 @@
     "sacredPoliticalOrderId": "european-union-sacred-political-order",
     "sacredPoliticalOrderName": "European Union sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with European Union.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
@@ -250,6 +268,12 @@
         "sources are unavailable or rights-restricted beyond draft scaffolding",
         "case duplicates another unit without adding mechanism variation"
       ]
+    },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
     },
     "slug": "european-union"
   },
@@ -270,8 +294,6 @@
     "sacredPoliticalOrderId": "gandhian-indian-independence-sacred-political-order",
     "sacredPoliticalOrderName": "Gandhian Indian Independence sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Gandhian Indian Independence.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
@@ -293,6 +315,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "gandhian-indian-independence"
   },
   {
@@ -312,8 +340,6 @@
     "sacredPoliticalOrderId": "imperial-japan-sacred-political-order",
     "sacredPoliticalOrderName": "Imperial Japan sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Imperial Japan.",
-    "sacredPoliticalOrderStrength": 5,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -335,6 +361,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 5,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "imperial-japan"
   },
   {
@@ -354,8 +386,6 @@
     "sacredPoliticalOrderId": "khmer-rouge-cambodia-sacred-political-order",
     "sacredPoliticalOrderName": "Khmer Rouge Cambodia sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Khmer Rouge Cambodia.",
-    "sacredPoliticalOrderStrength": 5,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -377,6 +407,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 5,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "khmer-rouge-cambodia"
   },
   {
@@ -396,8 +432,6 @@
     "sacredPoliticalOrderId": "maoist-china-sacred-political-order",
     "sacredPoliticalOrderName": "Maoist China sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Maoist China.",
-    "sacredPoliticalOrderStrength": 5,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -418,6 +452,12 @@
         "sources are unavailable or rights-restricted beyond draft scaffolding",
         "case duplicates another unit without adding mechanism variation"
       ]
+    },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 5,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
     },
     "slug": "maoist-china"
   },
@@ -439,8 +479,6 @@
     "sacredPoliticalOrderId": "napoleonic-france-sacred-political-order",
     "sacredPoliticalOrderName": "Napoleonic France sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Napoleonic France.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
     "caseSelectionRole": "deferred-case",
     "selectionRationale": "Created as the canonical PPW target for the Napoleon / Napoleonic Era source case in the Sacrifice Law comparative corpus. Substantive case coding remains deferred until PPW evidence-chain work is added.",
     "theoryTest": "Will test how revolutionary state inheritance, imperial mobilization, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed.",
@@ -463,6 +501,12 @@
       ]
     },
     "holdoutProtocol": "Do not add interpretations, scores, or outcome-informed theory-development notes until a maintainer explicitly opens the holdout case for evaluation.",
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "napoleonic-france"
   },
   {
@@ -484,8 +528,6 @@
     "sacredPoliticalOrderId": "nazi-germany-sacred-political-order",
     "sacredPoliticalOrderName": "Nazi Germany sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Nazi Germany.",
-    "sacredPoliticalOrderStrength": 5,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -507,6 +549,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 5,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "nazi-germany"
   },
   {
@@ -526,8 +574,6 @@
     "sacredPoliticalOrderId": "north-korea-sacred-political-order",
     "sacredPoliticalOrderName": "North Korea sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with North Korea.",
-    "sacredPoliticalOrderStrength": 5,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "stagnation-case",
     "selectionRationale": "Included to test frozen pathology and persistence without reform or collapse.",
     "theoryTest": "Tests whether an order can persist through repression, inertia, dependency, or managed dysfunction.",
@@ -549,6 +595,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 5,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "north-korea"
   },
   {
@@ -568,8 +620,6 @@
     "sacredPoliticalOrderId": "post-9-11-united-states-sacred-political-order",
     "sacredPoliticalOrderName": "Post-9/11 United States sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Post-9/11 United States.",
-    "sacredPoliticalOrderStrength": 4,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "hybrid-case",
     "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
     "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
@@ -591,6 +641,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 4,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "post-9-11-united-states"
   },
   {
@@ -610,8 +666,6 @@
     "sacredPoliticalOrderId": "postwar-germany-sacred-political-order",
     "sacredPoliticalOrderName": "Postwar Germany sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Postwar Germany.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -633,6 +687,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "postwar-germany"
   },
   {
@@ -652,8 +712,6 @@
     "sacredPoliticalOrderId": "revolutionary-france-sacred-political-order",
     "sacredPoliticalOrderName": "Revolutionary France sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Revolutionary France.",
-    "sacredPoliticalOrderStrength": 5,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -675,6 +733,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 5,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "revolutionary-france"
   },
   {
@@ -694,8 +758,6 @@
     "sacredPoliticalOrderId": "soviet-communism-sacred-political-order",
     "sacredPoliticalOrderName": "Soviet Communism sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Communism.",
-    "sacredPoliticalOrderStrength": 4,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "hybrid-case",
     "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
     "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
@@ -717,6 +779,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 4,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "soviet-communism"
   },
   {
@@ -736,8 +804,6 @@
     "sacredPoliticalOrderId": "soviet-union-collapse-sacred-political-order",
     "sacredPoliticalOrderName": "Soviet Union Collapse sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Union Collapse.",
-    "sacredPoliticalOrderStrength": 4,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -759,6 +825,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 4,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "soviet-union-collapse"
   },
   {
@@ -778,8 +850,6 @@
     "sacredPoliticalOrderId": "switzerland-sacred-political-order",
     "sacredPoliticalOrderName": "Switzerland sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Switzerland.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
@@ -801,6 +871,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "switzerland"
   },
   {
@@ -820,8 +896,6 @@
     "sacredPoliticalOrderId": "united-states-after-vietnam-sacred-political-order",
     "sacredPoliticalOrderName": "United States after Vietnam sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with United States after Vietnam.",
-    "sacredPoliticalOrderStrength": 3,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -843,6 +917,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 3,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "united-states-after-vietnam"
   },
   {
@@ -862,8 +942,6 @@
     "sacredPoliticalOrderId": "western-roman-empire-sacred-political-order",
     "sacredPoliticalOrderName": "Western Roman Empire sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Western Roman Empire.",
-    "sacredPoliticalOrderStrength": 4,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "collapse-case",
     "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
     "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice.",
@@ -885,6 +963,12 @@
         "case duplicates another unit without adding mechanism variation"
       ]
     },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 4,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+    },
     "slug": "western-roman-empire"
   },
   {
@@ -904,8 +988,6 @@
     "sacredPoliticalOrderId": "world-war-i-nationalisms-sacred-political-order",
     "sacredPoliticalOrderName": "World War I Nationalisms sacred political order",
     "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with World War I Nationalisms.",
-    "sacredPoliticalOrderStrength": 5,
-    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
@@ -926,6 +1008,12 @@
         "sources are unavailable or rights-restricted beyond draft scaffolding",
         "case duplicates another unit without adding mechanism variation"
       ]
+    },
+    "legacyScaffold": {
+      "sacredPoliticalOrderStrength": 5,
+      "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+      "analyticalUse": "prohibited",
+      "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
     },
     "slug": "world-war-i-nationalisms"
   }

@@ -15,8 +15,6 @@
   "sacredPoliticalOrderId": "british-empire-to-commonwealth-sacred-political-order",
   "sacredPoliticalOrderName": "British Empire to Commonwealth sacred political order",
   "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with British Empire to Commonwealth.",
-  "sacredPoliticalOrderStrength": 4,
-  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "transformation-case",
   "selectionRationale": "Included to test absorption, reinterpretation, or successor-order transformation.",
   "theoryTest": "Tests whether sacred political orders can survive through reinterpretation or successor-order absorption.",
@@ -37,5 +35,11 @@
       "sources are unavailable or rights-restricted beyond draft scaffolding",
       "case duplicates another unit without adding mechanism variation"
     ]
+  },
+  "legacyScaffold": {
+    "sacredPoliticalOrderStrength": 4,
+    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
+    "analyticalUse": "prohibited",
+    "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
   }
 }

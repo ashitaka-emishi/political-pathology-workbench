@@ -16,8 +16,6 @@
   "sacredPoliticalOrderId": "napoleonic-france-sacred-political-order",
   "sacredPoliticalOrderName": "Napoleonic France sacred political order",
   "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Napoleonic France.",
-  "sacredPoliticalOrderStrength": 3,
-  "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
   "caseSelectionRole": "deferred-case",
   "selectionRationale": "Created as the canonical PPW target for the Napoleon / Napoleonic Era source case in the Sacrifice Law comparative corpus. Substantive case coding remains deferred until PPW evidence-chain work is added.",
   "theoryTest": "Will test how revolutionary state inheritance, imperial mobilization, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed.",
@@ -39,5 +37,11 @@
       "case duplicates another unit without adding mechanism variation"
     ]
   },
-  "holdoutProtocol": "Do not add interpretations, scores, or outcome-informed theory-development notes until a maintainer explicitly opens the holdout case for evaluation."
+  "holdoutProtocol": "Do not add interpretations, scores, or outcome-informed theory-development notes until a maintainer explicitly opens the holdout case for evaluation.",
+  "legacyScaffold": {
+    "sacredPoliticalOrderStrength": 3,
+    "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
+    "analyticalUse": "prohibited",
+    "migrationNote": "Preserved from pre-Milestone 23 case-level scaffold metadata. Governed score records are the only canonical source for analytical scalar values."
+  }
 }
