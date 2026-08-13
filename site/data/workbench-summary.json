@@ -1,6 +1,6 @@
 {
   "status": "draft-research-repository",
-  "generatedAt": "2026-08-13T16:31:09.708Z",
+  "generatedAt": "repository-state",
   "caseCount": 22,
   "theoryCount": 3,
   "scoreCount": 26,
@@ -16,7 +16,12 @@
       "sacredPoliticalOrderId": "american-civil-war-union-sacred-political-order",
       "sacredPoliticalOrderName": "American Civil War / Union sacred political order",
       "sacredPoliticalOrderStrength": 4,
-      "caseSelectionRole": "hybrid-case"
+      "caseSelectionRole": "hybrid-case",
+      "unitClass": "historical-episode",
+      "caseType": "ambiguous-or-mixed-case",
+      "comparabilityGroup": "historical-episode:hybrid-transitional",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "american-revolution",
@@ -28,7 +33,12 @@
       "sacredPoliticalOrderId": "american-revolution-sacred-political-order",
       "sacredPoliticalOrderName": "American Revolution sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "deferred-case"
+      "caseSelectionRole": "deferred-case",
+      "unitClass": "historical-episode",
+      "caseType": "holdout-case",
+      "comparabilityGroup": "historical-episode:hybrid-transitional",
+      "evaluationRole": "holdout-evaluation",
+      "holdoutStatus": "sealed"
     },
     {
       "caseId": "british-empire-to-commonwealth",
@@ -40,7 +50,12 @@
       "sacredPoliticalOrderId": "british-empire-to-commonwealth-sacred-political-order",
       "sacredPoliticalOrderName": "British Empire to Commonwealth sacred political order",
       "sacredPoliticalOrderStrength": 4,
-      "caseSelectionRole": "transformation-case"
+      "caseSelectionRole": "transformation-case",
+      "unitClass": "historical-episode",
+      "caseType": "transformation-case",
+      "comparabilityGroup": "historical-episode:absorption-transformation",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "canada",
@@ -52,7 +67,12 @@
       "sacredPoliticalOrderId": "canada-sacred-political-order",
       "sacredPoliticalOrderName": "Canada sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "countercase"
+      "caseSelectionRole": "countercase",
+      "unitClass": "political-formation",
+      "caseType": "hard-negative-case",
+      "comparabilityGroup": "political-formation:restrained-reordering",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "confederacy",
@@ -64,7 +84,12 @@
       "sacredPoliticalOrderId": "confederacy-sacred-political-order",
       "sacredPoliticalOrderName": "Confederacy sacred political order",
       "sacredPoliticalOrderStrength": 4,
-      "caseSelectionRole": "collapse-case"
+      "caseSelectionRole": "collapse-case",
+      "unitClass": "political-formation",
+      "caseType": "collapse-case",
+      "comparabilityGroup": "political-formation:collapse",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "european-union",
@@ -76,7 +101,12 @@
       "sacredPoliticalOrderId": "european-union-sacred-political-order",
       "sacredPoliticalOrderName": "European Union sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "countercase"
+      "caseSelectionRole": "countercase",
+      "unitClass": "political-formation",
+      "caseType": "hard-negative-case",
+      "comparabilityGroup": "political-formation:restrained-reordering",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "gandhian-indian-independence",
@@ -88,7 +118,12 @@
       "sacredPoliticalOrderId": "gandhian-indian-independence-sacred-political-order",
       "sacredPoliticalOrderName": "Gandhian Indian Independence sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "countercase"
+      "caseSelectionRole": "countercase",
+      "unitClass": "political-formation",
+      "caseType": "hard-negative-case",
+      "comparabilityGroup": "political-formation:restrained-reordering",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "imperial-japan",
@@ -100,7 +135,12 @@
       "sacredPoliticalOrderId": "imperial-japan-sacred-political-order",
       "sacredPoliticalOrderName": "Imperial Japan sacred political order",
       "sacredPoliticalOrderStrength": 5,
-      "caseSelectionRole": "gold-case"
+      "caseSelectionRole": "gold-case",
+      "unitClass": "political-formation",
+      "caseType": "calibration-case",
+      "comparabilityGroup": "political-formation:sacrificial-escalation",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "khmer-rouge-cambodia",
@@ -112,7 +152,12 @@
       "sacredPoliticalOrderId": "khmer-rouge-cambodia-sacred-political-order",
       "sacredPoliticalOrderName": "Khmer Rouge Cambodia sacred political order",
       "sacredPoliticalOrderStrength": 5,
-      "caseSelectionRole": "high-pathology-case"
+      "caseSelectionRole": "high-pathology-case",
+      "unitClass": "political-formation",
+      "caseType": "positive-pathology-case",
+      "comparabilityGroup": "political-formation:sacrificial-escalation",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "maoist-china",
@@ -124,7 +169,12 @@
       "sacredPoliticalOrderId": "maoist-china-sacred-political-order",
       "sacredPoliticalOrderName": "Maoist China sacred political order",
       "sacredPoliticalOrderStrength": 5,
-      "caseSelectionRole": "high-pathology-case"
+      "caseSelectionRole": "high-pathology-case",
+      "unitClass": "political-formation",
+      "caseType": "positive-pathology-case",
+      "comparabilityGroup": "political-formation:sacrificial-escalation",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "napoleonic-france",
@@ -136,7 +186,12 @@
       "sacredPoliticalOrderId": "napoleonic-france-sacred-political-order",
       "sacredPoliticalOrderName": "Napoleonic France sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "deferred-case"
+      "caseSelectionRole": "deferred-case",
+      "unitClass": "historical-episode",
+      "caseType": "holdout-case",
+      "comparabilityGroup": "historical-episode:hybrid-transitional",
+      "evaluationRole": "holdout-evaluation",
+      "holdoutStatus": "sealed"
     },
     {
       "caseId": "nazi-germany",
@@ -148,7 +203,12 @@
       "sacredPoliticalOrderId": "nazi-germany-sacred-political-order",
       "sacredPoliticalOrderName": "Nazi Germany sacred political order",
       "sacredPoliticalOrderStrength": 5,
-      "caseSelectionRole": "gold-case"
+      "caseSelectionRole": "gold-case",
+      "unitClass": "political-formation",
+      "caseType": "calibration-case",
+      "comparabilityGroup": "political-formation:sacrificial-escalation",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "north-korea",
@@ -160,7 +220,12 @@
       "sacredPoliticalOrderId": "north-korea-sacred-political-order",
       "sacredPoliticalOrderName": "North Korea sacred political order",
       "sacredPoliticalOrderStrength": 5,
-      "caseSelectionRole": "stagnation-case"
+      "caseSelectionRole": "stagnation-case",
+      "unitClass": "political-formation",
+      "caseType": "stagnation-case",
+      "comparabilityGroup": "political-formation:stagnation-frozen-pathology",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "post-9-11-united-states",
@@ -172,7 +237,12 @@
       "sacredPoliticalOrderId": "post-9-11-united-states-sacred-political-order",
       "sacredPoliticalOrderName": "Post-9/11 United States sacred political order",
       "sacredPoliticalOrderStrength": 4,
-      "caseSelectionRole": "hybrid-case"
+      "caseSelectionRole": "hybrid-case",
+      "unitClass": "historical-episode",
+      "caseType": "ambiguous-or-mixed-case",
+      "comparabilityGroup": "historical-episode:hybrid-transitional",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "postwar-germany",
@@ -184,7 +254,12 @@
       "sacredPoliticalOrderId": "postwar-germany-sacred-political-order",
       "sacredPoliticalOrderName": "Postwar Germany sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "gold-case"
+      "caseSelectionRole": "gold-case",
+      "unitClass": "political-formation",
+      "caseType": "calibration-case",
+      "comparabilityGroup": "political-formation:restrained-reordering",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "revolutionary-france",
@@ -196,7 +271,12 @@
       "sacredPoliticalOrderId": "revolutionary-france-sacred-political-order",
       "sacredPoliticalOrderName": "Revolutionary France sacred political order",
       "sacredPoliticalOrderStrength": 5,
-      "caseSelectionRole": "high-pathology-case"
+      "caseSelectionRole": "high-pathology-case",
+      "unitClass": "historical-episode",
+      "caseType": "positive-pathology-case",
+      "comparabilityGroup": "historical-episode:sacrificial-escalation",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "soviet-communism",
@@ -208,7 +288,12 @@
       "sacredPoliticalOrderId": "soviet-communism-sacred-political-order",
       "sacredPoliticalOrderName": "Soviet Communism sacred political order",
       "sacredPoliticalOrderStrength": 4,
-      "caseSelectionRole": "hybrid-case"
+      "caseSelectionRole": "hybrid-case",
+      "unitClass": "political-formation",
+      "caseType": "ambiguous-or-mixed-case",
+      "comparabilityGroup": "political-formation:hybrid-transitional",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "soviet-union-collapse",
@@ -220,7 +305,12 @@
       "sacredPoliticalOrderId": "soviet-union-collapse-sacred-political-order",
       "sacredPoliticalOrderName": "Soviet Union Collapse sacred political order",
       "sacredPoliticalOrderStrength": 4,
-      "caseSelectionRole": "gold-case"
+      "caseSelectionRole": "gold-case",
+      "unitClass": "historical-episode",
+      "caseType": "calibration-case",
+      "comparabilityGroup": "historical-episode:collapse",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "switzerland",
@@ -232,7 +322,12 @@
       "sacredPoliticalOrderId": "switzerland-sacred-political-order",
       "sacredPoliticalOrderName": "Switzerland sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "countercase"
+      "caseSelectionRole": "countercase",
+      "unitClass": "political-formation",
+      "caseType": "hard-negative-case",
+      "comparabilityGroup": "political-formation:restrained-reordering",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "united-states-after-vietnam",
@@ -244,7 +339,12 @@
       "sacredPoliticalOrderId": "united-states-after-vietnam-sacred-political-order",
       "sacredPoliticalOrderName": "United States after Vietnam sacred political order",
       "sacredPoliticalOrderStrength": 3,
-      "caseSelectionRole": "gold-case"
+      "caseSelectionRole": "gold-case",
+      "unitClass": "political-formation",
+      "caseType": "calibration-case",
+      "comparabilityGroup": "political-formation:restrained-reordering",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "western-roman-empire",
@@ -256,7 +356,12 @@
       "sacredPoliticalOrderId": "western-roman-empire-sacred-political-order",
       "sacredPoliticalOrderName": "Western Roman Empire sacred political order",
       "sacredPoliticalOrderStrength": 4,
-      "caseSelectionRole": "collapse-case"
+      "caseSelectionRole": "collapse-case",
+      "unitClass": "political-formation",
+      "caseType": "collapse-case",
+      "comparabilityGroup": "political-formation:collapse",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     },
     {
       "caseId": "world-war-i-nationalisms",
@@ -268,7 +373,12 @@
       "sacredPoliticalOrderId": "world-war-i-nationalisms-sacred-political-order",
       "sacredPoliticalOrderName": "World War I Nationalisms sacred political order",
       "sacredPoliticalOrderStrength": 5,
-      "caseSelectionRole": "high-pathology-case"
+      "caseSelectionRole": "high-pathology-case",
+      "unitClass": "historical-episode",
+      "caseType": "positive-pathology-case",
+      "comparabilityGroup": "historical-episode:sacrificial-escalation",
+      "evaluationRole": "theory-development",
+      "holdoutStatus": "not-held-out"
     }
   ],
   "theories": [

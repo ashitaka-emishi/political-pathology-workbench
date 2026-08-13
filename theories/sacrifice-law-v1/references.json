@@ -1,6 +1,14 @@
 [
   {
     "sourceId": "koenigsberg-nations-have-right-to-kill",
-    "role": "background-theory"
+    "role": "background-theory",
+    "supportsVariables": [
+      "symbolic-order",
+      "self-sacralization",
+      "sacrificial-demand"
+    ],
+    "supportsPropositions": [
+      "slw-self-sacralization-legitimates-sacrifice"
+    ]
   }
 ]

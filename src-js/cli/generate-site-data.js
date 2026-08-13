@@ -15,7 +15,7 @@ const counterclaims = readJson(path.join(generatedDir, "all-counterclaims.json")
 
 const payload = {
   status: "draft-research-repository",
-  generatedAt: new Date().toISOString(),
+  generatedAt: "repository-state",
   caseCount: caseIndex.length,
   theoryCount: theoryIndex.length,
   scoreCount: scores.length,

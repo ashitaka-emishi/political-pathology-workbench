@@ -1,6 +1,15 @@
 [
   {
     "sourceId": "koenigsberg-nations-have-right-to-kill",
-    "role": "theoretical-background"
+    "role": "theoretical-background",
+    "supportsVariables": [
+      "collective-immortality",
+      "sacred-political-order-strength",
+      "pathology"
+    ],
+    "supportsPropositions": [
+      "gtpp-crisis-outcomes-vary",
+      "gtpp-pathology-more-than-violence"
+    ]
   }
 ]

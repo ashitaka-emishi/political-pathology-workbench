@@ -1,0 +1,21 @@
+[
+  {
+    "propositionId": "slw-self-sacralization-legitimates-sacrifice",
+    "text": "When a sacred political order treats its own survival as sacred under perceived existential threat, self-sacralization can legitimate sacrificial demand.",
+    "variableIds": [
+      "symbolic-order",
+      "self-sacralization",
+      "sacrificial-demand",
+      "sacrifice-health",
+      "sacrifice-boundedness"
+    ],
+    "falsificationCriteria": [
+      "Perceived existential threat does not increase self-sacralization or sacrificial demand in comparable cases.",
+      "Sacrificial demand appears without sacred-order self-preservation claims and is better explained by ordinary instrumental mobilization.",
+      "Anti-sacrificial or bounded-sacrifice cases cannot be distinguished from pathological sacrifice using the proposed variables."
+    ],
+    "referenceIds": [
+      "koenigsberg-nations-have-right-to-kill"
+    ]
+  }
+]

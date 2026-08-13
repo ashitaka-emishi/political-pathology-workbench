@@ -1,0 +1,36 @@
+[
+  {
+    "propositionId": "gtpp-crisis-outcomes-vary",
+    "text": "Sacred political orders under crisis can escalate sacrifice, collapse, freeze, transform, or restrain themselves depending on correction capacity and institutional embodiment.",
+    "variableIds": [
+      "sacred-political-order-strength",
+      "corrigibility",
+      "pathology"
+    ],
+    "falsificationCriteria": [
+      "Comparable cases repeatedly show no relationship between correction capacity and outcome differentiation.",
+      "Sacrificial escalation, collapse, and restrained reordering can be explained without reference to sacred-political-order claims or institutional embodiment.",
+      "High-corrigibility cases systematically escalate sacrifice at the same rate as low-corrigibility cases under similar crisis pressure."
+    ],
+    "referenceIds": [
+      "koenigsberg-nations-have-right-to-kill"
+    ]
+  },
+  {
+    "propositionId": "gtpp-pathology-more-than-violence",
+    "text": "Political pathology includes maladaptive sacrifice, suppression of correction, collapse, frozen dysfunction, and successor-order transformation, not only overt mass violence.",
+    "variableIds": [
+      "pathology",
+      "corrigibility",
+      "sacralization"
+    ],
+    "falsificationCriteria": [
+      "Operational coding cannot distinguish restrained sacrifice from pathological sacrifice.",
+      "Cases coded as collapse, frozen pathology, or absorption-transformation lack any traceable mechanism beyond ordinary violence or coercion.",
+      "Counterevidence shows the pathology construct collapses into outcome labels rather than explaining them."
+    ],
+    "referenceIds": [
+      "koenigsberg-nations-have-right-to-kill"
+    ]
+  }
+]
