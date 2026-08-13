@@ -6,6 +6,7 @@ import { validateEvidenceModules } from "../validate/validate-evidence-modules.j
 import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
 import { validateClaimPromotion } from "../validate/validate-claim-promotion.js";
 import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
+import { validateScoreSemantics } from "../validate/validate-score-semantics.js";
 
 const root = process.cwd();
 const errors = [];
@@ -191,17 +192,17 @@ function validateCase(caseDir, theoryIds, bibliographyIds) {
     }
 
     for (const score of scores) {
-      requireFields(`${caseDir}/scores.json:${score.scoreId}`, score, ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "value", "confidence", "reviewStatus"]);
+      requireFields(`${caseDir}/scores.json:${score.scoreId}`, score, ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "valueSemantics", "confidence", "reviewStatus"]);
       validateEnum(`${score.scoreId}.reviewStatus`, score.reviewStatus, VOCAB.reviewStatuses);
       validateEnum(`${score.scoreId}.publicationStatus`, score.publicationStatus, VOCAB.publicationStatuses);
       scoredInterpretationIds.add(score.interpretationId);
       if (!interpretationIds.has(score.interpretationId)) addError(`${score.scoreId}: interpretation ${score.interpretationId} is missing`);
-      if (typeof score.value !== "number" || score.value < 0 || score.value > 5) addError(`${score.scoreId}: value must be a number from 0 to 5`);
+      validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
       if (score.publicationStatus === "published" && !score.confidence?.rationale) addError(`${score.scoreId}: published score lacks confidence rationale`);
       if (score.confidence?.value < 0.5) addWarning(`${score.scoreId}: score confidence is below 0.5`);
-      if (score.value >= 4 && score.variableId === "sacred-political-order-strength" && !caseRecord.sacredPoliticalOrderStrengthRationale) addWarning(`${score.scoreId}: high sacred-political-order score lacks obligation or sacrifice rationale`);
-      if (score.value >= 4 && ["sacralization", "collective-immortality", "sacred-enemy", "pathology", "corrigibility"].includes(score.variableId) && !(score.definitionRefs ?? []).includes(score.variableId)) addWarning(`${score.scoreId}: high ${score.variableId} score should cite its definition`);
+      if (typeof score.value === "number" && score.value >= 4 && score.variableId === "sacred-political-order-strength" && !caseRecord.sacredPoliticalOrderStrengthRationale) addWarning(`${score.scoreId}: high sacred-political-order score lacks obligation or sacrifice rationale`);
+      if (typeof score.value === "number" && score.value >= 4 && ["sacralization", "collective-immortality", "sacred-enemy", "pathology", "corrigibility"].includes(score.variableId) && !(score.definitionRefs ?? []).includes(score.variableId)) addWarning(`${score.scoreId}: high ${score.variableId} score should cite its definition`);
     }
 
     for (const counterclaim of counterclaims) {

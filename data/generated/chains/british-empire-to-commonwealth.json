@@ -119,8 +119,9 @@
             "corrigibility",
             "symbolic-transformation"
           ],
-          "codebookVersion": "v1",
-          "reviewNote": "Score value 3/5 defensible: symbolic-transformation mechanism (Balfour Declaration / Statute of Westminster) represents partial corrigibility — the order relinquished some authority without fully embracing equality. Confidence 0.58 is proportionate: neocolonial continuity and incomplete transformation are genuine uncertainty factors, not overcautious caveats. Hold at score-review until chain expansion to ≥4 passages."
+          "codebookVersion": "v1.1",
+          "reviewNote": "Score value 3/5 defensible: symbolic-transformation mechanism (Balfour Declaration / Statute of Westminster) represents partial corrigibility — the order relinquished some authority without fully embracing equality. Confidence 0.58 is proportionate: neocolonial continuity and incomplete transformation are genuine uncertainty factors, not overcautious caveats. Hold at score-review until chain expansion to ≥4 passages.",
+          "valueSemantics": "construct-magnitude"
         }
       ]
     }

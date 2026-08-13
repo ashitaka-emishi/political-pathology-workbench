@@ -1,0 +1,15 @@
+{
+  "scoreId": "fixture-score-invalid-confidence-range",
+  "caseId": "fixture-case",
+  "theoryId": "general-theory-political-pathology-v1",
+  "variableId": "corrigibility",
+  "interpretationId": "fixture-interpretation",
+  "value": 3,
+  "valueSemantics": "construct-magnitude",
+  "confidence": {
+    "value": 1.4,
+    "label": "impossible",
+    "rationale": "Confidence must remain in the unit interval."
+  },
+  "reviewStatus": "draft"
+}

@@ -1,0 +1,15 @@
+{
+  "scoreId": "fixture-score-invalid-null-missing-reason",
+  "caseId": "fixture-case",
+  "theoryId": "general-theory-political-pathology-v1",
+  "variableId": "pathology",
+  "interpretationId": "fixture-interpretation",
+  "value": null,
+  "valueSemantics": "unknown",
+  "confidence": {
+    "value": 0.2,
+    "label": "low",
+    "rationale": "The score is not assigned."
+  },
+  "reviewStatus": "draft"
+}

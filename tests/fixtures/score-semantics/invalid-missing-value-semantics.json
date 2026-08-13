@@ -1,0 +1,14 @@
+{
+  "scoreId": "fixture-score-invalid-missing-value-semantics",
+  "caseId": "fixture-case",
+  "theoryId": "general-theory-political-pathology-v1",
+  "variableId": "corrigibility",
+  "interpretationId": "fixture-interpretation",
+  "value": 3,
+  "confidence": {
+    "value": 0.6,
+    "label": "moderate",
+    "rationale": "The estimate is present but its semantics are undeclared."
+  },
+  "reviewStatus": "draft"
+}

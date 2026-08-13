@@ -5,7 +5,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "value", "confidence", "reviewStatus"],
+    "required": ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "value", "valueSemantics", "confidence", "reviewStatus"],
     "properties": {
       "scoreId": { "type": "string" },
       "caseId": { "type": "string" },
@@ -13,16 +13,51 @@
       "variableId": { "type": "string" },
       "interpretationId": { "type": "string" },
       "value": {
-        "type": "number",
+        "description": "Substantive construct magnitude. Use null when evidence is insufficient or the value is unknown.",
+        "type": ["number", "null"],
         "minimum": 0,
         "maximum": 5
+      },
+      "valueSemantics": {
+        "type": "string",
+        "enum": ["construct-magnitude", "unknown"],
+        "description": "Declares whether value is a construct-magnitude estimate or an unknown placeholder."
+      },
+      "unknownReason": {
+        "type": "string",
+        "description": "Required when value is null; explains why the construct magnitude is unknown."
       },
       "definitionRefs": {
         "type": "array",
         "items": { "type": "string" }
       },
       "codebookVersion": { "type": "string" },
-      "confidence": { "type": "object" },
+      "confidence": {
+        "type": "object",
+        "required": ["value", "label", "rationale"],
+        "properties": {
+          "value": { "type": "number", "minimum": 0, "maximum": 1 },
+          "label": { "type": "string" },
+          "rationale": { "type": "string" },
+          "uncertaintyFactors": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+      "evidenceQuality": {
+        "type": "object",
+        "required": ["value"],
+        "properties": {
+          "value": { "type": "number", "minimum": 0, "maximum": 1 },
+          "dimensions": {
+            "type": "object",
+            "additionalProperties": { "type": "number", "minimum": 0, "maximum": 1 }
+          },
+          "rationale": { "type": "string" }
+        },
+        "description": "Optional evidence-chain quality assessment, separate from confidence in the construct estimate."
+      },
       "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
       "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" }
     }

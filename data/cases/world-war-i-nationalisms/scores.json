@@ -23,7 +23,8 @@
       "collective-immortality",
       "sacrifice"
     ],
-    "codebookVersion": "v1",
-    "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (nationalist sacrifice discourse across all major belligerents) supports maximum sacred-political-order-strength. Confidence 0.60 reflects chain-requires-expansion and the multi-nation unit-of-analysis problem (the case aggregates several national orders). Hold at score-review; specify the unit of analysis before human-reviewed."
+    "codebookVersion": "v1.1",
+    "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (nationalist sacrifice discourse across all major belligerents) supports maximum sacred-political-order-strength. Confidence 0.60 reflects chain-requires-expansion and the multi-nation unit-of-analysis problem (the case aggregates several national orders). Hold at score-review; specify the unit of analysis before human-reviewed.",
+    "valueSemantics": "construct-magnitude"
   }
 ]

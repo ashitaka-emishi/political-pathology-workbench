@@ -125,8 +125,9 @@
             "collective-immortality",
             "frozen-pathology"
           ],
-          "codebookVersion": "v1",
-          "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (Marxist-Leninist historical materialism, USSR Constitution 1977 collective ownership provisions) supports maximum sacred-political-order-strength in the high-period order. Confidence 0.60 reflects three uncertainty factors (chain minimal, founding-text-to-practice gap, wide periodization). Hold at score-review until chain expansion and periodization is bounded to a specific Soviet period."
+          "codebookVersion": "v1.1",
+          "reviewNote": "Score value 5/5 defensible: collective-immortality-to-sacrifice mechanism (Marxist-Leninist historical materialism, USSR Constitution 1977 collective ownership provisions) supports maximum sacred-political-order-strength in the high-period order. Confidence 0.60 reflects three uncertainty factors (chain minimal, founding-text-to-practice gap, wide periodization). Hold at score-review until chain expansion and periodization is bounded to a specific Soviet period.",
+          "valueSemantics": "construct-magnitude"
         }
       ]
     }

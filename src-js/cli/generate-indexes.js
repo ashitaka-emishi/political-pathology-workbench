@@ -143,7 +143,9 @@ const scoresByCase = {};
 for (const s of allScores) {
   if (!scoresByCase[s.caseId]) scoresByCase[s.caseId] = {};
   if (!scoresByCase[s.caseId][s.variableId]) scoresByCase[s.caseId][s.variableId] = [];
-  scoresByCase[s.caseId][s.variableId].push(s.value);
+  if (typeof s.value === "number") {
+    scoresByCase[s.caseId][s.variableId].push(s.value);
+  }
 }
 
 const primaryInterpByCase = {};
