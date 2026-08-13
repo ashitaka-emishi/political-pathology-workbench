@@ -19,5 +19,23 @@
   "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "countercase",
   "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
-  "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation."
+  "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
+  "unitClass": "political-formation",
+  "caseType": "hard-negative-case",
+  "comparabilityGroup": "political-formation:restrained-reordering",
+  "evaluationRole": "theory-development",
+  "holdoutStatus": "not-held-out",
+  "samplingMetadata": {
+    "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+    "inclusionCriteria": [
+      "case can be represented as a political formation or bounded historical episode",
+      "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+      "case contributes variation across outcomes, mechanisms, or negative controls"
+    ],
+    "exclusionCriteria": [
+      "unit boundaries cannot be stated clearly",
+      "sources are unavailable or rights-restricted beyond draft scaffolding",
+      "case duplicates another unit without adding mechanism variation"
+    ]
+  }
 }

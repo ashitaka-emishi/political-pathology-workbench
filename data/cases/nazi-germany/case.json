@@ -21,5 +21,23 @@
   "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "gold-case",
   "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
-  "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice."
+  "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+  "unitClass": "political-formation",
+  "caseType": "calibration-case",
+  "comparabilityGroup": "political-formation:sacrificial-escalation",
+  "evaluationRole": "theory-development",
+  "holdoutStatus": "not-held-out",
+  "samplingMetadata": {
+    "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+    "inclusionCriteria": [
+      "case can be represented as a political formation or bounded historical episode",
+      "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+      "case contributes variation across outcomes, mechanisms, or negative controls"
+    ],
+    "exclusionCriteria": [
+      "unit boundaries cannot be stated clearly",
+      "sources are unavailable or rights-restricted beyond draft scaffolding",
+      "case duplicates another unit without adding mechanism variation"
+    ]
+  }
 }

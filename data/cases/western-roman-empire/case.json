@@ -19,5 +19,23 @@
   "sacredPoliticalOrderStrengthRationale": "Provisional scaffold score based on the case outcome category; requires evidence-chain review before scholarly use.",
   "caseSelectionRole": "collapse-case",
   "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
-  "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice."
+  "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice.",
+  "unitClass": "political-formation",
+  "caseType": "collapse-case",
+  "comparabilityGroup": "political-formation:collapse",
+  "evaluationRole": "theory-development",
+  "holdoutStatus": "not-held-out",
+  "samplingMetadata": {
+    "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+    "inclusionCriteria": [
+      "case can be represented as a political formation or bounded historical episode",
+      "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+      "case contributes variation across outcomes, mechanisms, or negative controls"
+    ],
+    "exclusionCriteria": [
+      "unit boundaries cannot be stated clearly",
+      "sources are unavailable or rights-restricted beyond draft scaffolding",
+      "case duplicates another unit without adding mechanism variation"
+    ]
+  }
 }

@@ -21,6 +21,24 @@
     "caseSelectionRole": "hybrid-case",
     "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
     "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
+    "unitClass": "historical-episode",
+    "caseType": "ambiguous-or-mixed-case",
+    "comparabilityGroup": "historical-episode:hybrid-transitional",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "american-civil-war-union"
   },
   {
@@ -46,6 +64,25 @@
     "caseSelectionRole": "deferred-case",
     "selectionRationale": "Created as the canonical PPW target for the American Revolution source case in the Sacrifice Law comparative corpus. Substantive case coding remains deferred until PPW evidence-chain work is added.",
     "theoryTest": "Will test how revolutionary independence, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed.",
+    "unitClass": "historical-episode",
+    "caseType": "holdout-case",
+    "comparabilityGroup": "historical-episode:hybrid-transitional",
+    "evaluationRole": "holdout-evaluation",
+    "holdoutStatus": "sealed",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
+    "holdoutProtocol": "Do not add interpretations, scores, or outcome-informed theory-development notes until a maintainer explicitly opens the holdout case for evaluation.",
     "slug": "american-revolution"
   },
   {
@@ -70,6 +107,24 @@
     "caseSelectionRole": "transformation-case",
     "selectionRationale": "Included to test absorption, reinterpretation, or successor-order transformation.",
     "theoryTest": "Tests whether sacred political orders can survive through reinterpretation or successor-order absorption.",
+    "unitClass": "historical-episode",
+    "caseType": "transformation-case",
+    "comparabilityGroup": "historical-episode:absorption-transformation",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "british-empire-to-commonwealth"
   },
   {
@@ -94,6 +149,24 @@
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
+    "unitClass": "political-formation",
+    "caseType": "hard-negative-case",
+    "comparabilityGroup": "political-formation:restrained-reordering",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "canada"
   },
   {
@@ -118,6 +191,24 @@
     "caseSelectionRole": "collapse-case",
     "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
     "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "collapse-case",
+    "comparabilityGroup": "political-formation:collapse",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "confederacy"
   },
   {
@@ -142,6 +233,24 @@
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
+    "unitClass": "political-formation",
+    "caseType": "hard-negative-case",
+    "comparabilityGroup": "political-formation:restrained-reordering",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "european-union"
   },
   {
@@ -166,6 +275,24 @@
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
+    "unitClass": "political-formation",
+    "caseType": "hard-negative-case",
+    "comparabilityGroup": "political-formation:restrained-reordering",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "gandhian-indian-independence"
   },
   {
@@ -190,6 +317,24 @@
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "calibration-case",
+    "comparabilityGroup": "political-formation:sacrificial-escalation",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "imperial-japan"
   },
   {
@@ -214,6 +359,24 @@
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "positive-pathology-case",
+    "comparabilityGroup": "political-formation:sacrificial-escalation",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "khmer-rouge-cambodia"
   },
   {
@@ -238,6 +401,24 @@
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "positive-pathology-case",
+    "comparabilityGroup": "political-formation:sacrificial-escalation",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "maoist-china"
   },
   {
@@ -263,6 +444,25 @@
     "caseSelectionRole": "deferred-case",
     "selectionRationale": "Created as the canonical PPW target for the Napoleon / Napoleonic Era source case in the Sacrifice Law comparative corpus. Substantive case coding remains deferred until PPW evidence-chain work is added.",
     "theoryTest": "Will test how revolutionary state inheritance, imperial mobilization, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed.",
+    "unitClass": "historical-episode",
+    "caseType": "holdout-case",
+    "comparabilityGroup": "historical-episode:hybrid-transitional",
+    "evaluationRole": "holdout-evaluation",
+    "holdoutStatus": "sealed",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
+    "holdoutProtocol": "Do not add interpretations, scores, or outcome-informed theory-development notes until a maintainer explicitly opens the holdout case for evaluation.",
     "slug": "napoleonic-france"
   },
   {
@@ -289,6 +489,24 @@
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "calibration-case",
+    "comparabilityGroup": "political-formation:sacrificial-escalation",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "nazi-germany"
   },
   {
@@ -313,6 +531,24 @@
     "caseSelectionRole": "stagnation-case",
     "selectionRationale": "Included to test frozen pathology and persistence without reform or collapse.",
     "theoryTest": "Tests whether an order can persist through repression, inertia, dependency, or managed dysfunction.",
+    "unitClass": "political-formation",
+    "caseType": "stagnation-case",
+    "comparabilityGroup": "political-formation:stagnation-frozen-pathology",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "north-korea"
   },
   {
@@ -337,6 +573,24 @@
     "caseSelectionRole": "hybrid-case",
     "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
     "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
+    "unitClass": "historical-episode",
+    "caseType": "ambiguous-or-mixed-case",
+    "comparabilityGroup": "historical-episode:hybrid-transitional",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "post-9-11-united-states"
   },
   {
@@ -361,6 +615,24 @@
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "calibration-case",
+    "comparabilityGroup": "political-formation:restrained-reordering",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "postwar-germany"
   },
   {
@@ -385,6 +657,24 @@
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "historical-episode",
+    "caseType": "positive-pathology-case",
+    "comparabilityGroup": "historical-episode:sacrificial-escalation",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "revolutionary-france"
   },
   {
@@ -409,6 +699,24 @@
     "caseSelectionRole": "hybrid-case",
     "selectionRationale": "Included to test mixed or sequential political-pathology outcomes.",
     "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
+    "unitClass": "political-formation",
+    "caseType": "ambiguous-or-mixed-case",
+    "comparabilityGroup": "political-formation:hybrid-transitional",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "soviet-communism"
   },
   {
@@ -433,6 +741,24 @@
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "historical-episode",
+    "caseType": "calibration-case",
+    "comparabilityGroup": "historical-episode:collapse",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "soviet-union-collapse"
   },
   {
@@ -457,6 +783,24 @@
     "caseSelectionRole": "countercase",
     "selectionRationale": "Included to test whether sacred political order and institutional embodiment can be restrained by corrigibility, pluralism, and bounded sacrifice.",
     "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
+    "unitClass": "political-formation",
+    "caseType": "hard-negative-case",
+    "comparabilityGroup": "political-formation:restrained-reordering",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "switzerland"
   },
   {
@@ -481,6 +825,24 @@
     "caseSelectionRole": "gold-case",
     "selectionRationale": "Included as a reference case for fuller evidence-chain development and methodological calibration.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "calibration-case",
+    "comparabilityGroup": "political-formation:restrained-reordering",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "united-states-after-vietnam"
   },
   {
@@ -505,6 +867,24 @@
     "caseSelectionRole": "collapse-case",
     "selectionRationale": "Included to test loss of legitimacy, coherence, authority, or command capacity.",
     "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice.",
+    "unitClass": "political-formation",
+    "caseType": "collapse-case",
+    "comparabilityGroup": "political-formation:collapse",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "western-roman-empire"
   },
   {
@@ -529,6 +909,24 @@
     "caseSelectionRole": "high-pathology-case",
     "selectionRationale": "Included to test the sacrificial-escalation pathway under strong order pressure.",
     "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
+    "unitClass": "historical-episode",
+    "caseType": "positive-pathology-case",
+    "comparabilityGroup": "historical-episode:sacrificial-escalation",
+    "evaluationRole": "theory-development",
+    "holdoutStatus": "not-held-out",
+    "samplingMetadata": {
+      "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+      "inclusionCriteria": [
+        "case can be represented as a political formation or bounded historical episode",
+        "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+        "case contributes variation across outcomes, mechanisms, or negative controls"
+      ],
+      "exclusionCriteria": [
+        "unit boundaries cannot be stated clearly",
+        "sources are unavailable or rights-restricted beyond draft scaffolding",
+        "case duplicates another unit without adding mechanism variation"
+      ]
+    },
     "slug": "world-war-i-nationalisms"
   }
 ]

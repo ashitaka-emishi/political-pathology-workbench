@@ -25,6 +25,10 @@ const VOCAB = {
   sacrificeBoundedness: new Set(["bounded", "partially-bounded", "unbounded", "unknown"]),
   sacrificeTargets: new Set(["self", "enemy", "in-group", "out-group", "mixed", "unknown"]),
   caseSelectionRoles: new Set(["gold-case", "high-pathology-case", "countercase", "collapse-case", "transformation-case", "stagnation-case", "hybrid-case", "deferred-case", "rejected-case"]),
+  unitClasses: new Set(["political-formation", "historical-episode", "corpus-subset"]),
+  caseTypes: new Set(["calibration-case", "positive-pathology-case", "hard-negative-case", "collapse-case", "transformation-case", "stagnation-case", "ambiguous-or-mixed-case", "holdout-case", "excluded-case"]),
+  evaluationRoles: new Set(["theory-development", "holdout-evaluation", "open-evaluation", "excluded"]),
+  holdoutStatuses: new Set(["not-held-out", "sealed", "opened", "retired"]),
   counterclaimEffects: new Set(["contradicts", "qualifies", "limits", "complicates", "supports-alternative-explanation"]),
   searchPurposes: new Set(["supporting", "disconfirming", "neutral"])
 };
@@ -144,11 +148,21 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
 
   try {
     const caseRecord = readJson(casePath);
-    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest"]);
+    requireFields(casePath, caseRecord, ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"]);
     validateEnum(`${caseRecord.caseId}.outcome`, caseRecord.outcome, VOCAB.outcomes);
     validateEnum(`${caseRecord.caseId}.reviewStatus`, caseRecord.reviewStatus, VOCAB.reviewStatuses);
     validateEnum(`${caseRecord.caseId}.publicationStatus`, caseRecord.publicationStatus, VOCAB.publicationStatuses);
     validateEnum(`${caseRecord.caseId}.caseSelectionRole`, caseRecord.caseSelectionRole, VOCAB.caseSelectionRoles);
+    validateEnum(`${caseRecord.caseId}.unitClass`, caseRecord.unitClass, VOCAB.unitClasses);
+    validateEnum(`${caseRecord.caseId}.caseType`, caseRecord.caseType, VOCAB.caseTypes);
+    validateEnum(`${caseRecord.caseId}.evaluationRole`, caseRecord.evaluationRole, VOCAB.evaluationRoles);
+    validateEnum(`${caseRecord.caseId}.holdoutStatus`, caseRecord.holdoutStatus, VOCAB.holdoutStatuses);
+    if (caseRecord.evaluationRole === "holdout-evaluation" && caseRecord.holdoutStatus === "not-held-out") addError(`${caseRecord.caseId}: holdout-evaluation cases must not use holdoutStatus not-held-out`);
+    if (caseRecord.holdoutStatus === "sealed" && !caseRecord.holdoutProtocol) addError(`${caseRecord.caseId}: sealed holdout requires holdoutProtocol`);
+    if (!caseRecord.comparabilityGroup?.startsWith(`${caseRecord.unitClass}:`)) addWarning(`${caseRecord.caseId}: comparabilityGroup should start with unitClass`);
+    if (!caseRecord.samplingMetadata?.targetPopulation || !Array.isArray(caseRecord.samplingMetadata?.inclusionCriteria) || !Array.isArray(caseRecord.samplingMetadata?.exclusionCriteria)) {
+      addError(`${caseRecord.caseId}: samplingMetadata requires targetPopulation, inclusionCriteria, and exclusionCriteria`);
+    }
     if (typeof caseRecord.sacredPoliticalOrderStrength !== "number" || caseRecord.sacredPoliticalOrderStrength < 0 || caseRecord.sacredPoliticalOrderStrength > 5) addError(`${caseRecord.caseId}: sacredPoliticalOrderStrength must be a number from 0 to 5`);
 
     const sourcePack = readJson(path.join(caseDir, "source-pack.json"));
@@ -173,6 +187,15 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     const referencedPassageIds = new Set();
     const referencedClaimIds = new Set();
     const scoredInterpretationIds = new Set();
+
+    if (caseRecord.holdoutStatus === "sealed") {
+      if (claims.length > 0 || interpretations.length > 0 || scores.length > 0) {
+        addError(`${caseRecord.caseId}: sealed holdout cannot contain claims, interpretations, or scores`);
+      }
+      if (caseRecord.outcome && caseRecord.sacredPoliticalOrderStrengthRationale?.toLowerCase().includes("outcome")) {
+        addWarning(`${caseRecord.caseId}: sealed holdout retains scaffold outcome metadata; keep it out of theory-development workflows until opened`);
+      }
+    }
 
     for (const source of sourcePack.sources) {
       validateEnum(`${caseRecord.caseId}.source.${source.sourceId}.role`, source.role, VOCAB.sourceRoles);
