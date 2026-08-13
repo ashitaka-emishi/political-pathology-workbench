@@ -4,6 +4,7 @@
   "subtype": "transition",
   "period": "twentieth century",
   "outcome": "absorption-transformation",
+  "outcomeClass": "absorption-transformation",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests whether sacred political orders can survive through reinterpretation or successor-order absorption.",
   "unitClass": "historical-episode",
   "caseType": "transformation-case",
-  "comparabilityGroup": "historical-episode:absorption-transformation",
+  "designStratum": "historical-episode:transition",
+  "comparabilityGroup": "historical-episode:transition",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

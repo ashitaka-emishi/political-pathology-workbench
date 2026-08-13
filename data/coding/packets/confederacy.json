@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-confederacy-packet",
+  "caseId": "confederacy",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "confederacy",
+      "title": "Confederacy",
+      "subtype": "civil-religion",
+      "period": "1861-1865",
+      "sacredPoliticalOrderId": "confederacy-sacred-political-order",
+      "sacredPoliticalOrderName": "Confederacy sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Confederacy.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:civil-religion",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "csa-constitution-1861",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "stephens-cornerstone-speech-1861",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "confederacy-passage-001",
+        "sourceId": "csa-constitution-1861",
+        "locator": "Preamble, Constitution of the Confederate States of America, 11 March 1861; text verified at https://avalon.law.yale.edu/19th_century/csa_csa.asp",
+        "text": "We, the people of the Confederate States, each State acting in its sovereign and independent character, in order to form a permanent federal government, establish justice, insure domestic tranquillity, and secure the blessings of liberty to ourselves and our posterity invoking the favor and guidance of Almighty God do ordain and establish this Constitution for the Confederate States of America.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "confederacy-passage-002",
+        "sourceId": "stephens-cornerstone-speech-1861",
+        "locator": "Alexander H. Stephens, 'Cornerstone Speech,' Savannah, Georgia, 21 March 1861; transcribed in Savannah Republican; text verified at https://www.battlefields.org/learn/primary-sources/cornerstone-speech",
+        "text": "Our new government is founded upon exactly the opposite idea; its foundations are laid, its corner-stone rests, upon the great truth that the negro is not equal to the white man.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:930087f3ab700350760d7bdcaa43a32100b1fc8ea766563900628897d53a509e"
+}

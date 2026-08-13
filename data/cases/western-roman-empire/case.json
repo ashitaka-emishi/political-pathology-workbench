@@ -4,6 +4,7 @@
   "subtype": "empire",
   "period": "395-476",
   "outcome": "collapse",
+  "outcomeClass": "collapse",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests whether embodied sacred political orders can lose legitimacy or command capacity instead of escalating sacrifice.",
   "unitClass": "political-formation",
   "caseType": "collapse-case",
-  "comparabilityGroup": "political-formation:collapse",
+  "designStratum": "political-formation:empire",
+  "comparabilityGroup": "political-formation:empire",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

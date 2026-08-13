@@ -1,0 +1,73 @@
+{
+  "packetId": "round-001-canada-packet",
+  "caseId": "canada",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "canada",
+      "title": "Canada",
+      "subtype": "postwar-order",
+      "period": "modern constitutional order",
+      "sacredPoliticalOrderId": "canada-sacred-political-order",
+      "sacredPoliticalOrderName": "Canada sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Canada.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:postwar-order",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "canadian-charter-1982",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "canada-passage-001",
+        "sourceId": "canadian-charter-1982",
+        "locator": "Canadian Charter of Rights and Freedoms, Schedule B to the Constitution Act, 1982, Section 1; text verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+        "text": "The Canadian Charter of Rights and Freedoms guarantees the rights and freedoms set out in it subject only to such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "canada-passage-002",
+        "sourceId": "canadian-charter-1982",
+        "locator": "Canadian Charter of Rights and Freedoms, Schedule B to the Constitution Act, 1982, Section 15(1); text verified at https://laws-lois.justice.gc.ca/eng/const/page-12.html",
+        "text": "Every individual is equal before and under the law and has the right to the equal protection and equal benefit of the law without discrimination and, in particular, without discrimination based on race, national or ethnic origin, colour, religion, sex, age or mental or physical disability.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:bf3063d33ff285f5a4a8b235e83731ce229fc66545138850138d1815ae199857"
+}

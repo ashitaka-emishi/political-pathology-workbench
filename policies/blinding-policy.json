@@ -1,0 +1,58 @@
+{
+  "policyId": "outcome-blind-coder-packet-v1",
+  "packetVersion": "v1.0",
+  "allowedCaseFields": [
+    "caseId",
+    "title",
+    "subtype",
+    "period",
+    "sacredPoliticalOrderId",
+    "sacredPoliticalOrderName",
+    "sacredPoliticalOrderDefinition",
+    "unitClass",
+    "designStratum",
+    "theoryVersions",
+    "summary"
+  ],
+  "prohibitedCaseFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "prohibitedFieldFragments": [
+    "outcome",
+    "gold",
+    "selection",
+    "holdout",
+    "score",
+    "claim",
+    "interpretation",
+    "counterclaim",
+    "rival",
+    "sampling",
+    "conclusion"
+  ],
+  "hashAlgorithm": "sha256",
+  "humanGates": [
+    "packet-release",
+    "fresh-holdout-selection",
+    "holdout-opening",
+    "unblinding"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-khmer-rouge-cambodia-packet",
+  "caseId": "khmer-rouge-cambodia",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "khmer-rouge-cambodia",
+      "title": "Khmer Rouge Cambodia",
+      "subtype": "regime",
+      "period": "1975-1979",
+      "sacredPoliticalOrderId": "khmer-rouge-cambodia-sacred-political-order",
+      "sacredPoliticalOrderName": "Khmer Rouge Cambodia sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Khmer Rouge Cambodia.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:regime",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "democratic-kampuchea-constitution-1976",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "dk-national-anthem-1975",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "khmer-rouge-cambodia-passage-001",
+        "sourceId": "democratic-kampuchea-constitution-1976",
+        "locator": "Preamble, Constitution of Democratic Kampuchea, 5 January 1976; text verified at https://en.wikisource.org/wiki/Constitution_of_Democratic_Kampuchea",
+        "text": "sending unhesitatingly their children and their husbands to fight by tens and hundreds of thousands on the battlefield",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "khmer-rouge-cambodia-passage-002",
+        "sourceId": "dk-national-anthem-1975",
+        "locator": "National Anthem of Democratic Kampuchea (Dap Prampi Mesa Chokchey), verse 1, 1975; English translation verified at https://nationalanthems.info/kh-79.htm",
+        "text": "The bright red blood was spilled over the towns and over the plain of Kampuchea, our motherland, the blood of our good workers and farmers and of our revolutionary combatants, both men and women. Their blood produced a great anger and the courage to contend with heroism.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:749877e809fc166d3348be8bbad28c83ab66ee1165cbbc3fb1e378ca9b4303f0"
+}

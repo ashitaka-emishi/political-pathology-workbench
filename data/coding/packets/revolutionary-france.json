@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-revolutionary-france-packet",
+  "caseId": "revolutionary-france",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "revolutionary-france",
+      "title": "Revolutionary France",
+      "subtype": "revolution",
+      "period": "1789-1799",
+      "sacredPoliticalOrderId": "revolutionary-france-sacred-political-order",
+      "sacredPoliticalOrderName": "Revolutionary France sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Revolutionary France.",
+      "unitClass": "historical-episode",
+      "designStratum": "historical-episode:revolution",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "declaration-rights-man-citizen-1789",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "robespierre-political-morality-1794",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "revolutionary-france-passage-001",
+        "sourceId": "declaration-rights-man-citizen-1789",
+        "locator": "Declaration of the Rights of Man and Citizen, Article 3, 26 August 1789; English translation at https://avalon.law.yale.edu/18th_century/rightsof.asp",
+        "text": "The principle of all sovereignty resides essentially in the nation. No body nor individual may exercise any authority which does not proceed directly from the nation.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "revolutionary-france-passage-002",
+        "sourceId": "robespierre-political-morality-1794",
+        "locator": "Robespierre, 'On the Principles of Political Morality,' 5 February 1794; English translation at https://revolution.chnm.org/d/413",
+        "text": "If the mainspring of popular government in peacetime is virtue, amid revolution it is at the same time [both] virtue and terror: virtue, without which terror is fatal; terror, without which virtue is impotent.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:531f87f7b5718173bb9a5b21307b98fb6485883180e3a1d10c6674f32e5af519"
+}

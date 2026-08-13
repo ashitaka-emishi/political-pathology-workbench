@@ -4,6 +4,7 @@
   "subtype": "postwar-order",
   "period": "1945-present",
   "outcome": "restrained-reordering",
+  "outcomeClass": "restrained-reordering",
   "goldCase": true,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
   "unitClass": "political-formation",
   "caseType": "calibration-case",
-  "comparabilityGroup": "political-formation:restrained-reordering",
+  "designStratum": "political-formation:postwar-order",
+  "comparabilityGroup": "political-formation:postwar-order",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

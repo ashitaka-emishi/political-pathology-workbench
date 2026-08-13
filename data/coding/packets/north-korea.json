@@ -1,0 +1,73 @@
+{
+  "packetId": "round-001-north-korea-packet",
+  "caseId": "north-korea",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "north-korea",
+      "title": "North Korea",
+      "subtype": "regime",
+      "period": "1948-present",
+      "sacredPoliticalOrderId": "north-korea-sacred-political-order",
+      "sacredPoliticalOrderName": "North Korea sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with North Korea.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:regime",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "dprk-constitution-2019",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "north-korea-passage-001",
+        "sourceId": "dprk-constitution-2019",
+        "locator": "DPRK Socialist Constitution (2019), Preamble, opening sentence; English translation by University of Hawaiʻi at Mānoa Korean Studies Center (2024), p.1; PDF at https://manoa.hawaii.edu/koreanstudies/wp-content/uploads/2024/10/DPRK-Constitution-2019-EN.pdf. Translation unverified against Korean original.",
+        "text": "The Democratic People's Republic of Korea is the socialist State of Juche where the ideas of the great leader Comrade Kim Il Sung and the great leader Comrade Kim Jong Il on State building and their exploits in it are applied.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "north-korea-passage-002",
+        "sourceId": "dprk-constitution-2019",
+        "locator": "DPRK Socialist Constitution (2019), Preamble, penultimate paragraph; English translation by University of Hawaiʻi at Mānoa Korean Studies Center (2024), p.2; PDF at https://manoa.hawaii.edu/koreanstudies/wp-content/uploads/2024/10/DPRK-Constitution-2019-EN.pdf. Translation unverified against Korean original.",
+        "text": "Under the leadership of the Workers' Party of Korea, the Democratic People's Republic of Korea and the Korean people will uphold the great Comrade Kim Il Sung and the great Comrade Kim Jong Il as the eternal leaders of Juche Korea, and will carry the revolutionary cause of Juche through to completion by defending and carrying forward their ideas and achievements.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:9c1afeb8f25bba158fd9affa64978732678ca79f05482b6054600207fce782ea"
+}

@@ -4,6 +4,7 @@
   "subtype": "collapse",
   "period": "1985-1991",
   "outcome": "collapse",
+  "outcomeClass": "collapse",
   "goldCase": true,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
   "unitClass": "historical-episode",
   "caseType": "calibration-case",
-  "comparabilityGroup": "historical-episode:collapse",
+  "designStratum": "historical-episode:breakdown-episode",
+  "comparabilityGroup": "historical-episode:breakdown-episode",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

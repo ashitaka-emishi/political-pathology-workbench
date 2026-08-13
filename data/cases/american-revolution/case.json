@@ -4,6 +4,7 @@
   "subtype": "revolutionary-independence",
   "period": "1765-1783",
   "outcome": "hybrid-transitional",
+  "outcomeClass": "hybrid-transitional",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -21,7 +22,8 @@
   "theoryTest": "Will test how revolutionary independence, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed.",
   "unitClass": "historical-episode",
   "caseType": "holdout-case",
-  "comparabilityGroup": "historical-episode:hybrid-transitional",
+  "designStratum": "historical-episode:revolutionary-independence",
+  "comparabilityGroup": "historical-episode:revolutionary-independence",
   "evaluationRole": "holdout-evaluation",
   "holdoutStatus": "sealed",
   "samplingMetadata": {

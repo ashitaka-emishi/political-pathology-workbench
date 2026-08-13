@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-maoist-china-packet",
+  "caseId": "maoist-china",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "maoist-china",
+      "title": "Maoist China",
+      "subtype": "regime",
+      "period": "1949-1976",
+      "sacredPoliticalOrderId": "maoist-china-sacred-political-order",
+      "sacredPoliticalOrderName": "Maoist China sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Maoist China.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:regime",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "mao-serve-the-people-1944",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "mao-in-memory-norman-bethune-1939",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "maoist-china-passage-001",
+        "sourceId": "mao-serve-the-people-1944",
+        "locator": "Mao Zedong, 'Serve the People,' 8 September 1944; in Selected Works of Mao Tse-tung, Vol. 3 (Peking: Foreign Languages Press, 1965), p. 227; text verified at https://www.marxists.org/reference/archive/mao/selected-works/volume-3/mswv3_19.htm",
+        "text": "To die for the people is weightier than Mount Tai, but to work for the fascists and die for the exploiters and oppressors is lighter than a feather.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "maoist-china-passage-002",
+        "sourceId": "mao-in-memory-norman-bethune-1939",
+        "locator": "Mao Zedong, 'In Memory of Norman Bethune,' 21 December 1939; in Selected Works of Mao Tse-tung, Vol. 2 (Peking: Foreign Languages Press, 1965), p. 337; text verified at https://www.marxists.org/reference/archive/mao/selected-works/volume-2/mswv2_25.htm",
+        "text": "We must all learn the spirit of absolute selflessness from him. With this spirit everyone can be very useful to the people.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:924c550a423beae096917226c458e8ad7fb8cfba649dc736b6f8fb7fbca84a24"
+}

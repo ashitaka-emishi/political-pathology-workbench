@@ -4,6 +4,7 @@
   "subtype": "postwar-order",
   "period": "modern federal order",
   "outcome": "restrained-reordering",
+  "outcomeClass": "restrained-reordering",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests whether correction capacity can restrain sacralization and sacrificial escalation.",
   "unitClass": "political-formation",
   "caseType": "hard-negative-case",
-  "comparabilityGroup": "political-formation:restrained-reordering",
+  "designStratum": "political-formation:postwar-order",
+  "comparabilityGroup": "political-formation:postwar-order",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

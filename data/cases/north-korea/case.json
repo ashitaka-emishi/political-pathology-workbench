@@ -4,6 +4,7 @@
   "subtype": "regime",
   "period": "1948-present",
   "outcome": "stagnation-frozen-pathology",
+  "outcomeClass": "stagnation-frozen-pathology",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests whether an order can persist through repression, inertia, dependency, or managed dysfunction.",
   "unitClass": "political-formation",
   "caseType": "stagnation-case",
-  "comparabilityGroup": "political-formation:stagnation-frozen-pathology",
+  "designStratum": "political-formation:regime",
+  "comparabilityGroup": "political-formation:regime",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

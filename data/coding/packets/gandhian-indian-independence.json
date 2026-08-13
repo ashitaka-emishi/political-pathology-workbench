@@ -1,0 +1,73 @@
+{
+  "packetId": "round-001-gandhian-indian-independence-packet",
+  "caseId": "gandhian-indian-independence",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "gandhian-indian-independence",
+      "title": "Gandhian Indian Independence",
+      "subtype": "anti-sacrificial-movement",
+      "period": "1915-1947",
+      "sacredPoliticalOrderId": "gandhian-indian-independence-sacred-political-order",
+      "sacredPoliticalOrderName": "Gandhian Indian Independence sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Gandhian Indian Independence.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:anti-sacrificial-movement",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "gandhi-hind-swaraj-1909",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "gandhian-indian-independence-passage-001",
+        "sourceId": "gandhi-hind-swaraj-1909",
+        "locator": "M. K. Gandhi, Hind Swaraj, Chapter 17 ('Passive Resistance'), 1909; author's English translation (1910); text verified at https://www.gandhiashramsevagram.org/hind-swaraj/chapter-17-passive-resistance.php",
+        "text": "If by using violence I force the Government to repeal the law, I am employing what may be termed body-force. If I do not obey the law and accept the penalty for its breach, I use soul-force.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "gandhian-indian-independence-passage-002",
+        "sourceId": "gandhi-hind-swaraj-1909",
+        "locator": "M. K. Gandhi, Hind Swaraj, Chapter 17 ('Passive Resistance'), 1909; author's English translation (1910); text verified at https://www.gandhiashramsevagram.org/hind-swaraj/chapter-17-passive-resistance.php",
+        "text": "Passive resistance, that is, soul-force, is matchless. It is superior to the force of arms.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:870207f880f2667d71366545920904e42bb22b858ff50c6ca0af29fbd418e10e"
+}

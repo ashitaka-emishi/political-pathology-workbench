@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-british-empire-to-commonwealth-packet",
+  "caseId": "british-empire-to-commonwealth",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "british-empire-to-commonwealth",
+      "title": "British Empire to Commonwealth",
+      "subtype": "transition",
+      "period": "twentieth century",
+      "sacredPoliticalOrderId": "british-empire-to-commonwealth-sacred-political-order",
+      "sacredPoliticalOrderName": "British Empire to Commonwealth sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with British Empire to Commonwealth.",
+      "unitClass": "historical-episode",
+      "designStratum": "historical-episode:transition",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "balfour-declaration-1926",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "statute-of-westminster-1931",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "british-empire-to-commonwealth-passage-001",
+        "sourceId": "balfour-declaration-1926",
+        "locator": "Inter-Imperial Relations Committee Report (Balfour Declaration), 1926 Imperial Conference, approved 15 November 1926; text verified against The Canadian Encyclopedia: https://www.thecanadianencyclopedia.ca/en/article/document-balfour-report-1926 and Wikipedia: https://en.wikipedia.org/wiki/Balfour_Declaration_of_1926",
+        "text": "autonomous Communities within the British Empire, equal in status, in no way subordinate one to another in any aspect of their domestic or external affairs, though united by a common allegiance to the Crown, and freely associated as members of the British Commonwealth of Nations",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "british-empire-to-commonwealth-passage-002",
+        "sourceId": "statute-of-westminster-1931",
+        "locator": "Statute of Westminster 1931, 22 Geo. 5, c. 4, Preamble; text verified at https://www.legislation.gov.uk/ukpga/Geo5/22-23/4/introduction",
+        "text": "inasmuch as the Crown is the symbol of the free association of the members of the British Commonwealth of Nations, and as they are united by a common allegiance to the Crown, it would be in accord with the established constitutional position of all the members of the Commonwealth in relation to one another that any alteration in the law touching the Succession to the Throne or the Royal Style and Titles shall hereafter require the assent as well of the Parliaments of all the Dominions as of the Parliament of the United Kingdom",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:073198093b742ebd7cfe6c20b4e76226e009d359fb247352aa08ea783a7369a5"
+}

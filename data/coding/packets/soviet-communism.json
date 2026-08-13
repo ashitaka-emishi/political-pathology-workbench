@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-soviet-communism-packet",
+  "caseId": "soviet-communism",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "soviet-communism",
+      "title": "Soviet Communism",
+      "subtype": "regime",
+      "period": "1917-1991",
+      "sacredPoliticalOrderId": "soviet-communism-sacred-political-order",
+      "sacredPoliticalOrderName": "Soviet Communism sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Soviet Communism.",
+      "unitClass": "political-formation",
+      "designStratum": "political-formation:regime",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "marx-engels-communist-manifesto-1848",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "ussr-constitution-1977",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "soviet-communism-passage-001",
+        "sourceId": "marx-engels-communist-manifesto-1848",
+        "locator": "Karl Marx and Friedrich Engels, Manifesto of the Communist Party, 1848, Chapter 4 (closing); Samuel Moore English translation (1888); text verified at https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch04.htm",
+        "text": "The Communists disdain to conceal their views and aims. They openly declare that their ends can be attained only by the forcible overthrow of all existing social conditions. Let the ruling classes tremble at a Communistic revolution. The proletarians have nothing to lose but their chains. They have a world to win. Working Men of All Countries, Unite!",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "soviet-communism-passage-002",
+        "sourceId": "ussr-constitution-1977",
+        "locator": "Constitution (Fundamental Law) of the Union of Soviet Socialist Republics, 7 October 1977, Article 6; English text verified at https://www.departments.bucknell.edu/russian/const/77cons01.html",
+        "text": "The leading and guiding force of the Soviet society and the nucleus of its political system, of all state organisations and public organisations, is the Communist Party of the Soviet Union. The CPSU exists for the people and serves the people. The Communist Party, armed with Marxism-Leninism, determines the general perspectives of the development of society and the course of the home and foreign policy of the USSR, directs the great constructive work of the Soviet people, and imparts a planned, systematic and theoretically substantiated character to their struggle for the victory of communism.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:d0e4c195d36277889fc4bd19c969f085e8e883cb0e7e60bea636a84bfac72811"
+}

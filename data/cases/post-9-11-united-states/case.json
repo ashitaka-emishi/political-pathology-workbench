@@ -4,6 +4,7 @@
   "subtype": "hybrid",
   "period": "2001 onward",
   "outcome": "hybrid-transitional",
+  "outcomeClass": "hybrid-transitional",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
   "unitClass": "historical-episode",
   "caseType": "ambiguous-or-mixed-case",
-  "comparabilityGroup": "historical-episode:hybrid-transitional",
+  "designStratum": "historical-episode:hybrid",
+  "comparabilityGroup": "historical-episode:hybrid",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

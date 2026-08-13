@@ -4,6 +4,7 @@
   "subtype": "regime",
   "period": "1933-1945",
   "outcome": "sacrificial-escalation",
+  "outcomeClass": "sacrificial-escalation",
   "goldCase": true,
   "publicationStatus": "draft",
   "reviewStatus": "argument-review",
@@ -22,7 +23,8 @@
   "theoryTest": "Tests the relationship among sacred-political-order strength, crisis pressure, corrigibility, and sacrifice.",
   "unitClass": "political-formation",
   "caseType": "calibration-case",
-  "comparabilityGroup": "political-formation:sacrificial-escalation",
+  "designStratum": "political-formation:regime",
+  "comparabilityGroup": "political-formation:regime",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {

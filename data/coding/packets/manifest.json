@@ -1,0 +1,118 @@
+{
+  "codingRoundId": "round-001",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "packetVersion": "v1.0",
+  "packetCount": 22,
+  "packets": [
+    {
+      "packetId": "round-001-american-civil-war-union-packet",
+      "caseId": "american-civil-war-union",
+      "packetHash": "sha256:ba2d0b28d8e99628c4288fe918913ec8836a1fa214b806add4f92e48644744da"
+    },
+    {
+      "packetId": "round-001-american-revolution-packet",
+      "caseId": "american-revolution",
+      "packetHash": "sha256:ae81dbb844e2ade647d7cdef994b7fbb612404b460ae3c01dd7df146f27c0de9"
+    },
+    {
+      "packetId": "round-001-british-empire-to-commonwealth-packet",
+      "caseId": "british-empire-to-commonwealth",
+      "packetHash": "sha256:073198093b742ebd7cfe6c20b4e76226e009d359fb247352aa08ea783a7369a5"
+    },
+    {
+      "packetId": "round-001-canada-packet",
+      "caseId": "canada",
+      "packetHash": "sha256:bf3063d33ff285f5a4a8b235e83731ce229fc66545138850138d1815ae199857"
+    },
+    {
+      "packetId": "round-001-confederacy-packet",
+      "caseId": "confederacy",
+      "packetHash": "sha256:930087f3ab700350760d7bdcaa43a32100b1fc8ea766563900628897d53a509e"
+    },
+    {
+      "packetId": "round-001-european-union-packet",
+      "caseId": "european-union",
+      "packetHash": "sha256:f54ce4605c3acafb6aca088bf10924b476ca0d6fdf1852156a72f2fc388228af"
+    },
+    {
+      "packetId": "round-001-gandhian-indian-independence-packet",
+      "caseId": "gandhian-indian-independence",
+      "packetHash": "sha256:870207f880f2667d71366545920904e42bb22b858ff50c6ca0af29fbd418e10e"
+    },
+    {
+      "packetId": "round-001-imperial-japan-packet",
+      "caseId": "imperial-japan",
+      "packetHash": "sha256:ca411687e04fee908f1bf545422d209148fada3bbeac8d9b39e5754eca0f476d"
+    },
+    {
+      "packetId": "round-001-khmer-rouge-cambodia-packet",
+      "caseId": "khmer-rouge-cambodia",
+      "packetHash": "sha256:749877e809fc166d3348be8bbad28c83ab66ee1165cbbc3fb1e378ca9b4303f0"
+    },
+    {
+      "packetId": "round-001-maoist-china-packet",
+      "caseId": "maoist-china",
+      "packetHash": "sha256:924c550a423beae096917226c458e8ad7fb8cfba649dc736b6f8fb7fbca84a24"
+    },
+    {
+      "packetId": "round-001-napoleonic-france-packet",
+      "caseId": "napoleonic-france",
+      "packetHash": "sha256:765917f2e028b8f4b21fe49cc63994760ba25385f5fd03f80c091301de5d0396"
+    },
+    {
+      "packetId": "round-001-nazi-germany-packet",
+      "caseId": "nazi-germany",
+      "packetHash": "sha256:944908b99ffc4e7ee4bb9057c1589f4b1af3891598740d2baee73d7b3ba3af25"
+    },
+    {
+      "packetId": "round-001-north-korea-packet",
+      "caseId": "north-korea",
+      "packetHash": "sha256:9c1afeb8f25bba158fd9affa64978732678ca79f05482b6054600207fce782ea"
+    },
+    {
+      "packetId": "round-001-post-9-11-united-states-packet",
+      "caseId": "post-9-11-united-states",
+      "packetHash": "sha256:a09338c0f3595e2754392cda8dec69e6ac1e7237a937491385a72bcffe9624e4"
+    },
+    {
+      "packetId": "round-001-postwar-germany-packet",
+      "caseId": "postwar-germany",
+      "packetHash": "sha256:62a9d86b4a5f74aea020f72fc9d80277b92ad813964d63961483105e02475cdd"
+    },
+    {
+      "packetId": "round-001-revolutionary-france-packet",
+      "caseId": "revolutionary-france",
+      "packetHash": "sha256:531f87f7b5718173bb9a5b21307b98fb6485883180e3a1d10c6674f32e5af519"
+    },
+    {
+      "packetId": "round-001-soviet-communism-packet",
+      "caseId": "soviet-communism",
+      "packetHash": "sha256:d0e4c195d36277889fc4bd19c969f085e8e883cb0e7e60bea636a84bfac72811"
+    },
+    {
+      "packetId": "round-001-soviet-union-collapse-packet",
+      "caseId": "soviet-union-collapse",
+      "packetHash": "sha256:2af31ddc9cd9a8ff363205fdd5296bdb2e9755bb3d49d82b35ca48f14dbcd524"
+    },
+    {
+      "packetId": "round-001-switzerland-packet",
+      "caseId": "switzerland",
+      "packetHash": "sha256:da5d88517ea9ee029b5ba800e569e8ffafefc4af0436779f07752e41727f8f95"
+    },
+    {
+      "packetId": "round-001-united-states-after-vietnam-packet",
+      "caseId": "united-states-after-vietnam",
+      "packetHash": "sha256:38d44509e2d413fdc8f897ede84dff010793555ce8c5282050cd1e41340664e6"
+    },
+    {
+      "packetId": "round-001-western-roman-empire-packet",
+      "caseId": "western-roman-empire",
+      "packetHash": "sha256:5d36b1df33a78a743d238041ced8827636f9b62dd00afc16b8aa65f6ccb3dd7c"
+    },
+    {
+      "packetId": "round-001-world-war-i-nationalisms-packet",
+      "caseId": "world-war-i-nationalisms",
+      "packetHash": "sha256:c3be276b347b37afeb1f71150498324447cf5124092c087791704b720f4cf309"
+    }
+  ]
+}

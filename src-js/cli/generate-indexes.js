@@ -3,6 +3,7 @@ import path from "node:path";
 import { readJson } from "../validate/json.js";
 import { generateEvidenceIndexes } from "../generate/generate-evidence-indexes.js";
 import { generateCaseEvidenceChains } from "../generate/generate-case-evidence-chains.js";
+import { buildCoderPacket, loadBlindingPolicy } from "../generate/generate-coder-packets.js";
 import { classifyAnalyticalEligibility } from "../validate/validate-score-semantics.js";
 
 const root = process.cwd();
@@ -32,6 +33,7 @@ const allInterpretations = [];
 const allScores = [];
 const allCounterclaims = [];
 const allChains = [];
+const coderPacketInputs = [];
 
 function indexBy(records, key) {
   return new Map(records.map((record) => [record[key], record]));
@@ -96,6 +98,7 @@ for (const slug of listDirs(casesDir)) {
   allScores.push(...scores.map((record) => ({ ...record, caseSlug: slug })));
   allCounterclaims.push(...counterclaims.map((record) => ({ ...record, caseSlug: slug })));
   allChains.push(buildCaseChain({ caseRecord, slug, sourcePack, passages, claims, interpretations, scores }));
+  coderPacketInputs.push({ caseRecord: { ...caseRecord, slug }, sourcePack, passages });
 }
 
 const theoryIndex = listDirs(theoriesDir).map((slug) => {
@@ -115,11 +118,12 @@ fs.rmSync(path.join(generatedDir, "chains"), { recursive: true, force: true });
 for (const chain of allChains) {
   writeJson(path.join(generatedDir, "chains", `${chain.caseSlug}.json`), chain);
 }
-writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, goldCase, publicationStatus, sacredPoliticalOrderId, sacredPoliticalOrderName, caseSelectionRole, unitClass, caseType, comparabilityGroup, evaluationRole, holdoutStatus }) => ({
+writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, title, slug, outcome, outcomeClass, goldCase, publicationStatus, sacredPoliticalOrderId, sacredPoliticalOrderName, caseSelectionRole, unitClass, caseType, designStratum, comparabilityGroup, evaluationRole, holdoutStatus }) => ({
   caseId,
   title,
   slug,
   outcome,
+  outcomeClass,
   goldCase: Boolean(goldCase),
   publicationStatus,
   sacredPoliticalOrderId,
@@ -127,6 +131,7 @@ writeJson(path.join(generatedDir, "case-index.json"), allCases.map(({ caseId, ti
   caseSelectionRole,
   unitClass,
   caseType,
+  designStratum,
   comparabilityGroup,
   evaluationRole,
   holdoutStatus
@@ -210,6 +215,23 @@ writeJson(path.join(crossCaseDir, "comparison-table.json"), comparisonTable);
 const evidenceResult = generateEvidenceIndexes(root);
 const chainResult = generateCaseEvidenceChains(root);
 
+const codingRoundId = "round-001";
+const blindingPolicy = loadBlindingPolicy(root);
+const packetsDir = path.join(root, "data", "coding", "packets");
+fs.rmSync(packetsDir, { recursive: true, force: true });
+const coderPackets = coderPacketInputs.map((input) => buildCoderPacket({ ...input, blindingPolicy, codingRoundId }));
+for (const packet of coderPackets) {
+  writeJson(path.join(packetsDir, `${packet.caseId}.json`), packet);
+}
+writeJson(path.join(packetsDir, "manifest.json"), {
+  codingRoundId,
+  blindingPolicyId: blindingPolicy.policyId,
+  packetVersion: blindingPolicy.packetVersion,
+  packetCount: coderPackets.length,
+  packets: coderPackets.map(({ packetId, caseId, packetHash }) => ({ packetId, caseId, packetHash }))
+});
+
 console.log(`Generated indexes for ${allCases.length} cases, ${allClaims.length} claims, ${allScores.length} scores, and ${allCounterclaims.length} counterclaims.`);
 console.log(`Generated evidence indexes for ${evidenceResult.moduleCount} modules, ${evidenceResult.corpusCount} corpora, ${evidenceResult.draftClaimCount} draft claims, ${evidenceResult.promotedClaimCount} promoted claims.`);
 console.log(`Generated per-case evidence chains for ${chainResult.caseCount} cases.`);
+console.log(`Generated ${coderPackets.length} outcome-blind coder packets for ${codingRoundId}.`);

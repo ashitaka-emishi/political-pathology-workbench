@@ -1,0 +1,77 @@
+{
+  "packetId": "round-001-post-9-11-united-states-packet",
+  "caseId": "post-9-11-united-states",
+  "codingRoundId": "round-001",
+  "packetVersion": "v1.0",
+  "blindingPolicyId": "outcome-blind-coder-packet-v1",
+  "includedFields": [
+    "payload.neutralCaseMetadata",
+    "payload.sources",
+    "payload.passages"
+  ],
+  "excludedFields": [
+    "outcome",
+    "outcomeClass",
+    "goldCase",
+    "caseSelectionRole",
+    "selectionRationale",
+    "theoryTest",
+    "caseType",
+    "comparabilityGroup",
+    "evaluationRole",
+    "holdoutStatus",
+    "holdoutProtocol",
+    "samplingMetadata",
+    "legacyScaffold",
+    "claims",
+    "interpretations",
+    "scores",
+    "counterclaims",
+    "rivalExplanations",
+    "searchLogs"
+  ],
+  "payload": {
+    "neutralCaseMetadata": {
+      "caseId": "post-9-11-united-states",
+      "title": "Post-9/11 United States",
+      "subtype": "hybrid",
+      "period": "2001 onward",
+      "sacredPoliticalOrderId": "post-9-11-united-states-sacred-political-order",
+      "sacredPoliticalOrderName": "Post-9/11 United States sacred political order",
+      "sacredPoliticalOrderDefinition": "Draft operational shorthand for the durable shared meanings, legitimacy claims, memory, obligation, and sacrifice logic associated with Post-9/11 United States.",
+      "unitClass": "historical-episode",
+      "designStratum": "historical-episode:hybrid",
+      "theoryVersions": [
+        "general-theory-political-pathology-v1"
+      ],
+      "summary": "Draft balanced-case placeholder."
+    },
+    "sources": [
+      {
+        "sourceId": "aumf-2001",
+        "role": "primary-grounds"
+      },
+      {
+        "sourceId": "bush-address-congress-2001",
+        "role": "primary-grounds"
+      }
+    ],
+    "passages": [
+      {
+        "passageId": "post-9-11-united-states-passage-001",
+        "sourceId": "aumf-2001",
+        "locator": "Authorization for Use of Military Force, Public Law 107-40, § 2(a), 18 September 2001, 115 Stat. 224; text verified at https://www.govinfo.gov/content/pkg/PLAW-107publ40/html/PLAW-107publ40.htm",
+        "text": "That the President is authorized to use all necessary and appropriate force against those nations, organizations, or persons he determines planned, authorized, committed, or aided the terrorist attacks that occurred on September 11, 2001, or harbored such organizations or persons, in order to prevent any future acts of international terrorism against the United States by such nations, organizations or persons.",
+        "evidenceRole": "grounds"
+      },
+      {
+        "passageId": "post-9-11-united-states-passage-002",
+        "sourceId": "bush-address-congress-2001",
+        "locator": "George W. Bush, Address to a Joint Session of Congress and the American People, 20 September 2001; text verified at https://www.whatsoproudlywehail.org/curriculum/the-american-calendar/address-to-a-joint-session-of-congress-following-the-911-attacks/",
+        "text": "Every nation, in every region, now has a decision to make: Either you are with us, or you are with the terrorists. From this day forward, any nation that continues to harbor or support terrorism will be regarded by the United States as a hostile regime.",
+        "evidenceRole": "grounds"
+      }
+    ]
+  },
+  "packetHash": "sha256:a09338c0f3595e2754392cda8dec69e6ac1e7237a937491385a72bcffe9624e4"
+}

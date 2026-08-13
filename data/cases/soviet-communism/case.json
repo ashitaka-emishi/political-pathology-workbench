@@ -4,6 +4,7 @@
   "subtype": "regime",
   "period": "1917-1991",
   "outcome": "hybrid-transitional",
+  "outcomeClass": "hybrid-transitional",
   "goldCase": false,
   "publicationStatus": "draft",
   "reviewStatus": "draft",
@@ -20,7 +21,8 @@
   "theoryTest": "Tests whether cases can move through multiple outcomes over time.",
   "unitClass": "political-formation",
   "caseType": "ambiguous-or-mixed-case",
-  "comparabilityGroup": "political-formation:hybrid-transitional",
+  "designStratum": "political-formation:regime",
+  "comparabilityGroup": "political-formation:regime",
   "evaluationRole": "theory-development",
   "holdoutStatus": "not-held-out",
   "samplingMetadata": {
