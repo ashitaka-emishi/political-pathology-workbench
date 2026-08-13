@@ -7,6 +7,8 @@ When the user types `sdlc`, `sldc`, or `$sdlc-workflow` — with or without a fo
 - `sdlc next` / `sldc next`: inspect open issues and milestone ordering, recommend the next issue, and **stop for user confirmation** before branching or editing anything.
 - `sdlc <N>` / `sldc <N>`: run the state helper, determine the smallest correct continuation for that issue, and proceed accordingly.
 - Always run the state helper first: `python3 .agents/skills/sdlc-workflow/scripts/sdlc_state.py inspect-issue <N> --repo ashitaka-emishi/political-pathology-workbench --cwd .`
+- For nontrivial issue work, establish a bounded task contract: objective, governing sources, scope, constraints, expected evidence, permissions, and stopping conditions.
+- Treat merged PRs as repository change control, not automatic approval of promoted or published research artifacts; keep human review gates explicit.
 - Use `Co-authored-by: Claude <noreply@anthropic.com>` (not the Codex trailer) when Claude materially performs the work.
 - Open PRs as ready, not draft. Do not merge or close issues without explicit user instruction.
 - Squash merge only.

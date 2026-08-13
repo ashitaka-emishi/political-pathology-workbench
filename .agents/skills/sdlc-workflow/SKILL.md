@@ -10,13 +10,51 @@ Use this skill to keep issue-driven GitHub work consistent and auditable.
 ## Operating Principles
 
 - Start from the GitHub issue or milestone whenever possible.
+- Begin with purpose and evidence: identify the observed need and expected outcome before choosing an implementation.
 - Prefer one issue per branch and one branch per pull request.
 - Keep scope narrow; create follow-up issues for new work discovered along the way.
+- Build the smallest coherent change that can be reviewed and verified.
 - Preserve unrelated user changes in the working tree.
+- Make human authority explicit for claim promotion, source-rights decisions, accepted risk, external distribution, and release readiness.
+- Surface uncertainty visibly instead of silently accepting ambiguous evidence, conflicting requirements, or failed validation.
 - Update any relevant `tracking` issue when child issues close or change order/status.
 - Open pull requests as ready for review, not draft.
 - Keep a human control point between pull request creation and merge. Do not merge or close issues unless the user explicitly asks for that workflow or has clearly delegated it.
 - Always use squash merge for pull requests. Do not use merge commits or rebase merge unless the user explicitly overrides this rule for a specific PR.
+- Treat implementation merge as repository change control, not research-artifact approval. Stop before human-gated promotion, approval, publication, export, or reviewed tagging unless the user explicitly invokes that workflow.
+
+## Human Review Gates
+
+SDLC work may add draft findings, provisional claim codings, review packets,
+schema proposals, publication scaffolds, or other artifacts that still require
+maintainer judgment. A merged PR means the repository changed; it does not mean
+the research artifact was accepted.
+
+Use a human review gate whenever the work crosses from implementation into
+approval. Examples include:
+
+- claim, interpretation, or finding promotion;
+- reliability or adjudication acceptance;
+- canonical promotion of imported, AI-generated, or model-coded artifacts;
+- source-rights approval;
+- publication approval;
+- external export approval;
+- reviewed version or tag creation.
+
+When an SDLC issue produces human-gated artifacts, finish the implementation
+issue normally, but report the pending review gate in the PR body and final
+response. Do not change canonical statuses to approved, reviewed, published, or
+export-ready unless the active issue is explicitly a review or promotion issue
+and the user has supplied the human decision.
+
+Keep versioning distinct:
+
+- Git/SDLC versioning records commits, PRs, and implementation history.
+- Reviewed research-artifact versioning records accepted findings, approved
+  promotions, publication/export states, and reviewed tags.
+
+Ordinary implementation PRs must not imply that a reviewed version has been
+pinned.
 
 ## Command Interpretation
 
@@ -62,6 +100,43 @@ For any equivalent request, first collect deterministic state for the referenced
 - If an open PR exists, inspect its status, checks, review comments, and remaining scope before changing code.
 - If the issue is already closed, report the closure state and do not create new work unless the user asks to reopen or follow up.
 
+## Bounded Task Contract
+
+Before nontrivial implementation, identify or create a task contract in the
+issue, prompt, plan, or PR description:
+
+- Objective: desired outcome.
+- Governing sources: issue text, accepted project docs, source evidence,
+  examples, or reproductions that define correctness.
+- Scope and exclusions: what may change and what must not change.
+- Constraints and invariants: behavior, architecture, provenance,
+  source-rights, validation, compatibility, and branch rules.
+- Expected evidence: tests, commands, source review, or human review needed for
+  acceptance.
+- Permissions: dependency installs, network use, generated artifacts,
+  source-derived data, or external services.
+- Stopping conditions: conflicting sources, missing authority, failed checks,
+  destructive actions, or unverifiable results.
+
+Stop and report when the contract cannot be satisfied without expanded scope or
+authority.
+
+## Dual Authority And Conflict Handling
+
+Treat accepted project intent as one authority and accepted implementation as
+another:
+
+- specifications, requirements, decisions, and accepted examples describe
+  intended behavior;
+- accepted code, data, and generated artifacts describe current behavior.
+
+When they disagree, classify the mismatch before changing files:
+
+- Implementation defect: fix implementation to satisfy accepted intent.
+- Specification defect: revise the governing source with human judgment.
+- Unresolved ambiguity: keep the conflict visible and seek evidence.
+- Accepted limitation: document the gap, impact, and accepted risk.
+
 ## Deterministic Helpers
 
 Use bundled scripts for repeatable state collection and formatting. Keep judgment-based decisions in the agent: scope, intended base branch, implementation approach, validation depth, review risk, and whether a human has delegated merge/close authority.
@@ -95,9 +170,11 @@ python3 .agents/skills/sdlc-workflow/scripts/sdlc_state.py tracker-entry <issue-
 ## Implement
 
 1. Inspect the relevant files before editing.
-2. Make the smallest coherent change that satisfies the issue.
-3. Keep generated artifacts and source edits separate when practical.
-4. Run validation scaled to the blast radius.
+2. Preserve intent: if implementation changes a consequential design decision, update the design deliberately.
+3. Make the smallest coherent change that satisfies the issue.
+4. Keep generated artifacts and source edits separate when practical.
+5. If the change creates or modifies human-gated artifacts, leave them draft or provisional and record the required follow-up instead of promoting them.
+6. Run validation scaled to the blast radius.
 
 For this project, full pipeline/publication validation is:
 
@@ -113,6 +190,9 @@ Run only the steps relevant to the blast radius of the change.
 ## Pre-PR Codex Review
 
 Before opening a pull request, perform a Codex code review over the staged or intended PR diff. Use the standard review stance: prioritize bugs, behavioral regressions, broken validation, missing tests, schema drift, source-risk gaps, and documentation mismatches.
+
+Review should also ask whether the change preserved purpose, intent, evidence,
+human authority, and visible uncertainty.
 
 Handle findings before PR creation:
 
@@ -147,6 +227,7 @@ Handle findings before PR creation:
    - validation commands and results
    - known limitations or follow-up work
    - tech-debt issues filed for deferred findings, if any
+   - human-review gates created or intentionally left pending, if any
 5. Stop after PR creation unless the user explicitly asks to merge. This preserves the human control point before merge.
    - In a multi-issue command, the batch request itself is explicit merge authorization. Continue into Merge And Close for the current issue once checks are passing.
 
@@ -174,7 +255,8 @@ Only do this when the user explicitly asks.
    - check off the issue
    - note out-of-order completion or dependency changes
    - close the tracking issue only when its completion definition is met
-6. Inspect the updated tracker, dependencies, and existing branch/PR state, then suggest the next recommended ticket without starting it.
+6. Report any human-review gates that remain after merge and recommend the next human approval or promotion step when relevant.
+7. Inspect the updated tracker, dependencies, and existing branch/PR state, then suggest the next recommended ticket without starting it.
 
 ## If Blocked
 
