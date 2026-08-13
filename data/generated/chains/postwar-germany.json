@@ -133,8 +133,9 @@
             "corrigibility",
             "constitutional-containment"
           ],
-          "codebookVersion": "v1",
-          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Art. 1(1) human dignity + Art. 79(3) eternity clause) represents high corrigibility. Confidence 0.70 is well-calibrated — the mechanism is architecturally tight and directly contrasts with the Nazi Germany cor=1 case. Chain expansion uncertainty resolved by Milestone 7 chain expansion to 4 passages. Ready for human-reviewed: gold case chain is now at 4 passages, all at argument-review."
+          "codebookVersion": "v1.1",
+          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Art. 1(1) human dignity + Art. 79(3) eternity clause) represents high corrigibility. Confidence 0.70 is well-calibrated — the mechanism is architecturally tight and directly contrasts with the Nazi Germany cor=1 case. Chain expansion uncertainty resolved by Milestone 7 chain expansion to 4 passages. Ready for human-reviewed: gold case chain is now at 4 passages, all at argument-review.",
+          "valueSemantics": "construct-magnitude"
         }
       ]
     },
@@ -238,8 +239,9 @@
             "memory-driven-restraint",
             "constitutional-containment"
           ],
-          "codebookVersion": "v1",
-          "reviewNote": "Score value 5/5 defensible: memory-driven-restraint mechanism (Art. 20(1)+(4) resistance clause, protected by Art. 79(3)) represents maximum corrigibility architecture — the democratic order cannot be legally abolished and citizens are constitutionally empowered to resist its abolition. Confidence 0.78 correctly reflects two uncertainty factors: Art. 20(4) added in 1968 (not 1949), and the resistance right has never been formally invoked. Ready for human-reviewed with those caveats noted."
+          "codebookVersion": "v1.1",
+          "reviewNote": "Score value 5/5 defensible: memory-driven-restraint mechanism (Art. 20(1)+(4) resistance clause, protected by Art. 79(3)) represents maximum corrigibility architecture — the democratic order cannot be legally abolished and citizens are constitutionally empowered to resist its abolition. Confidence 0.78 correctly reflects two uncertainty factors: Art. 20(4) added in 1968 (not 1949), and the resistance right has never been formally invoked. Ready for human-reviewed with those caveats noted.",
+          "valueSemantics": "construct-magnitude"
         }
       ]
     }

@@ -117,8 +117,9 @@
             "corrigibility",
             "constitutional-containment"
           ],
-          "codebookVersion": "v1",
-          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Canadian Charter s.1/s.2) represents high corrigibility with one caveat — the notwithstanding clause (s.33) creates a legislative override that is the documented uncertainty factor. Confidence 0.65 reflects this structural complication. Ready for human-reviewed pending chain expansion to ≥4 passages."
+          "codebookVersion": "v1.1",
+          "reviewNote": "Score value 4/5 defensible: constitutional-containment mechanism (Canadian Charter s.1/s.2) represents high corrigibility with one caveat — the notwithstanding clause (s.33) creates a legislative override that is the documented uncertainty factor. Confidence 0.65 reflects this structural complication. Ready for human-reviewed pending chain expansion to ≥4 passages.",
+          "valueSemantics": "construct-magnitude"
         }
       ]
     }

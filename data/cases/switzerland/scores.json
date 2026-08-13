@@ -21,7 +21,8 @@
       "corrigibility",
       "pluralist-reordering"
     ],
-    "codebookVersion": "v1",
-    "reviewNote": "Score value 5/5 defensible: pluralist-reordering mechanism (Swiss federal constitution's consensus architecture, direct democracy, four-language federalism) supports maximum corrigibility. Confidence 0.60 reflects that the direct-democracy exclusion history (women's suffrage only in 1971 federally) complicates the corrigibility claim and requires explicit treatment. Hold at score-review until historical exclusion is addressed in the chain and counterclaim."
+    "codebookVersion": "v1.1",
+    "reviewNote": "Score value 5/5 defensible: pluralist-reordering mechanism (Swiss federal constitution's consensus architecture, direct democracy, four-language federalism) supports maximum corrigibility. Confidence 0.60 reflects that the direct-democracy exclusion history (women's suffrage only in 1971 federally) complicates the corrigibility claim and requires explicit treatment. Hold at score-review until historical exclusion is addressed in the chain and counterclaim.",
+    "valueSemantics": "construct-magnitude"
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "scoreId": "fixture-score-valid-unknown",
+  "caseId": "fixture-case",
+  "theoryId": "general-theory-political-pathology-v1",
+  "variableId": "pathology",
+  "interpretationId": "fixture-interpretation",
+  "value": null,
+  "valueSemantics": "unknown",
+  "unknownReason": "The current source record documents harm but not the mechanism tying harm to sacred-order self-preservation.",
+  "confidence": {
+    "value": 0.2,
+    "label": "low",
+    "rationale": "Confidence is low because the construct magnitude is intentionally unassigned."
+  },
+  "reviewStatus": "draft"
+}

@@ -1,0 +1,23 @@
+{
+  "scoreId": "fixture-score-valid-magnitude",
+  "caseId": "fixture-case",
+  "theoryId": "general-theory-political-pathology-v1",
+  "variableId": "corrigibility",
+  "interpretationId": "fixture-interpretation",
+  "value": 4,
+  "valueSemantics": "construct-magnitude",
+  "confidence": {
+    "value": 0.72,
+    "label": "moderate-high",
+    "rationale": "The estimate is supported by direct institutional evidence, with practice caveats recorded separately."
+  },
+  "evidenceQuality": {
+    "value": 0.8,
+    "dimensions": {
+      "sourceCoverage": 0.75,
+      "sourceDirectness": 0.9
+    },
+    "rationale": "Primary-source coverage is strong but not complete."
+  },
+  "reviewStatus": "score-review"
+}

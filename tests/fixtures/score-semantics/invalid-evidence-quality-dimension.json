@@ -1,0 +1,21 @@
+{
+  "scoreId": "fixture-score-invalid-evidence-quality",
+  "caseId": "fixture-case",
+  "theoryId": "general-theory-political-pathology-v1",
+  "variableId": "corrigibility",
+  "interpretationId": "fixture-interpretation",
+  "value": 3,
+  "valueSemantics": "construct-magnitude",
+  "confidence": {
+    "value": 0.6,
+    "label": "moderate",
+    "rationale": "Confidence is valid."
+  },
+  "evidenceQuality": {
+    "value": 0.7,
+    "dimensions": {
+      "sourceCoverage": 1.5
+    }
+  },
+  "reviewStatus": "draft"
+}

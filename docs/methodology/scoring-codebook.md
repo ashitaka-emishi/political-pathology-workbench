@@ -1,32 +1,39 @@
 # Scoring Codebook
 
-**Current codebook version:** `v1`
+**Current codebook version:** `v1.1`
 **Operational-boundary revision:** PPW #312
+**Score-semantics revision:** PPW #313
 
 Scores use a `0-5` scale. All public-facing scores require confidence
 metadata, review status, definition references, and a codebook version.
 
-## Current Scale Status
+## Score Semantics
 
-The current `v1` score files still use evidence-oriented general anchors. PPW
-#313 will redesign score semantics so the `0-5` value represents construct
-magnitude only and confidence/evidence quality are recorded separately.
+The `value` field represents substantive construct magnitude only. It does not
+represent evidence quantity, evidence quality, or confidence.
 
-Until that migration is complete, this codebook provides the operational
-construct boundaries coders should use when deciding what kind of evidence can
-count for each variable. These profiles do not by themselves promote any score
-to reviewed, approved, or publication-ready status.
+Use `value: null` when the current record cannot support a construct-magnitude
+estimate. Do not encode insufficient evidence as `0`.
 
-## Current General Anchors
+Confidence remains separate in `confidence`. Evidence-chain quality may be
+recorded separately in `evidenceQuality` when a score needs to distinguish
+source coverage, directness, diversity, or similar evidence-quality dimensions
+from confidence in the estimate.
 
-| Score | Current v1 meaning |
+These semantics do not by themselves promote any score to reviewed, approved,
+or publication-ready status.
+
+## General Magnitude Anchors
+
+| Score | Construct-magnitude meaning |
 |---:|---|
-| 0 | No evidence in the current record. |
-| 1 | Weak or indirect evidence. |
-| 2 | Partial evidence with substantial uncertainty. |
-| 3 | Moderate evidence with traceable support. |
-| 4 | Strong evidence with caveats. |
-| 5 | Strong, repeated, directly traceable evidence. |
+| `null` | Unknown or insufficient evidence; no substantive magnitude assigned. |
+| 0 | Substantive absence or minimum of the construct in the coded unit and period. |
+| 1 | Marginal or residual presence. |
+| 2 | Low or partial presence. |
+| 3 | Moderate presence. |
+| 4 | Strong but not maximal presence. |
+| 5 | Maximal or near-maximal presence under the variable definition. |
 
 ## Required Score Metadata
 
@@ -36,6 +43,14 @@ to reviewed, approved, or publication-ready status.
 - `reviewStatus`
 - `definitionRefs`
 - `codebookVersion`
+
+Optional score metadata:
+
+- `valueSemantics`
+- `unknownReason`
+- `evidenceQuality.value`
+- `evidenceQuality.dimensions`
+- `evidenceQuality.rationale`
 
 ## Coder Decision Protocol
 
@@ -47,7 +62,8 @@ to reviewed, approved, or publication-ready status.
 5. Record counterevidence, rival readings, or missing evidence before moving a
    score beyond draft.
 6. Record confidence separately from the score value.
-7. Stop rather than infer when evidence does not establish the construct.
+7. Use `value: null` with `unknownReason` rather than assigning `0` when
+   evidence does not establish the construct.
 
 ## Core Variable Profiles
 

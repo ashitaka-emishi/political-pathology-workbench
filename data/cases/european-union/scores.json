@@ -22,7 +22,8 @@
       "corrigibility",
       "pluralist-reordering"
     ],
-    "codebookVersion": "v1",
-    "reviewNote": "Score value 4/5 defensible: pluralist-reordering mechanism (Treaty on European Union's consensus architecture) represents high corrigibility. Confidence 0.60 correctly reflects that democratic backsliding in member states and Brexit's demonstration of exit-mechanism limits are genuine threats to the corrigibility claim. Hold at score-review until chain expansion; flag democratic-backsliding cases as a priority secondary source for the chain."
+    "codebookVersion": "v1.1",
+    "reviewNote": "Score value 4/5 defensible: pluralist-reordering mechanism (Treaty on European Union's consensus architecture) represents high corrigibility. Confidence 0.60 correctly reflects that democratic backsliding in member states and Brexit's demonstration of exit-mechanism limits are genuine threats to the corrigibility claim. Hold at score-review until chain expansion; flag democratic-backsliding cases as a priority secondary source for the chain.",
+    "valueSemantics": "construct-magnitude"
   }
 ]
