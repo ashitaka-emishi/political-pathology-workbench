@@ -61,16 +61,19 @@ Work that should happen in PPW:
 ## Deferred Child Issues
 
 The deferred Lincoln issues that remain open in `lincoln-metaphor-analysis`
-carry the `deferred` label. LMA #95 was completed in the child repository after
-the original migration audit and is no longer part of the open deferred set.
+carry the `deferred` label until maintainer-approved supersession comments and
+closures are posted. LMA #95 was completed in the child repository after the
+original migration audit and is no longer part of the open deferred set. PPW
+#165 recorded Milestone 19 complete, satisfying the original resume condition
+for LMA #85 and #108; PPW-native successor issues now exist.
 
-| Source issue | Current state | Resume condition |
+| Source issue | Current state | PPW successor |
 |---|---|---|
-| [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) | Open, `deferred` | Revisit after PPW validation fixture foundations |
-| [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) | Open, `deferred` | Revisit after PPW validation fixture foundations |
+| [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) | Open, `deferred`; closure remains maintainer-gated | [PPW #300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) |
+| [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) | Open, `deferred`; closure remains maintainer-gated and source tracker notes incomplete human submissions/adjudication | [PPW #301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) |
 
-When the relevant PPW foundations are ready, the maintainer should decide
-whether these become new PPW issues or remain child-repository records.
+Before closing the source issues, the maintainer should approve supersession
+comments that describe them as migrated to PPW successor issues, not duplicated.
 
 ## Follow-Up Actions
 

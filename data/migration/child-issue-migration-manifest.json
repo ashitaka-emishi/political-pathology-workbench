@@ -146,12 +146,12 @@
       ],
       "sourceMilestone": "v2.0 — Multi-Model Reliability Stress Test",
       "issueKind": "tracking",
-      "disposition": "defer-to-post-integration",
-      "targetPpwIssue": null,
-      "targetPpwIssueUrl": null,
-      "targetMilestone": "Milestone 19: Validation, Generation, and Test Fixtures",
-      "rationale": "Reliability-study tracking may remain useful, but PPW should first establish evidence-module schemas, registries, and validation fixtures before recreating child-repo reliability workflows.",
-      "closureInstruction": "leave open with deferred-disposition comment after PPW inventory and manifest exist"
+      "disposition": "migrate-as-ppw-issue",
+      "targetPpwIssue": 300,
+      "targetPpwIssueUrl": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300",
+      "targetMilestone": "Milestone 21: Final Integration Audit and Repository Transition",
+      "rationale": "Originally deferred until PPW evidence-module schemas, registries, and validation fixtures existed. PPW Milestone 19 is now complete, so this tracker has been resumed as a PPW-native successor issue for multi-model reliability stress-test migration.",
+      "closureInstruction": "prepare supersession comment linking PPW #300; close only after maintainer approval"
     },
     {
       "sourceRepo": "ashitaka-emishi/lincoln-metaphor-analysis",
@@ -560,12 +560,12 @@
       ],
       "sourceMilestone": "v3.0 — Human Inter-Annotator Reliability Study",
       "issueKind": "tracking",
-      "disposition": "defer-to-post-integration",
-      "targetPpwIssue": null,
-      "targetPpwIssueUrl": null,
-      "targetMilestone": "Milestone 19: Validation, Generation, and Test Fixtures",
-      "rationale": "Reliability-study tracking may remain useful, but PPW should first establish evidence-module schemas, registries, and validation fixtures before recreating child-repo reliability workflows.",
-      "closureInstruction": "leave open with deferred-disposition comment after PPW inventory and manifest exist"
+      "disposition": "migrate-as-ppw-issue",
+      "targetPpwIssue": 301,
+      "targetPpwIssueUrl": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301",
+      "targetMilestone": "Milestone 21: Final Integration Audit and Repository Transition",
+      "rationale": "Originally deferred until PPW evidence-module schemas, registries, and validation fixtures existed. PPW Milestone 19 is now complete, so this tracker has been resumed as a PPW-native successor issue for human inter-annotator reliability migration. The source tracker records that implementation children are closed but human submissions and adjudication remain incomplete.",
+      "closureInstruction": "prepare supersession comment linking PPW #301; close only after maintainer approval"
     },
     {
       "sourceRepo": "ashitaka-emishi/lincoln-metaphor-analysis",

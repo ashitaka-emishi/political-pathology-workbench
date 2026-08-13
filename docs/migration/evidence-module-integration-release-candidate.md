@@ -132,10 +132,10 @@ Case scores remain protected from unreviewed evidence-module draft claims.
 
 ## Deferred Work
 
-Deferred source-repository issues:
+Formerly deferred source-repository issues now resumed in PPW:
 
-- [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) - Tracking v2.0 Multi-Model Reliability Stress Test
-- [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) - Tracking v3.0 Human Inter-Annotator Reliability Study
+- [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) - Tracking v2.0 Multi-Model Reliability Stress Test; PPW successor [#300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300)
+- [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) - Tracking v3.0 Human Inter-Annotator Reliability Study; PPW successor [#301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301)
 
 LMA #95 was completed in the child repository after this release-candidate
 audit and is retained as reference-only context.

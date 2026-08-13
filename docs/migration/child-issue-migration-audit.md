@@ -15,15 +15,16 @@ Sources: `data/migration/child-issue-migration-manifest.json`, `docs/migration/c
 | Child issues inventoried | 49 |
 | — sacrifice-law-workbench | 2 |
 | — lincoln-metaphor-analysis | 47 |
-| Migrated as new PPW issues | 7 |
+| Migrated as new PPW issues | 9 |
 | Merged into existing PPW migration coordination issues | 39 |
 | — adapt / adapt-pattern (inform future PPW milestones) | 35 |
 | — leave-in-child (child-repo-specific artifacts, no PPW equivalent) | 4 |
-| Deferred (no PPW target yet) | 3 |
+| Deferred (no PPW target yet) | 1 |
 | Recommended for immediate closure | 0 |
 | Maintainer decisions required | 3 (see below) |
 
-**Totals check:** 7 + 39 + 3 = 49. Matches manifest. ✓
+**Totals check:** 9 + 39 + 1 = 49. Matches manifest after the later LMA
+reliability tracker resumption update (#300/#301).
 
 ---
 
@@ -73,14 +74,19 @@ Child-repo-specific pipeline command issues with no direct PPW equivalent. Child
 
 ---
 
-## Deferred (2)
+## Deferred/resumed reliability trackers
 
-No PPW target issue created yet. Resume condition: PPW Milestone 19 (Validation, Generation, and Test Fixtures) foundations must exist before these are acted on. LMA #95 was completed in the child repository after the original migration audit and is retained as reference-only context rather than an open deferred item.
+PPW target issues have now been created for the two remaining open LMA
+reliability trackers. Their original resume condition was completion of PPW
+Milestone 19 (Validation, Generation, and Test Fixtures); PPW #165 is closed and
+records Milestone 19 complete. LMA #95 was completed in the child repository
+after the original migration audit and is retained as reference-only context
+rather than an open deferred item.
 
-| Source | Issue | Resume condition |
-|---|---|---|
-| LMA | [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 Multi-Model Reliability Stress Test | After M19 validation fixture foundations |
-| LMA | [#108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) — Tracking v3.0 Human Inter-Annotator Reliability Study | After M19 validation fixture foundations |
+| Source | Issue | PPW successor | Status |
+|---|---|---|---|
+| LMA | [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 Multi-Model Reliability Stress Test | [PPW #300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) | Resumed after M19 completion |
+| LMA | [#108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) — Tracking v3.0 Human Inter-Annotator Reliability Study | [PPW #301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) | Resumed after M19 completion; source tracker notes human submissions and adjudication remain incomplete |
 
 ---
 
@@ -104,11 +110,13 @@ Prepared notices include: repository description updates, README blockquote noti
 
 ### Decision 3 — Deferred issue lifecycle
 
-LMA #85 and #108 are deferred with no PPW target yet. Once Milestone 19 work begins, the maintainer should decide whether to:
-- Create new PPW issues for this work at that point, or
-- Fold the context into the M19 tracking issue (#165).
+LMA #85 and #108 now have PPW-native successor issues: #300 and #301. Before
+the LMA source issues are commented on or closed, the maintainer should approve
+the prepared supersession comments and confirm that the source trackers may be
+closed as migrated.
 
-**Recommended action:** Revisit when Milestone 19 (Validation, Generation, and Test Fixtures) is opened for implementation.
+**Recommended action:** Review the prepared supersession comments and close the
+source trackers only after maintainer approval.
 
 ---
 
@@ -118,7 +126,7 @@ LMA #85 and #108 are deferred with no PPW target yet. Once Milestone 19 work beg
 |---|---|---|
 | PPW #195/196/197 scope may overlap with #137 if implemented independently | Low | Cross-link comments added; implement in order (#195–197 before #137) |
 | PPW #198 and #143 may duplicate work if sequenced incorrectly | Low | Cross-link comments added; implement #198 before #143 |
-| Deferred LMA issues (#85, #108) may be forgotten when M19 opens | Low | Noted in M19 tracking issue #165 context; revisit at M19 kickoff |
+| LMA successor issues (#300, #301) may be mistaken for reviewed reliability findings rather than migration trackers | Low | Successor issue bodies and migration docs preserve review gates and source-history limits |
 | Child-repo GitHub Pages sites may re-render and lose notices if not pinned | Low | Only applicable after inactive notices are applied by maintainer |
 
 ---

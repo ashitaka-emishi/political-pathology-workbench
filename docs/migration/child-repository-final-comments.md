@@ -65,8 +65,8 @@ Maintainer decision points remain:
 - Whether and when to post the prepared per-issue supersession comments.
 - Whether and when to apply README, repository description, and GitHub Pages
   inactive notices.
-- Whether LMA #85 and #108 should later become PPW issues or remain
-  deferred source-repository records after the relevant PPW foundations exist.
+- Whether and when to post maintainer-approved supersession comments and close
+  LMA #85/#108 now that PPW successors #300/#301 exist.
 - Whether any repository archive setting should be applied later.
 
 This comment does not archive, freeze, delete, or unpublish this repository.

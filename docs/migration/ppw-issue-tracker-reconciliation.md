@@ -20,14 +20,16 @@ Sources checked:
 The PPW issue tracker is reconciled for the child-issue migration and final
 evidence-module integration pass.
 
-- All seven standalone migrated PPW issues are closed and assigned to the
-  expected PPW milestones.
+- The seven original standalone migrated PPW issues are closed and assigned to
+  the expected PPW milestones. Two later reliability successor issues, #300 and
+  #301, are open in Milestone 21 for resumed LMA tracker migration.
 - Each standalone migrated issue body retains child-source provenance.
 - No duplicate active migrated issues remain open.
-- The three deferred child issues remain deferred with no PPW target issue yet;
-  this is intentional and is recorded in the migration manifest, source issue
-  map, supersession comments, and repository transition plan. A `deferred`
-  label has been added to each source issue in `lincoln-metaphor-analysis`.
+- The remaining open deferred LMA trackers now have PPW-native successor issues
+  after PPW #165 recorded Milestone 19 complete: LMA #85 maps to PPW #300 and
+  LMA #108 maps to PPW #301. A `deferred` label remains on each source issue in
+  `lincoln-metaphor-analysis` until maintainer-approved supersession comments
+  and closures are posted.
 - Milestone tracking issues now reflect the current state for the evidence
   module integration milestones checked in this audit.
 - Remaining open work is limited to Milestone 21 transition tasks: final child
@@ -45,6 +47,8 @@ evidence-module integration pass.
 | [#197](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/197) | [LMA #115](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/115) | Milestone 15 | Closed | Present in issue body |
 | [#198](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/198) | [LMA #119](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/119) | Milestone 16 | Closed | Present in issue body |
 | [#199](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/199) | [LMA #125](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/125) | Milestone 19 | Closed | Present in issue body |
+| [#300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) | [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) | Milestone 21 | Open | Present in issue body |
+| [#301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) | [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) | Milestone 21 | Open | Present in issue body |
 
 The original duplicate analysis in
 [`child-issue-reconciliation.md`](child-issue-reconciliation.md) remains valid:
@@ -56,15 +60,16 @@ reliability-sampling issues.
 
 | Source issue | Disposition | Live label | PPW target | Resume condition |
 |---|---|---|---|---|
-| [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) | `defer-to-post-integration` | `deferred` | None yet | Revisit after PPW validation fixture foundations |
-| [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) | `defer-to-post-integration` | `deferred` | None yet | Revisit after PPW validation fixture foundations |
+| [LMA #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) | `migrate-as-ppw-issue` after original `defer-to-post-integration` | `deferred` | [PPW #300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) | Satisfied by PPW #165 closure |
+| [LMA #108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) | `migrate-as-ppw-issue` after original `defer-to-post-integration` | `deferred` | [PPW #301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) | Satisfied by PPW #165 closure |
 
-No PPW issues were created for these deferred entries. Their lifecycle remains
-an explicit maintainer decision, not an omitted tracker action. This audit
-created the `deferred` label in `ashitaka-emishi/lincoln-metaphor-analysis` and
-applied it to the source issues so the child tracker matches the migration
-disposition. LMA #95 was later completed in the child repository and is no
-longer part of the open deferred set. The remaining deferred issues are visible in
+PPW #300 and #301 are successor issues, not literal duplicates of the LMA
+trackers. Posting supersession comments and closing LMA #85/#108 remains an
+explicit maintainer decision. This audit created the `deferred` label in
+`ashitaka-emishi/lincoln-metaphor-analysis` and applied it to the source issues
+so the child tracker matches the migration disposition until that approval is
+given. LMA #95 was later completed in the child repository and is no longer part
+of the open deferred set. The reliability successor records are visible in
 `data/migration/child-issue-migration-manifest.json`,
 `data/evidence-modules/lincoln-metaphor-analysis/source-issue-map.json`,
 [`child-repo-supersession-comments.md`](child-repo-supersession-comments.md),
@@ -92,11 +97,14 @@ Other checked trackers already matched live issue state:
 ## Remaining Work
 
 Issue #184 does not require closing, merging, or relabeling duplicate migrated
-issues. The remaining tracker work belongs to later Milestone 21 issues:
+issues. The remaining tracker work belongs to later Milestone 21 issues and the
+resumed reliability successor issues created from #297:
 
 - [#185](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/185) prepares final child-repository comments.
 - [#186](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/186) records the child-repository lifecycle decision.
 - [#187](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/187) tags or prepares the integration release.
+- [#300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) resumes the LMA #85 multi-model reliability migration.
+- [#301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) resumes the LMA #108 human inter-annotator reliability migration.
 
 ## Acceptance Criteria Status
 
@@ -105,6 +113,6 @@ issues. The remaining tracker work belongs to later Milestone 21 issues:
 | Migrated issues have correct milestones | Met |
 | Migrated issues have source links | Met |
 | Duplicate migrated issues are closed or merged only with maintainer approval | Met; no duplicate merge required |
-| Deferred issues are labeled | Met for the remaining open deferred issues, LMA #85 and #108; LMA #95 later closed in the child repository |
+| Deferred issues are labeled | Met for LMA #85 and #108 pending maintainer-approved supersession closure; PPW successor issues are #300 and #301 |
 | Tracking issues reflect current state | Met after updating #118 |
 | Child-source provenance is visible | Met |

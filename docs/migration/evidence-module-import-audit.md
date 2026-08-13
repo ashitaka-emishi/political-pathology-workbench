@@ -173,17 +173,17 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 
 | Category | Count | PPW Issues |
 |---|---|---|
-| Migrated as PPW issues | 6 | #194, #195, #196, #197, #198, #199 |
+| Migrated as PPW issues | 8 | #194, #195, #196, #197, #198, #199, #300, #301 |
 | Merged into coordination issues | 38 | PPW #112 (25 absorbed), PPW #113 (6 absorbed); 7 source issues in summary count but not individually listed (gap) |
-| Deferred | 2 | LMA #85, #108 |
+| Deferred | 0 | LMA #85 and #108 were resumed as PPW #300 and #301 after PPW #165 recorded Milestone 19 complete |
 | Completed in child after migration audit | 1 | LMA #95 |
 | **Total** | **47** | |
 
 **Known gap:** The `mergedCoordinationIssues` arrays in `source-issue-map.json` account for 31 of the 38 merged source issues (25 in PPW #112, 6 in PPW #113). The remaining 7 merged source issues are counted in the migration summary but not individually listed. This should be reconciled in a follow-up migration audit or during Milestone 19.
 
-**Deferred issues:**
-- LMA #85: Tracking v2.0 Multi-Model Reliability Stress Test — resume after Milestone 19 validation fixtures
-- LMA #108: Tracking v3.0 Human IAA Study — resume after Milestone 19 validation fixtures
+**Originally deferred issues now resumed:**
+- LMA #85: Tracking v2.0 Multi-Model Reliability Stress Test — PPW successor #300 after Milestone 19 validation fixtures were completed
+- LMA #108: Tracking v3.0 Human IAA Study — PPW successor #301 after Milestone 19 validation fixtures were completed; source tracker notes human submissions and adjudication remain incomplete
 
 **Completed after original migration audit:**
 - LMA #95: Classify human coder disagreements — closed in the child repository; retain as reference-only context.
