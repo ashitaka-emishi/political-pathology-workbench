@@ -17,7 +17,7 @@ const VOCAB = {
   outcomes: new Set(["sacrificial-escalation", "restrained-reordering", "collapse", "absorption-transformation", "stagnation-frozen-pathology", "hybrid-transitional"]),
   reviewStatuses: new Set(["draft", "source-review", "evidence-review", "argument-review", "score-review", "human-reviewed", "approved", "rejected"]),
   publicationStatuses: new Set(["private-note", "draft", "internal-review", "public-preview", "published", "withdrawn"]),
-  evidenceRoles: new Set(["grounds", "warrant", "backing", "qualifier", "rebuttal", "counterevidence", "context", "corroboration"]),
+  evidenceRoles: new Set(["supporting", "contradicting", "qualifying", "contextual", "background", "temporal-counterexample", "methodological", "grounds", "warrant", "backing", "qualifier", "rebuttal", "counterevidence", "context", "corroboration"]),
   sourceRoles: new Set(["primary-grounds", "secondary-context", "theoretical-warrant", "background-theory", "theoretical-background", "counterevidence", "corroboration"]),
   mechanisms: new Set(["collective-immortality-to-sacrifice", "sacred-enemy-escalation", "institutional-self-preservation", "anti-sacrificial-restraint", "pluralist-reordering", "constitutional-containment", "memory-driven-restraint", "legitimacy-collapse", "institutional-fragmentation", "symbolic-transformation", "frozen-pathology"]),
   sacrificeForms: new Set(["time", "labor", "health", "conscience", "family-life", "dignity", "speech", "agency", "economic-security", "bodily-risk", "blood-sacrifice", "death", "killing", "martyrdom", "ritual-sacrifice"]),
@@ -25,7 +25,8 @@ const VOCAB = {
   sacrificeBoundedness: new Set(["bounded", "partially-bounded", "unbounded", "unknown"]),
   sacrificeTargets: new Set(["self", "enemy", "in-group", "out-group", "mixed", "unknown"]),
   caseSelectionRoles: new Set(["gold-case", "high-pathology-case", "countercase", "collapse-case", "transformation-case", "stagnation-case", "hybrid-case", "deferred-case", "rejected-case"]),
-  counterclaimEffects: new Set(["contradicts", "qualifies", "limits", "complicates", "supports-alternative-explanation"])
+  counterclaimEffects: new Set(["contradicts", "qualifies", "limits", "complicates", "supports-alternative-explanation"]),
+  searchPurposes: new Set(["supporting", "disconfirming", "neutral"])
 };
 
 function isPublicFacing(publicationStatus) {
@@ -159,6 +160,8 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     const interpretations = readArray(path.join(caseDir, "interpretations.json"));
     const scores = readArray(path.join(caseDir, "scores.json"));
     const counterclaims = readArray(path.join(caseDir, "counterclaims.json"));
+    const searchLogs = readArray(path.join(caseDir, "search-log.json"));
+    const rivalExplanations = readArray(path.join(caseDir, "rival-explanations.json"));
 
     const sourceIds = new Set(sourcePack.sources.map((source) => source.sourceId));
     const passageIds = new Set(passages.map((passage) => passage.passageId));
@@ -166,6 +169,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     const interpretationIds = new Set(interpretations.map((interpretation) => interpretation.interpretationId));
     const claimsById = new Map(claims.map((claim) => [claim.claimId, claim]));
     const interpretationsById = new Map(interpretations.map((interpretation) => [interpretation.interpretationId, interpretation]));
+    const searchLogIds = new Set();
     const referencedPassageIds = new Set();
     const referencedClaimIds = new Set();
     const scoredInterpretationIds = new Set();
@@ -245,6 +249,34 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       validateEnum(`${counterclaim.counterclaimId}.publicationStatus`, counterclaim.publicationStatus, VOCAB.publicationStatuses);
       for (const claimId of counterclaim.targetClaimIds ?? []) {
         if (!claimIds.has(claimId)) addError(`${counterclaim.counterclaimId}: target claim ${claimId} is missing`);
+      }
+    }
+
+    for (const searchLog of searchLogs) {
+      requireFields(`${caseDir}/search-log.json:${searchLog.searchId ?? "<unknown>"}`, searchLog, ["searchId", "date", "query", "database", "purpose"]);
+      if (searchLogIds.has(searchLog.searchId)) addError(`${caseDir}/search-log.json: duplicate searchId ${searchLog.searchId}`);
+      searchLogIds.add(searchLog.searchId);
+      validateEnum(`${searchLog.searchId}.purpose`, searchLog.purpose, VOCAB.searchPurposes);
+      for (const sourceId of searchLog.includedSourceIds ?? []) {
+        if (!sourceIds.has(sourceId)) addError(`${searchLog.searchId}: includedSourceId ${sourceId} is not in source-pack.json`);
+      }
+    }
+
+    for (const rival of rivalExplanations) {
+      requireFields(`${caseDir}/rival-explanations.json:${rival.rivalExplanationId ?? "<unknown>"}`, rival, ["rivalExplanationId", "caseId", "explanation", "targetClaimIds", "supportingEvidenceIds", "contradictingEvidenceIds", "discriminatingEvidence", "reviewStatus", "publicationStatus"]);
+      validateEnum(`${rival.rivalExplanationId}.reviewStatus`, rival.reviewStatus, VOCAB.reviewStatuses);
+      validateEnum(`${rival.rivalExplanationId}.publicationStatus`, rival.publicationStatus, VOCAB.publicationStatuses);
+      if (rival.caseId !== caseRecord.caseId) addError(`${rival.rivalExplanationId}: caseId does not match ${caseRecord.caseId}`);
+      for (const claimId of rival.targetClaimIds ?? []) {
+        if (!claimIds.has(claimId)) addError(`${rival.rivalExplanationId}: target claim ${claimId} is missing`);
+      }
+      const counterclaimIds = new Set(counterclaims.map((counterclaim) => counterclaim.counterclaimId));
+      const evidenceIds = new Set([...passageIds, ...sourceIds, ...searchLogIds, ...counterclaimIds]);
+      for (const evidenceId of [...(rival.supportingEvidenceIds ?? []), ...(rival.contradictingEvidenceIds ?? [])]) {
+        if (!evidenceIds.has(evidenceId)) addError(`${rival.rivalExplanationId}: evidence id ${evidenceId} is not a passage, source, search log, or counterclaim`);
+      }
+      if ((rival.supportingEvidenceIds ?? []).length === 0 || (rival.contradictingEvidenceIds ?? []).length === 0) {
+        addWarning(`${rival.rivalExplanationId}: rival explanation should include both supporting and contradicting evidence`);
       }
     }
 

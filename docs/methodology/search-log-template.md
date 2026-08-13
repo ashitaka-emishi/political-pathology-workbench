@@ -8,6 +8,7 @@ Use this template for literature search tracking.
   "date": "YYYY-MM-DD",
   "query": "string",
   "database": "string",
+  "purpose": "supporting | disconfirming | neutral",
   "inclusionCriteria": ["string"],
   "exclusionCriteria": ["string"],
   "resultsCount": 0,

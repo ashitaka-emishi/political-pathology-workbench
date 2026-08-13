@@ -164,6 +164,23 @@ export function generateCaseEvidenceChains(root) {
         counterclaimId, claim, effect, targetClaimIds: targetClaimIds ?? [], sourceIds: sourceIds ?? [], rationale, reviewStatus,
       })
     );
+    const searchLogs = readArray(path.join(caseDir, "search-log.json")).map(
+      ({ searchId, date, query, database, purpose, includedSourceIds, notes }) => ({
+        searchId, date, query, database, purpose, includedSourceIds: includedSourceIds ?? [], notes,
+      })
+    );
+    const rivalExplanations = readArray(path.join(caseDir, "rival-explanations.json")).map(
+      ({ rivalExplanationId, explanation, targetClaimIds, supportingEvidenceIds, contradictingEvidenceIds, discriminatingEvidence, mechanismDiscrimination, reviewStatus }) => ({
+        rivalExplanationId,
+        explanation,
+        targetClaimIds: targetClaimIds ?? [],
+        supportingEvidenceIds: supportingEvidenceIds ?? [],
+        contradictingEvidenceIds: contradictingEvidenceIds ?? [],
+        discriminatingEvidence,
+        mechanismDiscrimination: mechanismDiscrimination ?? null,
+        reviewStatus,
+      })
+    );
 
     const generationWarnings = [];
     for (const interp of nativeChain.interpretations) {
@@ -193,6 +210,8 @@ export function generateCaseEvidenceChains(root) {
       generationWarnings,
       nativeChain,
       counterclaims,
+      searchLogs,
+      rivalExplanations,
       draftClaims: draftClaimsByCase.get(caseId) ?? [],
       promotedClaims: promotedClaimsByCase.get(caseId) ?? [],
     };

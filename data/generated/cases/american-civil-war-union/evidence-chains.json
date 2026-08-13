@@ -64,6 +64,8 @@
       "reviewStatus": "draft"
     }
   ],
+  "searchLogs": [],
+  "rivalExplanations": [],
   "draftClaims": [
     {
       "draftClaimId": "lma-draft-claim-001",
