@@ -150,7 +150,7 @@
       ],
       "promotionBlockers": [
         "Passage records must be imported (PPW #143)",
-        "Cross-register corpus coverage requires validation-tier documents (PPW #196, pending LMA #114)",
+        "Cross-register corpus coverage requires PPW import/review of the completed LMA validation-tier source inventory (PPW #196)",
         "Claim-promotion gate not yet designed (PPW #129)"
       ]
     },

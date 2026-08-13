@@ -75,9 +75,9 @@ It reconciles module records, corpus registry records, and migration manifest re
 
 **Corpus record summary:**
 - `corpusType`: deep-case; `corpusPurpose`: core
-- `documentCount`: 28 (confirmed v3 baseline); `registeredDocumentCount`: 36 (28 confirmed + 8 planned v4 additions from LMA #113, registered by PPW #195)
-- Three tiers documented: core (36 registered, 48-doc v4 target; gap of 12 pending LMA #113, PPW #195), validation (scope defined by PPW #196: 75-100 docs, passage-segmentation-only annotation, 9 candidate categories; additional documents pending LMA #114), reference (scope defined by PPW #197: open-ended count, search-only indexing, 6 candidate categories including contemporaneous-context docs; specific documents pending LMA #115)
-- All status fields: pending / not-started
+- `documentCount`: 28 (confirmed v3 baseline); `registeredDocumentCount`: 36 current PPW document metadata records
+- LMA v4 source inventories are complete through the non-human-review boundary: 48 core documents, 78 validation-tier documents, and 18 additional reference-tier records. These are recorded as source-provenance artifacts, not as reviewed PPW evidence.
+- All PPW evidence-readiness status fields remain pending / not-started: raw text import, passage segmentation, annotation, human/inter-annotator review, scoring, and claim promotion are not implied by inventory completion.
 
 ### 3.2 sacrifice-law-comparative-41 (PPW #138)
 
@@ -111,17 +111,17 @@ It reconciles module records, corpus registry records, and migration manifest re
 | sacrifice-law-workbench | Quarto research site | Child-repo site remains live; PPW will have own module pages (PPW #176, #178) |
 | sacrifice-law-workbench | Pipeline scripts | Child-repo-specific; inform PPW pipeline design (Milestone 19) |
 
-### 4.2 Open in Milestone 15 (in progress)
+### 4.2 Milestone 15 Source Inventories
 
-These issues are within Milestone 15 scope but not yet closed:
+The original Milestone 15 PPW issues are closed. The child repository later completed the corresponding v4 inventory artifacts, so PPW now records them as source inventories pending expanded PPW import and review.
 
 | Artifact | PPW Issue | Scheduled Milestone |
 |---|---|---|
-| 36-doc core corpus inventory (28 confirmed + 8 planned v4 additions; 12-doc gap to 48-doc target pending LMA #113) | #195 | 15 |
-| Validation tier scope, annotation definition, and 9 candidate categories (additional documents pending LMA #114) | #196 | 15 |
-| Search-only reference corpus inventory (scope, annotation exclusion, and 6 candidate categories defined; specific documents pending LMA #115) | #197 | 15 |
+| 48-document LMA v4 core source inventory | #195 | 15 |
+| 78-document LMA v4 validation source inventory | #196 | 15 |
+| 18-document additional search-only reference source inventory | #197 | 15 |
 
-PPW #195 substantially addressed (36 of 48 planned documents registered). PPW #196 substantially addressed (validation-tier scope and annotation level defined; specific additional documents pending LMA #114 resolution). PPW #197 substantially addressed (reference-tier scope, search-only annotation exclusion, and candidate categories defined; specific documents pending LMA #115 resolution).
+PPW still distinguishes source inventory completion from PPW evidence readiness. The additional inventory records require PPW source-pack mapping, raw-text import, segmentation, annotation/reliability review, and claim-promotion gates before they can support PPW findings or scores.
 
 ### 4.3 Deferred to Milestone 16 (Lincoln)
 
@@ -175,15 +175,18 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 |---|---|---|
 | Migrated as PPW issues | 6 | #194, #195, #196, #197, #198, #199 |
 | Merged into coordination issues | 38 | PPW #112 (25 absorbed), PPW #113 (6 absorbed); 7 source issues in summary count but not individually listed (gap) |
-| Deferred | 3 | LMA #85, #95, #108 |
+| Deferred | 2 | LMA #85, #108 |
+| Completed in child after migration audit | 1 | LMA #95 |
 | **Total** | **47** | |
 
 **Known gap:** The `mergedCoordinationIssues` arrays in `source-issue-map.json` account for 31 of the 38 merged source issues (25 in PPW #112, 6 in PPW #113). The remaining 7 merged source issues are counted in the migration summary but not individually listed. This should be reconciled in a follow-up migration audit or during Milestone 19.
 
 **Deferred issues:**
 - LMA #85: Tracking v2.0 Multi-Model Reliability Stress Test — resume after Milestone 19 validation fixtures
-- LMA #95: Classify human coder disagreements — resume after Milestone 19 claim-promotion gate foundations
 - LMA #108: Tracking v3.0 Human IAA Study — resume after Milestone 19 validation fixtures
+
+**Completed after original migration audit:**
+- LMA #95: Classify human coder disagreements — closed in the child repository; retain as reference-only context.
 
 ### 5.2 sacrifice-law-workbench
 
@@ -251,10 +254,10 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 | American Revolution / Napoleon PPW case mapping not confirmed | SLW | High | #149, #150, #151 |
 | 7 absorbed source issues (LMA) not individually listed in source-issue-map.json | LMA | Low | Follow-up reconciliation |
 | Reliability sampling strategy not yet adapted to PPW | LMA, SLW | Medium | #199 (LMA), #192 (SLW) |
-| LMA validation-tier documents[] has no individual documents yet — scope defined but specific selection pending LMA #114 | LMA | Low | #196 (substantially addressed: tier scope, annotation level, and 9 candidate categories defined in PPW #196; additional documents pending LMA #114 resolution) |
-| LMA reference-tier documents[] has no individual documents yet — scope defined but specific selection pending LMA #115 | LMA | Low | #197 (substantially addressed: scope and annotation exclusion defined; documents pending LMA #115) |
+| LMA validation-tier source inventory complete but not imported as PPW evidence records | LMA | Low | #196 (source inventory complete in child repo; PPW import/review pending) |
+| LMA reference-tier source inventory complete but not imported as PPW reference records | LMA | Low | #197 (source inventory complete in child repo; PPW import/review pending) |
 | SLW documents[] array empty — no document-level metadata yet | SLW | Medium | No issue yet (SLW M17 import issue to be created) |
-| lincoln-deep-28 core-tier documents[] partially populated (36 of 48 planned entries; 12-doc gap pending LMA #113 resolution) | LMA | Low | #195 (substantially addressed) |
+| lincoln-deep-28 core-tier PPW metadata remains partially populated relative to completed 48-document LMA source inventory | LMA | Low | #195 (source inventory complete in child repo; PPW import/review pending) |
 | SLW raw-text import has no governing PPW issue (import-map.json ppwIssues: []) | SLW | Medium | (no issue; must be created for M17 planning) |
 | No schemas govern per-corpus folder files (corpus.json, documents.json, artifact-index.json) | Both | Low | (infrastructure gap, out of scope M15) |
 
@@ -268,7 +271,7 @@ Note: PPW #138 created the per-corpus folder structure in Milestone 15 and is cl
 
 The module-level and corpus-level metadata for Lincoln is in place (PPW #135, #137). Milestone 16 may begin, with the following condition:
 
-- **PPW #195, #196, #197 substantially completed** (three-tier corpus inventories, closed in Milestone 15). Core-tier (36 registered), validation-tier (scope + 9 categories), and reference-tier (scope + 6 categories) are all defined in documents.json. Specific document selection for validation and reference tiers awaits LMA #114 and LMA #115 respectively; that follow-on work will be tracked as new PPW issues when those child-repo issues resolve.
+- **PPW #195, #196, #197 closed with source inventories now complete in LMA.** LMA records 48 core documents, 78 validation-tier documents, and 18 additional reference-tier records. PPW may proceed with import planning, but inventory completion does not imply raw text import, segmentation, annotation, review, scoring, or claim-promotion readiness.
 
 The following Milestone 16 work is not blocked by any open prerequisite beyond #195-#197:
 - Define corpus expansion architecture (PPW #194)

@@ -1,12 +1,12 @@
 {
   "corpusId": "lincoln-deep-28",
-  "corpusName": "Lincoln Deep Corpus (28-document core set)",
+  "corpusName": "Lincoln Deep Corpus (28-document reviewed baseline; LMA v4 inventories complete)",
   "corpusType": "deep-case",
   "originModuleId": "lincoln-metaphor-analysis",
   "caseIds": ["american-civil-war-union"],
   "documentCount": 28,
   "registeredDocumentCount": 36,
-  "samplingFrame": "Core 28-document set drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis (pipeline_stage_completed: 4 in source manifest). PPW #195 registered 36 documents: 28 confirmed (v3 baseline, present in corpus_manifest.json) plus 8 planned v4 additions identified in LMA #113 but not yet in the source-repo manifest. The v4 target of 48 requires 12 more documents to be specified when LMA #113 is resolved. PPW #196 defined the validation-tier scope (75-100 docs; passage-segmentation-only annotation; 9 candidate categories; specific documents pending LMA #114). PPW #197 defined the reference-tier scope (open-ended count; search indexing only; no annotation; 6 candidate categories including contemporaneous-context documents; specific documents pending LMA #115).",
+  "samplingFrame": "Core 28-document reviewed baseline drawn from Abraham Lincoln's speeches, letters, and public addresses (1838-1865), fully annotated in lincoln-metaphor-analysis (pipeline_stage_completed: 4 in the source manifest). LMA v4 source inventories are now complete through the non-human-review boundary: 48 core documents, 78 validation-tier documents, and 18 additional search-only reference documents. PPW currently registers 36 document metadata records; the remaining LMA v4 inventory records require PPW source-pack mapping, raw-text import, segmentation, annotation/reliability review, and claim-promotion gates before they become PPW evidence.",
   "corpusPurpose": "core",
   "rightsStatus": "fair-use",
   "normalizationStatus": "pending",
@@ -22,5 +22,10 @@
     "github:ashitaka-emishi/political-pathology-workbench#197",
     "github:ashitaka-emishi/political-pathology-workbench#198"
   ],
-  "notes": "PPW #194 (migrated from LMA #109) defined the three-tier corpus expansion architecture: core (48-doc target, full annotation pipeline), validation (75-100 docs, passage segmentation only), reference (open-ended, search indexing only). The architecture is expressed in the documentTiers[].tierDefinition blocks in documents.json. PPW #195 populated documents.json with 36 document entries: 28 confirmed (v3 baseline from corpus_manifest.json) and 8 planned v4 additions from LMA #113. documentCount (28) reflects confirmed pipeline documents; registeredDocumentCount (36) reflects documents.json entries including planned additions. 12 more documents are needed to reach the v4 target of 48; these will be specified when LMA #113 is resolved. PPW #196 defined the validation-tier scope, annotation level (passage segmentation only), reliability use, and nine candidate document categories; specific additional documents pending LMA #114 resolution. PPW #197 defined the reference-tier scope: open-ended count, search-indexing-only annotation level, 6 candidate categories (including contemporaneous-context documents not authored by Lincoln), and authorship exclusion note for scoring runs. Specific documents pending LMA #115 resolution. Raw text import planned for Milestone 16 (PPW #198)."
+  "notes": "PPW #194 (migrated from LMA #109) defined the three-tier corpus expansion architecture. LMA has now completed source inventories for LMA #113 (48-document core), LMA #114 (78-document validation inventory), and LMA #115 (18 additional search-only reference records). PPW still distinguishes source inventory completion from evidence readiness: documentCount (28) reflects the reviewed/deep baseline, registeredDocumentCount (36) reflects current PPW document metadata records, and the LMA v4 sourceInventoryCounts require follow-on PPW import/review work. Raw text import, passage segmentation, annotation, human/inter-annotator review, scoring, and claim promotion remain pending.",
+  "sourceInventoryCounts": {
+    "lmaV4Core": 48,
+    "lmaV4Validation": 78,
+    "lmaV4ReferenceAdditional": 18
+  }
 }

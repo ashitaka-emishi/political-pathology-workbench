@@ -73,14 +73,13 @@ Child-repo-specific pipeline command issues with no direct PPW equivalent. Child
 
 ---
 
-## Deferred (3)
+## Deferred (2)
 
-No PPW target issue created yet. Resume condition: PPW Milestone 19 (Validation, Generation, and Test Fixtures) foundations must exist before these are acted on.
+No PPW target issue created yet. Resume condition: PPW Milestone 19 (Validation, Generation, and Test Fixtures) foundations must exist before these are acted on. LMA #95 was completed in the child repository after the original migration audit and is retained as reference-only context rather than an open deferred item.
 
 | Source | Issue | Resume condition |
 |---|---|---|
 | LMA | [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 Multi-Model Reliability Stress Test | After M19 validation fixture foundations |
-| LMA | [#95](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95) — Classify human coder disagreements | After M19 claim-promotion gate foundations |
 | LMA | [#108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) — Tracking v3.0 Human Inter-Annotator Reliability Study | After M19 validation fixture foundations |
 
 ---
@@ -105,7 +104,7 @@ Prepared notices include: repository description updates, README blockquote noti
 
 ### Decision 3 — Deferred issue lifecycle
 
-LMA #85, #95, and #108 are deferred with no PPW target yet. Once Milestone 19 work begins, the maintainer should decide whether to:
+LMA #85 and #108 are deferred with no PPW target yet. Once Milestone 19 work begins, the maintainer should decide whether to:
 - Create new PPW issues for this work at that point, or
 - Fold the context into the M19 tracking issue (#165).
 
@@ -119,7 +118,7 @@ LMA #85, #95, and #108 are deferred with no PPW target yet. Once Milestone 19 wo
 |---|---|---|
 | PPW #195/196/197 scope may overlap with #137 if implemented independently | Low | Cross-link comments added; implement in order (#195–197 before #137) |
 | PPW #198 and #143 may duplicate work if sequenced incorrectly | Low | Cross-link comments added; implement #198 before #143 |
-| Deferred LMA issues (#85, #95, #108) may be forgotten when M19 opens | Low | Noted in M19 tracking issue #165 context; revisit at M19 kickoff |
+| Deferred LMA issues (#85, #108) may be forgotten when M19 opens | Low | Noted in M19 tracking issue #165 context; revisit at M19 kickoff |
 | Child-repo GitHub Pages sites may re-render and lose notices if not pinned | Low | Only applicable after inactive notices are applied by maintainer |
 
 ---

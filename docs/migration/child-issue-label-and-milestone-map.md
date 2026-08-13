@@ -50,8 +50,8 @@ Every child-repo milestone is mapped to its immediate PPW home (the Milestone 12
 |---|---|---|---|---|
 | `Pre-v1 corpus expansion window` (SLW) | #174, #183 | [#110](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/110) — Milestone 12 | Milestone 17: Sacrifice Law Comparative Evidence Module | Reliability sampling (#183) → Milestone 19 after module foundations exist |
 | `v2.0 — Multi-Model Reliability Stress Test` (LMA) | #78, #82, #84, #85 | [#113](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/113) — Milestone 12 | Milestone 20: Unified Site and Public Evidence Browser (docs/pub); Milestone 19 for deferred reliability tracking (#85) | #85 deferred until PPW validation fixtures exist |
-| `v3.0 — Human Inter-Annotator Reliability Study` (LMA) | #92–#108 | [#112](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/112) (pipeline), [#113](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/113) (docs) — Milestone 12 | Milestone 19: Validation, Generation, and Test Fixtures (pipeline/schema/fixtures); Milestone 20 (publication/docs); Milestone 19 for deferred tracking (#108) | #95, #108 deferred |
-| `v4.0 — Corpus Expansion and Stratified Validation Corpus` (LMA) | #109–#134 | [#111](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111) (corpus/migrate), [#112](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/112) (pipeline/schema), [#113](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/113) (docs/pub) — Milestone 12 | Milestone 15: Evidence Module Metadata Import (metadata/schema); Milestone 16: Lincoln Deep Case Evidence Module (corpus implementation); Milestone 20 (publication) | Architecture (#109) → Milestone 16 |
+| `v3.0 — Human Inter-Annotator Reliability Study` (LMA) | #92–#108 | [#112](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/112) (pipeline), [#113](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/113) (docs) — Milestone 12 | Milestone 19: Validation, Generation, and Test Fixtures (pipeline/schema/fixtures); Milestone 20 (publication/docs); Milestone 19 for deferred tracking (#108) | #95 completed in the child repo after migration; #108 remains deferred |
+| `v4.0 — Corpus Expansion and Stratified Validation Corpus` (LMA) | #109–#134 | [#111](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111) (corpus/migrate), [#112](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/112) (pipeline/schema), [#113](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/113) (docs/pub) — Milestone 12 | Milestone 15: Evidence Module Metadata Import (metadata/schema); Milestone 16: Lincoln Deep Case Evidence Module (corpus implementation); Milestone 20 (publication) | LMA v4 source inventories complete; PPW import/review remains pending |
 
 ### Tracking issue mapping
 
@@ -87,12 +87,11 @@ The following PPW labels are referenced in mappings above. All are defined in `a
 
 ## Deferred issues and their label/milestone implications
 
-Three issues are deferred (`defer-to-post-integration`) with no immediate PPW target issue:
+Two issues remain deferred (`defer-to-post-integration`) with no immediate PPW target issue. LMA #95 was completed in the child repository after the original migration audit and is retained as reference-only context.
 
 | Source | Issue | Deferred reason | Resume condition |
 |---|---|---|---|
 | LMA | #85 — Tracking v2.0 reliability | PPW needs validation fixtures first | After Milestone 19 foundations |
-| LMA | #95 — Classify human coder disagreements | PPW needs claim-promotion gates | After Milestone 19 foundations |
 | LMA | #108 — Tracking v3.0 reliability | PPW needs validation fixtures first | After Milestone 19 foundations |
 
 When these are resumed, apply labels: `reliability`, `tracking` (for tracking issues), `review-gates`, `validation` as appropriate to the specific work.
