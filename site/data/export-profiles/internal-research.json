@@ -1,32 +1,6 @@
 {
-  "status": "draft-research-repository",
-  "generatedAt": "repository-state",
-  "caseCount": 22,
-  "theoryCount": 3,
-  "storedScoreRecordCount": 26,
-  "substantiveScoreCount": 0,
-  "legacyScoreCount": 26,
-  "independentlyCodedScoreCount": 0,
-  "counterclaimCount": 20,
-  "measurementStatus": {
-    "storedScoreRecordCount": 26,
-    "substantiveScoreCount": 0,
-    "legacyScoreCount": 26,
-    "independentlyCodedScoreCount": 0,
-    "scoreCountByOrigin": {
-      "legacy": 26
-    },
-    "scoreCountByReviewStatus": {
-      "score-review": 26
-    },
-    "analyticallyEligibleCount": 0,
-    "analyticallyExcludedCount": 26,
-    "exclusionReasons": {
-      "exclude-origin-legacy": 26,
-      "exclude-outcome-visible": 26,
-      "exclude-review-score-review": 26
-    }
-  },
+  "profileId": "internal-research",
+  "distributionStatus": "internal",
   "cases": [
     {
       "caseId": "american-civil-war-union",
@@ -425,33 +399,23 @@
       "holdoutStatus": "not-held-out"
     }
   ],
-  "theories": [
-    {
-      "theoryId": "general-theory-political-pathology-v1",
-      "title": "General Theory of Political Pathology",
-      "version": "v1",
-      "status": "draft",
-      "publicationStatus": "draft",
-      "description": "A comparative theory of how embodied sacred political orders respond to crisis through sacrifice, reform, collapse, transformation, stagnation, or hybrid transition.",
-      "slug": "general-theory-political-pathology-v1"
+  "measurementStatus": {
+    "storedScoreRecordCount": 26,
+    "substantiveScoreCount": 0,
+    "legacyScoreCount": 26,
+    "independentlyCodedScoreCount": 0,
+    "scoreCountByOrigin": {
+      "legacy": 26
     },
-    {
-      "theoryId": "koenigsberg-immortal-body-v1",
-      "title": "Koenigsberg's Immortal Collective Body",
-      "version": "v1",
-      "status": "draft",
-      "publicationStatus": "draft",
-      "description": "Political communities may function as imagined immortal collective bodies for which individual mortal bodies are sacrificed.",
-      "slug": "koenigsberg-immortal-body-v1"
+    "scoreCountByReviewStatus": {
+      "score-review": 26
     },
-    {
-      "theoryId": "sacrifice-law-v1",
-      "title": "Sacrifice Law",
-      "version": "v1",
-      "status": "draft",
-      "publicationStatus": "draft",
-      "description": "A sacred political order's self-preservation can become self-sacralization and legitimate sacrifice under perceived existential threat.",
-      "slug": "sacrifice-law-v1"
+    "analyticallyEligibleCount": 0,
+    "analyticallyExcludedCount": 26,
+    "exclusionReasons": {
+      "exclude-origin-legacy": 26,
+      "exclude-outcome-visible": 26,
+      "exclude-review-score-review": 26
     }
-  ]
+  }
 }
