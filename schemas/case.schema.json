@@ -3,13 +3,13 @@
   "$id": "https://political-pathology-workbench.local/schemas/case.schema.json",
   "title": "Case",
   "type": "object",
-  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest"],
+  "required": ["caseId", "title", "subtype", "outcome", "publicationStatus", "reviewStatus", "sacredPoliticalOrderId", "sacredPoliticalOrderName", "sacredPoliticalOrderDefinition", "sacredPoliticalOrderStrength", "sacredPoliticalOrderStrengthRationale", "caseSelectionRole", "selectionRationale", "theoryTest", "unitClass", "caseType", "comparabilityGroup", "evaluationRole", "holdoutStatus", "samplingMetadata"],
   "properties": {
     "caseId": { "type": "string" },
     "title": { "type": "string" },
     "subtype": {
       "type": "string",
-      "enum": ["regime", "war", "revolution", "movement", "collapse", "transition", "civil-religion", "empire", "postwar-order", "anti-sacrificial-movement", "hybrid"]
+      "enum": ["regime", "war", "revolution", "movement", "collapse", "transition", "civil-religion", "empire", "postwar-order", "anti-sacrificial-movement", "hybrid", "imperial-revolutionary-state", "revolutionary-independence"]
     },
     "period": { "type": "string" },
     "outcome": { "$ref": "controlled-vocab.schema.json#/$defs/outcome" },
@@ -25,6 +25,27 @@
     "caseSelectionRole": { "$ref": "controlled-vocab.schema.json#/$defs/caseSelectionRole" },
     "selectionRationale": { "type": "string" },
     "theoryTest": { "type": "string" },
+    "unitClass": { "$ref": "controlled-vocab.schema.json#/$defs/unitClass" },
+    "caseType": { "$ref": "controlled-vocab.schema.json#/$defs/caseType" },
+    "comparabilityGroup": { "type": "string" },
+    "evaluationRole": { "$ref": "controlled-vocab.schema.json#/$defs/evaluationRole" },
+    "holdoutStatus": { "$ref": "controlled-vocab.schema.json#/$defs/holdoutStatus" },
+    "holdoutProtocol": { "type": "string" },
+    "samplingMetadata": {
+      "type": "object",
+      "required": ["targetPopulation", "inclusionCriteria", "exclusionCriteria"],
+      "properties": {
+        "targetPopulation": { "type": "string" },
+        "inclusionCriteria": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "exclusionCriteria": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
     "goldCase": { "type": "boolean" },
     "publicationStatus": { "$ref": "controlled-vocab.schema.json#/$defs/publicationStatus" },
     "reviewStatus": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },

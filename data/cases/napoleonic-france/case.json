@@ -20,5 +20,24 @@
   "sacredPoliticalOrderStrengthRationale": "Provisional scaffold value only. Requires source-grounded evidence-chain review before scholarly or public use.",
   "caseSelectionRole": "deferred-case",
   "selectionRationale": "Created as the canonical PPW target for the Napoleon / Napoleonic Era source case in the Sacrifice Law comparative corpus. Substantive case coding remains deferred until PPW evidence-chain work is added.",
-  "theoryTest": "Will test how revolutionary state inheritance, imperial mobilization, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed."
+  "theoryTest": "Will test how revolutionary state inheritance, imperial mobilization, sacred political order formation, and bounded or escalating sacrifice interact once case evidence is reviewed.",
+  "unitClass": "historical-episode",
+  "caseType": "holdout-case",
+  "comparabilityGroup": "historical-episode:hybrid-transitional",
+  "evaluationRole": "holdout-evaluation",
+  "holdoutStatus": "sealed",
+  "samplingMetadata": {
+    "targetPopulation": "Political orders or historical episodes in which sacred-political-order strength, corrigibility, crisis pressure, and sacrifice can be evaluated from traceable evidence.",
+    "inclusionCriteria": [
+      "case can be represented as a political formation or bounded historical episode",
+      "candidate evidence can connect sources, passages, claims, interpretations, and scores",
+      "case contributes variation across outcomes, mechanisms, or negative controls"
+    ],
+    "exclusionCriteria": [
+      "unit boundaries cannot be stated clearly",
+      "sources are unavailable or rights-restricted beyond draft scaffolding",
+      "case duplicates another unit without adding mechanism variation"
+    ]
+  },
+  "holdoutProtocol": "Do not add interpretations, scores, or outcome-informed theory-development notes until a maintainer explicitly opens the holdout case for evaluation."
 }

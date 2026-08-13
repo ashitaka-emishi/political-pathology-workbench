@@ -132,6 +132,32 @@
         "rejected-case"
       ]
     },
+    "unitClass": {
+      "type": "string",
+      "enum": ["political-formation", "historical-episode", "corpus-subset"]
+    },
+    "caseType": {
+      "type": "string",
+      "enum": [
+        "calibration-case",
+        "positive-pathology-case",
+        "hard-negative-case",
+        "collapse-case",
+        "transformation-case",
+        "stagnation-case",
+        "ambiguous-or-mixed-case",
+        "holdout-case",
+        "excluded-case"
+      ]
+    },
+    "evaluationRole": {
+      "type": "string",
+      "enum": ["theory-development", "holdout-evaluation", "open-evaluation", "excluded"]
+    },
+    "holdoutStatus": {
+      "type": "string",
+      "enum": ["not-held-out", "sealed", "opened", "retired"]
+    },
     "counterclaimEffect": {
       "type": "string",
       "enum": [
