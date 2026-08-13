@@ -4,7 +4,7 @@ import { execFileSync } from "node:child_process";
 import { readJson, requireFields } from "../validate/json.js";
 import { validateEvidenceModules } from "../validate/validate-evidence-modules.js";
 import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
-import { validateClaimPromotion } from "../validate/validate-claim-promotion.js";
+import { buildClaimPromotionIndex, validateClaimPromotion, validateScoreClaimPromotion } from "../validate/validate-claim-promotion.js";
 import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
 import { validateScoreIndependence, validateScoreSemantics } from "../validate/validate-score-semantics.js";
 import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateTheoryVariableRecord, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
@@ -134,7 +134,7 @@ function validateTheory(theoryDir) {
   }
 }
 
-function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds) {
+function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds, claimPromotionIndex) {
   const casePath = path.join(caseDir, "case.json");
   if (!fs.existsSync(casePath)) {
     addError(`${casePath}: missing case.json`);
@@ -164,6 +164,8 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     const passageIds = new Set(passages.map((passage) => passage.passageId));
     const claimIds = new Set(claims.map((claim) => claim.claimId));
     const interpretationIds = new Set(interpretations.map((interpretation) => interpretation.interpretationId));
+    const claimsById = new Map(claims.map((claim) => [claim.claimId, claim]));
+    const interpretationsById = new Map(interpretations.map((interpretation) => [interpretation.interpretationId, interpretation]));
     const referencedPassageIds = new Set();
     const referencedClaimIds = new Set();
     const scoredInterpretationIds = new Set();
@@ -228,6 +230,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       validateDefinitionRefs(score.definitionRefs, allowedDefinitionRefs, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreIndependence(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`, isPublicFacing(score.publicationStatus));
+      validateScoreClaimPromotion(score, interpretationsById.get(score.interpretationId), claimsById, claimPromotionIndex, errors, `${caseDir}/scores.json:${score.scoreId}`);
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
       if (score.publicationStatus === "published" && !score.confidence?.rationale) addError(`${score.scoreId}: published score lacks confidence rationale`);
       if (score.confidence?.value < 0.5) addWarning(`${score.scoreId}: score confidence is below 0.5`);
@@ -306,7 +309,8 @@ const bibliographyIds = new Set(bibliography.map((source) => source.id));
 
 const caseDirs = listDirs(path.join(root, "data", "cases")).map((name) => path.join(root, "data", "cases", name));
 const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
-const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds)).filter(Boolean);
+const claimPromotionIndex = buildClaimPromotionIndex(root);
+const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds, claimPromotionIndex)).filter(Boolean);
 
 const evidenceModuleResult = validateEvidenceModules(root, caseIds);
 for (const e of evidenceModuleResult.errors) errors.push(e);

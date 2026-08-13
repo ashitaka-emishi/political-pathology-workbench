@@ -1,0 +1,20 @@
+{
+  "score": {
+    "scoreId": "fixture-score-001",
+    "interpretationId": "fixture-interpretation-001",
+    "includeInSubstantiveAnalysis": false
+  },
+  "interpretation": {
+    "interpretationId": "fixture-interpretation-001",
+    "claimIds": [
+      "fixture-claim-001"
+    ]
+  },
+  "nativeClaims": [
+    {
+      "claimId": "fixture-claim-001",
+      "reviewStatus": "draft",
+      "publicationStatus": "draft"
+    }
+  ]
+}
