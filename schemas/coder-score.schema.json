@@ -5,7 +5,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["coderScoreId", "coderId", "codingRoundId", "codebookVersion", "timestamp", "unitId", "unitClass", "caseId", "theoryId", "variableId", "value", "confidence", "adjudicationState"],
+    "required": ["coderScoreId", "coderId", "codingRoundId", "codebookVersion", "timestamp", "unitId", "unitClass", "caseId", "theoryId", "variableId", "value", "valueSemantics", "confidence", "coderRationale", "packetRef", "adjudicationState"],
     "properties": {
       "coderScoreId": { "type": "string" },
       "coderId": { "type": "string" },
@@ -17,19 +17,49 @@
       "theoryId": { "type": "string" },
       "variableId": { "type": "string" },
       "value": {
-        "type": "number",
+        "type": ["number", "null"],
         "minimum": 0,
         "maximum": 5
       },
+      "valueSemantics": {
+        "type": "string",
+        "enum": ["construct-magnitude", "unknown"]
+      },
+      "unknownReason": { "type": "string" },
       "definitionRefs": {
         "type": "array",
         "items": { "type": "string" }
       },
       "codebookVersion": { "type": "string" },
       "confidence": {
-        "type": "number",
-        "minimum": 0,
-        "maximum": 1
+        "type": "object",
+        "required": ["value", "label", "rationale"],
+        "properties": {
+          "value": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "label": { "type": "string" },
+          "rationale": { "type": "string" },
+          "uncertaintyFactors": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      },
+      "coderRationale": { "type": "string" },
+      "packetRef": {
+        "type": "object",
+        "required": ["packetId", "packetHash"],
+        "properties": {
+          "packetId": { "type": "string" },
+          "packetHash": { "type": "string" }
+        }
+      },
+      "evidenceRefs": {
+        "type": "array",
+        "items": { "type": "string" }
       },
       "adjudicationState": {
         "type": "string",

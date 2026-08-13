@@ -1,0 +1,69 @@
+{
+  "codingRoundId": "round-fixture-unknown-v1",
+  "coderScores": [
+    {
+      "coderScoreId": "fixture-unknown-001-a",
+      "coderId": "coder-a",
+      "codingRoundId": "round-fixture-unknown-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-unknown-001",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-unknown-001",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": null,
+      "valueSemantics": "unknown",
+      "unknownReason": "Insufficient packet evidence.",
+      "confidence": {
+        "value": 0.7,
+        "label": "moderate",
+        "rationale": "Unknown decision is explicit.",
+        "uncertaintyFactors": ["insufficient-evidence"]
+      },
+      "coderRationale": "Coder declines to encode unknown as 0.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-unknown-001-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": [],
+      "adjudicationState": "raw-submitted"
+    },
+    {
+      "coderScoreId": "fixture-unknown-001-b",
+      "coderId": "coder-b",
+      "codingRoundId": "round-fixture-unknown-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-unknown-001",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-unknown-001",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 0,
+      "valueSemantics": "construct-magnitude",
+      "confidence": {
+        "value": 0.5,
+        "label": "low",
+        "rationale": "Synthetic contrast value.",
+        "uncertaintyFactors": ["thin-evidence"]
+      },
+      "coderRationale": "Coder assigns minimum magnitude.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-unknown-001-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": [],
+      "adjudicationState": "raw-submitted"
+    }
+  ],
+  "expected": {
+    "coding_round_id": "round-fixture-unknown-v1",
+    "unit_variable_count": 1,
+    "pair_count": 1,
+    "exact_agreement": 0.0,
+    "mean_absolute_difference": 0.0
+  }
+}
