@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/construct-validity.schema.json",
+  "title": "Construct Validity",
+  "type": "object",
+  "required": ["constructValidityId", "theoryId", "status", "variables", "propositions"],
+  "properties": {
+    "constructValidityId": { "type": "string" },
+    "theoryId": { "type": "string" },
+    "status": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+    "reviewGate": { "type": "string" },
+    "variables": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["neighboringConcepts"],
+        "properties": {
+          "scholarlyAnchors": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "competingTraditions": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "noveltyJustification": { "type": "string" },
+          "neighboringConcepts": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["concept", "overlap", "discriminantBoundary"],
+              "properties": {
+                "concept": { "type": "string" },
+                "overlap": { "type": "string" },
+                "discriminantBoundary": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "propositions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["scopeConditions", "rivalHypotheses", "expectedObservations", "counterObservations", "discriminatingPredictions"],
+        "properties": {
+          "referenceIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "scopeConditions": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "rivalHypotheses": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "expectedObservations": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "counterObservations": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "discriminatingPredictions": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

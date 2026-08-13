@@ -102,6 +102,12 @@ function validateValue(value, schemaNode, context, errors, schemasByName, rootSc
           errors.push(`${context.artifactPath}: ${pointerJoin(context.pointer, key)}: additional property is not allowed`);
         }
       }
+    } else if (schemaNode.additionalProperties && typeof schemaNode.additionalProperties === "object") {
+      for (const key of Object.keys(value)) {
+        if (!Object.hasOwn(properties, key)) {
+          validateValue(value[key], schemaNode.additionalProperties, { ...context, pointer: pointerJoin(context.pointer, key) }, errors, schemasByName, rootSchema);
+        }
+      }
     }
 
     for (const [key, propertySchema] of Object.entries(properties)) {
@@ -139,6 +145,7 @@ function addTheoryArtifacts(root, artifacts) {
     artifacts.push(["theory.schema.json", path.join(theoryDir, "manifest.json")]);
     artifacts.push(["theory-variable.schema.json", path.join(theoryDir, "variables.json")]);
     artifacts.push(["theory-proposition.schema.json", path.join(theoryDir, "propositions.json")]);
+    artifacts.push(["construct-validity.schema.json", path.join(theoryDir, "construct-validity.json")]);
   }
 }
 

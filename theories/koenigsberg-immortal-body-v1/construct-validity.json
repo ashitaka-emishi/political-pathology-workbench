@@ -1,0 +1,82 @@
+{
+  "constructValidityId": "kib-v1-construct-validity-draft",
+  "theoryId": "koenigsberg-immortal-body-v1",
+  "status": "draft",
+  "reviewGate": "Maintainer scholarly review required before these construct boundaries, rivals, or predictions are treated as accepted theory.",
+  "variables": {
+    "collective-immortality": {
+      "scholarlyAnchors": [
+        "koenigsberg-nations-have-right-to-kill",
+        "kantorowicz-kings-two-bodies-1957",
+        "anderson-imagined-communities-1983"
+      ],
+      "competingTraditions": [
+        "arendt-origins-totalitarianism-1951"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Imagined community",
+          "overlap": "Both explain how strangers understand themselves as members of a shared political body.",
+          "discriminantBoundary": "Collective immortality specifically codes the community's imagined persistence beyond individual death and the meaning given to sacrifice."
+        },
+        {
+          "concept": "Corporate body",
+          "overlap": "Both represent a collective as a continuous actor.",
+          "discriminantBoundary": "The immortal-body construct requires symbolic death-transcendence, not only institutional continuity."
+        }
+      ]
+    },
+    "individual-sacrifice": {
+      "scholarlyAnchors": [
+        "koenigsberg-nations-have-right-to-kill",
+        "girard-violence-sacred-1972"
+      ],
+      "competingTraditions": [
+        "arendt-origins-totalitarianism-1951"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Civic duty",
+          "overlap": "Both can require burdens on behalf of the political community.",
+          "discriminantBoundary": "Individual sacrifice codes suffering, killing, or dying as meaningful participation in the enduring collective body."
+        },
+        {
+          "concept": "Instrumental compliance",
+          "overlap": "Both can produce action by individuals under state demand.",
+          "discriminantBoundary": "Instrumental compliance does not require redemptive or immortalizing meaning."
+        }
+      ]
+    }
+  },
+  "propositions": {
+    "kib-collective-body-sacrifice": {
+      "referenceIds": [
+        "koenigsberg-nations-have-right-to-kill",
+        "kantorowicz-kings-two-bodies-1957",
+        "anderson-imagined-communities-1983",
+        "girard-violence-sacred-1972"
+      ],
+      "scopeConditions": [
+        "The political community is represented as a body or continuity-bearing subject.",
+        "Individual death, suffering, or killing is interpreted as service to that enduring collective body."
+      ],
+      "rivalHypotheses": [
+        "Sacrifice is explained by coercion without symbolic immortality.",
+        "Sacrifice is explained by material incentives or sanctions.",
+        "Collective-body language is decorative and not connected to sacrificial demand."
+      ],
+      "expectedObservations": [
+        "Texts or institutions connect individual mortality to the survival or immortality of the nation, people, revolution, state, or order.",
+        "Sacrifice is narrated as participation in an enduring body rather than as private loss alone."
+      ],
+      "counterObservations": [
+        "High sacrifice occurs without collective-body or immortality language.",
+        "Collective-body language appears but is not connected to sacrifice, death, or preservation."
+      ],
+      "discriminatingPredictions": [
+        "Where collective immortality language is mechanism-bearing, sacrificial appeals should intensify around threats to the body politic.",
+        "Purely instrumental mobilization should produce fewer redemptive or immortality claims even when burdens are high."
+      ]
+    }
+  }
+}

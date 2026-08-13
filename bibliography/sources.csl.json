@@ -1367,5 +1367,177 @@
     },
     "publisher-place": "Washington, D.C.",
     "note": "Public domain. Collected Works vol.8 pp.399-405 (Basler ed.)."
+  },
+  {
+    "id": "bellah-civil-religion-america-1967",
+    "type": "article-journal",
+    "title": "Civil Religion in America",
+    "author": [
+      {
+        "family": "Bellah",
+        "given": "Robert N."
+      }
+    ],
+    "container-title": "Daedalus",
+    "issued": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
+    },
+    "note": "Theory anchor for sacred-national meaning, collective obligation, and civil-religious political symbolism."
+  },
+  {
+    "id": "anderson-imagined-communities-1983",
+    "type": "book",
+    "title": "Imagined Communities: Reflections on the Origin and Spread of Nationalism",
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "Benedict"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1983
+        ]
+      ]
+    },
+    "note": "Theory anchor for collective identity, national imagination, and the symbolic continuity of political community."
+  },
+  {
+    "id": "durkheim-elementary-forms-1912",
+    "type": "book",
+    "title": "The Elementary Forms of Religious Life",
+    "author": [
+      {
+        "family": "Durkheim",
+        "given": "Emile"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1912
+        ]
+      ]
+    },
+    "note": "Theory anchor for sacred/profane boundary-making and collective sacralization."
+  },
+  {
+    "id": "schmitt-political-theology-1922",
+    "type": "book",
+    "title": "Political Theology",
+    "author": [
+      {
+        "family": "Schmitt",
+        "given": "Carl"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1922
+        ]
+      ]
+    },
+    "note": "Competing/critical tradition for sovereignty, exception, and sacralized political decision."
+  },
+  {
+    "id": "arendt-origins-totalitarianism-1951",
+    "type": "book",
+    "title": "The Origins of Totalitarianism",
+    "author": [
+      {
+        "family": "Arendt",
+        "given": "Hannah"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1951
+        ]
+      ]
+    },
+    "note": "Competing/critical tradition for ideology, terror, movement politics, and total domination."
+  },
+  {
+    "id": "girard-violence-sacred-1972",
+    "type": "book",
+    "title": "Violence and the Sacred",
+    "author": [
+      {
+        "family": "Girard",
+        "given": "Rene"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1972
+        ]
+      ]
+    },
+    "note": "Theory anchor for sacrifice, violence, scapegoating, and sacred containment."
+  },
+  {
+    "id": "popper-open-society-1945",
+    "type": "book",
+    "title": "The Open Society and Its Enemies",
+    "author": [
+      {
+        "family": "Popper",
+        "given": "Karl"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1945
+        ]
+      ]
+    },
+    "note": "Theory anchor for corrigibility, criticism, fallibilism, and anti-totalizing political repair."
+  },
+  {
+    "id": "dahl-polyarchy-1971",
+    "type": "book",
+    "title": "Polyarchy: Participation and Opposition",
+    "author": [
+      {
+        "family": "Dahl",
+        "given": "Robert A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1971
+        ]
+      ]
+    },
+    "note": "Theory anchor for institutional opposition, pluralism, contestation, and correction capacity."
+  },
+  {
+    "id": "kantorowicz-kings-two-bodies-1957",
+    "type": "book",
+    "title": "The King's Two Bodies: A Study in Mediaeval Political Theology",
+    "author": [
+      {
+        "family": "Kantorowicz",
+        "given": "Ernst H."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1957
+        ]
+      ]
+    },
+    "note": "Theory anchor for corporate political embodiment and immortal political personhood."
   }
 ]

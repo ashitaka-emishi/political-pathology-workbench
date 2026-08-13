@@ -10,5 +10,61 @@
     "supportsPropositions": [
       "slw-self-sacralization-legitimates-sacrifice"
     ]
+  },
+  {
+    "sourceId": "durkheim-elementary-forms-1912",
+    "role": "background-theory",
+    "supportsVariables": [
+      "self-sacralization"
+    ],
+    "supportsPropositions": []
+  },
+  {
+    "sourceId": "bellah-civil-religion-america-1967",
+    "role": "background-theory",
+    "supportsVariables": [
+      "self-sacralization"
+    ],
+    "supportsPropositions": []
+  },
+  {
+    "sourceId": "girard-violence-sacred-1972",
+    "role": "background-theory",
+    "supportsVariables": [
+      "sacrificial-demand",
+      "sacrifice-health"
+    ],
+    "supportsPropositions": [
+      "slw-self-sacralization-legitimates-sacrifice"
+    ]
+  },
+  {
+    "sourceId": "popper-open-society-1945",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "sacrifice-health",
+      "sacrifice-boundedness"
+    ],
+    "supportsPropositions": [
+      "slw-self-sacralization-legitimates-sacrifice"
+    ]
+  },
+  {
+    "sourceId": "dahl-polyarchy-1971",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "sacrifice-boundedness"
+    ],
+    "supportsPropositions": []
+  },
+  {
+    "sourceId": "schmitt-political-theology-1922",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "self-sacralization",
+      "sacrifice-health",
+      "sacrifice-boundedness"
+    ],
+    "supportsPropositions": []
   }
 ]

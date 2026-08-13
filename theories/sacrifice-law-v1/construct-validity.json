@@ -1,0 +1,123 @@
+{
+  "constructValidityId": "slw-v1-construct-validity-draft",
+  "theoryId": "sacrifice-law-v1",
+  "status": "draft",
+  "reviewGate": "Maintainer scholarly review required before these construct boundaries, rivals, or predictions are treated as accepted theory.",
+  "variables": {
+    "self-sacralization": {
+      "scholarlyAnchors": [
+        "koenigsberg-nations-have-right-to-kill",
+        "durkheim-elementary-forms-1912",
+        "bellah-civil-religion-america-1967"
+      ],
+      "competingTraditions": [
+        "schmitt-political-theology-1922"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Legitimacy claim",
+          "overlap": "Both justify authority and compliance.",
+          "discriminantBoundary": "Self-sacralization requires the order to treat its own survival as sacred, not merely lawful or useful."
+        },
+        {
+          "concept": "Patriotism",
+          "overlap": "Both can attach devotion and obligation to the political community.",
+          "discriminantBoundary": "Patriotism can remain bounded and corrigible; self-sacralization makes the order's preservation morally non-negotiable."
+        }
+      ]
+    },
+    "sacrificial-demand": {
+      "scholarlyAnchors": [
+        "koenigsberg-nations-have-right-to-kill",
+        "girard-violence-sacred-1972"
+      ],
+      "competingTraditions": [
+        "arendt-origins-totalitarianism-1951"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Mobilization",
+          "overlap": "Both can ask people to contribute labor, risk, or obedience.",
+          "discriminantBoundary": "Sacrificial demand requires surrendered goods to be framed as meaningful or necessary for the sacred order, not merely administratively requested."
+        },
+        {
+          "concept": "Coercion",
+          "overlap": "Both can compel suffering, killing, or dying.",
+          "discriminantBoundary": "Coercion describes compulsion; sacrificial demand codes the symbolic meaning and moral demand attached to surrendered human goods."
+        }
+      ]
+    },
+    "sacrifice-health": {
+      "scholarlyAnchors": [
+        "girard-violence-sacred-1972",
+        "popper-open-society-1945"
+      ],
+      "competingTraditions": [
+        "schmitt-political-theology-1922"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Moral legitimacy",
+          "overlap": "Both evaluate whether sacrifice can be justified.",
+          "discriminantBoundary": "Sacrifice health scores whether sacrifice preserves personhood, truth, correction, and flourishing; it does not resolve all normative legitimacy questions."
+        },
+        {
+          "concept": "Cost-benefit proportionality",
+          "overlap": "Both attend to the burden imposed by collective action.",
+          "discriminantBoundary": "Sacrifice health includes symbolic pathology and corrigibility, not only instrumental proportionality."
+        }
+      ]
+    },
+    "sacrifice-boundedness": {
+      "scholarlyAnchors": [
+        "popper-open-society-1945",
+        "dahl-polyarchy-1971"
+      ],
+      "competingTraditions": [
+        "schmitt-political-theology-1922"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Constitutional limit",
+          "overlap": "Both restrain what authorities may demand.",
+          "discriminantBoundary": "Boundedness covers legal, moral, temporal, and symbolic limits on sacrifice, not only formal constitutional constraint."
+        },
+        {
+          "concept": "Military necessity",
+          "overlap": "Both may justify constrained sacrifice during crisis.",
+          "discriminantBoundary": "Military necessity is a situational claim; sacrifice boundedness asks whether demands remain limited and corrigible."
+        }
+      ]
+    }
+  },
+  "propositions": {
+    "slw-self-sacralization-legitimates-sacrifice": {
+      "referenceIds": [
+        "koenigsberg-nations-have-right-to-kill",
+        "girard-violence-sacred-1972",
+        "popper-open-society-1945"
+      ],
+      "scopeConditions": [
+        "The political order faces or narrates an existential threat.",
+        "Sacrificial demands can be linked to preservation of the order rather than unrelated coercion."
+      ],
+      "rivalHypotheses": [
+        "Sacrificial demand is explained by ordinary resource mobilization.",
+        "Sacrifice is explained by coercive capacity alone.",
+        "Threat perception increases sacrifice without any sacred self-preservation claim."
+      ],
+      "expectedObservations": [
+        "Rhetoric or institutions link individual loss to the survival of the order.",
+        "Unbounded or pathological sacrifices become more likely where correction channels are blocked."
+      ],
+      "counterObservations": [
+        "High sacrifice appears with no sacred survival claim.",
+        "Self-sacralizing orders repeatedly maintain bounded sacrifice under comparable threat without correction mechanisms."
+      ],
+      "discriminatingPredictions": [
+        "Sacrificial demand should rise most sharply when threat language and sacred-order survival language coincide.",
+        "Bounded anti-sacrificial cases should show threat recognition without moral absolutization of the order's survival."
+      ]
+    }
+  }
+}

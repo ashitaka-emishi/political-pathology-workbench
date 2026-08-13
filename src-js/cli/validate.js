@@ -99,6 +99,72 @@ function validateGeneratedChainPagesAreUntracked() {
   }
 }
 
+function requireNonEmptyArray(label, value, fieldName) {
+  if (!Array.isArray(value) || value.length === 0) {
+    addError(`${label}: ${fieldName} must be a non-empty array`);
+    return false;
+  }
+  return true;
+}
+
+function validateSourceRefs(label, sourceIds, bibliographyIds, fieldName) {
+  if (!Array.isArray(sourceIds)) return;
+  for (const sourceId of sourceIds) {
+    if (!bibliographyIds.has(sourceId)) addError(`${label}: ${fieldName} ${sourceId} lacks citation metadata in bibliography/sources.csl.json`);
+  }
+}
+
+function validateConstructValidity(theoryDir, manifest, variables, propositionIds, bibliographyIds) {
+  const constructValidityPath = path.join(theoryDir, "construct-validity.json");
+  if (!fs.existsSync(constructValidityPath)) {
+    addError(`${constructValidityPath}: missing construct-validity file`);
+    return;
+  }
+
+  const constructValidity = readJson(constructValidityPath);
+  requireFields(constructValidityPath, constructValidity, ["constructValidityId", "theoryId", "status", "variables", "propositions"]);
+  if (constructValidity.theoryId !== manifest.theoryId) addError(`${constructValidityPath}: theoryId ${constructValidity.theoryId} does not match manifest ${manifest.theoryId}`);
+  validateEnum(`${constructValidityPath}.status`, constructValidity.status, VOCAB.reviewStatuses);
+
+  const variableAnalyses = constructValidity.variables ?? {};
+  const scoreableVariables = variables.filter((variable) => variable.status === "active" && variable.measurementRole === "scoreable");
+  for (const variable of scoreableVariables) {
+    const label = `${constructValidityPath}:variables.${variable.variableId}`;
+    const analysis = variableAnalyses[variable.variableId];
+    if (!analysis) {
+      addError(`${label}: missing construct-validity analysis for scoreable variable`);
+      continue;
+    }
+
+    const anchors = analysis.scholarlyAnchors ?? [];
+    if (anchors.length < 2 && typeof analysis.noveltyJustification !== "string") {
+      addError(`${label}: requires at least two scholarlyAnchors or an explicit noveltyJustification`);
+    }
+    validateSourceRefs(label, anchors, bibliographyIds, "scholarlyAnchor");
+    validateSourceRefs(label, analysis.competingTraditions ?? [], bibliographyIds, "competingTradition");
+    requireNonEmptyArray(label, analysis.neighboringConcepts, "neighboringConcepts");
+    for (const [index, neighbor] of (analysis.neighboringConcepts ?? []).entries()) {
+      requireFields(`${label}.neighboringConcepts[${index}]`, neighbor, ["concept", "overlap", "discriminantBoundary"]);
+    }
+  }
+
+  const propositionAnalyses = constructValidity.propositions ?? {};
+  for (const propositionId of propositionIds) {
+    const label = `${constructValidityPath}:propositions.${propositionId}`;
+    const analysis = propositionAnalyses[propositionId];
+    if (!analysis) {
+      addError(`${label}: missing proposition validity analysis`);
+      continue;
+    }
+    requireNonEmptyArray(label, analysis.scopeConditions, "scopeConditions");
+    requireNonEmptyArray(label, analysis.rivalHypotheses, "rivalHypotheses");
+    requireNonEmptyArray(label, analysis.expectedObservations, "expectedObservations");
+    requireNonEmptyArray(label, analysis.counterObservations, "counterObservations");
+    requireNonEmptyArray(label, analysis.discriminatingPredictions, "discriminatingPredictions");
+    validateSourceRefs(label, analysis.referenceIds ?? [], bibliographyIds, "referenceId");
+  }
+}
+
 function validateTheory(theoryDir, bibliographyIds) {
   const manifestPath = path.join(theoryDir, "manifest.json");
   if (!fs.existsSync(manifestPath)) {
@@ -141,6 +207,8 @@ function validateTheory(theoryDir, bibliographyIds) {
         }
       }
     }
+
+    validateConstructValidity(theoryDir, manifest, variables, propositionIds, bibliographyIds);
 
     const referencesPath = path.join(theoryDir, "references.json");
     if (fs.existsSync(referencesPath)) {

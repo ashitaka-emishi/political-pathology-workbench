@@ -1,0 +1,198 @@
+{
+  "constructValidityId": "gtpp-v1-construct-validity-draft",
+  "theoryId": "general-theory-political-pathology-v1",
+  "status": "draft",
+  "reviewGate": "Maintainer scholarly review required before these construct boundaries, rivals, or predictions are treated as accepted theory.",
+  "variables": {
+    "sacred-political-order-strength": {
+      "scholarlyAnchors": [
+        "bellah-civil-religion-america-1967",
+        "anderson-imagined-communities-1983",
+        "durkheim-elementary-forms-1912"
+      ],
+      "competingTraditions": [
+        "schmitt-political-theology-1922",
+        "arendt-origins-totalitarianism-1951"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Civil religion",
+          "overlap": "Both concern sacred public symbols, collective obligations, and moralized political identity.",
+          "discriminantBoundary": "PPW scores the intensity and operational role of sacred-political order across regime types; civil religion may remain integrative without pathological escalation."
+        },
+        {
+          "concept": "Nationalism",
+          "overlap": "Both can bind individuals to an imagined political community.",
+          "discriminantBoundary": "PPW requires sacred ordering of legitimacy, memory, obligation, and sacrifice; nationalism alone may be secular, instrumental, or weakly sacralized."
+        }
+      ]
+    },
+    "sacralization": {
+      "scholarlyAnchors": [
+        "durkheim-elementary-forms-1912",
+        "bellah-civil-religion-america-1967"
+      ],
+      "competingTraditions": [
+        "schmitt-political-theology-1922"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Ideology",
+          "overlap": "Both can organize political meaning and justify collective action.",
+          "discriminantBoundary": "Sacralization requires moral non-negotiability and resistance to correction, not merely a coherent political doctrine."
+        },
+        {
+          "concept": "Legitimation",
+          "overlap": "Both help explain why institutions or claims are accepted.",
+          "discriminantBoundary": "Legitimation can be procedural or performance-based; sacralization marks claims as protected from ordinary bargaining or revision."
+        }
+      ]
+    },
+    "collective-immortality": {
+      "scholarlyAnchors": [
+        "koenigsberg-nations-have-right-to-kill",
+        "kantorowicz-kings-two-bodies-1957",
+        "anderson-imagined-communities-1983"
+      ],
+      "competingTraditions": [
+        "arendt-origins-totalitarianism-1951"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Corporate personhood",
+          "overlap": "Both imagine a collective actor that persists beyond individuals.",
+          "discriminantBoundary": "Collective immortality focuses on meaning-making around death, sacrifice, and continuity; legal personhood may be administrative without sacrificial resonance."
+        },
+        {
+          "concept": "Collective memory",
+          "overlap": "Both link present identity to remembered predecessors and successors.",
+          "discriminantBoundary": "Collective memory can be plural and revisable; collective immortality claims that individual mortality is redeemed by the enduring body."
+        }
+      ]
+    },
+    "sacred-enemy": {
+      "scholarlyAnchors": [
+        "schmitt-political-theology-1922",
+        "girard-violence-sacred-1972",
+        "arendt-origins-totalitarianism-1951"
+      ],
+      "competingTraditions": [
+        "dahl-polyarchy-1971"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Political opponent",
+          "overlap": "Both identify an actor opposed to the order or its program.",
+          "discriminantBoundary": "A sacred enemy is contaminating, existential, or profaning; an ordinary opponent remains legitimate and corrigible within political contestation."
+        },
+        {
+          "concept": "Security threat",
+          "overlap": "Both can justify mobilization and coercive defense.",
+          "discriminantBoundary": "Security threat coding can rest on capability and intent; sacred-enemy coding requires moral absolutization or pollution language."
+        }
+      ]
+    },
+    "pathology": {
+      "scholarlyAnchors": [
+        "arendt-origins-totalitarianism-1951",
+        "popper-open-society-1945",
+        "koenigsberg-nations-have-right-to-kill"
+      ],
+      "competingTraditions": [
+        "schmitt-political-theology-1922"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Violence",
+          "overlap": "Pathological orders often authorize or normalize violence.",
+          "discriminantBoundary": "PPW pathology also includes suppression of correction, frozen dysfunction, collapse, and sacrificial maladaptation; violence alone is neither necessary nor sufficient."
+        },
+        {
+          "concept": "Authoritarianism",
+          "overlap": "Both can involve concentrated power and restricted dissent.",
+          "discriminantBoundary": "Authoritarianism describes institutional control; pathology scores maladaptive sacred self-preservation against truth, correction, personhood, and flourishing."
+        }
+      ]
+    },
+    "corrigibility": {
+      "scholarlyAnchors": [
+        "popper-open-society-1945",
+        "dahl-polyarchy-1971"
+      ],
+      "competingTraditions": [
+        "schmitt-political-theology-1922"
+      ],
+      "neighboringConcepts": [
+        {
+          "concept": "Democracy",
+          "overlap": "Democratic institutions often supply opposition, accountability, and repair mechanisms.",
+          "discriminantBoundary": "Corrigibility measures whether an order can receive correction in practice; nominal democracy can still become uncorrigible."
+        },
+        {
+          "concept": "Rule of law",
+          "overlap": "Legal limits can restrain pathological self-preservation.",
+          "discriminantBoundary": "Rule of law is one mechanism; corrigibility also includes memory, dissent, pluralism, institutional design, and willingness to acknowledge error."
+        }
+      ]
+    }
+  },
+  "propositions": {
+    "gtpp-crisis-outcomes-vary": {
+      "referenceIds": [
+        "koenigsberg-nations-have-right-to-kill",
+        "popper-open-society-1945",
+        "dahl-polyarchy-1971",
+        "arendt-origins-totalitarianism-1951"
+      ],
+      "scopeConditions": [
+        "The unit is an embodied political order facing a crisis interpreted through collective identity or legitimacy.",
+        "Evidence exists for institutional channels that can either suppress or receive correction."
+      ],
+      "rivalHypotheses": [
+        "Material capacity alone explains escalation, collapse, or restraint.",
+        "Regime type alone explains outcome variation without sacred-political mechanisms.",
+        "External military pressure explains outcomes without internal correction capacity."
+      ],
+      "expectedObservations": [
+        "Low-corrigibility cases show blocked criticism, purified loyalty demands, or escalating sacrificial justification under crisis.",
+        "Higher-corrigibility cases show public dissent, institutional review, or bounded sacrifice during comparable crisis."
+      ],
+      "counterObservations": [
+        "High-corrigibility cases escalate sacrifice without suppressed correction.",
+        "Low-corrigibility cases repeatedly restrain sacrifice through ordinary institutional repair."
+      ],
+      "discriminatingPredictions": [
+        "Among cases with comparable crisis intensity, correction mechanisms should better distinguish restrained reordering from sacrificial escalation than sacred-order strength alone.",
+        "Cases with strong sacred order but durable correction should show bounded sacrifice rather than automatic pathology."
+      ]
+    },
+    "gtpp-pathology-more-than-violence": {
+      "referenceIds": [
+        "arendt-origins-totalitarianism-1951",
+        "girard-violence-sacred-1972",
+        "popper-open-society-1945"
+      ],
+      "scopeConditions": [
+        "The case contains evidence of sacred self-preservation, correction suppression, collapse, frozen dysfunction, or successor-order transformation.",
+        "The coding distinguishes pathological process from outcome labels."
+      ],
+      "rivalHypotheses": [
+        "Political pathology is reducible to observed violence or coercion.",
+        "Collapse and frozen dysfunction are ordinary institutional failure rather than sacred-order maladaptation.",
+        "Successor-order transformation is better explained by elite bargaining alone."
+      ],
+      "expectedObservations": [
+        "Some high-pathology cases exhibit correction suppression or frozen maladaptation even when violence is not the dominant evidence.",
+        "Some violent cases remain analytically distinct when sacrifice is bounded or correction remains open."
+      ],
+      "counterObservations": [
+        "Pathology scores track violence intensity so closely that no separate construct information remains.",
+        "Nonviolent collapse or frozen dysfunction cases lack any sacred-political mechanism."
+      ],
+      "discriminatingPredictions": [
+        "A violence-only model should misclassify cases where correction suppression or collapse is central but overt killing is limited.",
+        "A PPW model should distinguish bounded wartime sacrifice from pathological sacrificial escalation by correction and sacralization evidence."
+      ]
+    }
+  }
+}
