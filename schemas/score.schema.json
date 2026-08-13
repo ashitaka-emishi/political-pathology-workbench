@@ -5,7 +5,7 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "value", "valueSemantics", "confidence", "reviewStatus"],
+    "required": ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "value", "valueSemantics", "confidence", "reviewStatus", "scoreOrigin", "outcomeVisibleToCoder", "includeInSubstantiveAnalysis"],
     "properties": {
       "scoreId": { "type": "string" },
       "caseId": { "type": "string" },
@@ -32,6 +32,19 @@
         "items": { "type": "string" }
       },
       "codebookVersion": { "type": "string" },
+      "scoreOrigin": {
+        "type": "string",
+        "enum": ["scaffold", "legacy", "outcome-derived", "independent-coding", "adjudicated", "final"],
+        "description": "How this score was produced. Scaffold, legacy, and outcome-derived scores are excluded from substantive analysis by default."
+      },
+      "outcomeVisibleToCoder": {
+        "type": "boolean",
+        "description": "Whether the coder or scoring process had access to the case outcome category while producing the score."
+      },
+      "includeInSubstantiveAnalysis": {
+        "type": "boolean",
+        "description": "True only for scores eligible for substantive analytical summaries."
+      },
       "confidence": {
         "type": "object",
         "required": ["value", "label", "rationale"],

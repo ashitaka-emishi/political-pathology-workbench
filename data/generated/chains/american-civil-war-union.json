@@ -120,7 +120,10 @@
           ],
           "codebookVersion": "v1.1",
           "reviewNote": "Score value 4/5 defensible: anti-sacrificial-restraint mechanism (Lincoln's reframing of sacrifice as national rededication rather than enemy annihilation) supports elevated but not maximum sacred-political-order-strength. Confidence 0.63 is proportionate to uncertainty factors (chain requires expansion; Reconstruction failure complicates the score by showing the anti-sacrificial architecture was not durable). Ready for human-reviewed pending chain expansion to ≥4 passages.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     }

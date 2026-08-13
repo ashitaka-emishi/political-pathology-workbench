@@ -122,7 +122,10 @@
           ],
           "codebookVersion": "v1.1",
           "reviewNote": "Score value 3/5 defensible: collective-immortality variable scored at 3 (moderate-high) rather than maximum because the evidence chain documents the subordination mechanism but not the full immortality discourse present in other passages (e.g., blood-and-soil texts). Confidence 0.65 is proportionate. Advancing from argument-review to score-review: argument-validity check confirms the passage (NSDAP 1933 appeal) directly supports the collective-immortality interpretation at this score value.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     },
@@ -244,7 +247,10 @@
           "reviewStatus": "score-review",
           "publicationStatus": "draft",
           "reviewNote": "Score value 5/5 defensible: maximum sacred-political-order-strength is strongly supported by the chain — both NSDAP founding texts and the institutional self-preservation mechanism (Wehrmacht oath, one-party law) document an order that commanded total collective identity and obligation. Confidence 0.60 is lower than expected given the strong evidence; the uncertainty factors (single-claim and physical edition pending) are real. Ready for human-reviewed once physical edition verification is complete.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     },
@@ -364,7 +370,10 @@
           ],
           "codebookVersion": "v1.1",
           "reviewNote": "Score value 1/5 defensible: minimum corrigibility is strongly supported by simultaneous institutional mechanisms (personal loyalty oath eliminating command accountability; one-party law eliminating political correction). Confidence 0.82 is the highest in the dataset and is justified — both mechanisms are directly documented in the evidence chain and mutually reinforcing. Ready for human-reviewed: this is the strongest-evidenced score in the gold cases.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     }

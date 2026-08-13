@@ -24,6 +24,9 @@
     ],
     "codebookVersion": "v1.1",
     "reviewNote": "Score value 5/5 defensible: frozen-pathology mechanism (DPRK Constitution's Juche and Songun provisions) supports maximum sacred-political-order-strength. Confidence 0.55 is appropriately low: passages are at source-review (translation unverified), chain requires expansion, and primary sources are access-restricted. Hold at score-review until North Korea translation-chain gap (#83) is resolved and passages advance to evidence-review.",
-    "valueSemantics": "construct-magnitude"
+    "valueSemantics": "construct-magnitude",
+    "scoreOrigin": "legacy",
+    "outcomeVisibleToCoder": true,
+    "includeInSubstantiveAnalysis": false
   }
 ]

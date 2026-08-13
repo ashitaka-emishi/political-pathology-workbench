@@ -24,6 +24,9 @@
     ],
     "codebookVersion": "v1.1",
     "reviewNote": "Score value 3/5 defensible: anti-sacrificial-restraint mechanism (Hind Swaraj's satyagraha framework) represents moderate sacred-political-order-strength — the movement had strong moral legitimacy but limited institutional embodiment. Confidence 0.58 appropriately low given that partition violence directly contradicts the anti-sacrificial claim and the theory-practice gap is a genuine analytical problem. Hold at score-review; partition violence counterclaim requires explicit address before human-reviewed.",
-    "valueSemantics": "construct-magnitude"
+    "valueSemantics": "construct-magnitude",
+    "scoreOrigin": "legacy",
+    "outcomeVisibleToCoder": true,
+    "includeInSubstantiveAnalysis": false
   }
 ]

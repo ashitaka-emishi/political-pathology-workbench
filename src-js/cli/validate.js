@@ -6,7 +6,7 @@ import { validateEvidenceModules } from "../validate/validate-evidence-modules.j
 import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
 import { validateClaimPromotion } from "../validate/validate-claim-promotion.js";
 import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
-import { validateScoreSemantics } from "../validate/validate-score-semantics.js";
+import { validateScoreIndependence, validateScoreSemantics } from "../validate/validate-score-semantics.js";
 import { buildDefinitionRefs, buildTheoryVariableRegistry, validateDefinitionRefs, validateTheoryVariableRecord, validateTheoryVariableReference } from "../validate/validate-theory-ontology.js";
 
 const root = process.cwd();
@@ -219,7 +219,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
     }
 
     for (const score of scores) {
-      requireFields(`${caseDir}/scores.json:${score.scoreId}`, score, ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "valueSemantics", "confidence", "reviewStatus"]);
+      requireFields(`${caseDir}/scores.json:${score.scoreId}`, score, ["scoreId", "caseId", "theoryId", "variableId", "interpretationId", "valueSemantics", "confidence", "reviewStatus", "scoreOrigin", "outcomeVisibleToCoder", "includeInSubstantiveAnalysis"]);
       validateEnum(`${score.scoreId}.reviewStatus`, score.reviewStatus, VOCAB.reviewStatuses);
       validateEnum(`${score.scoreId}.publicationStatus`, score.publicationStatus, VOCAB.publicationStatuses);
       scoredInterpretationIds.add(score.interpretationId);
@@ -227,6 +227,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       validateTheoryVariableReference(score, "variableId", theoryVariables, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
       validateDefinitionRefs(score.definitionRefs, allowedDefinitionRefs, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
+      validateScoreIndependence(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`, isPublicFacing(score.publicationStatus));
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
       if (score.publicationStatus === "published" && !score.confidence?.rationale) addError(`${score.scoreId}: published score lacks confidence rationale`);
       if (score.confidence?.value < 0.5) addWarning(`${score.scoreId}: score confidence is below 0.5`);

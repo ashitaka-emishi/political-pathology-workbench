@@ -120,7 +120,10 @@
           ],
           "codebookVersion": "v1.1",
           "reviewNote": "Score value 4/5 defensible: high sacred-political-order-strength in the founding Confederate order (CSA Constitution's slavery permanence clause, Stephens Cornerstone Speech) supports elevated but not maximum score — the order collapsed too quickly to sustain escalation to 5. Confidence 0.62 reflects the chain-requires-expansion uncertainty. Hold at score-review until chain expansion to ≥4 passages.",
-          "valueSemantics": "construct-magnitude"
+          "valueSemantics": "construct-magnitude",
+          "scoreOrigin": "legacy",
+          "outcomeVisibleToCoder": true,
+          "includeInSubstantiveAnalysis": false
         }
       ]
     }

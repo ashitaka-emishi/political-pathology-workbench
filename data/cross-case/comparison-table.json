@@ -14,22 +14,8 @@
           "title": "Imperial Japan",
           "goldCase": true,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            },
-            "corrigibility": {
-              "values": [
-                1
-              ],
-              "min": 1,
-              "max": 1,
-              "avg": 1
-            }
+            "sacred-political-order-strength": null,
+            "corrigibility": null
           },
           "primaryMechanism": "collective-immortality-to-sacrifice",
           "sacrificeHealth": "pathological",
@@ -64,22 +50,8 @@
           "title": "Nazi Germany",
           "goldCase": true,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            },
-            "corrigibility": {
-              "values": [
-                1
-              ],
-              "min": 1,
-              "max": 1,
-              "avg": 1
-            }
+            "sacred-political-order-strength": null,
+            "corrigibility": null
           },
           "primaryMechanism": "collective-immortality-to-sacrifice",
           "sacrificeHealth": "pathological",
@@ -90,14 +62,7 @@
           "title": "Revolutionary France",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "sacred-enemy-escalation",
@@ -109,14 +74,7 @@
           "title": "World War I Nationalisms",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "collective-immortality-to-sacrifice",
@@ -134,14 +92,7 @@
           "title": "Confederacy",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                4
-              ],
-              "min": 4,
-              "max": 4,
-              "avg": 4
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "institutional-fragmentation",
@@ -153,22 +104,8 @@
           "title": "Soviet Union Collapse",
           "goldCase": true,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                2
-              ],
-              "min": 2,
-              "max": 2,
-              "avg": 2
-            },
-            "corrigibility": {
-              "values": [
-                1
-              ],
-              "min": 1,
-              "max": 1,
-              "avg": 1
-            }
+            "sacred-political-order-strength": null,
+            "corrigibility": null
           },
           "primaryMechanism": "legitimacy-collapse",
           "sacrificeHealth": "pathological",
@@ -179,14 +116,7 @@
           "title": "Western Roman Empire",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "institutional-fragmentation",
@@ -204,14 +134,7 @@
           "title": "American Civil War / Union",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                4
-              ],
-              "min": 4,
-              "max": 4,
-              "avg": 4
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "anti-sacrificial-restraint",
@@ -247,14 +170,7 @@
           "title": "Post-9/11 United States",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                4
-              ],
-              "min": 4,
-              "max": 4,
-              "avg": 4
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "sacred-enemy-escalation",
@@ -266,14 +182,7 @@
           "title": "Soviet Communism",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "collective-immortality-to-sacrifice",
@@ -292,14 +201,7 @@
           "goldCase": false,
           "scores": {
             "sacred-political-order-strength": null,
-            "corrigibility": {
-              "values": [
-                4
-              ],
-              "min": 4,
-              "max": 4,
-              "avg": 4
-            }
+            "corrigibility": null
           },
           "primaryMechanism": "constitutional-containment",
           "sacrificeHealth": "healthy",
@@ -311,14 +213,7 @@
           "goldCase": false,
           "scores": {
             "sacred-political-order-strength": null,
-            "corrigibility": {
-              "values": [
-                4
-              ],
-              "min": 4,
-              "max": 4,
-              "avg": 4
-            }
+            "corrigibility": null
           },
           "primaryMechanism": "pluralist-reordering",
           "sacrificeHealth": "healthy",
@@ -329,14 +224,7 @@
           "title": "Gandhian Indian Independence",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                3
-              ],
-              "min": 3,
-              "max": 3,
-              "avg": 3
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "anti-sacrificial-restraint",
@@ -349,15 +237,7 @@
           "goldCase": true,
           "scores": {
             "sacred-political-order-strength": null,
-            "corrigibility": {
-              "values": [
-                4,
-                5
-              ],
-              "min": 4,
-              "max": 5,
-              "avg": 4.5
-            }
+            "corrigibility": null
           },
           "primaryMechanism": "constitutional-containment",
           "sacrificeHealth": "healthy",
@@ -369,14 +249,7 @@
           "goldCase": false,
           "scores": {
             "sacred-political-order-strength": null,
-            "corrigibility": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            }
+            "corrigibility": null
           },
           "primaryMechanism": "pluralist-reordering",
           "sacrificeHealth": "healthy",
@@ -387,22 +260,8 @@
           "title": "United States after Vietnam",
           "goldCase": true,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                3
-              ],
-              "min": 3,
-              "max": 3,
-              "avg": 3
-            },
-            "corrigibility": {
-              "values": [
-                3
-              ],
-              "min": 3,
-              "max": 3,
-              "avg": 3
-            }
+            "sacred-political-order-strength": null,
+            "corrigibility": null
           },
           "primaryMechanism": "memory-driven-restraint",
           "sacrificeHealth": "ambiguous",
@@ -419,14 +278,7 @@
           "title": "North Korea",
           "goldCase": false,
           "scores": {
-            "sacred-political-order-strength": {
-              "values": [
-                5
-              ],
-              "min": 5,
-              "max": 5,
-              "avg": 5
-            },
+            "sacred-political-order-strength": null,
             "corrigibility": null
           },
           "primaryMechanism": "frozen-pathology",
@@ -445,14 +297,7 @@
           "goldCase": false,
           "scores": {
             "sacred-political-order-strength": null,
-            "corrigibility": {
-              "values": [
-                3
-              ],
-              "min": 3,
-              "max": 3,
-              "avg": 3
-            }
+            "corrigibility": null
           },
           "primaryMechanism": "symbolic-transformation",
           "sacrificeHealth": "ambiguous",
