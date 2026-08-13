@@ -47,6 +47,40 @@ Lincoln's own writings (1838–1865) are in the public domain. Third-party texts
 
 ---
 
+## `lincoln-war-research-project`
+
+**Disposition:** PPW-coordinated supplemental Lincoln study; do not register as
+a separate evidence module yet. See
+[`docs/migration/lwrp-intake-disposition.md`](../migration/lwrp-intake-disposition.md).
+
+The Lincoln War Research Project overlaps with the existing
+`american-civil-war-union` case and the `lincoln-metaphor-analysis` evidence
+module. It should be coordinated inside PPW where possible, but its artifacts
+need per-artifact provenance and review decisions before import.
+
+| Artifact class | Import decision | Notes |
+|---|---|---|
+| **Source register metadata** | Import later | Candidate source-pack or corpus-extension input after source-rights and provenance audit |
+| **Raw and normalized source texts** | Import later | Only public-domain/openly available materials with hashes, retrieval metadata, and witness-specific identity may be considered |
+| **Gettysburg Address witness records** | Import later | Preserve copy-specific variants; do not harmonize Nicolay, Hay, Everett, Bancroft, and Bliss witnesses |
+| **Dossier and claim inventory** | Import later | Candidate draft-claim context only; no PPW finding or score impact without claim-promotion review |
+| **Review and human-decision logs** | Reference only | Governance context unless PPW creates matching review artifacts |
+| **Methodology-paper artifacts** | Reference only | May inform PPW methodology notes after separate review |
+| **Quarto site and generated publication files** | Do not import | LWRP site remains external; PPW has its own site structure |
+| **Pipeline scripts and project scaffolding** | Do not import | Project-specific tooling; do not merge into PPW |
+
+### Rights and provenance rules for LWRP intake
+
+- Treat the 2026-07-16 LWRP corpus approval as source-repo authority to proceed
+  with acquisition, not as PPW approval for claim promotion or publication.
+- Verify each source row before import, including access URL, retrieval method,
+  checksum, rights status, and raw/normalized separation.
+- Preserve Gettysburg Address manuscript witnesses as distinct source records.
+- Keep copyrighted secondary works as bibliographic/reference records only
+  unless a lawful PPW use case is separately approved.
+
+---
+
 ## `sacrifice-law-workbench`
 
 | Artifact class | Import decision | Notes |
