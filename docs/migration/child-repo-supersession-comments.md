@@ -113,22 +113,22 @@ This child repository is being treated as an evidence-module source rather than 
 
 ### [lincoln-metaphor-analysis #85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking - v2.0 Multi-Model Reliability Stress Test
 
-**Disposition:** `defer-to-post-integration`
+**Disposition:** `migrate-as-ppw-issue` after original `defer-to-post-integration`
 
 **Prepared comment:**
 
 ```
 This issue has been reviewed as part of the migration into `political-pathology-workbench`.
 
-Disposition: `defer-to-post-integration`
+Disposition: migrated to PPW successor issue after original `defer-to-post-integration`
 
-PPW target: TBD — Milestone 19: Validation, Generation, and Test Fixtures (deferred)
+PPW target: https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300
 
-Rationale: Reliability-study tracking may remain useful, but PPW should first establish evidence-module schemas, registries, and validation fixtures before recreating child-repo reliability workflows.
+Rationale: This tracker was originally deferred until PPW established evidence-module schemas, registries, and validation fixtures. PPW #165 now records Milestone 19 complete, so the work has been resumed as a PPW-native successor issue for multi-model reliability stress-test migration.
 
-Closure instruction: leave open — deferred until PPW milestone foundations exist
+Closure instruction: close only after maintainer approval of this supersession comment.
 
-This child repository is being treated as an evidence-module source rather than the long-term coordination home for this work.
+This child repository is being treated as an evidence-module source rather than the long-term coordination home for this work. This is a migration/supersession record, not a claim that the source tracker was duplicated verbatim in PPW.
 ```
 
 ### [lincoln-metaphor-analysis #92](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/92) — Ingest and validate human coder submissions
@@ -193,7 +193,7 @@ This child repository is being treated as an evidence-module source rather than 
 
 ### [lincoln-metaphor-analysis #95](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95) — Classify human coder disagreements
 
-**Disposition:** `defer-to-post-integration`
+**Disposition:** `migrate-as-ppw-issue` after original `defer-to-post-integration`
 
 **Prepared comment:**
 
@@ -460,15 +460,15 @@ This child repository is being treated as an evidence-module source rather than 
 ```
 This issue has been reviewed as part of the migration into `political-pathology-workbench`.
 
-Disposition: `defer-to-post-integration`
+Disposition: migrated to PPW successor issue after original `defer-to-post-integration`
 
-PPW target: TBD — Milestone 19: Validation, Generation, and Test Fixtures (deferred)
+PPW target: https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301
 
-Rationale: Reliability-study tracking may remain useful, but PPW should first establish evidence-module schemas, registries, and validation fixtures before recreating child-repo reliability workflows.
+Rationale: This tracker was originally deferred until PPW established evidence-module schemas, registries, and validation fixtures. PPW #165 now records Milestone 19 complete, so the work has been resumed as a PPW-native successor issue for human inter-annotator reliability migration. The source tracker records that implementation child issues are closed, but the strong completion targets still require human submissions and Stage 4J adjudication decisions.
 
-Closure instruction: leave open — deferred until PPW milestone foundations exist
+Closure instruction: close only after maintainer approval of this supersession comment.
 
-This child repository is being treated as an evidence-module source rather than the long-term coordination home for this work.
+This child repository is being treated as an evidence-module source rather than the long-term coordination home for this work. This is a migration/supersession record, not a claim that the source tracker was duplicated verbatim in PPW.
 ```
 
 ### [lincoln-metaphor-analysis #109](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/109) — Define v4 corpus expansion architecture

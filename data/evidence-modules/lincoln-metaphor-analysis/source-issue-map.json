@@ -3,13 +3,33 @@
   "sourceRepository": "ashitaka-emishi/lincoln-metaphor-analysis",
   "migrationSummary": {
     "totalSourceIssues": 47,
-    "migratedAsPpwIssues": 6,
+    "migratedAsPpwIssues": 8,
     "mergedIntoPpwCoordinationIssues": 38,
-    "deferred": 2,
+    "deferred": 0,
     "migrationTrackerIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/111",
     "completedInChildAfterMigration": 1
   },
   "migratedIssues": [
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85",
+      "sourceTitle": "Tracking v2.0 Multi-Model Reliability Stress Test",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300",
+      "ppwIssueNumber": 300,
+      "ppwTitle": "Resume Lincoln multi-model reliability stress-test migration",
+      "ppwMilestone": 21,
+      "disposition": "migrate-as-ppw-issue",
+      "migrationNote": "Originally deferred until PPW Milestone 19 validation fixture foundations existed; resumed after PPW #165 recorded Milestone 19 complete."
+    },
+    {
+      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108",
+      "sourceTitle": "Tracking v3.0 Human Inter-Annotator Reliability Study",
+      "ppwIssue": "https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301",
+      "ppwIssueNumber": 301,
+      "ppwTitle": "Resume Lincoln human inter-annotator reliability migration",
+      "ppwMilestone": 21,
+      "disposition": "migrate-as-ppw-issue",
+      "migrationNote": "Originally deferred until PPW Milestone 19 validation fixture foundations existed; resumed after PPW #165 recorded Milestone 19 complete. Source tracker notes human submissions and adjudication remain incomplete."
+    },
     {
       "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/109",
       "sourceTitle": "Define v4 corpus expansion architecture",
@@ -81,18 +101,7 @@
       "disposition": "merge-into-ppw-issue"
     }
   ],
-  "deferredIssues": [
-    {
-      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85",
-      "sourceTitle": "Tracking v2.0 Multi-Model Reliability Stress Test",
-      "resumeCondition": "After Milestone 19 validation fixture foundations"
-    },
-    {
-      "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108",
-      "sourceTitle": "Tracking v3.0 Human Inter-Annotator Reliability Study",
-      "resumeCondition": "After Milestone 19 validation fixture foundations"
-    }
-  ],
+  "deferredIssues": [],
   "completedInChildAfterMigration": [
     {
       "sourceIssue": "https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/95",

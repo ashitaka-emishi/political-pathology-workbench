@@ -75,16 +75,20 @@ GitHub's "archive" state makes a repository read-only and adds an archived banne
 
 ## Deferred issues in child repos
 
-Two LMA issues are deferred with no current PPW target. LMA #95 was completed
-in the child repository after this supersession plan was drafted and is retained
-as reference-only context.
+Two LMA issues were originally deferred with no PPW target. PPW #165 later
+recorded Milestone 19 complete, satisfying the original resume condition, and
+PPW-native successor issues have been created. LMA #95 was completed in the
+child repository after this supersession plan was drafted and is retained as
+reference-only context.
 
-| Issue | Status | Resume condition |
+| Issue | Status | PPW successor |
 |---|---|---|
-| LMA [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 reliability | deferred | After Milestone 19 (validation fixtures) |
-| LMA [#108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) — Tracking v3.0 reliability | deferred | After Milestone 19 (validation fixtures) |
+| LMA [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 reliability | resumed after Milestone 19 completion | [PPW #300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) |
+| LMA [#108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) — Tracking v3.0 reliability | resumed after Milestone 19 completion; human submissions/adjudication still incomplete in source tracker | [PPW #301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) |
 
-These issues should remain open in the child repo until Milestone 19 foundations exist. At that point, the maintainer should decide whether to create new PPW issues or fold the context into the M19 tracking issue (#165).
+These source issues should remain open in the child repo until the maintainer
+approves accurate supersession comments and closure. They must not be described
+as duplicated in PPW; they are migrated to successor issues.
 
 ---
 
@@ -95,6 +99,6 @@ Before any state change is applied to a child repository, the maintainer must ap
 - [ ] **Inactive notice application** — README, description, and Pages callout (per [child-repo-inactive-notices.md](child-repo-inactive-notices.md))
 - [ ] **Supersession comment posting** — 49 comments on child issues (per [child-repo-supersession-comments.md](child-repo-supersession-comments.md))
 - [x] **Archive decision** — resolved in Milestone 21: do not archive now; keep both repositories open and unarchived as reduced-maintenance provenance sources
-- [ ] **Deferred issue lifecycle** — revisit LMA #85 and #108 when Milestone 19 opens
+- [x] **Deferred issue lifecycle** — PPW successors created for LMA #85 and #108 after Milestone 19 completion; source closure remains maintainer-gated
 
 No child repository should be archived, deleted, or unpublished without explicit maintainer approval at each step.
