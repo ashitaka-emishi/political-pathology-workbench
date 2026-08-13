@@ -336,7 +336,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
       validateScoreableVariableReference(score, "variableId", theoryVariables, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateDefinitionRefs(score.definitionRefs, allowedDefinitionRefs, errors, `${caseDir}/scores.json:${score.scoreId}`);
       validateScoreSemantics(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`);
-      validateScoreIndependence(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`, isPublicFacing(score.publicationStatus));
+      validateScoreIndependence(score, errors, warnings, `${caseDir}/scores.json:${score.scoreId}`, isPublicFacing(score.publicationStatus), { holdoutStatus: caseRecord.holdoutStatus });
       validateScoreClaimPromotion(score, interpretationsById.get(score.interpretationId), claimsById, claimPromotionIndex, errors, `${caseDir}/scores.json:${score.scoreId}`);
       if (isPublicFacing(score.publicationStatus) && !["human-reviewed", "approved"].includes(score.reviewStatus)) addError(`${score.scoreId}: public-facing score references an interpretation that is not human-reviewed`);
       if (score.publicationStatus === "published" && !score.confidence?.rationale) addError(`${score.scoreId}: published score lacks confidence rationale`);

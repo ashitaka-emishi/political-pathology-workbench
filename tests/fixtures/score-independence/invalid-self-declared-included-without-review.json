@@ -2,7 +2,7 @@
   "score": {
     "scoreOrigin": "independent-coding",
     "outcomeVisibleToCoder": false,
-    "reviewStatus": "human-reviewed",
+    "reviewStatus": "score-review",
     "value": 3,
     "includeInSubstantiveAnalysis": true
   }
