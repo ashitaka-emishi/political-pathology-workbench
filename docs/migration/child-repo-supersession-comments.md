@@ -124,7 +124,9 @@ Disposition: migrated to PPW successor issue after original `defer-to-post-integ
 
 PPW target: https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300
 
-Rationale: This tracker was originally deferred until PPW established evidence-module schemas, registries, and validation fixtures. PPW #165 now records Milestone 19 complete, so the work has been resumed as a PPW-native successor issue for multi-model reliability stress-test migration.
+PPW execution follow-up: https://github.com/ashitaka-emishi/political-pathology-workbench/issues/303
+
+Rationale: This tracker was originally deferred until PPW established evidence-module schemas, registries, and validation fixtures. PPW #165 now records Milestone 19 complete, so the work has been resumed as a PPW-native successor issue for multi-model reliability stress-test migration. PPW #300 records the current Stage 4M source artifacts as reference-only design/status records; the inspected source state has no validated external model submissions, so no reliability finding is promoted.
 
 Closure instruction: close only after maintainer approval of this supersession comment.
 

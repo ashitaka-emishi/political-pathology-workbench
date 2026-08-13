@@ -8,9 +8,14 @@
       "resumeCondition": "Milestone 16 claim import and gate framework"
     },
     {
-      "limitation": "Inter-annotator agreement metrics exist only in child repo (Stage 4H/4J records)",
+      "limitation": "Stage 4M multi-model reliability is designed but not executed in the inspected source state",
+      "impact": "PPW cannot cite model agreement, disagreement, consensus, or stability metrics as reliability evidence; current Stage 4M records are reference-only methodology and insufficient-evidence status artifacts",
+      "resumeCondition": "PPW #303 external model-review pilot with validated submissions and explicit review-gate disposition"
+    },
+    {
+      "limitation": "Human inter-annotator agreement metrics exist only in child repo (Stage 4H/4J records)",
       "impact": "PPW cannot verify reliability score independently; must reference child-repo records",
-      "resumeCondition": "After PPW review-gate framework (Milestone 19) and child-repo records are linked by provenance"
+      "resumeCondition": "PPW #301 human inter-annotator reliability migration and child-repo records linked by provenance"
     },
     {
       "limitation": "Reliability sampling design for v4 corpus not yet adapted to PPW framework",
@@ -28,7 +33,15 @@
       "artifactType": "multi-model reliability study",
       "childRepoMilestone": "v2.0 — Multi-Model Reliability Stress Test",
       "location": "ashitaka-emishi/lincoln-metaphor-analysis",
-      "ppwDisposition": "reference-only"
+      "ppwDisposition": "reference-only",
+      "ppwDispositionDocument": "docs/migration/lma-stage4m-reliability-disposition.md",
+      "ppwSuccessorIssue": 300,
+      "ppwFollowUpIssue": 303,
+      "sourceStatus": "designed-not-executed",
+      "sourcePacketId": "stage4m_0b71d40df438058f",
+      "sourcePacketUnits": 106,
+      "validatedModelRuns": 0,
+      "reviewGate": "No model output, consensus report, adjudication queue item, correction candidate, claim, or score may be promoted without separate maintainer approval."
     },
     {
       "artifactType": "human inter-annotator agreement study",

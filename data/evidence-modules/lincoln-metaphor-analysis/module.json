@@ -25,5 +25,5 @@
   "reliabilityStatus": "pending",
   "claimPromotionPolicy": "standard",
   "sourceIssueMigrationStatus": "in-progress",
-  "maintainerNotes": "Lincoln's own writings (1838-1865) are public domain; third-party commentary and translations require rights review before import (see docs/architecture/imported-projects.md). Corpus and draft-claim import scheduled for Milestones 15-16; no artifacts imported yet as of Milestone 14."
+  "maintainerNotes": "Lincoln's own writings (1838-1865) are public domain; third-party commentary and translations require rights review before import (see docs/architecture/imported-projects.md). LMA Stage 4M multi-model reliability artifacts are reference-only design/status records as of PPW #300; no validated external model submissions exist, and PPW #303 is the execution follow-up. Reliability status remains pending until reviewed submissions or human reliability work pass explicit gates."
 }

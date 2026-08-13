@@ -85,7 +85,7 @@ rather than an open deferred item.
 
 | Source | Issue | PPW successor | Status |
 |---|---|---|---|
-| LMA | [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 Multi-Model Reliability Stress Test | [PPW #300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) | Resumed after M19 completion |
+| LMA | [#85](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/85) — Tracking v2.0 Multi-Model Reliability Stress Test | [PPW #300](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/300) | Resumed after M19 completion; disposition note records reference-only/no-submission state and PPW #303 follow-up |
 | LMA | [#108](https://github.com/ashitaka-emishi/lincoln-metaphor-analysis/issues/108) — Tracking v3.0 Human Inter-Annotator Reliability Study | [PPW #301](https://github.com/ashitaka-emishi/political-pathology-workbench/issues/301) | Resumed after M19 completion; source tracker notes human submissions and adjudication remain incomplete |
 
 ---
