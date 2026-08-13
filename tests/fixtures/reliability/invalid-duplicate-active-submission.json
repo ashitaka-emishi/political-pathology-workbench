@@ -1,0 +1,62 @@
+{
+  "codingRoundId": "round-fixture-duplicate-v1",
+  "coderScores": [
+    {
+      "coderScoreId": "fixture-score-001-a",
+      "coderId": "coder-a",
+      "codingRoundId": "round-fixture-duplicate-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-001",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-001",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 4,
+      "confidence": {
+        "value": 0.8,
+        "label": "high",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-001-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
+    },
+    {
+      "coderScoreId": "fixture-duplicate-001-b",
+      "coderId": "coder-a",
+      "codingRoundId": "round-fixture-duplicate-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-001",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-001",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 4,
+      "confidence": {
+        "value": 0.8,
+        "label": "high",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-001-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
+    }
+  ],
+  "expectedError": "duplicate active coder submissions"
+}

@@ -1,0 +1,134 @@
+{
+  "codingRoundId": "round-fixture-superseded-v1",
+  "coderScores": [
+    {
+      "coderScoreId": "fixture-superseded-old",
+      "coderId": "coder-a",
+      "codingRoundId": "round-fixture-superseded-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-002",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-002",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 1,
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
+    },
+    {
+      "coderScoreId": "fixture-superseded-new",
+      "coderId": "coder-a",
+      "codingRoundId": "round-fixture-superseded-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-002",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-002",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 2,
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": [],
+      "supersedesCoderScoreId": "fixture-superseded-old"
+    },
+    {
+      "coderScoreId": "fixture-superseded-other",
+      "coderId": "coder-b",
+      "codingRoundId": "round-fixture-superseded-v1",
+      "codebookVersion": "v1.1",
+      "timestamp": "2026-08-13T00:00:00Z",
+      "submittedAt": "2026-08-13T00:00:00Z",
+      "unitId": "unit-002",
+      "unitClass": "political-formation",
+      "caseId": "fixture-case-002",
+      "theoryId": "general-theory-political-pathology-v1",
+      "variableId": "corrigibility",
+      "value": 3,
+      "confidence": {
+        "value": 0.6,
+        "label": "moderate",
+        "rationale": "Synthetic reliability fixture confidence.",
+        "uncertaintyFactors": []
+      },
+      "adjudicationState": "raw-submitted",
+      "valueSemantics": "construct-magnitude",
+      "coderRationale": "Synthetic raw coder rationale for reliability fixture.",
+      "packetRef": {
+        "packetId": "round-fixture-fixture-case-002-packet",
+        "packetHash": "sha256:fixture"
+      },
+      "evidenceRefs": []
+    }
+  ],
+  "expectedAssignments": [
+    {
+      "coderId": "coder-a",
+      "unitId": "unit-002",
+      "variableId": "corrigibility"
+    },
+    {
+      "coderId": "coder-b",
+      "unitId": "unit-002",
+      "variableId": "corrigibility"
+    }
+  ],
+  "expected": {
+    "coding_round_id": "round-fixture-superseded-v1",
+    "status": "ok",
+    "codebook_version": "v1.1",
+    "unit_variable_count": 1,
+    "pair_count": 1,
+    "known_pair_count": 1,
+    "exact_agreement": 0.0,
+    "mean_absolute_difference": 1.0,
+    "krippendorff_alpha_ordinal": 0.0,
+    "expected_assignment_count": 2,
+    "completed_assignment_count": 2,
+    "missing_assignment_count": 0,
+    "missingness_rate": 0.0,
+    "missing_assignments": [],
+    "by_variable": {
+      "corrigibility": {
+        "status": "ok",
+        "unit_variable_count": 1,
+        "pair_count": 1,
+        "known_pair_count": 1,
+        "exact_agreement": 0.0,
+        "mean_absolute_difference": 1.0,
+        "krippendorff_alpha_ordinal": 0.0,
+        "expected_assignment_count": 2,
+        "completed_assignment_count": 2,
+        "missing_assignment_count": 0,
+        "missingness_rate": 0.0,
+        "missing_assignments": []
+      }
+    }
+  }
+}
