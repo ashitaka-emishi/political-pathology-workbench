@@ -8,12 +8,74 @@ const SCORE_IMPACT_DIRECTIONS = new Set(["increase", "decrease", "neutral", "unk
 const ACTIVE_REVIEW_STATUSES = new Set(["human-reviewed", "approved"]);
 const DRAFT_SCORE_IMPACTS = new Set(["candidate", "none"]);
 const SEARCH_PURPOSES = new Set(["supporting", "disconfirming", "neutral"]);
+const COMPLETE_SEARCH_STATUSES = new Set(["completed"]);
+const EVIDENCE_POLARITIES = new Set(["supports", "contradicts", "qualifies", "neutral", "mixed", "unknown"]);
+const ARGUMENT_ROLES = new Set(["grounds", "warrant", "backing", "qualifier", "rebuttal", "context", "methodological"]);
 
 function hasEvidence(record) {
   return (record.sourceRefs ?? []).length > 0 || (record.passageRefs ?? []).length > 0 || (record.artifactRefs ?? []).length > 0;
 }
 
-export function validatePromotionRecord(record, promotionIds, moduleIds, caseIds, errors, warnings, label) {
+export function validateSearchLogRecord(record, errors, label) {
+  try {
+    requireFields(label, record, ["searchId", "date", "query", "database", "purpose"]);
+  } catch (error) {
+    errors.push(error.message);
+    return;
+  }
+  if (!SEARCH_PURPOSES.has(record.purpose)) errors.push(`${label}: unsupported purpose ${record.purpose}`);
+  if (record.evidencePolarity && !EVIDENCE_POLARITIES.has(record.evidencePolarity)) errors.push(`${label}: unsupported evidencePolarity ${record.evidencePolarity}`);
+  if (record.argumentRole && !ARGUMENT_ROLES.has(record.argumentRole)) errors.push(`${label}: unsupported argumentRole ${record.argumentRole}`);
+  for (const field of ["resultsCount", "screenedCount", "includedCount"]) {
+    if (record[field] !== undefined && (!Number.isInteger(record[field]) || record[field] < 0)) {
+      errors.push(`${label}: ${field} must be a non-negative integer`);
+    }
+  }
+  const includedCount = record.includedCount ?? (record.includedSourceIds ?? []).length + (record.includedPassageIds ?? []).length;
+  if (record.screenedCount !== undefined && record.resultsCount !== undefined && record.screenedCount > record.resultsCount) {
+    errors.push(`${label}: screenedCount cannot exceed resultsCount`);
+  }
+  if (record.screenedCount !== undefined && includedCount > record.screenedCount) {
+    errors.push(`${label}: includedCount cannot exceed screenedCount`);
+  }
+}
+
+export function buildSearchLogIndex(cases = []) {
+  const byId = new Map();
+  const duplicateIds = new Set();
+  for (const caseData of cases) {
+    for (const searchLog of caseData.searchLogs ?? []) {
+      const existing = byId.get(searchLog.searchId);
+      if (existing) duplicateIds.add(searchLog.searchId);
+      byId.set(searchLog.searchId, { ...searchLog, caseId: caseData.caseRecord?.caseId });
+    }
+  }
+  return { byId, duplicateIds };
+}
+
+function validateResolvedPromotionSearch(record, ref, searchIndex, errors, label) {
+  if (!searchIndex) return;
+  if (searchIndex.duplicateIds?.has(ref.searchId)) {
+    errors.push(`${label}: searchLogRef ${ref.searchId} is ambiguous; namespace search IDs before promotion`);
+    return;
+  }
+  const searchLog = searchIndex.byId?.get(ref.searchId);
+  if (!searchLog) {
+    errors.push(`${label}: searchLogRef ${ref.searchId} does not resolve to a search-log record`);
+    return;
+  }
+  validateSearchLogRecord(searchLog, errors, `${label}:searchLogRef:${ref.searchId}`);
+  if (searchLog.purpose !== ref.purpose) errors.push(`${label}: searchLogRef ${ref.searchId} purpose ${ref.purpose} does not match search log purpose ${searchLog.purpose}`);
+  if (!COMPLETE_SEARCH_STATUSES.has(searchLog.completionStatus)) errors.push(`${label}: searchLogRef ${ref.searchId} must have completionStatus completed`);
+  if (!searchLog.database || !searchLog.environment) errors.push(`${label}: searchLogRef ${ref.searchId} requires database and environment`);
+  if ((searchLog.inclusionCriteria ?? []).length === 0 || (searchLog.exclusionCriteria ?? []).length === 0) {
+    errors.push(`${label}: searchLogRef ${ref.searchId} requires inclusion and exclusion criteria`);
+  }
+  const includedCount = searchLog.includedCount ?? (searchLog.includedSourceIds ?? []).length + (searchLog.includedPassageIds ?? []).length;
+  if (includedCount === 0) errors.push(`${label}: searchLogRef ${ref.searchId} must include at least one usable evidence link`);
+}
+
+export function validatePromotionRecord(record, promotionIds, moduleIds, caseIds, errors, warnings, label, searchIndex = null) {
   try {
     requireFields(label, record, ["promotionId", "claimId", "originModuleId", "promotionStatus", "reviewStatus"]);
   } catch (error) {
@@ -48,6 +110,7 @@ export function validatePromotionRecord(record, promotionIds, moduleIds, caseIds
     for (const ref of record.searchLogRefs ?? []) {
       if (!ref.searchId) errors.push(`${label}: searchLogRefs entries require searchId`);
       if (!SEARCH_PURPOSES.has(ref.purpose)) errors.push(`${label}: unsupported searchLogRefs purpose ${ref.purpose}`);
+      validateResolvedPromotionSearch(record, ref, searchIndex, errors, label);
     }
   }
 
@@ -107,7 +170,7 @@ export function validateDraftClaimRecord(claim, draftIds, moduleIds, caseIds, er
   }
 }
 
-function validatePromotionRegistry(registryPath, moduleIds, caseIds, errors, warnings) {
+function validatePromotionRegistry(registryPath, moduleIds, caseIds, errors, warnings, searchIndex) {
   if (!fs.existsSync(registryPath)) return;
 
   let records;
@@ -126,7 +189,7 @@ function validatePromotionRegistry(registryPath, moduleIds, caseIds, errors, war
   const promotionIds = new Set();
   for (const record of records) {
     const label = `${registryPath}:${record.promotionId ?? "<unknown>"}`;
-    validatePromotionRecord(record, promotionIds, moduleIds, caseIds, errors, warnings, label);
+    validatePromotionRecord(record, promotionIds, moduleIds, caseIds, errors, warnings, label, searchIndex);
   }
 }
 
@@ -227,13 +290,13 @@ export function validateScoreClaimPromotion(score, interpretation, claimsById, p
   }
 }
 
-export function validateClaimPromotion(root, moduleIds = new Set(), caseIds = new Set()) {
+export function validateClaimPromotion(root, moduleIds = new Set(), caseIds = new Set(), searchIndex = null) {
   const errors = [];
   const warnings = [];
 
   validatePromotionRegistry(
     path.join(root, "data", "claim-promotion", "promotion-registry.json"),
-    moduleIds, caseIds, errors, warnings
+    moduleIds, caseIds, errors, warnings, searchIndex
   );
   validateDraftClaims(
     path.join(root, "data", "claim-promotion", "draft-claims.json"),

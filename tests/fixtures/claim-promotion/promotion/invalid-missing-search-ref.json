@@ -1,0 +1,31 @@
+{
+  "promotionId": "fixture-prom-missing-search",
+  "claimId": "lma-draft-claim-001",
+  "originModuleId": "lincoln-metaphor-analysis",
+  "caseId": "american-civil-war-union",
+  "promotionStatus": "promoted-finding",
+  "reviewStatus": "approved",
+  "sourceRefs": ["lincoln-gettysburg-address-1863"],
+  "artifactRefs": ["lincoln-deep-28"],
+  "searchLogRefs": [
+    { "searchId": "fixture-search-supporting", "purpose": "supporting" },
+    { "searchId": "missing-search", "purpose": "disconfirming" }
+  ],
+  "fixtureSearchLogs": [
+    {
+      "searchId": "fixture-search-supporting",
+      "date": "2026-08-13",
+      "query": "fixture supporting query",
+      "database": "fixture bibliography",
+      "environment": "test-fixture",
+      "purpose": "supporting",
+      "completionStatus": "completed",
+      "inclusionCriteria": ["direct supporting evidence"],
+      "exclusionCriteria": ["irrelevant evidence"],
+      "resultsCount": 1,
+      "screenedCount": 1,
+      "includedCount": 1,
+      "includedSourceIds": ["lincoln-gettysburg-address-1863"]
+    }
+  ]
+}

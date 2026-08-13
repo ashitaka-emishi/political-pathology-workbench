@@ -5,7 +5,7 @@ import { readJson, requireFields } from "../validate/json.js";
 import { validateCodingPackets } from "../validate/validate-coding-packets.js";
 import { validateEvidenceModules } from "../validate/validate-evidence-modules.js";
 import { validateCorpusRegistry } from "../validate/validate-corpus-registry.js";
-import { buildClaimPromotionIndex, validateClaimPromotion, validateScoreClaimPromotion } from "../validate/validate-claim-promotion.js";
+import { buildClaimPromotionIndex, buildSearchLogIndex, validateClaimPromotion, validateScoreClaimPromotion, validateSearchLogRecord } from "../validate/validate-claim-promotion.js";
 import { validateMigrationManifest } from "../validate/validate-migration-manifest.js";
 import { validateRepositoryGraph } from "../validate/validate-repository-graph.js";
 import { validateSchemaRegistry } from "../validate/validate-schema-registry.js";
@@ -362,6 +362,7 @@ function validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs
 
     for (const searchLog of searchLogs) {
       requireFields(`${caseDir}/search-log.json:${searchLog.searchId ?? "<unknown>"}`, searchLog, ["searchId", "date", "query", "database", "purpose"]);
+      validateSearchLogRecord(searchLog, errors, `${caseDir}/search-log.json:${searchLog.searchId ?? "<unknown>"}`);
       if (searchLogIds.has(searchLog.searchId)) addError(`${caseDir}/search-log.json: duplicate searchId ${searchLog.searchId}`);
       searchLogIds.add(searchLog.searchId);
       validateEnum(`${searchLog.searchId}.purpose`, searchLog.purpose, VOCAB.searchPurposes);
@@ -455,6 +456,8 @@ const caseIds = new Set(caseDirs.map((dir) => path.basename(dir)));
 const claimPromotionIndex = buildClaimPromotionIndex(root);
 const cases = caseDirs.map((caseDir) => validateCase(caseDir, theoryIds, theoryVariables, allowedDefinitionRefs, bibliographyIds, claimPromotionIndex)).filter(Boolean);
 validateRepositoryGraph(cases, errors);
+const searchLogIndex = buildSearchLogIndex(cases);
+for (const searchId of searchLogIndex.duplicateIds) errors.push(`search-log: duplicate repository searchId ${searchId}; namespace search IDs by case or corpus`);
 
 const codingPacketResult = validateCodingPackets(root, cases);
 for (const e of codingPacketResult.errors) errors.push(e);
@@ -467,7 +470,7 @@ const corpusRegistryResult = validateCorpusRegistry(root, evidenceModuleResult.m
 for (const e of corpusRegistryResult.errors) errors.push(e);
 for (const w of corpusRegistryResult.warnings) warnings.push(w);
 
-const claimPromotionResult = validateClaimPromotion(root, evidenceModuleResult.moduleIds, caseIds);
+const claimPromotionResult = validateClaimPromotion(root, evidenceModuleResult.moduleIds, caseIds, searchLogIndex);
 for (const e of claimPromotionResult.errors) errors.push(e);
 for (const w of claimPromotionResult.warnings) warnings.push(w);
 

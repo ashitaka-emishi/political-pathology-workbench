@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { validatePromotionRecord } from "../src-js/validate/validate-claim-promotion.js";
+import { buildSearchLogIndex, validatePromotionRecord } from "../src-js/validate/validate-claim-promotion.js";
 import { validateDraftClaimRecord } from "../src-js/validate/validate-claim-promotion.js";
 import { validateEvidenceModules } from "../src-js/validate/validate-evidence-modules.js";
 
@@ -29,7 +29,13 @@ function runDir(dir, validate) {
     const record = JSON.parse(fs.readFileSync(fixturePath, "utf8"));
     const errors = [];
     const warnings = [];
-    validate(record, new Set(), moduleIds, caseIds, errors, warnings, fixturePath);
+    const searchIndex = buildSearchLogIndex([
+      {
+        caseRecord: { caseId: record.caseId ?? "fixture-case" },
+        searchLogs: record.fixtureSearchLogs ?? []
+      }
+    ]);
+    validate(record, new Set(), moduleIds, caseIds, errors, warnings, fixturePath, searchIndex);
 
     const passed = expectValid ? errors.length === 0 : errors.length > 0;
     if (passed) {

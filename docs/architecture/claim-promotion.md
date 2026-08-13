@@ -48,6 +48,16 @@ Promotion is **sequential**: a claim cannot enter `argument-review` without pass
 - [ ] Claim is scoped to the theory variable it supports (no overclaiming).
 - [ ] Counterclaims or limitations are noted in `counterclaims.json` if applicable.
 - [ ] `confidence.value` and `confidence.rationale` are present and defensible.
+- [ ] Promoted findings have both supporting and disconfirming `searchLogRefs`.
+  Each referenced search must resolve to a real search-log record with matching
+  purpose, `completionStatus: completed`, database/environment metadata,
+  inclusion and exclusion criteria, sane integer counts
+  (`includedCount <= screenedCount <= resultsCount`), and at least one usable
+  included source or passage link.
+
+Search logs may separately record `evidencePolarity` and `argumentRole`.
+`purpose` describes why the search was run; polarity describes the evidence
+found; argument role describes how the evidence functions in the argument.
 
 ### `argument-review` → `score-review`
 
