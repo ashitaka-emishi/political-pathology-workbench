@@ -1,0 +1,49 @@
+{
+  "policyId": "review-publication-state-policy-v1",
+  "workflowStages": [
+    "raw",
+    "draft",
+    "evidence-complete",
+    "counterevidence-reviewed",
+    "independently-coded",
+    "adjudicated",
+    "finalized"
+  ],
+  "reviewDecisions": [
+    "pending",
+    "approved",
+    "revisions-required",
+    "rejected"
+  ],
+  "publicationExposures": [
+    "internal",
+    "preview",
+    "public",
+    "withdrawn"
+  ],
+  "legacyReviewStatusMapping": {
+    "draft": { "workflowStage": "draft", "reviewDecision": "pending" },
+    "source-review": { "workflowStage": "draft", "reviewDecision": "pending" },
+    "evidence-review": { "workflowStage": "evidence-complete", "reviewDecision": "pending" },
+    "argument-review": { "workflowStage": "counterevidence-reviewed", "reviewDecision": "pending" },
+    "score-review": { "workflowStage": "independently-coded", "reviewDecision": "pending" },
+    "human-reviewed": { "workflowStage": "finalized", "reviewDecision": "approved" },
+    "approved": { "workflowStage": "finalized", "reviewDecision": "approved" },
+    "rejected": { "workflowStage": "draft", "reviewDecision": "rejected" }
+  },
+  "legacyPublicationStatusMapping": {
+    "private-note": "internal",
+    "draft": "internal",
+    "internal-review": "internal",
+    "public-preview": "preview",
+    "published": "public",
+    "withdrawn": "withdrawn"
+  },
+  "substantiveEligibility": {
+    "allowedScoreOrigins": ["independent-coding", "adjudicated", "final"],
+    "requiredReviewStatuses": ["human-reviewed", "approved"],
+    "requiredOutcomeVisibleToCoder": false,
+    "excludedHoldoutStatuses": ["sealed"],
+    "allowNullValues": false
+  }
+}

@@ -8,6 +8,8 @@ const SCORE_ORIGINS = new Set([
   "final"
 ]);
 const EXCLUDED_SCORE_ORIGINS = new Set(["scaffold", "legacy", "outcome-derived"]);
+const ELIGIBLE_SCORE_ORIGINS = new Set(["independent-coding", "adjudicated", "final"]);
+const ELIGIBLE_REVIEW_STATUSES = new Set(["human-reviewed", "approved"]);
 
 function isNumber(value) {
   return typeof value === "number" && Number.isFinite(value);
@@ -73,12 +75,25 @@ export function validateScoreSemantics(score, errors, warnings, label) {
 }
 
 export function isSubstantiveAnalysisScore(score) {
-  return score.includeInSubstantiveAnalysis === true &&
-    !EXCLUDED_SCORE_ORIGINS.has(score.scoreOrigin) &&
-    score.outcomeVisibleToCoder === false;
+  return deriveAnalyticalEligibility(score).eligible;
 }
 
-export function validateScoreIndependence(score, errors, warnings, label, isPublicFacingScore = false) {
+export function deriveAnalyticalEligibility(score, context = {}) {
+  const reasons = [];
+  if (!ELIGIBLE_SCORE_ORIGINS.has(score.scoreOrigin)) reasons.push(`exclude-origin-${score.scoreOrigin ?? "missing"}`);
+  if (score.outcomeVisibleToCoder !== false) reasons.push("exclude-outcome-visible");
+  if (!ELIGIBLE_REVIEW_STATUSES.has(score.reviewStatus)) reasons.push(`exclude-review-${score.reviewStatus ?? "missing"}`);
+  if (score.value === null) reasons.push("exclude-unknown-value");
+  if (context.holdoutStatus === "sealed") reasons.push("exclude-sealed-holdout");
+  if (score.publicationStatus === "withdrawn") reasons.push("exclude-withdrawn");
+  return {
+    eligible: reasons.length === 0,
+    reasons,
+    policyVersion: "analytical-eligibility-v1"
+  };
+}
+
+export function validateScoreIndependence(score, errors, warnings, label, isPublicFacingScore = false, context = {}) {
   if (!SCORE_ORIGINS.has(score.scoreOrigin)) {
     errors.push(`${label}: scoreOrigin must be one of ${Array.from(SCORE_ORIGINS).join(", ")}`);
   }
@@ -89,11 +104,12 @@ export function validateScoreIndependence(score, errors, warnings, label, isPubl
     errors.push(`${label}: includeInSubstantiveAnalysis must be boolean`);
   }
 
-  if (score.includeInSubstantiveAnalysis === true && !isSubstantiveAnalysisScore(score)) {
-    errors.push(`${label}: scores included in substantive analysis must be independently coded, not outcome-visible, and not scaffold/legacy/outcome-derived`);
+  const eligibility = deriveAnalyticalEligibility(score, context);
+  if (score.includeInSubstantiveAnalysis !== eligibility.eligible) {
+    errors.push(`${label}: includeInSubstantiveAnalysis must equal derived eligibility ${eligibility.eligible}; reasons: ${eligibility.reasons.join(", ") || "eligible"}`);
   }
 
-  if (isPublicFacingScore && !isSubstantiveAnalysisScore(score)) {
+  if (isPublicFacingScore && !eligibility.eligible) {
     errors.push(`${label}: publication-facing scores must be independent of outcome-visible or scaffold-derived scoring`);
   }
 

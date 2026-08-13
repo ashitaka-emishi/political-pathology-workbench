@@ -4,6 +4,6 @@
     "outcomeVisibleToCoder": false,
     "reviewStatus": "human-reviewed",
     "value": 3,
-    "includeInSubstantiveAnalysis": true
+    "includeInSubstantiveAnalysis": false
   }
 }
