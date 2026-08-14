@@ -791,6 +791,70 @@ def construct_validity_for_question(research_question_id: str) -> list[dict]:
     return records
 
 
+def load_evidence_modules() -> list[dict]:
+    path = PROJECT_ROOT / "data" / "evidence-modules" / "module-registry.json"
+    registry = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    modules = []
+    for module in registry:
+        module_path = PROJECT_ROOT / "data" / "evidence-modules" / module["moduleId"] / "module.json"
+        if module_path.exists():
+            modules.append({**module, **json.loads(module_path.read_text(encoding="utf-8"))})
+        else:
+            modules.append(module)
+    return modules
+
+
+def module_site_href(module_id: str) -> str:
+    hrefs = {
+        "lincoln-metaphor-analysis": "../evidence/lincoln-metaphor-analysis.qmd",
+        "sacrifice-law-workbench": "../evidence/sacrifice-law-workbench.qmd",
+    }
+    return hrefs.get(module_id, "../evidence/index.qmd")
+
+
+def render_research_question_modules(question: dict) -> list[str]:
+    theory_ids = set(question.get("candidateTheoryIds", []))
+    modules = [
+        module for module in load_evidence_modules()
+        if theory_ids.intersection(module.get("theoryIds", []))
+    ]
+    if not modules:
+        return []
+
+    lines = [
+        "## Evidence Modules and Corpora",
+        "",
+        "The research question is supported by module-level evidence intake as well as native PPW case records. Modules are visible here because they supply corpora, provenance, reliability design, and draft claim candidates for the question; they are not promoted findings unless PPW promotion gates say so.",
+        "",
+        "| Module | Research role | Cases | Corpora | Review status |",
+        "|---|---|---|---|---|",
+    ]
+    for module in modules:
+        case_links = ", ".join(
+            f"[{title_case(case_id)}](../cases/{case_id}.qmd)"
+            for case_id in module.get("caseIds", [])
+        ) or "None"
+        corpora = ", ".join(f"`{corpus_id}`" for corpus_id in module.get("corpusIds", [])) or "None"
+        status = (
+            f"provenance `{module.get('provenanceStatus', 'unknown')}`, "
+            f"reliability `{module.get('reliabilityStatus', 'unknown')}`, "
+            f"claims `{module.get('claimPromotionPolicy', 'unknown')}`"
+        )
+        lines.append(
+            f"| [{module.get('moduleName', module['moduleId'])}]({module_site_href(module['moduleId'])}) "
+            f"| {module.get('description', '')} "
+            f"| {case_links} "
+            f"| {corpora} "
+            f"| {status} |"
+        )
+    lines += [
+        "",
+        "Module pages preserve provenance and review state. They do not convert child-repository claims, support ratings, or publication artifacts into PPW findings.",
+        "",
+    ]
+    return lines
+
+
 def render_research_questions_index() -> str:
     questions = load_research_questions()
     lines = [
@@ -887,6 +951,11 @@ def render_research_question_detail(question: dict) -> str:
         "- [Evidence modules](../evidence/index.qmd)",
         "- [Case comparison](../outputs/case-comparison.qmd)",
         "",
+    ]
+
+    lines += render_research_question_modules(question)
+
+    lines += [
         "## Evidence Status",
         "",
         "Evidence moves through Source -> Passage -> Claim -> Interpretation -> Score -> Case Page. Scores do not enter substantive analysis unless eligibility, review, independence, and publication gates allow them.",
