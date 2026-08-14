@@ -8,4 +8,22 @@ This project is an active research repository. Materials may be incomplete, prov
 
 The Political Pathology Workbench studies how sacred political orders become embodied in institutions, how those institutions respond to crisis, and when they generate sacrifice, reform, collapse, transformation, or stagnation.
 
+The site is organized around research questions first. Theories are candidate explanations or mechanism specializations that must answer those questions against cases, rival hypotheses, source evidence, coding, reliability checks, and human review gates.
+
+## Current Center
+
+**Under what conditions do sacred political orders become pathological rather than corrigible, restrained, or transformable?**
+
+[Open the research-question page](research/sacred-orders-pathology-corrigibility.qmd)
+
+## Workbench Structure
+
+| Layer | Site section | Role |
+|---|---|---|
+| Research questions | [Research Questions](research/index.qmd) | Organizes the inquiry and keeps theories accountable to questions. |
+| Candidate theories | [Theories](theory/theory-versions.qmd) | Presents explanatory frameworks, mechanisms, scope conditions, and rival predictions. |
+| Methods | [Methods](methods/epistemic-model.qmd) | Defines evidence chains, review states, coding, scoring, reliability, and publication gates. |
+| Cases and corpora | [Cases](cases/index.qmd), [Evidence](evidence/index.qmd) | Records the empirical material used to test or refine candidate explanations. |
+| Outputs | [Findings](outputs/findings.qmd), [Working Paper](outputs/working-paper.qmd) | Summarizes provisional outputs without bypassing review gates. |
+
 The current workbench maintains a traceable research workflow: Source -> Passage -> Claim -> Interpretation -> Score -> Case Page.

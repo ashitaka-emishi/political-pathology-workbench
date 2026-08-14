@@ -14,6 +14,7 @@ OUT = SITE_DIR / "cases" / "_chains"
 OUT_OUTPUTS = SITE_DIR / "outputs" / "_generated"
 OUT_THEORY = SITE_DIR / "theory" / "_generated"
 OUT_METHODS = SITE_DIR / "methods" / "_generated"
+OUT_RESEARCH = SITE_DIR / "research" / "_generated"
 OUT_GEN = SITE_DIR / "_generated"
 OUT_EVIDENCE = SITE_DIR / "evidence" / "_generated"
 DOCS_METHODOLOGY = PROJECT_ROOT / "docs" / "methodology"
@@ -760,6 +761,179 @@ def load_theory(theory_id: str, filename: str) -> object:
     return text.strip()
 
 
+def research_question_slug(question: dict) -> str:
+    slug_map = {
+        "rq-sacred-orders-pathology-corrigibility-v1": "sacred-orders-pathology-corrigibility",
+    }
+    if question.get("researchQuestionId") in slug_map:
+        return slug_map[question["researchQuestionId"]]
+    return re.sub(r"[^a-z0-9-]+", "-", question.get("researchQuestionId", "research-question").lower()).strip("-")
+
+
+def load_research_questions() -> list[dict]:
+    path = PROJECT_ROOT / "research" / "research-questions.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+
+
+def theory_title(theory_id: str) -> str:
+    manifest = load_theory(theory_id, "manifest.json")
+    if isinstance(manifest, dict):
+        return manifest.get("title", title_case(theory_id))
+    return title_case(theory_id)
+
+
+def construct_validity_for_question(research_question_id: str) -> list[dict]:
+    records = []
+    for theory_id in THEORY_IDS:
+        record = load_theory(theory_id, "construct-validity.json")
+        if isinstance(record, dict) and record.get("researchQuestionId") == research_question_id:
+            records.append(record)
+    return records
+
+
+def render_research_questions_index() -> str:
+    questions = load_research_questions()
+    lines = [
+        "::: {.callout-warning}",
+        "Draft research-question registry. Question wording and theory framing require maintainer scholarly review before acceptance.",
+        ":::",
+        "",
+        "The workbench starts from research questions and treats theories as candidate explanations, not assumptions to prove.",
+        "",
+        "| Research question | Status | Candidate theories |",
+        "|---|---|---|",
+    ]
+    for question in questions:
+        slug = research_question_slug(question)
+        theories = ", ".join(theory_title(theory_id) for theory_id in question.get("candidateTheoryIds", []))
+        lines.append(
+            f"| [{question.get('question', question.get('researchQuestionId', 'Research question'))}]({slug}.qmd) "
+            f"| `{question.get('status', 'draft')}` "
+            f"| {theories} |"
+        )
+    lines += [
+        "",
+        "## Standard Section Pattern",
+        "",
+        "Each research-question page uses the same basic shape: question, why it matters, candidate theories, constructs, methodology, cases and corpora, evidence status, rival explanations, current findings, review status, and next steps.",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def render_research_question_detail(question: dict) -> str:
+    records = construct_validity_for_question(question["researchQuestionId"])
+    role_by_theory = {record["theoryId"]: record.get("theoreticalRole", "candidate-explanation") for record in records}
+    variable_count = sum(len(record.get("variables", {})) for record in records)
+    proposition_count = sum(len(record.get("propositions", {})) for record in records)
+
+    lines = [
+        "::: {.callout-warning}",
+        f"Draft research question. Status: `{question.get('status', 'draft')}`.",
+        question.get("reviewGate", "Maintainer scholarly review required before acceptance."),
+        ":::",
+        "",
+        "## Research Question",
+        "",
+        f"> {question['question']}",
+        "",
+        "## Why It Matters",
+        "",
+        "This question keeps PPW focused on explaining variation rather than proving a favored theory. It asks why sacred political orders sometimes escalate into pathology, but in other settings remain corrigible, restrain sacrifice, collapse, or transform into successor orders.",
+        "",
+        "## Candidate Theories and Explanations",
+        "",
+        "| Theory | Role | Status |",
+        "|---|---|---|",
+    ]
+    for theory_id in question.get("candidateTheoryIds", []):
+        manifest = load_theory(theory_id, "manifest.json")
+        status = manifest.get("status", "draft") if isinstance(manifest, dict) else "draft"
+        lines.append(f"| [{theory_title(theory_id)}](../theory/theory-versions.qmd) | `{role_by_theory.get(theory_id, 'candidate-explanation')}` | `{status}` |")
+
+    lines += [
+        "",
+        "## Constructs Involved",
+        "",
+        f"The linked construct-validity records currently cover **{variable_count} construct analyses** across the candidate theories. Each scoreable construct records scholarly anchors or novelty justification, neighboring concepts, overlap, and discriminant boundaries.",
+        "",
+    ]
+    for record in records:
+        lines += [f"### {theory_title(record['theoryId'])}", ""]
+        for variable_id, analysis in record.get("variables", {}).items():
+            neighbors = ", ".join(item.get("concept", "") for item in analysis.get("neighboringConcepts", []))
+            anchor_count = len(analysis.get("scholarlyAnchors", []))
+            lines.append(f"- **{title_case(variable_id)}**: {anchor_count} anchor(s); boundaries against {neighbors}.")
+        lines.append("")
+
+    lines += [
+        "## Methodology",
+        "",
+        "The questions are not all researched with one identical method. They share one review pipeline, but use multiple methodological tracks:",
+        "",
+        "| Track | What it answers | Current workbench machinery |",
+        "|---|---|---|",
+        "| Construct validity | Whether PPW terms are coherent and distinguishable | Scholarly genealogy, neighboring concepts, discriminant boundaries, rival literatures |",
+        "| Mechanism analysis | How sacred-order mechanisms operate in cases | Evidence chains, interpretations, counterclaims, rival explanations |",
+        "| Comparative case analysis | When outcomes diverge across cases | Case typology, design strata, outcome classes, cross-case comparison |",
+        "| Measurement validation | Whether coders can apply constructs reliably | Blinded coding packets, raw coder records, reliability metrics, adjudication lineage |",
+        "| Publication governance | What can be safely shown or exported | Review/publication statuses, export profiles, leakage tests |",
+        "",
+        "## Cases and Corpora",
+        "",
+        "The empirical layer currently combines native PPW cases with imported evidence modules and corpora. Case pages distinguish native evidence chains from module-derived draft or promoted records.",
+        "",
+        "- [Case index](../cases/index.qmd)",
+        "- [Evidence modules](../evidence/index.qmd)",
+        "- [Case comparison](../outputs/case-comparison.qmd)",
+        "",
+        "## Evidence Status",
+        "",
+        "Evidence moves through Source -> Passage -> Claim -> Interpretation -> Score -> Case Page. Scores do not enter substantive analysis unless eligibility, review, independence, and publication gates allow them.",
+        "",
+        "## Rival Explanations",
+        "",
+        f"The linked validity records currently cover **{proposition_count} proposition analyses** with scope conditions, rival hypotheses, expected observations, counter-observations, and discriminating predictions.",
+        "",
+    ]
+    for record in records:
+        for proposition_id, analysis in record.get("propositions", {}).items():
+            rivals = analysis.get("rivalHypotheses", [])
+            lines += [
+                f"### `{proposition_id}`",
+                "",
+                "**Rival hypotheses:**",
+                "",
+            ]
+            lines.extend(f"- {rival}" for rival in rivals)
+            lines.append("")
+
+    lines += [
+        "## Current Findings",
+        "",
+        "Findings remain provisional until evidence, scoring, reliability, and human-review gates are satisfied.",
+        "",
+        "- [Findings](../outputs/findings.qmd)",
+        "- [Working paper](../outputs/working-paper.qmd)",
+        "- [Reliability analysis](../outputs/reliability-analysis.qmd)",
+        "",
+        "## Review and Publication Status",
+        "",
+        f"**Theoretical posture:** {question.get('theoreticalPosture', '')}",
+        "",
+        "Research-question wording, construct boundaries, rival predictions, final scores, release readiness, and public/export decisions remain human-gated.",
+        "",
+        "## Open Next Steps",
+        "",
+        "- Complete the blocked multi-coder calibration study before accepting reliability or first-release claims.",
+        "- Review the draft research-question wording and theory roles.",
+        "- Promote or revise construct-validity records only through a dedicated human review decision.",
+        "",
+    ]
+
+    return "\n".join(lines)
+
+
 def render_proposed_law() -> str:
     sl = load_theory("sacrifice-law-v1", "manifest.json")
     gt = load_theory("general-theory-political-pathology-v1", "manifest.json")
@@ -1441,6 +1615,7 @@ def main() -> None:
     OUT_OUTPUTS.mkdir(parents=True, exist_ok=True)
     OUT_GEN.mkdir(parents=True, exist_ok=True)
     OUT_EVIDENCE.mkdir(parents=True, exist_ok=True)
+    OUT_RESEARCH.mkdir(parents=True, exist_ok=True)
 
     summary_path = SITE_DIR / "data" / "workbench-summary.json"
     summary = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {"cases": []}
@@ -1509,6 +1684,15 @@ def main() -> None:
     ]:
         p = OUT_THEORY / fname
         p.write_text(content, encoding="utf-8")
+        print(f"  [pre-render] Wrote {p.relative_to(PROJECT_ROOT)}")
+
+    # Research question pages
+    research_index = OUT_RESEARCH / "index.md"
+    research_index.write_text(render_research_questions_index(), encoding="utf-8")
+    print(f"  [pre-render] Wrote {research_index.relative_to(PROJECT_ROOT)}")
+    for question in load_research_questions():
+        p = OUT_RESEARCH / f"{research_question_slug(question)}.md"
+        p.write_text(render_research_question_detail(question), encoding="utf-8")
         print(f"  [pre-render] Wrote {p.relative_to(PROJECT_ROOT)}")
 
     # Cases index

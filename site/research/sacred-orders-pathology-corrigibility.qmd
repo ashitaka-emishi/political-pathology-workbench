@@ -1,0 +1,5 @@
+---
+title: "Sacred Orders, Pathology, and Corrigibility"
+---
+
+{{< include _generated/sacred-orders-pathology-corrigibility.md >}}

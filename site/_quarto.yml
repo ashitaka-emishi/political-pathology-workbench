@@ -9,8 +9,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: theory/proposed-law.qmd
-        text: Theory
+      - href: research/index.qmd
+        text: Research Questions
+      - href: theory/theory-versions.qmd
+        text: Theories
       - href: methods/epistemic-model.qmd
         text: Methods
       - href: methods/core-definitions.qmd
