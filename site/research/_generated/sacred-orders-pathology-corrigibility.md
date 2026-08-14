@@ -64,6 +64,17 @@ The empirical layer currently combines native PPW cases with imported evidence m
 - [Evidence modules](../evidence/index.qmd)
 - [Case comparison](../outputs/case-comparison.qmd)
 
+## Evidence Modules and Corpora
+
+The research question is supported by module-level evidence intake as well as native PPW case records. Modules are visible here because they supply corpora, provenance, reliability design, and draft claim candidates for the question; they are not promoted findings unless PPW promotion gates say so.
+
+| Module | Research role | Cases | Corpora | Review status |
+|---|---|---|---|---|
+| [Lincoln Metaphor Analysis](../evidence/lincoln-metaphor-analysis.qmd) | Deep single-case evidence module covering Abraham Lincoln's rhetoric (1838-1865): a multi-tier annotated corpus (core, validation, reference sets), stage-by-stage annotation artifacts, and methodology documentation. | [American Civil War Union](../cases/american-civil-war-union.qmd) | `lincoln-deep-28` | provenance `partial`, reliability `pending`, claims `standard` |
+| [Sacrifice Law Workbench](../evidence/sacrifice-law-workbench.qmd) | Comparative corpus evidence module covering multiple historical cases under Koenigsberg's Law of Sacrifice (American Revolution, Napoleon, Lincoln, Hitler): a multi-case stratified corpus with manifest-driven pipeline and cross-case synthesis research site. | [American Civil War Union](../cases/american-civil-war-union.qmd), [American Revolution](../cases/american-revolution.qmd), [Nazi Germany](../cases/nazi-germany.qmd), [Napoleonic France](../cases/napoleonic-france.qmd) | `sacrifice-law-comparative-41` | provenance `partial`, reliability `pending`, claims `standard` |
+
+Module pages preserve provenance and review state. They do not convert child-repository claims, support ratings, or publication artifacts into PPW findings.
+
 ## Evidence Status
 
 Evidence moves through Source -> Passage -> Claim -> Interpretation -> Score -> Case Page. Scores do not enter substantive analysis unless eligibility, review, independence, and publication gates allow them.
