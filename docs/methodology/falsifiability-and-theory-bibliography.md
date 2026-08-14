@@ -5,6 +5,17 @@
 
 ## Proposition Contract
 
+The theory layer is centered on the draft research question registry at
+`research/research-questions.json`. The current organizing question is:
+
+> Under what conditions do sacred political orders become pathological rather
+> than corrigible, restrained, or transformable?
+
+Theories should be treated as candidate explanations for that question, not as
+assumptions the repository is organized to prove. Validation requires each
+theory `construct-validity.json` record to point back to a registered research
+question.
+
 Each theory may define `propositions.json`. Every proposition must include:
 
 - `propositionId`;

@@ -1,0 +1,22 @@
+[
+  {
+    "researchQuestionId": "rq-sacred-orders-pathology-corrigibility-v1",
+    "question": "Under what conditions do sacred political orders become pathological rather than corrigible, restrained, or transformable?",
+    "status": "draft",
+    "reviewGate": "Maintainer review required before this wording is treated as the accepted central research question.",
+    "theoreticalPosture": "Theories are candidate explanations for the research question, not assumptions the evidence is organized to prove.",
+    "candidateTheoryIds": [
+      "general-theory-political-pathology-v1",
+      "sacrifice-law-v1",
+      "koenigsberg-immortal-body-v1"
+    ],
+    "analysisHierarchy": [
+      "research-question",
+      "candidate-theories",
+      "constructs-and-propositions",
+      "cases-and-rival-predictions",
+      "evidence-coding-and-reliability",
+      "findings"
+    ]
+  }
+]

@@ -11,5 +11,97 @@
       "gtpp-crisis-outcomes-vary",
       "gtpp-pathology-more-than-violence"
     ]
+  },
+  {
+    "sourceId": "bellah-civil-religion-america-1967",
+    "role": "background-theory",
+    "supportsVariables": [
+      "sacred-political-order-strength",
+      "sacralization"
+    ],
+    "supportsPropositions": [
+      "gtpp-crisis-outcomes-vary"
+    ]
+  },
+  {
+    "sourceId": "durkheim-elementary-forms-1912",
+    "role": "background-theory",
+    "supportsVariables": [
+      "sacred-political-order-strength",
+      "sacralization"
+    ],
+    "supportsPropositions": []
+  },
+  {
+    "sourceId": "anderson-imagined-communities-1983",
+    "role": "background-theory",
+    "supportsVariables": [
+      "sacred-political-order-strength",
+      "collective-immortality"
+    ],
+    "supportsPropositions": []
+  },
+  {
+    "sourceId": "kantorowicz-kings-two-bodies-1957",
+    "role": "background-theory",
+    "supportsVariables": [
+      "collective-immortality"
+    ],
+    "supportsPropositions": []
+  },
+  {
+    "sourceId": "girard-violence-sacred-1972",
+    "role": "background-theory",
+    "supportsVariables": [
+      "sacred-enemy",
+      "pathology"
+    ],
+    "supportsPropositions": [
+      "gtpp-pathology-more-than-violence"
+    ]
+  },
+  {
+    "sourceId": "arendt-origins-totalitarianism-1951",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "sacred-enemy",
+      "pathology"
+    ],
+    "supportsPropositions": [
+      "gtpp-crisis-outcomes-vary",
+      "gtpp-pathology-more-than-violence"
+    ]
+  },
+  {
+    "sourceId": "popper-open-society-1945",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "pathology",
+      "corrigibility"
+    ],
+    "supportsPropositions": [
+      "gtpp-crisis-outcomes-vary",
+      "gtpp-pathology-more-than-violence"
+    ]
+  },
+  {
+    "sourceId": "dahl-polyarchy-1971",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "corrigibility"
+    ],
+    "supportsPropositions": [
+      "gtpp-crisis-outcomes-vary"
+    ]
+  },
+  {
+    "sourceId": "schmitt-political-theology-1922",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "sacralization",
+      "sacred-enemy",
+      "corrigibility"
+    ],
+    "supportsPropositions": []
   }
 ]

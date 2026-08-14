@@ -2,6 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { readJson } from "../validate/json.js";
 
+const GENERATED_AT = "repository-state";
+
 function readArray(file) {
   if (!fs.existsSync(file)) return [];
   const value = readJson(file);
@@ -113,7 +115,7 @@ export function generateCaseEvidenceChains(root) {
   const draftClaimsData = readObject(path.join(root, "data", "claim-promotion", "draft-claims.json"));
   const draftClaims = Array.isArray(draftClaimsData?.draftClaims) ? draftClaimsData.draftClaims : [];
   const promotedClaims = readArray(path.join(root, "data", "claim-promotion", "promotion-registry.json"));
-  const generatedAt = new Date().toISOString().slice(0, 10);
+  const generatedAt = GENERATED_AT;
 
   const draftClaimsByCase = new Map();
   for (const claim of draftClaims) {

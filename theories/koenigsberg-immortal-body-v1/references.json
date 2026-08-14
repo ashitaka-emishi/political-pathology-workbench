@@ -9,5 +9,44 @@
     "supportsPropositions": [
       "kib-collective-body-sacrifice"
     ]
+  },
+  {
+    "sourceId": "kantorowicz-kings-two-bodies-1957",
+    "role": "background-theory",
+    "supportsVariables": [
+      "collective-immortality"
+    ],
+    "supportsPropositions": [
+      "kib-collective-body-sacrifice"
+    ]
+  },
+  {
+    "sourceId": "anderson-imagined-communities-1983",
+    "role": "background-theory",
+    "supportsVariables": [
+      "collective-immortality"
+    ],
+    "supportsPropositions": [
+      "kib-collective-body-sacrifice"
+    ]
+  },
+  {
+    "sourceId": "girard-violence-sacred-1972",
+    "role": "background-theory",
+    "supportsVariables": [
+      "individual-sacrifice"
+    ],
+    "supportsPropositions": [
+      "kib-collective-body-sacrifice"
+    ]
+  },
+  {
+    "sourceId": "arendt-origins-totalitarianism-1951",
+    "role": "counterevidence",
+    "supportsVariables": [
+      "collective-immortality",
+      "individual-sacrifice"
+    ],
+    "supportsPropositions": []
   }
 ]
