@@ -173,7 +173,7 @@ for (const i of allInterpretations) {
 }
 
 const comparisonTable = {
-  generatedAt: new Date().toISOString().slice(0, 10),
+  generatedAt: "repository-state",
   variables: DISPLAY_VARS,
   clusters: OUTCOME_CLUSTERS.map(({ outcomeId, label }) => {
     const cases = allCases

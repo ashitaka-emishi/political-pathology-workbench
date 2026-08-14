@@ -2,6 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { readJson } from "../validate/json.js";
 
+const GENERATED_AT = "repository-state";
+
 function readArray(file) {
   if (!fs.existsSync(file)) return [];
   const value = readJson(file);
@@ -63,7 +65,7 @@ export function generateEvidenceIndexes(root) {
   const allCaseIds = [...new Set([...Object.keys(modulesByCaseId), ...Object.keys(corporaByCaseId)])].sort();
 
   const caseCorpusIndex = {
-    generatedAt: new Date().toISOString().slice(0, 10),
+    generatedAt: GENERATED_AT,
     modules: modules.map(({ moduleId, corpusIds, caseIds }) => ({
       moduleId,
       corpusIds: corpusIds ?? [],
@@ -116,7 +118,7 @@ export function generateEvidenceIndexes(root) {
   const allClaimCaseIds = [...new Set([...Object.keys(draftClaimsByCase), ...Object.keys(promotedClaimsByCase)])].sort();
 
   const caseClaimPromotionIndex = {
-    generatedAt: new Date().toISOString().slice(0, 10),
+    generatedAt: GENERATED_AT,
     cases: allClaimCaseIds.map((caseId) => ({
       caseId,
       draftClaims: draftClaimsByCase[caseId] ?? [],
