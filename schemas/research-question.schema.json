@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://political-pathology-workbench.local/schemas/research-question.schema.json",
+  "title": "Research Questions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["researchQuestionId", "question", "status", "theoreticalPosture", "candidateTheoryIds", "analysisHierarchy"],
+    "properties": {
+      "researchQuestionId": { "type": "string" },
+      "question": { "type": "string" },
+      "status": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
+      "reviewGate": { "type": "string" },
+      "theoreticalPosture": { "type": "string" },
+      "candidateTheoryIds": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": { "type": "string" }
+      },
+      "analysisHierarchy": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string" }
+      }
+    }
+  }
+}

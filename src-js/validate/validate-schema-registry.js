@@ -166,6 +166,7 @@ export function validateSchemaRegistry(root) {
   }
 
   const artifacts = [
+    ["research-question.schema.json", path.join(root, "research", "research-questions.json")],
     ["claim-promotion.schema.json", path.join(root, "data", "claim-promotion", "promotion-registry.json")],
     ["corpus-registry.schema.json", path.join(root, "data", "corpora", "corpus-registry.json")],
     ["evidence-module.schema.json", path.join(root, "data", "evidence-modules", "module-registry.json")],

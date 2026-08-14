@@ -114,7 +114,22 @@ function validateSourceRefs(label, sourceIds, bibliographyIds, fieldName) {
   }
 }
 
-function validateConstructValidity(theoryDir, manifest, variables, propositionIds, bibliographyIds) {
+function validateResearchQuestions(researchQuestions, theoryIds) {
+  const researchQuestionIds = new Set();
+  for (const question of researchQuestions) {
+    const label = `research/research-questions.json:${question.researchQuestionId ?? "<unknown>"}`;
+    requireFields(label, question, ["researchQuestionId", "question", "status", "theoreticalPosture", "candidateTheoryIds", "analysisHierarchy"]);
+    validateEnum(`${label}.status`, question.status, VOCAB.reviewStatuses);
+    if (researchQuestionIds.has(question.researchQuestionId)) addError(`research/research-questions.json: duplicate researchQuestionId ${question.researchQuestionId}`);
+    researchQuestionIds.add(question.researchQuestionId);
+    for (const theoryId of question.candidateTheoryIds ?? []) {
+      if (!theoryIds.has(theoryId)) addError(`${label}: candidateTheoryId ${theoryId} is not defined in theories/`);
+    }
+  }
+  return researchQuestionIds;
+}
+
+function validateConstructValidity(theoryDir, manifest, variables, propositionIds, bibliographyIds, researchQuestionIds) {
   const constructValidityPath = path.join(theoryDir, "construct-validity.json");
   if (!fs.existsSync(constructValidityPath)) {
     addError(`${constructValidityPath}: missing construct-validity file`);
@@ -122,8 +137,9 @@ function validateConstructValidity(theoryDir, manifest, variables, propositionId
   }
 
   const constructValidity = readJson(constructValidityPath);
-  requireFields(constructValidityPath, constructValidity, ["constructValidityId", "theoryId", "status", "variables", "propositions"]);
+  requireFields(constructValidityPath, constructValidity, ["constructValidityId", "theoryId", "researchQuestionId", "theoreticalRole", "status", "variables", "propositions"]);
   if (constructValidity.theoryId !== manifest.theoryId) addError(`${constructValidityPath}: theoryId ${constructValidity.theoryId} does not match manifest ${manifest.theoryId}`);
+  if (!researchQuestionIds.has(constructValidity.researchQuestionId)) addError(`${constructValidityPath}: researchQuestionId ${constructValidity.researchQuestionId} is not defined in research/research-questions.json`);
   validateEnum(`${constructValidityPath}.status`, constructValidity.status, VOCAB.reviewStatuses);
 
   const variableAnalyses = constructValidity.variables ?? {};
@@ -165,7 +181,7 @@ function validateConstructValidity(theoryDir, manifest, variables, propositionId
   }
 }
 
-function validateTheory(theoryDir, bibliographyIds) {
+function validateTheory(theoryDir, bibliographyIds, researchQuestionIds) {
   const manifestPath = path.join(theoryDir, "manifest.json");
   if (!fs.existsSync(manifestPath)) {
     addError(`${manifestPath}: missing theory manifest`);
@@ -208,7 +224,7 @@ function validateTheory(theoryDir, bibliographyIds) {
       }
     }
 
-    validateConstructValidity(theoryDir, manifest, variables, propositionIds, bibliographyIds);
+    validateConstructValidity(theoryDir, manifest, variables, propositionIds, bibliographyIds, researchQuestionIds);
 
     const referencesPath = path.join(theoryDir, "references.json");
     if (fs.existsSync(referencesPath)) {
@@ -514,7 +530,15 @@ const bibliographyPath = path.join(root, "bibliography", "sources.csl.json");
 const bibliography = fs.existsSync(bibliographyPath) ? readJson(bibliographyPath) : [];
 const bibliographyIds = new Set(bibliography.map((source) => source.id));
 const theoryDirs = listDirs(path.join(root, "theories")).map((name) => path.join(root, "theories", name));
-const theories = theoryDirs.map((theoryDir) => validateTheory(theoryDir, bibliographyIds)).filter(Boolean);
+const declaredTheoryIds = new Set(
+  theoryDirs.map((theoryDir) => {
+    const manifestPath = path.join(theoryDir, "manifest.json");
+    return fs.existsSync(manifestPath) ? readJson(manifestPath).theoryId : null;
+  }).filter(Boolean)
+);
+const researchQuestions = readArray(path.join(root, "research", "research-questions.json"));
+const researchQuestionIds = validateResearchQuestions(researchQuestions, declaredTheoryIds);
+const theories = theoryDirs.map((theoryDir) => validateTheory(theoryDir, bibliographyIds, researchQuestionIds)).filter(Boolean);
 const theoryIds = new Set(theories.map((theory) => theory.theoryId));
 const theoryVariables = new Map(theories.map((theory) => [theory.theoryId, theory.variables]));
 const allowedDefinitionRefs = buildDefinitionRefs(theoryVariables, VOCAB.mechanisms);

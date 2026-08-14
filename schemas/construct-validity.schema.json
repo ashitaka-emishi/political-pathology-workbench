@@ -3,10 +3,15 @@
   "$id": "https://political-pathology-workbench.local/schemas/construct-validity.schema.json",
   "title": "Construct Validity",
   "type": "object",
-  "required": ["constructValidityId", "theoryId", "status", "variables", "propositions"],
+  "required": ["constructValidityId", "theoryId", "researchQuestionId", "theoreticalRole", "status", "variables", "propositions"],
   "properties": {
     "constructValidityId": { "type": "string" },
     "theoryId": { "type": "string" },
+    "researchQuestionId": { "type": "string" },
+    "theoreticalRole": {
+      "type": "string",
+      "enum": ["candidate-explanation", "mechanism-specialization", "rival-explanation", "background-genealogy"]
+    },
     "status": { "$ref": "controlled-vocab.schema.json#/$defs/reviewStatus" },
     "reviewGate": { "type": "string" },
     "variables": {

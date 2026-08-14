@@ -1,6 +1,8 @@
 {
   "constructValidityId": "slw-v1-construct-validity-draft",
   "theoryId": "sacrifice-law-v1",
+  "researchQuestionId": "rq-sacred-orders-pathology-corrigibility-v1",
+  "theoreticalRole": "mechanism-specialization",
   "status": "draft",
   "reviewGate": "Maintainer scholarly review required before these construct boundaries, rivals, or predictions are treated as accepted theory.",
   "variables": {

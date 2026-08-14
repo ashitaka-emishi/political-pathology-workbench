@@ -1,6 +1,8 @@
 {
   "constructValidityId": "gtpp-v1-construct-validity-draft",
   "theoryId": "general-theory-political-pathology-v1",
+  "researchQuestionId": "rq-sacred-orders-pathology-corrigibility-v1",
+  "theoreticalRole": "candidate-explanation",
   "status": "draft",
   "reviewGate": "Maintainer scholarly review required before these construct boundaries, rivals, or predictions are treated as accepted theory.",
   "variables": {
